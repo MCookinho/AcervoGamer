@@ -111,7 +111,7 @@ const App = {
                     <h1 class="landing-hero-title animate-in">
                         ACERVO<br><span>GAMER</span>
                     </h1>
-                    <p class="landing-hero-subtitle animate-in stagger-1">O seu acervo definitivo de jogos indie</p>
+                    <p class="landing-hero-subtitle animate-in stagger-1">O seu acervo definitivo de jogos</p>
                     <div class="landing-hero-cta animate-in stagger-2">
                         <button class="p5-btn-large p5-ripple" onclick="Router.goTo('#/jogos')"><span>EXPLORAR JOGOS</span></button>
                         <button class="p5-btn-outline p5-ripple" onclick="Router.goTo('#/comunidade')"><span>COMUNIDADE</span></button>
@@ -222,7 +222,7 @@ const App = {
 
                 <div class="about-section animate-in stagger-2 scroll-reveal">
                     <h2>O QUE É O ACERVO GAMER?</h2>
-                    <p>O Acervo Gamer é um site 100% open source criado para ser o seu acervo definitivo de jogos indie. Aqui você encontra traduções, mods, trilhas sonoras, gameplays e muito mais, tudo organizado e de fácil acesso.</p>
+                    <p>O Acervo Gamer é um site 100% open source criado para ser o seu acervo definitivo de jogos. Aqui você encontra traduções, mods, trilhas sonoras, gameplays e muito mais, tudo organizado e de fácil acesso.</p>
                     <p>Nosso objetivo é criar uma comunidade gamers brasileira unida, onde todos possam compartilhar, contribuir e descobrir conteúdos incríveis sobre seus jogos favoritos.</p>
                 </div>
 
@@ -255,7 +255,7 @@ const App = {
 
                 <div class="about-section animate-in stagger-6 scroll-reveal">
                     <h2>SOBRE O CRIADOR</h2>
-                    <p>O Acervo Gamer foi criado por Peu Borges, um gamer brasileiro apaixonado por jogos indie e desenvolvimento web.</p>
+                    <p>O Acervo Gamer foi criado por Peu Borges, um gamer brasileiro apaixonado por jogos e desenvolvimento web.</p>
                     <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px;">
                         <a href="https://github.com/MCookinho" target="_blank" class="about-link">💻 GitHub</a>
                     </div>
