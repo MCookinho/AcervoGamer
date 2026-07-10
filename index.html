@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acervo Gamer</title>
-    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23009C3B'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Arial Black' font-size='18' font-weight='900' fill='%23FFDF00'%3EAG%3C/text%3E%3C/svg%3E">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -20,8 +20,23 @@
             <div class="splash-content">
                 <div class="splash-logo">
                     <div class="splash-icon">
-                        <svg viewBox="0 0 120 120" class="controller-icon">
-                            <path d="M60 10C32 10 10 32 10 60s22 50 50 50 50-22 50-50S88 10 60 10zm-8 35c2-4 6-4 8 0l8 15h-16l8-15zm-22 18c-4 2-4 6 0 8l15 8V53l-15 10zm44 0l15-10v18l-15-8c-4-2-4-6 0-8zm-34 22l-8 15c-2 4-6 4-8 0 0 0 0-1 2-2l14-13zm28 0l14 13c2 1 2 2 2 2-2 4-6 4-8 0l-8-15zm-24 10l-8-15h16l-8 15z" fill="currentColor"/>
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="brGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#009C3B"/>
+                                    <stop offset="50%" style="stop-color:#FFDF00"/>
+                                    <stop offset="100%" style="stop-color:#0045AD"/>
+                                </linearGradient>
+                            </defs>
+                            <rect x="5" y="20" width="90" height="60" rx="12" fill="none" stroke="url(#brGrad)" stroke-width="4"/>
+                            <circle cx="30" cy="50" r="8" fill="#009C3B"/>
+                            <circle cx="30" cy="50" r="4" fill="#FFDF00"/>
+                            <rect x="55" y="38" width="8" height="8" rx="2" fill="#FFDF00"/>
+                            <rect x="67" y="38" width="8" height="8" rx="2" fill="#009C3B"/>
+                            <rect x="55" y="52" width="8" height="8" rx="2" fill="#0045AD"/>
+                            <rect x="67" y="52" width="8" height="8" rx="2" fill="#FFDF00"/>
+                            <circle cx="15" cy="38" r="3" fill="#FFDF00" opacity="0.6"/>
+                            <circle cx="15" cy="62" r="3" fill="#009C3B" opacity="0.6"/>
                         </svg>
                     </div>
                     <h1 class="splash-title">ACERVO<br><span>GAMER</span></h1>
@@ -44,8 +59,21 @@
             <div class="header-inner">
                 <div class="logo-area" data-navigate="#/">
                     <div class="logo-icon-mini">
-                        <svg viewBox="0 0 120 120" class="controller-icon-mini">
-                            <path d="M60 10C32 10 10 32 10 60s22 50 50 50 50-22 50-50S88 10 60 10zm-8 35c2-4 6-4 8 0l8 15h-16l8-15zm-22 18c-4 2-4 6 0 8l15 8V53l-15 10zm44 0l15-10v18l-15-8c-4-2-4-6 0-8zm-34 22l-8 15c-2 4-6 4-8 0 0 0 0-1 2-2l14-13zm28 0l14 13c2 1 2 2 2 2-2 4-6 4-8 0l-8-15zm-24 10l-8-15h16l-8 15z" fill="currentColor"/>
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="brGradMini" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#009C3B"/>
+                                    <stop offset="50%" style="stop-color:#FFDF00"/>
+                                    <stop offset="100%" style="stop-color:#0045AD"/>
+                                </linearGradient>
+                            </defs>
+                            <rect x="5" y="20" width="90" height="60" rx="12" fill="none" stroke="url(#brGradMini)" stroke-width="4"/>
+                            <circle cx="30" cy="50" r="8" fill="#009C3B"/>
+                            <circle cx="30" cy="50" r="4" fill="#FFDF00"/>
+                            <rect x="55" y="38" width="8" height="8" rx="2" fill="#FFDF00"/>
+                            <rect x="67" y="38" width="8" height="8" rx="2" fill="#009C3B"/>
+                            <rect x="55" y="52" width="8" height="8" rx="2" fill="#0045AD"/>
+                            <rect x="67" y="52" width="8" height="8" rx="2" fill="#FFDF00"/>
                         </svg>
                     </div>
                     <span class="logo-text-mini">ACERVO GAMER</span>

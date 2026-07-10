@@ -176,7 +176,7 @@ const App = {
             const snapshot = await db.collection('forums').orderBy('createdAt', 'desc').limit(5).get();
             const forums = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
             if (forums.length === 0) {
-                container.innerHTML = '<p style="color: var(--p5-gray-light);">Nenhum fórum ainda.</p>';
+                container.innerHTML = '<p style="color: var(--br-gray-light);">Nenhum fórum ainda.</p>';
                 return;
             }
             container.innerHTML = forums.map((f, i) => `
@@ -190,7 +190,7 @@ const App = {
                 </div>
             `).join('');
         } catch (e) {
-            container.innerHTML = '<p style="color: var(--p5-gray-light);">Nenhum fórum ainda.</p>';
+            container.innerHTML = '<p style="color: var(--br-gray-light);">Nenhum fórum ainda.</p>';
         }
     },
 
@@ -199,7 +199,7 @@ const App = {
             const snapshot = await db.collection('announcements').orderBy('createdAt', 'desc').limit(5).get();
             const updates = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
             if (updates.length === 0) {
-                container.innerHTML = '<p style="color: var(--p5-gray-light);">Nenhuma atualização ainda.</p>';
+                container.innerHTML = '<p style="color: var(--br-gray-light);">Nenhuma atualização ainda.</p>';
                 return;
             }
             container.innerHTML = updates.map((u, i) => `
@@ -210,7 +210,7 @@ const App = {
                 </div>
             `).join('');
         } catch (e) {
-            container.innerHTML = '<p style="color: var(--p5-gray-light);">Nenhuma atualização ainda.</p>';
+            container.innerHTML = '<p style="color: var(--br-gray-light);">Nenhuma atualização ainda.</p>';
         }
     },
 

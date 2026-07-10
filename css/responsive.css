@@ -18,7 +18,7 @@
 
 @media (max-width: 768px) {
     :root {
-        --header-height: 62px;
+        --header-height: 60px;
     }
 
     .main-nav {
@@ -26,14 +26,14 @@
         top: var(--header-height);
         left: 0;
         width: 100%;
-        background: rgba(8,8,10,0.97);
-        backdrop-filter: blur(24px);
+        background: rgba(10,10,10,0.97);
+        backdrop-filter: blur(20px);
         flex-direction: column;
         padding: 16px 20px;
         gap: 4px;
         transform: translateY(-120%);
         transition: transform 0.4s var(--ease-out-expo);
-        border-bottom: 1px solid rgba(232,25,44,0.2);
+        border-bottom: 1px solid rgba(0,156,59,0.15);
     }
 
     .main-nav.open {

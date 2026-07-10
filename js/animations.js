@@ -33,7 +33,7 @@ const Animations = {
             rotation: Math.random() * 360,
             rotationSpeed: (Math.random() - 0.5) * 2,
             type: type,
-            color: Math.random() > 0.7 ? '#E60012' : '#FFFFFF',
+            color: ['#009C3B', '#FFDF00', '#0045AD', '#FFFFFF'][Math.floor(Math.random() * 4)],
             life: 0,
             maxLife: Math.random() * 400 + 200
         };

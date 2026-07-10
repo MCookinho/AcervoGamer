@@ -147,8 +147,8 @@ const Games = {
     renderOverview(container, game) {
         container.innerHTML = `
             <div class="animate-in">
-                <h3 style="font-family: var(--font-display); font-size: 1.8rem; letter-spacing: 3px; margin-bottom: 20px; color: var(--p5-red);">SOBRE O JOGO</h3>
-                <p style="color: var(--p5-gray-light); line-height: 1.8; margin-bottom: 30px; font-size: 1rem;">${game.fullDescription}</p>
+                <h3 style="font-family: var(--font-display); font-size: 1.8rem; letter-spacing: 3px; margin-bottom: 20px; color: var(--br-green);">SOBRE O JOGO</h3>
+                <p style="color: var(--br-gray-light); line-height: 1.8; margin-bottom: 30px; font-size: 1rem;">${game.fullDescription}</p>
                 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; margin-bottom: 30px;">
                     <div class="p5-stat-card">
                         <div class="p5-stat-number" style="font-size: 1.5rem;">${game.genre}</div>
@@ -176,7 +176,7 @@ const Games = {
     renderTranslations(container, game) {
         const traductions = game.translations || [];
         if (traductions.length === 0) {
-            container.innerHTML = '<p style="color: var(--p5-gray-light); padding: 20px;">Nenhuma tradução disponível ainda.</p>';
+            container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhuma tradução disponível ainda.</p>';
             return;
         }
         container.innerHTML = traductions.map((t, i) => `
@@ -198,7 +198,7 @@ const Games = {
     renderMods(container, game) {
         const mods = game.mods || [];
         if (mods.length === 0) {
-            container.innerHTML = '<p style="color: var(--p5-gray-light); padding: 20px;">Nenhum mod disponível ainda.</p>';
+            container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhum mod disponível ainda.</p>';
             return;
         }
         container.innerHTML = mods.map((m, i) => `
@@ -209,7 +209,7 @@ const Games = {
                     <div class="file-meta">
                         <span>Versão: ${m.version}</span>
                         <span>Autor: ${m.author}</span>
-                        ${m.nexusUrl ? `<a href="${m.nexusUrl}" target="_blank" style="color: var(--p5-accent-green);">NexusMods ↗</a>` : ''}
+                        ${m.nexusUrl ? `<a href="${m.nexusUrl}" target="_blank" style="color: var(--br-green-light);">NexusMods ↗</a>` : ''}
                     </div>
                 </div>
                 <a href="${m.downloadUrl}" class="file-download" target="_blank">BAIXAR</a>
@@ -220,7 +220,7 @@ const Games = {
     renderSoundtrack(container, game) {
         const tracks = game.soundtrack || [];
         if (tracks.length === 0) {
-            container.innerHTML = '<p style="color: var(--p5-gray-light); padding: 20px;">Nenhuma trilha sonora disponível ainda.</p>';
+            container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhuma trilha sonora disponível ainda.</p>';
             return;
         }
         container.innerHTML = tracks.map((t, i) => `
@@ -241,7 +241,7 @@ const Games = {
     renderGameplays(container, game) {
         const gameplays = game.gameplays || [];
         if (gameplays.length === 0) {
-            container.innerHTML = '<p style="color: var(--p5-gray-light); padding: 20px;">Nenhuma gameplay disponível ainda.</p>';
+            container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhuma gameplay disponível ainda.</p>';
             return;
         }
         container.innerHTML = gameplays.map((g, i) => `

@@ -96,7 +96,7 @@ const Utils = {
     },
 
     randomColor() {
-        const colors = ['#E60012', '#4A90D9', '#9B59B6', '#4CAF50', '#FF9800', '#E91E63', '#00BCD4'];
+        const colors = ['#009C3B', '#FFDF00', '#0045AD', '#2ECC40', '#E6C800', '#002776'];
         return colors[Math.floor(Math.random() * colors.length)];
     },
 

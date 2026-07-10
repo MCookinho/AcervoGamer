@@ -13,7 +13,7 @@ const Comments = {
                 </div>
             `;
         } else {
-            html += `<p style="color: var(--p5-gray-light); margin-bottom: 20px;"><a href="#/auth" style="color: var(--p5-red);">Faça login</a> para comentar.</p>`;
+            html += `<p style="color: var(--br-gray-light); margin-bottom: 20px;"><a href="#/auth" style="color: var(--br-green);">Faça login</a> para comentar.</p>`;
         }
 
         try {
@@ -25,7 +25,7 @@ const Comments = {
             const comments = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 
             if (comments.length === 0) {
-                html += '<p style="color: var(--p5-gray-mid); padding: 20px 0;">Nenhum comentário ainda. Seja o primeiro!</p>';
+                html += '<p style="color: var(--br-gray-mid); padding: 20px 0;">Nenhum comentário ainda. Seja o primeiro!</p>';
             } else {
                 html += comments.map((c, i) => `
                     <div class="comment-item animate-in stagger-${Math.min(i + 1, 8)}">
@@ -41,7 +41,7 @@ const Comments = {
                 `).join('');
             }
         } catch (error) {
-            html += '<p style="color: var(--p5-gray-mid); padding: 20px 0;">Nenhum comentário ainda.</p>';
+            html += '<p style="color: var(--br-gray-mid); padding: 20px 0;">Nenhum comentário ainda.</p>';
         }
 
         container.innerHTML = html;

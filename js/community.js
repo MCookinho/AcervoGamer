@@ -34,7 +34,7 @@ const Community = {
             const announcements = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 
             if (announcements.length === 0) {
-                container.innerHTML = '<p style="color: var(--p5-gray-light); padding: 20px;">Nenhum anúncio ainda.</p>';
+                container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhum anúncio ainda.</p>';
                 return;
             }
 
@@ -46,7 +46,7 @@ const Community = {
                 </div>
             `).join('');
         } catch (error) {
-            container.innerHTML = '<p style="color: var(--p5-gray-light); padding: 20px;">Nenhum anúncio ainda.</p>';
+            container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhum anúncio ainda.</p>';
         }
     },
 
@@ -70,11 +70,11 @@ const Community = {
                     </div>
                 `;
             } else {
-                html += `<p style="color: var(--p5-gray-light); margin-bottom: 20px;"><a href="#/auth" style="color: var(--p5-red);">Faça login</a> para criar fóruns.</p>`;
+                html += `<p style="color: var(--br-gray-light); margin-bottom: 20px;"><a href="#/auth" style="color: var(--br-green);">Faça login</a> para criar fóruns.</p>`;
             }
 
             if (forums.length === 0) {
-                html += '<p style="color: var(--p5-gray-light); padding: 20px;">Nenhum fórum criado ainda.</p>';
+                html += '<p style="color: var(--br-gray-light); padding: 20px;">Nenhum fórum criado ainda.</p>';
             } else {
                 html += '<div class="forums-preview">';
                 html += forums.map((f, i) => `
@@ -126,7 +126,7 @@ const Community = {
                 });
             }
         } catch (error) {
-            container.innerHTML = '<p style="color: var(--p5-gray-light); padding: 20px;">Nenhum fórum criado ainda.</p>';
+            container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhum fórum criado ainda.</p>';
         }
     },
 
@@ -168,14 +168,14 @@ const Community = {
             content.innerHTML = `
                 <div style="margin-bottom: 20px;">
                     <h2 style="font-family: var(--font-display); font-size: 1.8rem; letter-spacing: 3px; margin-bottom: 8px;">${Utils.escapeHtml(forum.title)}</h2>
-                    <div style="font-size: 0.85rem; color: var(--p5-gray-light); margin-bottom: 16px;">
+                    <div style="font-size: 0.85rem; color: var(--br-gray-light); margin-bottom: 16px;">
                         Por ${Utils.escapeHtml(forum.authorName)} • ${Utils.timeAgo(forum.createdAt?.toDate())}
                     </div>
-                    <p style="color: var(--p5-gray-light); line-height: 1.6;">${Utils.escapeHtml(forum.body)}</p>
+                    <p style="color: var(--br-gray-light); line-height: 1.6;">${Utils.escapeHtml(forum.body)}</p>
                 </div>
                 <div class="p5-divider"></div>
                 <h3 style="font-family: var(--font-display); font-size: 1.2rem; letter-spacing: 2px; margin-bottom: 16px;">RESPOSTAS (${replies.length})</h3>
-                ${repliesHTML || '<p style="color: var(--p5-gray-mid);">Nenhuma resposta ainda.</p>'}
+                ${repliesHTML || '<p style="color: var(--br-gray-mid);">Nenhuma resposta ainda.</p>'}
                 ${replyForm}
                 <button class="p5-btn p5-btn-small" style="margin-top: 20px;" id="close-modal-btn"><span>FECHAR</span></button>
             `;
@@ -245,7 +245,7 @@ const Community = {
             const profiles = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 
             if (profiles.length === 0) {
-                grid.innerHTML = '<p style="color: var(--p5-gray-light); padding: 20px; grid-column: 1/-1;">Nenhum perfil encontrado.</p>';
+                grid.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px; grid-column: 1/-1;">Nenhum perfil encontrado.</p>';
                 return;
             }
 
@@ -265,7 +265,7 @@ const Community = {
                 </div>
             `).join('');
         } catch (error) {
-            grid.innerHTML = '<p style="color: var(--p5-gray-light); padding: 20px; grid-column: 1/-1;">Nenhum perfil encontrado.</p>';
+            grid.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px; grid-column: 1/-1;">Nenhum perfil encontrado.</p>';
         }
     },
 
@@ -287,10 +287,10 @@ const Community = {
                     <h2 style="font-family: var(--font-display); font-size: 1.8rem; letter-spacing: 3px;">${Utils.escapeHtml(profile.displayName)}</h2>
                 </div>
             </div>
-            ${profile.bio ? `<p style="color: var(--p5-gray-light); line-height: 1.6; margin-bottom: 16px;">${Utils.escapeHtml(profile.bio)}</p>` : ''}
+            ${profile.bio ? `<p style="color: var(--br-gray-light); line-height: 1.6; margin-bottom: 16px;">${Utils.escapeHtml(profile.bio)}</p>` : ''}
             <div class="profile-details-grid" style="grid-template-columns: 1fr; margin-bottom: 16px;">
                 ${profile.favoriteGame ? `<div class="profile-detail-item"><div class="profile-detail-label">Jogo Favorito</div><div class="profile-detail-value">🎮 ${Utils.escapeHtml(profile.favoriteGame)}</div></div>` : ''}
-                ${profile.personalSite ? `<div class="profile-detail-item"><div class="profile-detail-label">Site Pessoal</div><div class="profile-detail-value"><a href="${Utils.escapeHtml(profile.personalSite)}" target="_blank" style="color: var(--p5-red);">${Utils.escapeHtml(profile.personalSite)}</a></div></div>` : ''}
+                ${profile.personalSite ? `<div class="profile-detail-item"><div class="profile-detail-label">Site Pessoal</div><div class="profile-detail-value"><a href="${Utils.escapeHtml(profile.personalSite)}" target="_blank" style="color: var(--br-green);">${Utils.escapeHtml(profile.personalSite)}</a></div></div>` : ''}
             </div>
             <button class="p5-btn p5-btn-small" style="margin-top: 10px;" id="close-modal-btn"><span>FECHAR</span></button>
         `;
@@ -307,7 +307,7 @@ const Community = {
             container.innerHTML = `
                 <div class="landing-section" style="text-align: center;">
                     <h2 class="p5-section-title">ACESSO RESTRITO</h2>
-                    <p style="color: var(--p5-gray-light); margin: 20px 0;"><a href="#/auth" style="color: var(--p5-red);">Faça login</a> para editar seu perfil.</p>
+                    <p style="color: var(--br-gray-light); margin: 20px 0;"><a href="#/auth" style="color: var(--br-green);">Faça login</a> para editar seu perfil.</p>
                 </div>
             `;
             return;
@@ -323,7 +323,7 @@ const Community = {
                 <p class="p5-section-subtitle animate-in stagger-1">Personalize seu perfil</p>
 
                 <div class="animate-in stagger-2" style="margin-bottom: 30px;">
-                    <h3 style="font-family: var(--font-display); font-size: 1.3rem; letter-spacing: 2px; margin-bottom: 12px; color: var(--p5-red);">AVATAR</h3>
+                    <h3 style="font-family: var(--font-display); font-size: 1.3rem; letter-spacing: 2px; margin-bottom: 12px; color: var(--br-green);">AVATAR</h3>
                     <div class="preset-grid" id="avatar-grid">
                         ${avatares.map(a => `
                             <div class="preset-option ${p.avatar === a ? 'selected' : ''}" style="background-image: url('${a}')" data-avatar="${a}"></div>
@@ -332,7 +332,7 @@ const Community = {
                 </div>
 
                 <div class="animate-in stagger-3" style="margin-bottom: 30px;">
-                    <h3 style="font-family: var(--font-display); font-size: 1.3rem; letter-spacing: 2px; margin-bottom: 12px; color: var(--p5-red);">BANNER</h3>
+                    <h3 style="font-family: var(--font-display); font-size: 1.3rem; letter-spacing: 2px; margin-bottom: 12px; color: var(--br-green);">BANNER</h3>
                     <div class="preset-banner-grid" id="banner-grid">
                         ${banners.map(b => `
                             <div class="preset-banner-option ${p.banner === b ? 'selected' : ''}" style="background-image: url('${b}')" data-banner="${b}"></div>
@@ -342,19 +342,19 @@ const Community = {
 
                 <div class="animate-in stagger-4" style="display: flex; flex-direction: column; gap: 16px;">
                     <div>
-                        <label style="font-family: var(--font-heading); font-size: 0.85rem; color: var(--p5-gray-light); letter-spacing: 1px; margin-bottom: 6px; display: block;">NOME</label>
+                        <label style="font-family: var(--font-heading); font-size: 0.85rem; color: var(--br-gray-light); letter-spacing: 1px; margin-bottom: 6px; display: block;">NOME</label>
                         <input type="text" class="p5-input" id="edit-name" value="${Utils.escapeHtml(p.displayName || '')}" maxlength="30">
                     </div>
                     <div>
-                        <label style="font-family: var(--font-heading); font-size: 0.85rem; color: var(--p5-gray-light); letter-spacing: 1px; margin-bottom: 6px; display: block;">BIOGRAFIA</label>
+                        <label style="font-family: var(--font-heading); font-size: 0.85rem; color: var(--br-gray-light); letter-spacing: 1px; margin-bottom: 6px; display: block;">BIOGRAFIA</label>
                         <textarea class="p5-textarea" id="edit-bio" maxlength="300" placeholder="Conte algo sobre você...">${Utils.escapeHtml(p.bio || '')}</textarea>
                     </div>
                     <div>
-                        <label style="font-family: var(--font-heading); font-size: 0.85rem; color: var(--p5-gray-light); letter-spacing: 1px; margin-bottom: 6px; display: block;">JOGO FAVORITO</label>
+                        <label style="font-family: var(--font-heading); font-size: 0.85rem; color: var(--br-gray-light); letter-spacing: 1px; margin-bottom: 6px; display: block;">JOGO FAVORITO</label>
                         <input type="text" class="p5-input" id="edit-fav-game" value="${Utils.escapeHtml(p.favoriteGame || '')}" maxlength="50">
                     </div>
                     <div>
-                        <label style="font-family: var(--font-heading); font-size: 0.85rem; color: var(--p5-gray-light); letter-spacing: 1px; margin-bottom: 6px; display: block;">SITE PESSOAL</label>
+                        <label style="font-family: var(--font-heading); font-size: 0.85rem; color: var(--br-gray-light); letter-spacing: 1px; margin-bottom: 6px; display: block;">SITE PESSOAL</label>
                         <input type="url" class="p5-input" id="edit-site" value="${Utils.escapeHtml(p.personalSite || '')}" placeholder="https://...">
                     </div>
                     <button class="p5-btn p5-ripple" id="save-profile-btn" style="align-self: flex-start;"><span>SALVAR</span></button>

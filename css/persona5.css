@@ -1,8 +1,8 @@
 .p5-card {
     position: relative;
-    background: var(--p5-card);
-    border: 1px solid var(--p5-border);
-    border-radius: 12px;
+    background: var(--br-card);
+    border: 1px solid var(--br-border);
+    border-radius: 14px;
     transition: all 0.4s var(--ease-out-expo);
     overflow: hidden;
 }
@@ -11,7 +11,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(232,25,44,0.05) 0%, transparent 60%);
+    background: linear-gradient(160deg, rgba(0,156,59,0.04) 0%, transparent 50%, rgba(255,223,0,0.02) 100%);
     opacity: 0;
     transition: opacity 0.4s ease;
     z-index: 1;
@@ -19,9 +19,9 @@
 }
 
 .p5-card:hover {
-    border-color: rgba(232,25,44,0.4);
+    border-color: rgba(0,156,59,0.35);
     transform: translateY(-8px);
-    box-shadow: var(--shadow-lg), 0 0 40px rgba(232,25,44,0.08);
+    box-shadow: var(--shadow-lg), 0 0 30px rgba(0,156,59,0.06);
 }
 
 .p5-card:hover::before {
@@ -43,7 +43,7 @@
 }
 
 .p5-card:hover .p5-card-image img {
-    transform: scale(1.08);
+    transform: scale(1.06);
 }
 
 .p5-card-image-overlay {
@@ -52,7 +52,7 @@
     left: 0;
     width: 100%;
     height: 60%;
-    background: linear-gradient(transparent, var(--p5-card));
+    background: linear-gradient(transparent, var(--br-card));
     pointer-events: none;
 }
 
@@ -61,7 +61,7 @@
     top: 14px;
     right: 14px;
     padding: 5px 14px;
-    background: rgba(232,25,44,0.9);
+    background: rgba(0,156,59,0.88);
     backdrop-filter: blur(8px);
     font-family: var(--font-display);
     font-size: 0.75rem;
@@ -78,21 +78,21 @@
 
 .p5-card-title {
     font-family: var(--font-display);
-    font-size: 1.7rem;
+    font-size: 1.65rem;
     letter-spacing: 3px;
-    color: var(--p5-white);
+    color: var(--br-white);
     margin-bottom: 6px;
     transition: color 0.3s ease;
 }
 
 .p5-card:hover .p5-card-title {
-    color: var(--p5-red-light);
+    color: var(--br-green-light);
 }
 
 .p5-card-genre {
     font-family: var(--font-heading);
     font-size: 0.82rem;
-    color: var(--p5-red);
+    color: var(--br-green);
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
@@ -100,7 +100,7 @@
 
 .p5-card-desc {
     font-size: 0.88rem;
-    color: var(--p5-gray-light);
+    color: var(--br-gray-light);
     line-height: 1.6;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -110,7 +110,7 @@
 
 .p5-card-footer {
     padding: 14px 22px;
-    border-top: 1px solid var(--p5-border);
+    border-top: 1px solid var(--br-border);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -120,7 +120,7 @@
     font-family: var(--font-display);
     font-size: 0.82rem;
     letter-spacing: 2px;
-    color: var(--p5-red);
+    color: var(--br-green);
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
@@ -128,7 +128,7 @@
 }
 
 .p5-card-action::after {
-    content: '→';
+    content: '\2192';
     transition: transform 0.3s var(--ease-out-expo);
 }
 
@@ -138,9 +138,9 @@
 
 .p5-section-title {
     font-family: var(--font-display);
-    font-size: 3.2rem;
+    font-size: 3rem;
     letter-spacing: 8px;
-    color: var(--p5-white);
+    color: var(--br-white);
     position: relative;
     display: inline-block;
     margin-bottom: 8px;
@@ -153,14 +153,14 @@
     left: 0;
     width: 50px;
     height: 3px;
-    background: linear-gradient(90deg, var(--p5-red), transparent);
+    background: linear-gradient(90deg, var(--br-green), var(--br-yellow));
     border-radius: 2px;
 }
 
 .p5-section-subtitle {
     font-family: var(--font-heading);
     font-size: 1rem;
-    color: var(--p5-gray-mid);
+    color: var(--br-gray-mid);
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -169,7 +169,7 @@
 .p5-divider {
     width: 100%;
     height: 1px;
-    background: var(--p5-border);
+    background: var(--br-border);
     margin: 40px 0;
     position: relative;
 }
@@ -181,7 +181,7 @@
     top: 0;
     width: 60px;
     height: 100%;
-    background: linear-gradient(90deg, var(--p5-red), transparent);
+    background: linear-gradient(90deg, var(--br-green), transparent);
 }
 
 .p5-tag {
@@ -191,25 +191,25 @@
     font-size: 0.75rem;
     letter-spacing: 1px;
     text-transform: uppercase;
-    border: 1px solid var(--p5-border);
-    color: var(--p5-gray-light);
+    border: 1px solid var(--br-border);
+    color: var(--br-gray-light);
     border-radius: 6px;
     transition: all 0.25s ease;
 }
 
 .p5-tag:hover, .p5-tag.active {
-    background: rgba(232,25,44,0.15);
-    border-color: var(--p5-red);
-    color: var(--p5-red-light);
+    background: rgba(0,156,59,0.12);
+    border-color: var(--br-green);
+    color: var(--br-green-light);
 }
 
 .p5-input {
     width: 100%;
-    padding: 14px 18px;
-    background: var(--p5-dark);
-    border: 1px solid var(--p5-border);
+    padding: 13px 18px;
+    background: var(--br-dark);
+    border: 1px solid var(--br-border);
     border-radius: 10px;
-    color: var(--p5-white);
+    color: var(--br-white);
     font-family: var(--font-heading);
     font-size: 0.95rem;
     letter-spacing: 0.5px;
@@ -217,22 +217,22 @@
 }
 
 .p5-input:focus {
-    border-color: var(--p5-red);
-    background: var(--p5-darker);
-    box-shadow: 0 0 0 3px rgba(232,25,44,0.12);
+    border-color: var(--br-green);
+    background: var(--br-darker);
+    box-shadow: 0 0 0 3px rgba(0,156,59,0.1);
 }
 
 .p5-input::placeholder {
-    color: var(--p5-gray-mid);
+    color: var(--br-gray-mid);
 }
 
 .p5-textarea {
     width: 100%;
-    padding: 14px 18px;
-    background: var(--p5-dark);
-    border: 1px solid var(--p5-border);
+    padding: 13px 18px;
+    background: var(--br-dark);
+    border: 1px solid var(--br-border);
     border-radius: 10px;
-    color: var(--p5-white);
+    color: var(--br-white);
     font-family: var(--font-heading);
     font-size: 0.95rem;
     letter-spacing: 0.5px;
@@ -243,9 +243,9 @@
 }
 
 .p5-textarea:focus {
-    border-color: var(--p5-red);
-    background: var(--p5-darker);
-    box-shadow: 0 0 0 3px rgba(232,25,44,0.12);
+    border-color: var(--br-green);
+    background: var(--br-darker);
+    box-shadow: 0 0 0 3px rgba(0,156,59,0.1);
 }
 
 .p5-tabs {
@@ -254,9 +254,9 @@
     flex-wrap: wrap;
     margin-bottom: 32px;
     padding: 4px;
-    background: var(--p5-dark);
+    background: var(--br-dark);
     border-radius: 12px;
-    border: 1px solid var(--p5-border);
+    border: 1px solid var(--br-border);
 }
 
 .p5-tab {
@@ -264,21 +264,21 @@
     font-family: var(--font-display);
     font-size: 0.9rem;
     letter-spacing: 2px;
-    color: var(--p5-gray-mid);
+    color: var(--br-gray-mid);
     border-radius: 8px;
     transition: all 0.3s var(--ease-out-expo);
     position: relative;
 }
 
 .p5-tab:hover {
-    color: var(--p5-white);
+    color: var(--br-white);
     background: rgba(255,255,255,0.04);
 }
 
 .p5-tab.active {
-    background: var(--p5-red);
-    color: var(--p5-white);
-    box-shadow: 0 2px 12px rgba(232,25,44,0.3);
+    background: linear-gradient(135deg, var(--br-green), var(--br-green-dark));
+    color: var(--br-white);
+    box-shadow: 0 2px 12px rgba(0,156,59,0.3);
 }
 
 .p5-tab span {
@@ -290,22 +290,22 @@
     align-items: center;
     gap: 16px;
     padding: 16px 20px;
-    background: var(--p5-card);
-    border: 1px solid var(--p5-border);
+    background: var(--br-card);
+    border: 1px solid var(--br-border);
     border-radius: 10px;
     transition: all 0.3s var(--ease-out-expo);
     margin-bottom: 8px;
 }
 
 .p5-list-item:hover {
-    border-color: rgba(232,25,44,0.3);
-    background: var(--p5-card-hover);
+    border-color: rgba(0,156,59,0.25);
+    background: var(--br-card-hover);
     transform: translateX(4px);
 }
 
 .p5-stat-card {
-    background: var(--p5-card);
-    border: 1px solid var(--p5-border);
+    background: var(--br-card);
+    border: 1px solid var(--br-border);
     border-radius: 12px;
     padding: 32px 24px;
     text-align: center;
@@ -321,13 +321,13 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, var(--p5-red), transparent);
+    background: linear-gradient(90deg, var(--br-green), var(--br-yellow), var(--br-blue-light));
     opacity: 0;
     transition: opacity 0.3s ease;
 }
 
 .p5-stat-card:hover {
-    border-color: rgba(232,25,44,0.3);
+    border-color: rgba(0,156,59,0.25);
     transform: translateY(-4px);
     box-shadow: var(--shadow-glow-sm);
 }
@@ -338,17 +338,19 @@
 
 .p5-stat-number {
     font-family: var(--font-display);
-    font-size: 3.2rem;
-    color: var(--p5-red);
+    font-size: 3rem;
+    background: linear-gradient(135deg, var(--br-green), var(--br-yellow));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     line-height: 1;
     margin-bottom: 8px;
-    text-shadow: 0 0 20px var(--p5-red-glow);
 }
 
 .p5-stat-label {
     font-family: var(--font-heading);
     font-size: 0.85rem;
-    color: var(--p5-gray-mid);
+    color: var(--br-gray-mid);
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -365,8 +367,8 @@
     inset: 0;
     background-size: cover;
     background-position: center;
-    filter: brightness(0.35) saturate(1.2);
-    transition: transform 10s ease;
+    filter: brightness(0.3) saturate(1.1);
+    transition: transform 12s ease;
 }
 
 .p5-game-header:hover .p5-game-header-bg {
@@ -376,7 +378,7 @@
 .p5-game-header-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(8,8,10,0.3) 0%, rgba(8,8,10,0.95) 100%);
+    background: linear-gradient(180deg, rgba(10,10,10,0.2) 0%, rgba(10,10,10,0.92) 100%);
 }
 
 .p5-game-header-content {
@@ -402,7 +404,7 @@
 .p5-game-info .genre {
     font-family: var(--font-heading);
     font-size: 1rem;
-    color: var(--p5-red-light);
+    color: var(--br-green-light);
     letter-spacing: 3px;
     text-transform: uppercase;
     margin-bottom: 16px;
@@ -410,14 +412,14 @@
 
 .p5-game-info .description {
     font-size: 0.95rem;
-    color: var(--p5-gray-light);
+    color: var(--br-gray-light);
     max-width: 600px;
     line-height: 1.7;
 }
 
 .forum-card {
-    background: var(--p5-card);
-    border: 1px solid var(--p5-border);
+    background: var(--br-card);
+    border: 1px solid var(--br-border);
     border-radius: 10px;
     padding: 20px 22px;
     margin-bottom: 10px;
@@ -426,7 +428,7 @@
 }
 
 .forum-card:hover {
-    border-color: rgba(232,25,44,0.3);
+    border-color: rgba(0,156,59,0.25);
     transform: translateX(4px);
     box-shadow: var(--shadow-sm);
 }
@@ -440,28 +442,28 @@
 
 .forum-card-meta {
     font-size: 0.78rem;
-    color: var(--p5-gray-mid);
+    color: var(--br-gray-mid);
     display: flex;
     gap: 16px;
 }
 
 .forum-card-excerpt {
     font-size: 0.88rem;
-    color: var(--p5-gray-mid);
+    color: var(--br-gray-mid);
     margin-top: 8px;
     line-height: 1.5;
 }
 
 .profile-card {
-    background: var(--p5-card);
-    border: 1px solid var(--p5-border);
+    background: var(--br-card);
+    border: 1px solid var(--br-border);
     border-radius: 14px;
     overflow: hidden;
     transition: all 0.4s var(--ease-out-expo);
 }
 
 .profile-card:hover {
-    border-color: rgba(232,25,44,0.3);
+    border-color: rgba(0,156,59,0.25);
     transform: translateY(-6px);
     box-shadow: var(--shadow-lg);
 }
@@ -469,7 +471,7 @@
 .profile-banner {
     width: 100%;
     height: 120px;
-    background: linear-gradient(135deg, var(--p5-red-dark) 0%, var(--p5-red-darker) 100%);
+    background: linear-gradient(135deg, var(--br-green-dark) 0%, var(--br-blue-dark) 100%);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -484,7 +486,7 @@
 .profile-avatar-large {
     width: 64px;
     height: 64px;
-    border: 3px solid var(--p5-card);
+    border: 3px solid var(--br-card);
     border-radius: 12px;
     background-size: cover;
     background-position: center;
@@ -492,7 +494,7 @@
     align-items: center;
     justify-content: center;
     font-size: 1.8rem;
-    background-color: var(--p5-dark);
+    background-color: var(--br-dark);
     box-shadow: var(--shadow-md);
 }
 
@@ -508,7 +510,7 @@
 
 .profile-bio {
     font-size: 0.88rem;
-    color: var(--p5-gray-light);
+    color: var(--br-gray-light);
     margin-top: 6px;
     line-height: 1.5;
 }
@@ -522,7 +524,7 @@
 
 .profile-meta-item {
     font-size: 0.78rem;
-    color: var(--p5-gray-mid);
+    color: var(--br-gray-mid);
     display: flex;
     align-items: center;
     gap: 4px;
