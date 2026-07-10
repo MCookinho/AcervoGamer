@@ -119,13 +119,20 @@ const App = {
                 </div>
             </div>
 
-            <div class="landing-section scroll-reveal">
+            <div class="landing-section section-bg-animated section-bg-green scroll-reveal">
                 <h2 class="p5-section-title animate-on-enter">DESTAQUES</h2>
                 <p class="p5-section-subtitle animate-on-enter">Jogos em destaque no acervo</p>
-                <div id="home-games-grid" class="games-grid"></div>
+                <div class="games-carousel-wrapper">
+                    <div id="home-games-carousel" class="games-carousel"></div>
+                    <div class="carousel-nav">
+                        <button class="carousel-btn" onclick="App.carouselPrev()" aria-label="Anterior">&#8592;</button>
+                        <div id="carousel-dots" class="carousel-dots"></div>
+                        <button class="carousel-btn" onclick="App.carouselNext()" aria-label="Proximo">&#8594;</button>
+                    </div>
+                </div>
             </div>
 
-            <div class="landing-section scroll-reveal">
+            <div class="landing-section section-bg-animated section-bg-yellow scroll-reveal">
                 <h2 class="p5-section-title animate-on-enter">ESTATÍSTICAS</h2>
                 <p class="p5-section-subtitle animate-on-enter">Números do Acervo Gamer</p>
                 <div class="stats-grid">
@@ -148,27 +155,92 @@ const App = {
                 </div>
             </div>
 
-            <div class="landing-section scroll-reveal">
+            <div class="landing-section section-bg-animated section-bg-blue scroll-reveal">
                 <h2 class="p5-section-title animate-on-enter">FÓRUNS RECENTES</h2>
                 <p class="p5-section-subtitle animate-on-enter">Últimas discussões da comunidade</p>
                 <div id="home-forums" class="forums-preview"></div>
             </div>
 
-            <div class="landing-section scroll-reveal">
+            <div class="landing-section section-bg-animated section-bg-gradient scroll-reveal">
                 <h2 class="p5-section-title animate-on-enter">ÚLTIMAS ATUALIZAÇÕES</h2>
                 <p class="p5-section-subtitle animate-on-enter">Novidades do Acervo Gamer</p>
                 <div id="home-updates" class="updates-timeline"></div>
             </div>
         `;
 
-        const gamesGrid = Utils.$('#home-games-grid');
-        if (gamesGrid) Games.renderLandingHighlight(gamesGrid);
+        const carousel = Utils.$('#home-games-carousel');
+        if (carousel) {
+            Games.renderLandingHighlight(carousel);
+            this.initCarousel();
+        }
 
         const forumsEl = Utils.$('#home-forums');
         if (forumsEl) this.loadHomeForums(forumsEl);
 
         const updatesEl = Utils.$('#home-updates');
         if (updatesEl) this.loadHomeUpdates(updatesEl);
+    },
+
+    carouselIndex: 0,
+
+    initCarousel() {
+        const carousel = Utils.$('#home-games-carousel');
+        const dots = Utils.$('#carousel-dots');
+        if (!carousel || !dots) return;
+
+        const cards = carousel.querySelectorAll('.p5-card');
+        const total = cards.length;
+        if (total === 0) return;
+
+        dots.innerHTML = '';
+        for (let i = 0; i < total; i++) {
+            const dot = document.createElement('button');
+            dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+            dot.onclick = () => this.carouselGoTo(i);
+            dots.appendChild(dot);
+        }
+
+        carousel.addEventListener('scroll', () => {
+            const scrollLeft = carousel.scrollLeft;
+            const cardWidth = cards[0].offsetWidth + 24;
+            const idx = Math.round(scrollLeft / cardWidth);
+            if (idx !== this.carouselIndex) {
+                this.carouselIndex = idx;
+                this.updateCarouselDots();
+            }
+        });
+    },
+
+    carouselGoTo(index) {
+        const carousel = Utils.$('#home-games-carousel');
+        if (!carousel) return;
+        const cards = carousel.querySelectorAll('.p5-card');
+        if (index < 0 || index >= cards.length) return;
+        this.carouselIndex = index;
+        const cardWidth = cards[0].offsetWidth + 24;
+        carousel.scrollTo({ left: cardWidth * index, behavior: 'smooth' });
+        this.updateCarouselDots();
+    },
+
+    carouselNext() {
+        const carousel = Utils.$('#home-games-carousel');
+        if (!carousel) return;
+        const cards = carousel.querySelectorAll('.p5-card');
+        const next = Math.min(this.carouselIndex + 1, cards.length - 1);
+        this.carouselGoTo(next);
+    },
+
+    carouselPrev() {
+        const prev = Math.max(this.carouselIndex - 1, 0);
+        this.carouselGoTo(prev);
+    },
+
+    updateCarouselDots() {
+        const dots = Utils.$('#carousel-dots');
+        if (!dots) return;
+        dots.querySelectorAll('.carousel-dot').forEach((d, i) => {
+            d.classList.toggle('active', i === this.carouselIndex);
+        });
     },
 
     async loadHomeForums(container) {

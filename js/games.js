@@ -36,13 +36,7 @@ const Games = {
             </div>
         `).join('');
 
-        container.innerHTML = `
-            <div class="landing-section scroll-reveal">
-                <h2 class="p5-section-title animate-on-enter">JOGOS</h2>
-                <p class="p5-section-subtitle animate-on-enter">Explore nosso acervo de jogos</p>
-                <div class="games-grid">${gamesHTML}</div>
-            </div>
-        `;
+        container.innerHTML = gamesHTML;
     },
 
     renderGamesPage(container) {
@@ -116,7 +110,13 @@ const Games = {
             tab.addEventListener('click', () => {
                 container.querySelectorAll('.p5-tab').forEach(t => t.classList.remove('active'));
                 tab.classList.add('active');
-                this.renderTab(tabContent, game, tab.dataset.tab);
+                tabContent.classList.add('cube-exit');
+                setTimeout(() => {
+                    this.renderTab(tabContent, game, tab.dataset.tab);
+                    tabContent.classList.remove('cube-exit');
+                    tabContent.classList.add('cube-enter');
+                    setTimeout(() => tabContent.classList.remove('cube-enter'), 400);
+                }, 350);
             });
         });
     },

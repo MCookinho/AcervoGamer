@@ -40,12 +40,12 @@ const Router = {
         this.previousRoute = this.currentRoute;
 
         const isInitialLoad = !this.previousRoute;
-        const transition = document.getElementById('page-transition');
         const container = document.getElementById('page-container');
 
-        if (!isInitialLoad && transition) {
-            transition.classList.add('active');
-            await Utils.sleep(500);
+        if (!isInitialLoad && container) {
+            container.classList.add('page-transition', 'cube-exit');
+            await Utils.sleep(400);
+            container.classList.remove('cube-exit');
         }
 
         this.currentRoute = path;
@@ -54,9 +54,9 @@ const Router = {
         const match = this.matchRoute(path);
         if (match) {
             container.innerHTML = '';
-            container.classList.remove('page-enter');
+            container.classList.remove('page-enter', 'cube-enter');
             void container.offsetWidth;
-            container.classList.add('page-enter');
+            container.classList.add('page-enter', 'cube-enter');
 
             await match.handler(container, path, ...match.params);
 
@@ -64,18 +64,17 @@ const Router = {
             Animations.addHoverTilt(container.querySelectorAll('.game-card-3d'));
         } else {
             container.innerHTML = '';
-            container.classList.remove('page-enter');
+            container.classList.remove('page-enter', 'cube-enter');
             void container.offsetWidth;
-            container.classList.add('page-enter');
+            container.classList.add('page-enter', 'cube-enter');
 
             const fallback = this.matchRoute('*');
             if (fallback) await fallback.handler(container, path);
         }
 
-        if (!isInitialLoad && transition) {
-            await Utils.sleep(100);
-            transition.classList.remove('active');
-            await Utils.sleep(500);
+        if (!isInitialLoad && container) {
+            await Utils.sleep(50);
+            container.classList.remove('cube-enter');
         }
 
         this.isNavigating = false;

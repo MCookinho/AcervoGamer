@@ -2,36 +2,38 @@
     position: relative;
     background: var(--br-card);
     border: 1px solid var(--br-border);
-    border-radius: 14px;
+    border-radius: 16px;
     transition: all 0.4s var(--ease-out-expo);
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .p5-card::before {
     content: '';
     position: absolute;
-    inset: 0;
-    background: linear-gradient(160deg, rgba(0,156,59,0.04) 0%, transparent 50%, rgba(255,223,0,0.02) 100%);
+    inset: -1px;
+    background: var(--gradient-main);
+    background-size: 200% 200%;
+    border-radius: 16px;
+    z-index: -1;
     opacity: 0;
     transition: opacity 0.4s ease;
-    z-index: 1;
-    pointer-events: none;
-}
-
-.p5-card:hover {
-    border-color: rgba(0,156,59,0.35);
-    transform: translateY(-8px);
-    box-shadow: var(--shadow-lg), 0 0 30px rgba(0,156,59,0.06);
+    animation: gradientShift 4s ease infinite;
 }
 
 .p5-card:hover::before {
     opacity: 1;
 }
 
+.p5-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 40px rgba(0,200,83,0.15), 0 0 60px rgba(255,214,0,0.08);
+}
+
 .p5-card-image {
     position: relative;
     width: 100%;
-    height: 220px;
+    height: 200px;
     overflow: hidden;
 }
 
@@ -43,7 +45,7 @@
 }
 
 .p5-card:hover .p5-card-image img {
-    transform: scale(1.06);
+    transform: scale(1.08);
 }
 
 .p5-card-image-overlay {
@@ -61,45 +63,52 @@
     top: 14px;
     right: 14px;
     padding: 5px 14px;
-    background: rgba(0,156,59,0.88);
-    backdrop-filter: blur(8px);
+    background: var(--gradient-main);
+    background-size: 200% 100%;
     font-family: var(--font-display);
     font-size: 0.75rem;
     letter-spacing: 2px;
-    border-radius: 6px;
+    border-radius: 20px;
     z-index: 2;
+    animation: gradientShift 3s ease infinite;
 }
 
 .p5-card-body {
-    padding: 22px;
+    padding: 20px;
     position: relative;
     z-index: 2;
 }
 
 .p5-card-title {
     font-family: var(--font-display);
-    font-size: 1.65rem;
+    font-size: 1.6rem;
     letter-spacing: 3px;
     color: var(--br-white);
     margin-bottom: 6px;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .p5-card:hover .p5-card-title {
-    color: var(--br-green-light);
+    background: var(--gradient-main);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .p5-card-genre {
     font-family: var(--font-heading);
     font-size: 0.82rem;
-    color: var(--br-green);
+    background: var(--gradient-main);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
 
 .p5-card-desc {
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     color: var(--br-gray-light);
     line-height: 1.6;
     display: -webkit-box;
@@ -109,7 +118,7 @@
 }
 
 .p5-card-footer {
-    padding: 14px 22px;
+    padding: 14px 20px;
     border-top: 1px solid var(--br-border);
     display: flex;
     align-items: center;
@@ -120,7 +129,10 @@
     font-family: var(--font-display);
     font-size: 0.82rem;
     letter-spacing: 2px;
-    color: var(--br-green);
+    background: var(--gradient-main);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
@@ -130,6 +142,8 @@
 .p5-card-action::after {
     content: '\2192';
     transition: transform 0.3s var(--ease-out-expo);
+    -webkit-text-fill-color: initial;
+    color: var(--br-green);
 }
 
 .p5-card:hover .p5-card-action::after {
@@ -140,10 +154,15 @@
     font-family: var(--font-display);
     font-size: 3rem;
     letter-spacing: 8px;
-    color: var(--br-white);
     position: relative;
     display: inline-block;
     margin-bottom: 8px;
+    background: var(--gradient-main);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientText 4s ease infinite;
 }
 
 .p5-section-title::after {
@@ -151,10 +170,12 @@
     position: absolute;
     bottom: -4px;
     left: 0;
-    width: 50px;
+    width: 60px;
     height: 3px;
-    background: linear-gradient(90deg, var(--br-green), var(--br-yellow));
+    background: var(--gradient-main);
+    background-size: 200% 100%;
     border-radius: 2px;
+    animation: gradientShift 3s ease infinite;
 }
 
 .p5-section-subtitle {
@@ -181,7 +202,9 @@
     top: 0;
     width: 60px;
     height: 100%;
-    background: linear-gradient(90deg, var(--br-green), transparent);
+    background: var(--gradient-main);
+    background-size: 200% 100%;
+    animation: gradientShift 3s ease infinite;
 }
 
 .p5-tag {
@@ -193,12 +216,12 @@
     text-transform: uppercase;
     border: 1px solid var(--br-border);
     color: var(--br-gray-light);
-    border-radius: 6px;
+    border-radius: 20px;
     transition: all 0.25s ease;
 }
 
 .p5-tag:hover, .p5-tag.active {
-    background: rgba(0,156,59,0.12);
+    background: rgba(0,200,83,0.1);
     border-color: var(--br-green);
     color: var(--br-green-light);
 }
@@ -208,18 +231,17 @@
     padding: 13px 18px;
     background: var(--br-dark);
     border: 1px solid var(--br-border);
-    border-radius: 10px;
+    border-radius: 12px;
     color: var(--br-white);
-    font-family: var(--font-heading);
-    font-size: 0.95rem;
-    letter-spacing: 0.5px;
+    font-family: var(--font-body);
+    font-size: 0.92rem;
     transition: all 0.3s var(--ease-out-expo);
 }
 
 .p5-input:focus {
     border-color: var(--br-green);
     background: var(--br-darker);
-    box-shadow: 0 0 0 3px rgba(0,156,59,0.1);
+    box-shadow: 0 0 0 3px rgba(0,200,83,0.1);
 }
 
 .p5-input::placeholder {
@@ -231,11 +253,10 @@
     padding: 13px 18px;
     background: var(--br-dark);
     border: 1px solid var(--br-border);
-    border-radius: 10px;
+    border-radius: 12px;
     color: var(--br-white);
-    font-family: var(--font-heading);
-    font-size: 0.95rem;
-    letter-spacing: 0.5px;
+    font-family: var(--font-body);
+    font-size: 0.92rem;
     transition: all 0.3s var(--ease-out-expo);
     resize: vertical;
     min-height: 120px;
@@ -245,7 +266,7 @@
 .p5-textarea:focus {
     border-color: var(--br-green);
     background: var(--br-darker);
-    box-shadow: 0 0 0 3px rgba(0,156,59,0.1);
+    box-shadow: 0 0 0 3px rgba(0,200,83,0.1);
 }
 
 .p5-tabs {
@@ -255,7 +276,7 @@
     margin-bottom: 32px;
     padding: 4px;
     background: var(--br-dark);
-    border-radius: 12px;
+    border-radius: 14px;
     border: 1px solid var(--br-border);
 }
 
@@ -265,7 +286,7 @@
     font-size: 0.9rem;
     letter-spacing: 2px;
     color: var(--br-gray-mid);
-    border-radius: 8px;
+    border-radius: 10px;
     transition: all 0.3s var(--ease-out-expo);
     position: relative;
 }
@@ -276,9 +297,11 @@
 }
 
 .p5-tab.active {
-    background: linear-gradient(135deg, var(--br-green), var(--br-green-dark));
+    background: var(--gradient-main);
+    background-size: 200% 100%;
     color: var(--br-white);
-    box-shadow: 0 2px 12px rgba(0,156,59,0.3);
+    box-shadow: 0 2px 16px rgba(0,200,83,0.3);
+    animation: gradientShift 4s ease infinite;
 }
 
 .p5-tab span {
@@ -292,13 +315,13 @@
     padding: 16px 20px;
     background: var(--br-card);
     border: 1px solid var(--br-border);
-    border-radius: 10px;
+    border-radius: 12px;
     transition: all 0.3s var(--ease-out-expo);
     margin-bottom: 8px;
 }
 
 .p5-list-item:hover {
-    border-color: rgba(0,156,59,0.25);
+    border-color: rgba(0,200,83,0.25);
     background: var(--br-card-hover);
     transform: translateX(4px);
 }
@@ -306,7 +329,7 @@
 .p5-stat-card {
     background: var(--br-card);
     border: 1px solid var(--br-border);
-    border-radius: 12px;
+    border-radius: 14px;
     padding: 32px 24px;
     text-align: center;
     transition: all 0.4s var(--ease-out-expo);
@@ -320,16 +343,18 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, var(--br-green), var(--br-yellow), var(--br-blue-light));
+    height: 3px;
+    background: var(--gradient-main);
+    background-size: 200% 100%;
     opacity: 0;
     transition: opacity 0.3s ease;
+    animation: gradientShift 3s ease infinite;
 }
 
 .p5-stat-card:hover {
-    border-color: rgba(0,156,59,0.25);
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-glow-sm);
+    border-color: rgba(0,200,83,0.25);
+    transform: translateY(-6px);
+    box-shadow: 0 8px 32px rgba(0,200,83,0.12);
 }
 
 .p5-stat-card:hover::before {
@@ -339,12 +364,14 @@
 .p5-stat-number {
     font-family: var(--font-display);
     font-size: 3rem;
-    background: linear-gradient(135deg, var(--br-green), var(--br-yellow));
+    background: var(--gradient-main);
+    background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     line-height: 1;
     margin-bottom: 8px;
+    animation: gradientText 4s ease infinite;
 }
 
 .p5-stat-label {
@@ -367,7 +394,7 @@
     inset: 0;
     background-size: cover;
     background-position: center;
-    filter: brightness(0.3) saturate(1.1);
+    filter: brightness(0.3) saturate(1.2);
     transition: transform 12s ease;
 }
 
@@ -378,7 +405,7 @@
 .p5-game-header-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(10,10,10,0.2) 0%, rgba(10,10,10,0.92) 100%);
+    background: linear-gradient(180deg, rgba(8,8,12,0.2) 0%, rgba(8,8,12,0.92) 100%);
 }
 
 .p5-game-header-content {
@@ -404,7 +431,10 @@
 .p5-game-info .genre {
     font-family: var(--font-heading);
     font-size: 1rem;
-    color: var(--br-green-light);
+    background: var(--gradient-main);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     letter-spacing: 3px;
     text-transform: uppercase;
     margin-bottom: 16px;
@@ -420,7 +450,7 @@
 .forum-card {
     background: var(--br-card);
     border: 1px solid var(--br-border);
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 20px 22px;
     margin-bottom: 10px;
     transition: all 0.3s var(--ease-out-expo);
@@ -428,7 +458,7 @@
 }
 
 .forum-card:hover {
-    border-color: rgba(0,156,59,0.25);
+    border-color: rgba(0,200,83,0.25);
     transform: translateX(4px);
     box-shadow: var(--shadow-sm);
 }
@@ -457,13 +487,13 @@
 .profile-card {
     background: var(--br-card);
     border: 1px solid var(--br-border);
-    border-radius: 14px;
+    border-radius: 16px;
     overflow: hidden;
     transition: all 0.4s var(--ease-out-expo);
 }
 
 .profile-card:hover {
-    border-color: rgba(0,156,59,0.25);
+    border-color: rgba(0,200,83,0.25);
     transform: translateY(-6px);
     box-shadow: var(--shadow-lg);
 }
@@ -471,7 +501,9 @@
 .profile-banner {
     width: 100%;
     height: 120px;
-    background: linear-gradient(135deg, var(--br-green-dark) 0%, var(--br-blue-dark) 100%);
+    background: var(--gradient-main);
+    background-size: 200% 200%;
+    animation: gradientShift 6s ease infinite;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -487,7 +519,7 @@
     width: 64px;
     height: 64px;
     border: 3px solid var(--br-card);
-    border-radius: 12px;
+    border-radius: 14px;
     background-size: cover;
     background-position: center;
     display: flex;

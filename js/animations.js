@@ -29,11 +29,11 @@ const Animations = {
             size: Math.random() * 6 + 2,
             speedY: -(Math.random() * 0.8 + 0.2),
             speedX: (Math.random() - 0.5) * 0.5,
-            opacity: Math.random() * 0.4 + 0.1,
+            opacity: Math.random() * 0.5 + 0.15,
             rotation: Math.random() * 360,
             rotationSpeed: (Math.random() - 0.5) * 2,
             type: type,
-            color: ['#009C3B', '#FFDF00', '#0045AD', '#FFFFFF'][Math.floor(Math.random() * 4)],
+            color: ['#00C853', '#FFD600', '#2979FF', '#AA00FF', '#FF1744', '#69F0AE'][Math.floor(Math.random() * 6)],
             life: 0,
             maxLife: Math.random() * 400 + 200
         };
@@ -86,7 +86,7 @@ const Animations = {
         if (!this.ctx) return;
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 
-        if (Math.random() < 0.03 && this.particles.length < 50) {
+        if (Math.random() < 0.04 && this.particles.length < 60) {
             this.particles.push(this.createParticle());
         }
 
