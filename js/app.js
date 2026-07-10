@@ -247,7 +247,13 @@ const App = {
             const snapshot = await db.collection('forums').orderBy('createdAt', 'desc').limit(5).get();
             const forums = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
             if (forums.length === 0) {
-                container.innerHTML = '<p style="color: var(--br-gray-light);">Nenhum fórum ainda.</p>';
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">💬</div>
+                        <div class="empty-state-title">Nenhum fórum ainda</div>
+                        <div class="empty-state-text">Visite a comunidade para criar o primeiro!</div>
+                    </div>
+                `;
                 return;
             }
             container.innerHTML = forums.map((f, i) => `
@@ -261,7 +267,13 @@ const App = {
                 </div>
             `).join('');
         } catch (e) {
-            container.innerHTML = '<p style="color: var(--br-gray-light);">Nenhum fórum ainda.</p>';
+            container.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">💬</div>
+                    <div class="empty-state-title">Nenhum fórum ainda</div>
+                    <div class="empty-state-text">Visite a comunidade para criar o primeiro!</div>
+                </div>
+            `;
         }
     },
 
@@ -270,7 +282,13 @@ const App = {
             const snapshot = await db.collection('announcements').orderBy('createdAt', 'desc').limit(5).get();
             const updates = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
             if (updates.length === 0) {
-                container.innerHTML = '<p style="color: var(--br-gray-light);">Nenhuma atualização ainda.</p>';
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📰</div>
+                        <div class="empty-state-title">Nenhuma atualização ainda</div>
+                        <div class="empty-state-text">Novidades serão postadas aqui em breve!</div>
+                    </div>
+                `;
                 return;
             }
             container.innerHTML = updates.map((u, i) => `
@@ -281,7 +299,13 @@ const App = {
                 </div>
             `).join('');
         } catch (e) {
-            container.innerHTML = '<p style="color: var(--br-gray-light);">Nenhuma atualização ainda.</p>';
+            container.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">📰</div>
+                    <div class="empty-state-title">Nenhuma atualização ainda</div>
+                    <div class="empty-state-text">Novidades serão postadas aqui em breve!</div>
+                </div>
+            `;
         }
     },
 

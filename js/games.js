@@ -179,7 +179,13 @@ const Games = {
     renderTranslations(container, game) {
         const traductions = game.translations || [];
         if (traductions.length === 0) {
-            container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhuma tradução disponível ainda.</p>';
+            container.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">📄</div>
+                    <div class="empty-state-title">Nenhuma tradução disponível</div>
+                    <div class="empty-state-text">Traduções serão adicionadas em breve!</div>
+                </div>
+            `;
             return;
         }
         container.innerHTML = traductions.map((t, i) => `
@@ -201,7 +207,13 @@ const Games = {
     renderMods(container, game) {
         const mods = game.mods || [];
         if (mods.length === 0) {
-            container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhum mod disponível ainda.</p>';
+            container.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">🔧</div>
+                    <div class="empty-state-title">Nenhum mod disponível</div>
+                    <div class="empty-state-text">Mods serão adicionados em breve!</div>
+                </div>
+            `;
             return;
         }
         container.innerHTML = mods.map((m, i) => `
@@ -223,7 +235,13 @@ const Games = {
     renderSoundtrack(container, game) {
         const tracks = game.soundtrack || [];
         if (tracks.length === 0) {
-            container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhuma trilha sonora disponível ainda.</p>';
+            container.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">🎵</div>
+                    <div class="empty-state-title">Nenhuma trilha sonora disponível</div>
+                    <div class="empty-state-text">Faixas serão adicionadas em breve!</div>
+                </div>
+            `;
             return;
         }
         container.innerHTML = tracks.map((t, i) => `
@@ -244,7 +262,13 @@ const Games = {
     renderGameplays(container, game) {
         const gameplays = game.gameplays || [];
         if (gameplays.length === 0) {
-            container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhuma gameplay disponível ainda.</p>';
+            container.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">🎮</div>
+                    <div class="empty-state-title">Nenhuma gameplay disponível</div>
+                    <div class="empty-state-text">Gameplays serão adicionadas em breve!</div>
+                </div>
+            `;
             return;
         }
         container.innerHTML = gameplays.map((g, i) => `

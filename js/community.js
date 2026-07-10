@@ -34,7 +34,13 @@ const Community = {
             const announcements = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 
             if (announcements.length === 0) {
-                container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhum anúncio ainda.</p>';
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📢</div>
+                        <div class="empty-state-title">Nenhum anúncio ainda</div>
+                        <div class="empty-state-text">Volte depois para conferir as novidades!</div>
+                    </div>
+                `;
                 return;
             }
 
@@ -46,7 +52,13 @@ const Community = {
                 </div>
             `).join('');
         } catch (error) {
-            container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhum anúncio ainda.</p>';
+            container.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">📢</div>
+                    <div class="empty-state-title">Nenhum anúncio ainda</div>
+                    <div class="empty-state-text">Volte depois para conferir as novidades!</div>
+                </div>
+            `;
         }
     },
 
@@ -70,11 +82,21 @@ const Community = {
                     </div>
                 `;
             } else {
-                html += `<p style="color: var(--br-gray-light); margin-bottom: 20px;"><a href="#/auth" style="color: var(--br-green);">Faça login</a> para criar fóruns.</p>`;
+                html += `
+                    <div class="login-prompt">
+                        <a href="#/auth">Faça login</a> para criar fóruns.
+                    </div>
+                `;
             }
 
             if (forums.length === 0) {
-                html += '<p style="color: var(--br-gray-light); padding: 20px;">Nenhum fórum criado ainda.</p>';
+                html += `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">💬</div>
+                        <div class="empty-state-title">Nenhum fórum criado ainda</div>
+                        <div class="empty-state-text">Seja o primeiro a criar uma discussão!</div>
+                    </div>
+                `;
             } else {
                 html += '<div class="forums-preview">';
                 html += forums.map((f, i) => `
@@ -126,7 +148,13 @@ const Community = {
                 });
             }
         } catch (error) {
-            container.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px;">Nenhum fórum criado ainda.</p>';
+            container.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">💬</div>
+                    <div class="empty-state-title">Nenhum fórum criado ainda</div>
+                    <div class="empty-state-text">Seja o primeiro a criar uma discussão!</div>
+                </div>
+            `;
         }
     },
 
@@ -175,7 +203,13 @@ const Community = {
                 </div>
                 <div class="p5-divider"></div>
                 <h3 style="font-family: var(--font-display); font-size: 1.2rem; letter-spacing: 2px; margin-bottom: 16px;">RESPOSTAS (${replies.length})</h3>
-                ${repliesHTML || '<p style="color: var(--br-gray-mid);">Nenhuma resposta ainda.</p>'}
+                ${repliesHTML || `
+                    <div class="empty-state" style="text-align: left; padding: 32px 24px;">
+                        <div class="empty-state-icon">💭</div>
+                        <div class="empty-state-title">Nenhuma resposta ainda</div>
+                        <div class="empty-state-text">Seja o primeiro a responder!</div>
+                    </div>
+                `}
                 ${replyForm}
                 <button class="p5-btn p5-btn-small" style="margin-top: 20px;" id="close-modal-btn"><span>FECHAR</span></button>
             `;
@@ -245,7 +279,13 @@ const Community = {
             const profiles = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 
             if (profiles.length === 0) {
-                grid.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px; grid-column: 1/-1;">Nenhum perfil encontrado.</p>';
+                grid.innerHTML = `
+                    <div class="empty-state" style="grid-column: 1/-1;">
+                        <div class="empty-state-icon">👤</div>
+                        <div class="empty-state-title">Nenhum perfil encontrado</div>
+                        <div class="empty-state-text">Ainda não há membros cadastrados.</div>
+                    </div>
+                `;
                 return;
             }
 
@@ -265,7 +305,13 @@ const Community = {
                 </div>
             `).join('');
         } catch (error) {
-            grid.innerHTML = '<p style="color: var(--br-gray-light); padding: 20px; grid-column: 1/-1;">Nenhum perfil encontrado.</p>';
+            grid.innerHTML = `
+                <div class="empty-state" style="grid-column: 1/-1;">
+                    <div class="empty-state-icon">👤</div>
+                    <div class="empty-state-title">Nenhum perfil encontrado</div>
+                    <div class="empty-state-text">Ainda não há membros cadastrados.</div>
+                </div>
+            `;
         }
     },
 
@@ -307,7 +353,9 @@ const Community = {
             container.innerHTML = `
                 <div class="landing-section" style="text-align: center;">
                     <h2 class="p5-section-title">ACESSO RESTRITO</h2>
-                    <p style="color: var(--br-gray-light); margin: 20px 0;"><a href="#/auth" style="color: var(--br-green);">Faça login</a> para editar seu perfil.</p>
+                    <div class="login-prompt">
+                        <a href="#/auth">Faça login</a> para editar seu perfil.
+                    </div>
                 </div>
             `;
             return;
