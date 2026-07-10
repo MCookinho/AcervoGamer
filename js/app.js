@@ -92,17 +92,11 @@ const App = {
     async renderHome(container) {
         let totalTranslations = 0;
         let totalMods = 0;
-        let usersCount = 0;
 
         Games.data.forEach(g => {
             totalTranslations += (g.translations?.length || 0);
             totalMods += (g.mods?.length || 0);
         });
-
-        try {
-            const usersSnap = await db.collection('users').get();
-            usersCount = usersSnap.size;
-        } catch (e) {}
 
         container.innerHTML = `
             <div class="landing-hero">
@@ -149,7 +143,7 @@ const App = {
                         <div class="p5-stat-label">Mods</div>
                     </div>
                     <div class="p5-stat-card animate-in stagger-4">
-                        <div class="p5-stat-number">${usersCount}</div>
+                        <div class="p5-stat-number" id="users-count">...</div>
                         <div class="p5-stat-label">Usuários</div>
                     </div>
                 </div>
@@ -179,6 +173,11 @@ const App = {
 
         const updatesEl = Utils.$('#home-updates');
         if (updatesEl) this.loadHomeUpdates(updatesEl);
+
+        db.collection('users').get().then(snap => {
+            const el = Utils.$('#users-count');
+            if (el) el.textContent = snap.size;
+        }).catch(() => {});
     },
 
     carouselIndex: 0,
