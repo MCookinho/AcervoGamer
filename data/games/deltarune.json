@@ -1,0 +1,100 @@
+{
+    "name": "Deltarune",
+    "slug": "deltarune",
+    "genre": "RPG",
+    "developer": "Toby Fox",
+    "year": 2018,
+    "cover": "assets/images/games/deltarune/cover.png",
+    "background": "assets/images/games/deltarune/background.png",
+    "shortDescription": "Um novo capítulo da saga de Toby Fox. Explore um novo mundo, novos personagens e uma história épica que desafia expectativas.",
+    "fullDescription": "Deltarune é um RPG gratuito criado por Toby Fox, o criador de Undertale. O jogo se passa em um mundo paralelo onde humanos e monstros coexistem, mas com uma dinâmica diferente. Você controla Kris, um estudante humano que, junto com seus colegas de escola Susie e Ralsei, é transportado para um mundo misterioso chamado Dark World. A mecânicas de combate combina elementos de Undertale com um novo sistema de habilidades de magia e equipamentos. Com capítulos sendo lançados periodicamente, Deltarune promete ser uma jornada épica e emocionante.",
+    "videoPreview": "https://www.youtube.com/embed/NI0s3Rf5YXQ",
+    "translations": [
+        {
+            "name": "Deltarune Cap. 1 e 2 - Tradução PT-BR",
+            "version": "1.5",
+            "date": "2024-01-10",
+            "size": "25 MB",
+            "downloadUrl": "#"
+        },
+        {
+            "name": "Deltarune - Tradução PT-BR Atualizada",
+            "version": "2.0",
+            "date": "2024-08-05",
+            "size": "25 MB",
+            "downloadUrl": "#"
+        }
+    ],
+    "mods": [
+        {
+            "name": "Deltarune Randomizer",
+            "version": "1.0",
+            "author": "Community",
+            "downloadUrl": "#",
+            "nexusUrl": "https://www.nexusmods.com/deltarune"
+        }
+    ],
+    "soundtrack": [
+        {
+            "title": "The Beginning",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/the%20beginning%20deltarune",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=the+beginning+deltarune"
+        },
+        {
+            "title": "My Castle Town",
+            "artist": "Toby Fox",
+            "spotifyUrl": "",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=my+castle+town+deltarune"
+        },
+        {
+            "title": "A CYBER'S WORLD?",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/a%20cyber%27s%20world%20deltarune",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=a+cybers+world+deltarune"
+        },
+        {
+            "title": "BIG SHOT",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/big%20shot%20deltarune",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=big+shot+spamton+deltarune"
+        },
+        {
+            "title": "Field of Hopes and Dreams",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/field%20of%20hopes%20and%20dreams",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=field+of+hopes+and+dreams+deltarune"
+        },
+        {
+            "title": "Rude Buster",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/rude%20buster%20deltarune",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=rude+buster+deltarune"
+        },
+        {
+            "title": "THE WORLD REVOLVING",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/the%20world%20revolving%20deltarune",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=the+world+revolving+deltarune"
+        },
+        {
+            "title": "Dark, Darker, Darker Still",
+            "artist": "Toby Fox",
+            "spotifyUrl": "",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=dark+darker+darker+still+deltarune"
+        },
+        {
+            "title": "Don't Forget",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/don%27t%20forget%20deltarune",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=don%27t+forget+deltarune"
+        }
+    ],
+    "gameplays": [
+        {
+            "title": "Deltarune - Gameplay Completo Cap. 1 e 2 (Pt-BR)",
+            "embedUrl": "https://www.youtube.com/embed/NI0s3Rf5YXQ",
+            "youtubeUrl": "https://www.youtube.com/watch?v=NI0s3Rf5YXQ"
+        }
+    ]
+}

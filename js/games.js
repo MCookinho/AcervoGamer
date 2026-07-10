@@ -3,8 +3,12 @@ const Games = {
 
     async loadGames() {
         try {
-            const response = await fetch('data/games.json');
-            this.data = await response.json();
+            const indexRes = await fetch('data/games/index.json');
+            const slugs = await indexRes.json();
+            const promises = slugs.map(slug =>
+                fetch(`data/games/${slug}.json`).then(r => r.json())
+            );
+            this.data = await Promise.all(promises);
         } catch (error) {
             console.error('Erro ao carregar jogos:', error);
             this.data = [];

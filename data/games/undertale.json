@@ -1,0 +1,125 @@
+{
+    "name": "Undertale",
+    "slug": "undertale",
+    "genre": "RPG",
+    "developer": "Toby Fox",
+    "year": 2015,
+    "cover": "assets/images/games/undertale/cover.png",
+    "background": "assets/images/games/undertale/background.png",
+    "shortDescription": "Um RPG onde ninguém precisa morrer. Explore um mundo encantador, conheça personagens inesquecíveis e escolha o seu caminho.",
+    "fullDescription": "Undertale é um RPG de antologia criado por Toby Fox. Em Undertale, você controla um humano que cai no subsolo, um mundo habitado por monstros. O jogo apresenta mecânicas inovadoras onde você pode falar com monstros, poupá-los ou lutar contra eles. Cada escolha que você faz afeta a história e os personagens ao seu redor, levando a múltiplos finais diferentes. Com uma trilha sonora aclamada, diálogos inteligentes e uma narrativa emocionante, Undertale se tornou um dos jogos indie mais amados de todos os tempos.",
+    "videoPreview": "https://www.youtube.com/embed/1HojWUM3sVU",
+    "translations": [
+        {
+            "name": "Undertale - Tradução PT-BR Completa",
+            "version": "2.0",
+            "date": "2024-03-15",
+            "size": "15 MB",
+            "downloadUrl": "#"
+        },
+        {
+            "name": "Undertale - Tradução PT-BR Corrigida",
+            "version": "2.1",
+            "date": "2024-06-20",
+            "size": "15 MB",
+            "downloadUrl": "#"
+        }
+    ],
+    "mods": [
+        {
+            "name": "Undertale Randomizer",
+            "version": "1.3",
+            "author": "Community",
+            "downloadUrl": "#",
+            "nexusUrl": "https://www.nexusmods.com/undertale"
+        },
+        {
+            "name": "Undertale Hard Mode+",
+            "version": "1.0",
+            "author": "Community",
+            "downloadUrl": "#",
+            "nexusUrl": ""
+        }
+    ],
+    "soundtrack": [
+        {
+            "title": "Once Upon a Time",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/once%20upon%20a%20time%20undertale",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=once+upon+a+time+undertale"
+        },
+        {
+            "title": "Fallen Down",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/fallen%20down%20undertale",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=fallen+down+undertale"
+        },
+        {
+            "title": "Ruins",
+            "artist": "Toby Fox",
+            "spotifyUrl": "",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=ruins+undertale"
+        },
+        {
+            "title": "Snowdin Town",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/snowdin%20town%20undertale",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=snowdin+town+undertale"
+        },
+        {
+            "title": "Shop",
+            "artist": "Toby Fox",
+            "spotifyUrl": "",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=shop+undertale"
+        },
+        {
+            "title": "Waterfall",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/waterfall%20undertale",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=waterfall+undertale"
+        },
+        {
+            "title": "Battle Against a True Hero",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/battle%20against%20a%20true%20hero",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=battle+against+a+true+hero+undertale"
+        },
+        {
+            "title": "Spider Dance",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/spider%20dance%20undertale",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=spider+dance+undertale"
+        },
+        {
+            "title": "Bonetrousle",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/bonetrousle%20undertale",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=bonetrousle+undertale"
+        },
+        {
+            "title": "Hopes and Dreams",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/hopes%20and%20dreams%20undertale",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=hopes+and+dreams+undertale"
+        },
+        {
+            "title": "Megalovania",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/megalovania%20undertale",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=megalovania+undertale"
+        },
+        {
+            "title": "His Theme",
+            "artist": "Toby Fox",
+            "spotifyUrl": "https://open.spotify.com/search/his%20theme%20undertale",
+            "youtubeUrl": "https://www.youtube.com/results?search_query=his+theme+undertale"
+        }
+    ],
+    "gameplays": [
+        {
+            "title": "Undertale - Gameplay Completo (Pt-BR)",
+            "embedUrl": "https://www.youtube.com/embed/1HojWUM3sVU",
+            "youtubeUrl": "https://www.youtube.com/watch?v=1HojWUM3sVU"
+        }
+    ]
+}
