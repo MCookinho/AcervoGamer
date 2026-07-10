@@ -19,22 +19,23 @@ const App = {
     },
 
     async splash() {
-        await Utils.sleep(2500);
+        await Utils.sleep(2200);
         const splash = Utils.$('#splash-screen');
         if (splash) {
             splash.style.opacity = '0';
-            splash.style.transition = 'opacity 0.5s ease';
-            await Utils.sleep(500);
-            splash.style.display = 'none';
+            splash.style.transition = 'opacity 0.4s ease';
+            await Utils.sleep(400);
+            splash.remove();
         }
     },
 
     setupNavigation() {
-        document.querySelectorAll('[data-navigate]').forEach(el => {
-            el.addEventListener('click', (e) => {
+        document.addEventListener('click', (e) => {
+            const el = e.target.closest('[data-navigate]');
+            if (el) {
                 e.preventDefault();
                 Router.goTo(el.dataset.navigate);
-            });
+            }
         });
     },
 
@@ -78,8 +79,7 @@ const App = {
     registerRoutes() {
         Router.register('/', (container) => this.renderHome(container));
         Router.register('/jogos', (container) => Games.renderGamesPage(container));
-        Router.register('/jogos/:slug', (container, path) => {
-            const slug = path.split('/jogos/')[1];
+        Router.register('/jogos/:slug', (container, path, slug) => {
             Games.renderGameDetail(container, slug);
         });
         Router.register('/comunidade', (container) => Community.renderCommunityPage(container));
@@ -90,14 +90,16 @@ const App = {
     },
 
     async renderHome(container) {
-        const totalTranslations = Games.data.reduce((acc, g) => acc + (g.translations?.length || 0), 0);
-        const totalMods = Games.data.reduce((acc, g) => acc + (g.mods?.length || 0), 0);
-
-        let forumsCount = 0;
+        let totalTranslations = 0;
+        let totalMods = 0;
         let usersCount = 0;
+
+        Games.data.forEach(g => {
+            totalTranslations += (g.translations?.length || 0);
+            totalMods += (g.mods?.length || 0);
+        });
+
         try {
-            const forumsSnap = await db.collection('forums').get();
-            forumsCount = forumsSnap.size;
             const usersSnap = await db.collection('users').get();
             usersCount = usersSnap.size;
         } catch (e) {}
@@ -128,19 +130,19 @@ const App = {
                 <p class="p5-section-subtitle animate-on-enter">Números do Acervo Gamer</p>
                 <div class="stats-grid">
                     <div class="p5-stat-card animate-in stagger-1">
-                        <div class="p5-stat-number" data-count="${Games.data.length}">${Games.data.length}</div>
+                        <div class="p5-stat-number">${Games.data.length}</div>
                         <div class="p5-stat-label">Jogos</div>
                     </div>
                     <div class="p5-stat-card animate-in stagger-2">
-                        <div class="p5-stat-number" data-count="${totalTranslations}">${totalTranslations}</div>
+                        <div class="p5-stat-number">${totalTranslations}</div>
                         <div class="p5-stat-label">Traduções</div>
                     </div>
                     <div class="p5-stat-card animate-in stagger-3">
-                        <div class="p5-stat-number" data-count="${totalMods}">${totalMods}</div>
+                        <div class="p5-stat-number">${totalMods}</div>
                         <div class="p5-stat-label">Mods</div>
                     </div>
                     <div class="p5-stat-card animate-in stagger-4">
-                        <div class="p5-stat-number" data-count="${usersCount}">${usersCount}</div>
+                        <div class="p5-stat-number">${usersCount}</div>
                         <div class="p5-stat-label">Usuários</div>
                     </div>
                 </div>
@@ -159,9 +161,14 @@ const App = {
             </div>
         `;
 
-        Games.renderLandingHighlight(Utils.$('#home-games-grid'));
-        this.loadHomeForums(Utils.$('#home-forums'));
-        this.loadHomeUpdates(Utils.$('#home-updates'));
+        const gamesGrid = Utils.$('#home-games-grid');
+        if (gamesGrid) Games.renderLandingHighlight(gamesGrid);
+
+        const forumsEl = Utils.$('#home-forums');
+        if (forumsEl) this.loadHomeForums(forumsEl);
+
+        const updatesEl = Utils.$('#home-updates');
+        if (updatesEl) this.loadHomeUpdates(updatesEl);
     },
 
     async loadHomeForums(container) {
@@ -230,7 +237,7 @@ const App = {
                 <div class="about-section animate-in stagger-4 scroll-reveal">
                     <h2>OPEN SOURCE</h2>
                     <p>O Acervo Gamer é 100% open source e feito com amor pela comunidade. Qualquer pessoa pode contribuir com pull requests no GitHub!</p>
-                    <a href="https://github.com/peuborges/AcervoGamer" target="_blank" class="about-link">📂 Repositório no GitHub</a>
+                    <a href="https://github.com/MCookinho/AcervoGamer" target="_blank" class="about-link">📂 Repositório no GitHub</a>
                 </div>
 
                 <div class="about-section animate-in stagger-5 scroll-reveal">
@@ -250,7 +257,7 @@ const App = {
                     <h2>SOBRE O CRIADOR</h2>
                     <p>O Acervo Gamer foi criado por Peu Borges, um gamer brasileiro apaixonado por jogos indie e desenvolvimento web.</p>
                     <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px;">
-                        <a href="https://github.com/peuborges" target="_blank" class="about-link">💻 GitHub</a>
+                        <a href="https://github.com/MCookinho" target="_blank" class="about-link">💻 GitHub</a>
                     </div>
                 </div>
             </div>

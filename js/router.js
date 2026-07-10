@@ -1,62 +1,99 @@
 const Router = {
-    routes: {},
+    routes: [],
     currentRoute: null,
+    previousRoute: null,
+    isNavigating: false,
 
     init() {
         window.addEventListener('hashchange', () => this.navigate());
         this.navigate();
     },
 
-    register(path, handler) {
-        this.routes[path] = handler;
+    register(pattern, handler) {
+        this.routes.push({ pattern, handler });
+    },
+
+    matchRoute(path) {
+        for (const route of this.routes) {
+            if (route.pattern.includes(':')) {
+                const regex = new RegExp('^' + route.pattern.replace(/:[^/]+/g, '([^/]+)') + '$');
+                const match = path.match(regex);
+                if (match) {
+                    return { handler: route.handler, params: match.slice(1) };
+                }
+            } else if (route.pattern === path) {
+                return { handler: route.handler, params: [] };
+            }
+        }
+        return null;
     },
 
     async navigate() {
+        if (this.isNavigating) return;
+
         const hash = window.location.hash.slice(1) || '/';
         const path = hash.split('?')[0];
 
         if (this.currentRoute === path) return;
 
+        this.isNavigating = true;
+        this.previousRoute = this.currentRoute;
+
+        const isInitialLoad = !this.previousRoute;
         const slash = document.getElementById('slash-transition');
         const container = document.getElementById('page-container');
 
-        if (this.currentRoute && this.currentRoute !== path) {
-            slash.classList.remove('hidden');
+        if (!isInitialLoad) {
             slash.classList.add('active');
-            await Utils.sleep(400);
+            await Utils.sleep(500);
         }
 
         this.currentRoute = path;
         this.updateActiveNav(path);
 
-        const handler = this.routes[path] || this.routes['*'];
-        if (handler) {
+        const match = this.matchRoute(path);
+        if (match) {
             container.innerHTML = '';
-            await handler(container, path);
-            Animations.animatePageEntry(container);
+            container.classList.remove('page-enter');
+            void container.offsetWidth;
+            container.classList.add('page-enter');
+
+            await match.handler(container, path, ...match.params);
+
             Animations.initScrollReveal();
             Animations.addHoverTilt(container.querySelectorAll('.game-card-3d'));
+        } else {
+            container.innerHTML = '';
+            container.classList.remove('page-enter');
+            void container.offsetWidth;
+            container.classList.add('page-enter');
+
+            const fallback = this.matchRoute('*');
+            if (fallback) await fallback.handler(container, path);
         }
 
-        if (this.currentRoute && this.currentRoute !== path) {
-            await Utils.sleep(300);
+        if (!isInitialLoad) {
+            await Utils.sleep(200);
             slash.classList.remove('active');
-            slash.classList.add('hidden');
-            const line = slash.querySelector('.slash-center-line');
-            if (line) line.style.width = '0';
+            await Utils.sleep(800);
+        } else {
+            slash.classList.remove('active');
         }
 
+        this.isNavigating = false;
         Utils.scrollToTop();
     },
 
     updateActiveNav(path) {
         document.querySelectorAll('.nav-link').forEach(link => {
             const route = link.getAttribute('data-route');
-            if (route === path || (route === '/' && path === '/') || (route !== '/' && path.startsWith(route))) {
-                link.classList.add('active');
+            let isActive = false;
+            if (route === '/') {
+                isActive = path === '/';
             } else {
-                link.classList.remove('active');
+                isActive = path === route || path.startsWith(route + '/');
             }
+            link.classList.toggle('active', isActive);
         });
     },
 

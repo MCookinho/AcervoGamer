@@ -122,61 +122,27 @@ const Animations = {
         }
     },
 
-    async playSlashTransition(callback) {
-        const slash = document.getElementById('slash-transition');
-        if (!slash) return;
-        slash.classList.remove('hidden');
-        slash.classList.add('active');
-        await Utils.sleep(400);
-        if (callback) callback();
-        await Utils.sleep(600);
-        slash.classList.remove('active');
-        slash.classList.add('hidden');
-        slash.querySelector('.slash-center-line').style.width = '0';
-    },
-
-    animatePageEntry(container) {
-        if (!container) return;
-        container.classList.add('page-enter');
-        const elements = container.querySelectorAll('.animate-on-enter');
-        elements.forEach((el, i) => {
-            el.style.opacity = '0';
-            el.style.animationDelay = `${i * 0.1}s`;
-            el.classList.add('animate-in');
-        });
-    },
-
     initScrollReveal() {
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('revealed');
-                }
+        requestAnimationFrame(() => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.scroll-reveal:not(.revealed)').forEach(el => {
+                observer.observe(el);
             });
-        }, { threshold: 0.1 });
-
-        document.querySelectorAll('.scroll-reveal').forEach(el => {
-            observer.observe(el);
         });
-    },
-
-    animateCounter(element, target, duration = 2000) {
-        let start = 0;
-        const increment = target / (duration / 16);
-        const update = () => {
-            start += increment;
-            if (start >= target) {
-                element.textContent = target;
-                return;
-            }
-            element.textContent = Math.floor(start);
-            requestAnimationFrame(update);
-        };
-        update();
     },
 
     addHoverTilt(elements) {
         elements.forEach(el => {
+            if (el._tiltBound) return;
+            el._tiltBound = true;
             el.addEventListener('mousemove', (e) => {
                 const rect = el.getBoundingClientRect();
                 const x = e.clientX - rect.left;
@@ -188,7 +154,7 @@ const Animations = {
                 el.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-5px)`;
             });
             el.addEventListener('mouseleave', () => {
-                el.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
+                el.style.transform = '';
             });
         });
     }

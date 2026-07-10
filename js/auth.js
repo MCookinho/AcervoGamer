@@ -281,8 +281,8 @@ const Auth = {
         }
     },
 
-    renderAuthPage(container) {
-        const isLogin = !container.querySelector('[data-mode="register"]');
+    renderAuthPage(container, mode = 'login') {
+        const isLogin = mode === 'login';
         container.innerHTML = `
             <div class="auth-container animate-in">
                 <h2 class="auth-title" id="auth-title">${isLogin ? 'ENTRAR' : 'CRIAR CONTA'}</h2>
@@ -290,7 +290,7 @@ const Auth = {
                     ${!isLogin ? '<input type="text" class="p5-input" id="auth-name" placeholder="Nome de usuário" required>' : ''}
                     <input type="email" class="p5-input" id="auth-email" placeholder="Email" required>
                     <input type="password" class="p5-input" id="auth-password" placeholder="Senha" required minlength="6">
-                    ${isLogin ? '<input type="password" class="p5-input" id="auth-password-confirm" placeholder="Confirmar senha" required minlength="6">' : ''}
+                    ${!isLogin ? '<input type="password" class="p5-input" id="auth-password-confirm" placeholder="Confirmar senha" required minlength="6">' : ''}
                     <button type="submit" class="p5-btn-large" style="width:100%;text-align:center">
                         <span>${isLogin ? 'ENTRAR' : 'CRIAR CONTA'}</span>
                     </button>
@@ -349,14 +349,10 @@ const Auth = {
     },
 
     renderLoginPage(container) {
-        container.innerHTML = '';
-        this.renderAuthPage(container);
+        this.renderAuthPage(container, 'login');
     },
 
     renderRegisterPage(container) {
-        container.innerHTML = `
-            <div class="auth-container animate-in" data-mode="register"></div>
-        `;
-        this.renderAuthPage(container.querySelector('.auth-container'));
+        this.renderAuthPage(container, 'register');
     }
 };
