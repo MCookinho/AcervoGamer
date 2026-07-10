@@ -1,0 +1,187 @@
+@media (max-width: 1024px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .landing-hero-title {
+        font-size: 5rem;
+    }
+    .landing-hero-title span {
+        font-size: 6rem;
+    }
+    .p5-section-title {
+        font-size: 2.5rem;
+    }
+    .p5-game-info h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --header-height: 60px;
+    }
+    .main-nav {
+        position: fixed;
+        top: var(--header-height);
+        left: 0;
+        width: 100%;
+        background: rgba(10,10,10,0.98);
+        flex-direction: column;
+        padding: 20px;
+        gap: 8px;
+        transform: translateY(-120%);
+        transition: transform 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+        border-bottom: 2px solid var(--p5-red);
+    }
+    .main-nav.open {
+        transform: translateY(0);
+    }
+    .nav-link {
+        padding: 14px 20px;
+        clip-path: none;
+        transform: none;
+    }
+    .nav-link-bg {
+        clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+    }
+    .nav-link-text {
+        transform: none;
+    }
+    .mobile-menu-btn {
+        display: flex;
+    }
+    .logo-text-mini {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+    }
+    .landing-hero-title {
+        font-size: 3.5rem;
+        letter-spacing: 8px;
+    }
+    .landing-hero-title span {
+        font-size: 4.5rem;
+    }
+    .landing-hero-subtitle {
+        font-size: 0.9rem;
+        letter-spacing: 3px;
+    }
+    .landing-section {
+        padding: 60px 20px;
+    }
+    .games-grid {
+        grid-template-columns: 1fr;
+    }
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    .p5-section-title {
+        font-size: 2rem;
+    }
+    .p5-game-header {
+        height: 350px;
+    }
+    .p5-game-header-content {
+        padding: 30px;
+    }
+    .p5-game-info h1 {
+        font-size: 2.5rem;
+    }
+    .game-tabs-content {
+        padding: 20px;
+    }
+    .p5-tabs {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+    .p5-tab {
+        flex-shrink: 0;
+    }
+    .auth-container {
+        margin: 30px 20px;
+        padding: 30px 20px;
+    }
+    .about-container {
+        padding: 40px 20px;
+    }
+    .profile-page-body {
+        padding: 80px 20px 40px;
+    }
+    .profile-page-avatar-area {
+        left: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .profile-page-avatar {
+        width: 80px;
+        height: 80px;
+    }
+    .profile-page-name {
+        font-size: 1.8rem;
+    }
+    .profile-details-grid {
+        grid-template-columns: 1fr;
+    }
+    .community-grid {
+        grid-template-columns: 1fr;
+    }
+    .p5-game-header-bg {
+        transform: scale(1.2);
+    }
+    .audio-player-inner {
+        flex-wrap: wrap;
+        padding: 10px 15px;
+        gap: 10px;
+    }
+    .audio-info {
+        min-width: 150px;
+    }
+    .audio-volume {
+        display: none;
+    }
+    .landing-hero-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    .p5-btn-large, .p5-btn-outline {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .landing-hero-title {
+        font-size: 2.5rem;
+        letter-spacing: 5px;
+    }
+    .landing-hero-title span {
+        font-size: 3rem;
+    }
+    .p5-stat-number {
+        font-size: 2.5rem;
+    }
+    .splash-title {
+        font-size: 2.5rem;
+    }
+    .splash-title span {
+        font-size: 3rem;
+    }
+    .header-inner {
+        padding: 0 15px;
+    }
+    .user-dropdown {
+        right: -10px;
+        width: 250px;
+    }
+}
+
+.main-content {
+    padding-bottom: 0;
+}
+
+.main-content.with-player {
+    padding-bottom: var(--player-height);
+}

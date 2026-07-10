@@ -1,0 +1,523 @@
+.persona5-bg-pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.p5-angle-bar {
+    position: absolute;
+    background: var(--p5-red);
+    opacity: 0.05;
+    transform: rotate(-12deg);
+}
+
+.p5-card {
+    position: relative;
+    background: var(--p5-dark);
+    border: 1px solid var(--p5-gray);
+    clip-path: polygon(16px 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    overflow: hidden;
+}
+
+.p5-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(230,0,18,0.1) 0%, transparent 50%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.p5-card:hover {
+    border-color: var(--p5-red);
+    transform: translateY(-8px) rotate(-1deg);
+    box-shadow: var(--shadow-card-hover);
+}
+
+.p5-card:hover::before {
+    opacity: 1;
+}
+
+.p5-card-image {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.p5-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.p5-card:hover .p5-card-image img {
+    transform: scale(1.1) rotate(-2deg);
+}
+
+.p5-card-image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(transparent, var(--p5-dark));
+}
+
+.p5-card-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 4px 16px;
+    background: var(--p5-red);
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    clip-path: polygon(6px 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+    z-index: 2;
+}
+
+.p5-card-body {
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.p5-card-title {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    color: var(--p5-white);
+    margin-bottom: 8px;
+    transition: color var(--transition-fast);
+}
+
+.p5-card:hover .p5-card-title {
+    color: var(--p5-red);
+}
+
+.p5-card-genre {
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    color: var(--p5-red);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.p5-card-desc {
+    font-size: 0.9rem;
+    color: var(--p5-gray-light);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.p5-card-footer {
+    padding: 12px 20px;
+    border-top: 1px solid var(--p5-gray-dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p5-card-action {
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    color: var(--p5-red);
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.p5-card-action::after {
+    content: '→';
+    transition: transform var(--transition-fast);
+}
+
+.p5-card:hover .p5-card-action::after {
+    transform: translateX(5px);
+}
+
+.p5-section-title {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    letter-spacing: 6px;
+    color: var(--p5-white);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.p5-section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: var(--p5-red);
+    clip-path: polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%);
+}
+
+.p5-section-subtitle {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    color: var(--p5-gray-light);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.p5-divider {
+    width: 100%;
+    height: 2px;
+    background: var(--p5-gray-dark);
+    margin: 40px 0;
+    position: relative;
+}
+
+.p5-divider::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    background: var(--p5-red);
+}
+
+.p5-tag {
+    display: inline-block;
+    padding: 4px 14px;
+    font-family: var(--font-heading);
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid var(--p5-gray);
+    color: var(--p5-gray-light);
+    clip-path: polygon(6px 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+    transition: all var(--transition-fast);
+}
+
+.p5-tag:hover, .p5-tag.active {
+    background: var(--p5-red);
+    border-color: var(--p5-red);
+    color: var(--p5-white);
+}
+
+.p5-input {
+    width: 100%;
+    padding: 14px 20px;
+    background: var(--p5-gray-dark);
+    border: 2px solid var(--p5-gray);
+    color: var(--p5-white);
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: all var(--transition-fast);
+    clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+}
+
+.p5-input:focus {
+    border-color: var(--p5-red);
+    background: var(--p5-darker);
+}
+
+.p5-input::placeholder {
+    color: var(--p5-gray-mid);
+}
+
+.p5-textarea {
+    width: 100%;
+    padding: 14px 20px;
+    background: var(--p5-gray-dark);
+    border: 2px solid var(--p5-gray);
+    color: var(--p5-white);
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: all var(--transition-fast);
+    resize: vertical;
+    min-height: 120px;
+}
+
+.p5-textarea:focus {
+    border-color: var(--p5-red);
+    background: var(--p5-darker);
+}
+
+.p5-tabs {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.p5-tab {
+    padding: 10px 24px;
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+    color: var(--p5-gray-light);
+    background: var(--p5-gray-dark);
+    clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+    transition: all var(--transition-fast);
+    transform: skewX(-3deg);
+}
+
+.p5-tab:hover {
+    background: var(--p5-gray);
+    color: var(--p5-white);
+}
+
+.p5-tab.active {
+    background: var(--p5-red);
+    color: var(--p5-white);
+}
+
+.p5-tab span {
+    transform: skewX(3deg);
+    display: inline-block;
+}
+
+.p5-list-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    background: var(--p5-dark);
+    border: 1px solid var(--p5-gray-dark);
+    clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+    transition: all var(--transition-fast);
+    margin-bottom: 8px;
+}
+
+.p5-list-item:hover {
+    border-color: var(--p5-red);
+    background: var(--p5-darker);
+    transform: translateX(5px);
+}
+
+.p5-stat-card {
+    background: var(--p5-dark);
+    border: 1px solid var(--p5-gray-dark);
+    clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+    padding: 30px;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.p5-stat-card:hover {
+    border-color: var(--p5-red);
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-card-hover);
+}
+
+.p5-stat-number {
+    font-family: var(--font-display);
+    font-size: 3.5rem;
+    color: var(--p5-red);
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.p5-stat-label {
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    color: var(--p5-gray-light);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.p5-game-header {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.p5-game-header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.4);
+    transition: transform 8s ease;
+}
+
+.p5-game-header:hover .p5-game-header-bg {
+    transform: scale(1.05);
+}
+
+.p5-game-header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(10,10,10,0.9) 0%, rgba(230,0,18,0.2) 100%);
+}
+
+.p5-game-header-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.p5-game-info h1 {
+    font-family: var(--font-display);
+    font-size: 5rem;
+    letter-spacing: 8px;
+    line-height: 1;
+    margin-bottom: 12px;
+}
+
+.p5-game-info .genre {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    color: var(--p5-red);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.p5-game-info .description {
+    font-size: 1rem;
+    color: var(--p5-gray-light);
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.forum-card {
+    background: var(--p5-dark);
+    border: 1px solid var(--p5-gray-dark);
+    clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+    padding: 20px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.forum-card:hover {
+    border-color: var(--p5-red);
+    transform: translateX(5px);
+}
+
+.forum-card-title {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.forum-card-meta {
+    font-size: 0.8rem;
+    color: var(--p5-gray-light);
+    display: flex;
+    gap: 16px;
+}
+
+.forum-card-excerpt {
+    font-size: 0.9rem;
+    color: var(--p5-gray-mid);
+    margin-top: 8px;
+}
+
+.profile-card {
+    background: var(--p5-dark);
+    border: 1px solid var(--p5-gray-dark);
+    clip-path: polygon(16px 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.profile-card:hover {
+    border-color: var(--p5-red);
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-card-hover);
+}
+
+.profile-banner {
+    width: 100%;
+    height: 120px;
+    background: var(--gradient-p5);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.profile-avatar-wrapper {
+    position: absolute;
+    bottom: -35px;
+    left: 20px;
+}
+
+.profile-avatar-large {
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--p5-red);
+    clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: var(--p5-gray-dark);
+}
+
+.profile-info {
+    padding: 45px 20px 20px;
+}
+
+.profile-name {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.profile-bio {
+    font-size: 0.9rem;
+    color: var(--p5-gray-light);
+    margin-top: 6px;
+}
+
+.profile-meta {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.profile-meta-item {
+    font-size: 0.8rem;
+    color: var(--p5-gray-mid);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}

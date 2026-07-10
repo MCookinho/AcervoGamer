@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acervo Gamer</title>
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/persona5.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div id="app">
+        <div id="splash-screen" class="splash-screen">
+            <div class="splash-content">
+                <div class="splash-logo">
+                    <div class="splash-icon">
+                        <svg viewBox="0 0 120 120" class="controller-icon">
+                            <path d="M60 10C32 10 10 32 10 60s22 50 50 50 50-22 50-50S88 10 60 10zm-8 35c2-4 6-4 8 0l8 15h-16l8-15zm-22 18c-4 2-4 6 0 8l15 8V53l-15 10zm44 0l15-10v18l-15-8c-4-2-4-6 0-8zm-34 22l-8 15c-2 4-6 4-8 0 0 0 0-1 2-2l14-13zm28 0l14 13c2 1 2 2 2 2-2 4-6 4-8 0l-8-15zm-24 10l-8-15h16l-8 15z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h1 class="splash-title">ACERVO<br><span>GAMER</span></h1>
+                </div>
+                <div class="splash-loader">
+                    <div class="splash-bar"></div>
+                </div>
+                <p class="splash-text">Carregando...</p>
+            </div>
+        </div>
+
+        <div id="slash-transition" class="slash-transition hidden">
+            <div class="slash-left"></div>
+            <div class="slash-right"></div>
+            <div class="slash-center-line"></div>
+        </div>
+
+        <canvas id="particles-canvas" class="particles-canvas"></canvas>
+
+        <header id="main-header" class="main-header hidden">
+            <div class="header-inner">
+                <div class="logo-area" data-navigate="#/">
+                    <div class="logo-icon-mini">
+                        <svg viewBox="0 0 120 120" class="controller-icon-mini">
+                            <path d="M60 10C32 10 10 32 10 60s22 50 50 50 50-22 50-50S88 10 60 10zm-8 35c2-4 6-4 8 0l8 15h-16l8-15zm-22 18c-4 2-4 6 0 8l15 8V53l-15 10zm44 0l15-10v18l-15-8c-4-2-4-6 0-8zm-34 22l-8 15c-2 4-6 4-8 0 0 0 0-1 2-2l14-13zm28 0l14 13c2 1 2 2 2 2-2 4-6 4-8 0l-8-15zm-24 10l-8-15h16l-8 15z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text-mini">ACERVO GAMER</span>
+                </div>
+                <nav class="main-nav">
+                    <a href="#/" class="nav-link active" data-route="/">
+                        <span class="nav-link-text">INICIO</span>
+                        <div class="nav-link-bg"></div>
+                    </a>
+                    <a href="#/jogos" class="nav-link" data-route="/jogos">
+                        <span class="nav-link-text">JOGOS</span>
+                        <div class="nav-link-bg"></div>
+                    </a>
+                    <a href="#/comunidade" class="nav-link" data-route="/comunidade">
+                        <span class="nav-link-text">COMUNIDADE</span>
+                        <div class="nav-link-bg"></div>
+                    </a>
+                    <a href="#/sobre" class="nav-link" data-route="/sobre">
+                        <span class="nav-link-text">SOBRE</span>
+                        <div class="nav-link-bg"></div>
+                    </a>
+                </nav>
+                <div class="header-actions">
+                    <button id="auth-btn" class="p5-btn p5-btn-small" data-navigate="#/auth">
+                        <span>ENTRAR</span>
+                    </button>
+                    <div id="user-menu" class="user-menu hidden">
+                        <button class="user-avatar-btn" id="user-avatar-btn">
+                            <div class="user-avatar-mini" id="header-avatar"></div>
+                        </button>
+                        <div class="user-dropdown hidden" id="user-dropdown">
+                            <div class="dropdown-header">
+                                <div class="dropdown-avatar" id="dropdown-avatar"></div>
+                                <div class="dropdown-info">
+                                    <span class="dropdown-name" id="dropdown-name"></span>
+                                    <span class="dropdown-email" id="dropdown-email"></span>
+                                </div>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <a href="#/comunidade/perfil" class="dropdown-item" data-navigate="#/comunidade/perfil">
+                                <span class="dropdown-icon">👤</span>Meu Perfil
+                            </a>
+                            <button class="dropdown-item" id="logout-btn">
+                                <span class="dropdown-icon">🚪</span>Sair
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </header>
+
+        <main id="main-content" class="main-content hidden">
+            <div id="page-container" class="page-container"></div>
+        </main>
+
+        <div id="audio-player" class="audio-player hidden">
+            <div class="audio-player-inner">
+                <div class="audio-info">
+                    <div class="audio-thumb" id="audio-thumb"></div>
+                    <div class="audio-text">
+                        <span class="audio-title" id="audio-title">Nenhuma música selecionada</span>
+                        <span class="audio-artist" id="audio-artist"></span>
+                    </div>
+                </div>
+                <div class="audio-controls">
+                    <button class="audio-btn" id="audio-prev">⏮</button>
+                    <button class="audio-btn audio-btn-play" id="audio-play">▶</button>
+                    <button class="audio-btn" id="audio-next">⏭</button>
+                </div>
+                <div class="audio-progress-area">
+                    <div class="audio-progress-bar" id="audio-progress-bar">
+                        <div class="audio-progress-fill" id="audio-progress-fill"></div>
+                        <div class="audio-progress-thumb" id="audio-progress-thumb"></div>
+                    </div>
+                    <div class="audio-time">
+                        <span id="audio-current-time">0:00</span>
+                        <span id="audio-duration">0:00</span>
+                    </div>
+                </div>
+                <div class="audio-volume">
+                    <button class="audio-btn" id="audio-mute">🔊</button>
+                    <input type="range" id="audio-volume-slider" min="0" max="100" value="70" class="volume-slider">
+                </div>
+                <button class="audio-btn audio-close" id="audio-close">✕</button>
+            </div>
+        </div>
+
+        <div id="modal-overlay" class="modal-overlay hidden">
+            <div class="modal-content" id="modal-content"></div>
+        </div>
+
+        <div id="toast-container" class="toast-container"></div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/games.js"></script>
+    <script src="js/community.js"></script>
+    <script src="js/comments.js"></script>
+    <script src="js/audio-player.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
