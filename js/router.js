@@ -40,11 +40,11 @@ const Router = {
         this.previousRoute = this.currentRoute;
 
         const isInitialLoad = !this.previousRoute;
-        const slash = document.getElementById('slash-transition');
+        const transition = document.getElementById('page-transition');
         const container = document.getElementById('page-container');
 
-        if (!isInitialLoad) {
-            slash.classList.add('active');
+        if (!isInitialLoad && transition) {
+            transition.classList.add('active');
             await Utils.sleep(500);
         }
 
@@ -72,12 +72,10 @@ const Router = {
             if (fallback) await fallback.handler(container, path);
         }
 
-        if (!isInitialLoad) {
-            await Utils.sleep(200);
-            slash.classList.remove('active');
-            await Utils.sleep(800);
-        } else {
-            slash.classList.remove('active');
+        if (!isInitialLoad && transition) {
+            await Utils.sleep(100);
+            transition.classList.remove('active');
+            await Utils.sleep(500);
         }
 
         this.isNavigating = false;

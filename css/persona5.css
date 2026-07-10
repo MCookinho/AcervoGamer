@@ -1,38 +1,17 @@
-.persona5-bg-pattern {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 0;
-    overflow: hidden;
-}
-
-.p5-angle-bar {
-    position: absolute;
-    background: var(--p5-red);
-    opacity: 0.05;
-    transform: rotate(-12deg);
-}
-
 .p5-card {
     position: relative;
-    background: var(--p5-dark);
-    border: 1px solid var(--p5-gray);
-    clip-path: polygon(16px 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
-    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    background: var(--p5-card);
+    border: 1px solid var(--p5-border);
+    border-radius: 12px;
+    transition: all 0.4s var(--ease-out-expo);
     overflow: hidden;
 }
 
 .p5-card::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(230,0,18,0.1) 0%, transparent 50%);
+    inset: 0;
+    background: linear-gradient(135deg, rgba(232,25,44,0.05) 0%, transparent 60%);
     opacity: 0;
     transition: opacity 0.4s ease;
     z-index: 1;
@@ -40,9 +19,9 @@
 }
 
 .p5-card:hover {
-    border-color: var(--p5-red);
-    transform: translateY(-8px) rotate(-1deg);
-    box-shadow: var(--shadow-card-hover);
+    border-color: rgba(232,25,44,0.4);
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg), 0 0 40px rgba(232,25,44,0.08);
 }
 
 .p5-card:hover::before {
@@ -60,11 +39,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: transform 0.6s var(--ease-out-expo);
 }
 
 .p5-card:hover .p5-card-image img {
-    transform: scale(1.1) rotate(-2deg);
+    transform: scale(1.08);
 }
 
 .p5-card-image-overlay {
@@ -73,44 +52,46 @@
     left: 0;
     width: 100%;
     height: 60%;
-    background: linear-gradient(transparent, var(--p5-dark));
+    background: linear-gradient(transparent, var(--p5-card));
+    pointer-events: none;
 }
 
 .p5-card-badge {
     position: absolute;
-    top: 12px;
-    right: 12px;
-    padding: 4px 16px;
-    background: var(--p5-red);
+    top: 14px;
+    right: 14px;
+    padding: 5px 14px;
+    background: rgba(232,25,44,0.9);
+    backdrop-filter: blur(8px);
     font-family: var(--font-display);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     letter-spacing: 2px;
-    clip-path: polygon(6px 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+    border-radius: 6px;
     z-index: 2;
 }
 
 .p5-card-body {
-    padding: 20px;
+    padding: 22px;
     position: relative;
     z-index: 2;
 }
 
 .p5-card-title {
     font-family: var(--font-display);
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     letter-spacing: 3px;
     color: var(--p5-white);
-    margin-bottom: 8px;
-    transition: color var(--transition-fast);
+    margin-bottom: 6px;
+    transition: color 0.3s ease;
 }
 
 .p5-card:hover .p5-card-title {
-    color: var(--p5-red);
+    color: var(--p5-red-light);
 }
 
 .p5-card-genre {
     font-family: var(--font-heading);
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     color: var(--p5-red);
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -118,9 +99,9 @@
 }
 
 .p5-card-desc {
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     color: var(--p5-gray-light);
-    line-height: 1.5;
+    line-height: 1.6;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -128,8 +109,8 @@
 }
 
 .p5-card-footer {
-    padding: 12px 20px;
-    border-top: 1px solid var(--p5-gray-dark);
+    padding: 14px 22px;
+    border-top: 1px solid var(--p5-border);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -137,49 +118,49 @@
 
 .p5-card-action {
     font-family: var(--font-display);
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     letter-spacing: 2px;
     color: var(--p5-red);
-    transition: all var(--transition-fast);
+    transition: all 0.3s ease;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
 }
 
 .p5-card-action::after {
     content: '→';
-    transition: transform var(--transition-fast);
+    transition: transform 0.3s var(--ease-out-expo);
 }
 
 .p5-card:hover .p5-card-action::after {
-    transform: translateX(5px);
+    transform: translateX(6px);
 }
 
 .p5-section-title {
     font-family: var(--font-display);
-    font-size: 3rem;
-    letter-spacing: 6px;
+    font-size: 3.2rem;
+    letter-spacing: 8px;
     color: var(--p5-white);
     position: relative;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .p5-section-title::after {
     content: '';
     position: absolute;
-    bottom: -5px;
+    bottom: -4px;
     left: 0;
-    width: 60px;
-    height: 4px;
-    background: var(--p5-red);
-    clip-path: polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%);
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--p5-red), transparent);
+    border-radius: 2px;
 }
 
 .p5-section-subtitle {
     font-family: var(--font-heading);
     font-size: 1rem;
-    color: var(--p5-gray-light);
+    color: var(--p5-gray-mid);
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -187,8 +168,8 @@
 
 .p5-divider {
     width: 100%;
-    height: 2px;
-    background: var(--p5-gray-dark);
+    height: 1px;
+    background: var(--p5-border);
     margin: 40px 0;
     position: relative;
 }
@@ -198,46 +179,47 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 80px;
+    width: 60px;
     height: 100%;
-    background: var(--p5-red);
+    background: linear-gradient(90deg, var(--p5-red), transparent);
 }
 
 .p5-tag {
     display: inline-block;
-    padding: 4px 14px;
+    padding: 5px 14px;
     font-family: var(--font-heading);
     font-size: 0.75rem;
     letter-spacing: 1px;
     text-transform: uppercase;
-    border: 1px solid var(--p5-gray);
+    border: 1px solid var(--p5-border);
     color: var(--p5-gray-light);
-    clip-path: polygon(6px 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
-    transition: all var(--transition-fast);
+    border-radius: 6px;
+    transition: all 0.25s ease;
 }
 
 .p5-tag:hover, .p5-tag.active {
-    background: var(--p5-red);
+    background: rgba(232,25,44,0.15);
     border-color: var(--p5-red);
-    color: var(--p5-white);
+    color: var(--p5-red-light);
 }
 
 .p5-input {
     width: 100%;
-    padding: 14px 20px;
-    background: var(--p5-gray-dark);
-    border: 2px solid var(--p5-gray);
+    padding: 14px 18px;
+    background: var(--p5-dark);
+    border: 1px solid var(--p5-border);
+    border-radius: 10px;
     color: var(--p5-white);
     font-family: var(--font-heading);
-    font-size: 1rem;
-    letter-spacing: 1px;
-    transition: all var(--transition-fast);
-    clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    transition: all 0.3s var(--ease-out-expo);
 }
 
 .p5-input:focus {
     border-color: var(--p5-red);
     background: var(--p5-darker);
+    box-shadow: 0 0 0 3px rgba(232,25,44,0.12);
 }
 
 .p5-input::placeholder {
@@ -246,54 +228,60 @@
 
 .p5-textarea {
     width: 100%;
-    padding: 14px 20px;
-    background: var(--p5-gray-dark);
-    border: 2px solid var(--p5-gray);
+    padding: 14px 18px;
+    background: var(--p5-dark);
+    border: 1px solid var(--p5-border);
+    border-radius: 10px;
     color: var(--p5-white);
     font-family: var(--font-heading);
-    font-size: 1rem;
-    letter-spacing: 1px;
-    transition: all var(--transition-fast);
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    transition: all 0.3s var(--ease-out-expo);
     resize: vertical;
     min-height: 120px;
+    line-height: 1.6;
 }
 
 .p5-textarea:focus {
     border-color: var(--p5-red);
     background: var(--p5-darker);
+    box-shadow: 0 0 0 3px rgba(232,25,44,0.12);
 }
 
 .p5-tabs {
     display: flex;
-    gap: 4px;
+    gap: 6px;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
+    padding: 4px;
+    background: var(--p5-dark);
+    border-radius: 12px;
+    border: 1px solid var(--p5-border);
 }
 
 .p5-tab {
-    padding: 10px 24px;
+    padding: 10px 22px;
     font-family: var(--font-display);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     letter-spacing: 2px;
-    color: var(--p5-gray-light);
-    background: var(--p5-gray-dark);
-    clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
-    transition: all var(--transition-fast);
-    transform: skewX(-3deg);
+    color: var(--p5-gray-mid);
+    border-radius: 8px;
+    transition: all 0.3s var(--ease-out-expo);
+    position: relative;
 }
 
 .p5-tab:hover {
-    background: var(--p5-gray);
     color: var(--p5-white);
+    background: rgba(255,255,255,0.04);
 }
 
 .p5-tab.active {
     background: var(--p5-red);
     color: var(--p5-white);
+    box-shadow: 0 2px 12px rgba(232,25,44,0.3);
 }
 
 .p5-tab span {
-    transform: skewX(3deg);
     display: inline-block;
 }
 
@@ -302,46 +290,65 @@
     align-items: center;
     gap: 16px;
     padding: 16px 20px;
-    background: var(--p5-dark);
-    border: 1px solid var(--p5-gray-dark);
-    clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
-    transition: all var(--transition-fast);
+    background: var(--p5-card);
+    border: 1px solid var(--p5-border);
+    border-radius: 10px;
+    transition: all 0.3s var(--ease-out-expo);
     margin-bottom: 8px;
 }
 
 .p5-list-item:hover {
-    border-color: var(--p5-red);
-    background: var(--p5-darker);
-    transform: translateX(5px);
+    border-color: rgba(232,25,44,0.3);
+    background: var(--p5-card-hover);
+    transform: translateX(4px);
 }
 
 .p5-stat-card {
-    background: var(--p5-dark);
-    border: 1px solid var(--p5-gray-dark);
-    clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
-    padding: 30px;
+    background: var(--p5-card);
+    border: 1px solid var(--p5-border);
+    border-radius: 12px;
+    padding: 32px 24px;
     text-align: center;
-    transition: all 0.4s ease;
+    transition: all 0.4s var(--ease-out-expo);
+    position: relative;
+    overflow: hidden;
+}
+
+.p5-stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--p5-red), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .p5-stat-card:hover {
-    border-color: var(--p5-red);
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-card-hover);
+    border-color: rgba(232,25,44,0.3);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-glow-sm);
+}
+
+.p5-stat-card:hover::before {
+    opacity: 1;
 }
 
 .p5-stat-number {
     font-family: var(--font-display);
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     color: var(--p5-red);
     line-height: 1;
     margin-bottom: 8px;
+    text-shadow: 0 0 20px var(--p5-red-glow);
 }
 
 .p5-stat-label {
     font-family: var(--font-heading);
-    font-size: 0.9rem;
-    color: var(--p5-gray-light);
+    font-size: 0.85rem;
+    color: var(--p5-gray-mid);
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -349,33 +356,27 @@
 .p5-game-header {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 480px;
     overflow: hidden;
 }
 
 .p5-game-header-bg {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     background-size: cover;
     background-position: center;
-    filter: brightness(0.4);
-    transition: transform 8s ease;
+    filter: brightness(0.35) saturate(1.2);
+    transition: transform 10s ease;
 }
 
 .p5-game-header:hover .p5-game-header-bg {
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 .p5-game-header-overlay {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(10,10,10,0.9) 0%, rgba(230,0,18,0.2) 100%);
+    inset: 0;
+    background: linear-gradient(180deg, rgba(8,8,10,0.3) 0%, rgba(8,8,10,0.95) 100%);
 }
 
 .p5-game-header-content {
@@ -391,81 +392,84 @@
 
 .p5-game-info h1 {
     font-family: var(--font-display);
-    font-size: 5rem;
-    letter-spacing: 8px;
+    font-size: 4.5rem;
+    letter-spacing: 10px;
     line-height: 1;
     margin-bottom: 12px;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.5);
 }
 
 .p5-game-info .genre {
     font-family: var(--font-heading);
-    font-size: 1.1rem;
-    color: var(--p5-red);
+    font-size: 1rem;
+    color: var(--p5-red-light);
     letter-spacing: 3px;
     text-transform: uppercase;
     margin-bottom: 16px;
 }
 
 .p5-game-info .description {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: var(--p5-gray-light);
     max-width: 600px;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 .forum-card {
-    background: var(--p5-dark);
-    border: 1px solid var(--p5-gray-dark);
-    clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
-    padding: 20px;
-    margin-bottom: 12px;
-    transition: all 0.3s ease;
+    background: var(--p5-card);
+    border: 1px solid var(--p5-border);
+    border-radius: 10px;
+    padding: 20px 22px;
+    margin-bottom: 10px;
+    transition: all 0.3s var(--ease-out-expo);
     cursor: pointer;
 }
 
 .forum-card:hover {
-    border-color: var(--p5-red);
-    transform: translateX(5px);
+    border-color: rgba(232,25,44,0.3);
+    transform: translateX(4px);
+    box-shadow: var(--shadow-sm);
 }
 
 .forum-card-title {
     font-family: var(--font-heading);
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 700;
     margin-bottom: 6px;
 }
 
 .forum-card-meta {
-    font-size: 0.8rem;
-    color: var(--p5-gray-light);
+    font-size: 0.78rem;
+    color: var(--p5-gray-mid);
     display: flex;
     gap: 16px;
 }
 
 .forum-card-excerpt {
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     color: var(--p5-gray-mid);
     margin-top: 8px;
+    line-height: 1.5;
 }
 
 .profile-card {
-    background: var(--p5-dark);
-    border: 1px solid var(--p5-gray-dark);
-    clip-path: polygon(16px 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
+    background: var(--p5-card);
+    border: 1px solid var(--p5-border);
+    border-radius: 14px;
     overflow: hidden;
-    transition: all 0.4s ease;
+    transition: all 0.4s var(--ease-out-expo);
 }
 
 .profile-card:hover {
-    border-color: var(--p5-red);
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-card-hover);
+    border-color: rgba(232,25,44,0.3);
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lg);
 }
 
 .profile-banner {
     width: 100%;
     height: 120px;
-    background: var(--gradient-p5);
+    background: linear-gradient(135deg, var(--p5-red-dark) 0%, var(--p5-red-darker) 100%);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -473,49 +477,51 @@
 
 .profile-avatar-wrapper {
     position: absolute;
-    bottom: -35px;
+    bottom: -32px;
     left: 20px;
 }
 
 .profile-avatar-large {
-    width: 70px;
-    height: 70px;
-    border: 3px solid var(--p5-red);
-    clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+    width: 64px;
+    height: 64px;
+    border: 3px solid var(--p5-card);
+    border-radius: 12px;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
-    background-color: var(--p5-gray-dark);
+    font-size: 1.8rem;
+    background-color: var(--p5-dark);
+    box-shadow: var(--shadow-md);
 }
 
 .profile-info {
-    padding: 45px 20px 20px;
+    padding: 42px 20px 20px;
 }
 
 .profile-name {
     font-family: var(--font-display);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: 2px;
 }
 
 .profile-bio {
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     color: var(--p5-gray-light);
     margin-top: 6px;
+    line-height: 1.5;
 }
 
 .profile-meta {
     display: flex;
-    gap: 16px;
+    gap: 14px;
     margin-top: 12px;
     flex-wrap: wrap;
 }
 
 .profile-meta-item {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     color: var(--p5-gray-mid);
     display: flex;
     align-items: center;
