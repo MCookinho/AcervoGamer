@@ -1,18 +1,58 @@
 const Games = {
     data: [],
+    GITHUB_REPO: 'MCookinho/AcervoGamer',
+    CACHE_KEY: 'acervogamer_games_cache',
+    CACHE_TTL: 1000 * 60 * 30,
 
     async loadGames() {
         try {
-            const indexRes = await fetch('data/games/index.json');
-            const slugs = await indexRes.json();
-            const promises = slugs.map(slug =>
-                fetch(`data/games/${slug}.json`).then(r => r.json())
+            const cached = this.getCached();
+            if (cached) {
+                this.data = cached;
+                return;
+            }
+
+            const apiUrl = `https://api.github.com/repos/${this.GITHUB_REPO}/contents/data/games`;
+            const res = await fetch(apiUrl);
+            if (!res.ok) throw new Error('GitHub API error');
+            const files = await res.json();
+
+            const jsonFiles = files.filter(f =>
+                f.type === 'file' && f.name.endsWith('.json') && f.name !== 'index.json'
+            );
+
+            const promises = jsonFiles.map(f =>
+                fetch(f.download_url).then(r => r.json())
             );
             this.data = await Promise.all(promises);
+            this.setCache(this.data);
         } catch (error) {
             console.error('Erro ao carregar jogos:', error);
             this.data = [];
         }
+    },
+
+    getCached() {
+        try {
+            const raw = localStorage.getItem(this.CACHE_KEY);
+            if (!raw) return null;
+            const { data, timestamp } = JSON.parse(raw);
+            if (Date.now() - timestamp > this.CACHE_TTL) return null;
+            return data;
+        } catch { return null; }
+    },
+
+    setCache(data) {
+        try {
+            localStorage.setItem(this.CACHE_KEY, JSON.stringify({
+                data,
+                timestamp: Date.now()
+            }));
+        } catch {}
+    },
+
+    clearCache() {
+        localStorage.removeItem(this.CACHE_KEY);
     },
 
     getGame(slug) {
