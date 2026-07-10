@@ -211,7 +211,7 @@ const Games = {
                     </div>
                 </div>
                 ${game.videoPreview ? `
-                    <h4 style="font-family: var(--font-display); font-size: 1.3rem; letter-spacing: 2px; margin-bottom: 16px;">PREVIEW</h4>
+                    <h4 style="font-family: var(--font-display); font-size: 1.3rem; letter-spacing: 2px; margin-bottom: 16px;">TRAILER</h4>
                     <div class="video-embed">
                         <iframe src="${game.videoPreview}" allowfullscreen></iframe>
                     </div>
