@@ -194,10 +194,6 @@
     .audio-volume {
         display: none;
     }
-
-    .page-transition {
-        perspective: none;
-    }
 }
 
 @media (max-width: 480px) {

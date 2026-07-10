@@ -108,15 +108,18 @@ const Games = {
 
         container.querySelectorAll('.p5-tab').forEach(tab => {
             tab.addEventListener('click', () => {
+                if (tab.classList.contains('active')) return;
                 container.querySelectorAll('.p5-tab').forEach(t => t.classList.remove('active'));
                 tab.classList.add('active');
-                tabContent.classList.add('cube-exit');
+                tabContent.classList.add('tab-transition-exit');
                 setTimeout(() => {
                     this.renderTab(tabContent, game, tab.dataset.tab);
-                    tabContent.classList.remove('cube-exit');
-                    tabContent.classList.add('cube-enter');
-                    setTimeout(() => tabContent.classList.remove('cube-enter'), 400);
-                }, 350);
+                    tabContent.classList.remove('tab-transition-exit');
+                    tabContent.classList.add('tab-transition-enter', 'tab-content-reveal');
+                    setTimeout(() => {
+                        tabContent.classList.remove('tab-transition-enter');
+                    }, 350);
+                }, 250);
             });
         });
     },
