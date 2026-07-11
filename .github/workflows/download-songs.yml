@@ -29,13 +29,16 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Install yt-dlp
-        run: pip install --break-system-packages yt-dlp
+        run: |
+          pip install --break-system-packages yt-dlp
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Verify installations
         run: |
           yt-dlp --version
           ffmpeg -version | head -1
           node --version
+          echo "PATH=$PATH"
 
       - name: Download songs
         run: |

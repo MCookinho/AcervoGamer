@@ -58,20 +58,11 @@
     ],
     "stores": [
         {
-            "store": "Eneba",
-            "url": "https://www.eneba.com/steam-deltarune",
+            "store": "Steam",
+            "url": "https://store.steampowered.com/app/1671210/DELTARUNE/",
             "platform": "PC",
-            "price": 0,
-            "priceOriginal": "Grátis",
-            "coupon": null,
-            "lastUpdated": "2025-07-10"
-        },
-        {
-            "store": "PlayStation Store",
-            "url": "https://store.playstation.com/pt-br/category/deltarune",
-            "platform": "PS4 / PS5",
-            "price": 0,
-            "priceOriginal": "Grátis",
+            "price": 115.94,
+            "priceOriginal": "US$19.99",
             "coupon": null,
             "lastUpdated": "2025-07-10"
         },
@@ -79,17 +70,17 @@
             "store": "Nintendo eShop",
             "url": "https://www.nintendo.com/pt-br/store/products/deltarune-switch/",
             "platform": "Nintendo Switch",
-            "price": 0,
-            "priceOriginal": "Grátis",
+            "price": 95.2,
+            "priceOriginal": "R$119,00",
             "coupon": null,
             "lastUpdated": "2025-07-10"
         },
         {
-            "store": "Xbox Store",
-            "url": "https://www.xbox.com/pt-br/games/store/deltarune/9nkcl0v7lwsk",
-            "platform": "Xbox One / Series X|S",
-            "price": 0,
-            "priceOriginal": "Grátis",
+            "store": "PlayStation Store",
+            "url": "https://store.playstation.com/pt-br/concept/233495",
+            "platform": "PS4 / PS5",
+            "price": 95.2,
+            "priceOriginal": "R$119,00",
             "coupon": null,
             "lastUpdated": "2025-07-10"
         }

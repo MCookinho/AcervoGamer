@@ -48,15 +48,40 @@ function saveGame(slug, data) {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 4) + '\n', 'utf8');
 }
 
-function downloadSong(youtubeUrl, outputPath) {
-    const cmd = `yt-dlp -x --audio-format mp3 --audio-quality 5 -o "${outputPath}" "${youtubeUrl}" --no-playlist --quiet --no-warnings 2>&1`;
+function getYtDlpPath() {
     try {
-        execSync(cmd, { timeout: 120000 });
-        return true;
-    } catch (e) {
-        console.error(`    ✗ Failed: ${e.message.substring(0, 100)}`);
-        return false;
+        return execSync('which yt-dlp', { encoding: 'utf8' }).trim();
+    } catch {
+        try {
+            const home = require('os').homedir();
+            const localBin = path.join(home, '.local', 'bin', 'yt-dlp');
+            if (fs.existsSync(localBin)) return localBin;
+        } catch {}
+        return 'yt-dlp';
     }
+}
+
+const YT_DLP = getYtDlpPath();
+
+function downloadSong(youtubeUrl, outputPath) {
+    const cmd = `"${YT_DLP}" -x --audio-format mp3 --audio-quality 5 -o "${outputPath}" "${youtubeUrl}" --no-playlist --no-check-certificates --extractor-args "youtube:player_client=android" 2>&1`;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+            execSync(cmd, { timeout: 180000 });
+            return true;
+        } catch (e) {
+            if (attempt < 3) {
+                console.log(`    ↻ Attempt ${attempt} failed, retrying in 3s...`);
+                execSync('sleep 3');
+            } else {
+                const stderr = e.stderr ? e.stderr.toString().substring(0, 300) : '';
+                const stdout = e.stdout ? e.stdout.toString().substring(0, 300) : '';
+                console.error(`    ✗ Failed: ${stderr || stdout || e.message.substring(0, 200)}`);
+                return false;
+            }
+        }
+    }
+    return false;
 }
 
 function getTrackKey(track) {
