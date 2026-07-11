@@ -54,30 +54,26 @@
 .landing-hero-bg {
     position: absolute;
     inset: 0;
-    background:
-        radial-gradient(ellipse at 25% 30%, rgba(0,200,83,0.12) 0%, transparent 50%),
-        radial-gradient(ellipse at 75% 70%, rgba(41,121,255,0.1) 0%, transparent 50%),
-        radial-gradient(ellipse at 50% 90%, rgba(255,214,0,0.06) 0%, transparent 40%),
-        var(--br-black);
-    animation: heroGlow 12s ease-in-out infinite alternate;
+    background: var(--br-black);
 }
 
-@keyframes heroGlow {
-    0% { filter: hue-rotate(0deg); }
-    100% { filter: hue-rotate(15deg); }
-}
-
-.landing-hero-bg::after {
-    content: '';
+.landing-hero-video {
     position: absolute;
     inset: 0;
-    background: repeating-linear-gradient(
-        60deg,
-        transparent,
-        transparent 120px,
-        rgba(0,200,83,0.018) 120px,
-        rgba(0,200,83,0.018) 122px
-    );
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+}
+
+.landing-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(ellipse at 25% 30%, rgba(0,200,83,0.15) 0%, transparent 50%),
+        radial-gradient(ellipse at 75% 70%, rgba(41,121,255,0.12) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 90%, rgba(255,214,0,0.08) 0%, transparent 40%),
+        linear-gradient(180deg, rgba(8,8,12,0.3) 0%, rgba(8,8,12,0.7) 100%);
 }
 
 .landing-hero-content {
@@ -93,6 +89,7 @@
     letter-spacing: 16px;
     line-height: 0.85;
     margin-bottom: 24px;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.6), 0 4px 40px rgba(0,0,0,0.4);
 }
 
 .landing-hero-title span {
@@ -104,6 +101,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     animation: gradientText 4s ease infinite;
+    filter: drop-shadow(0 2px 20px rgba(0,200,83,0.3));
 }
 
 .landing-hero-subtitle {
@@ -113,6 +111,7 @@
     letter-spacing: 6px;
     text-transform: uppercase;
     margin-bottom: 48px;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.5);
 }
 
 .landing-hero-cta {
@@ -127,7 +126,7 @@
     font-family: var(--font-display);
     font-size: 1.15rem;
     letter-spacing: 4px;
-    color: var(--br-white);
+    color: var(--br-black);
     background: var(--gradient-main);
     background-size: 200% 100%;
     border: 1px solid rgba(255,255,255,0.08);
@@ -136,6 +135,7 @@
     position: relative;
     overflow: hidden;
     animation: gradientShift 5s ease infinite;
+    text-shadow: none;
 }
 
 .p5-btn-large::before {
@@ -410,7 +410,7 @@
 
 .file-meta {
     font-size: 0.78rem;
-    color: var(--br-gray-mid);
+    color: var(--br-gray-light);
     margin-top: 4px;
     display: flex;
     gap: 16px;
@@ -423,10 +423,12 @@
     font-family: var(--font-display);
     font-size: 0.8rem;
     letter-spacing: 2px;
+    color: var(--br-black);
     border-radius: 8px;
     transition: all 0.3s var(--ease-out-expo);
     white-space: nowrap;
     animation: gradientShift 4s ease infinite;
+    text-shadow: none;
 }
 
 .file-download:hover {
@@ -471,7 +473,7 @@
 
 .soundtrack-artist {
     font-size: 0.78rem;
-    color: var(--br-gray-mid);
+    color: var(--br-gray-light);
 }
 
 .soundtrack-links {
@@ -536,7 +538,7 @@
 
 .comment-time {
     font-size: 0.75rem;
-    color: var(--br-gray-mid);
+    color: var(--br-gray-light);
 }
 
 .comment-text {
@@ -754,7 +756,7 @@
 
 .audio-artist {
     font-size: 0.75rem;
-    color: var(--br-gray-mid);
+    color: var(--br-gray-light);
 }
 
 .audio-controls {
@@ -785,11 +787,12 @@
     height: 42px;
     background: var(--gradient-main);
     background-size: 200% 100%;
-    color: var(--br-white);
+    color: var(--br-black);
     border-radius: 50%;
     font-size: 1rem;
     box-shadow: 0 2px 12px rgba(0,200,83,0.3);
     animation: gradientShift 4s ease infinite;
+    text-shadow: none;
 }
 
 .audio-btn-play:hover {
@@ -849,7 +852,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 0.7rem;
-    color: var(--br-gray-mid);
+    color: var(--br-gray-light);
 }
 
 .audio-volume {
@@ -880,7 +883,7 @@
 
 .audio-close {
     font-size: 0.85rem;
-    color: var(--br-gray-mid);
+    color: var(--br-gray-light);
     border-radius: 50%;
 }
 
@@ -980,7 +983,7 @@
 
 .profile-detail-label {
     font-size: 0.72rem;
-    color: var(--br-gray-mid);
+    color: var(--br-gray-light);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 4px;
@@ -1061,7 +1064,7 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 1rem;
-    color: var(--br-gray-mid);
+    color: var(--br-gray-light);
     pointer-events: none;
 }
 
@@ -1149,7 +1152,7 @@
 
 .empty-state-text {
     font-size: 0.88rem;
-    color: var(--br-gray-mid);
+    color: var(--br-gray-light);
     line-height: 1.6;
 }
 

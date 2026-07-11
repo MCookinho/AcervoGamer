@@ -200,6 +200,7 @@ img {
     line-height: 0.9;
     letter-spacing: 14px;
     color: var(--br-white);
+    text-shadow: 0 2px 20px rgba(0,0,0,0.5);
 }
 
 .splash-title span {
@@ -240,7 +241,7 @@ img {
 .splash-text {
     font-family: var(--font-heading);
     font-size: 0.78rem;
-    color: var(--br-gray-mid);
+    color: var(--br-gray-light);
     letter-spacing: 6px;
     text-transform: uppercase;
 }
@@ -362,7 +363,7 @@ img {
     font-family: var(--font-display);
     font-size: 0.95rem;
     letter-spacing: 3px;
-    color: var(--br-white);
+    color: var(--br-black);
     background: var(--gradient-main);
     background-size: 200% 100%;
     border: none;
@@ -371,6 +372,7 @@ img {
     text-transform: uppercase;
     overflow: hidden;
     animation: gradientShift 4s ease infinite;
+    text-shadow: none;
 }
 
 .p5-btn::before {

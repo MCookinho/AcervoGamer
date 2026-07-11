@@ -89,6 +89,33 @@ const App = {
         Router.register('*', (container) => this.render404(container));
     },
 
+    heroVideos: [
+        'adventure-time-pixel-art.1920x1080.mp4',
+        'barbara-summerset-and-sunrise.1920x1080.mp4',
+        'city-above-clouds.1920x1080.mp4',
+        'cyberpunk-edgerunners-characters.1920x1080.mp4',
+        'dark-souls-firelink-shrine.1920x1080.mp4',
+        'elden-ring-pixel.1920x1080.mp4',
+        'hornet-and-the-knight.1920x1080.mp4',
+        'koi.mp4',
+        'maplestory-moonflower-hill.1920x1080.mp4',
+        'may-riding-a-bike-pokemon-emerald.1920x1080.mp4',
+        'nekomata-zzz.1920x1080.mp4',
+        'pixelcity.mp4',
+        'pixel-gaming-room.1920x1080.mp4',
+        'sirin-in-the-summertime.1920x1080.mp4',
+        'stardew-valley-bus-moewalls-com.mp4',
+        'the-witcher-3-pixel.1920x1080.mp4',
+        'ukinami-yuzuha-pixel-art.1920x1080.mp4',
+        'yumi-on-the-roof.1920x1080.mp4',
+        'zelda.3840x2160.mp4'
+    ],
+
+    getRandomHeroVideo() {
+        const idx = Math.floor(Math.random() * this.heroVideos.length);
+        return `assets/videos/hero/${this.heroVideos[idx]}`;
+    },
+
     async renderHome(container) {
         let totalTranslations = 0;
         let totalMods = 0;
@@ -100,7 +127,12 @@ const App = {
 
         container.innerHTML = `
             <div class="landing-hero">
-                <div class="landing-hero-bg"></div>
+                <div class="landing-hero-bg">
+                    <video class="landing-hero-video" autoplay muted loop playsinline>
+                        <source src="${this.getRandomHeroVideo()}" type="video/mp4">
+                    </video>
+                    <div class="landing-hero-overlay"></div>
+                </div>
                 <div class="landing-hero-content">
                     <h1 class="landing-hero-title animate-in">
                         ACERVO<br><span>GAMER</span>
