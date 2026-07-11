@@ -311,7 +311,16 @@ const AudioPlayer = {
         const thumb = Utils.$('#audio-thumb');
         if (title) title.textContent = track.title || 'Nenhuma música';
         if (artist) artist.textContent = track.artist || '';
-        if (thumb) thumb.style.backgroundImage = track.cover ? `url(${track.cover})` : '';
+        if (thumb) {
+            let thumbUrl = '';
+            if (track.cover) {
+                thumbUrl = track.cover;
+            } else if (track.youtubeUrl) {
+                const match = track.youtubeUrl.match(/[?&]v=([^&]+)/);
+                if (match) thumbUrl = `https://img.youtube.com/vi/${match[1]}/mqdefault.jpg`;
+            }
+            thumb.style.backgroundImage = thumbUrl ? `url(${thumbUrl})` : '';
+        }
     },
 
     formatTime(seconds) {
