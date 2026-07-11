@@ -55,6 +55,46 @@ const AudioPlayer = {
         }
     },
 
+    show() {
+        const player = Utils.$('#audio-player');
+        if (player) {
+            player.classList.remove('hidden');
+            requestAnimationFrame(() => {
+                player.classList.add('visible');
+            });
+        }
+        Utils.$('.main-content')?.classList.add('with-player');
+    },
+
+    hide() {
+        const player = Utils.$('#audio-player');
+        if (player) {
+            player.classList.remove('visible');
+            const onEnd = () => {
+                player.classList.add('hidden');
+                player.removeEventListener('transitionend', onEnd);
+            };
+            player.addEventListener('transitionend', onEnd);
+        }
+        Utils.$('.main-content')?.classList.remove('with-player');
+    },
+
+    playFromSoundtrack(track, gameName) {
+        const audioUrl = track.audioUrl || '';
+        this.currentTrack = { ...track, gameName };
+
+        if (audioUrl) {
+            this.audio.src = audioUrl;
+            this.audio.play().catch(() => {});
+        } else if (track.youtubeUrl) {
+            window.open(track.youtubeUrl, '_blank');
+            return;
+        }
+
+        this.updateInfo(this.currentTrack);
+        this.show();
+    },
+
     playTrack(track) {
         this.currentTrack = track;
         if (track.src) {
@@ -62,8 +102,7 @@ const AudioPlayer = {
             this.audio.play().catch(() => {});
         }
         this.updateInfo(track);
-        Utils.show('#audio-player');
-        Utils.$('.main-content')?.classList.add('with-player');
+        this.show();
     },
 
     setPlaylist(tracks, startIndex = 0) {
@@ -100,8 +139,7 @@ const AudioPlayer = {
         this.audio.src = '';
         this.isPlaying = false;
         this.currentTrack = null;
-        Utils.hide('#audio-player');
-        Utils.$('.main-content')?.classList.remove('with-player');
+        this.hide();
         this.updatePlayButton();
     },
 

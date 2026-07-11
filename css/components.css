@@ -485,12 +485,13 @@
 .soundtrack-links {
     display: flex;
     gap: 6px;
+    margin-top: 6px;
 }
 
 .soundtrack-link {
-    padding: 5px 12px;
-    font-size: 0.7rem;
-    letter-spacing: 1px;
+    padding: 3px 10px;
+    font-size: 0.68rem;
+    letter-spacing: 0.5px;
     border: 1px solid var(--br-border);
     color: var(--br-gray-light);
     border-radius: 6px;
@@ -501,6 +502,44 @@
     background: var(--br-green);
     border-color: var(--br-green);
     color: var(--br-white);
+}
+
+.soundtrack-play-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.soundtrack-duration {
+    font-size: 0.78rem;
+    color: var(--br-gray-light);
+    font-family: var(--font-heading);
+    min-width: 36px;
+    text-align: right;
+}
+
+.soundtrack-play-btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid var(--br-border);
+    background: var(--br-card);
+    color: var(--br-green);
+    font-size: 0.85rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.25s ease;
+    flex-shrink: 0;
+}
+
+.soundtrack-play-btn:hover {
+    background: var(--br-green);
+    border-color: var(--br-green);
+    color: var(--br-white);
+    transform: scale(1.1);
+    box-shadow: 0 2px 12px rgba(0,230,118,0.3);
 }
 
 .comment-item {
@@ -719,6 +758,14 @@
     -webkit-backdrop-filter: blur(20px) saturate(1.3);
     border-top: 1px solid var(--br-border);
     z-index: 900;
+    transform: translateY(100%);
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+}
+
+.audio-player.visible {
+    transform: translateY(0);
+    pointer-events: all;
 }
 
 .audio-player-inner {

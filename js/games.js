@@ -300,10 +300,14 @@ const Games = {
                 <div class="soundtrack-info">
                     <div class="soundtrack-title">${t.title}</div>
                     <div class="soundtrack-artist">${t.artist || game.developer}</div>
+                    <div class="soundtrack-links">
+                        ${t.spotifyUrl ? `<a href="${t.spotifyUrl}" target="_blank" class="soundtrack-link">Spotify ↗</a>` : ''}
+                        ${t.youtubeUrl ? `<a href="${t.youtubeUrl}" target="_blank" class="soundtrack-link">YouTube ↗</a>` : ''}
+                    </div>
                 </div>
-                <div class="soundtrack-links">
-                    ${t.spotifyUrl ? `<a href="${t.spotifyUrl}" target="_blank" class="soundtrack-link">SPOTIFY</a>` : ''}
-                    ${t.youtubeUrl ? `<a href="${t.youtubeUrl}" target="_blank" class="soundtrack-link">YOUTUBE</a>` : ''}
+                <div class="soundtrack-play-area">
+                    <span class="soundtrack-duration">${t.duration || ''}</span>
+                    <button class="soundtrack-play-btn" onclick="AudioPlayer.playFromSoundtrack(${JSON.stringify(t).replace(/"/g, '&quot;')}, '${game.name}')">▶</button>
                 </div>
             </div>
         `).join('');

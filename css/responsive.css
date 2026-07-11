@@ -257,6 +257,11 @@
         text-align: center;
     }
 
+    .soundtrack-play-area {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
     /* Carousel mobile - single card view */
     .games-carousel .p5-card {
         min-width: 260px;

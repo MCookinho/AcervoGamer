@@ -15,7 +15,7 @@
         "previewGif": "URL de um GIF animado do jogo. Exibido como preview ao passar o mouse sobre o card (hover). Se omitido, card mostra apenas a capa estática.",
         "translations": "Lista de traduções disponíveis para o jogo. Cada item deve ter: name, version, date (YYYY-MM-DD), size, downloadUrl, officialUrl (opcional - URL do site oficial da tradução. Se ausente, nenhum link 'Oficial' é exibido)",
         "mods": "Lista de mods disponíveis para o jogo. Cada item deve ter: name, version, author, downloadUrl, officialUrl (opcional - URL do site oficial do mod. Se ausente, nenhum link 'Oficial' é exibido)",
-        "soundtrack": "Lista de músicas da trilha sonora. Cada item deve ter: title, artist, spotifyUrl (opcional), youtubeUrl (opcional)",
+        "soundtrack": "Lista de músicas da trilha sonora. Cada item deve ter: title, artist, duration (ex: '3:45'), spotifyUrl (opcional), youtubeUrl (opcional), audioUrl (opcional - URL direta de áudio MP3/OGG para tocar no player. Se ausente, clica no YouTube)",
         "gameplays": "Lista de vídeos de gameplay. Cada item deve ter: title, embedUrl (YouTube embed), youtubeUrl (link direto)"
     },
 
@@ -63,54 +63,63 @@
         {
             "title": "The Beginning",
             "artist": "Toby Fox",
+            "duration": "1:35",
             "spotifyUrl": "https://open.spotify.com/search/the%20beginning%20deltarune",
             "youtubeUrl": "https://www.youtube.com/results?search_query=the+beginning+deltarune"
         },
         {
             "title": "My Castle Town",
             "artist": "Toby Fox",
+            "duration": "1:50",
             "spotifyUrl": "",
             "youtubeUrl": "https://www.youtube.com/results?search_query=my+castle+town+deltarune"
         },
         {
             "title": "A CYBER'S WORLD?",
             "artist": "Toby Fox",
+            "duration": "2:22",
             "spotifyUrl": "https://open.spotify.com/search/a%20cyber%27s%20world%20deltarune",
             "youtubeUrl": "https://www.youtube.com/results?search_query=a+cybers+world+deltarune"
         },
         {
             "title": "BIG SHOT",
             "artist": "Toby Fox",
+            "duration": "2:07",
             "spotifyUrl": "https://open.spotify.com/search/big%20shot%20deltarune",
             "youtubeUrl": "https://www.youtube.com/results?search_query=big+shot+spamton+deltarune"
         },
         {
             "title": "Field of Hopes and Dreams",
             "artist": "Toby Fox",
+            "duration": "3:12",
             "spotifyUrl": "https://open.spotify.com/search/field%20of%20hopes%20and%20dreams",
             "youtubeUrl": "https://www.youtube.com/results?search_query=field+of+hopes+and+dreams+deltarune"
         },
         {
             "title": "Rude Buster",
             "artist": "Toby Fox",
+            "duration": "2:18",
             "spotifyUrl": "https://open.spotify.com/search/rude%20buster%20deltarune",
             "youtubeUrl": "https://www.youtube.com/results?search_query=rude+buster+deltarune"
         },
         {
             "title": "THE WORLD REVOLVING",
             "artist": "Toby Fox",
+            "duration": "2:44",
             "spotifyUrl": "https://open.spotify.com/search/the%20world%20revolving%20deltarune",
             "youtubeUrl": "https://www.youtube.com/results?search_query=the+world+revolving+deltarune"
         },
         {
             "title": "Dark, Darker, Darker Still",
             "artist": "Toby Fox",
+            "duration": "1:42",
             "spotifyUrl": "",
             "youtubeUrl": "https://www.youtube.com/results?search_query=dark+darker+darker+still+deltarune"
         },
         {
             "title": "Don't Forget",
             "artist": "Toby Fox",
+            "duration": "3:05",
             "spotifyUrl": "https://open.spotify.com/search/don%27t%20forget%20deltarune",
             "youtubeUrl": "https://www.youtube.com/results?search_query=don%27t+forget+deltarune"
         }

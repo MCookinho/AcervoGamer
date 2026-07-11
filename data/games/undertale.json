@@ -15,7 +15,7 @@
         "previewGif": "URL de um GIF animado do jogo. Exibido como preview ao passar o mouse sobre o card (hover). Se omitido, card mostra apenas a capa estática.",
         "translations": "Lista de traduções disponíveis para o jogo. Cada item deve ter: name, version, date (YYYY-MM-DD), size, downloadUrl, officialUrl (opcional - URL do site oficial da tradução. Se ausente, nenhum link 'Oficial' é exibido)",
         "mods": "Lista de mods disponíveis para o jogo. Cada item deve ter: name, version, author, downloadUrl, officialUrl (opcional - URL do site oficial do mod. Se ausente, nenhum link 'Oficial' é exibido)",
-        "soundtrack": "Lista de músicas da trilha sonora. Cada item deve ter: title, artist, spotifyUrl (opcional), youtubeUrl (opcional)",
+        "soundtrack": "Lista de músicas da trilha sonora. Cada item deve ter: title, artist, duration (ex: '3:45'), spotifyUrl (opcional), youtubeUrl (opcional), audioUrl (opcional - URL direta de áudio MP3/OGG para tocar no player. Se ausente, clica no YouTube)",
         "gameplays": "Lista de vídeos de gameplay. Cada item deve ter: title, embedUrl (YouTube embed), youtubeUrl (link direto)"
     },
 
@@ -69,72 +69,84 @@
         {
             "title": "Once Upon a Time",
             "artist": "Toby Fox",
+            "duration": "1:20",
             "spotifyUrl": "https://open.spotify.com/search/once%20upon%20a%20time%20undertale",
             "youtubeUrl": "https://www.youtube.com/results?search_query=once+upon+a+time+undertale"
         },
         {
             "title": "Fallen Down",
             "artist": "Toby Fox",
+            "duration": "1:52",
             "spotifyUrl": "https://open.spotify.com/search/fallen%20down%20undertale",
             "youtubeUrl": "https://www.youtube.com/results?search_query=fallen+down+undertale"
         },
         {
             "title": "Ruins",
             "artist": "Toby Fox",
+            "duration": "2:25",
             "spotifyUrl": "",
             "youtubeUrl": "https://www.youtube.com/results?search_query=ruins+undertale"
         },
         {
             "title": "Snowdin Town",
             "artist": "Toby Fox",
+            "duration": "2:13",
             "spotifyUrl": "https://open.spotify.com/search/snowdin%20town%20undertale",
             "youtubeUrl": "https://www.youtube.com/results?search_query=snowdin+town+undertale"
         },
         {
             "title": "Shop",
             "artist": "Toby Fox",
+            "duration": "0:47",
             "spotifyUrl": "",
             "youtubeUrl": "https://www.youtube.com/results?search_query=shop+undertale"
         },
         {
             "title": "Waterfall",
             "artist": "Toby Fox",
+            "duration": "3:05",
             "spotifyUrl": "https://open.spotify.com/search/waterfall%20undertale",
             "youtubeUrl": "https://www.youtube.com/results?search_query=waterfall+undertale"
         },
         {
             "title": "Battle Against a True Hero",
             "artist": "Toby Fox",
+            "duration": "2:24",
             "spotifyUrl": "https://open.spotify.com/search/battle%20against%20a%20true%20hero",
             "youtubeUrl": "https://www.youtube.com/results?search_query=battle+against+a+true+hero+undertale"
         },
         {
             "title": "Spider Dance",
             "artist": "Toby Fox",
+            "duration": "2:08",
             "spotifyUrl": "https://open.spotify.com/search/spider%20dance%20undertale",
             "youtubeUrl": "https://www.youtube.com/results?search_query=spider+dance+undertale"
         },
         {
             "title": "Bonetrousle",
             "artist": "Toby Fox",
+            "duration": "1:48",
             "spotifyUrl": "https://open.spotify.com/search/bonetrousle%20undertale",
             "youtubeUrl": "https://www.youtube.com/results?search_query=bonetrousle+undertale"
         },
         {
             "title": "Hopes and Dreams",
             "artist": "Toby Fox",
+            "duration": "2:55",
             "spotifyUrl": "https://open.spotify.com/search/hopes%20and%20dreams%20undertale",
             "youtubeUrl": "https://www.youtube.com/results?search_query=hopes+and+dreams+undertale"
         },
         {
             "title": "Megalovania",
             "artist": "Toby Fox",
+            "duration": "3:28",
             "spotifyUrl": "https://open.spotify.com/search/megalovania%20undertale",
             "youtubeUrl": "https://www.youtube.com/results?search_query=megalovania+undertale"
         },
         {
             "title": "His Theme",
             "artist": "Toby Fox",
+            "duration": "1:53",
             "spotifyUrl": "https://open.spotify.com/search/his%20theme%20undertale",
             "youtubeUrl": "https://www.youtube.com/results?search_query=his+theme+undertale"
         }
