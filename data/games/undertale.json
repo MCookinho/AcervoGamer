@@ -8,6 +8,7 @@
         "year": "Ano de lançamento original do jogo",
         "cover": "URL da imagem de capa do jogo. Exibida nos cards e na página de detalhes. Aceita qualquer URL de imagem (Steam CDN, Imgur, etc). Se omitido, o card não mostra imagem.",
         "background": "URL da imagem de fundo da página de detalhes do jogo. Aparece atrás do título e descrição na página individual. Se omitido, usa fundo escuro padrão.",
+        "bannerGif": "URL de um GIF animado para o banner da página de detalhes do jogo. Roda em loop como fundo do cabeçalho. Se omitido, usa a imagem estática do campo 'background'.",
         "shortDescription": "Descrição curta do jogo (1-2 frases). Exibida nos cards na listagem de jogos.",
         "fullDescription": "Descrição completa do jogo. Exibida na aba 'Visão Geral' da página de detalhes.",
         "videoPreview": "URL de embed do YouTube do trailer do jogo (formato: https://www.youtube.com/embed/{ID}). Exibido na aba 'Visão Geral'. Se omitido, aba sem trailer.",

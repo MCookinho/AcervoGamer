@@ -413,7 +413,16 @@
     transition: transform 12s ease;
 }
 
-.p5-game-header:hover .p5-game-header-bg {
+.p5-game-header-gif {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.35) saturate(1.2);
+    transition: transform 12s ease;
+}
+
+.p5-game-header:hover .p5-game-header-bg,
+.p5-game-header:hover .p5-game-header-gif {
     transform: scale(1.04);
 }
 

@@ -127,7 +127,10 @@ const Games = {
 
         container.innerHTML = `
             <div class="p5-game-header">
-                <div class="p5-game-header-bg" style="background-image: url('${game.background}')"></div>
+                ${game.bannerGif
+                    ? `<img class="p5-game-header-bg p5-game-header-gif" src="${game.bannerGif}" alt="${game.name} banner" loading="lazy">`
+                    : `<div class="p5-game-header-bg" style="background-image: url('${game.background}')"></div>`
+                }
                 <div class="p5-game-header-overlay"></div>
                 <div class="p5-game-header-content">
                     <div class="p5-game-info animate-in">
