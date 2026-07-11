@@ -68,7 +68,7 @@ const Games = {
                         <img src="${game.cover}" alt="${game.name}" loading="lazy">
                         ${game.previewGif ? `<img class="card-gif" src="${game.previewGif}" alt="${game.name} preview" loading="lazy">` : ''}
                         <div class="p5-card-image-overlay"></div>
-                        <div class="p5-card-badge">${game.genre}</div>
+                        <div class="p5-card-badges">${this.renderGenreTags(game.genre, false)}</div>
                     </div>
                     <div class="p5-card-body">
                         <h3 class="p5-card-title">${game.name}</h3>
@@ -87,8 +87,19 @@ const Games = {
 
     _searchState: { query: '', genre: '', scale: '', dev: '', era: '', rating: '', platform: '' },
 
+    splitGenres(genre) {
+        if (!genre) return [];
+        return genre.split('/').map(g => g.trim()).filter(Boolean);
+    },
+
+    renderGenreTags(genre, small) {
+        const genres = this.splitGenres(genre);
+        const cls = small ? 'genre-tag genre-tag-sm' : 'genre-tag';
+        return genres.map(g => `<span class="${cls}">${g}</span>`).join('');
+    },
+
     getFilterOptions() {
-        const genres = [...new Set(this.data.map(g => g.genre))].sort();
+        const genres = [...new Set(this.data.flatMap(g => this.splitGenres(g.genre)))].sort();
         const scales = [...new Set(this.data.map(g => g.productionScale).filter(Boolean))].sort();
         const devs = [...new Set(this.data.map(g => g.developer))].sort();
         const ratings = [...new Set(this.data.map(g => g.ageRating).filter(Boolean))].sort((a, b) => {
@@ -103,7 +114,7 @@ const Games = {
         const s = this._searchState;
         return this.data.filter(g => {
             if (s.query && !g.name.toLowerCase().includes(s.query.toLowerCase())) return false;
-            if (s.genre && g.genre !== s.genre) return false;
+            if (s.genre && !this.splitGenres(g.genre).includes(s.genre)) return false;
             if (s.scale && g.productionScale !== s.scale) return false;
             if (s.dev && g.developer !== s.dev) return false;
             if (s.rating && g.ageRating !== s.rating) return false;
@@ -127,7 +138,7 @@ const Games = {
                         <img src="${game.cover}" alt="${game.name}" loading="lazy">
                         ${game.previewGif ? `<img class="card-gif" src="${game.previewGif}" alt="${game.name} preview" loading="lazy">` : ''}
                         <div class="p5-card-image-overlay"></div>
-                        <div class="p5-card-badge">${game.genre}</div>
+                        <div class="p5-card-badges">${this.renderGenreTags(game.genre, false)}</div>
                     </div>
                     <div class="p5-card-body">
                         <h3 class="p5-card-title">${game.name}</h3>
