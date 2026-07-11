@@ -3,6 +3,7 @@ const Games = {
     GITHUB_REPO: 'MCookinho/AcervoGamer',
     CACHE_KEY: 'acervogamer_games_cache_v2',
     CACHE_TTL: 1000 * 60 * 30,
+    _folderCache: {},
 
     async loadGames() {
         try {
@@ -325,22 +326,49 @@ const Games = {
     },
 
     async fetchFolderItems(type, slug) {
+        const cacheKey = `${type}/${slug}`;
+        if (this._folderCache[cacheKey]) return this._folderCache[cacheKey];
+        const lsKey = `acervogamer_folders_${cacheKey}`;
+        try {
+            const raw = localStorage.getItem(lsKey);
+            if (raw) {
+                const { data, ts } = JSON.parse(raw);
+                if (Date.now() - ts < this.CACHE_TTL) { this._folderCache[cacheKey] = data; return data; }
+            }
+        } catch {}
         const apiUrl = `https://api.github.com/repos/${this.GITHUB_REPO}/contents/data/games/${type}/${slug}`;
         try {
             const res = await fetch(apiUrl);
-            if (!res.ok) return [];
+            if (!res.ok) { this._folderCache[cacheKey] = []; return []; }
             const items = await res.json();
-            return items.filter(i => i.type === 'dir');
-        } catch { return []; }
+            if (!Array.isArray(items)) { this._folderCache[cacheKey] = []; return []; }
+            const dirs = items.filter(i => i.type === 'dir');
+            this._folderCache[cacheKey] = dirs;
+            try { localStorage.setItem(lsKey, JSON.stringify({ data: dirs, ts: Date.now() })); } catch {}
+            return dirs;
+        } catch { this._folderCache[cacheKey] = []; return []; }
     },
 
     async fetchInfoJson(type, slug, folderName) {
+        const cacheKey = `${type}/${slug}/${folderName}`;
+        if (this._folderCache[cacheKey]) return this._folderCache[cacheKey];
+        const lsKey = `acervogamer_info_${cacheKey}`;
+        try {
+            const raw = localStorage.getItem(lsKey);
+            if (raw) {
+                const { data, ts } = JSON.parse(raw);
+                if (Date.now() - ts < this.CACHE_TTL) { this._folderCache[cacheKey] = data; return data; }
+            }
+        } catch {}
         const url = `https://raw.githubusercontent.com/${this.GITHUB_REPO}/main/data/games/${type}/${slug}/${folderName}/info.json`;
         try {
             const res = await fetch(url);
-            if (!res.ok) return null;
-            return await res.json();
-        } catch { return null; }
+            if (!res.ok) { this._folderCache[cacheKey] = null; return null; }
+            const data = await res.json();
+            this._folderCache[cacheKey] = data;
+            try { localStorage.setItem(lsKey, JSON.stringify({ data, ts: Date.now() })); } catch {}
+            return data;
+        } catch { this._folderCache[cacheKey] = null; return null; }
     },
 
     getDownloadUrl(type, slug, folderName, zipFile) {
