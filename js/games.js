@@ -85,7 +85,7 @@ const Games = {
         container.innerHTML = gamesHTML;
     },
 
-    _searchState: { query: '', genres: [], scale: '', devs: [], era: '', rating: '', platforms: [] },
+    _searchState: { query: '', genres: [], devs: [], platforms: [], eras: [], scales: [], ratings: [] },
 
     splitGenres(genre) {
         if (!genre) return [];
@@ -115,16 +115,20 @@ const Games = {
         return this.data.filter(g => {
             if (s.query && !g.name.toLowerCase().includes(s.query.toLowerCase())) return false;
             if (s.genres.length > 0 && !s.genres.some(f => this.splitGenres(g.genre).includes(f))) return false;
-            if (s.scale && g.productionScale !== s.scale) return false;
             if (s.devs.length > 0 && !s.devs.includes(g.developer)) return false;
-            if (s.rating && g.ageRating !== s.rating) return false;
             if (s.platforms.length > 0 && !s.platforms.some(f => (g.platforms || []).some(p => p.name === f))) return false;
-            if (s.era) {
+            if (s.scales.length > 0 && !s.scales.includes(g.productionScale)) return false;
+            if (s.ratings.length > 0 && !s.ratings.includes(g.ageRating)) return false;
+            if (s.eras.length > 0) {
                 const y = g.year;
-                if (s.era === '2010-2014' && (y < 2010 || y > 2014)) return false;
-                if (s.era === '2015-2019' && (y < 2015 || y > 2019)) return false;
-                if (s.era === '2020-2024' && (y < 2020 || y > 2024)) return false;
-                if (s.era === '2025+' && y < 2025) return false;
+                const match = s.eras.some(e => {
+                    if (e === '2010-2014') return y >= 2010 && y <= 2014;
+                    if (e === '2015-2019') return y >= 2015 && y <= 2019;
+                    if (e === '2020-2024') return y >= 2020 && y <= 2024;
+                    if (e === '2025+') return y >= 2025;
+                    return false;
+                });
+                if (!match) return false;
             }
             return true;
         });
@@ -159,10 +163,6 @@ const Games = {
         this._searchDebounce = setTimeout(() => this.updateGamesGrid(), 200);
     },
 
-    onFilterChange(key, value) {
-        this._searchState[key] = value;
-        this.updateGamesGrid();
-    },
 
     /* Tag Input Component */
     _tagInputTimers: {},
@@ -201,7 +201,7 @@ const Games = {
     },
 
     filterTagDropdown(id, value) {
-        const stateKey = { genre: 'genres', dev: 'devs', platform: 'platforms' }[id];
+        const stateKey = { genre: 'genres', dev: 'devs', platform: 'platforms', era: 'eras', scale: 'scales', rating: 'ratings' }[id];
         const selected = this._searchState[stateKey];
         const allOptions = this._tagFilterOptions[id] || [];
         const filtered = allOptions.filter(o => !selected.includes(o) && o.toLowerCase().includes(value.toLowerCase()));
@@ -240,7 +240,7 @@ const Games = {
     },
 
     addTag(id, value) {
-        const stateKey = { genre: 'genres', dev: 'devs', platform: 'platforms' }[id];
+        const stateKey = { genre: 'genres', dev: 'devs', platform: 'platforms', era: 'eras', scale: 'scales', rating: 'ratings' }[id];
         if (!this._searchState[stateKey].includes(value)) {
             this._searchState[stateKey].push(value);
         }
@@ -252,14 +252,14 @@ const Games = {
     },
 
     removeTag(id, value) {
-        const stateKey = { genre: 'genres', dev: 'devs', platform: 'platforms' }[id];
+        const stateKey = { genre: 'genres', dev: 'devs', platform: 'platforms', era: 'eras', scale: 'scales', rating: 'ratings' }[id];
         this._searchState[stateKey] = this._searchState[stateKey].filter(v => v !== value);
         this.updateTagInputTags(id);
         this.updateGamesGrid();
     },
 
     updateTagInputTags(id) {
-        const stateKey = { genre: 'genres', dev: 'devs', platform: 'platforms' }[id];
+        const stateKey = { genre: 'genres', dev: 'devs', platform: 'platforms', era: 'eras', scale: 'scales', rating: 'ratings' }[id];
         const selected = this._searchState[stateKey];
         const container = document.getElementById(`tag-container-${id}`);
         const input = document.getElementById(`tag-input-${id}`);
@@ -279,11 +279,10 @@ const Games = {
     _tagInputPlaceholders: {},
 
     clearFilters() {
-        this._searchState = { query: '', genres: [], scale: '', devs: [], era: '', rating: '', platforms: [] };
+        this._searchState = { query: '', genres: [], devs: [], platforms: [], eras: [], scales: [], ratings: [] };
         const input = document.getElementById('games-search-input');
         if (input) input.value = '';
-        document.querySelectorAll('.games-filter-select').forEach(s => s.value = '');
-        ['genre', 'dev', 'platform'].forEach(id => {
+        ['genre', 'dev', 'platform', 'era', 'scale', 'rating'].forEach(id => {
             this.updateTagInputTags(id);
             const input = document.getElementById(`tag-input-${id}`);
             if (input) input.placeholder = this._tagInputPlaceholders[id] || '';
@@ -293,7 +292,7 @@ const Games = {
 
     hasActiveFilters() {
         const s = this._searchState;
-        return s.query || s.genres.length > 0 || s.scale || s.devs.length > 0 || s.era || s.rating || s.platforms.length > 0;
+        return s.query || s.genres.length > 0 || s.devs.length > 0 || s.platforms.length > 0 || s.eras.length > 0 || s.scales.length > 0 || s.ratings.length > 0;
     },
 
     updateGamesGrid() {
@@ -330,12 +329,10 @@ const Games = {
         const { genres, scales, devs, ratings, platforms } = this.getFilterOptions();
         const s = this._searchState;
 
-        this._tagFilterOptions = { genre: genres, dev: devs, platform: platforms };
-        this._tagInputPlaceholders = { genre: 'Digitar gênero...', dev: 'Digitar desenvolvedor...', platform: 'Digitar plataforma...' };
-
         const eraOptions = ['2010-2014', '2015-2019', '2020-2024', '2025+'];
 
-        const makeOptions = (arr, selected) => arr.map(v => `<option value="${v}" ${v === selected ? 'selected' : ''}>${v}</option>`).join('');
+        this._tagFilterOptions = { genre: genres, dev: devs, platform: platforms, era: eraOptions, scale: scales, rating: ratings };
+        this._tagInputPlaceholders = { genre: 'Digitar gênero...', dev: 'Digitar desenvolvedor...', platform: 'Digitar plataforma...', era: 'Digitar época...', scale: 'Digitar escala...', rating: 'Digitar classificação...' };
 
         const hasFilters = this.hasActiveFilters();
 
@@ -364,32 +361,11 @@ const Games = {
                 <div id="advanced-search-panel" class="advanced-search-panel ${hasFilters ? 'open' : ''}">
                     <div class="advanced-search-grid">
                         ${this.renderTagInput('genre', 'Gênero', genres, s.genres, 'Digitar gênero...')}
-                        <div class="filter-group">
-                            <label class="filter-label">Escala de Produção</label>
-                            <select class="games-filter-select" onchange="Games.onFilterChange('scale', this.value)">
-                                <option value="">Todas</option>
-                                ${makeOptions(scales, s.scale)}
-                            </select>
-                        </div>
-                        ${this.renderTagInput('dev', 'Desenvolvedor', devs, s.devs, 'Digitar desenvolvedor...')}
-                        <div class="filter-group">
-                            <label class="filter-label">Época</label>
-                            <select class="games-filter-select" onchange="Games.onFilterChange('era', this.value)">
-                                <option value="">Todas</option>
-                                ${makeOptions(eraOptions, s.era)}
-                            </select>
-                        </div>
-                        <div class="filter-group">
-                            <label class="filter-label">Classificação</label>
-                            <select class="games-filter-select" onchange="Games.onFilterChange('rating', this.value)">
-                                <option value="">Todas</option>
-                                ${ratings.map(r => {
-                                    const labels = { 'L': 'Livre', '10': '10 anos', '12': '12 anos', '14': '14 anos', '16': '16 anos', '18': '18 anos' };
-                                    return `<option value="${r}" ${r === s.rating ? 'selected' : ''}>${labels[r] || r}</option>`;
-                                }).join('')}
-                            </select>
-                        </div>
                         ${this.renderTagInput('platform', 'Plataforma', platforms, s.platforms, 'Digitar plataforma...')}
+                        ${this.renderTagInput('dev', 'Desenvolvedor', devs, s.devs, 'Digitar desenvolvedor...')}
+                        ${this.renderTagInput('era', 'Época', eraOptions, s.eras, 'Digitar época...')}
+                        ${this.renderTagInput('scale', 'Escala de Produção', scales, s.scales, 'Digitar escala...')}
+                        ${this.renderTagInput('rating', 'Classificação', ratings, s.ratings, 'Digitar classificação...')}
                     </div>
                 </div>
 
