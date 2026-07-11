@@ -826,8 +826,10 @@ const Games = {
         ]);
         const infos = await Promise.all(folders.map(f => this.fetchInfoJson('mods', game.slug, f.name)));
         const items = folders.map((f, i) => ({ folder: f.name, info: infos[i] })).filter(i => i.info);
-        const opCardsHtml = this.renderOPCards(opCards);
-        if (items.length === 0 && !opCardsHtml) {
+        const hasOpcards = opCards && opCards.length > 0;
+        const opcardsVisible = localStorage.getItem('acervogamer_opcards_visible') !== 'false';
+        const opCardsHtml = hasOpcards ? this.renderOPCards(opCards) : '';
+        if (items.length === 0 && !hasOpcards) {
             container.innerHTML = `
                 <div class="empty-state">
                     <div class="empty-state-icon">🔧</div>
@@ -837,6 +839,17 @@ const Games = {
             `;
             return;
         }
+        const toggleHtml = hasOpcards ? `
+            <div class="opcards-toggle" onclick="Games.toggleOpcards()">
+                <span class="opcards-toggle-icon">${opcardsVisible ? '👁' : '👁‍🗨'}</span>
+                <span class="opcards-toggle-text">${opcardsVisible ? 'Ocultar cards' : 'Mostrar cards'}</span>
+            </div>
+        ` : '';
+        const opCardsWrapper = hasOpcards ? `
+            <div id="opcards-wrapper" class="opcards-wrapper ${opcardsVisible ? '' : 'opcards-hidden'}">
+                ${opCardsHtml}
+            </div>
+        ` : '';
         const modsHtml = items.map((item, i) => {
             const m = item.info;
             let actionBtn = '';
@@ -861,7 +874,33 @@ const Games = {
                 </div>
             `;
         }).join('');
-        container.innerHTML = `${opCardsHtml}${modsHtml}`;
+        container.innerHTML = `${toggleHtml}${opCardsWrapper}${modsHtml}`;
+    },
+
+    toggleOpcards() {
+        const wrapper = document.getElementById('opcards-wrapper');
+        const toggle = document.querySelector('.opcards-toggle');
+        if (!wrapper || !toggle) return;
+        const isVisible = !wrapper.classList.contains('opcards-hidden');
+        if (isVisible) {
+            wrapper.classList.add('opcards-hiding');
+            wrapper.addEventListener('animationend', () => {
+                wrapper.classList.add('opcards-hidden');
+                wrapper.classList.remove('opcards-hiding');
+            }, { once: true });
+            toggle.querySelector('.opcards-toggle-icon').textContent = '👁‍🗨';
+            toggle.querySelector('.opcards-toggle-text').textContent = 'Mostrar cards';
+            localStorage.setItem('acervogamer_opcards_visible', 'false');
+        } else {
+            wrapper.classList.remove('opcards-hidden', 'opcards-hiding');
+            wrapper.classList.add('opcards-showing');
+            wrapper.addEventListener('animationend', () => {
+                wrapper.classList.remove('opcards-showing');
+            }, { once: true });
+            toggle.querySelector('.opcards-toggle-icon').textContent = '👁';
+            toggle.querySelector('.opcards-toggle-text').textContent = 'Ocultar cards';
+            localStorage.setItem('acervogamer_opcards_visible', 'true');
+        }
     },
 
     renderSoundtrack(container, game) {

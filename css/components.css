@@ -1739,6 +1739,84 @@
     border-color: rgba(0,200,83,0.5);
 }
 
+.opcards-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    background: none;
+    border: 1px solid var(--br-border);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: border-color 0.3s, background 0.3s;
+    margin-bottom: 14px;
+    float: right;
+}
+
+.opcards-toggle:hover {
+    border-color: rgba(255,255,255,0.15);
+    background: rgba(255,255,255,0.03);
+}
+
+.opcards-toggle-icon {
+    font-size: 0.9rem;
+    line-height: 1;
+}
+
+.opcards-toggle-text {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    color: var(--br-gray);
+    transition: color 0.2s;
+}
+
+.opcards-toggle:hover .opcards-toggle-text {
+    color: var(--br-gray-light);
+}
+
+.opcards-wrapper {
+    overflow: hidden;
+    max-height: 2000px;
+    opacity: 1;
+    transition: max-height 0.5s var(--ease-out-expo), opacity 0.3s ease;
+}
+
+.opcards-hidden {
+    max-height: 0 !important;
+    opacity: 0 !important;
+    pointer-events: none;
+}
+
+.opcards-hiding {
+    animation: opcardsSlideUp 0.4s var(--ease-out-expo) forwards;
+}
+
+.opcards-showing {
+    animation: opcardsSlideDown 0.4s var(--ease-out-expo) forwards;
+}
+
+@keyframes opcardsSlideUp {
+    from {
+        max-height: 600px;
+        opacity: 1;
+    }
+    to {
+        max-height: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes opcardsSlideDown {
+    from {
+        max-height: 0;
+        opacity: 0;
+    }
+    to {
+        max-height: 600px;
+        opacity: 1;
+    }
+}
+
 .op-card {
     display: flex;
     background: var(--br-card);
