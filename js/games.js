@@ -200,6 +200,25 @@ const Games = {
     },
 
     renderOverview(container, game) {
+        const ageRatingColors = {
+            'L': '#00c853',
+            '10': '#ffeb3b',
+            '12': '#ffc107',
+            '14': '#ff9800',
+            '16': '#f44336',
+            '18': '#9c27b0'
+        };
+        const ageRatingLabels = {
+            'L': 'Livre',
+            '10': '10 anos',
+            '12': '12 anos',
+            '14': '14 anos',
+            '16': '16 anos',
+            '18': '18 anos'
+        };
+        const ratingColor = ageRatingColors[game.ageRating] || '#999';
+        const ratingLabel = ageRatingLabels[game.ageRating] || game.ageRating;
+
         container.innerHTML = `
             <div class="animate-in">
                 <h3 style="font-family: var(--font-display); font-size: 1.8rem; letter-spacing: 3px; margin-bottom: 20px; color: var(--br-green);">SOBRE O JOGO</h3>
@@ -216,6 +235,15 @@ const Games = {
                     <div class="p5-stat-card">
                         <div class="p5-stat-number" style="font-size: 1.5rem;">${game.year}</div>
                         <div class="p5-stat-label">Ano de Lançamento</div>
+                    </div>
+                    <div class="p5-stat-card">
+                        <div class="p5-stat-number" style="font-size: 1.5rem;">${game.productionScale || '—'}</div>
+                        <div class="p5-stat-label">Escala de Produção</div>
+                    </div>
+                    <div class="p5-stat-card" style="position: relative; overflow: hidden;">
+                        <div style="position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: ${ratingColor}; border-radius: 2px;"></div>
+                        <div class="p5-stat-number" style="font-size: 1.5rem; padding-left: 12px;">${ratingLabel}</div>
+                        <div class="p5-stat-label" style="padding-left: 12px;">Classificação Indicativa</div>
                     </div>
                 </div>
                 ${game.trailer ? `
