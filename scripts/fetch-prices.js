@@ -145,15 +145,17 @@ async function processGame(filePath) {
 
         if (deal) {
             const salePrice = parseFloat(deal.price);
+            const retailPrice = parseFloat(deal.retailPrice);
             if (isNaN(salePrice) || salePrice <= 0) continue;
 
             const directUrl = existing?.url || `https://www.cheapshark.com/redirect?dealID=${deal.dealID}`;
+            const hasDiscount = retailPrice > salePrice;
             const entry = {
                 store: storeInfo.name,
                 url: directUrl,
                 platform: storeInfo.platform,
                 price: toBRL(salePrice),
-                priceOriginal: `$${salePrice.toFixed(2)} USD`,
+                priceOriginal: hasDiscount ? `$${retailPrice.toFixed(2)} USD` : null,
                 coupon: coupon,
                 lastUpdated: new Date().toISOString().split('T')[0]
             };
