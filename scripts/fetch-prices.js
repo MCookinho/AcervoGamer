@@ -52,19 +52,18 @@ function toBRL(usd) {
 }
 
 const PC_STORES = {
+    2: { name: 'GamersGate', platform: 'PC' },
+    3: { name: 'GreenManGaming', platform: 'PC' },
     7: { name: 'GOG', platform: 'PC' },
     11: { name: 'Humble Bundle', platform: 'PC' },
+    13: { name: 'Uplay', platform: 'PC' },
     15: { name: 'Fanatical', platform: 'PC' },
     21: { name: 'WinGameStore', platform: 'PC' },
     23: { name: 'GameBillet', platform: 'PC' },
-    24: { name: 'Voidu', platform: 'PC' },
-    25: { name: 'JoyBuggy', platform: 'PC' },
+    25: { name: 'Epic Games Store', platform: 'PC' },
     27: { name: 'Gamesplanet', platform: 'PC' },
     28: { name: 'Gamesload', platform: 'PC' },
-    29: { name: '2Game', platform: 'PC' },
     30: { name: 'IndieGala', platform: 'PC' },
-    33: { name: 'DLGamer', platform: 'PC' },
-    34: { name: 'Noctre', platform: 'PC' },
     35: { name: 'DreamGame', platform: 'PC' },
 };
 
@@ -145,7 +144,7 @@ async function processGame(filePath) {
         const coupon = existing?.coupon || null;
 
         if (deal) {
-            const salePrice = parseFloat(deal.salePrice);
+            const salePrice = parseFloat(deal.price);
             if (isNaN(salePrice) || salePrice <= 0) continue;
 
             const directUrl = existing?.url || `https://www.cheapshark.com/redirect?dealID=${deal.dealID}`;
