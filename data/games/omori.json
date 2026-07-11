@@ -1,1386 +1,1449 @@
 {
-    "name": "Omori",
-    "slug": "omori",
-    "genre": "RPG / Terror Psicológico",
-    "developer": "OMOCAT",
-    "year": 2020,
-    "productionScale": "Indie",
-    "ageRating": "16",
-    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1150690/header.jpg",
-    "previewGif": "https://media.giphy.com/media/vrRN53rgOgLfCNQuIH/giphy.gif",
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1150690/page_bg_generated_v6b.jpg",
-    "bannerGif": "https://media.giphy.com/media/vrRN53rgOgLfCNQuIH/giphy.gif",
-    "shortDescription": "Um RPG psicológico sobre um garoto que enfrenta seus demônios internos. Uma jornada emocional que vai abalar seus sentimentos.",
-    "fullDescription": "Omori é um RPG de terror psicológico criado pela OMOCAT. Você controla OMORI, um garoto que vive em um mundo chamado White Space, um lugar branco e vazio. A cada dia, OMORI é convidado a explorar Headspace, um mundo colorido e surreal habitado por seus amigos. Paralelamente, você também controla SUNNY, a versão de OMORI no mundo real, um garoto que ficou recluso por quatro anos. A história é uma exploração profunda de temas como depressão, culpa, perda e auto-descoberta. Com uma estética pixel art belíssima, uma trilha sonora emocional e uma narrativa que vai do encantador ao perturbador, Omori é uma experiência única que toca o coração do jogador.",
-    "trailer": "https://www.youtube.com/embed/CyVv-jFJiJ8",
-    "translations": [
-        {
-            "name": "Omori - Tradução PT-BR Completa",
-            "version": "1.0",
-            "date": "2024-02-28",
-            "size": "30 MB",
-            "downloadUrl": "#"
-        },
-        {
-            "name": "Omori - Tradução PT-BR Corrigida v2",
-            "version": "2.0",
-            "date": "2024-07-12",
-            "size": "30 MB",
-            "downloadUrl": "#"
-        }
-    ],
-    "mods": [
-        {
-            "name": "Omori Randomizer",
-            "version": "1.2",
-            "author": "Community",
-            "downloadUrl": "#",
-            "officialUrl": "https://www.nexusmods.com/omori"
-        },
-        {
-            "name": "Omori Hard Mode",
-            "version": "1.0",
-            "author": "Community",
-            "downloadUrl": "#"
-        }
-    ],
-    "stores": [
-        {
-            "store": "Steam",
-            "url": "https://store.steampowered.com/app/1150690/OMORI/",
-            "platform": "PC",
-            "price": 37.99,
-            "priceOriginal": "R$ 37,99",
-            "coupon": null,
-            "lastUpdated": "2026-07-11"
-        },
-        {
-            "store": "Eneba",
-            "url": "https://www.eneba.com/steam-omori",
-            "platform": "PC",
-            "price": 37.99,
-            "priceOriginal": "R$ 37,99",
-            "coupon": null,
-            "lastUpdated": "2026-07-11"
-        },
-        {
-            "store": "Fanatical",
-            "url": "https://www.fanatical.com/en/game/omori",
-            "platform": "PC",
-            "price": 55,
-            "priceOriginal": "US$9.49",
-            "coupon": null,
-            "lastUpdated": "2025-07-10"
-        },
-        {
-            "store": "GOG",
-            "url": "https://www.gog.com/game/omori",
-            "platform": "PC",
-            "price": 71,
-            "priceOriginal": "US$14.99",
-            "coupon": null,
-            "lastUpdated": "2025-07-10"
-        },
-        {
-            "store": "Humble Bundle",
-            "url": "https://www.humblebundle.com/store/omori",
-            "platform": "PC",
-            "price": 71,
-            "priceOriginal": "US$14.99",
-            "coupon": "Humble20",
-            "lastUpdated": "2025-07-10"
-        },
-        {
-            "store": "Nintendo eShop",
-            "url": "https://www.nintendo.com/pt-br/store/products/omori-switch/",
-            "platform": "Nintendo Switch",
-            "price": 119,
-            "priceOriginal": "R$119,00",
-            "coupon": null,
-            "lastUpdated": "2025-07-10"
-        },
-        {
-            "store": "PlayStation Store",
-            "url": "https://store.playstation.com/pt-br/category/omori",
-            "platform": "PS4 / PS5",
-            "price": 119.9,
-            "priceOriginal": "R$119,90",
-            "coupon": null,
-            "lastUpdated": "2025-07-10"
-        },
-        {
-            "store": "Xbox Store",
-            "url": "https://www.xbox.com/pt-br/games/store/omori/9p3l4fmpfct0",
-            "platform": "Xbox One / Series X|S",
-            "price": 119.9,
-            "priceOriginal": "R$119,90",
-            "coupon": null,
-            "lastUpdated": "2025-07-10"
-        }
-    ],
-    "soundtrack": [
-        {
-            "title": "Title",
-            "artist": "Pedro Silva",
-            "duration": "0:37",
-            "spotifyUrl": "https://open.spotify.com/track/6hWCUbrB0qxsu3AgI7v63i",
-            "youtubeUrl": "https://www.youtube.com/watch?v=9d9e6XmNn9Q"
-        },
-        {
-            "title": "WHITE SPACE",
-            "artist": "Pedro Silva",
-            "duration": "0:41",
-            "spotifyUrl": "https://open.spotify.com/track/7Max3EiSwBFypn3MAnwhkX",
-            "youtubeUrl": "https://www.youtube.com/watch?v=t815nBXavpE"
-        },
-        {
-            "title": "Lost At A Sleepover",
-            "artist": "Pedro Silva",
-            "duration": "0:56",
-            "youtubeUrl": "https://www.youtube.com/watch?v=hLDull8aPDw",
-            "spotifyUrl": "https://open.spotify.com/track/3vMyi4zZKU4z25OPAeK9rX"
-        },
-        {
-            "title": "Spaces In-between",
-            "artist": "Pedro Silva",
-            "duration": "0:58",
-            "youtubeUrl": "https://www.youtube.com/watch?v=ljAyy-dhAz0",
-            "spotifyUrl": "https://open.spotify.com/track/54shhL9vif2iwUXg0lNpQX"
-        },
-        {
-            "title": "By Your Side.",
-            "artist": "Pedro Silva",
-            "duration": "1:36",
-            "youtubeUrl": "https://www.youtube.com/watch?v=7GIWV__qx4M",
-            "spotifyUrl": "https://open.spotify.com/track/06r2yQOiQYB1Ra4KYEdskL"
-        },
-        {
-            "title": "Let's Get Together Now!",
-            "artist": "Pedro Silva",
-            "duration": "1:38",
-            "youtubeUrl": "https://www.youtube.com/watch?v=GoWgI1V_WDA",
-            "spotifyUrl": "https://open.spotify.com/track/4GdeaEySaUDHifqoOTAUEb"
-        },
-        {
-            "title": "100 Sunny",
-            "artist": "Pedro Silva",
-            "duration": "1:17",
-            "youtubeUrl": "https://www.youtube.com/watch?v=hA8qVWKj738",
-            "spotifyUrl": "https://open.spotify.com/track/1kjHcsfGh4EXxslR8TxEcX"
-        },
-        {
-            "title": "Trouble Brewing",
-            "artist": "Pedro Silva",
-            "duration": "0:20",
-            "youtubeUrl": "https://www.youtube.com/watch?v=AO4-wj6WLO4",
-            "spotifyUrl": "https://open.spotify.com/track/6OxKG7GJqTlSa0GOEfoAiP"
-        },
-        {
-            "title": "Push & Shove",
-            "artist": "Pedro Silva",
-            "duration": "0:39",
-            "youtubeUrl": "https://www.youtube.com/watch?v=tnyNKmndmRg",
-            "spotifyUrl": "https://open.spotify.com/track/48wrEgLF4772zDxewZwoKr"
-        },
-        {
-            "title": "So, How'd We Do?",
-            "artist": "Pedro Silva",
-            "duration": "0:19",
-            "youtubeUrl": "https://www.youtube.com/watch?v=d89R4kgoTTQ",
-            "spotifyUrl": "https://open.spotify.com/track/1VOb9uLcUiIpT2IftR8t0u"
-        },
-        {
-            "title": "It's Okay To Try Again...",
-            "artist": "Pedro Silva",
-            "duration": "0:09",
-            "youtubeUrl": "https://www.youtube.com/watch?v=_pVm9PozysI",
-            "spotifyUrl": "https://open.spotify.com/track/7j1hn5RT43rN8EKeGaan6T"
-        },
-        {
-            "title": "Trees...",
-            "artist": "Pedro Silva",
-            "duration": "1:58",
-            "youtubeUrl": "https://www.youtube.com/watch?v=n_Dxix0lvDM",
-            "spotifyUrl": "https://open.spotify.com/track/2Ow8YPaRkaHd5Cr9zGpoHC"
-        },
-        {
-            "title": "A Home For Flowers (Tulip)",
-            "artist": "Pedro Silva",
-            "duration": "1:32",
-            "youtubeUrl": "https://www.youtube.com/watch?v=u2xW23u4qEY",
-            "spotifyUrl": "https://open.spotify.com/track/5xLoX9ayGLlGfA7y32wfO9"
-        },
-        {
-            "title": "Acrophobia",
-            "artist": "Pedro Silva",
-            "duration": "2:22",
-            "youtubeUrl": "https://www.youtube.com/watch?v=KszmrMQYYNw",
-            "spotifyUrl": "https://open.spotify.com/track/3JgkPFNh5ii9o0fHHW8b2a"
-        },
-        {
-            "title": "Tussle Among Trees",
-            "artist": "Pedro Silva",
-            "duration": "1:10",
-            "youtubeUrl": "https://www.youtube.com/watch?v=w-BEK6QjRIE",
-            "spotifyUrl": "https://open.spotify.com/track/2Ow8YPaRkaHd5Cr9zGpoHC"
-        },
-        {
-            "title": "A Place By A Lake",
-            "artist": "Pedro Silva",
-            "duration": "1:35",
-            "youtubeUrl": "https://www.youtube.com/watch?v=khr33grtujE",
-            "spotifyUrl": "https://open.spotify.com/track/58R1FPRbqKN7tq1B466QPB"
-        },
-        {
-            "title": "Forest Chillin'",
-            "artist": "Pedro Silva",
-            "duration": "1:22",
-            "youtubeUrl": "https://www.youtube.com/watch?v=AYawCl_sOxA",
-            "spotifyUrl": "https://open.spotify.com/track/7ENHYSjru1USkSjzlfHAHB"
-        },
-        {
-            "title": "Poems In The Fog",
-            "artist": "Pedro Silva",
-            "duration": "1:49",
-            "youtubeUrl": "https://www.youtube.com/watch?v=LhANeyMTs0w",
-            "spotifyUrl": "https://open.spotify.com/track/5UyCeNAdl20Lio0M6JosDy"
-        },
-        {
-            "title": "Space Road 1979",
-            "artist": "Pedro Silva",
-            "duration": "1:33",
-            "youtubeUrl": "https://www.youtube.com/watch?v=p-E4vGa7z84",
-            "spotifyUrl": "https://open.spotify.com/track/17iDeAmxcxIzwnI2CBMXNT"
-        },
-        {
-            "title": "See In Your Fantasy",
-            "artist": "Pedro Silva",
-            "duration": "1:13",
-            "youtubeUrl": "https://www.youtube.com/watch?v=RBFnIDWW7Qc",
-            "spotifyUrl": "https://open.spotify.com/track/4iKYx36kYCorcjYAbkVUZC"
-        },
-        {
-            "title": "Sugar Star Planetarium",
-            "artist": "Pedro Silva",
-            "duration": "2:14",
-            "youtubeUrl": "https://www.youtube.com/watch?v=ZEZRa41ury4",
-            "spotifyUrl": "https://open.spotify.com/track/5ClvtUXRpO2KeRBrK0ushG"
-        },
-        {
-            "title": "Lost, Then Found!",
-            "artist": "Pedro Silva",
-            "duration": "1:17",
-            "youtubeUrl": "https://www.youtube.com/watch?v=b4dbjk2HcYo",
-            "spotifyUrl": "https://open.spotify.com/track/5tBC128zwMXyFPPAjvo5ZL"
-        },
-        {
-            "title": "THE VENGEANCE OF THOSE FORGOTTEN IN DARKNESS",
-            "artist": "Pedro Silva",
-            "duration": "1:12",
-            "youtubeUrl": "https://www.youtube.com/watch?v=R-ErJWtC9IE",
-            "spotifyUrl": "https://open.spotify.com/track/6cQrAyMfMcs3sVgd5SMToF"
-        },
-        {
-            "title": "Recycling Is A Concept!",
-            "artist": "Pedro Silva",
-            "duration": "0:15",
-            "youtubeUrl": "https://www.youtube.com/watch?v=D3By5lrZ8sM",
-            "spotifyUrl": "https://open.spotify.com/track/4meF4blg3aSLYbYMEfHlzC"
-        },
-        {
-            "title": "Lovesick - 80,000 Lightyears",
-            "artist": "Pedro Silva",
-            "duration": "1:15",
-            "youtubeUrl": "https://www.youtube.com/watch?v=8BYAkhtvCSI",
-            "spotifyUrl": "https://open.spotify.com/track/14ZLZIJjJzzxZOcoHDuraW"
-        },
-        {
-            "title": "I Will Catch Up!",
-            "artist": "Pedro Silva",
-            "duration": "1:42",
-            "youtubeUrl": "https://www.youtube.com/watch?v=SVCPjW2_NjI",
-            "spotifyUrl": "https://open.spotify.com/track/2ib9e0d9YOPm2w33RMOJxo"
-        },
-        {
-            "title": "Three Bar Logos",
-            "artist": "Pedro Silva",
-            "duration": "1:13",
-            "youtubeUrl": "https://www.youtube.com/watch?v=vY-96WPBCuU",
-            "spotifyUrl": "https://open.spotify.com/track/3kahDlD3OOU76k1cFPr3Dx"
-        },
-        {
-            "title": "YO DJ PUMP THIS PARTY",
-            "artist": "Pedro Silva",
-            "duration": "0:20",
-            "youtubeUrl": "https://www.youtube.com/watch?v=ElkeeqU3E8U",
-            "spotifyUrl": "https://open.spotify.com/track/5HeFgxAczK6ab6VeZwhxgr"
-        },
-        {
-            "title": "Good For Health, Bad For Imagination",
-            "artist": "Pedro Silva",
-            "duration": "1:29",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Q7H7zJ_I8cs",
-            "spotifyUrl": "https://open.spotify.com/track/5kG3DjDwQdv1NEAlsL4Ied"
-        },
-        {
-            "title": "Snow Forest - A Single Flower Blooms",
-            "artist": "Pedro Silva",
-            "duration": "2:21",
-            "youtubeUrl": "https://www.youtube.com/watch?v=POLg-0WWXJE",
-            "spotifyUrl": "https://open.spotify.com/track/537nqymLhimaaCVDS6bYRY"
-        },
-        {
-            "title": "White Surf Style 6",
-            "artist": "Pedro Silva",
-            "duration": "1:32",
-            "youtubeUrl": "https://www.youtube.com/watch?v=8Jx0cblr2bQ",
-            "spotifyUrl": "https://open.spotify.com/track/0LwOxl2R52ZdJbCwdI6zgN"
-        },
-        {
-            "title": "Stardust Diving",
-            "artist": "Pedro Silva",
-            "duration": "1:35",
-            "youtubeUrl": "https://www.youtube.com/watch?v=OHECeRJDDrg",
-            "spotifyUrl": "https://open.spotify.com/track/1jf1rUpAkBkSBRBXnMPtvY"
-        },
-        {
-            "title": "Oh My God.",
-            "artist": "Pedro Silva",
-            "duration": "0:26",
-            "youtubeUrl": "https://www.youtube.com/watch?v=fhfHb6nwyh0",
-            "spotifyUrl": "https://open.spotify.com/track/60EpnLAxjVt9vtnpOCEOyG"
-        },
-        {
-            "title": "A Rose By Any Other Name...",
-            "artist": "Pedro Silva",
-            "duration": "0:45",
-            "youtubeUrl": "https://www.youtube.com/watch?v=0IT0kOwFaaE",
-            "spotifyUrl": "https://open.spotify.com/track/5wX1LgDSXCQYEmzTt3dxVR"
-        },
-        {
-            "title": "Stardust Dusting",
-            "artist": "Pedro Silva",
-            "duration": "0:38",
-            "youtubeUrl": "https://www.youtube.com/watch?v=cqVSlFhUK48",
-            "spotifyUrl": "https://open.spotify.com/track/29wzWKnfLWGGoLespFpLnL"
-        },
-        {
-            "title": "CHAOS ASSEMBLY",
-            "artist": "Pedro Silva",
-            "duration": "1:05",
-            "youtubeUrl": "https://www.youtube.com/watch?v=OwR9FpEdGPI",
-            "spotifyUrl": "https://open.spotify.com/track/3czhrlihkXf4cYW6FOo3LW"
-        },
-        {
-            "title": "The Elegance of the Mysterious and Distant",
-            "artist": "Pedro Silva",
-            "duration": "0:36",
-            "youtubeUrl": "https://www.youtube.com/watch?v=nK53MCu0ZCY",
-            "spotifyUrl": "https://open.spotify.com/track/4QtvMYyaFneVP4NzQTwyQi"
-        },
-        {
-            "title": "Space Boyfriend's Tape - I Want Nothing More",
-            "artist": "Pedro Silva",
-            "duration": "0:29",
-            "youtubeUrl": "https://www.youtube.com/watch?v=tcegOICIf4g",
-            "spotifyUrl": "https://open.spotify.com/track/7ImNqiLVyvfMCoRchlqoHI"
-        },
-        {
-            "title": "Trouble - NEVER/ALWAYS",
-            "artist": "Pedro Silva",
-            "duration": "1:25",
-            "youtubeUrl": "https://www.youtube.com/watch?v=fsCMZQvpxpM",
-            "spotifyUrl": "https://open.spotify.com/track/1wXesJJ2eT39SxNbL7Fwc2"
-        },
-        {
-            "title": "You Were Wrong. Go Back.",
-            "artist": "Pedro Silva",
-            "duration": "1:24",
-            "youtubeUrl": "https://www.youtube.com/watch?v=TyHXvJdyMUo",
-            "spotifyUrl": "https://open.spotify.com/track/6RwQvi24aEQA9ioolvYZC2"
-        },
-        {
-            "title": "Such A Time We Had Together",
-            "artist": "Pedro Silva",
-            "duration": "0:50",
-            "youtubeUrl": "https://www.youtube.com/watch?v=7yqpfdrkk4c",
-            "spotifyUrl": "https://open.spotify.com/track/27VphNfPN7yTlM10GlgylV"
-        },
-        {
-            "title": "Photograph",
-            "artist": "Pedro Silva",
-            "duration": "0:53",
-            "youtubeUrl": "https://www.youtube.com/watch?v=J2bX_B_oU-8",
-            "spotifyUrl": "https://open.spotify.com/track/5VOJx46O9TqFWaQjxbFpfD"
-        },
-        {
-            "title": "Finding Shapes in the Clouds",
-            "artist": "Pedro Silva",
-            "duration": "1:31",
-            "youtubeUrl": "https://www.youtube.com/watch?v=mh0QNGiNtnw",
-            "spotifyUrl": "https://open.spotify.com/track/33oZDeWArbzbmIa9NoMvsa"
-        },
-        {
-            "title": "Where We Used To Play",
-            "artist": "Pedro Silva",
-            "duration": "1:44",
-            "youtubeUrl": "https://www.youtube.com/watch?v=DepK5YBmWfA",
-            "spotifyUrl": "https://open.spotify.com/track/3jF8JrroIR4jijVlVkeUs3"
-        },
-        {
-            "title": "Bargain Bin Boys",
-            "artist": "Pedro Silva",
-            "duration": "1:01",
-            "youtubeUrl": "https://www.youtube.com/watch?v=e7JHrEbnH78",
-            "spotifyUrl": "https://open.spotify.com/track/51WJjdR5d5EnPlE9OLcv2U"
-        },
-        {
-            "title": "Woof",
-            "artist": "Pedro Silva",
-            "duration": "0:31",
-            "youtubeUrl": "https://www.youtube.com/watch?v=3jF5hK3h0wk",
-            "spotifyUrl": "https://open.spotify.com/track/1s7QM7h7k27X4V8OmFB97J"
-        },
-        {
-            "title": "Realistic Space Simulation",
-            "artist": "Pedro Silva",
-            "duration": "1:27",
-            "youtubeUrl": "https://www.youtube.com/watch?v=GLjpwNS8sj4",
-            "spotifyUrl": "https://open.spotify.com/track/2OMvGghRVa9o5kf88gW74i"
-        },
-        {
-            "title": "Jash Bash",
-            "artist": "Pedro Silva",
-            "duration": "0:21",
-            "youtubeUrl": "https://www.youtube.com/watch?v=vqFL-p7AB8U",
-            "spotifyUrl": "https://open.spotify.com/track/4R7rqbkE4FpzhP0LEWy0Zn"
-        },
-        {
-            "title": "Jash Bash 2: New Age of Heroes",
-            "artist": "Pedro Silva",
-            "duration": "0:12",
-            "youtubeUrl": "https://www.youtube.com/watch?v=H5RbFRKKgfA",
-            "spotifyUrl": "https://open.spotify.com/track/4R7rqbkE4FpzhP0LEWy0Zn"
-        },
-        {
-            "title": "Jash Bash 3: Jashpocalypse Infinity",
-            "artist": "Pedro Silva",
-            "duration": "0:28",
-            "youtubeUrl": "https://www.youtube.com/watch?v=GOQq7e3K20Q",
-            "spotifyUrl": "https://open.spotify.com/track/4R7rqbkE4FpzhP0LEWy0Zn"
-        },
-        {
-            "title": "Clash of Jash",
-            "artist": "Pedro Silva",
-            "duration": "0:17",
-            "youtubeUrl": "https://www.youtube.com/watch?v=s1pAlPutUZk",
-            "spotifyUrl": "https://open.spotify.com/track/2sBP0LIYkZDhOOzJH4xjj2"
-        },
-        {
-            "title": "Take A Load Off",
-            "artist": "Pedro Silva",
-            "duration": "1:27",
-            "youtubeUrl": "https://www.youtube.com/watch?v=KkgJScQq0Bg",
-            "spotifyUrl": "https://open.spotify.com/track/3GiqaMjM10hgS8fQ3N1gUH"
-        },
-        {
-            "title": "I Prefer My Pizza 90% Grease",
-            "artist": "Pedro Silva",
-            "duration": "0:44",
-            "youtubeUrl": "https://www.youtube.com/watch?v=1WbCqh3gW6Q",
-            "spotifyUrl": "https://open.spotify.com/track/6D5EqxHJssh43xmYey6Jmg"
-        },
-        {
-            "title": "Fresh...ish...",
-            "artist": "Pedro Silva",
-            "duration": "1:41",
-            "youtubeUrl": "https://www.youtube.com/watch?v=IU1eOAk2zeY",
-            "spotifyUrl": "https://open.spotify.com/track/2Q7u1FsrEziCGtPX8z5UuO"
-        },
-        {
-            "title": "High Fructose Headache",
-            "artist": "Pedro Silva",
-            "duration": "1:07",
-            "youtubeUrl": "https://www.youtube.com/watch?v=IU1eOAk2zeY",
-            "spotifyUrl": "https://open.spotify.com/track/4eyYNRkgLS2KheobnMh32T"
-        },
-        {
-            "title": "I Think My Dad Shops Here...",
-            "artist": "Pedro Silva",
-            "duration": "1:35",
-            "youtubeUrl": "https://www.youtube.com/watch?v=uWijf1XXncw",
-            "spotifyUrl": "https://open.spotify.com/track/64LlI6qBCB6tpEzZvfOFIx"
-        },
-        {
-            "title": "Just Leave Me Alone",
-            "artist": "Pedro Silva",
-            "duration": "0:41",
-            "youtubeUrl": "https://www.youtube.com/watch?v=uEzbdsyaNao",
-            "spotifyUrl": "https://open.spotify.com/track/0YDAl86BFCvQ0fnkXvXTMV"
-        },
-        {
-            "title": "Cram It Wad",
-            "artist": "Pedro Silva",
-            "duration": "0:22",
-            "youtubeUrl": "https://www.youtube.com/watch?v=X4sDbcV6R_k",
-            "spotifyUrl": "https://open.spotify.com/track/7KWNR7m4QtLXpucNU0M3ra"
-        },
-        {
-            "title": "Respite",
-            "artist": "Pedro Silva",
-            "duration": "1:14",
-            "youtubeUrl": "https://www.youtube.com/watch?v=kBtowyIHT1U",
-            "spotifyUrl": "https://open.spotify.com/track/6tLtX9MXUGX0YFjSlcYIO6"
-        },
-        {
-            "title": "It Means Everything.",
-            "artist": "Pedro Silva",
-            "duration": "1:13",
-            "youtubeUrl": "https://www.youtube.com/watch?v=8wKWwUzgCE8",
-            "spotifyUrl": "https://open.spotify.com/track/5OgbJyyZj0bf1f5xIR14pf"
-        },
-        {
-            "title": "See You Tomorrow",
-            "artist": "Pedro Silva",
-            "duration": "2:18",
-            "youtubeUrl": "https://www.youtube.com/watch?v=MQYmjpdA_Pw",
-            "spotifyUrl": "https://open.spotify.com/track/50IyqKFW5liwzYbUjZyZnJ"
-        },
-        {
-            "title": "A Home For Flowers (Empty)",
-            "artist": "Pedro Silva",
-            "duration": "1:16",
-            "youtubeUrl": "https://www.youtube.com/watch?v=LjyToU14TBM",
-            "spotifyUrl": "https://open.spotify.com/track/1EUqwGln350zfIMKRuv1OD"
-        },
-        {
-            "title": "Help Me",
-            "artist": "Pedro Silva",
-            "duration": "0:39",
-            "youtubeUrl": "https://www.youtube.com/watch?v=GtX9UNr9DPo",
-            "spotifyUrl": "https://open.spotify.com/track/6ZQe3a3ianj8sRfxlY09Aj"
-        },
-        {
-            "title": "Arachnophobia",
-            "artist": "Pedro Silva",
-            "duration": "2:31",
-            "youtubeUrl": "https://www.youtube.com/watch?v=El48dFniJGc",
-            "spotifyUrl": "https://open.spotify.com/track/4lqkz49YP3wujGO4zkriGx"
-        },
-        {
-            "title": "Something, Alone",
-            "artist": "Pedro Silva",
-            "duration": "0:36",
-            "youtubeUrl": "https://www.youtube.com/watch?v=IOBWv8Oa7xA",
-            "spotifyUrl": "https://open.spotify.com/track/1XcXVP4mQT7YblWjGg8SBb"
-        },
-        {
-            "title": "Fade",
-            "artist": "Pedro Silva",
-            "duration": "0:42",
-            "youtubeUrl": "https://www.youtube.com/watch?v=ZDdBZtWIPU0",
-            "spotifyUrl": "https://open.spotify.com/track/7tIAbu9LCHB4nqHjroV5Wt"
-        },
-        {
-            "title": "The Heart of the Desert",
-            "artist": "Pedro Silva",
-            "duration": "1:49",
-            "youtubeUrl": "https://www.youtube.com/watch?v=_T_SkLp-5z8",
-            "spotifyUrl": "https://open.spotify.com/track/5NVIuHiEBmyJmw7I6u6K9j"
-        },
-        {
-            "title": "Puddles",
-            "artist": "Pedro Silva",
-            "duration": "1:54",
-            "youtubeUrl": "https://www.youtube.com/watch?v=_46DK9y5J5o",
-            "spotifyUrl": "https://open.spotify.com/track/7IzNqilx9mfs83D5k6dCFP"
-        },
-        {
-            "title": "PRANKED.",
-            "artist": "Pedro Silva",
-            "duration": "1:03",
-            "youtubeUrl": "https://www.youtube.com/watch?v=uEPH9oZ0IKU",
-            "spotifyUrl": "https://open.spotify.com/track/7sRp9nzbcWQPhghv8GIZg5"
-        },
-        {
-            "title": "An Archaeic Resonance",
-            "artist": "Pedro Silva",
-            "duration": "0:58",
-            "youtubeUrl": "https://www.youtube.com/watch?v=4eZgtFTAe60",
-            "spotifyUrl": "https://open.spotify.com/track/1jgZ884MqB5Oi7t2ibiGKJ"
-        },
-        {
-            "title": "'X' Marks The Spot!",
-            "artist": "Pedro Silva",
-            "duration": "0:55",
-            "youtubeUrl": "https://www.youtube.com/watch?v=w7kXIdmiIU4",
-            "spotifyUrl": "https://open.spotify.com/track/0ujJamQgcLCrshbVdVqG1v"
-        },
-        {
-            "title": "Those Who Forget History",
-            "artist": "Pedro Silva",
-            "duration": "0:46",
-            "youtubeUrl": "https://www.youtube.com/watch?v=bQunlydvgNw",
-            "spotifyUrl": "https://open.spotify.com/track/5Mxnbi1mSPpozKqpy2O9mW"
-        },
-        {
-            "title": "Tumbleweeds",
-            "artist": "Pedro Silva",
-            "duration": "1:44",
-            "youtubeUrl": "https://www.youtube.com/watch?v=xKUPLQypXYg",
-            "spotifyUrl": "https://open.spotify.com/track/3c6CXYqRDp04mXYrKVRlLZ"
-        },
-        {
-            "title": "Pyrefly Forest - Cat's Cradle",
-            "artist": "Pedro Silva",
-            "duration": "4:27",
-            "youtubeUrl": "https://www.youtube.com/watch?v=QtQubHCy2UI",
-            "spotifyUrl": "https://open.spotify.com/track/4KhVvlkPQkFEQU16hUbRF5"
-        },
-        {
-            "title": "Forest Frenzy",
-            "artist": "Pedro Silva",
-            "duration": "2:09",
-            "youtubeUrl": "https://www.youtube.com/watch?v=0IWU-9_BuQw",
-            "spotifyUrl": "https://open.spotify.com/track/09QrQnWCb6sHRCEhL5dOmR"
-        },
-        {
-            "title": "Sweet Paralysis",
-            "artist": "Pedro Silva",
-            "duration": "1:11",
-            "youtubeUrl": "https://www.youtube.com/watch?v=aFwkKTITYKA",
-            "spotifyUrl": "https://open.spotify.com/track/1CyaKEglwM3iCCFuUUHwTp"
-        },
-        {
-            "title": "Sweetheart's Quest For Hearts",
-            "artist": "Pedro Silva",
-            "duration": "1:24",
-            "youtubeUrl": "https://www.youtube.com/watch?v=FgXOBL1cdIA",
-            "spotifyUrl": "https://open.spotify.com/track/339ZGxTBHc20vyPjHZwsEy"
-        },
-        {
-            "title": "How...sad!",
-            "artist": "Pedro Silva",
-            "duration": "1:10",
-            "youtubeUrl": "https://www.youtube.com/watch?v=z2NNo23Q9do",
-            "spotifyUrl": "https://open.spotify.com/track/15n7OwO6Im8qKp0ezkvUsn"
-        },
-        {
-            "title": "How...tragic!",
-            "artist": "Pedro Silva",
-            "duration": "1:04",
-            "youtubeUrl": "https://www.youtube.com/watch?v=z2NNo23Q9do",
-            "spotifyUrl": "https://open.spotify.com/track/7aWtwrJDGCUIJDmQI2hwU2"
-        },
-        {
-            "title": "Eternal Dungeon",
-            "artist": "Pedro Silva",
-            "duration": "1:24",
-            "youtubeUrl": "https://www.youtube.com/watch?v=w9AGMLpav3E",
-            "spotifyUrl": "https://open.spotify.com/track/2TE1KzLjrLwR4ldPKSeuWQ"
-        },
-        {
-            "title": "Splintered Sweets In The Castle",
-            "artist": "Pedro Silva",
-            "duration": "1:24",
-            "youtubeUrl": "https://www.youtube.com/watch?v=x_NsyntBOME",
-            "spotifyUrl": "https://open.spotify.com/track/0kWnhVdLo7cT32WXhowVih"
-        },
-        {
-            "title": "Wandering Rose",
-            "artist": "Pedro Silva",
-            "duration": "1:53",
-            "youtubeUrl": "https://www.youtube.com/watch?v=LXn3FNYzvwo",
-            "spotifyUrl": "https://open.spotify.com/track/5Sh2kSqK5j0fyPzeuMj3er"
-        },
-        {
-            "title": "Stationary Rose",
-            "artist": "Pedro Silva",
-            "duration": "1:37",
-            "youtubeUrl": "https://www.youtube.com/watch?v=uZYl9h5Ji1c",
-            "spotifyUrl": "https://open.spotify.com/track/2K3vzgzIVq3nn3uefGKdJQ"
-        },
-        {
-            "title": "Valour Against All Odds",
-            "artist": "Pedro Silva",
-            "duration": "0:54",
-            "youtubeUrl": "https://www.youtube.com/watch?v=7nST9wmNGB8",
-            "spotifyUrl": "https://open.spotify.com/track/2Unt7tIaX8uSK31LEv5XYq"
-        },
-        {
-            "title": "I Definitely Promised You A Rose Garden",
-            "artist": "Pedro Silva",
-            "duration": "1:57",
-            "youtubeUrl": "https://www.youtube.com/watch?v=WQTdaPEBjWs",
-            "spotifyUrl": "https://open.spotify.com/track/00CRAq6XhunnlSc0By474Z"
-        },
-        {
-            "title": "World's End Valentine",
-            "artist": "Pedro Silva",
-            "duration": "2:27",
-            "spotifyUrl": "https://open.spotify.com/track/33G3sUAxqvFEaEeM7u849M",
-            "youtubeUrl": "https://www.youtube.com/watch?v=rlQd9qWKjLM"
-        },
-        {
-            "title": "I Just Love The 50s!!!",
-            "artist": "Pedro Silva",
-            "duration": "1:17",
-            "youtubeUrl": "https://www.youtube.com/watch?v=DY9lM41h-dg",
-            "spotifyUrl": "https://open.spotify.com/track/1At66VMSGx03JwOrHEGMXj"
-        },
-        {
-            "title": "Lost Library",
-            "artist": "Pedro Silva",
-            "duration": "1:15",
-            "youtubeUrl": "https://www.youtube.com/watch?v=31jhk_A3mYk",
-            "spotifyUrl": "https://open.spotify.com/track/33i4H7iDxIes1d8Nd0S3QF"
-        },
-        {
-            "title": "Bookcase",
-            "artist": "Pedro Silva",
-            "duration": "0:19",
-            "youtubeUrl": "https://www.youtube.com/watch?v=uLQcyE4dZi0",
-            "spotifyUrl": "https://open.spotify.com/track/5rVO3yaQZ76BZHGZZzR5wJ"
-        },
-        {
-            "title": "Thrifted Tchotchkes",
-            "artist": "Pedro Silva",
-            "duration": "1:29",
-            "youtubeUrl": "https://www.youtube.com/watch?v=pVaUgczJuac",
-            "spotifyUrl": "https://open.spotify.com/track/4OoiahAtU21wsnn0qeu7tt"
-        },
-        {
-            "title": "Swirly 1000x",
-            "artist": "Pedro Silva",
-            "duration": "2:05",
-            "youtubeUrl": "https://www.youtube.com/watch?v=e-JfhIxtDvI",
-            "spotifyUrl": "https://open.spotify.com/track/7ovoyDYA3wrrNvRxOyRLEo"
-        },
-        {
-            "title": "Dear Little Brother...",
-            "artist": "Pedro Silva",
-            "duration": "1:13",
-            "youtubeUrl": "https://www.youtube.com/watch?v=t3b52Z2qtfw",
-            "spotifyUrl": "https://open.spotify.com/track/60Uxfwo9NEghUmaCzsofze"
-        },
-        {
-            "title": "Thalassophobia",
-            "artist": "Pedro Silva",
-            "duration": "2:22",
-            "youtubeUrl": "https://www.youtube.com/watch?v=4Cvi2aHoE_Q",
-            "spotifyUrl": "https://open.spotify.com/track/2B1cUHwIctqVHjivFJYRNH"
-        },
-        {
-            "title": "Water",
-            "artist": "Pedro Silva",
-            "duration": "0:19",
-            "youtubeUrl": "https://www.youtube.com/watch?v=bYMsrd5uwNg",
-            "spotifyUrl": "https://open.spotify.com/track/5F9rvXyFlnFuR0m6fADDub"
-        },
-        {
-            "title": "Hanging With The Boys",
-            "artist": "Pedro Silva",
-            "duration": "2:19",
-            "youtubeUrl": "https://www.youtube.com/watch?v=k5ULcrFTLxA",
-            "spotifyUrl": "https://open.spotify.com/track/63csh2NELMlx5jn0YVecIM"
-        },
-        {
-            "title": "WHITE SPACE",
-            "artist": "Pedro Silva",
-            "duration": "1:01",
-            "youtubeUrl": "https://www.youtube.com/watch?v=POMNynMVTk0",
-            "spotifyUrl": "https://open.spotify.com/track/3aes8gUhZnoVH85ImcHR02"
-        },
-        {
-            "title": "Origin",
-            "artist": "Pedro Silva",
-            "duration": "0:48",
-            "youtubeUrl": "https://www.youtube.com/watch?v=lnu0ygZ4tvk",
-            "spotifyUrl": "https://open.spotify.com/track/3R1EriWW99ktfCgJUm4Mge"
-        },
-        {
-            "title": "Long Way Down...",
-            "artist": "Pedro Silva",
-            "duration": "1:25",
-            "youtubeUrl": "https://www.youtube.com/watch?v=SJaIn9D5ro4",
-            "spotifyUrl": "https://open.spotify.com/track/2vhRoXdpGBGvHuFlR4yGD4"
-        },
-        {
-            "title": "The Last Resort",
-            "artist": "Pedro Silva",
-            "duration": "1:40",
-            "youtubeUrl": "https://www.youtube.com/watch?v=J87QEOPza0c",
-            "spotifyUrl": "https://open.spotify.com/track/558WnSZ5E5bfaA0HWDs9Pp"
-        },
-        {
-            "title": "Not-So-Empty-House",
-            "artist": "Pedro Silva",
-            "duration": "0:54",
-            "youtubeUrl": "https://www.youtube.com/watch?v=r6E18KHYZE8",
-            "spotifyUrl": "https://open.spotify.com/track/6V0xtOtnVb5mNyVPhDQa9b"
-        },
-        {
-            "title": "It's A Ghost Dance",
-            "artist": "Pedro Silva",
-            "duration": "0:42",
-            "youtubeUrl": "https://www.youtube.com/watch?v=N7Oy1pvobKI",
-            "spotifyUrl": "https://open.spotify.com/track/07mMnHfLc2ON0GFUt6XfS0"
-        },
-        {
-            "title": "Room For 4",
-            "artist": "Pedro Silva",
-            "duration": "1:35",
-            "youtubeUrl": "https://www.youtube.com/watch?v=FRAcLeSg6RY",
-            "spotifyUrl": "https://open.spotify.com/track/2PyxJpn4e8p2dz7yn5eX1v"
-        },
-        {
-            "title": "Gator Gambol",
-            "artist": "Pedro Silva",
-            "duration": "1:29",
-            "youtubeUrl": "https://www.youtube.com/watch?v=XAUoNdt-0hs",
-            "spotifyUrl": "https://open.spotify.com/track/1VHRIJpqWPQK66D19xW1wt"
-        },
-        {
-            "title": "Clams Clams Clams",
-            "artist": "Pedro Silva",
-            "duration": "1:08",
-            "youtubeUrl": "https://www.youtube.com/watch?v=6MBFHl_E3AU",
-            "spotifyUrl": "https://open.spotify.com/track/1k88SaNvJZXsea4joCvXOV"
-        },
-        {
-            "title": "Jawbreaker",
-            "artist": "Pedro Silva",
-            "duration": "1:25",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Cmj8FDbUdF8",
-            "spotifyUrl": "https://open.spotify.com/track/2l45hi5tViR7BduWPFSvdx"
-        },
-        {
-            "title": "GOLDENVENGEANCE",
-            "artist": "Pedro Silva",
-            "duration": "2:29",
-            "youtubeUrl": "https://www.youtube.com/watch?v=ZF-IA-vd-Bo",
-            "spotifyUrl": "https://open.spotify.com/track/6uU11ipDcTApcAJv0eehvz"
-        },
-        {
-            "title": "Underwater Highway",
-            "artist": "Pedro Silva",
-            "duration": "1:34",
-            "youtubeUrl": "https://www.youtube.com/watch?v=BYmr6n_go54",
-            "spotifyUrl": "https://open.spotify.com/track/5F9rvXyFlnFuR0m6fADDub"
-        },
-        {
-            "title": "Squall",
-            "artist": "Pedro Silva",
-            "duration": "1:23",
-            "youtubeUrl": "https://www.youtube.com/watch?v=6Wg3pWcLmcI",
-            "spotifyUrl": "https://open.spotify.com/track/3Wq50Zt0SkwUNYMvbpkIkB"
-        },
-        {
-            "title": "Aquifer",
-            "artist": "Pedro Silva",
-            "duration": "3:45",
-            "youtubeUrl": "https://www.youtube.com/watch?v=IV_vAW8QfPQ",
-            "spotifyUrl": "https://open.spotify.com/track/78quUXUO4fDDmrAMxPQY4v"
-        },
-        {
-            "title": "Numbers",
-            "artist": "Pedro Silva",
-            "duration": "2:56",
-            "youtubeUrl": "https://www.youtube.com/watch?v=4Q-nIrhdsGY",
-            "spotifyUrl": "https://open.spotify.com/track/3qOGL2XrvUuSxkamacs4LL"
-        },
-        {
-            "title": "Sinking",
-            "artist": "Pedro Silva",
-            "duration": "3:25",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Q5_r_ld4vyY",
-            "spotifyUrl": "https://open.spotify.com/track/1q16JLL0UFT2EbtAPccHXz"
-        },
-        {
-            "title": "H20:HCL",
-            "artist": "Pedro Silva",
-            "duration": "1:58",
-            "youtubeUrl": "https://www.youtube.com/watch?v=KszmrMQYYNw",
-            "spotifyUrl": "https://open.spotify.com/track/1tLy0KzjBLqbdYrp2Plb9p"
-        },
-        {
-            "title": "Chemistry On And On",
-            "artist": "Pedro Silva",
-            "duration": "1:21",
-            "youtubeUrl": "https://www.youtube.com/watch?v=FNrpcJ2Qyl0",
-            "spotifyUrl": "https://open.spotify.com/track/0hV90XPvpRtOtENBuXjNDa"
-        },
-        {
-            "title": "But I Wanna See It All With You!",
-            "artist": "Pedro Silva",
-            "duration": "0:57",
-            "youtubeUrl": "https://www.youtube.com/watch?v=gAOXXwV7_1o",
-            "spotifyUrl": "https://open.spotify.com/track/392fjTmW0R9uW287ae6bW1"
-        },
-        {
-            "title": "Grimey",
-            "artist": "Pedro Silva",
-            "duration": "1:15",
-            "youtubeUrl": "https://www.youtube.com/watch?v=NgI-7P17jIs",
-            "spotifyUrl": "https://open.spotify.com/track/5GD91ZVZhw6R6USBTO3aKE"
-        },
-        {
-            "title": "Underwater Prom Queens",
-            "artist": "Pedro Silva",
-            "duration": "2:07",
-            "youtubeUrl": "https://www.youtube.com/watch?v=7xl5kRE19y4",
-            "spotifyUrl": "https://open.spotify.com/track/5F9rvXyFlnFuR0m6fADDub"
-        },
-        {
-            "title": "Whale Whale Whale",
-            "artist": "Pedro Silva",
-            "duration": "1:13",
-            "youtubeUrl": "https://www.youtube.com/watch?v=IZbgINka7J4",
-            "spotifyUrl": "https://open.spotify.com/track/3KkeAOtLOXU8qsrhTHiFip"
-        },
-        {
-            "title": "Swallow Hollow",
-            "artist": "Pedro Silva",
-            "duration": "0:56",
-            "youtubeUrl": "https://www.youtube.com/watch?v=35SmEPcX5hw",
-            "spotifyUrl": "https://open.spotify.com/track/6PVFgLtF0AnjubQ53ZCmcN"
-        },
-        {
-            "title": "Gross...",
-            "artist": "Pedro Silva",
-            "duration": "0:25",
-            "youtubeUrl": "https://www.youtube.com/watch?v=C2WrhtU-7uo",
-            "spotifyUrl": "https://open.spotify.com/track/2P0dPJ8UHG7TewbmysMBHC"
-        },
-        {
-            "title": "That One Song But It's Some Mermaids",
-            "artist": "Pedro Silva",
-            "duration": "0:20",
-            "youtubeUrl": "https://www.youtube.com/watch?v=oeqt4IPYBdo",
-            "spotifyUrl": "https://open.spotify.com/track/1jEdjlGAvbbnocxUaAmkxt"
-        },
-        {
-            "title": "Undertow",
-            "artist": "Pedro Silva",
-            "duration": "3:22",
-            "youtubeUrl": "https://www.youtube.com/watch?v=-vWVAo-qHrc",
-            "spotifyUrl": "https://open.spotify.com/track/2r6FV5SVnh6wsmopnoHFzV"
-        },
-        {
-            "title": "WHITE SPACE",
-            "artist": "Pedro Silva",
-            "duration": "0:59",
-            "youtubeUrl": "https://www.youtube.com/watch?v=POMNynMVTk0",
-            "spotifyUrl": "https://open.spotify.com/track/3aes8gUhZnoVH85ImcHR02"
-        },
-        {
-            "title": "Fermentation Disorientation",
-            "artist": "Pedro Silva",
-            "duration": "1:18",
-            "youtubeUrl": "https://www.youtube.com/watch?v=aOxuSlUL2sw",
-            "spotifyUrl": "https://open.spotify.com/track/10qeDhJZJ0RXyQbK7Y8kyI"
-        },
-        {
-            "title": "Flouring With You",
-            "artist": "Pedro Silva",
-            "duration": "1:17",
-            "youtubeUrl": "https://www.youtube.com/watch?v=3YBe5w0gBTo",
-            "spotifyUrl": "https://open.spotify.com/track/4J7wRstUVmNs6hM9sepO9e"
-        },
-        {
-            "title": "BREADY STEADY GO",
-            "artist": "Pedro Silva",
-            "duration": "2:05",
-            "youtubeUrl": "https://www.youtube.com/watch?v=QL_MA9kQ-0o",
-            "spotifyUrl": "https://open.spotify.com/track/021bvbV0fD3JtZPFHwxJk3"
-        },
-        {
-            "title": "Recyling Really Is A Concept",
-            "artist": "Pedro Silva",
-            "duration": "1:23",
-            "youtubeUrl": "https://www.youtube.com/watch?v=nlIMTln7ZGI",
-            "spotifyUrl": "https://open.spotify.com/track/4tg9sr3QwZMCS02vdeRpgd"
-        },
-        {
-            "title": "Remember To Be Patient",
-            "artist": "Pedro Silva",
-            "duration": "1:39",
-            "youtubeUrl": "https://www.youtube.com/watch?v=YD7Q2MoR_gY",
-            "spotifyUrl": "https://open.spotify.com/track/0lIQDx3QDRMDkKHR21ek2k"
-        },
-        {
-            "title": "Cold!",
-            "artist": "Pedro Silva",
-            "duration": "1:06",
-            "youtubeUrl": "https://www.youtube.com/watch?v=I5M2H9QjNWk",
-            "spotifyUrl": "https://open.spotify.com/track/4I9Um0S4dGth4V9ZfeWw0U"
-        },
-        {
-            "title": "You Cannot Go Back",
-            "artist": "Pedro Silva",
-            "duration": "2:43",
-            "youtubeUrl": "https://www.youtube.com/watch?v=TyHXvJdyMUo",
-            "spotifyUrl": "https://open.spotify.com/track/07HlNeyuYVY1Q0R9q42C7q"
-        },
-        {
-            "title": "Tee-hee Time",
-            "artist": "Pedro Silva",
-            "duration": "1:44",
-            "youtubeUrl": "https://www.youtube.com/watch?v=n9gm9lP_4Gk",
-            "spotifyUrl": "https://open.spotify.com/track/21F78R3xmsNbbSSAvyUaVz"
-        },
-        {
-            "title": "Welcome Again.",
-            "artist": "Pedro Silva",
-            "duration": "0:44",
-            "youtubeUrl": "https://www.youtube.com/watch?v=gAWLivIzTKc",
-            "spotifyUrl": "https://open.spotify.com/track/4LupU34yUP41D6ORvPPjVZ"
-        },
-        {
-            "title": "Fleur",
-            "artist": "Pedro Silva",
-            "duration": "1:07",
-            "youtubeUrl": "https://www.youtube.com/watch?v=-zIjVa6GXOQ",
-            "spotifyUrl": "https://open.spotify.com/track/0nip5SuinvRbKlnsKfCDTh"
-        },
-        {
-            "title": "Distance",
-            "artist": "Pedro Silva",
-            "duration": "0:37",
-            "youtubeUrl": "https://www.youtube.com/watch?v=0PzXw9b40P8",
-            "spotifyUrl": "https://open.spotify.com/track/6DXgrHu7ODtWN1Y0jami5g"
-        },
-        {
-            "title": "Drone",
-            "artist": "Pedro Silva",
-            "duration": "0:31",
-            "youtubeUrl": "https://www.youtube.com/watch?v=O8tPpbqFwtI",
-            "spotifyUrl": "https://open.spotify.com/track/0kDeArEKBWkyX94iAHUST1"
-        },
-        {
-            "title": "Calm",
-            "artist": "Pedro Silva",
-            "duration": "0:41",
-            "youtubeUrl": "https://www.youtube.com/watch?v=7belT3MRC5w",
-            "spotifyUrl": "https://open.spotify.com/track/4PcD740Ko18KwmdIG9Zyz7"
-        },
-        {
-            "title": "Glade",
-            "artist": "Pedro Silva",
-            "duration": "0:59",
-            "youtubeUrl": "https://www.youtube.com/watch?v=8a8Ev1DmWVE",
-            "spotifyUrl": "https://open.spotify.com/track/1YLm2iWLN8W1hepxWFN2bg"
-        },
-        {
-            "title": "56-12-2",
-            "artist": "Pedro Silva",
-            "duration": "1:21",
-            "youtubeUrl": "https://www.youtube.com/watch?v=RHraiUG3vFY",
-            "spotifyUrl": "https://open.spotify.com/track/00xb5q0Yy36k1ofuqMkvfS"
-        },
-        {
-            "title": "Bloom",
-            "artist": "Pedro Silva",
-            "duration": "0:57",
-            "youtubeUrl": "https://www.youtube.com/watch?v=POLg-0WWXJE",
-            "spotifyUrl": "https://open.spotify.com/track/537nqymLhimaaCVDS6bYRY"
-        },
-        {
-            "title": "August/Water",
-            "artist": "Pedro Silva",
-            "duration": "1:43",
-            "youtubeUrl": "https://www.youtube.com/watch?v=OGwi7G59Lfc",
-            "spotifyUrl": "https://open.spotify.com/track/5F9rvXyFlnFuR0m6fADDub"
-        },
-        {
-            "title": "5ths",
-            "artist": "Pedro Silva",
-            "duration": "1:31",
-            "youtubeUrl": "https://www.youtube.com/watch?v=wJ3lnnpJYdc",
-            "spotifyUrl": "https://open.spotify.com/track/2IOkUIQJKHLBaavwCWB2Im"
-        },
-        {
-            "title": "Waiting For...",
-            "artist": "Pedro Silva",
-            "duration": "0:40",
-            "youtubeUrl": "https://www.youtube.com/watch?v=S0JCCYueIz0",
-            "spotifyUrl": "https://open.spotify.com/track/6WC70ckNaEjg3EkeIWjsWe"
-        },
-        {
-            "title": "Nawa",
-            "artist": "Pedro Silva",
-            "duration": "1:35",
-            "youtubeUrl": "https://www.youtube.com/watch?v=gXXBRBOu8pI",
-            "spotifyUrl": "https://open.spotify.com/track/4Ygjx5CwdZBbYfGfmLZHOO"
-        },
-        {
-            "title": "White Pillars",
-            "artist": "Pedro Silva",
-            "duration": "3:02",
-            "youtubeUrl": "https://www.youtube.com/watch?v=LfZP6KkmH4A",
-            "spotifyUrl": "https://open.spotify.com/track/7oaF5HviWdtqQPITrOtOsF"
-        },
-        {
-            "title": "Come and See",
-            "artist": "Pedro Silva",
-            "duration": "2:22",
-            "youtubeUrl": "https://www.youtube.com/watch?v=OCTYy4I54d8",
-            "spotifyUrl": "https://open.spotify.com/track/3h9nMzyTPo2xXV45I7RUs3"
-        },
-        {
-            "title": "Friends.",
-            "artist": "Pedro Silva",
-            "duration": "0:58",
-            "youtubeUrl": "https://www.youtube.com/watch?v=FT4cMYqiOng",
-            "spotifyUrl": "https://open.spotify.com/track/6TeX5jCAkXzgTIDCZluEDs"
-        },
-        {
-            "title": "Friendsssssss.",
-            "artist": "Pedro Silva",
-            "duration": "0:14",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Ybn__4TMGYQ",
-            "spotifyUrl": "https://open.spotify.com/track/6TeX5jCAkXzgTIDCZluEDs"
-        },
-        {
-            "title": "Orchard",
-            "artist": "Pedro Silva",
-            "duration": "1:02",
-            "youtubeUrl": "https://www.youtube.com/watch?v=g7lfPT4jNQQ",
-            "spotifyUrl": "https://open.spotify.com/track/7GPHZ4y2GcRW3ItupKJxDE"
-        },
-        {
-            "title": "Temple",
-            "artist": "Pedro Silva",
-            "duration": "2:15",
-            "youtubeUrl": "https://www.youtube.com/watch?v=6k2pFv2JRP8",
-            "spotifyUrl": "https://open.spotify.com/track/2O73jTIHlPJROVp8kwhOLI"
-        },
-        {
-            "title": "Look",
-            "artist": "Pedro Silva",
-            "duration": "0:47",
-            "youtubeUrl": "https://www.youtube.com/watch?v=cxlHRb2JXPg",
-            "spotifyUrl": "https://open.spotify.com/track/6CA7DsqLZeSaHVN29C93tI"
-        },
-        {
-            "title": "Bad Morning",
-            "artist": "Pedro Silva",
-            "duration": "0:37",
-            "youtubeUrl": "https://www.youtube.com/watch?v=IU1eOAk2zeY",
-            "spotifyUrl": "https://open.spotify.com/track/0iWDRVtCS2ObDecCgycb9M"
-        },
-        {
-            "title": "Listening",
-            "artist": "Pedro Silva",
-            "duration": "1:10",
-            "youtubeUrl": "https://www.youtube.com/watch?v=OWrUZC__Tgc",
-            "spotifyUrl": "https://open.spotify.com/track/5cf1NMsGSnPca237qY2ttA"
-        },
-        {
-            "title": "A Red Shape",
-            "artist": "Pedro Silva",
-            "duration": "0:26",
-            "youtubeUrl": "https://www.youtube.com/watch?v=70UZAJALTzI",
-            "spotifyUrl": "https://open.spotify.com/track/34cX149NTuonNEsTjqA4Dw"
-        },
-        {
-            "title": "Do You Remember?",
-            "artist": "Pedro Silva",
-            "duration": "0:36",
-            "youtubeUrl": "https://www.youtube.com/watch?v=rgseEXQ82Uk",
-            "spotifyUrl": "https://open.spotify.com/track/5oluS4yaLv0JkW55TtgL2o"
-        },
-        {
-            "title": "Playing Forever",
-            "artist": "Pedro Silva",
-            "duration": "1:43",
-            "youtubeUrl": "https://www.youtube.com/watch?v=M0WsQXD8788",
-            "spotifyUrl": "https://open.spotify.com/track/1jfQPNNmHlGieAwsIKK9Yg"
-        },
-        {
-            "title": "Treehouse - Here We Are, Together Again",
-            "artist": "Pedro Silva",
-            "duration": "1:18",
-            "youtubeUrl": "https://www.youtube.com/watch?v=zABWPJlIdkU",
-            "spotifyUrl": "https://open.spotify.com/track/5eF8pZVonUo4BcEv4TG6jf"
-        },
-        {
-            "title": "Save",
-            "artist": "Pedro Silva",
-            "duration": "0:41",
-            "youtubeUrl": "https://www.youtube.com/watch?v=4VzxGrNyl1U",
-            "spotifyUrl": "https://open.spotify.com/track/7ra4vGywbe8sczf3ubvTlg"
-        },
-        {
-            "title": "Something",
-            "artist": "Pedro Silva",
-            "duration": "1:30",
-            "youtubeUrl": "https://www.youtube.com/watch?v=IOBWv8Oa7xA",
-            "spotifyUrl": "https://open.spotify.com/track/1XcXVP4mQT7YblWjGg8SBb"
-        },
-        {
-            "title": "A Home For Flowers (Daisy)",
-            "artist": "Pedro Silva",
-            "duration": "1:19",
-            "youtubeUrl": "https://www.youtube.com/watch?v=5doM1Wx8jtA",
-            "spotifyUrl": "https://open.spotify.com/track/7yLr5h5xlHiNq651AvQWPe"
-        },
-        {
-            "title": "Remina",
-            "artist": "Pedro Silva",
-            "duration": "1:12",
-            "youtubeUrl": "https://www.youtube.com/watch?v=BXgF3zixmd0",
-            "spotifyUrl": "https://open.spotify.com/track/3LYk9HnfPfzCVTnKuAAZ2s"
-        },
-        {
-            "title": "Normal.",
-            "artist": "Pedro Silva",
-            "duration": "0:35",
-            "youtubeUrl": "https://www.youtube.com/watch?v=WvoeS1mJHqM",
-            "spotifyUrl": "https://open.spotify.com/track/1tgboFENEquVKtp7nroAsP"
-        },
-        {
-            "title": "Your Catastrophes",
-            "artist": "Pedro Silva",
-            "duration": "0:45",
-            "youtubeUrl": "https://www.youtube.com/watch?v=WB5XqJJHzC8",
-            "spotifyUrl": "https://open.spotify.com/track/5MSi1OxvYUh6OgnZpjv8cR"
-        },
-        {
-            "title": "Your Catastrophes - Procession",
-            "artist": "Pedro Silva",
-            "duration": "1:32",
-            "youtubeUrl": "https://www.youtube.com/watch?v=6rWV5JRd4zA",
-            "spotifyUrl": "https://open.spotify.com/track/5MSi1OxvYUh6OgnZpjv8cR"
-        },
-        {
-            "title": "Crossroads",
-            "artist": "Pedro Silva",
-            "duration": "2:09",
-            "youtubeUrl": "https://www.youtube.com/watch?v=5s-1dej9Gsc",
-            "spotifyUrl": "https://open.spotify.com/track/5VPagHGZWKFvRO2WONqEMx"
-        },
-        {
-            "title": "The Violin",
-            "artist": "Pedro Silva",
-            "duration": "0:21",
-            "youtubeUrl": "https://www.youtube.com/watch?v=qiawI9cDXZ0",
-            "spotifyUrl": "https://open.spotify.com/track/55LgDehJoMQePO5AAcnBrL"
-        },
-        {
-            "title": "A Home For Flowers (Sunflower)",
-            "artist": "Pedro Silva",
-            "duration": "1:24",
-            "youtubeUrl": "https://www.youtube.com/watch?v=v6ofxD4fLms",
-            "spotifyUrl": "https://open.spotify.com/track/6HStzhMSftvFmHdCUSNHn8"
-        },
-        {
-            "title": "You Must Carry On.",
-            "artist": "Pedro Silva",
-            "duration": "1:44",
-            "youtubeUrl": "https://www.youtube.com/watch?v=ewvhlYh9wC0",
-            "spotifyUrl": "https://open.spotify.com/track/2VO1wgBwQyMs1NBdKCHows"
-        },
-        {
-            "title": "Remembrance.",
-            "artist": "Pedro Silva",
-            "duration": "0:27",
-            "youtubeUrl": "https://www.youtube.com/watch?v=4f1v9u2Jbg8",
-            "spotifyUrl": "https://open.spotify.com/track/5O0szzcjr5N9mkltYCsL5z"
-        },
-        {
-            "title": "OMORI",
-            "artist": "Pedro Silva",
-            "duration": "4:13",
-            "youtubeUrl": "https://www.youtube.com/watch?v=ACon4txJiDA",
-            "spotifyUrl": "https://open.spotify.com/track/5o2DEGDA5N9Y1pLjZlmnGq"
-        },
-        {
-            "title": "OMORI - ALTER",
-            "artist": "Pedro Silva",
-            "duration": "1:26",
-            "youtubeUrl": "https://www.youtube.com/watch?v=W766EABGHe8",
-            "spotifyUrl": "https://open.spotify.com/track/5o2DEGDA5N9Y1pLjZlmnGq"
-        },
-        {
-            "title": "Try Again Little Brother",
-            "artist": "Pedro Silva",
-            "duration": "0:17",
-            "youtubeUrl": "https://www.youtube.com/watch?v=oIyRzl8zVWE",
-            "spotifyUrl": "https://open.spotify.com/track/3Z1zlhdXfRkdDQygq7j0Iw"
-        },
-        {
-            "title": "Persevere",
-            "artist": "Pedro Silva",
-            "duration": "0:27",
-            "youtubeUrl": "https://www.youtube.com/watch?v=-XqD227D_iw",
-            "spotifyUrl": "https://open.spotify.com/track/6OZxRwcM3G4KLCy7auSkJG"
-        },
-        {
-            "title": "DUET",
-            "artist": "Pedro Silva",
-            "duration": "2:12",
-            "youtubeUrl": "https://www.youtube.com/watch?v=ACon4txJiDA",
-            "spotifyUrl": "https://open.spotify.com/track/5RzB3KcfvZgvsWcsETVsqG"
-        },
-        {
-            "title": "Gone",
-            "artist": "Pedro Silva",
-            "duration": "0:27",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Bv5XwI5O7BQ",
-            "spotifyUrl": "https://open.spotify.com/track/4zuqK5yXEjjDTMOtQC4bZo"
-        },
-        {
-            "title": "Wake Up",
-            "artist": "Pedro Silva",
-            "duration": "0:36",
-            "youtubeUrl": "https://www.youtube.com/watch?v=VArqmDh2QpY",
-            "spotifyUrl": "https://open.spotify.com/track/2F2ZUgNn8ZrX2XeYB23ijC"
-        },
-        {
-            "title": "Clean Slate",
-            "artist": "Pedro Silva",
-            "duration": "0:59",
-            "youtubeUrl": "https://www.youtube.com/watch?v=NDLuLmsnpHc",
-            "spotifyUrl": "https://open.spotify.com/track/1Bx6cjrfaIvE9iQVrM9zuM"
-        },
-        {
-            "title": "The Truth",
-            "artist": "Pedro Silva",
-            "duration": "0:11",
-            "youtubeUrl": "https://www.youtube.com/watch?v=iwFP8www2CY",
-            "spotifyUrl": "https://open.spotify.com/track/1hxQBjLZs2riWZvzlTe8BO"
-        },
-        {
-            "title": "Good Morning",
-            "artist": "Pedro Silva",
-            "duration": "1:48",
-            "youtubeUrl": "https://www.youtube.com/watch?v=JlCN5qv9q3I",
-            "spotifyUrl": "https://open.spotify.com/track/6tKg4buNB9TKmaU8BYPE7V"
-        },
-        {
-            "title": "My Time",
-            "artist": "bo en",
-            "duration": "3:33",
-            "spotifyUrl": "https://open.spotify.com/track/0HuTlPTyGIkIBlX3Yak9G4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=OkMLYNWP-yo"
-        },
-        {
-            "title": "Fin",
-            "artist": "Pedro Silva",
-            "duration": "0:21",
-            "youtubeUrl": "https://www.youtube.com/watch?v=sAFXxpAvA6o",
-            "spotifyUrl": "https://open.spotify.com/track/33oZDeWArbzbmIa9NoMvsa"
-        }
-    ],
-    "gameplays": [
-        {
-            "title": "Omori - Gameplay Completo (Pt-BR)",
-            "channelName": "LegoGamer202",
-            "channelUrl": "https://www.youtube.com/@LegoGamer202",
-            "embedUrl": "https://www.youtube.com/embed/VZCBBR4sVh4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=VZCBBR4sVh4"
-        }
-    ],
-    "_pricesUpdated": "2026-07-11T14:44:00.516Z"
+  "name": "Omori",
+  "slug": "omori",
+  "genre": "RPG / Terror Psicológico",
+  "developer": "OMOCAT",
+  "year": 2020,
+  "productionScale": "Indie",
+  "ageRating": "16",
+  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1150690/header.jpg",
+  "previewGif": "https://media.giphy.com/media/vrRN53rgOgLfCNQuIH/giphy.gif",
+  "background": "https://cdn.akamai.steamstatic.com/steam/apps/1150690/page_bg_generated_v6b.jpg",
+  "bannerGif": "https://media.giphy.com/media/vrRN53rgOgLfCNQuIH/giphy.gif",
+  "shortDescription": "Um RPG psicológico sobre um garoto que enfrenta seus demônios internos. Uma jornada emocional que vai abalar seus sentimentos.",
+  "fullDescription": "Omori é um RPG de terror psicológico criado pela OMOCAT. Você controla OMORI, um garoto que vive em um mundo chamado White Space, um lugar branco e vazio. A cada dia, OMORI é convidado a explorar Headspace, um mundo colorido e surreal habitado por seus amigos. Paralelamente, você também controla SUNNY, a versão de OMORI no mundo real, um garoto que ficou recluso por quatro anos. A história é uma exploração profunda de temas como depressão, culpa, perda e auto-descoberta. Com uma estética pixel art belíssima, uma trilha sonora emocional e uma narrativa que vai do encantador ao perturbador, Omori é uma experiência única que toca o coração do jogador.",
+  "trailer": "https://www.youtube.com/embed/CyVv-jFJiJ8",
+  "translations": [
+    {
+      "name": "Omori - Tradução PT-BR Completa",
+      "version": "1.0",
+      "date": "2024-02-28",
+      "size": "30 MB",
+      "downloadUrl": "#"
+    },
+    {
+      "name": "Omori - Tradução PT-BR Corrigida v2",
+      "version": "2.0",
+      "date": "2024-07-12",
+      "size": "30 MB",
+      "downloadUrl": "#"
+    }
+  ],
+  "mods": [
+    {
+      "name": "Omori Randomizer",
+      "version": "1.2",
+      "author": "Community",
+      "downloadUrl": "#",
+      "officialUrl": "https://www.nexusmods.com/omori"
+    },
+    {
+      "name": "Omori Hard Mode",
+      "version": "1.0",
+      "author": "Community",
+      "downloadUrl": "#"
+    }
+  ],
+  "stores": [
+    {
+      "store": "Steam",
+      "url": "https://store.steampowered.com/app/1150690/OMORI/",
+      "platform": "PC",
+      "price": 37.99,
+      "priceOriginal": "R$ 37,99",
+      "coupon": null,
+      "lastUpdated": "2026-07-11"
+    },
+    {
+      "store": "Eneba",
+      "url": "https://www.eneba.com/steam-omori",
+      "platform": "PC",
+      "price": 37.99,
+      "priceOriginal": "R$ 37,99",
+      "coupon": null,
+      "lastUpdated": "2026-07-11"
+    },
+    {
+      "store": "Fanatical",
+      "url": "https://www.fanatical.com/en/game/omori",
+      "platform": "PC",
+      "price": 55,
+      "priceOriginal": "US$9.49",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "GOG",
+      "url": "https://www.gog.com/game/omori",
+      "platform": "PC",
+      "price": 71,
+      "priceOriginal": "US$14.99",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "Humble Bundle",
+      "url": "https://www.humblebundle.com/store/omori",
+      "platform": "PC",
+      "price": 71,
+      "priceOriginal": "US$14.99",
+      "coupon": "Humble20",
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "Nintendo eShop",
+      "url": "https://www.nintendo.com/pt-br/store/products/omori-switch/",
+      "platform": "Nintendo Switch",
+      "price": 119,
+      "priceOriginal": "R$119,00",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "PlayStation Store",
+      "url": "https://store.playstation.com/pt-br/category/omori",
+      "platform": "PS4 / PS5",
+      "price": 119.9,
+      "priceOriginal": "R$119,90",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "Xbox Store",
+      "url": "https://www.xbox.com/pt-br/games/store/omori/9p3l4fmpfct0",
+      "platform": "Xbox One / Series X|S",
+      "price": 119.9,
+      "priceOriginal": "R$119,90",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    }
+  ],
+  "soundtrack": [
+    {
+      "title": "Title",
+      "artist": "Pedro Silva",
+      "duration": "0:37",
+      "spotifyUrl": "https://open.spotify.com/track/6hWCUbrB0qxsu3AgI7v63i",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9d9e6XmNn9Q"
+    },
+    {
+      "title": "WHITE SPACE",
+      "artist": "Pedro Silva",
+      "duration": "0:41",
+      "spotifyUrl": "https://open.spotify.com/track/7Max3EiSwBFypn3MAnwhkX",
+      "youtubeUrl": "https://www.youtube.com/watch?v=t815nBXavpE"
+    },
+    {
+      "title": "Lost At A Sleepover",
+      "artist": "Pedro Silva",
+      "duration": "0:56",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hLDull8aPDw",
+      "spotifyUrl": "https://open.spotify.com/track/3vMyi4zZKU4z25OPAeK9rX"
+    },
+    {
+      "title": "Spaces In-between",
+      "artist": "Pedro Silva",
+      "duration": "0:58",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ljAyy-dhAz0",
+      "spotifyUrl": "https://open.spotify.com/track/54shhL9vif2iwUXg0lNpQX"
+    },
+    {
+      "title": "By Your Side.",
+      "artist": "Pedro Silva",
+      "duration": "1:36",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7GIWV__qx4M",
+      "spotifyUrl": "https://open.spotify.com/track/06r2yQOiQYB1Ra4KYEdskL"
+    },
+    {
+      "title": "Let's Get Together Now!",
+      "artist": "Pedro Silva",
+      "duration": "1:38",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GoWgI1V_WDA",
+      "spotifyUrl": "https://open.spotify.com/track/4GdeaEySaUDHifqoOTAUEb"
+    },
+    {
+      "title": "100 Sunny",
+      "artist": "Pedro Silva",
+      "duration": "1:17",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hA8qVWKj738",
+      "spotifyUrl": "https://open.spotify.com/track/1kjHcsfGh4EXxslR8TxEcX"
+    },
+    {
+      "title": "Trouble Brewing",
+      "artist": "Pedro Silva",
+      "duration": "0:20",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AO4-wj6WLO4",
+      "spotifyUrl": "https://open.spotify.com/track/6OxKG7GJqTlSa0GOEfoAiP"
+    },
+    {
+      "title": "Push & Shove",
+      "artist": "Pedro Silva",
+      "duration": "0:39",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tnyNKmndmRg",
+      "spotifyUrl": "https://open.spotify.com/track/48wrEgLF4772zDxewZwoKr"
+    },
+    {
+      "title": "So, How'd We Do?",
+      "artist": "Pedro Silva",
+      "duration": "0:19",
+      "youtubeUrl": "https://www.youtube.com/watch?v=d89R4kgoTTQ",
+      "spotifyUrl": "https://open.spotify.com/track/1VOb9uLcUiIpT2IftR8t0u"
+    },
+    {
+      "title": "It's Okay To Try Again...",
+      "artist": "Pedro Silva",
+      "duration": "0:09",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_pVm9PozysI",
+      "spotifyUrl": "https://open.spotify.com/track/7j1hn5RT43rN8EKeGaan6T"
+    },
+    {
+      "title": "Trees...",
+      "artist": "Pedro Silva",
+      "duration": "1:58",
+      "youtubeUrl": "https://www.youtube.com/watch?v=n_Dxix0lvDM",
+      "spotifyUrl": "https://open.spotify.com/track/2Ow8YPaRkaHd5Cr9zGpoHC"
+    },
+    {
+      "title": "A Home For Flowers (Tulip)",
+      "artist": "Pedro Silva",
+      "duration": "1:32",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u2xW23u4qEY",
+      "spotifyUrl": "https://open.spotify.com/track/5xLoX9ayGLlGfA7y32wfO9"
+    },
+    {
+      "title": "Acrophobia",
+      "artist": "Pedro Silva",
+      "duration": "2:22",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KszmrMQYYNw",
+      "spotifyUrl": "https://open.spotify.com/track/3JgkPFNh5ii9o0fHHW8b2a"
+    },
+    {
+      "title": "Tussle Among Trees",
+      "artist": "Pedro Silva",
+      "duration": "1:10",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w-BEK6QjRIE",
+      "spotifyUrl": "https://open.spotify.com/track/2Ow8YPaRkaHd5Cr9zGpoHC"
+    },
+    {
+      "title": "A Place By A Lake",
+      "artist": "Pedro Silva",
+      "duration": "1:35",
+      "youtubeUrl": "https://www.youtube.com/watch?v=khr33grtujE",
+      "spotifyUrl": "https://open.spotify.com/track/58R1FPRbqKN7tq1B466QPB"
+    },
+    {
+      "title": "Forest Chillin'",
+      "artist": "Pedro Silva",
+      "duration": "1:22",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AYawCl_sOxA",
+      "spotifyUrl": "https://open.spotify.com/track/7ENHYSjru1USkSjzlfHAHB"
+    },
+    {
+      "title": "Poems In The Fog",
+      "artist": "Pedro Silva",
+      "duration": "1:49",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LhANeyMTs0w",
+      "spotifyUrl": "https://open.spotify.com/track/5UyCeNAdl20Lio0M6JosDy"
+    },
+    {
+      "title": "Space Road 1979",
+      "artist": "Pedro Silva",
+      "duration": "1:33",
+      "youtubeUrl": "https://www.youtube.com/watch?v=p-E4vGa7z84",
+      "spotifyUrl": "https://open.spotify.com/track/17iDeAmxcxIzwnI2CBMXNT"
+    },
+    {
+      "title": "See In Your Fantasy",
+      "artist": "Pedro Silva",
+      "duration": "1:13",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RBFnIDWW7Qc",
+      "spotifyUrl": "https://open.spotify.com/track/4iKYx36kYCorcjYAbkVUZC"
+    },
+    {
+      "title": "Sugar Star Planetarium",
+      "artist": "Pedro Silva",
+      "duration": "2:14",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZEZRa41ury4",
+      "spotifyUrl": "https://open.spotify.com/track/5ClvtUXRpO2KeRBrK0ushG"
+    },
+    {
+      "title": "Lost, Then Found!",
+      "artist": "Pedro Silva",
+      "duration": "1:17",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b4dbjk2HcYo",
+      "spotifyUrl": "https://open.spotify.com/track/5tBC128zwMXyFPPAjvo5ZL"
+    },
+    {
+      "title": "THE VENGEANCE OF THOSE FORGOTTEN IN DARKNESS",
+      "artist": "Pedro Silva",
+      "duration": "1:12",
+      "youtubeUrl": "https://www.youtube.com/watch?v=R-ErJWtC9IE",
+      "spotifyUrl": "https://open.spotify.com/track/6cQrAyMfMcs3sVgd5SMToF"
+    },
+    {
+      "title": "Recycling Is A Concept!",
+      "artist": "Pedro Silva",
+      "duration": "0:15",
+      "youtubeUrl": "https://www.youtube.com/watch?v=D3By5lrZ8sM",
+      "spotifyUrl": "https://open.spotify.com/track/4meF4blg3aSLYbYMEfHlzC"
+    },
+    {
+      "title": "Lovesick - 80,000 Lightyears",
+      "artist": "Pedro Silva",
+      "duration": "1:15",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8BYAkhtvCSI",
+      "spotifyUrl": "https://open.spotify.com/track/14ZLZIJjJzzxZOcoHDuraW"
+    },
+    {
+      "title": "I Will Catch Up!",
+      "artist": "Pedro Silva",
+      "duration": "1:42",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SVCPjW2_NjI",
+      "spotifyUrl": "https://open.spotify.com/track/2ib9e0d9YOPm2w33RMOJxo"
+    },
+    {
+      "title": "Three Bar Logos",
+      "artist": "Pedro Silva",
+      "duration": "1:13",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vY-96WPBCuU",
+      "spotifyUrl": "https://open.spotify.com/track/3kahDlD3OOU76k1cFPr3Dx"
+    },
+    {
+      "title": "YO DJ PUMP THIS PARTY",
+      "artist": "Pedro Silva",
+      "duration": "0:20",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ElkeeqU3E8U",
+      "spotifyUrl": "https://open.spotify.com/track/5HeFgxAczK6ab6VeZwhxgr"
+    },
+    {
+      "title": "Good For Health, Bad For Imagination",
+      "artist": "Pedro Silva",
+      "duration": "1:29",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Q7H7zJ_I8cs",
+      "spotifyUrl": "https://open.spotify.com/track/5kG3DjDwQdv1NEAlsL4Ied"
+    },
+    {
+      "title": "Snow Forest - A Single Flower Blooms",
+      "artist": "Pedro Silva",
+      "duration": "2:21",
+      "youtubeUrl": "https://www.youtube.com/watch?v=POLg-0WWXJE",
+      "spotifyUrl": "https://open.spotify.com/track/537nqymLhimaaCVDS6bYRY"
+    },
+    {
+      "title": "White Surf Style 6",
+      "artist": "Pedro Silva",
+      "duration": "1:32",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8Jx0cblr2bQ",
+      "spotifyUrl": "https://open.spotify.com/track/0LwOxl2R52ZdJbCwdI6zgN"
+    },
+    {
+      "title": "Stardust Diving",
+      "artist": "Pedro Silva",
+      "duration": "1:35",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OHECeRJDDrg",
+      "spotifyUrl": "https://open.spotify.com/track/1jf1rUpAkBkSBRBXnMPtvY"
+    },
+    {
+      "title": "Oh My God.",
+      "artist": "Pedro Silva",
+      "duration": "0:26",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fhfHb6nwyh0",
+      "spotifyUrl": "https://open.spotify.com/track/60EpnLAxjVt9vtnpOCEOyG"
+    },
+    {
+      "title": "A Rose By Any Other Name...",
+      "artist": "Pedro Silva",
+      "duration": "0:45",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0IT0kOwFaaE",
+      "spotifyUrl": "https://open.spotify.com/track/5wX1LgDSXCQYEmzTt3dxVR"
+    },
+    {
+      "title": "Stardust Dusting",
+      "artist": "Pedro Silva",
+      "duration": "0:38",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cqVSlFhUK48",
+      "spotifyUrl": "https://open.spotify.com/track/29wzWKnfLWGGoLespFpLnL"
+    },
+    {
+      "title": "CHAOS ASSEMBLY",
+      "artist": "Pedro Silva",
+      "duration": "1:05",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OwR9FpEdGPI",
+      "spotifyUrl": "https://open.spotify.com/track/3czhrlihkXf4cYW6FOo3LW"
+    },
+    {
+      "title": "The Elegance of the Mysterious and Distant",
+      "artist": "Pedro Silva",
+      "duration": "0:36",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nK53MCu0ZCY",
+      "spotifyUrl": "https://open.spotify.com/track/4QtvMYyaFneVP4NzQTwyQi"
+    },
+    {
+      "title": "Space Boyfriend's Tape - I Want Nothing More",
+      "artist": "Pedro Silva",
+      "duration": "0:29",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tcegOICIf4g",
+      "spotifyUrl": "https://open.spotify.com/track/7ImNqiLVyvfMCoRchlqoHI"
+    },
+    {
+      "title": "Trouble - NEVER/ALWAYS",
+      "artist": "Pedro Silva",
+      "duration": "1:25",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fsCMZQvpxpM",
+      "spotifyUrl": "https://open.spotify.com/track/1wXesJJ2eT39SxNbL7Fwc2"
+    },
+    {
+      "title": "You Were Wrong. Go Back.",
+      "artist": "Pedro Silva",
+      "duration": "1:24",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TyHXvJdyMUo",
+      "spotifyUrl": "https://open.spotify.com/track/6RwQvi24aEQA9ioolvYZC2"
+    },
+    {
+      "title": "Such A Time We Had Together",
+      "artist": "Pedro Silva",
+      "duration": "0:50",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7yqpfdrkk4c",
+      "spotifyUrl": "https://open.spotify.com/track/27VphNfPN7yTlM10GlgylV"
+    },
+    {
+      "title": "Photograph",
+      "artist": "Pedro Silva",
+      "duration": "0:53",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J2bX_B_oU-8",
+      "spotifyUrl": "https://open.spotify.com/track/5VOJx46O9TqFWaQjxbFpfD"
+    },
+    {
+      "title": "Finding Shapes in the Clouds",
+      "artist": "Pedro Silva",
+      "duration": "1:31",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mh0QNGiNtnw",
+      "spotifyUrl": "https://open.spotify.com/track/33oZDeWArbzbmIa9NoMvsa"
+    },
+    {
+      "title": "Where We Used To Play",
+      "artist": "Pedro Silva",
+      "duration": "1:44",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DepK5YBmWfA",
+      "spotifyUrl": "https://open.spotify.com/track/3jF8JrroIR4jijVlVkeUs3"
+    },
+    {
+      "title": "Bargain Bin Boys",
+      "artist": "Pedro Silva",
+      "duration": "1:01",
+      "youtubeUrl": "https://www.youtube.com/watch?v=e7JHrEbnH78",
+      "spotifyUrl": "https://open.spotify.com/track/51WJjdR5d5EnPlE9OLcv2U"
+    },
+    {
+      "title": "Woof",
+      "artist": "Pedro Silva",
+      "duration": "0:31",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3jF5hK3h0wk",
+      "spotifyUrl": "https://open.spotify.com/track/1s7QM7h7k27X4V8OmFB97J"
+    },
+    {
+      "title": "Realistic Space Simulation",
+      "artist": "Pedro Silva",
+      "duration": "1:27",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GLjpwNS8sj4",
+      "spotifyUrl": "https://open.spotify.com/track/2OMvGghRVa9o5kf88gW74i"
+    },
+    {
+      "title": "Jash Bash",
+      "artist": "Pedro Silva",
+      "duration": "0:21",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vqFL-p7AB8U",
+      "spotifyUrl": "https://open.spotify.com/track/4R7rqbkE4FpzhP0LEWy0Zn"
+    },
+    {
+      "title": "Jash Bash 2: New Age of Heroes",
+      "artist": "Pedro Silva",
+      "duration": "0:12",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H5RbFRKKgfA",
+      "spotifyUrl": "https://open.spotify.com/track/4R7rqbkE4FpzhP0LEWy0Zn"
+    },
+    {
+      "title": "Jash Bash 3: Jashpocalypse Infinity",
+      "artist": "Pedro Silva",
+      "duration": "0:28",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GOQq7e3K20Q",
+      "spotifyUrl": "https://open.spotify.com/track/4R7rqbkE4FpzhP0LEWy0Zn"
+    },
+    {
+      "title": "Clash of Jash",
+      "artist": "Pedro Silva",
+      "duration": "0:17",
+      "youtubeUrl": "https://www.youtube.com/watch?v=s1pAlPutUZk",
+      "spotifyUrl": "https://open.spotify.com/track/2sBP0LIYkZDhOOzJH4xjj2"
+    },
+    {
+      "title": "Take A Load Off",
+      "artist": "Pedro Silva",
+      "duration": "1:27",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KkgJScQq0Bg",
+      "spotifyUrl": "https://open.spotify.com/track/3GiqaMjM10hgS8fQ3N1gUH"
+    },
+    {
+      "title": "I Prefer My Pizza 90% Grease",
+      "artist": "Pedro Silva",
+      "duration": "0:44",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1WbCqh3gW6Q",
+      "spotifyUrl": "https://open.spotify.com/track/6D5EqxHJssh43xmYey6Jmg"
+    },
+    {
+      "title": "Fresh...ish...",
+      "artist": "Pedro Silva",
+      "duration": "1:41",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IU1eOAk2zeY",
+      "spotifyUrl": "https://open.spotify.com/track/2Q7u1FsrEziCGtPX8z5UuO"
+    },
+    {
+      "title": "High Fructose Headache",
+      "artist": "Pedro Silva",
+      "duration": "1:07",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IU1eOAk2zeY",
+      "spotifyUrl": "https://open.spotify.com/track/4eyYNRkgLS2KheobnMh32T"
+    },
+    {
+      "title": "I Think My Dad Shops Here...",
+      "artist": "Pedro Silva",
+      "duration": "1:35",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uWijf1XXncw",
+      "spotifyUrl": "https://open.spotify.com/track/64LlI6qBCB6tpEzZvfOFIx"
+    },
+    {
+      "title": "Just Leave Me Alone",
+      "artist": "Pedro Silva",
+      "duration": "0:41",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uEzbdsyaNao",
+      "spotifyUrl": "https://open.spotify.com/track/0YDAl86BFCvQ0fnkXvXTMV"
+    },
+    {
+      "title": "Cram It Wad",
+      "artist": "Pedro Silva",
+      "duration": "0:22",
+      "youtubeUrl": "https://www.youtube.com/watch?v=X4sDbcV6R_k",
+      "spotifyUrl": "https://open.spotify.com/track/7KWNR7m4QtLXpucNU0M3ra"
+    },
+    {
+      "title": "Respite",
+      "artist": "Pedro Silva",
+      "duration": "1:14",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kBtowyIHT1U",
+      "spotifyUrl": "https://open.spotify.com/track/6tLtX9MXUGX0YFjSlcYIO6"
+    },
+    {
+      "title": "It Means Everything.",
+      "artist": "Pedro Silva",
+      "duration": "1:13",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8wKWwUzgCE8",
+      "spotifyUrl": "https://open.spotify.com/track/5OgbJyyZj0bf1f5xIR14pf"
+    },
+    {
+      "title": "See You Tomorrow",
+      "artist": "Pedro Silva",
+      "duration": "2:18",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MQYmjpdA_Pw",
+      "spotifyUrl": "https://open.spotify.com/track/50IyqKFW5liwzYbUjZyZnJ"
+    },
+    {
+      "title": "A Home For Flowers (Empty)",
+      "artist": "Pedro Silva",
+      "duration": "1:16",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LjyToU14TBM",
+      "spotifyUrl": "https://open.spotify.com/track/1EUqwGln350zfIMKRuv1OD"
+    },
+    {
+      "title": "Help Me",
+      "artist": "Pedro Silva",
+      "duration": "0:39",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GtX9UNr9DPo",
+      "spotifyUrl": "https://open.spotify.com/track/6ZQe3a3ianj8sRfxlY09Aj"
+    },
+    {
+      "title": "Arachnophobia",
+      "artist": "Pedro Silva",
+      "duration": "2:31",
+      "youtubeUrl": "https://www.youtube.com/watch?v=El48dFniJGc",
+      "spotifyUrl": "https://open.spotify.com/track/4lqkz49YP3wujGO4zkriGx"
+    },
+    {
+      "title": "Something, Alone",
+      "artist": "Pedro Silva",
+      "duration": "0:36",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IOBWv8Oa7xA",
+      "spotifyUrl": "https://open.spotify.com/track/1XcXVP4mQT7YblWjGg8SBb"
+    },
+    {
+      "title": "Fade",
+      "artist": "Pedro Silva",
+      "duration": "0:42",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZDdBZtWIPU0",
+      "spotifyUrl": "https://open.spotify.com/track/7tIAbu9LCHB4nqHjroV5Wt"
+    },
+    {
+      "title": "The Heart of the Desert",
+      "artist": "Pedro Silva",
+      "duration": "1:49",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_T_SkLp-5z8",
+      "spotifyUrl": "https://open.spotify.com/track/5NVIuHiEBmyJmw7I6u6K9j"
+    },
+    {
+      "title": "Puddles",
+      "artist": "Pedro Silva",
+      "duration": "1:54",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_46DK9y5J5o",
+      "spotifyUrl": "https://open.spotify.com/track/7IzNqilx9mfs83D5k6dCFP"
+    },
+    {
+      "title": "PRANKED.",
+      "artist": "Pedro Silva",
+      "duration": "1:03",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uEPH9oZ0IKU",
+      "spotifyUrl": "https://open.spotify.com/track/7sRp9nzbcWQPhghv8GIZg5"
+    },
+    {
+      "title": "An Archaeic Resonance",
+      "artist": "Pedro Silva",
+      "duration": "0:58",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4eZgtFTAe60",
+      "spotifyUrl": "https://open.spotify.com/track/1jgZ884MqB5Oi7t2ibiGKJ"
+    },
+    {
+      "title": "'X' Marks The Spot!",
+      "artist": "Pedro Silva",
+      "duration": "0:55",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w7kXIdmiIU4",
+      "spotifyUrl": "https://open.spotify.com/track/0ujJamQgcLCrshbVdVqG1v"
+    },
+    {
+      "title": "Those Who Forget History",
+      "artist": "Pedro Silva",
+      "duration": "0:46",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bQunlydvgNw",
+      "spotifyUrl": "https://open.spotify.com/track/5Mxnbi1mSPpozKqpy2O9mW"
+    },
+    {
+      "title": "Tumbleweeds",
+      "artist": "Pedro Silva",
+      "duration": "1:44",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xKUPLQypXYg",
+      "spotifyUrl": "https://open.spotify.com/track/3c6CXYqRDp04mXYrKVRlLZ"
+    },
+    {
+      "title": "Pyrefly Forest - Cat's Cradle",
+      "artist": "Pedro Silva",
+      "duration": "4:27",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QtQubHCy2UI",
+      "spotifyUrl": "https://open.spotify.com/track/4KhVvlkPQkFEQU16hUbRF5"
+    },
+    {
+      "title": "Forest Frenzy",
+      "artist": "Pedro Silva",
+      "duration": "2:09",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0IWU-9_BuQw",
+      "spotifyUrl": "https://open.spotify.com/track/09QrQnWCb6sHRCEhL5dOmR"
+    },
+    {
+      "title": "Sweet Paralysis",
+      "artist": "Pedro Silva",
+      "duration": "1:11",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aFwkKTITYKA",
+      "spotifyUrl": "https://open.spotify.com/track/1CyaKEglwM3iCCFuUUHwTp"
+    },
+    {
+      "title": "Sweetheart's Quest For Hearts",
+      "artist": "Pedro Silva",
+      "duration": "1:24",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FgXOBL1cdIA",
+      "spotifyUrl": "https://open.spotify.com/track/339ZGxTBHc20vyPjHZwsEy"
+    },
+    {
+      "title": "How...sad!",
+      "artist": "Pedro Silva",
+      "duration": "1:10",
+      "youtubeUrl": "https://www.youtube.com/watch?v=z2NNo23Q9do",
+      "spotifyUrl": "https://open.spotify.com/track/15n7OwO6Im8qKp0ezkvUsn"
+    },
+    {
+      "title": "How...tragic!",
+      "artist": "Pedro Silva",
+      "duration": "1:04",
+      "youtubeUrl": "https://www.youtube.com/watch?v=z2NNo23Q9do",
+      "spotifyUrl": "https://open.spotify.com/track/7aWtwrJDGCUIJDmQI2hwU2"
+    },
+    {
+      "title": "Eternal Dungeon",
+      "artist": "Pedro Silva",
+      "duration": "1:24",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w9AGMLpav3E",
+      "spotifyUrl": "https://open.spotify.com/track/2TE1KzLjrLwR4ldPKSeuWQ"
+    },
+    {
+      "title": "Splintered Sweets In The Castle",
+      "artist": "Pedro Silva",
+      "duration": "1:24",
+      "youtubeUrl": "https://www.youtube.com/watch?v=x_NsyntBOME",
+      "spotifyUrl": "https://open.spotify.com/track/0kWnhVdLo7cT32WXhowVih"
+    },
+    {
+      "title": "Wandering Rose",
+      "artist": "Pedro Silva",
+      "duration": "1:53",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LXn3FNYzvwo",
+      "spotifyUrl": "https://open.spotify.com/track/5Sh2kSqK5j0fyPzeuMj3er"
+    },
+    {
+      "title": "Stationary Rose",
+      "artist": "Pedro Silva",
+      "duration": "1:37",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uZYl9h5Ji1c",
+      "spotifyUrl": "https://open.spotify.com/track/2K3vzgzIVq3nn3uefGKdJQ"
+    },
+    {
+      "title": "Valour Against All Odds",
+      "artist": "Pedro Silva",
+      "duration": "0:54",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7nST9wmNGB8",
+      "spotifyUrl": "https://open.spotify.com/track/2Unt7tIaX8uSK31LEv5XYq"
+    },
+    {
+      "title": "I Definitely Promised You A Rose Garden",
+      "artist": "Pedro Silva",
+      "duration": "1:57",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WQTdaPEBjWs",
+      "spotifyUrl": "https://open.spotify.com/track/00CRAq6XhunnlSc0By474Z"
+    },
+    {
+      "title": "World's End Valentine",
+      "artist": "Pedro Silva",
+      "duration": "2:27",
+      "spotifyUrl": "https://open.spotify.com/track/33G3sUAxqvFEaEeM7u849M",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rlQd9qWKjLM"
+    },
+    {
+      "title": "I Just Love The 50s!!!",
+      "artist": "Pedro Silva",
+      "duration": "1:17",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DY9lM41h-dg",
+      "spotifyUrl": "https://open.spotify.com/track/1At66VMSGx03JwOrHEGMXj"
+    },
+    {
+      "title": "Lost Library",
+      "artist": "Pedro Silva",
+      "duration": "1:15",
+      "youtubeUrl": "https://www.youtube.com/watch?v=31jhk_A3mYk",
+      "spotifyUrl": "https://open.spotify.com/track/33i4H7iDxIes1d8Nd0S3QF"
+    },
+    {
+      "title": "Bookcase",
+      "artist": "Pedro Silva",
+      "duration": "0:19",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uLQcyE4dZi0",
+      "spotifyUrl": "https://open.spotify.com/track/5rVO3yaQZ76BZHGZZzR5wJ"
+    },
+    {
+      "title": "Thrifted Tchotchkes",
+      "artist": "Pedro Silva",
+      "duration": "1:29",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pVaUgczJuac",
+      "spotifyUrl": "https://open.spotify.com/track/4OoiahAtU21wsnn0qeu7tt"
+    },
+    {
+      "title": "Swirly 1000x",
+      "artist": "Pedro Silva",
+      "duration": "2:05",
+      "youtubeUrl": "https://www.youtube.com/watch?v=e-JfhIxtDvI",
+      "spotifyUrl": "https://open.spotify.com/track/7ovoyDYA3wrrNvRxOyRLEo"
+    },
+    {
+      "title": "Dear Little Brother...",
+      "artist": "Pedro Silva",
+      "duration": "1:13",
+      "youtubeUrl": "https://www.youtube.com/watch?v=t3b52Z2qtfw",
+      "spotifyUrl": "https://open.spotify.com/track/60Uxfwo9NEghUmaCzsofze"
+    },
+    {
+      "title": "Thalassophobia",
+      "artist": "Pedro Silva",
+      "duration": "2:22",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4Cvi2aHoE_Q",
+      "spotifyUrl": "https://open.spotify.com/track/2B1cUHwIctqVHjivFJYRNH"
+    },
+    {
+      "title": "Water",
+      "artist": "Pedro Silva",
+      "duration": "0:19",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bYMsrd5uwNg",
+      "spotifyUrl": "https://open.spotify.com/track/5F9rvXyFlnFuR0m6fADDub"
+    },
+    {
+      "title": "Hanging With The Boys",
+      "artist": "Pedro Silva",
+      "duration": "2:19",
+      "youtubeUrl": "https://www.youtube.com/watch?v=k5ULcrFTLxA",
+      "spotifyUrl": "https://open.spotify.com/track/63csh2NELMlx5jn0YVecIM"
+    },
+    {
+      "title": "WHITE SPACE",
+      "artist": "Pedro Silva",
+      "duration": "1:01",
+      "youtubeUrl": "https://www.youtube.com/watch?v=POMNynMVTk0",
+      "spotifyUrl": "https://open.spotify.com/track/3aes8gUhZnoVH85ImcHR02"
+    },
+    {
+      "title": "Origin",
+      "artist": "Pedro Silva",
+      "duration": "0:48",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lnu0ygZ4tvk",
+      "spotifyUrl": "https://open.spotify.com/track/3R1EriWW99ktfCgJUm4Mge"
+    },
+    {
+      "title": "Long Way Down...",
+      "artist": "Pedro Silva",
+      "duration": "1:25",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SJaIn9D5ro4",
+      "spotifyUrl": "https://open.spotify.com/track/2vhRoXdpGBGvHuFlR4yGD4"
+    },
+    {
+      "title": "The Last Resort",
+      "artist": "Pedro Silva",
+      "duration": "1:40",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J87QEOPza0c",
+      "spotifyUrl": "https://open.spotify.com/track/558WnSZ5E5bfaA0HWDs9Pp"
+    },
+    {
+      "title": "Not-So-Empty-House",
+      "artist": "Pedro Silva",
+      "duration": "0:54",
+      "youtubeUrl": "https://www.youtube.com/watch?v=r6E18KHYZE8",
+      "spotifyUrl": "https://open.spotify.com/track/6V0xtOtnVb5mNyVPhDQa9b"
+    },
+    {
+      "title": "It's A Ghost Dance",
+      "artist": "Pedro Silva",
+      "duration": "0:42",
+      "youtubeUrl": "https://www.youtube.com/watch?v=N7Oy1pvobKI",
+      "spotifyUrl": "https://open.spotify.com/track/07mMnHfLc2ON0GFUt6XfS0"
+    },
+    {
+      "title": "Room For 4",
+      "artist": "Pedro Silva",
+      "duration": "1:35",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FRAcLeSg6RY",
+      "spotifyUrl": "https://open.spotify.com/track/2PyxJpn4e8p2dz7yn5eX1v"
+    },
+    {
+      "title": "Gator Gambol",
+      "artist": "Pedro Silva",
+      "duration": "1:29",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XAUoNdt-0hs",
+      "spotifyUrl": "https://open.spotify.com/track/1VHRIJpqWPQK66D19xW1wt"
+    },
+    {
+      "title": "Clams Clams Clams",
+      "artist": "Pedro Silva",
+      "duration": "1:08",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6MBFHl_E3AU",
+      "spotifyUrl": "https://open.spotify.com/track/1k88SaNvJZXsea4joCvXOV"
+    },
+    {
+      "title": "Jawbreaker",
+      "artist": "Pedro Silva",
+      "duration": "1:25",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Cmj8FDbUdF8",
+      "spotifyUrl": "https://open.spotify.com/track/2l45hi5tViR7BduWPFSvdx"
+    },
+    {
+      "title": "GOLDENVENGEANCE",
+      "artist": "Pedro Silva",
+      "duration": "2:29",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZF-IA-vd-Bo",
+      "spotifyUrl": "https://open.spotify.com/track/6uU11ipDcTApcAJv0eehvz"
+    },
+    {
+      "title": "Underwater Highway",
+      "artist": "Pedro Silva",
+      "duration": "1:34",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BYmr6n_go54",
+      "spotifyUrl": "https://open.spotify.com/track/5F9rvXyFlnFuR0m6fADDub"
+    },
+    {
+      "title": "Squall",
+      "artist": "Pedro Silva",
+      "duration": "1:23",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6Wg3pWcLmcI",
+      "spotifyUrl": "https://open.spotify.com/track/3Wq50Zt0SkwUNYMvbpkIkB"
+    },
+    {
+      "title": "Aquifer",
+      "artist": "Pedro Silva",
+      "duration": "3:45",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IV_vAW8QfPQ",
+      "spotifyUrl": "https://open.spotify.com/track/78quUXUO4fDDmrAMxPQY4v"
+    },
+    {
+      "title": "Numbers",
+      "artist": "Pedro Silva",
+      "duration": "2:56",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4Q-nIrhdsGY",
+      "spotifyUrl": "https://open.spotify.com/track/3qOGL2XrvUuSxkamacs4LL"
+    },
+    {
+      "title": "Sinking",
+      "artist": "Pedro Silva",
+      "duration": "3:25",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Q5_r_ld4vyY",
+      "spotifyUrl": "https://open.spotify.com/track/1q16JLL0UFT2EbtAPccHXz"
+    },
+    {
+      "title": "H20:HCL",
+      "artist": "Pedro Silva",
+      "duration": "1:58",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KszmrMQYYNw",
+      "spotifyUrl": "https://open.spotify.com/track/1tLy0KzjBLqbdYrp2Plb9p"
+    },
+    {
+      "title": "Chemistry On And On",
+      "artist": "Pedro Silva",
+      "duration": "1:21",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FNrpcJ2Qyl0",
+      "spotifyUrl": "https://open.spotify.com/track/0hV90XPvpRtOtENBuXjNDa"
+    },
+    {
+      "title": "But I Wanna See It All With You!",
+      "artist": "Pedro Silva",
+      "duration": "0:57",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gAOXXwV7_1o",
+      "spotifyUrl": "https://open.spotify.com/track/392fjTmW0R9uW287ae6bW1"
+    },
+    {
+      "title": "Grimey",
+      "artist": "Pedro Silva",
+      "duration": "1:15",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NgI-7P17jIs",
+      "spotifyUrl": "https://open.spotify.com/track/5GD91ZVZhw6R6USBTO3aKE"
+    },
+    {
+      "title": "Underwater Prom Queens",
+      "artist": "Pedro Silva",
+      "duration": "2:07",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7xl5kRE19y4",
+      "spotifyUrl": "https://open.spotify.com/track/5F9rvXyFlnFuR0m6fADDub"
+    },
+    {
+      "title": "Whale Whale Whale",
+      "artist": "Pedro Silva",
+      "duration": "1:13",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IZbgINka7J4",
+      "spotifyUrl": "https://open.spotify.com/track/3KkeAOtLOXU8qsrhTHiFip"
+    },
+    {
+      "title": "Swallow Hollow",
+      "artist": "Pedro Silva",
+      "duration": "0:56",
+      "youtubeUrl": "https://www.youtube.com/watch?v=35SmEPcX5hw",
+      "spotifyUrl": "https://open.spotify.com/track/6PVFgLtF0AnjubQ53ZCmcN"
+    },
+    {
+      "title": "Gross...",
+      "artist": "Pedro Silva",
+      "duration": "0:25",
+      "youtubeUrl": "https://www.youtube.com/watch?v=C2WrhtU-7uo",
+      "spotifyUrl": "https://open.spotify.com/track/2P0dPJ8UHG7TewbmysMBHC"
+    },
+    {
+      "title": "That One Song But It's Some Mermaids",
+      "artist": "Pedro Silva",
+      "duration": "0:20",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oeqt4IPYBdo",
+      "spotifyUrl": "https://open.spotify.com/track/1jEdjlGAvbbnocxUaAmkxt"
+    },
+    {
+      "title": "Undertow",
+      "artist": "Pedro Silva",
+      "duration": "3:22",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-vWVAo-qHrc",
+      "spotifyUrl": "https://open.spotify.com/track/2r6FV5SVnh6wsmopnoHFzV"
+    },
+    {
+      "title": "WHITE SPACE",
+      "artist": "Pedro Silva",
+      "duration": "0:59",
+      "youtubeUrl": "https://www.youtube.com/watch?v=POMNynMVTk0",
+      "spotifyUrl": "https://open.spotify.com/track/3aes8gUhZnoVH85ImcHR02"
+    },
+    {
+      "title": "Fermentation Disorientation",
+      "artist": "Pedro Silva",
+      "duration": "1:18",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aOxuSlUL2sw",
+      "spotifyUrl": "https://open.spotify.com/track/10qeDhJZJ0RXyQbK7Y8kyI"
+    },
+    {
+      "title": "Flouring With You",
+      "artist": "Pedro Silva",
+      "duration": "1:17",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3YBe5w0gBTo",
+      "spotifyUrl": "https://open.spotify.com/track/4J7wRstUVmNs6hM9sepO9e"
+    },
+    {
+      "title": "BREADY STEADY GO",
+      "artist": "Pedro Silva",
+      "duration": "2:05",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QL_MA9kQ-0o",
+      "spotifyUrl": "https://open.spotify.com/track/021bvbV0fD3JtZPFHwxJk3"
+    },
+    {
+      "title": "Recyling Really Is A Concept",
+      "artist": "Pedro Silva",
+      "duration": "1:23",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nlIMTln7ZGI",
+      "spotifyUrl": "https://open.spotify.com/track/4tg9sr3QwZMCS02vdeRpgd"
+    },
+    {
+      "title": "Remember To Be Patient",
+      "artist": "Pedro Silva",
+      "duration": "1:39",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YD7Q2MoR_gY",
+      "spotifyUrl": "https://open.spotify.com/track/0lIQDx3QDRMDkKHR21ek2k"
+    },
+    {
+      "title": "Cold!",
+      "artist": "Pedro Silva",
+      "duration": "1:06",
+      "youtubeUrl": "https://www.youtube.com/watch?v=I5M2H9QjNWk",
+      "spotifyUrl": "https://open.spotify.com/track/4I9Um0S4dGth4V9ZfeWw0U"
+    },
+    {
+      "title": "You Cannot Go Back",
+      "artist": "Pedro Silva",
+      "duration": "2:43",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TyHXvJdyMUo",
+      "spotifyUrl": "https://open.spotify.com/track/07HlNeyuYVY1Q0R9q42C7q"
+    },
+    {
+      "title": "Tee-hee Time",
+      "artist": "Pedro Silva",
+      "duration": "1:44",
+      "youtubeUrl": "https://www.youtube.com/watch?v=n9gm9lP_4Gk",
+      "spotifyUrl": "https://open.spotify.com/track/21F78R3xmsNbbSSAvyUaVz"
+    },
+    {
+      "title": "Welcome Again.",
+      "artist": "Pedro Silva",
+      "duration": "0:44",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gAWLivIzTKc",
+      "spotifyUrl": "https://open.spotify.com/track/4LupU34yUP41D6ORvPPjVZ"
+    },
+    {
+      "title": "Fleur",
+      "artist": "Pedro Silva",
+      "duration": "1:07",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-zIjVa6GXOQ",
+      "spotifyUrl": "https://open.spotify.com/track/0nip5SuinvRbKlnsKfCDTh"
+    },
+    {
+      "title": "Distance",
+      "artist": "Pedro Silva",
+      "duration": "0:37",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0PzXw9b40P8",
+      "spotifyUrl": "https://open.spotify.com/track/6DXgrHu7ODtWN1Y0jami5g"
+    },
+    {
+      "title": "Drone",
+      "artist": "Pedro Silva",
+      "duration": "0:31",
+      "youtubeUrl": "https://www.youtube.com/watch?v=O8tPpbqFwtI",
+      "spotifyUrl": "https://open.spotify.com/track/0kDeArEKBWkyX94iAHUST1"
+    },
+    {
+      "title": "Calm",
+      "artist": "Pedro Silva",
+      "duration": "0:41",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7belT3MRC5w",
+      "spotifyUrl": "https://open.spotify.com/track/4PcD740Ko18KwmdIG9Zyz7"
+    },
+    {
+      "title": "Glade",
+      "artist": "Pedro Silva",
+      "duration": "0:59",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8a8Ev1DmWVE",
+      "spotifyUrl": "https://open.spotify.com/track/1YLm2iWLN8W1hepxWFN2bg"
+    },
+    {
+      "title": "56-12-2",
+      "artist": "Pedro Silva",
+      "duration": "1:21",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RHraiUG3vFY",
+      "spotifyUrl": "https://open.spotify.com/track/00xb5q0Yy36k1ofuqMkvfS"
+    },
+    {
+      "title": "Bloom",
+      "artist": "Pedro Silva",
+      "duration": "0:57",
+      "youtubeUrl": "https://www.youtube.com/watch?v=POLg-0WWXJE",
+      "spotifyUrl": "https://open.spotify.com/track/537nqymLhimaaCVDS6bYRY"
+    },
+    {
+      "title": "August/Water",
+      "artist": "Pedro Silva",
+      "duration": "1:43",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OGwi7G59Lfc",
+      "spotifyUrl": "https://open.spotify.com/track/5F9rvXyFlnFuR0m6fADDub"
+    },
+    {
+      "title": "5ths",
+      "artist": "Pedro Silva",
+      "duration": "1:31",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wJ3lnnpJYdc",
+      "spotifyUrl": "https://open.spotify.com/track/2IOkUIQJKHLBaavwCWB2Im"
+    },
+    {
+      "title": "Waiting For...",
+      "artist": "Pedro Silva",
+      "duration": "0:40",
+      "youtubeUrl": "https://www.youtube.com/watch?v=S0JCCYueIz0",
+      "spotifyUrl": "https://open.spotify.com/track/6WC70ckNaEjg3EkeIWjsWe"
+    },
+    {
+      "title": "Nawa",
+      "artist": "Pedro Silva",
+      "duration": "1:35",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gXXBRBOu8pI",
+      "spotifyUrl": "https://open.spotify.com/track/4Ygjx5CwdZBbYfGfmLZHOO"
+    },
+    {
+      "title": "White Pillars",
+      "artist": "Pedro Silva",
+      "duration": "3:02",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LfZP6KkmH4A",
+      "spotifyUrl": "https://open.spotify.com/track/7oaF5HviWdtqQPITrOtOsF"
+    },
+    {
+      "title": "Come and See",
+      "artist": "Pedro Silva",
+      "duration": "2:22",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OCTYy4I54d8",
+      "spotifyUrl": "https://open.spotify.com/track/3h9nMzyTPo2xXV45I7RUs3"
+    },
+    {
+      "title": "Friends.",
+      "artist": "Pedro Silva",
+      "duration": "0:58",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FT4cMYqiOng",
+      "spotifyUrl": "https://open.spotify.com/track/6TeX5jCAkXzgTIDCZluEDs"
+    },
+    {
+      "title": "Friendsssssss.",
+      "artist": "Pedro Silva",
+      "duration": "0:14",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ybn__4TMGYQ",
+      "spotifyUrl": "https://open.spotify.com/track/6TeX5jCAkXzgTIDCZluEDs"
+    },
+    {
+      "title": "Orchard",
+      "artist": "Pedro Silva",
+      "duration": "1:02",
+      "youtubeUrl": "https://www.youtube.com/watch?v=g7lfPT4jNQQ",
+      "spotifyUrl": "https://open.spotify.com/track/7GPHZ4y2GcRW3ItupKJxDE"
+    },
+    {
+      "title": "Temple",
+      "artist": "Pedro Silva",
+      "duration": "2:15",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6k2pFv2JRP8",
+      "spotifyUrl": "https://open.spotify.com/track/2O73jTIHlPJROVp8kwhOLI"
+    },
+    {
+      "title": "Look",
+      "artist": "Pedro Silva",
+      "duration": "0:47",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cxlHRb2JXPg",
+      "spotifyUrl": "https://open.spotify.com/track/6CA7DsqLZeSaHVN29C93tI"
+    },
+    {
+      "title": "Bad Morning",
+      "artist": "Pedro Silva",
+      "duration": "0:37",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IU1eOAk2zeY",
+      "spotifyUrl": "https://open.spotify.com/track/0iWDRVtCS2ObDecCgycb9M"
+    },
+    {
+      "title": "Listening",
+      "artist": "Pedro Silva",
+      "duration": "1:10",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OWrUZC__Tgc",
+      "spotifyUrl": "https://open.spotify.com/track/5cf1NMsGSnPca237qY2ttA"
+    },
+    {
+      "title": "A Red Shape",
+      "artist": "Pedro Silva",
+      "duration": "0:26",
+      "youtubeUrl": "https://www.youtube.com/watch?v=70UZAJALTzI",
+      "spotifyUrl": "https://open.spotify.com/track/34cX149NTuonNEsTjqA4Dw"
+    },
+    {
+      "title": "Do You Remember?",
+      "artist": "Pedro Silva",
+      "duration": "0:36",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rgseEXQ82Uk",
+      "spotifyUrl": "https://open.spotify.com/track/5oluS4yaLv0JkW55TtgL2o"
+    },
+    {
+      "title": "Playing Forever",
+      "artist": "Pedro Silva",
+      "duration": "1:43",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M0WsQXD8788",
+      "spotifyUrl": "https://open.spotify.com/track/1jfQPNNmHlGieAwsIKK9Yg"
+    },
+    {
+      "title": "Treehouse - Here We Are, Together Again",
+      "artist": "Pedro Silva",
+      "duration": "1:18",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zABWPJlIdkU",
+      "spotifyUrl": "https://open.spotify.com/track/5eF8pZVonUo4BcEv4TG6jf"
+    },
+    {
+      "title": "Save",
+      "artist": "Pedro Silva",
+      "duration": "0:41",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4VzxGrNyl1U",
+      "spotifyUrl": "https://open.spotify.com/track/7ra4vGywbe8sczf3ubvTlg"
+    },
+    {
+      "title": "Something",
+      "artist": "Pedro Silva",
+      "duration": "1:30",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IOBWv8Oa7xA",
+      "spotifyUrl": "https://open.spotify.com/track/1XcXVP4mQT7YblWjGg8SBb"
+    },
+    {
+      "title": "A Home For Flowers (Daisy)",
+      "artist": "Pedro Silva",
+      "duration": "1:19",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5doM1Wx8jtA",
+      "spotifyUrl": "https://open.spotify.com/track/7yLr5h5xlHiNq651AvQWPe"
+    },
+    {
+      "title": "Remina",
+      "artist": "Pedro Silva",
+      "duration": "1:12",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BXgF3zixmd0",
+      "spotifyUrl": "https://open.spotify.com/track/3LYk9HnfPfzCVTnKuAAZ2s"
+    },
+    {
+      "title": "Normal.",
+      "artist": "Pedro Silva",
+      "duration": "0:35",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WvoeS1mJHqM",
+      "spotifyUrl": "https://open.spotify.com/track/1tgboFENEquVKtp7nroAsP"
+    },
+    {
+      "title": "Your Catastrophes",
+      "artist": "Pedro Silva",
+      "duration": "0:45",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WB5XqJJHzC8",
+      "spotifyUrl": "https://open.spotify.com/track/5MSi1OxvYUh6OgnZpjv8cR"
+    },
+    {
+      "title": "Your Catastrophes - Procession",
+      "artist": "Pedro Silva",
+      "duration": "1:32",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6rWV5JRd4zA",
+      "spotifyUrl": "https://open.spotify.com/track/5MSi1OxvYUh6OgnZpjv8cR"
+    },
+    {
+      "title": "Crossroads",
+      "artist": "Pedro Silva",
+      "duration": "2:09",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5s-1dej9Gsc",
+      "spotifyUrl": "https://open.spotify.com/track/5VPagHGZWKFvRO2WONqEMx"
+    },
+    {
+      "title": "The Violin",
+      "artist": "Pedro Silva",
+      "duration": "0:21",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qiawI9cDXZ0",
+      "spotifyUrl": "https://open.spotify.com/track/55LgDehJoMQePO5AAcnBrL"
+    },
+    {
+      "title": "A Home For Flowers (Sunflower)",
+      "artist": "Pedro Silva",
+      "duration": "1:24",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v6ofxD4fLms",
+      "spotifyUrl": "https://open.spotify.com/track/6HStzhMSftvFmHdCUSNHn8"
+    },
+    {
+      "title": "You Must Carry On.",
+      "artist": "Pedro Silva",
+      "duration": "1:44",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ewvhlYh9wC0",
+      "spotifyUrl": "https://open.spotify.com/track/2VO1wgBwQyMs1NBdKCHows"
+    },
+    {
+      "title": "Remembrance.",
+      "artist": "Pedro Silva",
+      "duration": "0:27",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4f1v9u2Jbg8",
+      "spotifyUrl": "https://open.spotify.com/track/5O0szzcjr5N9mkltYCsL5z"
+    },
+    {
+      "title": "OMORI",
+      "artist": "Pedro Silva",
+      "duration": "4:13",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ACon4txJiDA",
+      "spotifyUrl": "https://open.spotify.com/track/5o2DEGDA5N9Y1pLjZlmnGq"
+    },
+    {
+      "title": "OMORI - ALTER",
+      "artist": "Pedro Silva",
+      "duration": "1:26",
+      "youtubeUrl": "https://www.youtube.com/watch?v=W766EABGHe8",
+      "spotifyUrl": "https://open.spotify.com/track/5o2DEGDA5N9Y1pLjZlmnGq"
+    },
+    {
+      "title": "Try Again Little Brother",
+      "artist": "Pedro Silva",
+      "duration": "0:17",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oIyRzl8zVWE",
+      "spotifyUrl": "https://open.spotify.com/track/3Z1zlhdXfRkdDQygq7j0Iw"
+    },
+    {
+      "title": "Persevere",
+      "artist": "Pedro Silva",
+      "duration": "0:27",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-XqD227D_iw",
+      "spotifyUrl": "https://open.spotify.com/track/6OZxRwcM3G4KLCy7auSkJG"
+    },
+    {
+      "title": "DUET",
+      "artist": "Pedro Silva",
+      "duration": "2:12",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ACon4txJiDA",
+      "spotifyUrl": "https://open.spotify.com/track/5RzB3KcfvZgvsWcsETVsqG"
+    },
+    {
+      "title": "Gone",
+      "artist": "Pedro Silva",
+      "duration": "0:27",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Bv5XwI5O7BQ",
+      "spotifyUrl": "https://open.spotify.com/track/4zuqK5yXEjjDTMOtQC4bZo"
+    },
+    {
+      "title": "Wake Up",
+      "artist": "Pedro Silva",
+      "duration": "0:36",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VArqmDh2QpY",
+      "spotifyUrl": "https://open.spotify.com/track/2F2ZUgNn8ZrX2XeYB23ijC"
+    },
+    {
+      "title": "Clean Slate",
+      "artist": "Pedro Silva",
+      "duration": "0:59",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NDLuLmsnpHc",
+      "spotifyUrl": "https://open.spotify.com/track/1Bx6cjrfaIvE9iQVrM9zuM"
+    },
+    {
+      "title": "The Truth",
+      "artist": "Pedro Silva",
+      "duration": "0:11",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iwFP8www2CY",
+      "spotifyUrl": "https://open.spotify.com/track/1hxQBjLZs2riWZvzlTe8BO"
+    },
+    {
+      "title": "Good Morning",
+      "artist": "Pedro Silva",
+      "duration": "1:48",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JlCN5qv9q3I",
+      "spotifyUrl": "https://open.spotify.com/track/6tKg4buNB9TKmaU8BYPE7V"
+    },
+    {
+      "title": "My Time",
+      "artist": "bo en",
+      "duration": "3:33",
+      "spotifyUrl": "https://open.spotify.com/track/0HuTlPTyGIkIBlX3Yak9G4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OkMLYNWP-yo"
+    },
+    {
+      "title": "Fin",
+      "artist": "Pedro Silva",
+      "duration": "0:21",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sAFXxpAvA6o",
+      "spotifyUrl": "https://open.spotify.com/track/33oZDeWArbzbmIa9NoMvsa"
+    }
+  ],
+  "gameplays": [
+    {
+      "title": "Omori - Gameplay Completo (Pt-BR)",
+      "channelName": "LegoGamer202",
+      "channelUrl": "https://www.youtube.com/@LegoGamer202",
+      "embedUrl": "https://www.youtube.com/embed/VZCBBR4sVh4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VZCBBR4sVh4"
+    },
+    {
+      "title": "Omori [Gameplay Completa Parte 1 Legendado PT-BR]",
+      "channelName": "Games Forever",
+      "channelUrl": "https://www.youtube.com/@GamesForever",
+      "embedUrl": "https://www.youtube.com/embed/ohECayhi-Pg",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ohECayhi-Pg"
+    },
+    {
+      "title": "CALANGO JOGANDO OMORI #01",
+      "channelName": "Calango",
+      "channelUrl": "https://www.youtube.com/@Calango",
+      "embedUrl": "https://www.youtube.com/embed/ntJyJKWIynU",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ntJyJKWIynU"
+    },
+    {
+      "title": "OMORI #1 - BEM VINDO AO ESPAÇO EM BRANCO! (Gameplay Português PT-BR)",
+      "channelName": "Adri",
+      "channelUrl": "https://www.youtube.com/@Adri",
+      "embedUrl": "https://www.youtube.com/embed/Fv9GWyLLr1U",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Fv9GWyLLr1U"
+    },
+    {
+      "title": "OMORI #5 - VELHOS AMIGOS! (Gameplay Português PT-BR)",
+      "channelName": "Adri",
+      "channelUrl": "https://www.youtube.com/@Adri",
+      "embedUrl": "https://www.youtube.com/embed/Xf9LtBlDF04",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Xf9LtBlDF04"
+    },
+    {
+      "title": "Jogando omori",
+      "channelName": "Gameplay Omori BR",
+      "channelUrl": "https://www.youtube.com/@GameplayOmoriBR",
+      "embedUrl": "https://www.youtube.com/embed/25HslT2FDQg",
+      "youtubeUrl": "https://www.youtube.com/watch?v=25HslT2FDQg"
+    },
+    {
+      "title": "Luba Jogando Omori (Parte 1)",
+      "channelName": "Luba",
+      "channelUrl": "https://www.youtube.com/@Luba",
+      "embedUrl": "https://www.youtube.com/embed/yl8NThOs-bo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yl8NThOs-bo"
+    },
+    {
+      "title": "Omori - Parte 01 - Português",
+      "channelName": "Gameplay PT-BR",
+      "channelUrl": "https://www.youtube.com/@GameplayPTBR",
+      "embedUrl": "https://www.youtube.com/embed/OVO_HsXYehc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OVO_HsXYehc"
+    },
+    {
+      "title": "VAMOS ACABAR COM VIDA DE CLT DESSAS CRIANÇAS! | LIVE DE OMORI",
+      "channelName": "Zandona",
+      "channelUrl": "https://www.youtube.com/@Zandona",
+      "embedUrl": "https://www.youtube.com/embed/2OJ0vc6a-OQ",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2OJ0vc6a-OQ"
+    },
+    {
+      "title": "OMORI BLIND PLAYTHROUGH (Part 3) | Starting from PROLOGUE - Junkyard",
+      "channelName": "lovelydawn",
+      "channelUrl": "https://www.youtube.com/@lovelydawn",
+      "embedUrl": "https://www.youtube.com/embed/2ZovJors8Ls",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2ZovJors8Ls"
+    }
+  ],
+  "_pricesUpdated": "2026-07-11T14:44:00.516Z"
 }

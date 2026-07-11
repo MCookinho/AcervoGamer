@@ -1,1722 +1,1785 @@
 {
-    "name": "Deltarune",
-    "slug": "deltarune",
-    "genre": "RPG",
-    "developer": "Toby Fox",
-    "year": 2018,
-    "productionScale": "Indie",
-    "ageRating": "12",
-    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1671210/header.jpg",
-    "previewGif": "https://media.giphy.com/media/iznWrMKFQ7JnQfy75q/giphy.gif",
-    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1671210/page_bg_generated_v6b.jpg",
-    "bannerGif": "https://media.giphy.com/media/wFC3rodrXIIqUm7hq6/giphy.gif",
-    "shortDescription": "Um novo capítulo da saga de Toby Fox. Explore um novo mundo, novos personagens e uma história épica que desafia expectativas.",
-    "fullDescription": "Deltarune é um RPG gratuito criado por Toby Fox, o criador de Undertale. O jogo se passa em um mundo paralelo onde humanos e monstros coexistem, mas com uma dinâmica diferente. Você controla Kris, um estudante humano que, junto com seus colegas de escola Susie e Ralsei, é transportado para um mundo misterioso chamado Dark World. A mecânicas de combate combina elementos de Undertale com um novo sistema de habilidades de magia e equipamentos. Com capítulos sendo lançados periodicamente, Deltarune promete ser uma jornada épica e emocionante.",
-    "trailer": "https://www.youtube.com/embed/yDzgiGdekas",
-    "translations": [
-        {
-            "name": "Deltarune Cap. 1 e 2 - Tradução PT-BR",
-            "version": "1.5",
-            "date": "2024-01-10",
-            "size": "25 MB",
-            "downloadUrl": "#"
-        },
-        {
-            "name": "Deltarune - Tradução PT-BR Atualizada",
-            "version": "2.0",
-            "date": "2024-08-05",
-            "size": "25 MB",
-            "downloadUrl": "#"
-        }
-    ],
-    "mods": [
-        {
-            "name": "Deltarune Randomizer",
-            "version": "1.0",
-            "author": "Community",
-            "downloadUrl": "#",
-            "officialUrl": "https://www.nexusmods.com/deltarune"
-        }
-    ],
-    "stores": [
-        {
-            "store": "Steam",
-            "url": "https://store.steampowered.com/app/1671210/DELTARUNE/",
-            "platform": "PC",
-            "price": 73.99,
-            "priceOriginal": "R$ 73,99",
-            "coupon": null,
-            "lastUpdated": "2026-07-11"
-        },
-        {
-            "store": "Nintendo eShop",
-            "url": "https://www.nintendo.com/pt-br/store/products/deltarune-switch/",
-            "platform": "Nintendo Switch",
-            "price": 95.2,
-            "priceOriginal": "R$119,00",
-            "coupon": null,
-            "lastUpdated": "2025-07-10"
-        },
-        {
-            "store": "PlayStation Store",
-            "url": "https://store.playstation.com/pt-br/concept/233495",
-            "platform": "PS4 / PS5",
-            "price": 95.2,
-            "priceOriginal": "R$119,00",
-            "coupon": null,
-            "lastUpdated": "2025-07-10"
-        }
-    ],
-    "soundtrack": [
-        {
-            "title": "ANOTHER HIM",
-            "artist": "Toby Fox",
-            "duration": "0:48",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=0mTtTOA3PgU",
-            "spotifyUrl": "https://open.spotify.com/track/63K6koyn1kUIXj4soQ9wNl"
-        },
-        {
-            "title": "Beginning",
-            "artist": "Toby Fox",
-            "duration": "0:57",
-            "extra": "Cap. 1",
-            "spotifyUrl": "https://open.spotify.com/track/5NiD264RGry4WmWRRAZ0uN",
-            "youtubeUrl": "https://www.youtube.com/watch?v=RKQUblO-iCs"
-        },
-        {
-            "title": "School",
-            "artist": "Toby Fox",
-            "duration": "1:20",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=xbUi1uDwPAY",
-            "spotifyUrl": "https://open.spotify.com/track/1xIYcuzRrYEfMkh7CjSKoF"
-        },
-        {
-            "title": "Susie",
-            "artist": "Toby Fox",
-            "duration": "0:27",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=cGuDpoJNImA",
-            "spotifyUrl": "https://open.spotify.com/track/72tN7vUHvkke6lUwCb2lDy"
-        },
-        {
-            "title": "The Door",
-            "artist": "Toby Fox",
-            "duration": "0:41",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=KWi1-9eLO_o",
-            "spotifyUrl": "https://open.spotify.com/track/0r1IrLoXomZ3JFSd4Khp1h"
-        },
-        {
-            "title": "Cliffs",
-            "artist": "Toby Fox",
-            "duration": "0:35",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=5xmcQqEj3G4",
-            "spotifyUrl": "https://open.spotify.com/track/5PiPRr9KGpqWW12Kwq3FsV"
-        },
-        {
-            "title": "The Chase",
-            "artist": "Toby Fox",
-            "duration": "0:33",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=OX5iGh2pgxk",
-            "spotifyUrl": "https://open.spotify.com/track/1PnxSUmMmpIDWWBhMEY56C"
-        },
-        {
-            "title": "The Legend",
-            "artist": "Toby Fox",
-            "duration": "1:51",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=PibYmujLubI",
-            "spotifyUrl": "https://open.spotify.com/track/1ZA8wuVp91YbS1uif1hyYR"
-        },
-        {
-            "title": "Lancer",
-            "artist": "Toby Fox",
-            "duration": "0:48",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=GAhBQH0Kf1I",
-            "spotifyUrl": "https://open.spotify.com/track/2uE9ZTSf2wJINqCHOrV6a0"
-        },
-        {
-            "title": "Rude Buster",
-            "artist": "Toby Fox",
-            "duration": "1:15",
-            "extra": "Cap. 1",
-            "spotifyUrl": "https://open.spotify.com/track/322mgWaD4DetiHmoDVlwWc",
-            "youtubeUrl": "https://www.youtube.com/watch?v=XxAzbt1eS5M"
-        },
-        {
-            "title": "Empty Town",
-            "artist": "Toby Fox",
-            "duration": "1:23",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=p8jCS2nSMmI",
-            "spotifyUrl": "https://open.spotify.com/track/6Z9eoMfegGE6pQc9Toawnd"
-        },
-        {
-            "title": "Weird Birds",
-            "artist": "Toby Fox",
-            "duration": "0:16",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Na3jrbUrL6g",
-            "spotifyUrl": "https://open.spotify.com/track/3XFaNF6EbDJdSr3InmAxJO"
-        },
-        {
-            "title": "Field of Hopes and Dreams",
-            "artist": "Toby Fox",
-            "duration": "2:41",
-            "extra": "Cap. 1",
-            "spotifyUrl": "https://open.spotify.com/track/2W90IO8eRnFg1qsPunKm9B",
-            "youtubeUrl": "https://www.youtube.com/watch?v=ymNgfwgh1TU"
-        },
-        {
-            "title": "Fanfare (from \"Rose of Winter\")",
-            "artist": "Toby Fox",
-            "duration": "0:15",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=x2X-KMEuTf0",
-            "spotifyUrl": "https://open.spotify.com/track/1r3DdJ79HTJ2V62OipRyoC"
-        },
-        {
-            "title": "Lantern",
-            "artist": "Toby Fox",
-            "duration": "1:08",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=cUermn1BMSg",
-            "spotifyUrl": "https://open.spotify.com/track/0fBXFpNA9Movn5G2WHPgbM"
-        },
-        {
-            "title": "I'm Very Bad",
-            "artist": "Toby Fox",
-            "duration": "0:13",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=r34vSTUpcgs",
-            "spotifyUrl": "https://open.spotify.com/track/6actYECaeFH1vOyOUCvTT9"
-        },
-        {
-            "title": "Checker Dance",
-            "artist": "Toby Fox",
-            "duration": "1:18",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=K-fTAOhOGcs",
-            "spotifyUrl": "https://open.spotify.com/track/6p3ckEGHB7tIiBmHLWZlVf"
-        },
-        {
-            "title": "Quiet Autumn",
-            "artist": "Toby Fox",
-            "duration": "0:49",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=2PkQJeH9Ers",
-            "spotifyUrl": "https://open.spotify.com/track/6jNxEc8nmpFBj3Pje7BVbx"
-        },
-        {
-            "title": "Scarlet Forest",
-            "artist": "Toby Fox",
-            "duration": "2:08",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=6P5iPI1FjO8",
-            "spotifyUrl": "https://open.spotify.com/track/4zLEqCe2KCWBJLKN3RyWAG"
-        },
-        {
-            "title": "Thrash Machine",
-            "artist": "Toby Fox",
-            "duration": "0:54",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=imH2hItIFlk",
-            "spotifyUrl": "https://open.spotify.com/track/2gafFAtDIGgDQLiEpRokIx"
-        },
-        {
-            "title": "Vs. Lancer",
-            "artist": "Toby Fox",
-            "duration": "0:42",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Ce-gU8G6Vik",
-            "spotifyUrl": "https://open.spotify.com/track/2uE9ZTSf2wJINqCHOrV6a0"
-        },
-        {
-            "title": "Basement",
-            "artist": "Toby Fox",
-            "duration": "0:27",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Cnrvt1h5La4",
-            "spotifyUrl": "https://open.spotify.com/track/1XfSpjUBuZwrNUDV8AbYpZ"
-        },
-        {
-            "title": "Imminent Death",
-            "artist": "Toby Fox",
-            "duration": "0:20",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=LmIgaiOhnq8",
-            "spotifyUrl": "https://open.spotify.com/track/1aSimBo97eJ6bHr5vrpoKd"
-        },
-        {
-            "title": "Vs. Susie",
-            "artist": "Toby Fox",
-            "duration": "1:21",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=uWJJ8nywk-M",
-            "spotifyUrl": "https://open.spotify.com/track/72tN7vUHvkke6lUwCb2lDy"
-        },
-        {
-            "title": "Card Castle",
-            "artist": "Toby Fox",
-            "duration": "1:01",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=tvjuTn9LZwY",
-            "spotifyUrl": "https://open.spotify.com/track/6JuC5mhOzqPt8lEGfQJQ05"
-        },
-        {
-            "title": "Rouxls Kaard",
-            "artist": "Toby Fox",
-            "duration": "0:19",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=yfC8OU2YtNo",
-            "spotifyUrl": "https://open.spotify.com/track/6cQuiiADGJDs4H7SfIJdYF"
-        },
-        {
-            "title": "April 2012",
-            "artist": "Toby Fox",
-            "duration": "0:20",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=ml5MyYOeWpI",
-            "spotifyUrl": "https://open.spotify.com/track/0HuvIX3Jul87KRTOGpGr9P"
-        },
-        {
-            "title": "Hip Shop",
-            "artist": "Toby Fox",
-            "duration": "0:39",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=D83BxptHcRc",
-            "spotifyUrl": "https://open.spotify.com/track/2ASkgao4Nv7FtY9AjASDNQ"
-        },
-        {
-            "title": "Gallery",
-            "artist": "Toby Fox",
-            "duration": "0:12",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=L0MAep7ml3A",
-            "spotifyUrl": "https://open.spotify.com/track/5zDC9xOmwH1yb7KttqbaDH"
-        },
-        {
-            "title": "Chaos King",
-            "artist": "Toby Fox",
-            "duration": "1:46",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=tPwzoZ-e664",
-            "spotifyUrl": "https://open.spotify.com/track/5Y8awVkb5cXvlDyH1kIXaN"
-        },
-        {
-            "title": "Darkness Falls",
-            "artist": "Toby Fox",
-            "duration": "1:06",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=i6ZCzBhIRzo",
-            "spotifyUrl": "https://open.spotify.com/track/1eodgnlUYiH3s0q99vk18p"
-        },
-        {
-            "title": "The Circus",
-            "artist": "Toby Fox",
-            "duration": "0:51",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=qCNztya--aw",
-            "spotifyUrl": "https://open.spotify.com/track/1N2FBAFlTdHDCRUXq0XHPf"
-        },
-        {
-            "title": "THE WORLD REVOLVING",
-            "artist": "Toby Fox",
-            "duration": "1:41",
-            "extra": "Cap. 1",
-            "spotifyUrl": "https://open.spotify.com/track/5QBozbgRWIYDSriHCRTsXd",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Z01Tsgwe2dQ"
-        },
-        {
-            "title": "Friendship",
-            "artist": "Toby Fox",
-            "duration": "2:40",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=xrpCUeynpu0",
-            "spotifyUrl": "https://open.spotify.com/track/2R6MB4GkUVnRwLN5VXHiDF"
-        },
-        {
-            "title": "THE HOLY",
-            "artist": "Toby Fox",
-            "duration": "0:48",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=8-n6HhNO57E",
-            "spotifyUrl": "https://open.spotify.com/track/2DORTEXJd9o5Gdhr57M5yC"
-        },
-        {
-            "title": "Your Power",
-            "artist": "Toby Fox",
-            "duration": "0:13",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=YeU41eDS90A",
-            "spotifyUrl": "https://open.spotify.com/track/4eLHWCv6pLrxvpKomdGx5w"
-        },
-        {
-            "title": "A Town Called Hometown",
-            "artist": "Toby Fox",
-            "duration": "1:53",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=2_1JGqBPziI",
-            "spotifyUrl": "https://open.spotify.com/track/1He6isaU9SoB6GzIM2lx6Z"
-        },
-        {
-            "title": "You Can Always Come Home",
-            "artist": "Toby Fox",
-            "duration": "1:40",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Jm3AM-sAbmA",
-            "spotifyUrl": "https://open.spotify.com/track/2Rf33bpATyDiqTGm0NvlNb"
-        },
-        {
-            "title": "Don't Forget",
-            "artist": "Toby Fox",
-            "duration": "0:51",
-            "extra": "Cap. 1",
-            "spotifyUrl": "https://open.spotify.com/track/7y6NbGuLZuNW0lVaPnYx22",
-            "youtubeUrl": "https://www.youtube.com/watch?v=bBHNnzPJLZA"
-        },
-        {
-            "title": "Before the Story",
-            "artist": "Toby Fox",
-            "duration": "1:28",
-            "extra": "Cap. 1",
-            "youtubeUrl": "https://www.youtube.com/watch?v=_0pFoKrY5TU",
-            "spotifyUrl": "https://open.spotify.com/track/2JWq4IwxQB4O8yL3pMe6aj"
-        },
-        {
-            "title": "Faint Glow",
-            "artist": "Toby Fox",
-            "duration": "1:17",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=J0sZRB3KI3s",
-            "spotifyUrl": "https://open.spotify.com/track/0wntsmQSoI55KsAD56KEAq"
-        },
-        {
-            "title": "Girl Next Door",
-            "artist": "Toby Fox",
-            "duration": "0:54",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=T6UfG77Bwpo",
-            "spotifyUrl": "https://open.spotify.com/track/3elKCP0PpuipOtLn7K8FXT"
-        },
-        {
-            "title": "My Castle Town",
-            "artist": "Toby Fox",
-            "duration": "2:07",
-            "extra": "Cap. 2",
-            "spotifyUrl": "https://open.spotify.com/track/6g0y8cpi8c9eCPfz5XvW5T",
-            "youtubeUrl": "https://www.youtube.com/watch?v=RKQUblO-iCs"
-        },
-        {
-            "title": "Ohhhhohohoho!",
-            "artist": "Toby Fox",
-            "duration": "0:09",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=xPCyzXoB7WY",
-            "spotifyUrl": "https://open.spotify.com/track/2rZU9qk1HWqWrKA7BKOWyy"
-        },
-        {
-            "title": "Queen",
-            "artist": "Toby Fox",
-            "duration": "0:56",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=6XQv5CHmITA",
-            "spotifyUrl": "https://open.spotify.com/track/4fXX61n4gV1yfPbAdDmdcz"
-        },
-        {
-            "title": "A CYBER'S WORLD?",
-            "artist": "Toby Fox",
-            "duration": "2:46",
-            "extra": "Cap. 2",
-            "spotifyUrl": "https://open.spotify.com/track/0BE2Lbu4GgcCT6kgB1tDTc",
-            "youtubeUrl": "https://www.youtube.com/watch?v=In3y0C7mQvA"
-        },
-        {
-            "title": "A Simple Diversion",
-            "artist": "Toby Fox",
-            "duration": "0:31",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=X3pvwsWwa-M",
-            "spotifyUrl": "https://open.spotify.com/track/7CaYooLVhBdkhRjSHrntgD"
-        },
-        {
-            "title": "Almost To The Guys!",
-            "artist": "Toby Fox",
-            "duration": "0:17",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=RDU7SJi2sGo",
-            "spotifyUrl": "https://open.spotify.com/track/3nVfeoR3BDeBqZhkxZTwFp"
-        },
-        {
-            "title": "Cool Beat",
-            "artist": "Toby Fox",
-            "duration": "0:17",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=eHNWgqGtDuc",
-            "spotifyUrl": "https://open.spotify.com/track/1GDlWTtvFLS0ii1lNeG8lL"
-        },
-        {
-            "title": "When I Get Mad I Dance Like This",
-            "artist": "Toby Fox",
-            "duration": "0:10",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=KIDfvuums1w",
-            "spotifyUrl": "https://open.spotify.com/track/3eZk3GxGcwVDPa1xIK4Fnp"
-        },
-        {
-            "title": "Cyber Battle (Solo)",
-            "artist": "Toby Fox",
-            "duration": "1:47",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=10yw5Q0mPPw",
-            "spotifyUrl": "https://open.spotify.com/track/6VpzCI5KbudaEYSKPNwzY1"
-        },
-        {
-            "title": "When I Get Happy I Dance Like This",
-            "artist": "Toby Fox",
-            "duration": "0:19",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=bTwrnu_TFEA",
-            "spotifyUrl": "https://open.spotify.com/track/5ZBgN5tJHXUxQLv40xGe39"
-        },
-        {
-            "title": "Sound Studio",
-            "artist": "Toby Fox",
-            "duration": "1:08",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=v4Xc64X6Npo",
-            "spotifyUrl": "https://open.spotify.com/track/51XshBkYoRNSL5iRQD1SJF"
-        },
-        {
-            "title": "Berdly",
-            "artist": "Toby Fox",
-            "duration": "0:46",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=HZO3xw91eHw",
-            "spotifyUrl": "https://open.spotify.com/track/3GtA0wC7ZV1LtiaKVcFARJ"
-        },
-        {
-            "title": "Smart Race",
-            "artist": "Toby Fox",
-            "duration": "1:06",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=HZO3xw91eHw",
-            "spotifyUrl": "https://open.spotify.com/track/1GdTlOlPxxXhuA1Z4Tbf5H"
-        },
-        {
-            "title": "Faint Courage (Game Over)",
-            "artist": "Toby Fox",
-            "duration": "0:52",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=1axevc0iEqE",
-            "spotifyUrl": "https://open.spotify.com/track/1RDnckI3aDh19h9TJAUm3N"
-        },
-        {
-            "title": "WELCOME TO THE CITY",
-            "artist": "Toby Fox",
-            "duration": "1:54",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=XIPgJJyiTEY",
-            "spotifyUrl": "https://open.spotify.com/track/30hbRoex1LUK0fShzTLR1C"
-        },
-        {
-            "title": "Mini Studio",
-            "artist": "Toby Fox",
-            "duration": "0:51",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=OEaRlIfkURI",
-            "spotifyUrl": "https://open.spotify.com/track/2Y5yRdf42KyABdwUaafUgp"
-        },
-        {
-            "title": "Holiday Studio",
-            "artist": "Toby Fox",
-            "duration": "1:08",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=7SAJNfCkg7U",
-            "spotifyUrl": "https://open.spotify.com/track/67ER6SEIRevkaLsLhJCVzZ"
-        },
-        {
-            "title": "Cool Mixtape",
-            "artist": "Toby Fox",
-            "duration": "0:26",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=EeVEyBGPgLY",
-            "spotifyUrl": "https://open.spotify.com/track/5UDxDGERH44CfeecPnpPLY"
-        },
-        {
-            "title": "HEY EVERY !",
-            "artist": "Toby Fox",
-            "duration": "0:18",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=DZKnVQL3r2I",
-            "spotifyUrl": "https://open.spotify.com/track/3FwU0oJcpuWnu0eECt65jC"
-        },
-        {
-            "title": "Spamton",
-            "artist": "Toby Fox",
-            "duration": "0:42",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=cSm5gKlmw2M",
-            "spotifyUrl": "https://open.spotify.com/track/1dWgRROqpijnPVQS0LNJMf"
-        },
-        {
-            "title": "NOW'S YOUR CHANCE TO BE A",
-            "artist": "Toby Fox",
-            "duration": "1:07",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=2GbBD_7AsGA",
-            "spotifyUrl": "https://open.spotify.com/track/4RZCenPPiY28As8ZzeMYyv"
-        },
-        {
-            "title": "Elegant Entrance",
-            "artist": "Toby Fox",
-            "duration": "1:18",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=j6baKyF2Ksc",
-            "spotifyUrl": "https://open.spotify.com/track/0v32fKwN5VpiZYEW9bwcmI"
-        },
-        {
-            "title": "Bluebird of Misfortune",
-            "artist": "Toby Fox",
-            "duration": "0:49",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=k7K-fclKRgw",
-            "spotifyUrl": "https://open.spotify.com/track/3XfcINMr19vye9Imaazx0T"
-        },
-        {
-            "title": "Pandora Palace",
-            "artist": "Toby Fox",
-            "duration": "1:39",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=q-5cXVcCOUs",
-            "spotifyUrl": "https://open.spotify.com/track/7tNsMfItoswjCO5oOQgbBB"
-        },
-        {
-            "title": "KEYGEN",
-            "artist": "Toby Fox",
-            "duration": "0:15",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=vGrm3yFlWdU",
-            "spotifyUrl": "https://open.spotify.com/track/4GyPLAUgO1JdKe48giXBQo"
-        },
-        {
-            "title": "Acid Tunnel of Love",
-            "artist": "Toby Fox",
-            "duration": "1:30",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=McOfpEEXnq0",
-            "spotifyUrl": "https://open.spotify.com/track/3M1Xiw8PplJsehXCUdlGi2"
-        },
-        {
-            "title": "It's Pronounced \"Rules\"",
-            "artist": "Toby Fox",
-            "duration": "1:01",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=DQ0aryDlPi4",
-            "spotifyUrl": "https://open.spotify.com/track/6zOVVoWfAnRMj5XfcvUoyF"
-        },
-        {
-            "title": "Lost Girl",
-            "artist": "Toby Fox",
-            "duration": "1:20",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=P89rxnT7lKw",
-            "spotifyUrl": "https://open.spotify.com/track/4OaDjTKDu5wNML5Ia1AqOI"
-        },
-        {
-            "title": "Ferris Wheel",
-            "artist": "Toby Fox",
-            "duration": "1:19",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=2ZDp_OwXXsc",
-            "spotifyUrl": "https://open.spotify.com/track/7JGkl7TSwWcVlwtDuoHDLj"
-        },
-        {
-            "title": "Attack of the Killer Queen",
-            "artist": "Toby Fox",
-            "duration": "2:00",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=vBjscyFC3jo",
-            "spotifyUrl": "https://open.spotify.com/track/4fXX61n4gV1yfPbAdDmdcz"
-        },
-        {
-            "title": "Giga Size",
-            "artist": "Toby Fox",
-            "duration": "1:47",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=NJ3Z7yA1pIE",
-            "spotifyUrl": "https://open.spotify.com/track/7gRPYFtMaq0KIOO7vIxCLd"
-        },
-        {
-            "title": "Powers Combined",
-            "artist": "Toby Fox",
-            "duration": "0:16",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=_dVjS8WR5xw",
-            "spotifyUrl": "https://open.spotify.com/track/0t71OmjPF5oYOigH9p0AER"
-        },
-        {
-            "title": "Knock You Down !!",
-            "artist": "Toby Fox",
-            "duration": "2:26",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=L9qRYVZLets",
-            "spotifyUrl": "https://open.spotify.com/track/7ARvBQv5g2gDmBGXM6VDCR"
-        },
-        {
-            "title": "The Dark Truth",
-            "artist": "Toby Fox",
-            "duration": "1:12",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=FMOUlhwQAxI",
-            "spotifyUrl": "https://open.spotify.com/track/49vU3wEaRNGzZIy1TATOlW"
-        },
-        {
-            "title": "Digital Roots",
-            "artist": "Toby Fox",
-            "duration": "0:33",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Fhv55ss0B4A",
-            "spotifyUrl": "https://open.spotify.com/track/21JQ1y4y0tBSwSJv0zV9K7"
-        },
-        {
-            "title": "Deal Gone Wrong",
-            "artist": "Toby Fox",
-            "duration": "0:31",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=cfvB-bVpH7Y",
-            "spotifyUrl": "https://open.spotify.com/track/6pZ84L82buMFjAqev002Tv"
-        },
-        {
-            "title": "BIG SHOT",
-            "artist": "Toby Fox",
-            "duration": "2:22",
-            "extra": "Cap. 2",
-            "spotifyUrl": "https://open.spotify.com/track/2hpQl8ryv3IonCg9LiAtGT",
-            "youtubeUrl": "https://www.youtube.com/watch?v=V31PVkwzpEY"
-        },
-        {
-            "title": "A Real Boy!",
-            "artist": "Toby Fox",
-            "duration": "0:15",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=TcybhOF3peA",
-            "spotifyUrl": "https://open.spotify.com/track/0LtRb6SfD9zAm1mZqfzsd1"
-        },
-        {
-            "title": "Dialtone",
-            "artist": "Toby Fox",
-            "duration": "0:44",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Cki-mnHhNtY",
-            "spotifyUrl": "https://open.spotify.com/track/5Z4bnMj3gxU2a07jaiRwzs"
-        },
-        {
-            "title": "sans.",
-            "artist": "Toby Fox",
-            "duration": "0:50",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=b2UHoGnGyvE",
-            "spotifyUrl": "https://open.spotify.com/track/3QrQeftqohPVWkqO0Dyj0u"
-        },
-        {
-            "title": "Chill Jailbreak Alarm To Study And Relax To",
-            "artist": "Toby Fox",
-            "duration": "0:24",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=QFY1_IWVikU",
-            "spotifyUrl": "https://open.spotify.com/track/3RhudFHKBLdUqcwTwRWSfm"
-        },
-        {
-            "title": "You Can Always Come Home",
-            "artist": "Toby Fox",
-            "duration": "1:40",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Jm3AM-sAbmA",
-            "spotifyUrl": "https://open.spotify.com/track/2Rf33bpATyDiqTGm0NvlNb"
-        },
-        {
-            "title": "Until Next Time",
-            "artist": "Toby Fox",
-            "duration": "1:02",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=CYpfk3qwb1s",
-            "spotifyUrl": "https://open.spotify.com/track/4O0JVgOSsdJrj6Tao1ViEY"
-        },
-        {
-            "title": "Before the Story",
-            "artist": "Toby Fox",
-            "duration": "1:28",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=_0pFoKrY5TU",
-            "spotifyUrl": "https://open.spotify.com/track/2JWq4IwxQB4O8yL3pMe6aj"
-        },
-        {
-            "title": "Berdly (Rejected Concept)",
-            "artist": "Toby Fox",
-            "duration": "0:20",
-            "extra": "Cap. 2",
-            "youtubeUrl": "https://www.youtube.com/watch?v=bsubv_Dma5s",
-            "spotifyUrl": "https://open.spotify.com/track/3GtA0wC7ZV1LtiaKVcFARJ"
-        },
-        {
-            "title": "Flashback (Excerpt)",
-            "artist": "Toby Fox",
-            "duration": "0:32",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=tQ5WnrSNHIg",
-            "spotifyUrl": "https://open.spotify.com/track/5hsRssY21u2RnOzAaRPRPE"
-        },
-        {
-            "title": "Feature Presentation",
-            "artist": "Toby Fox",
-            "duration": "0:42",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=vGn0HeIjEbg",
-            "spotifyUrl": "https://open.spotify.com/track/6tvpQrBDbIjbzgETc7FJAA"
-        },
-        {
-            "title": "And Now For Today's Sponsors...!",
-            "artist": "Toby Fox",
-            "duration": "0:31",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=j69knNADinw",
-            "spotifyUrl": "https://open.spotify.com/track/34ov2MLnX3jUhL5QeosFly"
-        },
-        {
-            "title": "MIKE, the BOARD, please!",
-            "artist": "Toby Fox",
-            "duration": "0:32",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=YsZoTTl59hg",
-            "spotifyUrl": "https://open.spotify.com/track/2jGCOh2CyVs6fKWx6Mdqin"
-        },
-        {
-            "title": "Sandy Board",
-            "artist": "Toby Fox",
-            "duration": "1:18",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=CGTAz3MC8NI",
-            "spotifyUrl": "https://open.spotify.com/track/1ibB9qEsHH6LdhZSCxUhtq"
-        },
-        {
-            "title": "Adventure Board",
-            "artist": "Toby Fox",
-            "duration": "0:59",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=9PpyIF7ad6E",
-            "spotifyUrl": "https://open.spotify.com/track/77AbXWzEwS7xb2y0cQ1vKV"
-        },
-        {
-            "title": "Query?",
-            "artist": "Toby Fox",
-            "duration": "0:24",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=2LkI2_NdoZE",
-            "spotifyUrl": "https://open.spotify.com/track/0f3lbqBNjllwLhPpmPqoYH"
-        },
-        {
-            "title": "Quiz!",
-            "artist": "Toby Fox",
-            "duration": "1:16",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=J-qqRdp1L28",
-            "spotifyUrl": "https://open.spotify.com/track/06MqXIRp3PBssVsdgQ2LmO"
-        },
-        {
-            "title": "Dig! Dig! To The Center of the Earth!",
-            "artist": "Toby Fox",
-            "duration": "0:07",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=k3CtbHTMpiA",
-            "spotifyUrl": "https://open.spotify.com/track/7tXOPzioo1bTWpOe9XHcKz"
-        },
-        {
-            "title": "Pushing Buddies",
-            "artist": "Toby Fox",
-            "duration": "0:19",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=spBYKRPlx6U",
-            "spotifyUrl": "https://open.spotify.com/track/33tFlu3Zwzk0DuiqpqKvoc"
-        },
-        {
-            "title": "Ruder Buster",
-            "artist": "Toby Fox",
-            "duration": "1:46",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=_A8SQAQ_yRo",
-            "spotifyUrl": "https://open.spotify.com/track/1pzBe2vFkYc7RvieibXO8b"
-        },
-        {
-            "title": "Physical Challenge",
-            "artist": "Toby Fox",
-            "duration": "1:47",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=EfUKZ3_se3M",
-            "spotifyUrl": "https://open.spotify.com/track/4zDUTFUluT3ptuXBUhqux5"
-        },
-        {
-            "title": "Board Clear!",
-            "artist": "Toby Fox",
-            "duration": "0:34",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=i-4IKSA19UI",
-            "spotifyUrl": "https://open.spotify.com/track/4MOXjN5shJCZHjAtOoPTPN"
-        },
-        {
-            "title": "Welcome to the Green Room",
-            "artist": "Toby Fox",
-            "duration": "1:30",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=7L7csHK9EjY",
-            "spotifyUrl": "https://open.spotify.com/track/4F9q9vdpzkA2OxuofEXxNf"
-        },
-        {
-            "title": "Vapor Buster",
-            "artist": "Toby Fox",
-            "duration": "2:00",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=3vh8LYSuOvA",
-            "spotifyUrl": "https://open.spotify.com/track/53Q6v9ZiLLaw1MMtInfWBs"
-        },
-        {
-            "title": "Paradise, Paradise",
-            "artist": "Toby Fox",
-            "duration": "2:30",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=ulaTvZ1gSL0",
-            "spotifyUrl": "https://open.spotify.com/track/59ZD83tA5CVrOT9fZmmTxS"
-        },
-        {
-            "title": "Raft Ride",
-            "artist": "Toby Fox",
-            "duration": "1:09",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=5KSTNJnVGAE",
-            "spotifyUrl": "https://open.spotify.com/track/4FjthTLSGFCMv69aEX2yqi"
-        },
-        {
-            "title": "SOUTH OF THE BORDER!!",
-            "artist": "Toby Fox",
-            "duration": "0:12",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=S0MiyvNNAsU",
-            "spotifyUrl": "https://open.spotify.com/track/126RQ9QDOI9vBdGxrO545m"
-        },
-        {
-            "title": "Sound Check",
-            "artist": "Toby Fox",
-            "duration": "0:25",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=CINnefzXOcg",
-            "spotifyUrl": "https://open.spotify.com/track/7mTVgwCZpAi2rxvsPtVAaj"
-        },
-        {
-            "title": "Raise Up Your Bat",
-            "artist": "Toby Fox",
-            "duration": "2:13",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=85WD93lz5GU",
-            "spotifyUrl": "https://open.spotify.com/track/2yvLgJd9ZcOUwdaPBhsKhn"
-        },
-        {
-            "title": "KING OF ROLYPOLY",
-            "artist": "Toby Fox",
-            "duration": "0:48",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=bNry5GiIqHs",
-            "spotifyUrl": "https://open.spotify.com/track/4rVYnz4PMR5k3LdGfbe7uW"
-        },
-        {
-            "title": "Glowing Snow",
-            "artist": "Toby Fox",
-            "duration": "2:22",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=pCF3YY9BwBs",
-            "spotifyUrl": "https://open.spotify.com/track/4hBKerIFw7vZ8Wj5RFf992"
-        },
-        {
-            "title": "Big City Board",
-            "artist": "Toby Fox",
-            "duration": "1:22",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=UqPfyWC1I3I",
-            "spotifyUrl": "https://open.spotify.com/track/5pRrR8C22MseJx8Z9jMNsW"
-        },
-        {
-            "title": "Doom Board",
-            "artist": "Toby Fox",
-            "duration": "0:52",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=aDPOR4hfe-U",
-            "spotifyUrl": "https://open.spotify.com/track/6Esifny7MfmbRssBmqSnyO"
-        },
-        {
-            "title": "Metaphysical Challenge",
-            "artist": "Toby Fox",
-            "duration": "0:52",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=yPwjadZiNnU",
-            "spotifyUrl": "https://open.spotify.com/track/4zDUTFUluT3ptuXBUhqux5"
-        },
-        {
-            "title": "TV WORLD",
-            "artist": "Toby Fox",
-            "duration": "2:09",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=DstO9slC_5U",
-            "spotifyUrl": "https://open.spotify.com/track/4dCf5JiHTFjDyJ3Lso0FPx"
-        },
-        {
-            "title": "It's TV Time!",
-            "artist": "Toby Fox",
-            "duration": "2:45",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=F2PJbTuZlTU",
-            "spotifyUrl": "https://open.spotify.com/track/3O9xF6nqYYtMjkuIutRYLP"
-        },
-        {
-            "title": "Hall of Fame",
-            "artist": "Toby Fox",
-            "duration": "0:30",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=qV2wWw1f4KE",
-            "spotifyUrl": "https://open.spotify.com/track/4PTQoGJKnCMSJHU1JhVLoH"
-        },
-        {
-            "title": "Breath",
-            "artist": "Toby Fox",
-            "duration": "0:14",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=3LMmXO01F7s",
-            "spotifyUrl": "https://open.spotify.com/track/0IOWy7aABFxHymtVelvRuT"
-        },
-        {
-            "title": "Black Knife",
-            "artist": "Toby Fox",
-            "duration": "1:57",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=B8Us0DZgexw",
-            "spotifyUrl": "https://open.spotify.com/track/3TXV0txNTcLXCktESOcMuG"
-        },
-        {
-            "title": "Crickets",
-            "artist": "Toby Fox",
-            "duration": "0:36",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=kScDdlhORBw",
-            "spotifyUrl": "https://open.spotify.com/track/2LNqzBqxASFVG7UWASevnJ"
-        },
-        {
-            "title": "Dump",
-            "artist": "Toby Fox",
-            "duration": "0:40",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=xVvCCqC3Cik",
-            "spotifyUrl": "https://open.spotify.com/track/4EJ3AaF1L6k2icQ9pcu88n"
-        },
-        {
-            "title": "SWORD",
-            "artist": "Toby Fox",
-            "duration": "2:12",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=KAtudLu42vA",
-            "spotifyUrl": "https://open.spotify.com/track/2FuJAsTPVx9hIZOCdRbMPV"
-        },
-        {
-            "title": "NORTHERNLIGHT",
-            "artist": "Toby Fox",
-            "duration": "0:22",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=GconqBHsQDs",
-            "spotifyUrl": "https://open.spotify.com/track/70k7l4qtoQkKa7kS2xsEiA"
-        },
-        {
-            "title": "GLACEIR",
-            "artist": "Toby Fox",
-            "duration": "1:07",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=9a-h8bddlY0",
-            "spotifyUrl": "https://open.spotify.com/track/03ukf04MOfpSzDk5EakIiv"
-        },
-        {
-            "title": "BIT ROOTS",
-            "artist": "Toby Fox",
-            "duration": "1:17",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=fMfro9XfU1w",
-            "spotifyUrl": "https://open.spotify.com/track/5HVWxGx8pVxZ5n7H0Stt9K"
-        },
-        {
-            "title": "ERAM",
-            "artist": "Toby Fox",
-            "duration": "0:15",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=c9pnoMwi3PA",
-            "spotifyUrl": "https://open.spotify.com/track/4T6NeRmGQox3l6YahP6HOp"
-        },
-        {
-            "title": "BURNING EYES",
-            "artist": "Toby Fox",
-            "duration": "1:05",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=TBVteb9Z6ps",
-            "spotifyUrl": "https://open.spotify.com/track/5y2A6lAb8c1pYgdomYM2zm"
-        },
-        {
-            "title": "Old wooden rafters",
-            "artist": "Toby Fox",
-            "duration": "1:38",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=I8Ooxs-Uqog",
-            "spotifyUrl": "https://open.spotify.com/track/0KqDYr4qjE4aQ4MdiYAHSu"
-        },
-        {
-            "title": "Hymn",
-            "artist": "Toby Fox",
-            "duration": "0:33",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=9ib8y3Pjsi4",
-            "spotifyUrl": "https://open.spotify.com/track/0MyDcubBn6rtcYxqKA0k5f"
-        },
-        {
-            "title": "Another day in hometown",
-            "artist": "Toby Fox",
-            "duration": "2:19",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=zqWQaTovHU8",
-            "spotifyUrl": "https://open.spotify.com/track/7ttAYAA9xgN9X2pKgE6D2w"
-        },
-        {
-            "title": "Friends",
-            "artist": "Toby Fox",
-            "duration": "1:25",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=SaZoQJMxHxk",
-            "spotifyUrl": "https://open.spotify.com/track/2R6MB4GkUVnRwLN5VXHiDF"
-        },
-        {
-            "title": "Castle Funk",
-            "artist": "Toby Fox",
-            "duration": "2:56",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=2V_wyZdgVMg",
-            "spotifyUrl": "https://open.spotify.com/track/580rGEvaWqalvq6sXo7qcI"
-        },
-        {
-            "title": "Knock You Down!! (Rhythm Ver.)",
-            "artist": "Toby Fox",
-            "duration": "2:17",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=27oficnsQPo",
-            "spotifyUrl": "https://open.spotify.com/track/7ARvBQv5g2gDmBGXM6VDCR"
-        },
-        {
-            "title": "Gingerbread House",
-            "artist": "Toby Fox",
-            "duration": "1:27",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=QANL4WelTj4",
-            "spotifyUrl": "https://open.spotify.com/track/55JVCXdcI0FpG1XfVK7QH6"
-        },
-        {
-            "title": "The distance between two",
-            "artist": "Toby Fox",
-            "duration": "0:42",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=byUCuhB8r5Q",
-            "spotifyUrl": "https://open.spotify.com/track/6V7mrQd5w1RLYLgpa0j1lh"
-        },
-        {
-            "title": "C",
-            "artist": "Toby Fox",
-            "duration": "0:41",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=6z7x_hu4t4Y",
-            "spotifyUrl": "https://open.spotify.com/track/1xIYcuzRrYEfMkh7CjSKoF"
-        },
-        {
-            "title": "ATRIUM",
-            "artist": "Toby Fox",
-            "duration": "1:00",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=tA640IdSHLk",
-            "spotifyUrl": "https://open.spotify.com/track/34J8FvGXDEittDb6CpV1Qs"
-        },
-        {
-            "title": "Dark Sanctuary",
-            "artist": "Toby Fox",
-            "duration": "1:46",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=QQQq1T06lYg",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "From Now On (Battle 2)",
-            "artist": "Toby Fox",
-            "duration": "1:48",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=OobVFldn6As",
-            "spotifyUrl": "https://open.spotify.com/track/4Hjl9fN4GFjwumSSwzfnoF"
-        },
-        {
-            "title": "Gyaa Ha ha!",
-            "artist": "Toby Fox",
-            "duration": "1:15",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=iqoYq4x0RQw",
-            "spotifyUrl": "https://open.spotify.com/track/6gecazaYAnbY23qNXXmgb2"
-        },
-        {
-            "title": "Fireplace",
-            "artist": "Toby Fox",
-            "duration": "2:37",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=xz61v-lss5g",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "A DARK ZONE",
-            "artist": "Toby Fox",
-            "duration": "2:18",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=K-ifukvnICY",
-            "spotifyUrl": "https://open.spotify.com/track/4xWndE8mpwxptsiImg8NML"
-        },
-        {
-            "title": "Mysterious Ringing",
-            "artist": "Toby Fox",
-            "duration": "0:22",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=WP_5b9kfQAI",
-            "spotifyUrl": "https://open.spotify.com/track/6ryg7xffWWiM2k3vSaeovv"
-        },
-        {
-            "title": "Ever Higher",
-            "artist": "Toby Fox",
-            "duration": "1:27",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=DxPHMcpuYeA",
-            "spotifyUrl": "https://open.spotify.com/track/50vzjXBvI9LqWoH8rS7Ngs"
-        },
-        {
-            "title": "Wise words",
-            "artist": "Toby Fox",
-            "duration": "0:42",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=JkEhQ3qJubU",
-            "spotifyUrl": "https://open.spotify.com/track/3G8frZE57AjViNcrFSgJVS"
-        },
-        {
-            "title": "Piano that may not be played that well",
-            "artist": "Toby Fox",
-            "duration": "0:42",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Y9XRMC0ez7w",
-            "spotifyUrl": "https://open.spotify.com/track/5dH2YsWmbDhVgFrESQrMDk"
-        },
-        {
-            "title": "Hammer of Justice",
-            "artist": "Toby Fox",
-            "duration": "2:13",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=tBdLO8u-0L8",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "12am",
-            "artist": "Toby Fox",
-            "duration": "0:34",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=j1fPfxLYg-w",
-            "spotifyUrl": "https://open.spotify.com/track/4UKmADVuX37678FmIkWNec"
-        },
-        {
-            "title": "The Second Sanctuary",
-            "artist": "Toby Fox",
-            "duration": "2:46",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Jp7kfYH4VaE",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Ripple",
-            "artist": "Toby Fox",
-            "duration": "2:31",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=lHR_z-hldgY",
-            "spotifyUrl": "https://open.spotify.com/track/1nRbX4Y2INifRgrjXioxz1"
-        },
-        {
-            "title": "13am",
-            "artist": "Toby Fox",
-            "duration": "1:26",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=sbzmYjE49N4",
-            "spotifyUrl": "https://open.spotify.com/track/2j6z4O5sYkXzF73s2fYNMM"
-        },
-        {
-            "title": "The Third Sanctuary",
-            "artist": "Toby Fox",
-            "duration": "4:07",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=7f1RK1m7qvc",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Dark Place",
-            "artist": "Toby Fox",
-            "duration": "0:58",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=xask4UG9R-M",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Heavy Footsteps",
-            "artist": "Toby Fox",
-            "duration": "0:38",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=qGpW9CLlxwM",
-            "spotifyUrl": "https://open.spotify.com/track/3P4gWy7Xs7fqmWIIx1wlyU"
-        },
-        {
-            "title": "Crumbling Tower",
-            "artist": "Toby Fox",
-            "duration": "2:49",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=z2IT2YzscSE",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "SPAWN",
-            "artist": "Toby Fox",
-            "duration": "1:11",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=iRMn2HlCRFI",
-            "spotifyUrl": "https://open.spotify.com/track/2u4ushxdRXhwwZV1ql8FSW"
-        },
-        {
-            "title": "GUARDIAN",
-            "artist": "Toby Fox",
-            "duration": "3:46",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=nP9mB1sVJz4",
-            "spotifyUrl": "https://open.spotify.com/track/6KJL2lAVwFQyuZx9UhJvPo"
-        },
-        {
-            "title": "Need a hand!?",
-            "artist": "Toby Fox",
-            "duration": "0:46",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=hFYTL3mTsdo",
-            "spotifyUrl": "https://open.spotify.com/track/0TKD1A2DMx30e70scvLZBC"
-        },
-        {
-            "title": "The place where it rained",
-            "artist": "Toby Fox",
-            "duration": "2:52",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=aSc7Yuwn1Ao",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "The Ol' Jitterbug",
-            "artist": "Toby Fox",
-            "duration": "0:22",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=XBwYm4hHJMU",
-            "spotifyUrl": "https://open.spotify.com/track/13OOV33XXDkjmXcF5O4UMZ"
-        },
-        {
-            "title": "Neverending Night",
-            "artist": "Toby Fox",
-            "duration": "1:39",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=QZ03-aaO4sA",
-            "spotifyUrl": "https://open.spotify.com/track/3VoY2M955hxgj9i6g3e5Yj"
-        },
-        {
-            "title": "The LEGEND...?",
-            "artist": "Toby Fox",
-            "duration": "0:26",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=PibYmujLubI",
-            "spotifyUrl": "https://open.spotify.com/track/1ZA8wuVp91YbS1uif1hyYR"
-        },
-        {
-            "title": "With Hope Crossed On Our Hearts",
-            "artist": "Toby Fox",
-            "duration": "1:39",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=dXzvCCljzXY",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Volume Adjustment",
-            "artist": "Toby Fox",
-            "duration": "0:36",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=SBvEH9yV9yw",
-            "spotifyUrl": "https://open.spotify.com/track/2HzSMVOrr9iIr0nUjIttuN"
-        },
-        {
-            "title": "Catswing",
-            "artist": "Toby Fox",
-            "duration": "1:58",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=r-DvoCTarMQ",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "AIRWAVES",
-            "artist": "Toby Fox",
-            "duration": "2:00",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=jsXXKQ_nl30",
-            "spotifyUrl": "https://open.spotify.com/track/0M4R2a09Sru58lv4aW8nl0"
-        },
-        {
-            "title": "Concert for you",
-            "artist": "Toby Fox",
-            "duration": "0:02",
-            "extra": "Cap. 3-4",
-            "youtubeUrl": "https://www.youtube.com/watch?v=HQj78oXGrhw",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Chapter 5 Logo",
-            "artist": "Toby Fox",
-            "duration": "0:08",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=RsAu3BDaAp8",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Inappropriate Recycling",
-            "artist": "Toby Fox",
-            "duration": "1:36",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=Bh8eaKSjEYw",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Pirate Dojo",
-            "artist": "Toby Fox",
-            "duration": "0:52",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=RWADynlMHZw",
-            "spotifyUrl": "https://open.spotify.com/track/1dpY7De8pZBbZrPJyuEZOx"
-        },
-        {
-            "title": "4rd Sanctuary",
-            "artist": "Toby Fox",
-            "duration": "1:19",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=78GNmtaVhHE",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Festival",
-            "artist": "Toby Fox",
-            "duration": "2:00",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=UfVnA3q6z4o",
-            "spotifyUrl": "https://open.spotify.com/track/6uIkUZk0EkB7bENOrjgINp"
-        },
-        {
-            "title": "Catfession...?",
-            "artist": "Toby Fox",
-            "duration": "0:42",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=hm1UnUVB5TA",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Bratfession...?",
-            "artist": "Toby Fox",
-            "duration": "0:42",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=YcdA0rYpDsQ",
-            "spotifyUrl": "https://open.spotify.com/track/3Qw0qWjy0lJeg3aOkcVytI"
-        },
-        {
-            "title": "I guess I'm in love",
-            "artist": "Toby Fox",
-            "duration": "2:57",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=KTOreU_aOr4",
-            "spotifyUrl": "https://open.spotify.com/track/37E2ImKtca7ednQUdrEl65"
-        },
-        {
-            "title": "Weirder Birds",
-            "artist": "Toby Fox",
-            "duration": "0:37",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=6q8NOzhtJCg",
-            "spotifyUrl": "https://open.spotify.com/track/4R9W0Ar7kLmrgEpWY0LUGi"
-        },
-        {
-            "title": "Your Dad's Best Friend",
-            "artist": "Toby Fox",
-            "duration": "0:28",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=XGbJbxiXS0o",
-            "spotifyUrl": "https://open.spotify.com/track/79Gtx0gFWF1ynItF4xUlTq"
-        },
-        {
-            "title": "Garden of Hopes and Dreams",
-            "artist": "Toby Fox",
-            "duration": "3:23",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=MzEHcwoNlbE",
-            "spotifyUrl": "https://open.spotify.com/track/50etWMkUI5UBZijCgMpFTP"
-        },
-        {
-            "title": "Rakuichi Buster",
-            "artist": "Toby Fox",
-            "duration": "1:49",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=QvoQVCBqegU",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "The Diner Song of Best Friends",
-            "artist": "Toby Fox",
-            "duration": "1:25",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=6wmEVGt482w",
-            "spotifyUrl": "https://open.spotify.com/track/42gE8OCT3DiFUg6F6heHKL"
-        },
-        {
-            "title": "Ride the Board",
-            "artist": "Toby Fox",
-            "duration": "0:10",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=FjS4Nd174Jo",
-            "spotifyUrl": "https://open.spotify.com/track/1pTFTxMdwVAlnKCrZ7m4AK"
-        },
-        {
-            "title": "Quiet Glade",
-            "artist": "Toby Fox",
-            "duration": "3:17",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=w55JVwZdjtA",
-            "spotifyUrl": "https://open.spotify.com/track/7tYQHF46yH0Hc9cAaR7VwE"
-        },
-        {
-            "title": "Who might you be?",
-            "artist": "Toby Fox",
-            "duration": "1:04",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=7drCWkXZSF4",
-            "spotifyUrl": "https://open.spotify.com/track/1oOhnSDHYyDbjlIwBhFONe"
-        },
-        {
-            "title": "Petal Dance",
-            "artist": "Toby Fox",
-            "duration": "1:32",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=RsAu3BDaAp8",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Flying Feather",
-            "artist": "Toby Fox",
-            "duration": "0:27",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=C11U0YZZLIg",
-            "spotifyUrl": "https://open.spotify.com/track/2FNX6952p9NwYRilGHqUGi"
-        },
-        {
-            "title": "Sunset of Seven Suns",
-            "artist": "Toby Fox",
-            "duration": "1:36",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=_Q6S2XgQJ8c",
-            "spotifyUrl": "https://open.spotify.com/track/5qNAA39mMrhMb5o6tmSleX"
-        },
-        {
-            "title": "Shop 3",
-            "artist": "Toby Fox",
-            "duration": "1:15",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=oiXDYg5TXQc",
-            "spotifyUrl": "https://open.spotify.com/track/1j2eaxUKq0cS300hlAfOpa"
-        },
-        {
-            "title": "Violet Tactics",
-            "artist": "Toby Fox",
-            "duration": "1:05",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=yF8N3rVbMFA",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Flower King",
-            "artist": "Toby Fox",
-            "duration": "0:40",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=GpvQ-jO3e4E",
-            "spotifyUrl": "https://open.spotify.com/track/0kTXxRANNSRt4hrNaoRh5O"
-        },
-        {
-            "title": "Flower Foyer",
-            "artist": "Toby Fox",
-            "duration": "0:55",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=i0Hcnlm4I8M",
-            "spotifyUrl": "https://open.spotify.com/track/2szOUMo4m16w1w6X67u6gQ"
-        },
-        {
-            "title": "Flower Castle",
-            "artist": "Toby Fox",
-            "duration": "4:30",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=ICFPzrihGX8",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Thousand Cafe Zukan",
-            "artist": "Toby Fox",
-            "duration": "1:29",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=-hxMwv7iksk",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "I'm Telling!",
-            "artist": "Toby Fox",
-            "duration": "0:40",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=CvFuMiWEryM",
-            "spotifyUrl": "https://open.spotify.com/track/6zvLBg9ESET50E64P8e9C0"
-        },
-        {
-            "title": "Stop, Criminell!",
-            "artist": "Toby Fox",
-            "duration": "0:45",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=kXp2H7GbYis",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Loving Steps",
-            "artist": "Toby Fox",
-            "duration": "2:13",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=tLAxahP5scs",
-            "spotifyUrl": "https://open.spotify.com/track/7BNJLakczO9Ike6AWokWFk"
-        },
-        {
-            "title": "Onsen",
-            "artist": "Toby Fox",
-            "duration": "1:43",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=o681RqsnRM0",
-            "spotifyUrl": "https://open.spotify.com/track/0zlfOmYrsXEMxf9T0YFKiW"
-        },
-        {
-            "title": "Beautiful Bathtime",
-            "artist": "Toby Fox",
-            "duration": "0:21",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=tDSDO3UDKQs",
-            "spotifyUrl": "https://open.spotify.com/track/42UmVmK5B8Cx7jz34RyVtU"
-        },
-        {
-            "title": "Pink",
-            "artist": "Toby Fox",
-            "duration": "1:13",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=5B9N1ALeLPo",
-            "spotifyUrl": "https://open.spotify.com/track/2QcP7oFXVOMz1VhZYhfESk"
-        },
-        {
-            "title": "Cutie Mew Mew Magic",
-            "artist": "Toby Fox",
-            "duration": "3:04",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=tlFnfEWZCtQ",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Running Sky",
-            "artist": "Toby Fox",
-            "duration": "2:22",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=1kGmc1BOyPY",
-            "spotifyUrl": "https://open.spotify.com/track/73DeTlzIhj2QJ3RFZYHkv0"
-        },
-        {
-            "title": "Flower Man",
-            "artist": "Toby Fox",
-            "duration": "3:12",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=GWf9_qSrnOM",
-            "spotifyUrl": "https://open.spotify.com/track/3ledoLy9Koeieu3o6kjFMh"
-        },
-        {
-            "title": "That Day",
-            "artist": "Toby Fox",
-            "duration": "1:30",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=wnB9pwkkeyg",
-            "spotifyUrl": "https://open.spotify.com/track/3fGfYEzp73sJClkLETfHCQ"
-        },
-        {
-            "title": "Dreamwatchers",
-            "artist": "Toby Fox",
-            "duration": "1:17",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=JpXp593ZM-o",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        },
-        {
-            "title": "Weak Flowers",
-            "artist": "Toby Fox",
-            "duration": "1:42",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=7cw2UNfdrEc",
-            "spotifyUrl": "https://open.spotify.com/track/0rDVIi78ck1dVf6MuR18q9"
-        },
-        {
-            "title": "Walking Home",
-            "artist": "Toby Fox",
-            "duration": "2:16",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=W-ef0vk66HM",
-            "spotifyUrl": "https://open.spotify.com/track/5kFXhzeTzEoKxKfWKAKIbb"
-        },
-        {
-            "title": "Field of Hopes and Dreams (Credits Version)",
-            "artist": "Toby Fox",
-            "duration": "1:39",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=9oDZ2vN9XF0",
-            "spotifyUrl": "https://open.spotify.com/track/2W90IO8eRnFg1qsPunKm9B"
-        },
-        {
-            "title": "Goodnight, Sweet Prince",
-            "artist": "Toby Fox",
-            "duration": "0:31",
-            "extra": "Cap. 5",
-            "youtubeUrl": "https://www.youtube.com/watch?v=QBf09fw0OhQ",
-            "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
-        }
-    ],
-    "gameplays": [
-        {
-            "title": "Deltarune - Gameplay Completo Cap. 1 e 2 (Pt-BR)",
-            "channelName": "LegoGamer202",
-            "channelUrl": "https://www.youtube.com/@LegoGamer202",
-            "embedUrl": "https://www.youtube.com/embed/NI0s3Rf5YXQ",
-            "youtubeUrl": "https://www.youtube.com/watch?v=NI0s3Rf5YXQ"
-        }
-    ],
-    "_pricesUpdated": "2026-07-11T14:43:58.418Z"
+  "name": "Deltarune",
+  "slug": "deltarune",
+  "genre": "RPG",
+  "developer": "Toby Fox",
+  "year": 2018,
+  "productionScale": "Indie",
+  "ageRating": "12",
+  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1671210/header.jpg",
+  "previewGif": "https://media.giphy.com/media/iznWrMKFQ7JnQfy75q/giphy.gif",
+  "background": "https://cdn.akamai.steamstatic.com/steam/apps/1671210/page_bg_generated_v6b.jpg",
+  "bannerGif": "https://media.giphy.com/media/wFC3rodrXIIqUm7hq6/giphy.gif",
+  "shortDescription": "Um novo capítulo da saga de Toby Fox. Explore um novo mundo, novos personagens e uma história épica que desafia expectativas.",
+  "fullDescription": "Deltarune é um RPG gratuito criado por Toby Fox, o criador de Undertale. O jogo se passa em um mundo paralelo onde humanos e monstros coexistem, mas com uma dinâmica diferente. Você controla Kris, um estudante humano que, junto com seus colegas de escola Susie e Ralsei, é transportado para um mundo misterioso chamado Dark World. A mecânicas de combate combina elementos de Undertale com um novo sistema de habilidades de magia e equipamentos. Com capítulos sendo lançados periodicamente, Deltarune promete ser uma jornada épica e emocionante.",
+  "trailer": "https://www.youtube.com/embed/yDzgiGdekas",
+  "translations": [
+    {
+      "name": "Deltarune Cap. 1 e 2 - Tradução PT-BR",
+      "version": "1.5",
+      "date": "2024-01-10",
+      "size": "25 MB",
+      "downloadUrl": "#"
+    },
+    {
+      "name": "Deltarune - Tradução PT-BR Atualizada",
+      "version": "2.0",
+      "date": "2024-08-05",
+      "size": "25 MB",
+      "downloadUrl": "#"
+    }
+  ],
+  "mods": [
+    {
+      "name": "Deltarune Randomizer",
+      "version": "1.0",
+      "author": "Community",
+      "downloadUrl": "#",
+      "officialUrl": "https://www.nexusmods.com/deltarune"
+    }
+  ],
+  "stores": [
+    {
+      "store": "Steam",
+      "url": "https://store.steampowered.com/app/1671210/DELTARUNE/",
+      "platform": "PC",
+      "price": 73.99,
+      "priceOriginal": "R$ 73,99",
+      "coupon": null,
+      "lastUpdated": "2026-07-11"
+    },
+    {
+      "store": "Nintendo eShop",
+      "url": "https://www.nintendo.com/pt-br/store/products/deltarune-switch/",
+      "platform": "Nintendo Switch",
+      "price": 95.2,
+      "priceOriginal": "R$119,00",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "PlayStation Store",
+      "url": "https://store.playstation.com/pt-br/concept/233495",
+      "platform": "PS4 / PS5",
+      "price": 95.2,
+      "priceOriginal": "R$119,00",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    }
+  ],
+  "soundtrack": [
+    {
+      "title": "ANOTHER HIM",
+      "artist": "Toby Fox",
+      "duration": "0:48",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0mTtTOA3PgU",
+      "spotifyUrl": "https://open.spotify.com/track/63K6koyn1kUIXj4soQ9wNl"
+    },
+    {
+      "title": "Beginning",
+      "artist": "Toby Fox",
+      "duration": "0:57",
+      "extra": "Cap. 1",
+      "spotifyUrl": "https://open.spotify.com/track/5NiD264RGry4WmWRRAZ0uN",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RKQUblO-iCs"
+    },
+    {
+      "title": "School",
+      "artist": "Toby Fox",
+      "duration": "1:20",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xbUi1uDwPAY",
+      "spotifyUrl": "https://open.spotify.com/track/1xIYcuzRrYEfMkh7CjSKoF"
+    },
+    {
+      "title": "Susie",
+      "artist": "Toby Fox",
+      "duration": "0:27",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cGuDpoJNImA",
+      "spotifyUrl": "https://open.spotify.com/track/72tN7vUHvkke6lUwCb2lDy"
+    },
+    {
+      "title": "The Door",
+      "artist": "Toby Fox",
+      "duration": "0:41",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KWi1-9eLO_o",
+      "spotifyUrl": "https://open.spotify.com/track/0r1IrLoXomZ3JFSd4Khp1h"
+    },
+    {
+      "title": "Cliffs",
+      "artist": "Toby Fox",
+      "duration": "0:35",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5xmcQqEj3G4",
+      "spotifyUrl": "https://open.spotify.com/track/5PiPRr9KGpqWW12Kwq3FsV"
+    },
+    {
+      "title": "The Chase",
+      "artist": "Toby Fox",
+      "duration": "0:33",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OX5iGh2pgxk",
+      "spotifyUrl": "https://open.spotify.com/track/1PnxSUmMmpIDWWBhMEY56C"
+    },
+    {
+      "title": "The Legend",
+      "artist": "Toby Fox",
+      "duration": "1:51",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PibYmujLubI",
+      "spotifyUrl": "https://open.spotify.com/track/1ZA8wuVp91YbS1uif1hyYR"
+    },
+    {
+      "title": "Lancer",
+      "artist": "Toby Fox",
+      "duration": "0:48",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GAhBQH0Kf1I",
+      "spotifyUrl": "https://open.spotify.com/track/2uE9ZTSf2wJINqCHOrV6a0"
+    },
+    {
+      "title": "Rude Buster",
+      "artist": "Toby Fox",
+      "duration": "1:15",
+      "extra": "Cap. 1",
+      "spotifyUrl": "https://open.spotify.com/track/322mgWaD4DetiHmoDVlwWc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XxAzbt1eS5M"
+    },
+    {
+      "title": "Empty Town",
+      "artist": "Toby Fox",
+      "duration": "1:23",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=p8jCS2nSMmI",
+      "spotifyUrl": "https://open.spotify.com/track/6Z9eoMfegGE6pQc9Toawnd"
+    },
+    {
+      "title": "Weird Birds",
+      "artist": "Toby Fox",
+      "duration": "0:16",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Na3jrbUrL6g",
+      "spotifyUrl": "https://open.spotify.com/track/3XFaNF6EbDJdSr3InmAxJO"
+    },
+    {
+      "title": "Field of Hopes and Dreams",
+      "artist": "Toby Fox",
+      "duration": "2:41",
+      "extra": "Cap. 1",
+      "spotifyUrl": "https://open.spotify.com/track/2W90IO8eRnFg1qsPunKm9B",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ymNgfwgh1TU"
+    },
+    {
+      "title": "Fanfare (from \"Rose of Winter\")",
+      "artist": "Toby Fox",
+      "duration": "0:15",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=x2X-KMEuTf0",
+      "spotifyUrl": "https://open.spotify.com/track/1r3DdJ79HTJ2V62OipRyoC"
+    },
+    {
+      "title": "Lantern",
+      "artist": "Toby Fox",
+      "duration": "1:08",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cUermn1BMSg",
+      "spotifyUrl": "https://open.spotify.com/track/0fBXFpNA9Movn5G2WHPgbM"
+    },
+    {
+      "title": "I'm Very Bad",
+      "artist": "Toby Fox",
+      "duration": "0:13",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=r34vSTUpcgs",
+      "spotifyUrl": "https://open.spotify.com/track/6actYECaeFH1vOyOUCvTT9"
+    },
+    {
+      "title": "Checker Dance",
+      "artist": "Toby Fox",
+      "duration": "1:18",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K-fTAOhOGcs",
+      "spotifyUrl": "https://open.spotify.com/track/6p3ckEGHB7tIiBmHLWZlVf"
+    },
+    {
+      "title": "Quiet Autumn",
+      "artist": "Toby Fox",
+      "duration": "0:49",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2PkQJeH9Ers",
+      "spotifyUrl": "https://open.spotify.com/track/6jNxEc8nmpFBj3Pje7BVbx"
+    },
+    {
+      "title": "Scarlet Forest",
+      "artist": "Toby Fox",
+      "duration": "2:08",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6P5iPI1FjO8",
+      "spotifyUrl": "https://open.spotify.com/track/4zLEqCe2KCWBJLKN3RyWAG"
+    },
+    {
+      "title": "Thrash Machine",
+      "artist": "Toby Fox",
+      "duration": "0:54",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=imH2hItIFlk",
+      "spotifyUrl": "https://open.spotify.com/track/2gafFAtDIGgDQLiEpRokIx"
+    },
+    {
+      "title": "Vs. Lancer",
+      "artist": "Toby Fox",
+      "duration": "0:42",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ce-gU8G6Vik",
+      "spotifyUrl": "https://open.spotify.com/track/2uE9ZTSf2wJINqCHOrV6a0"
+    },
+    {
+      "title": "Basement",
+      "artist": "Toby Fox",
+      "duration": "0:27",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Cnrvt1h5La4",
+      "spotifyUrl": "https://open.spotify.com/track/1XfSpjUBuZwrNUDV8AbYpZ"
+    },
+    {
+      "title": "Imminent Death",
+      "artist": "Toby Fox",
+      "duration": "0:20",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LmIgaiOhnq8",
+      "spotifyUrl": "https://open.spotify.com/track/1aSimBo97eJ6bHr5vrpoKd"
+    },
+    {
+      "title": "Vs. Susie",
+      "artist": "Toby Fox",
+      "duration": "1:21",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uWJJ8nywk-M",
+      "spotifyUrl": "https://open.spotify.com/track/72tN7vUHvkke6lUwCb2lDy"
+    },
+    {
+      "title": "Card Castle",
+      "artist": "Toby Fox",
+      "duration": "1:01",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tvjuTn9LZwY",
+      "spotifyUrl": "https://open.spotify.com/track/6JuC5mhOzqPt8lEGfQJQ05"
+    },
+    {
+      "title": "Rouxls Kaard",
+      "artist": "Toby Fox",
+      "duration": "0:19",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yfC8OU2YtNo",
+      "spotifyUrl": "https://open.spotify.com/track/6cQuiiADGJDs4H7SfIJdYF"
+    },
+    {
+      "title": "April 2012",
+      "artist": "Toby Fox",
+      "duration": "0:20",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ml5MyYOeWpI",
+      "spotifyUrl": "https://open.spotify.com/track/0HuvIX3Jul87KRTOGpGr9P"
+    },
+    {
+      "title": "Hip Shop",
+      "artist": "Toby Fox",
+      "duration": "0:39",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=D83BxptHcRc",
+      "spotifyUrl": "https://open.spotify.com/track/2ASkgao4Nv7FtY9AjASDNQ"
+    },
+    {
+      "title": "Gallery",
+      "artist": "Toby Fox",
+      "duration": "0:12",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=L0MAep7ml3A",
+      "spotifyUrl": "https://open.spotify.com/track/5zDC9xOmwH1yb7KttqbaDH"
+    },
+    {
+      "title": "Chaos King",
+      "artist": "Toby Fox",
+      "duration": "1:46",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tPwzoZ-e664",
+      "spotifyUrl": "https://open.spotify.com/track/5Y8awVkb5cXvlDyH1kIXaN"
+    },
+    {
+      "title": "Darkness Falls",
+      "artist": "Toby Fox",
+      "duration": "1:06",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=i6ZCzBhIRzo",
+      "spotifyUrl": "https://open.spotify.com/track/1eodgnlUYiH3s0q99vk18p"
+    },
+    {
+      "title": "The Circus",
+      "artist": "Toby Fox",
+      "duration": "0:51",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qCNztya--aw",
+      "spotifyUrl": "https://open.spotify.com/track/1N2FBAFlTdHDCRUXq0XHPf"
+    },
+    {
+      "title": "THE WORLD REVOLVING",
+      "artist": "Toby Fox",
+      "duration": "1:41",
+      "extra": "Cap. 1",
+      "spotifyUrl": "https://open.spotify.com/track/5QBozbgRWIYDSriHCRTsXd",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Z01Tsgwe2dQ"
+    },
+    {
+      "title": "Friendship",
+      "artist": "Toby Fox",
+      "duration": "2:40",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xrpCUeynpu0",
+      "spotifyUrl": "https://open.spotify.com/track/2R6MB4GkUVnRwLN5VXHiDF"
+    },
+    {
+      "title": "THE HOLY",
+      "artist": "Toby Fox",
+      "duration": "0:48",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8-n6HhNO57E",
+      "spotifyUrl": "https://open.spotify.com/track/2DORTEXJd9o5Gdhr57M5yC"
+    },
+    {
+      "title": "Your Power",
+      "artist": "Toby Fox",
+      "duration": "0:13",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YeU41eDS90A",
+      "spotifyUrl": "https://open.spotify.com/track/4eLHWCv6pLrxvpKomdGx5w"
+    },
+    {
+      "title": "A Town Called Hometown",
+      "artist": "Toby Fox",
+      "duration": "1:53",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2_1JGqBPziI",
+      "spotifyUrl": "https://open.spotify.com/track/1He6isaU9SoB6GzIM2lx6Z"
+    },
+    {
+      "title": "You Can Always Come Home",
+      "artist": "Toby Fox",
+      "duration": "1:40",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Jm3AM-sAbmA",
+      "spotifyUrl": "https://open.spotify.com/track/2Rf33bpATyDiqTGm0NvlNb"
+    },
+    {
+      "title": "Don't Forget",
+      "artist": "Toby Fox",
+      "duration": "0:51",
+      "extra": "Cap. 1",
+      "spotifyUrl": "https://open.spotify.com/track/7y6NbGuLZuNW0lVaPnYx22",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bBHNnzPJLZA"
+    },
+    {
+      "title": "Before the Story",
+      "artist": "Toby Fox",
+      "duration": "1:28",
+      "extra": "Cap. 1",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_0pFoKrY5TU",
+      "spotifyUrl": "https://open.spotify.com/track/2JWq4IwxQB4O8yL3pMe6aj"
+    },
+    {
+      "title": "Faint Glow",
+      "artist": "Toby Fox",
+      "duration": "1:17",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J0sZRB3KI3s",
+      "spotifyUrl": "https://open.spotify.com/track/0wntsmQSoI55KsAD56KEAq"
+    },
+    {
+      "title": "Girl Next Door",
+      "artist": "Toby Fox",
+      "duration": "0:54",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=T6UfG77Bwpo",
+      "spotifyUrl": "https://open.spotify.com/track/3elKCP0PpuipOtLn7K8FXT"
+    },
+    {
+      "title": "My Castle Town",
+      "artist": "Toby Fox",
+      "duration": "2:07",
+      "extra": "Cap. 2",
+      "spotifyUrl": "https://open.spotify.com/track/6g0y8cpi8c9eCPfz5XvW5T",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RKQUblO-iCs"
+    },
+    {
+      "title": "Ohhhhohohoho!",
+      "artist": "Toby Fox",
+      "duration": "0:09",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xPCyzXoB7WY",
+      "spotifyUrl": "https://open.spotify.com/track/2rZU9qk1HWqWrKA7BKOWyy"
+    },
+    {
+      "title": "Queen",
+      "artist": "Toby Fox",
+      "duration": "0:56",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6XQv5CHmITA",
+      "spotifyUrl": "https://open.spotify.com/track/4fXX61n4gV1yfPbAdDmdcz"
+    },
+    {
+      "title": "A CYBER'S WORLD?",
+      "artist": "Toby Fox",
+      "duration": "2:46",
+      "extra": "Cap. 2",
+      "spotifyUrl": "https://open.spotify.com/track/0BE2Lbu4GgcCT6kgB1tDTc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=In3y0C7mQvA"
+    },
+    {
+      "title": "A Simple Diversion",
+      "artist": "Toby Fox",
+      "duration": "0:31",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=X3pvwsWwa-M",
+      "spotifyUrl": "https://open.spotify.com/track/7CaYooLVhBdkhRjSHrntgD"
+    },
+    {
+      "title": "Almost To The Guys!",
+      "artist": "Toby Fox",
+      "duration": "0:17",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RDU7SJi2sGo",
+      "spotifyUrl": "https://open.spotify.com/track/3nVfeoR3BDeBqZhkxZTwFp"
+    },
+    {
+      "title": "Cool Beat",
+      "artist": "Toby Fox",
+      "duration": "0:17",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eHNWgqGtDuc",
+      "spotifyUrl": "https://open.spotify.com/track/1GDlWTtvFLS0ii1lNeG8lL"
+    },
+    {
+      "title": "When I Get Mad I Dance Like This",
+      "artist": "Toby Fox",
+      "duration": "0:10",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KIDfvuums1w",
+      "spotifyUrl": "https://open.spotify.com/track/3eZk3GxGcwVDPa1xIK4Fnp"
+    },
+    {
+      "title": "Cyber Battle (Solo)",
+      "artist": "Toby Fox",
+      "duration": "1:47",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=10yw5Q0mPPw",
+      "spotifyUrl": "https://open.spotify.com/track/6VpzCI5KbudaEYSKPNwzY1"
+    },
+    {
+      "title": "When I Get Happy I Dance Like This",
+      "artist": "Toby Fox",
+      "duration": "0:19",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bTwrnu_TFEA",
+      "spotifyUrl": "https://open.spotify.com/track/5ZBgN5tJHXUxQLv40xGe39"
+    },
+    {
+      "title": "Sound Studio",
+      "artist": "Toby Fox",
+      "duration": "1:08",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v4Xc64X6Npo",
+      "spotifyUrl": "https://open.spotify.com/track/51XshBkYoRNSL5iRQD1SJF"
+    },
+    {
+      "title": "Berdly",
+      "artist": "Toby Fox",
+      "duration": "0:46",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HZO3xw91eHw",
+      "spotifyUrl": "https://open.spotify.com/track/3GtA0wC7ZV1LtiaKVcFARJ"
+    },
+    {
+      "title": "Smart Race",
+      "artist": "Toby Fox",
+      "duration": "1:06",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HZO3xw91eHw",
+      "spotifyUrl": "https://open.spotify.com/track/1GdTlOlPxxXhuA1Z4Tbf5H"
+    },
+    {
+      "title": "Faint Courage (Game Over)",
+      "artist": "Toby Fox",
+      "duration": "0:52",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1axevc0iEqE",
+      "spotifyUrl": "https://open.spotify.com/track/1RDnckI3aDh19h9TJAUm3N"
+    },
+    {
+      "title": "WELCOME TO THE CITY",
+      "artist": "Toby Fox",
+      "duration": "1:54",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XIPgJJyiTEY",
+      "spotifyUrl": "https://open.spotify.com/track/30hbRoex1LUK0fShzTLR1C"
+    },
+    {
+      "title": "Mini Studio",
+      "artist": "Toby Fox",
+      "duration": "0:51",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OEaRlIfkURI",
+      "spotifyUrl": "https://open.spotify.com/track/2Y5yRdf42KyABdwUaafUgp"
+    },
+    {
+      "title": "Holiday Studio",
+      "artist": "Toby Fox",
+      "duration": "1:08",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7SAJNfCkg7U",
+      "spotifyUrl": "https://open.spotify.com/track/67ER6SEIRevkaLsLhJCVzZ"
+    },
+    {
+      "title": "Cool Mixtape",
+      "artist": "Toby Fox",
+      "duration": "0:26",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EeVEyBGPgLY",
+      "spotifyUrl": "https://open.spotify.com/track/5UDxDGERH44CfeecPnpPLY"
+    },
+    {
+      "title": "HEY EVERY !",
+      "artist": "Toby Fox",
+      "duration": "0:18",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DZKnVQL3r2I",
+      "spotifyUrl": "https://open.spotify.com/track/3FwU0oJcpuWnu0eECt65jC"
+    },
+    {
+      "title": "Spamton",
+      "artist": "Toby Fox",
+      "duration": "0:42",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cSm5gKlmw2M",
+      "spotifyUrl": "https://open.spotify.com/track/1dWgRROqpijnPVQS0LNJMf"
+    },
+    {
+      "title": "NOW'S YOUR CHANCE TO BE A",
+      "artist": "Toby Fox",
+      "duration": "1:07",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2GbBD_7AsGA",
+      "spotifyUrl": "https://open.spotify.com/track/4RZCenPPiY28As8ZzeMYyv"
+    },
+    {
+      "title": "Elegant Entrance",
+      "artist": "Toby Fox",
+      "duration": "1:18",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=j6baKyF2Ksc",
+      "spotifyUrl": "https://open.spotify.com/track/0v32fKwN5VpiZYEW9bwcmI"
+    },
+    {
+      "title": "Bluebird of Misfortune",
+      "artist": "Toby Fox",
+      "duration": "0:49",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=k7K-fclKRgw",
+      "spotifyUrl": "https://open.spotify.com/track/3XfcINMr19vye9Imaazx0T"
+    },
+    {
+      "title": "Pandora Palace",
+      "artist": "Toby Fox",
+      "duration": "1:39",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=q-5cXVcCOUs",
+      "spotifyUrl": "https://open.spotify.com/track/7tNsMfItoswjCO5oOQgbBB"
+    },
+    {
+      "title": "KEYGEN",
+      "artist": "Toby Fox",
+      "duration": "0:15",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vGrm3yFlWdU",
+      "spotifyUrl": "https://open.spotify.com/track/4GyPLAUgO1JdKe48giXBQo"
+    },
+    {
+      "title": "Acid Tunnel of Love",
+      "artist": "Toby Fox",
+      "duration": "1:30",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=McOfpEEXnq0",
+      "spotifyUrl": "https://open.spotify.com/track/3M1Xiw8PplJsehXCUdlGi2"
+    },
+    {
+      "title": "It's Pronounced \"Rules\"",
+      "artist": "Toby Fox",
+      "duration": "1:01",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DQ0aryDlPi4",
+      "spotifyUrl": "https://open.spotify.com/track/6zOVVoWfAnRMj5XfcvUoyF"
+    },
+    {
+      "title": "Lost Girl",
+      "artist": "Toby Fox",
+      "duration": "1:20",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=P89rxnT7lKw",
+      "spotifyUrl": "https://open.spotify.com/track/4OaDjTKDu5wNML5Ia1AqOI"
+    },
+    {
+      "title": "Ferris Wheel",
+      "artist": "Toby Fox",
+      "duration": "1:19",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2ZDp_OwXXsc",
+      "spotifyUrl": "https://open.spotify.com/track/7JGkl7TSwWcVlwtDuoHDLj"
+    },
+    {
+      "title": "Attack of the Killer Queen",
+      "artist": "Toby Fox",
+      "duration": "2:00",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vBjscyFC3jo",
+      "spotifyUrl": "https://open.spotify.com/track/4fXX61n4gV1yfPbAdDmdcz"
+    },
+    {
+      "title": "Giga Size",
+      "artist": "Toby Fox",
+      "duration": "1:47",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NJ3Z7yA1pIE",
+      "spotifyUrl": "https://open.spotify.com/track/7gRPYFtMaq0KIOO7vIxCLd"
+    },
+    {
+      "title": "Powers Combined",
+      "artist": "Toby Fox",
+      "duration": "0:16",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_dVjS8WR5xw",
+      "spotifyUrl": "https://open.spotify.com/track/0t71OmjPF5oYOigH9p0AER"
+    },
+    {
+      "title": "Knock You Down !!",
+      "artist": "Toby Fox",
+      "duration": "2:26",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=L9qRYVZLets",
+      "spotifyUrl": "https://open.spotify.com/track/7ARvBQv5g2gDmBGXM6VDCR"
+    },
+    {
+      "title": "The Dark Truth",
+      "artist": "Toby Fox",
+      "duration": "1:12",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FMOUlhwQAxI",
+      "spotifyUrl": "https://open.spotify.com/track/49vU3wEaRNGzZIy1TATOlW"
+    },
+    {
+      "title": "Digital Roots",
+      "artist": "Toby Fox",
+      "duration": "0:33",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Fhv55ss0B4A",
+      "spotifyUrl": "https://open.spotify.com/track/21JQ1y4y0tBSwSJv0zV9K7"
+    },
+    {
+      "title": "Deal Gone Wrong",
+      "artist": "Toby Fox",
+      "duration": "0:31",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cfvB-bVpH7Y",
+      "spotifyUrl": "https://open.spotify.com/track/6pZ84L82buMFjAqev002Tv"
+    },
+    {
+      "title": "BIG SHOT",
+      "artist": "Toby Fox",
+      "duration": "2:22",
+      "extra": "Cap. 2",
+      "spotifyUrl": "https://open.spotify.com/track/2hpQl8ryv3IonCg9LiAtGT",
+      "youtubeUrl": "https://www.youtube.com/watch?v=V31PVkwzpEY"
+    },
+    {
+      "title": "A Real Boy!",
+      "artist": "Toby Fox",
+      "duration": "0:15",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TcybhOF3peA",
+      "spotifyUrl": "https://open.spotify.com/track/0LtRb6SfD9zAm1mZqfzsd1"
+    },
+    {
+      "title": "Dialtone",
+      "artist": "Toby Fox",
+      "duration": "0:44",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Cki-mnHhNtY",
+      "spotifyUrl": "https://open.spotify.com/track/5Z4bnMj3gxU2a07jaiRwzs"
+    },
+    {
+      "title": "sans.",
+      "artist": "Toby Fox",
+      "duration": "0:50",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b2UHoGnGyvE",
+      "spotifyUrl": "https://open.spotify.com/track/3QrQeftqohPVWkqO0Dyj0u"
+    },
+    {
+      "title": "Chill Jailbreak Alarm To Study And Relax To",
+      "artist": "Toby Fox",
+      "duration": "0:24",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QFY1_IWVikU",
+      "spotifyUrl": "https://open.spotify.com/track/3RhudFHKBLdUqcwTwRWSfm"
+    },
+    {
+      "title": "You Can Always Come Home",
+      "artist": "Toby Fox",
+      "duration": "1:40",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Jm3AM-sAbmA",
+      "spotifyUrl": "https://open.spotify.com/track/2Rf33bpATyDiqTGm0NvlNb"
+    },
+    {
+      "title": "Until Next Time",
+      "artist": "Toby Fox",
+      "duration": "1:02",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CYpfk3qwb1s",
+      "spotifyUrl": "https://open.spotify.com/track/4O0JVgOSsdJrj6Tao1ViEY"
+    },
+    {
+      "title": "Before the Story",
+      "artist": "Toby Fox",
+      "duration": "1:28",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_0pFoKrY5TU",
+      "spotifyUrl": "https://open.spotify.com/track/2JWq4IwxQB4O8yL3pMe6aj"
+    },
+    {
+      "title": "Berdly (Rejected Concept)",
+      "artist": "Toby Fox",
+      "duration": "0:20",
+      "extra": "Cap. 2",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bsubv_Dma5s",
+      "spotifyUrl": "https://open.spotify.com/track/3GtA0wC7ZV1LtiaKVcFARJ"
+    },
+    {
+      "title": "Flashback (Excerpt)",
+      "artist": "Toby Fox",
+      "duration": "0:32",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tQ5WnrSNHIg",
+      "spotifyUrl": "https://open.spotify.com/track/5hsRssY21u2RnOzAaRPRPE"
+    },
+    {
+      "title": "Feature Presentation",
+      "artist": "Toby Fox",
+      "duration": "0:42",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vGn0HeIjEbg",
+      "spotifyUrl": "https://open.spotify.com/track/6tvpQrBDbIjbzgETc7FJAA"
+    },
+    {
+      "title": "And Now For Today's Sponsors...!",
+      "artist": "Toby Fox",
+      "duration": "0:31",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=j69knNADinw",
+      "spotifyUrl": "https://open.spotify.com/track/34ov2MLnX3jUhL5QeosFly"
+    },
+    {
+      "title": "MIKE, the BOARD, please!",
+      "artist": "Toby Fox",
+      "duration": "0:32",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YsZoTTl59hg",
+      "spotifyUrl": "https://open.spotify.com/track/2jGCOh2CyVs6fKWx6Mdqin"
+    },
+    {
+      "title": "Sandy Board",
+      "artist": "Toby Fox",
+      "duration": "1:18",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CGTAz3MC8NI",
+      "spotifyUrl": "https://open.spotify.com/track/1ibB9qEsHH6LdhZSCxUhtq"
+    },
+    {
+      "title": "Adventure Board",
+      "artist": "Toby Fox",
+      "duration": "0:59",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9PpyIF7ad6E",
+      "spotifyUrl": "https://open.spotify.com/track/77AbXWzEwS7xb2y0cQ1vKV"
+    },
+    {
+      "title": "Query?",
+      "artist": "Toby Fox",
+      "duration": "0:24",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2LkI2_NdoZE",
+      "spotifyUrl": "https://open.spotify.com/track/0f3lbqBNjllwLhPpmPqoYH"
+    },
+    {
+      "title": "Quiz!",
+      "artist": "Toby Fox",
+      "duration": "1:16",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J-qqRdp1L28",
+      "spotifyUrl": "https://open.spotify.com/track/06MqXIRp3PBssVsdgQ2LmO"
+    },
+    {
+      "title": "Dig! Dig! To The Center of the Earth!",
+      "artist": "Toby Fox",
+      "duration": "0:07",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=k3CtbHTMpiA",
+      "spotifyUrl": "https://open.spotify.com/track/7tXOPzioo1bTWpOe9XHcKz"
+    },
+    {
+      "title": "Pushing Buddies",
+      "artist": "Toby Fox",
+      "duration": "0:19",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=spBYKRPlx6U",
+      "spotifyUrl": "https://open.spotify.com/track/33tFlu3Zwzk0DuiqpqKvoc"
+    },
+    {
+      "title": "Ruder Buster",
+      "artist": "Toby Fox",
+      "duration": "1:46",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_A8SQAQ_yRo",
+      "spotifyUrl": "https://open.spotify.com/track/1pzBe2vFkYc7RvieibXO8b"
+    },
+    {
+      "title": "Physical Challenge",
+      "artist": "Toby Fox",
+      "duration": "1:47",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EfUKZ3_se3M",
+      "spotifyUrl": "https://open.spotify.com/track/4zDUTFUluT3ptuXBUhqux5"
+    },
+    {
+      "title": "Board Clear!",
+      "artist": "Toby Fox",
+      "duration": "0:34",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=i-4IKSA19UI",
+      "spotifyUrl": "https://open.spotify.com/track/4MOXjN5shJCZHjAtOoPTPN"
+    },
+    {
+      "title": "Welcome to the Green Room",
+      "artist": "Toby Fox",
+      "duration": "1:30",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7L7csHK9EjY",
+      "spotifyUrl": "https://open.spotify.com/track/4F9q9vdpzkA2OxuofEXxNf"
+    },
+    {
+      "title": "Vapor Buster",
+      "artist": "Toby Fox",
+      "duration": "2:00",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3vh8LYSuOvA",
+      "spotifyUrl": "https://open.spotify.com/track/53Q6v9ZiLLaw1MMtInfWBs"
+    },
+    {
+      "title": "Paradise, Paradise",
+      "artist": "Toby Fox",
+      "duration": "2:30",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ulaTvZ1gSL0",
+      "spotifyUrl": "https://open.spotify.com/track/59ZD83tA5CVrOT9fZmmTxS"
+    },
+    {
+      "title": "Raft Ride",
+      "artist": "Toby Fox",
+      "duration": "1:09",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5KSTNJnVGAE",
+      "spotifyUrl": "https://open.spotify.com/track/4FjthTLSGFCMv69aEX2yqi"
+    },
+    {
+      "title": "SOUTH OF THE BORDER!!",
+      "artist": "Toby Fox",
+      "duration": "0:12",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=S0MiyvNNAsU",
+      "spotifyUrl": "https://open.spotify.com/track/126RQ9QDOI9vBdGxrO545m"
+    },
+    {
+      "title": "Sound Check",
+      "artist": "Toby Fox",
+      "duration": "0:25",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CINnefzXOcg",
+      "spotifyUrl": "https://open.spotify.com/track/7mTVgwCZpAi2rxvsPtVAaj"
+    },
+    {
+      "title": "Raise Up Your Bat",
+      "artist": "Toby Fox",
+      "duration": "2:13",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=85WD93lz5GU",
+      "spotifyUrl": "https://open.spotify.com/track/2yvLgJd9ZcOUwdaPBhsKhn"
+    },
+    {
+      "title": "KING OF ROLYPOLY",
+      "artist": "Toby Fox",
+      "duration": "0:48",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bNry5GiIqHs",
+      "spotifyUrl": "https://open.spotify.com/track/4rVYnz4PMR5k3LdGfbe7uW"
+    },
+    {
+      "title": "Glowing Snow",
+      "artist": "Toby Fox",
+      "duration": "2:22",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pCF3YY9BwBs",
+      "spotifyUrl": "https://open.spotify.com/track/4hBKerIFw7vZ8Wj5RFf992"
+    },
+    {
+      "title": "Big City Board",
+      "artist": "Toby Fox",
+      "duration": "1:22",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UqPfyWC1I3I",
+      "spotifyUrl": "https://open.spotify.com/track/5pRrR8C22MseJx8Z9jMNsW"
+    },
+    {
+      "title": "Doom Board",
+      "artist": "Toby Fox",
+      "duration": "0:52",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aDPOR4hfe-U",
+      "spotifyUrl": "https://open.spotify.com/track/6Esifny7MfmbRssBmqSnyO"
+    },
+    {
+      "title": "Metaphysical Challenge",
+      "artist": "Toby Fox",
+      "duration": "0:52",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yPwjadZiNnU",
+      "spotifyUrl": "https://open.spotify.com/track/4zDUTFUluT3ptuXBUhqux5"
+    },
+    {
+      "title": "TV WORLD",
+      "artist": "Toby Fox",
+      "duration": "2:09",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DstO9slC_5U",
+      "spotifyUrl": "https://open.spotify.com/track/4dCf5JiHTFjDyJ3Lso0FPx"
+    },
+    {
+      "title": "It's TV Time!",
+      "artist": "Toby Fox",
+      "duration": "2:45",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=F2PJbTuZlTU",
+      "spotifyUrl": "https://open.spotify.com/track/3O9xF6nqYYtMjkuIutRYLP"
+    },
+    {
+      "title": "Hall of Fame",
+      "artist": "Toby Fox",
+      "duration": "0:30",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qV2wWw1f4KE",
+      "spotifyUrl": "https://open.spotify.com/track/4PTQoGJKnCMSJHU1JhVLoH"
+    },
+    {
+      "title": "Breath",
+      "artist": "Toby Fox",
+      "duration": "0:14",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3LMmXO01F7s",
+      "spotifyUrl": "https://open.spotify.com/track/0IOWy7aABFxHymtVelvRuT"
+    },
+    {
+      "title": "Black Knife",
+      "artist": "Toby Fox",
+      "duration": "1:57",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=B8Us0DZgexw",
+      "spotifyUrl": "https://open.spotify.com/track/3TXV0txNTcLXCktESOcMuG"
+    },
+    {
+      "title": "Crickets",
+      "artist": "Toby Fox",
+      "duration": "0:36",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kScDdlhORBw",
+      "spotifyUrl": "https://open.spotify.com/track/2LNqzBqxASFVG7UWASevnJ"
+    },
+    {
+      "title": "Dump",
+      "artist": "Toby Fox",
+      "duration": "0:40",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xVvCCqC3Cik",
+      "spotifyUrl": "https://open.spotify.com/track/4EJ3AaF1L6k2icQ9pcu88n"
+    },
+    {
+      "title": "SWORD",
+      "artist": "Toby Fox",
+      "duration": "2:12",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KAtudLu42vA",
+      "spotifyUrl": "https://open.spotify.com/track/2FuJAsTPVx9hIZOCdRbMPV"
+    },
+    {
+      "title": "NORTHERNLIGHT",
+      "artist": "Toby Fox",
+      "duration": "0:22",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GconqBHsQDs",
+      "spotifyUrl": "https://open.spotify.com/track/70k7l4qtoQkKa7kS2xsEiA"
+    },
+    {
+      "title": "GLACEIR",
+      "artist": "Toby Fox",
+      "duration": "1:07",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9a-h8bddlY0",
+      "spotifyUrl": "https://open.spotify.com/track/03ukf04MOfpSzDk5EakIiv"
+    },
+    {
+      "title": "BIT ROOTS",
+      "artist": "Toby Fox",
+      "duration": "1:17",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fMfro9XfU1w",
+      "spotifyUrl": "https://open.spotify.com/track/5HVWxGx8pVxZ5n7H0Stt9K"
+    },
+    {
+      "title": "ERAM",
+      "artist": "Toby Fox",
+      "duration": "0:15",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=c9pnoMwi3PA",
+      "spotifyUrl": "https://open.spotify.com/track/4T6NeRmGQox3l6YahP6HOp"
+    },
+    {
+      "title": "BURNING EYES",
+      "artist": "Toby Fox",
+      "duration": "1:05",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TBVteb9Z6ps",
+      "spotifyUrl": "https://open.spotify.com/track/5y2A6lAb8c1pYgdomYM2zm"
+    },
+    {
+      "title": "Old wooden rafters",
+      "artist": "Toby Fox",
+      "duration": "1:38",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=I8Ooxs-Uqog",
+      "spotifyUrl": "https://open.spotify.com/track/0KqDYr4qjE4aQ4MdiYAHSu"
+    },
+    {
+      "title": "Hymn",
+      "artist": "Toby Fox",
+      "duration": "0:33",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9ib8y3Pjsi4",
+      "spotifyUrl": "https://open.spotify.com/track/0MyDcubBn6rtcYxqKA0k5f"
+    },
+    {
+      "title": "Another day in hometown",
+      "artist": "Toby Fox",
+      "duration": "2:19",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zqWQaTovHU8",
+      "spotifyUrl": "https://open.spotify.com/track/7ttAYAA9xgN9X2pKgE6D2w"
+    },
+    {
+      "title": "Friends",
+      "artist": "Toby Fox",
+      "duration": "1:25",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SaZoQJMxHxk",
+      "spotifyUrl": "https://open.spotify.com/track/2R6MB4GkUVnRwLN5VXHiDF"
+    },
+    {
+      "title": "Castle Funk",
+      "artist": "Toby Fox",
+      "duration": "2:56",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2V_wyZdgVMg",
+      "spotifyUrl": "https://open.spotify.com/track/580rGEvaWqalvq6sXo7qcI"
+    },
+    {
+      "title": "Knock You Down!! (Rhythm Ver.)",
+      "artist": "Toby Fox",
+      "duration": "2:17",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=27oficnsQPo",
+      "spotifyUrl": "https://open.spotify.com/track/7ARvBQv5g2gDmBGXM6VDCR"
+    },
+    {
+      "title": "Gingerbread House",
+      "artist": "Toby Fox",
+      "duration": "1:27",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QANL4WelTj4",
+      "spotifyUrl": "https://open.spotify.com/track/55JVCXdcI0FpG1XfVK7QH6"
+    },
+    {
+      "title": "The distance between two",
+      "artist": "Toby Fox",
+      "duration": "0:42",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=byUCuhB8r5Q",
+      "spotifyUrl": "https://open.spotify.com/track/6V7mrQd5w1RLYLgpa0j1lh"
+    },
+    {
+      "title": "C",
+      "artist": "Toby Fox",
+      "duration": "0:41",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6z7x_hu4t4Y",
+      "spotifyUrl": "https://open.spotify.com/track/1xIYcuzRrYEfMkh7CjSKoF"
+    },
+    {
+      "title": "ATRIUM",
+      "artist": "Toby Fox",
+      "duration": "1:00",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tA640IdSHLk",
+      "spotifyUrl": "https://open.spotify.com/track/34J8FvGXDEittDb6CpV1Qs"
+    },
+    {
+      "title": "Dark Sanctuary",
+      "artist": "Toby Fox",
+      "duration": "1:46",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QQQq1T06lYg",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "From Now On (Battle 2)",
+      "artist": "Toby Fox",
+      "duration": "1:48",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OobVFldn6As",
+      "spotifyUrl": "https://open.spotify.com/track/4Hjl9fN4GFjwumSSwzfnoF"
+    },
+    {
+      "title": "Gyaa Ha ha!",
+      "artist": "Toby Fox",
+      "duration": "1:15",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iqoYq4x0RQw",
+      "spotifyUrl": "https://open.spotify.com/track/6gecazaYAnbY23qNXXmgb2"
+    },
+    {
+      "title": "Fireplace",
+      "artist": "Toby Fox",
+      "duration": "2:37",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xz61v-lss5g",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "A DARK ZONE",
+      "artist": "Toby Fox",
+      "duration": "2:18",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K-ifukvnICY",
+      "spotifyUrl": "https://open.spotify.com/track/4xWndE8mpwxptsiImg8NML"
+    },
+    {
+      "title": "Mysterious Ringing",
+      "artist": "Toby Fox",
+      "duration": "0:22",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WP_5b9kfQAI",
+      "spotifyUrl": "https://open.spotify.com/track/6ryg7xffWWiM2k3vSaeovv"
+    },
+    {
+      "title": "Ever Higher",
+      "artist": "Toby Fox",
+      "duration": "1:27",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DxPHMcpuYeA",
+      "spotifyUrl": "https://open.spotify.com/track/50vzjXBvI9LqWoH8rS7Ngs"
+    },
+    {
+      "title": "Wise words",
+      "artist": "Toby Fox",
+      "duration": "0:42",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JkEhQ3qJubU",
+      "spotifyUrl": "https://open.spotify.com/track/3G8frZE57AjViNcrFSgJVS"
+    },
+    {
+      "title": "Piano that may not be played that well",
+      "artist": "Toby Fox",
+      "duration": "0:42",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Y9XRMC0ez7w",
+      "spotifyUrl": "https://open.spotify.com/track/5dH2YsWmbDhVgFrESQrMDk"
+    },
+    {
+      "title": "Hammer of Justice",
+      "artist": "Toby Fox",
+      "duration": "2:13",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tBdLO8u-0L8",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "12am",
+      "artist": "Toby Fox",
+      "duration": "0:34",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=j1fPfxLYg-w",
+      "spotifyUrl": "https://open.spotify.com/track/4UKmADVuX37678FmIkWNec"
+    },
+    {
+      "title": "The Second Sanctuary",
+      "artist": "Toby Fox",
+      "duration": "2:46",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Jp7kfYH4VaE",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Ripple",
+      "artist": "Toby Fox",
+      "duration": "2:31",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lHR_z-hldgY",
+      "spotifyUrl": "https://open.spotify.com/track/1nRbX4Y2INifRgrjXioxz1"
+    },
+    {
+      "title": "13am",
+      "artist": "Toby Fox",
+      "duration": "1:26",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sbzmYjE49N4",
+      "spotifyUrl": "https://open.spotify.com/track/2j6z4O5sYkXzF73s2fYNMM"
+    },
+    {
+      "title": "The Third Sanctuary",
+      "artist": "Toby Fox",
+      "duration": "4:07",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7f1RK1m7qvc",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Dark Place",
+      "artist": "Toby Fox",
+      "duration": "0:58",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xask4UG9R-M",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Heavy Footsteps",
+      "artist": "Toby Fox",
+      "duration": "0:38",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qGpW9CLlxwM",
+      "spotifyUrl": "https://open.spotify.com/track/3P4gWy7Xs7fqmWIIx1wlyU"
+    },
+    {
+      "title": "Crumbling Tower",
+      "artist": "Toby Fox",
+      "duration": "2:49",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=z2IT2YzscSE",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "SPAWN",
+      "artist": "Toby Fox",
+      "duration": "1:11",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iRMn2HlCRFI",
+      "spotifyUrl": "https://open.spotify.com/track/2u4ushxdRXhwwZV1ql8FSW"
+    },
+    {
+      "title": "GUARDIAN",
+      "artist": "Toby Fox",
+      "duration": "3:46",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nP9mB1sVJz4",
+      "spotifyUrl": "https://open.spotify.com/track/6KJL2lAVwFQyuZx9UhJvPo"
+    },
+    {
+      "title": "Need a hand!?",
+      "artist": "Toby Fox",
+      "duration": "0:46",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hFYTL3mTsdo",
+      "spotifyUrl": "https://open.spotify.com/track/0TKD1A2DMx30e70scvLZBC"
+    },
+    {
+      "title": "The place where it rained",
+      "artist": "Toby Fox",
+      "duration": "2:52",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aSc7Yuwn1Ao",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "The Ol' Jitterbug",
+      "artist": "Toby Fox",
+      "duration": "0:22",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XBwYm4hHJMU",
+      "spotifyUrl": "https://open.spotify.com/track/13OOV33XXDkjmXcF5O4UMZ"
+    },
+    {
+      "title": "Neverending Night",
+      "artist": "Toby Fox",
+      "duration": "1:39",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QZ03-aaO4sA",
+      "spotifyUrl": "https://open.spotify.com/track/3VoY2M955hxgj9i6g3e5Yj"
+    },
+    {
+      "title": "The LEGEND...?",
+      "artist": "Toby Fox",
+      "duration": "0:26",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PibYmujLubI",
+      "spotifyUrl": "https://open.spotify.com/track/1ZA8wuVp91YbS1uif1hyYR"
+    },
+    {
+      "title": "With Hope Crossed On Our Hearts",
+      "artist": "Toby Fox",
+      "duration": "1:39",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dXzvCCljzXY",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Volume Adjustment",
+      "artist": "Toby Fox",
+      "duration": "0:36",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SBvEH9yV9yw",
+      "spotifyUrl": "https://open.spotify.com/track/2HzSMVOrr9iIr0nUjIttuN"
+    },
+    {
+      "title": "Catswing",
+      "artist": "Toby Fox",
+      "duration": "1:58",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=r-DvoCTarMQ",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "AIRWAVES",
+      "artist": "Toby Fox",
+      "duration": "2:00",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jsXXKQ_nl30",
+      "spotifyUrl": "https://open.spotify.com/track/0M4R2a09Sru58lv4aW8nl0"
+    },
+    {
+      "title": "Concert for you",
+      "artist": "Toby Fox",
+      "duration": "0:02",
+      "extra": "Cap. 3-4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HQj78oXGrhw",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Chapter 5 Logo",
+      "artist": "Toby Fox",
+      "duration": "0:08",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RsAu3BDaAp8",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Inappropriate Recycling",
+      "artist": "Toby Fox",
+      "duration": "1:36",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Bh8eaKSjEYw",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Pirate Dojo",
+      "artist": "Toby Fox",
+      "duration": "0:52",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RWADynlMHZw",
+      "spotifyUrl": "https://open.spotify.com/track/1dpY7De8pZBbZrPJyuEZOx"
+    },
+    {
+      "title": "4rd Sanctuary",
+      "artist": "Toby Fox",
+      "duration": "1:19",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=78GNmtaVhHE",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Festival",
+      "artist": "Toby Fox",
+      "duration": "2:00",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UfVnA3q6z4o",
+      "spotifyUrl": "https://open.spotify.com/track/6uIkUZk0EkB7bENOrjgINp"
+    },
+    {
+      "title": "Catfession...?",
+      "artist": "Toby Fox",
+      "duration": "0:42",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hm1UnUVB5TA",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Bratfession...?",
+      "artist": "Toby Fox",
+      "duration": "0:42",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YcdA0rYpDsQ",
+      "spotifyUrl": "https://open.spotify.com/track/3Qw0qWjy0lJeg3aOkcVytI"
+    },
+    {
+      "title": "I guess I'm in love",
+      "artist": "Toby Fox",
+      "duration": "2:57",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KTOreU_aOr4",
+      "spotifyUrl": "https://open.spotify.com/track/37E2ImKtca7ednQUdrEl65"
+    },
+    {
+      "title": "Weirder Birds",
+      "artist": "Toby Fox",
+      "duration": "0:37",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6q8NOzhtJCg",
+      "spotifyUrl": "https://open.spotify.com/track/4R9W0Ar7kLmrgEpWY0LUGi"
+    },
+    {
+      "title": "Your Dad's Best Friend",
+      "artist": "Toby Fox",
+      "duration": "0:28",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XGbJbxiXS0o",
+      "spotifyUrl": "https://open.spotify.com/track/79Gtx0gFWF1ynItF4xUlTq"
+    },
+    {
+      "title": "Garden of Hopes and Dreams",
+      "artist": "Toby Fox",
+      "duration": "3:23",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MzEHcwoNlbE",
+      "spotifyUrl": "https://open.spotify.com/track/50etWMkUI5UBZijCgMpFTP"
+    },
+    {
+      "title": "Rakuichi Buster",
+      "artist": "Toby Fox",
+      "duration": "1:49",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QvoQVCBqegU",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "The Diner Song of Best Friends",
+      "artist": "Toby Fox",
+      "duration": "1:25",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6wmEVGt482w",
+      "spotifyUrl": "https://open.spotify.com/track/42gE8OCT3DiFUg6F6heHKL"
+    },
+    {
+      "title": "Ride the Board",
+      "artist": "Toby Fox",
+      "duration": "0:10",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FjS4Nd174Jo",
+      "spotifyUrl": "https://open.spotify.com/track/1pTFTxMdwVAlnKCrZ7m4AK"
+    },
+    {
+      "title": "Quiet Glade",
+      "artist": "Toby Fox",
+      "duration": "3:17",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w55JVwZdjtA",
+      "spotifyUrl": "https://open.spotify.com/track/7tYQHF46yH0Hc9cAaR7VwE"
+    },
+    {
+      "title": "Who might you be?",
+      "artist": "Toby Fox",
+      "duration": "1:04",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7drCWkXZSF4",
+      "spotifyUrl": "https://open.spotify.com/track/1oOhnSDHYyDbjlIwBhFONe"
+    },
+    {
+      "title": "Petal Dance",
+      "artist": "Toby Fox",
+      "duration": "1:32",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RsAu3BDaAp8",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Flying Feather",
+      "artist": "Toby Fox",
+      "duration": "0:27",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=C11U0YZZLIg",
+      "spotifyUrl": "https://open.spotify.com/track/2FNX6952p9NwYRilGHqUGi"
+    },
+    {
+      "title": "Sunset of Seven Suns",
+      "artist": "Toby Fox",
+      "duration": "1:36",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_Q6S2XgQJ8c",
+      "spotifyUrl": "https://open.spotify.com/track/5qNAA39mMrhMb5o6tmSleX"
+    },
+    {
+      "title": "Shop 3",
+      "artist": "Toby Fox",
+      "duration": "1:15",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oiXDYg5TXQc",
+      "spotifyUrl": "https://open.spotify.com/track/1j2eaxUKq0cS300hlAfOpa"
+    },
+    {
+      "title": "Violet Tactics",
+      "artist": "Toby Fox",
+      "duration": "1:05",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yF8N3rVbMFA",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Flower King",
+      "artist": "Toby Fox",
+      "duration": "0:40",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GpvQ-jO3e4E",
+      "spotifyUrl": "https://open.spotify.com/track/0kTXxRANNSRt4hrNaoRh5O"
+    },
+    {
+      "title": "Flower Foyer",
+      "artist": "Toby Fox",
+      "duration": "0:55",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=i0Hcnlm4I8M",
+      "spotifyUrl": "https://open.spotify.com/track/2szOUMo4m16w1w6X67u6gQ"
+    },
+    {
+      "title": "Flower Castle",
+      "artist": "Toby Fox",
+      "duration": "4:30",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ICFPzrihGX8",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Thousand Cafe Zukan",
+      "artist": "Toby Fox",
+      "duration": "1:29",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-hxMwv7iksk",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "I'm Telling!",
+      "artist": "Toby Fox",
+      "duration": "0:40",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CvFuMiWEryM",
+      "spotifyUrl": "https://open.spotify.com/track/6zvLBg9ESET50E64P8e9C0"
+    },
+    {
+      "title": "Stop, Criminell!",
+      "artist": "Toby Fox",
+      "duration": "0:45",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kXp2H7GbYis",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Loving Steps",
+      "artist": "Toby Fox",
+      "duration": "2:13",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tLAxahP5scs",
+      "spotifyUrl": "https://open.spotify.com/track/7BNJLakczO9Ike6AWokWFk"
+    },
+    {
+      "title": "Onsen",
+      "artist": "Toby Fox",
+      "duration": "1:43",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o681RqsnRM0",
+      "spotifyUrl": "https://open.spotify.com/track/0zlfOmYrsXEMxf9T0YFKiW"
+    },
+    {
+      "title": "Beautiful Bathtime",
+      "artist": "Toby Fox",
+      "duration": "0:21",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tDSDO3UDKQs",
+      "spotifyUrl": "https://open.spotify.com/track/42UmVmK5B8Cx7jz34RyVtU"
+    },
+    {
+      "title": "Pink",
+      "artist": "Toby Fox",
+      "duration": "1:13",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5B9N1ALeLPo",
+      "spotifyUrl": "https://open.spotify.com/track/2QcP7oFXVOMz1VhZYhfESk"
+    },
+    {
+      "title": "Cutie Mew Mew Magic",
+      "artist": "Toby Fox",
+      "duration": "3:04",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tlFnfEWZCtQ",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Running Sky",
+      "artist": "Toby Fox",
+      "duration": "2:22",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1kGmc1BOyPY",
+      "spotifyUrl": "https://open.spotify.com/track/73DeTlzIhj2QJ3RFZYHkv0"
+    },
+    {
+      "title": "Flower Man",
+      "artist": "Toby Fox",
+      "duration": "3:12",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GWf9_qSrnOM",
+      "spotifyUrl": "https://open.spotify.com/track/3ledoLy9Koeieu3o6kjFMh"
+    },
+    {
+      "title": "That Day",
+      "artist": "Toby Fox",
+      "duration": "1:30",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wnB9pwkkeyg",
+      "spotifyUrl": "https://open.spotify.com/track/3fGfYEzp73sJClkLETfHCQ"
+    },
+    {
+      "title": "Dreamwatchers",
+      "artist": "Toby Fox",
+      "duration": "1:17",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JpXp593ZM-o",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    },
+    {
+      "title": "Weak Flowers",
+      "artist": "Toby Fox",
+      "duration": "1:42",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7cw2UNfdrEc",
+      "spotifyUrl": "https://open.spotify.com/track/0rDVIi78ck1dVf6MuR18q9"
+    },
+    {
+      "title": "Walking Home",
+      "artist": "Toby Fox",
+      "duration": "2:16",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=W-ef0vk66HM",
+      "spotifyUrl": "https://open.spotify.com/track/5kFXhzeTzEoKxKfWKAKIbb"
+    },
+    {
+      "title": "Field of Hopes and Dreams (Credits Version)",
+      "artist": "Toby Fox",
+      "duration": "1:39",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9oDZ2vN9XF0",
+      "spotifyUrl": "https://open.spotify.com/track/2W90IO8eRnFg1qsPunKm9B"
+    },
+    {
+      "title": "Goodnight, Sweet Prince",
+      "artist": "Toby Fox",
+      "duration": "0:31",
+      "extra": "Cap. 5",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QBf09fw0OhQ",
+      "spotifyUrl": "https://open.spotify.com/track/4VYoTPAeHVhBzxhzNy5uGr"
+    }
+  ],
+  "gameplays": [
+    {
+      "title": "Deltarune - Gameplay Completo Cap. 1 e 2 (Pt-BR)",
+      "channelName": "LegoGamer202",
+      "channelUrl": "https://www.youtube.com/@LegoGamer202",
+      "embedUrl": "https://www.youtube.com/embed/NI0s3Rf5YXQ",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NI0s3Rf5YXQ"
+    },
+    {
+      "title": "DELTARUNE: CAPÍTULO 1",
+      "channelName": "Cellbit",
+      "channelUrl": "https://www.youtube.com/@Cellbits",
+      "embedUrl": "https://www.youtube.com/embed/w2Hh9Ky_OYs",
+      "youtubeUrl": "https://www.youtube.com/watch?v=w2Hh9Ky_OYs"
+    },
+    {
+      "title": "DELTARUNE: CAPÍTULO 5",
+      "channelName": "Cellbit",
+      "channelUrl": "https://www.youtube.com/@Cellbits",
+      "embedUrl": "https://www.youtube.com/embed/oss7Kve5ju8",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oss7Kve5ju8"
+    },
+    {
+      "title": "DeltaRune - Gameplay Completo PT-BR",
+      "channelName": "Gameplay Completo BR",
+      "channelUrl": "https://www.youtube.com/@GameplayCompletoBR",
+      "embedUrl": "https://www.youtube.com/embed/3PPXxkJ8Lms",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3PPXxkJ8Lms"
+    },
+    {
+      "title": "DELTARUNE Capítulo 1 – The Beginning",
+      "channelName": "Gameplay Brasil",
+      "channelUrl": "https://www.youtube.com/@GameplayBrasil",
+      "embedUrl": "https://www.youtube.com/embed/U-itg0pEo8E",
+      "youtubeUrl": "https://www.youtube.com/watch?v=U-itg0pEo8E"
+    },
+    {
+      "title": "Deltarune Capítulo 1 - Gameplay Completa e Comentada",
+      "channelName": "Gameplay Comentada",
+      "channelUrl": "https://www.youtube.com/@GameplayComentada",
+      "embedUrl": "https://www.youtube.com/embed/vpWQodad0HE",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vpWQodad0HE"
+    },
+    {
+      "title": "Deltarune Capítulo 2 - Gameplay Completo [Legendado PT-BR]",
+      "channelName": "Gameplay Legendado",
+      "channelUrl": "https://www.youtube.com/@GameplayLegendado",
+      "embedUrl": "https://www.youtube.com/embed/PnXojULL6Zs",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PnXojULL6Zs"
+    },
+    {
+      "title": "Deltarune Capítulo 1 - Gameplay Completo [PT-BR | Sem Comentários]",
+      "channelName": "Yokko",
+      "channelUrl": "https://www.youtube.com/@Yokko",
+      "embedUrl": "https://www.youtube.com/embed/teO90BWHCD8",
+      "youtubeUrl": "https://www.youtube.com/watch?v=teO90BWHCD8"
+    },
+    {
+      "title": "DELTARUNE 1 e 2 Completo em Português",
+      "channelName": "DanteWill",
+      "channelUrl": "https://www.youtube.com/@DanteWill",
+      "embedUrl": "https://www.youtube.com/embed/rI30SOhnhtE",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rI30SOhnhtE"
+    },
+    {
+      "title": "Deltarune Cap 3 - Tradução PT-BR Showcase",
+      "channelName": "Teiarruma",
+      "channelUrl": "https://www.youtube.com/@Teiarruma",
+      "embedUrl": "https://www.youtube.com/embed/Itfo6HtL5NI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Itfo6HtL5NI"
+    }
+  ],
+  "_pricesUpdated": "2026-07-11T14:43:58.418Z"
 }
