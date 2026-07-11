@@ -324,9 +324,38 @@ const Games = {
         `;
     },
 
-    renderTranslations(container, game) {
-        const traductions = game.translations || [];
-        if (traductions.length === 0) {
+    async fetchFolderItems(type, slug) {
+        const apiUrl = `https://api.github.com/repos/${this.GITHUB_REPO}/contents/data/games/${type}/${slug}`;
+        try {
+            const res = await fetch(apiUrl);
+            if (!res.ok) return [];
+            const items = await res.json();
+            return items.filter(i => i.type === 'dir');
+        } catch { return []; }
+    },
+
+    async fetchInfoJson(type, slug, folderName) {
+        const url = `https://raw.githubusercontent.com/${this.GITHUB_REPO}/main/data/games/${type}/${slug}/${folderName}/info.json`;
+        try {
+            const res = await fetch(url);
+            if (!res.ok) return null;
+            return await res.json();
+        } catch { return null; }
+    },
+
+    getDownloadUrl(type, slug, folderName, zipFile) {
+        return `https://github.com/${this.GITHUB_REPO}/raw/main/data/games/${type}/${slug}/${folderName}/${zipFile}`;
+    },
+
+    async renderTranslations(container, game) {
+        container.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-state-icon">⏳</div>
+                <div class="empty-state-title">Carregando traduções...</div>
+            </div>
+        `;
+        const folders = await this.fetchFolderItems('translations', game.slug);
+        if (folders.length === 0) {
             container.innerHTML = `
                 <div class="empty-state">
                     <div class="empty-state-icon">📄</div>
@@ -336,26 +365,37 @@ const Games = {
             `;
             return;
         }
-        container.innerHTML = traductions.map((t, i) => `
-            <div class="traduction-item animate-in stagger-${i + 1}">
-                <div class="file-icon">📄</div>
-                <div class="file-info">
-                    <div class="file-name">${t.name}</div>
-                    <div class="file-meta">
-                        <span>Versão: ${t.version}</span>
-                        <span>Data: ${Utils.formatDate(t.date)}</span>
-                        <span>Tamanho: ${t.size}</span>
-                        ${t.officialUrl ? `<a href="${t.officialUrl}" target="_blank" style="color: var(--br-green-light);">Oficial ↗</a>` : ''}
+        const infos = await Promise.all(folders.map(f => this.fetchInfoJson('translations', game.slug, f.name)));
+        const items = folders.map((f, i) => ({ folder: f.name, info: infos[i] })).filter(i => i.info);
+        container.innerHTML = items.map((item, i) => {
+            const t = item.info;
+            const downloadUrl = this.getDownloadUrl('translations', game.slug, item.folder, t.zipFile);
+            return `
+                <div class="traduction-item animate-in stagger-${i + 1}">
+                    <div class="file-icon">📄</div>
+                    <div class="file-info">
+                        <div class="file-name">${t.name}</div>
+                        <div class="file-meta">
+                            <span>Versão: ${t.version}</span>
+                            <span>Autor: ${t.author}</span>
+                            ${t.officialUrl ? `<a href="${t.officialUrl}" target="_blank" style="color: var(--br-green-light);">Oficial ↗</a>` : ''}
+                        </div>
                     </div>
+                    <a href="${downloadUrl}" class="file-download" target="_blank">BAIXAR</a>
                 </div>
-                <a href="${t.downloadUrl}" class="file-download" target="_blank">BAIXAR</a>
-            </div>
-        `).join('');
+            `;
+        }).join('');
     },
 
-    renderMods(container, game) {
-        const mods = game.mods || [];
-        if (mods.length === 0) {
+    async renderMods(container, game) {
+        container.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-state-icon">⏳</div>
+                <div class="empty-state-title">Carregando mods...</div>
+            </div>
+        `;
+        const folders = await this.fetchFolderItems('mods', game.slug);
+        if (folders.length === 0) {
             container.innerHTML = `
                 <div class="empty-state">
                     <div class="empty-state-icon">🔧</div>
@@ -365,20 +405,26 @@ const Games = {
             `;
             return;
         }
-        container.innerHTML = mods.map((m, i) => `
-            <div class="mod-item animate-in stagger-${i + 1}">
-                <div class="file-icon">🔧</div>
-                <div class="file-info">
-                    <div class="file-name">${m.name}</div>
-                    <div class="file-meta">
-                        <span>Versão: ${m.version}</span>
-                        <span>Autor: ${m.author}</span>
-                        ${m.officialUrl ? `<a href="${m.officialUrl}" target="_blank" style="color: var(--br-green-light);">Oficial ↗</a>` : ''}
+        const infos = await Promise.all(folders.map(f => this.fetchInfoJson('mods', game.slug, f.name)));
+        const items = folders.map((f, i) => ({ folder: f.name, info: infos[i] })).filter(i => i.info);
+        container.innerHTML = items.map((item, i) => {
+            const m = item.info;
+            const downloadUrl = this.getDownloadUrl('mods', game.slug, item.folder, m.zipFile);
+            return `
+                <div class="mod-item animate-in stagger-${i + 1}">
+                    <div class="file-icon">🔧</div>
+                    <div class="file-info">
+                        <div class="file-name">${m.name}</div>
+                        <div class="file-meta">
+                            <span>Versão: ${m.version}</span>
+                            <span>Autor: ${m.author}</span>
+                            ${m.officialUrl ? `<a href="${m.officialUrl}" target="_blank" style="color: var(--br-green-light);">Oficial ↗</a>` : ''}
+                        </div>
                     </div>
+                    <a href="${downloadUrl}" class="file-download" target="_blank">BAIXAR</a>
                 </div>
-                <a href="${m.downloadUrl}" class="file-download" target="_blank">BAIXAR</a>
-            </div>
-        `).join('');
+            `;
+        }).join('');
     },
 
     renderSoundtrack(container, game) {

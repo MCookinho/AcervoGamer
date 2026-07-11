@@ -117,14 +117,6 @@ const App = {
     },
 
     async renderHome(container) {
-        let totalTranslations = 0;
-        let totalMods = 0;
-
-        Games.data.forEach(g => {
-            totalTranslations += (g.translations?.length || 0);
-            totalMods += (g.mods?.length || 0);
-        });
-
         container.innerHTML = `
             <div class="landing-hero">
                 <div class="landing-hero-bg">
@@ -167,11 +159,11 @@ const App = {
                         <div class="p5-stat-label">Jogos</div>
                     </div>
                     <div class="p5-stat-card animate-in stagger-2">
-                        <div class="p5-stat-number">${totalTranslations}</div>
+                        <div class="p5-stat-number" id="stat-translations">...</div>
                         <div class="p5-stat-label">Traduções</div>
                     </div>
                     <div class="p5-stat-card animate-in stagger-3">
-                        <div class="p5-stat-number">${totalMods}</div>
+                        <div class="p5-stat-number" id="stat-mods">...</div>
                         <div class="p5-stat-label">Mods</div>
                     </div>
                     <div class="p5-stat-card animate-in stagger-4">
@@ -210,6 +202,26 @@ const App = {
             const el = Utils.$('#users-count');
             if (el) el.textContent = snap.size;
         }).catch(() => {});
+
+        this.loadHomeStats();
+    },
+
+    async loadHomeStats() {
+        const slugs = Games.data.map(g => g.slug);
+        let totalTranslations = 0;
+        let totalMods = 0;
+        for (const slug of slugs) {
+            const [t, m] = await Promise.all([
+                Games.fetchFolderItems('translations', slug),
+                Games.fetchFolderItems('mods', slug)
+            ]);
+            totalTranslations += t.length;
+            totalMods += m.length;
+        }
+        const tEl = Utils.$('#stat-translations');
+        const mEl = Utils.$('#stat-mods');
+        if (tEl) tEl.textContent = totalTranslations;
+        if (mEl) mEl.textContent = totalMods;
     },
 
     carouselIndex: 0,

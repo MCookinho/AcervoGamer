@@ -13,37 +13,6 @@
   "shortDescription": "Um RPG onde ninguém precisa morrer. Explore um mundo encantador, conheça personagens inesquecíveis e escolha o seu caminho.",
   "fullDescription": "Undertale é um RPG de antologia criado por Toby Fox. Em Undertale, você controla um humano que cai no subsolo, um mundo habitado por monstros. O jogo apresenta mecânicas inovadoras onde você pode falar com monstros, poupá-los ou lutar contra eles. Cada escolha que você faz afeta a história e os personagens ao seu redor, levando a múltiplos finais diferentes. Com uma trilha sonora aclamada, diálogos inteligentes e uma narrativa emocionante, Undertale se tornou um dos jogos indie mais amados de todos os tempos.",
   "trailer": "https://www.youtube.com/embed/1Hojv0m3TqA",
-  "translations": [
-    {
-      "name": "Undertale - Tradução PT-BR Completa",
-      "version": "2.0",
-      "date": "2024-03-15",
-      "size": "15 MB",
-      "downloadUrl": "#"
-    },
-    {
-      "name": "Undertale - Tradução PT-BR Corrigida",
-      "version": "2.1",
-      "date": "2024-06-20",
-      "size": "15 MB",
-      "downloadUrl": "#"
-    }
-  ],
-  "mods": [
-    {
-      "name": "Undertale Randomizer",
-      "version": "1.3",
-      "author": "Community",
-      "downloadUrl": "#",
-      "officialUrl": "https://www.nexusmods.com/undertale"
-    },
-    {
-      "name": "Undertale Hard Mode+",
-      "version": "1.0",
-      "author": "Community",
-      "downloadUrl": "#"
-    }
-  ],
   "stores": [
     {
       "store": "Steam",
