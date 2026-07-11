@@ -104,6 +104,7 @@ async function processGame(filePath) {
         if (deal) {
             const salePrice = parseFloat(deal.salePrice);
             const normalPrice = parseFloat(deal.normalPrice);
+            if (isNaN(salePrice) || salePrice <= 0) continue;
             stores.push({
                 store: storeInfo.name,
                 url: `https://www.cheapshark.com/redirect?dealID=${deal.dealID}`,

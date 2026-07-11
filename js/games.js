@@ -229,7 +229,9 @@ const Games = {
     },
 
     renderStores(container, game) {
-        const stores = (game.stores || []).slice().sort((a, b) => (a.price || 9999) - (b.price || 9999));
+        const stores = (game.stores || []).slice()
+            .filter(s => s.price != null && !isNaN(s.price))
+            .sort((a, b) => a.price - b.price);
         if (stores.length === 0) {
             container.innerHTML = `
                 <div class="empty-state">
@@ -271,7 +273,7 @@ const Games = {
                                     <div class="store-platform">${s.platform}</div>
                                 </div>
                                 <div class="store-price-area">
-                                    <div class="store-price ${isFree ? 'store-price-free' : ''}">${isFree ? 'GRÁTIS' : `R$ ${s.price.toFixed(2).replace('.', ',')}`}</div>
+                                    <div class="store-price ${isFree ? 'store-price-free' : ''}">${isFree ? 'GRÁTIS' : (s.price != null ? `R$ ${s.price.toFixed(2).replace('.', ',')}` : 'Indisponível')}</div>
                                     ${s.priceOriginal && s.priceOriginal !== 'Grátis' ? `<div class="store-price-original">${s.priceOriginal}</div>` : ''}
                                 </div>
                                 <a href="${s.url}" target="_blank" class="store-buy">COMPRAR</a>

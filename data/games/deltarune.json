@@ -58,15 +58,6 @@
     ],
     "stores": [
         {
-            "store": "Steam",
-            "url": "https://www.cheapshark.com/redirect?dealID=82zL1soi9oc%2FVVacKaRLsULc4s%2B9FvEPiJfl18%2FV%2BOs%3D",
-            "platform": "PC",
-            "price": null,
-            "priceOriginal": "$NaN",
-            "coupon": null,
-            "lastUpdated": "2026-07-11"
-        },
-        {
             "store": "Eneba",
             "url": "https://www.eneba.com/steam-deltarune",
             "platform": "PC",

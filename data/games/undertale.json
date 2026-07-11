@@ -107,33 +107,6 @@
             "priceOriginal": "R$52,90",
             "coupon": null,
             "lastUpdated": "2025-07-10"
-        },
-        {
-            "store": "Steam",
-            "url": "https://www.cheapshark.com/redirect?dealID=59lFoDjVJRYLp30FBR2CTbVqDc1pLUVdcrVhcRfvDqw%3D",
-            "platform": "PC",
-            "price": null,
-            "priceOriginal": "$NaN",
-            "coupon": null,
-            "lastUpdated": "2026-07-11"
-        },
-        {
-            "store": "GOG",
-            "url": "https://www.cheapshark.com/redirect?dealID=Ydiq6e7yc31Hb64Yde6%2BL1wF9F6A9IZv371QOrV2yUs%3D",
-            "platform": "PC",
-            "price": null,
-            "priceOriginal": "$NaN",
-            "coupon": null,
-            "lastUpdated": "2026-07-11"
-        },
-        {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=m8kjkwF3spT9JWzTTiYz9jlAbI%2BSnJE5XRugqbsdIfk%3D",
-            "platform": "PC",
-            "price": null,
-            "priceOriginal": "$NaN",
-            "coupon": "Humble20",
-            "lastUpdated": "2026-07-11"
         }
     ],
     "soundtrack": [
