@@ -482,6 +482,19 @@
     color: var(--br-gray-light);
 }
 
+.soundtrack-extra {
+    display: inline-block;
+    font-size: 0.68rem;
+    padding: 1px 7px;
+    background: rgba(0,230,118,0.1);
+    border: 1px solid rgba(0,230,118,0.2);
+    border-radius: 4px;
+    color: var(--br-green-light);
+    margin-left: 6px;
+    vertical-align: middle;
+    letter-spacing: 0.3px;
+}
+
 .soundtrack-links {
     display: flex;
     gap: 6px;

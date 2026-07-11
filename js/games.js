@@ -299,7 +299,7 @@ const Games = {
                 <div class="soundtrack-number">${String(i + 1).padStart(2, '0')}</div>
                 <div class="soundtrack-info">
                     <div class="soundtrack-title">${t.title}</div>
-                    <div class="soundtrack-artist">${t.artist || game.developer}</div>
+                    <div class="soundtrack-artist">${t.artist || game.developer}${t.extra ? ` <span class="soundtrack-extra">${t.extra}</span>` : ''}</div>
                     <div class="soundtrack-links">
                         ${t.spotifyUrl ? `<a href="${t.spotifyUrl}" target="_blank" class="soundtrack-link">Spotify ↗</a>` : ''}
                         ${t.youtubeUrl ? `<a href="${t.youtubeUrl}" target="_blank" class="soundtrack-link">YouTube ↗</a>` : ''}
