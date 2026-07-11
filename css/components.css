@@ -1739,6 +1739,138 @@
     border-color: rgba(0,200,83,0.5);
 }
 
+.tag-input-group {
+    position: relative;
+}
+
+.tag-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    background: var(--br-dark);
+    border: 1px solid var(--br-border);
+    border-radius: 8px;
+    min-height: 40px;
+    cursor: text;
+    transition: border-color 0.3s;
+}
+
+.tag-input-container:focus-within {
+    border-color: rgba(0,200,83,0.5);
+}
+
+.tag-input-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 8px;
+    background: rgba(0,200,83,0.15);
+    border: 1px solid rgba(0,200,83,0.3);
+    border-radius: 6px;
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    color: var(--br-green);
+    white-space: nowrap;
+    animation: tagFadeIn 0.2s var(--ease-out-expo);
+}
+
+@keyframes tagFadeIn {
+    from { opacity: 0; transform: scale(0.8); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.tag-input-remove {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    background: none;
+    border: none;
+    color: var(--br-green);
+    font-size: 0.85rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.2s;
+    line-height: 1;
+}
+
+.tag-input-remove:hover {
+    background: rgba(0,200,83,0.25);
+}
+
+.tag-input-field {
+    flex: 1;
+    min-width: 100px;
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--br-gray-light);
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+}
+
+.tag-input-field::placeholder {
+    color: var(--br-gray);
+    opacity: 0.5;
+}
+
+.tag-input-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 4px;
+    background: var(--br-card);
+    border: 1px solid var(--br-border);
+    border-radius: 8px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s var(--ease-out-expo), opacity 0.2s;
+    z-index: 100;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+.tag-input-dropdown.open {
+    max-height: 200px;
+    overflow-y: auto;
+    opacity: 1;
+}
+
+.tag-input-option {
+    padding: 8px 14px;
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    color: var(--br-gray-light);
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.tag-input-option:first-child {
+    border-radius: 8px 8px 0 0;
+}
+
+.tag-input-option:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+.tag-input-option:hover {
+    background: rgba(0,200,83,0.1);
+    color: var(--br-green);
+}
+
+.tag-input-empty {
+    padding: 10px 14px;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--br-gray);
+    font-style: italic;
+}
+
 @media (max-width: 600px) {
     .store-card {
         flex-wrap: wrap;

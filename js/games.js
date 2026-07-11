@@ -85,7 +85,7 @@ const Games = {
         container.innerHTML = gamesHTML;
     },
 
-    _searchState: { query: '', genre: '', scale: '', dev: '', era: '', rating: '', platform: '' },
+    _searchState: { query: '', genres: [], scale: '', devs: [], era: '', rating: '', platforms: [] },
 
     splitGenres(genre) {
         if (!genre) return [];
@@ -114,11 +114,11 @@ const Games = {
         const s = this._searchState;
         return this.data.filter(g => {
             if (s.query && !g.name.toLowerCase().includes(s.query.toLowerCase())) return false;
-            if (s.genre && !this.splitGenres(g.genre).includes(s.genre)) return false;
+            if (s.genres.length > 0 && !s.genres.some(f => this.splitGenres(g.genre).includes(f))) return false;
             if (s.scale && g.productionScale !== s.scale) return false;
-            if (s.dev && g.developer !== s.dev) return false;
+            if (s.devs.length > 0 && !s.devs.includes(g.developer)) return false;
             if (s.rating && g.ageRating !== s.rating) return false;
-            if (s.platform && !(g.platforms || []).some(p => p.name === s.platform)) return false;
+            if (s.platforms.length > 0 && !s.platforms.some(f => (g.platforms || []).some(p => p.name === f))) return false;
             if (s.era) {
                 const y = g.year;
                 if (s.era === '2010-2014' && (y < 2010 || y > 2014)) return false;
@@ -164,17 +164,136 @@ const Games = {
         this.updateGamesGrid();
     },
 
+    /* Tag Input Component */
+    _tagInputTimers: {},
+
+    renderTagInput(id, label, options, selected, placeholder) {
+        const tags = selected.map(v =>
+            `<span class="tag-input-tag">${v}<button class="tag-input-remove" onclick="Games.removeTag('${id}', '${v.replace(/'/g, "\\'")}')">&times;</button></span>`
+        ).join('');
+        return `
+            <div class="filter-group tag-input-group">
+                <label class="filter-label">${label}</label>
+                <div class="tag-input-container" id="tag-container-${id}">
+                    ${tags}
+                    <input type="text" class="tag-input-field" id="tag-input-${id}"
+                        placeholder="${selected.length ? '' : placeholder}"
+                        autocomplete="off"
+                        oninput="Games.onTagInput('${id}', this.value)"
+                        onkeydown="Games.onTagKeydown(event, '${id}')"
+                        onfocus="Games.showTagDropdown('${id}')"
+                        onblur="Games.scheduleHideTagDropdown('${id}')">
+                </div>
+                <div class="tag-input-dropdown" id="tag-dropdown-${id}"></div>
+            </div>
+        `;
+    },
+
+    onTagInput(id, value) {
+        clearTimeout(this._tagInputTimers[id]);
+        this._tagInputTimers[id] = setTimeout(() => this.filterTagDropdown(id, value), 100);
+    },
+
+    onTagKeydown(event, id) {
+        if (event.key === 'Escape') {
+            this.hideTagDropdown(id);
+        }
+    },
+
+    filterTagDropdown(id, value) {
+        const stateKey = { genre: 'genres', dev: 'devs', platform: 'platforms' }[id];
+        const selected = this._searchState[stateKey];
+        const allOptions = this._tagFilterOptions[id] || [];
+        const filtered = allOptions.filter(o => !selected.includes(o) && o.toLowerCase().includes(value.toLowerCase()));
+        const dropdown = document.getElementById(`tag-dropdown-${id}`);
+        if (!dropdown) return;
+        if (filtered.length === 0 && value) {
+            dropdown.innerHTML = `<div class="tag-input-empty">Nenhum resultado</div>`;
+            dropdown.classList.add('open');
+            return;
+        }
+        if (filtered.length === 0) {
+            dropdown.innerHTML = allOptions.filter(o => !selected.includes(o)).map(o =>
+                `<div class="tag-input-option" onmousedown="Games.addTag('${id}', '${o.replace(/'/g, "\\'")}')">${o}</div>`
+            ).join('');
+        } else {
+            dropdown.innerHTML = filtered.map(o =>
+                `<div class="tag-input-option" onmousedown="Games.addTag('${id}', '${o.replace(/'/g, "\\'")}')">${o}</div>`
+            ).join('');
+        }
+        dropdown.classList.add('open');
+    },
+
+    showTagDropdown(id) {
+        const input = document.getElementById(`tag-input-${id}`);
+        const value = input ? input.value : '';
+        this.filterTagDropdown(id, value);
+    },
+
+    scheduleHideTagDropdown(id) {
+        setTimeout(() => this.hideTagDropdown(id), 200);
+    },
+
+    hideTagDropdown(id) {
+        const dropdown = document.getElementById(`tag-dropdown-${id}`);
+        if (dropdown) dropdown.classList.remove('open');
+    },
+
+    addTag(id, value) {
+        const stateKey = { genre: 'genres', dev: 'devs', platform: 'platforms' }[id];
+        if (!this._searchState[stateKey].includes(value)) {
+            this._searchState[stateKey].push(value);
+        }
+        const input = document.getElementById(`tag-input-${id}`);
+        if (input) input.value = '';
+        this.updateTagInputTags(id);
+        this.hideTagDropdown(id);
+        this.updateGamesGrid();
+    },
+
+    removeTag(id, value) {
+        const stateKey = { genre: 'genres', dev: 'devs', platform: 'platforms' }[id];
+        this._searchState[stateKey] = this._searchState[stateKey].filter(v => v !== value);
+        this.updateTagInputTags(id);
+        this.updateGamesGrid();
+    },
+
+    updateTagInputTags(id) {
+        const stateKey = { genre: 'genres', dev: 'devs', platform: 'platforms' }[id];
+        const selected = this._searchState[stateKey];
+        const container = document.getElementById(`tag-container-${id}`);
+        const input = document.getElementById(`tag-input-${id}`);
+        if (!container || !input) return;
+        const existingTags = container.querySelectorAll('.tag-input-tag');
+        existingTags.forEach(t => t.remove());
+        selected.forEach(v => {
+            const tag = document.createElement('span');
+            tag.className = 'tag-input-tag';
+            tag.innerHTML = `${v}<button class="tag-input-remove" onclick="Games.removeTag('${id}', '${v.replace(/'/g, "\\'")}')">&times;</button>`;
+            container.insertBefore(tag, input);
+        });
+        input.placeholder = selected.length ? '' : (this._tagInputPlaceholders[id] || '');
+    },
+
+    _tagFilterOptions: {},
+    _tagInputPlaceholders: {},
+
     clearFilters() {
-        this._searchState = { query: '', genre: '', scale: '', dev: '', era: '', rating: '', platform: '' };
+        this._searchState = { query: '', genres: [], scale: '', devs: [], era: '', rating: '', platforms: [] };
         const input = document.getElementById('games-search-input');
         if (input) input.value = '';
         document.querySelectorAll('.games-filter-select').forEach(s => s.value = '');
+        ['genre', 'dev', 'platform'].forEach(id => {
+            this.updateTagInputTags(id);
+            const input = document.getElementById(`tag-input-${id}`);
+            if (input) input.placeholder = this._tagInputPlaceholders[id] || '';
+        });
         this.updateGamesGrid();
     },
 
     hasActiveFilters() {
         const s = this._searchState;
-        return s.query || s.genre || s.scale || s.dev || s.era || s.rating || s.platform;
+        return s.query || s.genres.length > 0 || s.scale || s.devs.length > 0 || s.era || s.rating || s.platforms.length > 0;
     },
 
     updateGamesGrid() {
@@ -211,6 +330,9 @@ const Games = {
         const { genres, scales, devs, ratings, platforms } = this.getFilterOptions();
         const s = this._searchState;
 
+        this._tagFilterOptions = { genre: genres, dev: devs, platform: platforms };
+        this._tagInputPlaceholders = { genre: 'Digitar gênero...', dev: 'Digitar desenvolvedor...', platform: 'Digitar plataforma...' };
+
         const eraOptions = ['2010-2014', '2015-2019', '2020-2024', '2025+'];
 
         const makeOptions = (arr, selected) => arr.map(v => `<option value="${v}" ${v === selected ? 'selected' : ''}>${v}</option>`).join('');
@@ -241,13 +363,7 @@ const Games = {
 
                 <div id="advanced-search-panel" class="advanced-search-panel ${hasFilters ? 'open' : ''}">
                     <div class="advanced-search-grid">
-                        <div class="filter-group">
-                            <label class="filter-label">Gênero</label>
-                            <select class="games-filter-select" onchange="Games.onFilterChange('genre', this.value)">
-                                <option value="">Todos</option>
-                                ${makeOptions(genres, s.genre)}
-                            </select>
-                        </div>
+                        ${this.renderTagInput('genre', 'Gênero', genres, s.genres, 'Digitar gênero...')}
                         <div class="filter-group">
                             <label class="filter-label">Escala de Produção</label>
                             <select class="games-filter-select" onchange="Games.onFilterChange('scale', this.value)">
@@ -255,13 +371,7 @@ const Games = {
                                 ${makeOptions(scales, s.scale)}
                             </select>
                         </div>
-                        <div class="filter-group">
-                            <label class="filter-label">Desenvolvedor</label>
-                            <select class="games-filter-select" onchange="Games.onFilterChange('dev', this.value)">
-                                <option value="">Todos</option>
-                                ${makeOptions(devs, s.dev)}
-                            </select>
-                        </div>
+                        ${this.renderTagInput('dev', 'Desenvolvedor', devs, s.devs, 'Digitar desenvolvedor...')}
                         <div class="filter-group">
                             <label class="filter-label">Época</label>
                             <select class="games-filter-select" onchange="Games.onFilterChange('era', this.value)">
@@ -279,13 +389,7 @@ const Games = {
                                 }).join('')}
                             </select>
                         </div>
-                        <div class="filter-group">
-                            <label class="filter-label">Plataforma</label>
-                            <select class="games-filter-select" onchange="Games.onFilterChange('platform', this.value)">
-                                <option value="">Todas</option>
-                                ${makeOptions(platforms, s.platform)}
-                            </select>
-                        </div>
+                        ${this.renderTagInput('platform', 'Plataforma', platforms, s.platforms, 'Digitar plataforma...')}
                     </div>
                 </div>
 
