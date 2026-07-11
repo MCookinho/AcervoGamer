@@ -1,0 +1,49 @@
+name: Download Soundtracks
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'  # Every Sunday at 3am UTC
+  workflow_dispatch:
+    inputs:
+      game:
+        description: 'Game slug to download (leave empty for all)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  download-songs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install yt-dlp
+        run: pip install yt-dlp
+
+      - name: Download songs
+        run: |
+          if [ -n "${{ github.event.inputs.game }}" ]; then
+            node scripts/download-songs.js --game "${{ github.event.inputs.game }}"
+          else
+            node scripts/download-songs.js
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/games/*.json data/games/Songs/
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração nos JSONs."
+          else
+            git commit -m "chore: download soundtracks e atualizar audioUrl [skip ci]"
+            git push
+          fi
