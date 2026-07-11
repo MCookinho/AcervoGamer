@@ -2,7 +2,7 @@ name: Download Soundtracks
 
 on:
   schedule:
-    - cron: '0 3 * * 0'  # Every Sunday at 3am UTC
+    - cron: '0 3 * * 0'
   workflow_dispatch:
     inputs:
       game:
@@ -23,10 +23,19 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Install yt-dlp
-        run: pip install yt-dlp
+        run: pip install --break-system-packages yt-dlp
+
+      - name: Verify installations
+        run: |
+          yt-dlp --version
+          ffmpeg -version | head -1
+          node --version
 
       - name: Download songs
         run: |
@@ -40,9 +49,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/games/*.json data/games/Songs/
+          git add data/games/*.json "data/games/Songs/"
           if git diff --cached --quiet; then
-            echo "Nenhuma alteração nos JSONs."
+            echo "Nenhuma alteração."
           else
             git commit -m "chore: download soundtracks e atualizar audioUrl [skip ci]"
             git push
