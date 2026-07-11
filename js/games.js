@@ -85,9 +85,43 @@ const Games = {
         container.innerHTML = gamesHTML;
     },
 
-    renderGamesPage(container) {
-        const gamesHTML = this.data.map((game, i) => `
-            <div class="game-card-3d animate-in stagger-${i + 1}">
+    _searchState: { query: '', genre: '', scale: '', dev: '', era: '', rating: '', platform: '' },
+
+    getFilterOptions() {
+        const genres = [...new Set(this.data.map(g => g.genre))].sort();
+        const scales = [...new Set(this.data.map(g => g.productionScale).filter(Boolean))].sort();
+        const devs = [...new Set(this.data.map(g => g.developer))].sort();
+        const ratings = [...new Set(this.data.map(g => g.ageRating).filter(Boolean))].sort((a, b) => {
+            const order = ['L', '10', '12', '14', '16', '18'];
+            return order.indexOf(a) - order.indexOf(b);
+        });
+        const platforms = [...new Set(this.data.flatMap(g => (g.platforms || []).map(p => p.name)))].sort();
+        return { genres, scales, devs, ratings, platforms };
+    },
+
+    filterGames() {
+        const s = this._searchState;
+        return this.data.filter(g => {
+            if (s.query && !g.name.toLowerCase().includes(s.query.toLowerCase())) return false;
+            if (s.genre && g.genre !== s.genre) return false;
+            if (s.scale && g.productionScale !== s.scale) return false;
+            if (s.dev && g.developer !== s.dev) return false;
+            if (s.rating && g.ageRating !== s.rating) return false;
+            if (s.platform && !(g.platforms || []).some(p => p.name === s.platform)) return false;
+            if (s.era) {
+                const y = g.year;
+                if (s.era === '2010-2014' && (y < 2010 || y > 2014)) return false;
+                if (s.era === '2015-2019' && (y < 2015 || y > 2019)) return false;
+                if (s.era === '2020-2024' && (y < 2020 || y > 2024)) return false;
+                if (s.era === '2025+' && y < 2025) return false;
+            }
+            return true;
+        });
+    },
+
+    renderGameCard(game, i) {
+        return `
+            <div class="game-card-3d animate-in stagger-${Math.min(i + 1, 6)}">
                 <div class="p5-card game-card-inner" onclick="Router.goTo('#/jogos/${game.slug}')">
                     <div class="p5-card-image">
                         <img src="${game.cover}" alt="${game.name}" loading="lazy">
@@ -105,13 +139,148 @@ const Games = {
                     </div>
                 </div>
             </div>
-        `).join('');
+        `;
+    },
+
+    onSearchInput(value) {
+        this._searchState.query = value;
+        clearTimeout(this._searchDebounce);
+        this._searchDebounce = setTimeout(() => this.updateGamesGrid(), 200);
+    },
+
+    onFilterChange(key, value) {
+        this._searchState[key] = value;
+        this.updateGamesGrid();
+    },
+
+    clearFilters() {
+        this._searchState = { query: '', genre: '', scale: '', dev: '', era: '', rating: '', platform: '' };
+        const input = document.getElementById('games-search-input');
+        if (input) input.value = '';
+        document.querySelectorAll('.games-filter-select').forEach(s => s.value = '');
+        this.updateGamesGrid();
+    },
+
+    hasActiveFilters() {
+        const s = this._searchState;
+        return s.query || s.genre || s.scale || s.dev || s.era || s.rating || s.platform;
+    },
+
+    updateGamesGrid() {
+        const grid = document.getElementById('games-grid');
+        const counter = document.getElementById('games-counter');
+        if (!grid) return;
+        const filtered = this.filterGames();
+        if (counter) counter.textContent = `${filtered.length} jogo${filtered.length !== 1 ? 's' : ''} encontrado${filtered.length !== 1 ? 's' : ''}`;
+        const clearBtn = document.getElementById('games-clear-btn');
+        if (clearBtn) clearBtn.style.display = this.hasActiveFilters() ? 'inline-flex' : 'none';
+        if (filtered.length === 0) {
+            grid.innerHTML = `
+                <div class="empty-state" style="grid-column: 1 / -1;">
+                    <div class="empty-state-icon">🔍</div>
+                    <div class="empty-state-title">Nenhum jogo encontrado</div>
+                    <div class="empty-state-text">Tente ajustar os filtros ou a busca.</div>
+                </div>
+            `;
+            return;
+        }
+        grid.innerHTML = filtered.map((g, i) => this.renderGameCard(g, i)).join('');
+    },
+
+    toggleAdvancedSearch() {
+        const panel = document.getElementById('advanced-search-panel');
+        const btn = document.getElementById('advanced-search-toggle');
+        if (!panel) return;
+        const isOpen = panel.classList.contains('open');
+        panel.classList.toggle('open');
+        if (btn) btn.classList.toggle('open');
+    },
+
+    renderGamesPage(container) {
+        const { genres, scales, devs, ratings, platforms } = this.getFilterOptions();
+        const s = this._searchState;
+
+        const eraOptions = ['2010-2014', '2015-2019', '2020-2024', '2025+'];
+
+        const makeOptions = (arr, selected) => arr.map(v => `<option value="${v}" ${v === selected ? 'selected' : ''}>${v}</option>`).join('');
+
+        const hasFilters = this.hasActiveFilters();
 
         container.innerHTML = `
             <div class="landing-section">
                 <h2 class="p5-section-title animate-in">TODOS OS JOGOS</h2>
                 <p class="p5-section-subtitle animate-in stagger-1">Explore nosso acervo completo</p>
-                <div class="games-grid">${gamesHTML}</div>
+
+                <div class="games-search-bar animate-in stagger-2">
+                    <span class="games-search-icon">🔍</span>
+                    <input type="text" id="games-search-input" class="games-search-input"
+                        placeholder="Pesquisar jogos..."
+                        value="${s.query}"
+                        oninput="Games.onSearchInput(this.value)">
+                </div>
+
+                <div class="games-search-toolbar animate-in stagger-3">
+                    <button id="advanced-search-toggle" class="advanced-search-toggle ${hasFilters ? 'open' : ''}" onclick="Games.toggleAdvancedSearch()">
+                        <span>⚙ Busca Avançada</span>
+                        <span class="advanced-search-arrow">▾</span>
+                    </button>
+                    <button id="games-clear-btn" class="games-clear-btn" style="display: ${hasFilters ? 'inline-flex' : 'none'}" onclick="Games.clearFilters()">✕ Limpar filtros</button>
+                    <span id="games-counter" class="games-counter">${this.filterGames().length} jogo${this.filterGames().length !== 1 ? 's' : ''} encontrado${this.filterGames().length !== 1 ? 's' : ''}</span>
+                </div>
+
+                <div id="advanced-search-panel" class="advanced-search-panel ${hasFilters ? 'open' : ''}">
+                    <div class="advanced-search-grid">
+                        <div class="filter-group">
+                            <label class="filter-label">Gênero</label>
+                            <select class="games-filter-select" onchange="Games.onFilterChange('genre', this.value)">
+                                <option value="">Todos</option>
+                                ${makeOptions(genres, s.genre)}
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label">Escala de Produção</label>
+                            <select class="games-filter-select" onchange="Games.onFilterChange('scale', this.value)">
+                                <option value="">Todas</option>
+                                ${makeOptions(scales, s.scale)}
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label">Desenvolvedor</label>
+                            <select class="games-filter-select" onchange="Games.onFilterChange('dev', this.value)">
+                                <option value="">Todos</option>
+                                ${makeOptions(devs, s.dev)}
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label">Época</label>
+                            <select class="games-filter-select" onchange="Games.onFilterChange('era', this.value)">
+                                <option value="">Todas</option>
+                                ${makeOptions(eraOptions, s.era)}
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label">Classificação</label>
+                            <select class="games-filter-select" onchange="Games.onFilterChange('rating', this.value)">
+                                <option value="">Todas</option>
+                                ${ratings.map(r => {
+                                    const labels = { 'L': 'Livre', '10': '10 anos', '12': '12 anos', '14': '14 anos', '16': '16 anos', '18': '18 anos' };
+                                    return `<option value="${r}" ${r === s.rating ? 'selected' : ''}>${labels[r] || r}</option>`;
+                                }).join('')}
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label">Plataforma</label>
+                            <select class="games-filter-select" onchange="Games.onFilterChange('platform', this.value)">
+                                <option value="">Todas</option>
+                                ${makeOptions(platforms, s.platform)}
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="games-grid" class="games-grid">
+                    ${this.filterGames().map((g, i) => this.renderGameCard(g, i)).join('')}
+                </div>
             </div>
         `;
     },
