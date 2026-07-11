@@ -397,7 +397,13 @@ const Games = {
         const items = folders.map((f, i) => ({ folder: f.name, info: infos[i] })).filter(i => i.info);
         container.innerHTML = items.map((item, i) => {
             const t = item.info;
-            const downloadUrl = this.getDownloadUrl('translations', game.slug, item.folder, t.zipFile);
+            let actionBtn = '';
+            if (t.zipFile) {
+                const downloadUrl = this.getDownloadUrl('translations', game.slug, item.folder, t.zipFile);
+                actionBtn = `<a href="${downloadUrl}" class="file-download" target="_blank">BAIXAR</a>`;
+            } else if (t.officialUrl) {
+                actionBtn = `<a href="${t.officialUrl}" class="file-download" target="_blank">ABRIR SITE</a>`;
+            }
             return `
                 <div class="traduction-item animate-in stagger-${i + 1}">
                     <div class="file-icon">📄</div>
@@ -406,10 +412,9 @@ const Games = {
                         <div class="file-meta">
                             <span>Versão: ${t.version}</span>
                             <span>Autor: ${t.author}</span>
-                            ${t.officialUrl ? `<a href="${t.officialUrl}" target="_blank" style="color: var(--br-green-light);">Oficial ↗</a>` : ''}
                         </div>
                     </div>
-                    <a href="${downloadUrl}" class="file-download" target="_blank">BAIXAR</a>
+                    ${actionBtn}
                 </div>
             `;
         }).join('');
@@ -437,7 +442,13 @@ const Games = {
         const items = folders.map((f, i) => ({ folder: f.name, info: infos[i] })).filter(i => i.info);
         container.innerHTML = items.map((item, i) => {
             const m = item.info;
-            const downloadUrl = this.getDownloadUrl('mods', game.slug, item.folder, m.zipFile);
+            let actionBtn = '';
+            if (m.zipFile) {
+                const downloadUrl = this.getDownloadUrl('mods', game.slug, item.folder, m.zipFile);
+                actionBtn = `<a href="${downloadUrl}" class="file-download" target="_blank">BAIXAR</a>`;
+            } else if (m.officialUrl) {
+                actionBtn = `<a href="${m.officialUrl}" class="file-download" target="_blank">ABRIR SITE</a>`;
+            }
             return `
                 <div class="mod-item animate-in stagger-${i + 1}">
                     <div class="file-icon">🔧</div>
@@ -446,10 +457,9 @@ const Games = {
                         <div class="file-meta">
                             <span>Versão: ${m.version}</span>
                             <span>Autor: ${m.author}</span>
-                            ${m.officialUrl ? `<a href="${m.officialUrl}" target="_blank" style="color: var(--br-green-light);">Oficial ↗</a>` : ''}
                         </div>
                     </div>
-                    <a href="${downloadUrl}" class="file-download" target="_blank">BAIXAR</a>
+                    ${actionBtn}
                 </div>
             `;
         }).join('');
