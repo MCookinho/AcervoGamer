@@ -1269,3 +1269,166 @@
     color: var(--br-green);
     text-decoration: underline;
 }
+
+/* Store cards */
+.store-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.store-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    background: var(--br-card);
+    border: 1px solid var(--br-border);
+    border-radius: 12px;
+    transition: all 0.3s var(--ease-out-expo);
+    position: relative;
+    overflow: hidden;
+}
+
+.store-card:hover {
+    border-color: rgba(0,230,118,0.25);
+    transform: translateX(4px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.store-card-best {
+    border-color: rgba(0,230,118,0.3);
+    background: linear-gradient(135deg, rgba(0,230,118,0.05) 0%, var(--br-card) 100%);
+}
+
+.store-card-best::before {
+    content: 'MELHOR PREÇO';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px 12px;
+    background: var(--br-green);
+    color: var(--br-black);
+    font-family: var(--font-display);
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 0 12px 0 10px;
+}
+
+.store-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    flex-shrink: 0;
+    font-weight: 700;
+    font-family: var(--font-display);
+}
+
+.store-icon-steam { background: linear-gradient(135deg, #1b2838, #2a475e); color: #66c0f4; }
+.store-icon-gog { background: linear-gradient(135deg, #1a1a2e, #2d1b4e); color: #a855f7; }
+.store-icon-humble { background: linear-gradient(135deg, #1a1a1a, #333); color: #c9a227; }
+.store-icon-fanatical { background: linear-gradient(135deg, #1a2332, #233040); color: #38bdf8; }
+.store-icon-eneba { background: linear-gradient(135deg, #0d1117, #161b22); color: #22c55e; }
+.store-icon-playstation { background: linear-gradient(135deg, #003087, #0070d1); color: #fff; }
+.store-icon-nintendo { background: linear-gradient(135deg, #e60012, #c5000f); color: #fff; }
+.store-icon-xbox { background: linear-gradient(135deg, #0e7a0d, #107c10); color: #fff; }
+.store-icon-default { background: var(--br-dark); color: var(--br-gray-light); }
+
+.store-info { flex: 1; }
+
+.store-name {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 2px;
+}
+
+.store-platform {
+    font-size: 0.75rem;
+    color: var(--br-gray-light);
+}
+
+.store-coupon {
+    display: inline-block;
+    font-size: 0.65rem;
+    padding: 2px 8px;
+    background: rgba(255,215,64,0.12);
+    border: 1px solid rgba(255,215,64,0.25);
+    border-radius: 4px;
+    color: var(--br-yellow);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.store-price-area {
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.store-price {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--br-white);
+}
+
+.store-price-free {
+    color: var(--br-green);
+}
+
+.store-price-original {
+    font-size: 0.75rem;
+    color: var(--br-gray-light);
+    text-decoration: line-through;
+    margin-top: 2px;
+}
+
+.store-buy {
+    padding: 10px 22px;
+    background: var(--gradient-main);
+    background-size: 200% 100%;
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: var(--br-black);
+    border-radius: 8px;
+    transition: all 0.3s var(--ease-out-expo);
+    white-space: nowrap;
+    animation: gradientShift 4s ease infinite;
+    text-shadow: none;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.store-buy:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,230,118,0.3);
+}
+
+.store-updated {
+    font-size: 0.68rem;
+    color: var(--br-gray-light);
+    text-align: center;
+    margin-top: 12px;
+    opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+    .store-card {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .store-buy {
+        width: 100%;
+        text-align: center;
+    }
+}

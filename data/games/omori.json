@@ -15,10 +15,10 @@
         "previewGif": "URL de um GIF animado do jogo. Exibido como preview ao passar o mouse sobre o card (hover). Se omitido, card mostra apenas a capa estática.",
         "translations": "Lista de traduções disponíveis para o jogo. Cada item deve ter: name, version, date (YYYY-MM-DD), size, downloadUrl, officialUrl (opcional - URL do site oficial da tradução. Se ausente, nenhum link 'Oficial' é exibido)",
         "mods": "Lista de mods disponíveis para o jogo. Cada item deve ter: name, version, author, downloadUrl, officialUrl (opcional - URL do site oficial do mod. Se ausente, nenhum link 'Oficial' é exibido)",
+        "stores": "Lista de lojas onde o jogo pode ser comprado. Cada item deve ter: store (nome da loja), url (link direto para compra), platform (plataforma), price (preço em R$), priceOriginal (preço original sem conversão), coupon (cupom de desconto, opcional), lastUpdated (data da última atualização do preço)",
         "soundtrack": "Lista de músicas da trilha sonora. Cada item deve ter: title, artist, duration (ex: '3:45'), extra (opcional - informação extra exibida ao lado do artista, ex: 'Cap. 1'), spotifyUrl (opcional), youtubeUrl (opcional), audioUrl (opcional - URL direta de áudio MP3/OGG para tocar no player. Se ausente, clica no YouTube)",
         "gameplays": "Lista de vídeos de gameplay. Cada item deve ter: title, channelName (nome do canal), channelUrl (URL do canal), embedUrl (YouTube embed), youtubeUrl (link direto)"
     },
-
     "name": "Omori",
     "slug": "omori",
     "genre": "RPG / Terror Psicológico",
@@ -31,7 +31,6 @@
     "fullDescription": "Omori é um RPG de terror psicológico criado pela OMOCAT. Você controla OMORI, um garoto que vive em um mundo chamado White Space, um lugar branco e vazio. A cada dia, OMORI é convidado a explorar Headspace, um mundo colorido e surreal habitado por seus amigos. Paralelamente, você também controla SUNNY, a versão de OMORI no mundo real, um garoto que ficou recluso por quatro anos. A história é uma exploração profunda de temas como depressão, culpa, perda e auto-descoberta. Com uma estética pixel art belíssima, uma trilha sonora emocional e uma narrativa que vai do encantador ao perturbador, Omori é uma experiência única que toca o coração do jogador.",
     "videoPreview": "https://www.youtube.com/embed/CyVv-jFJiJ8",
     "previewGif": "https://media.giphy.com/media/vrRN53rgOgLfCNQuIH/giphy.gif",
-
     "translations": [
         {
             "name": "Omori - Tradução PT-BR Completa",
@@ -48,7 +47,6 @@
             "downloadUrl": "#"
         }
     ],
-
     "mods": [
         {
             "name": "Omori Randomizer",
@@ -64,189 +62,985 @@
             "downloadUrl": "#"
         }
     ],
-
-    "soundtrack": [
-        { "title": "Title", "artist": "Pedro Silva", "duration": "0:37", "spotifyUrl": "https://open.spotify.com/track/6hWCUbrB0qxsu3AgI7v63i", "youtubeUrl": "https://www.youtube.com/watch?v=9d9e6XmNn9Q" },
-        { "title": "WHITE SPACE", "artist": "Pedro Silva", "duration": "0:41", "spotifyUrl": "https://open.spotify.com/track/7Max3EiSwBFypn3MAnwhkX", "youtubeUrl": "https://www.youtube.com/watch?v=t815nBXavpE" },
-        { "title": "Lost At A Sleepover", "artist": "Pedro Silva", "duration": "0:56" },
-        { "title": "Spaces In-between", "artist": "Pedro Silva", "duration": "0:58" },
-        { "title": "By Your Side.", "artist": "Pedro Silva", "duration": "1:36" },
-        { "title": "Let's Get Together Now!", "artist": "Pedro Silva", "duration": "1:38" },
-        { "title": "100 Sunny", "artist": "Pedro Silva", "duration": "1:17" },
-        { "title": "Trouble Brewing", "artist": "Pedro Silva", "duration": "0:20" },
-        { "title": "Push & Shove", "artist": "Pedro Silva", "duration": "0:39" },
-        { "title": "So, How'd We Do?", "artist": "Pedro Silva", "duration": "0:19" },
-        { "title": "It's Okay To Try Again...", "artist": "Pedro Silva", "duration": "0:09" },
-        { "title": "Trees...", "artist": "Pedro Silva", "duration": "1:58" },
-        { "title": "A Home For Flowers (Tulip)", "artist": "Pedro Silva", "duration": "1:32" },
-        { "title": "Acrophobia", "artist": "Pedro Silva", "duration": "2:22" },
-        { "title": "Tussle Among Trees", "artist": "Pedro Silva", "duration": "1:10" },
-        { "title": "A Place By A Lake", "artist": "Pedro Silva", "duration": "1:35" },
-        { "title": "Forest Chillin'", "artist": "Pedro Silva", "duration": "1:22" },
-        { "title": "Poems In The Fog", "artist": "Pedro Silva", "duration": "1:49" },
-        { "title": "Space Road 1979", "artist": "Pedro Silva", "duration": "1:33" },
-        { "title": "See In Your Fantasy", "artist": "Pedro Silva", "duration": "1:13" },
-        { "title": "Sugar Star Planetarium", "artist": "Pedro Silva", "duration": "2:14" },
-        { "title": "Lost, Then Found!", "artist": "Pedro Silva", "duration": "1:17" },
-        { "title": "THE VENGEANCE OF THOSE FORGOTTEN IN DARKNESS", "artist": "Pedro Silva", "duration": "1:12" },
-        { "title": "Recycling Is A Concept!", "artist": "Pedro Silva", "duration": "0:15" },
-        { "title": "Lovesick - 80,000 Lightyears", "artist": "Pedro Silva", "duration": "1:15" },
-        { "title": "I Will Catch Up!", "artist": "Pedro Silva", "duration": "1:42" },
-        { "title": "Three Bar Logos", "artist": "Pedro Silva", "duration": "1:13" },
-        { "title": "YO DJ PUMP THIS PARTY", "artist": "Pedro Silva", "duration": "0:20" },
-        { "title": "Good For Health, Bad For Imagination", "artist": "Pedro Silva", "duration": "1:29" },
-        { "title": "Snow Forest - A Single Flower Blooms", "artist": "Pedro Silva", "duration": "2:21" },
-        { "title": "White Surf Style 6", "artist": "Pedro Silva", "duration": "1:32" },
-        { "title": "Stardust Diving", "artist": "Pedro Silva", "duration": "1:35" },
-        { "title": "Oh My God.", "artist": "Pedro Silva", "duration": "0:26" },
-        { "title": "A Rose By Any Other Name...", "artist": "Pedro Silva", "duration": "0:45" },
-        { "title": "Stardust Dusting", "artist": "Pedro Silva", "duration": "0:38" },
-        { "title": "CHAOS ASSEMBLY", "artist": "Pedro Silva", "duration": "1:05" },
-        { "title": "The Elegance of the Mysterious and Distant", "artist": "Pedro Silva", "duration": "0:36" },
-        { "title": "Space Boyfriend's Tape - I Want Nothing More", "artist": "Pedro Silva", "duration": "0:29" },
-        { "title": "Trouble - NEVER/ALWAYS", "artist": "Pedro Silva", "duration": "1:25" },
-        { "title": "You Were Wrong. Go Back.", "artist": "Pedro Silva", "duration": "1:24" },
-        { "title": "Such A Time We Had Together", "artist": "Pedro Silva", "duration": "0:50" },
-        { "title": "Photograph", "artist": "Pedro Silva", "duration": "0:53" },
-        { "title": "Finding Shapes in the Clouds", "artist": "Pedro Silva", "duration": "1:31" },
-        { "title": "Where We Used To Play", "artist": "Pedro Silva", "duration": "1:44" },
-        { "title": "Bargain Bin Boys", "artist": "Pedro Silva", "duration": "1:01" },
-        { "title": "Woof", "artist": "Pedro Silva", "duration": "0:31" },
-        { "title": "Realistic Space Simulation", "artist": "Pedro Silva", "duration": "1:27" },
-        { "title": "Jash Bash", "artist": "Pedro Silva", "duration": "0:21" },
-        { "title": "Jash Bash 2: New Age of Heroes", "artist": "Pedro Silva", "duration": "0:12" },
-        { "title": "Jash Bash 3: Jashpocalypse Infinity", "artist": "Pedro Silva", "duration": "0:28" },
-        { "title": "Clash of Jash", "artist": "Pedro Silva", "duration": "0:17" },
-        { "title": "Take A Load Off", "artist": "Pedro Silva", "duration": "1:27" },
-        { "title": "I Prefer My Pizza 90% Grease", "artist": "Pedro Silva", "duration": "0:44" },
-        { "title": "Fresh...ish...", "artist": "Pedro Silva", "duration": "1:41" },
-        { "title": "High Fructose Headache", "artist": "Pedro Silva", "duration": "1:07" },
-        { "title": "I Think My Dad Shops Here...", "artist": "Pedro Silva", "duration": "1:35" },
-        { "title": "Just Leave Me Alone", "artist": "Pedro Silva", "duration": "0:41" },
-        { "title": "Cram It Wad", "artist": "Pedro Silva", "duration": "0:22" },
-        { "title": "Respite", "artist": "Pedro Silva", "duration": "1:14" },
-        { "title": "It Means Everything.", "artist": "Pedro Silva", "duration": "1:13" },
-        { "title": "See You Tomorrow", "artist": "Pedro Silva", "duration": "2:18" },
-        { "title": "A Home For Flowers (Empty)", "artist": "Pedro Silva", "duration": "1:16" },
-        { "title": "Help Me", "artist": "Pedro Silva", "duration": "0:39" },
-        { "title": "Arachnophobia", "artist": "Pedro Silva", "duration": "2:31" },
-        { "title": "Something, Alone", "artist": "Pedro Silva", "duration": "0:36" },
-        { "title": "Fade", "artist": "Pedro Silva", "duration": "0:42" },
-        { "title": "The Heart of the Desert", "artist": "Pedro Silva", "duration": "1:49" },
-        { "title": "Puddles", "artist": "Pedro Silva", "duration": "1:54" },
-        { "title": "PRANKED.", "artist": "Pedro Silva", "duration": "1:03" },
-        { "title": "An Archaeic Resonance", "artist": "Pedro Silva", "duration": "0:58" },
-        { "title": "'X' Marks The Spot!", "artist": "Pedro Silva", "duration": "0:55" },
-        { "title": "Those Who Forget History", "artist": "Pedro Silva", "duration": "0:46" },
-        { "title": "Tumbleweeds", "artist": "Pedro Silva", "duration": "1:44" },
-        { "title": "Pyrefly Forest - Cat's Cradle", "artist": "Pedro Silva", "duration": "4:27" },
-        { "title": "Forest Frenzy", "artist": "Pedro Silva", "duration": "2:09" },
-        { "title": "Sweet Paralysis", "artist": "Pedro Silva", "duration": "1:11" },
-        { "title": "Sweetheart's Quest For Hearts", "artist": "Pedro Silva", "duration": "1:24" },
-        { "title": "How...sad!", "artist": "Pedro Silva", "duration": "1:10" },
-        { "title": "How...tragic!", "artist": "Pedro Silva", "duration": "1:04" },
-        { "title": "Eternal Dungeon", "artist": "Pedro Silva", "duration": "1:24" },
-        { "title": "Splintered Sweets In The Castle", "artist": "Pedro Silva", "duration": "1:24" },
-        { "title": "Wandering Rose", "artist": "Pedro Silva", "duration": "1:53" },
-        { "title": "Stationary Rose", "artist": "Pedro Silva", "duration": "1:37" },
-        { "title": "Valour Against All Odds", "artist": "Pedro Silva", "duration": "0:54" },
-        { "title": "I Definitely Promised You A Rose Garden", "artist": "Pedro Silva", "duration": "1:57" },
-        { "title": "World's End Valentine", "artist": "Pedro Silva", "duration": "2:27", "spotifyUrl": "https://open.spotify.com/track/33G3sUAxqvFEaEeM7u849M", "youtubeUrl": "https://www.youtube.com/watch?v=rlQd9qWKjLM" },
-        { "title": "I Just Love The 50s!!!", "artist": "Pedro Silva", "duration": "1:17" },
-        { "title": "Lost Library", "artist": "Pedro Silva", "duration": "1:15" },
-        { "title": "Bookcase", "artist": "Pedro Silva", "duration": "0:19" },
-        { "title": "Thrifted Tchotchkes", "artist": "Pedro Silva", "duration": "1:29" },
-        { "title": "Swirly 1000x", "artist": "Pedro Silva", "duration": "2:05" },
-        { "title": "Dear Little Brother...", "artist": "Pedro Silva", "duration": "1:13" },
-        { "title": "Thalassophobia", "artist": "Pedro Silva", "duration": "2:22" },
-        { "title": "Water", "artist": "Pedro Silva", "duration": "0:19" },
-        { "title": "Hanging With The Boys", "artist": "Pedro Silva", "duration": "2:19" },
-        { "title": "WHITE SPACE", "artist": "Pedro Silva", "duration": "1:01" },
-        { "title": "Origin", "artist": "Pedro Silva", "duration": "0:48" },
-        { "title": "Long Way Down...", "artist": "Pedro Silva", "duration": "1:25" },
-        { "title": "The Last Resort", "artist": "Pedro Silva", "duration": "1:40" },
-        { "title": "Not-So-Empty-House", "artist": "Pedro Silva", "duration": "0:54" },
-        { "title": "It's A Ghost Dance", "artist": "Pedro Silva", "duration": "0:42" },
-        { "title": "Room For 4", "artist": "Pedro Silva", "duration": "1:35" },
-        { "title": "Gator Gambol", "artist": "Pedro Silva", "duration": "1:29" },
-        { "title": "Clams Clams Clams", "artist": "Pedro Silva", "duration": "1:08" },
-        { "title": "Jawbreaker", "artist": "Pedro Silva", "duration": "1:25" },
-        { "title": "GOLDENVENGEANCE", "artist": "Pedro Silva", "duration": "2:29" },
-        { "title": "Underwater Highway", "artist": "Pedro Silva", "duration": "1:34" },
-        { "title": "Squall", "artist": "Pedro Silva", "duration": "1:23" },
-        { "title": "Aquifer", "artist": "Pedro Silva", "duration": "3:45" },
-        { "title": "Numbers", "artist": "Pedro Silva", "duration": "2:56" },
-        { "title": "Sinking", "artist": "Pedro Silva", "duration": "3:25" },
-        { "title": "H20:HCL", "artist": "Pedro Silva", "duration": "1:58" },
-        { "title": "Chemistry On And On", "artist": "Pedro Silva", "duration": "1:21" },
-        { "title": "But I Wanna See It All With You!", "artist": "Pedro Silva", "duration": "0:57" },
-        { "title": "Grimey", "artist": "Pedro Silva", "duration": "1:15" },
-        { "title": "Underwater Prom Queens", "artist": "Pedro Silva", "duration": "2:07" },
-        { "title": "Whale Whale Whale", "artist": "Pedro Silva", "duration": "1:13" },
-        { "title": "Swallow Hollow", "artist": "Pedro Silva", "duration": "0:56" },
-        { "title": "Gross...", "artist": "Pedro Silva", "duration": "0:25" },
-        { "title": "That One Song But It's Some Mermaids", "artist": "Pedro Silva", "duration": "0:20" },
-        { "title": "Undertow", "artist": "Pedro Silva", "duration": "3:22" },
-        { "title": "WHITE SPACE", "artist": "Pedro Silva", "duration": "0:59" },
-        { "title": "Fermentation Disorientation", "artist": "Pedro Silva", "duration": "1:18" },
-        { "title": "Flouring With You", "artist": "Pedro Silva", "duration": "1:17" },
-        { "title": "BREADY STEADY GO", "artist": "Pedro Silva", "duration": "2:05" },
-        { "title": "Recyling Really Is A Concept", "artist": "Pedro Silva", "duration": "1:23" },
-        { "title": "Remember To Be Patient", "artist": "Pedro Silva", "duration": "1:39" },
-        { "title": "Cold!", "artist": "Pedro Silva", "duration": "1:06" },
-        { "title": "You Cannot Go Back", "artist": "Pedro Silva", "duration": "2:43" },
-        { "title": "Tee-hee Time", "artist": "Pedro Silva", "duration": "1:44" },
-        { "title": "Welcome Again.", "artist": "Pedro Silva", "duration": "0:44" },
-        { "title": "Fleur", "artist": "Pedro Silva", "duration": "1:07" },
-        { "title": "Distance", "artist": "Pedro Silva", "duration": "0:37" },
-        { "title": "Drone", "artist": "Pedro Silva", "duration": "0:31" },
-        { "title": "Calm", "artist": "Pedro Silva", "duration": "0:41" },
-        { "title": "Glade", "artist": "Pedro Silva", "duration": "0:59" },
-        { "title": "56-12-2", "artist": "Pedro Silva", "duration": "1:21" },
-        { "title": "Bloom", "artist": "Pedro Silva", "duration": "0:57" },
-        { "title": "August/Water", "artist": "Pedro Silva", "duration": "1:43" },
-        { "title": "5ths", "artist": "Pedro Silva", "duration": "1:31" },
-        { "title": "Waiting For...", "artist": "Pedro Silva", "duration": "0:40" },
-        { "title": "Nawa", "artist": "Pedro Silva", "duration": "1:35" },
-        { "title": "White Pillars", "artist": "Pedro Silva", "duration": "3:02" },
-        { "title": "Come and See", "artist": "Pedro Silva", "duration": "2:22" },
-        { "title": "Friends.", "artist": "Pedro Silva", "duration": "0:58" },
-        { "title": "Friendsssssss.", "artist": "Pedro Silva", "duration": "0:14" },
-        { "title": "Orchard", "artist": "Pedro Silva", "duration": "1:02" },
-        { "title": "Temple", "artist": "Pedro Silva", "duration": "2:15" },
-        { "title": "Look", "artist": "Pedro Silva", "duration": "0:47" },
-        { "title": "Bad Morning", "artist": "Pedro Silva", "duration": "0:37" },
-        { "title": "Listening", "artist": "Pedro Silva", "duration": "1:10" },
-        { "title": "A Red Shape", "artist": "Pedro Silva", "duration": "0:26" },
-        { "title": "Do You Remember?", "artist": "Pedro Silva", "duration": "0:36" },
-        { "title": "Playing Forever", "artist": "Pedro Silva", "duration": "1:43" },
-        { "title": "Treehouse - Here We Are, Together Again", "artist": "Pedro Silva", "duration": "1:18" },
-        { "title": "Save", "artist": "Pedro Silva", "duration": "0:41" },
-        { "title": "Something", "artist": "Pedro Silva", "duration": "1:30" },
-        { "title": "A Home For Flowers (Daisy)", "artist": "Pedro Silva", "duration": "1:19" },
-        { "title": "Remina", "artist": "Pedro Silva", "duration": "1:12" },
-        { "title": "Normal.", "artist": "Pedro Silva", "duration": "0:35" },
-        { "title": "Your Catastrophes", "artist": "Pedro Silva", "duration": "0:45" },
-        { "title": "Your Catastrophes - Procession", "artist": "Pedro Silva", "duration": "1:32" },
-        { "title": "Crossroads", "artist": "Pedro Silva", "duration": "2:09" },
-        { "title": "The Violin", "artist": "Pedro Silva", "duration": "0:21" },
-        { "title": "A Home For Flowers (Sunflower)", "artist": "Pedro Silva", "duration": "1:24" },
-        { "title": "You Must Carry On.", "artist": "Pedro Silva", "duration": "1:44" },
-        { "title": "Remembrance.", "artist": "Pedro Silva", "duration": "0:27" },
-        { "title": "OMORI", "artist": "Pedro Silva", "duration": "4:13" },
-        { "title": "OMORI - ALTER", "artist": "Pedro Silva", "duration": "1:26" },
-        { "title": "Try Again Little Brother", "artist": "Pedro Silva", "duration": "0:17" },
-        { "title": "Persevere", "artist": "Pedro Silva", "duration": "0:27" },
-        { "title": "DUET", "artist": "Pedro Silva", "duration": "2:12" },
-        { "title": "Gone", "artist": "Pedro Silva", "duration": "0:27" },
-        { "title": "Wake Up", "artist": "Pedro Silva", "duration": "0:36" },
-        { "title": "Clean Slate", "artist": "Pedro Silva", "duration": "0:59" },
-        { "title": "The Truth", "artist": "Pedro Silva", "duration": "0:11" },
-        { "title": "Good Morning", "artist": "Pedro Silva", "duration": "1:48" },
-        { "title": "My Time", "artist": "bo en", "duration": "3:33", "spotifyUrl": "https://open.spotify.com/track/0HuTlPTyGIkIBlX3Yak9G4", "youtubeUrl": "https://www.youtube.com/watch?v=OkMLYNWP-yo" },
-        { "title": "Fin", "artist": "Pedro Silva", "duration": "0:21" }
+    "stores": [
+        {
+            "store": "Eneba",
+            "url": "https://www.eneba.com/steam-omori",
+            "platform": "PC",
+            "price": 45,
+            "priceOriginal": "US$7.75",
+            "coupon": null,
+            "lastUpdated": "2025-07-10"
+        },
+        {
+            "store": "Fanatical",
+            "url": "https://www.fanatical.com/en/game/omori",
+            "platform": "PC",
+            "price": 55,
+            "priceOriginal": "US$9.49",
+            "coupon": null,
+            "lastUpdated": "2025-07-10"
+        },
+        {
+            "store": "GOG",
+            "url": "https://www.gog.com/game/omori",
+            "platform": "PC",
+            "price": 71,
+            "priceOriginal": "US$14.99",
+            "coupon": null,
+            "lastUpdated": "2025-07-10"
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.humblebundle.com/store/omori",
+            "platform": "PC",
+            "price": 71,
+            "priceOriginal": "US$14.99",
+            "coupon": "Humble20",
+            "lastUpdated": "2025-07-10"
+        },
+        {
+            "store": "Nintendo eShop",
+            "url": "https://www.nintendo.com/pt-br/store/products/omori-switch/",
+            "platform": "Nintendo Switch",
+            "price": 119,
+            "priceOriginal": "R$119,00",
+            "coupon": null,
+            "lastUpdated": "2025-07-10"
+        },
+        {
+            "store": "PlayStation Store",
+            "url": "https://store.playstation.com/pt-br/category/omori",
+            "platform": "PS4 / PS5",
+            "price": 119.9,
+            "priceOriginal": "R$119,90",
+            "coupon": null,
+            "lastUpdated": "2025-07-10"
+        },
+        {
+            "store": "Xbox Store",
+            "url": "https://www.xbox.com/pt-br/games/store/omori/9p3l4fmpfct0",
+            "platform": "Xbox One / Series X|S",
+            "price": 119.9,
+            "priceOriginal": "R$119,90",
+            "coupon": null,
+            "lastUpdated": "2025-07-10"
+        },
+        {
+            "store": "Steam",
+            "url": "https://www.cheapshark.com/redirect?dealID=o4WjLrL8x%2F9JY3cIlhyMdHDmfM%2F%2FL1l1nPgrSPT21ek%3D",
+            "platform": "PC",
+            "price": null,
+            "priceOriginal": "$NaN",
+            "coupon": null,
+            "lastUpdated": "2026-07-11"
+        }
     ],
-
+    "soundtrack": [
+        {
+            "title": "Title",
+            "artist": "Pedro Silva",
+            "duration": "0:37",
+            "spotifyUrl": "https://open.spotify.com/track/6hWCUbrB0qxsu3AgI7v63i",
+            "youtubeUrl": "https://www.youtube.com/watch?v=9d9e6XmNn9Q"
+        },
+        {
+            "title": "WHITE SPACE",
+            "artist": "Pedro Silva",
+            "duration": "0:41",
+            "spotifyUrl": "https://open.spotify.com/track/7Max3EiSwBFypn3MAnwhkX",
+            "youtubeUrl": "https://www.youtube.com/watch?v=t815nBXavpE"
+        },
+        {
+            "title": "Lost At A Sleepover",
+            "artist": "Pedro Silva",
+            "duration": "0:56"
+        },
+        {
+            "title": "Spaces In-between",
+            "artist": "Pedro Silva",
+            "duration": "0:58"
+        },
+        {
+            "title": "By Your Side.",
+            "artist": "Pedro Silva",
+            "duration": "1:36"
+        },
+        {
+            "title": "Let's Get Together Now!",
+            "artist": "Pedro Silva",
+            "duration": "1:38"
+        },
+        {
+            "title": "100 Sunny",
+            "artist": "Pedro Silva",
+            "duration": "1:17"
+        },
+        {
+            "title": "Trouble Brewing",
+            "artist": "Pedro Silva",
+            "duration": "0:20"
+        },
+        {
+            "title": "Push & Shove",
+            "artist": "Pedro Silva",
+            "duration": "0:39"
+        },
+        {
+            "title": "So, How'd We Do?",
+            "artist": "Pedro Silva",
+            "duration": "0:19"
+        },
+        {
+            "title": "It's Okay To Try Again...",
+            "artist": "Pedro Silva",
+            "duration": "0:09"
+        },
+        {
+            "title": "Trees...",
+            "artist": "Pedro Silva",
+            "duration": "1:58"
+        },
+        {
+            "title": "A Home For Flowers (Tulip)",
+            "artist": "Pedro Silva",
+            "duration": "1:32"
+        },
+        {
+            "title": "Acrophobia",
+            "artist": "Pedro Silva",
+            "duration": "2:22"
+        },
+        {
+            "title": "Tussle Among Trees",
+            "artist": "Pedro Silva",
+            "duration": "1:10"
+        },
+        {
+            "title": "A Place By A Lake",
+            "artist": "Pedro Silva",
+            "duration": "1:35"
+        },
+        {
+            "title": "Forest Chillin'",
+            "artist": "Pedro Silva",
+            "duration": "1:22"
+        },
+        {
+            "title": "Poems In The Fog",
+            "artist": "Pedro Silva",
+            "duration": "1:49"
+        },
+        {
+            "title": "Space Road 1979",
+            "artist": "Pedro Silva",
+            "duration": "1:33"
+        },
+        {
+            "title": "See In Your Fantasy",
+            "artist": "Pedro Silva",
+            "duration": "1:13"
+        },
+        {
+            "title": "Sugar Star Planetarium",
+            "artist": "Pedro Silva",
+            "duration": "2:14"
+        },
+        {
+            "title": "Lost, Then Found!",
+            "artist": "Pedro Silva",
+            "duration": "1:17"
+        },
+        {
+            "title": "THE VENGEANCE OF THOSE FORGOTTEN IN DARKNESS",
+            "artist": "Pedro Silva",
+            "duration": "1:12"
+        },
+        {
+            "title": "Recycling Is A Concept!",
+            "artist": "Pedro Silva",
+            "duration": "0:15"
+        },
+        {
+            "title": "Lovesick - 80,000 Lightyears",
+            "artist": "Pedro Silva",
+            "duration": "1:15"
+        },
+        {
+            "title": "I Will Catch Up!",
+            "artist": "Pedro Silva",
+            "duration": "1:42"
+        },
+        {
+            "title": "Three Bar Logos",
+            "artist": "Pedro Silva",
+            "duration": "1:13"
+        },
+        {
+            "title": "YO DJ PUMP THIS PARTY",
+            "artist": "Pedro Silva",
+            "duration": "0:20"
+        },
+        {
+            "title": "Good For Health, Bad For Imagination",
+            "artist": "Pedro Silva",
+            "duration": "1:29"
+        },
+        {
+            "title": "Snow Forest - A Single Flower Blooms",
+            "artist": "Pedro Silva",
+            "duration": "2:21"
+        },
+        {
+            "title": "White Surf Style 6",
+            "artist": "Pedro Silva",
+            "duration": "1:32"
+        },
+        {
+            "title": "Stardust Diving",
+            "artist": "Pedro Silva",
+            "duration": "1:35"
+        },
+        {
+            "title": "Oh My God.",
+            "artist": "Pedro Silva",
+            "duration": "0:26"
+        },
+        {
+            "title": "A Rose By Any Other Name...",
+            "artist": "Pedro Silva",
+            "duration": "0:45"
+        },
+        {
+            "title": "Stardust Dusting",
+            "artist": "Pedro Silva",
+            "duration": "0:38"
+        },
+        {
+            "title": "CHAOS ASSEMBLY",
+            "artist": "Pedro Silva",
+            "duration": "1:05"
+        },
+        {
+            "title": "The Elegance of the Mysterious and Distant",
+            "artist": "Pedro Silva",
+            "duration": "0:36"
+        },
+        {
+            "title": "Space Boyfriend's Tape - I Want Nothing More",
+            "artist": "Pedro Silva",
+            "duration": "0:29"
+        },
+        {
+            "title": "Trouble - NEVER/ALWAYS",
+            "artist": "Pedro Silva",
+            "duration": "1:25"
+        },
+        {
+            "title": "You Were Wrong. Go Back.",
+            "artist": "Pedro Silva",
+            "duration": "1:24"
+        },
+        {
+            "title": "Such A Time We Had Together",
+            "artist": "Pedro Silva",
+            "duration": "0:50"
+        },
+        {
+            "title": "Photograph",
+            "artist": "Pedro Silva",
+            "duration": "0:53"
+        },
+        {
+            "title": "Finding Shapes in the Clouds",
+            "artist": "Pedro Silva",
+            "duration": "1:31"
+        },
+        {
+            "title": "Where We Used To Play",
+            "artist": "Pedro Silva",
+            "duration": "1:44"
+        },
+        {
+            "title": "Bargain Bin Boys",
+            "artist": "Pedro Silva",
+            "duration": "1:01"
+        },
+        {
+            "title": "Woof",
+            "artist": "Pedro Silva",
+            "duration": "0:31"
+        },
+        {
+            "title": "Realistic Space Simulation",
+            "artist": "Pedro Silva",
+            "duration": "1:27"
+        },
+        {
+            "title": "Jash Bash",
+            "artist": "Pedro Silva",
+            "duration": "0:21"
+        },
+        {
+            "title": "Jash Bash 2: New Age of Heroes",
+            "artist": "Pedro Silva",
+            "duration": "0:12"
+        },
+        {
+            "title": "Jash Bash 3: Jashpocalypse Infinity",
+            "artist": "Pedro Silva",
+            "duration": "0:28"
+        },
+        {
+            "title": "Clash of Jash",
+            "artist": "Pedro Silva",
+            "duration": "0:17"
+        },
+        {
+            "title": "Take A Load Off",
+            "artist": "Pedro Silva",
+            "duration": "1:27"
+        },
+        {
+            "title": "I Prefer My Pizza 90% Grease",
+            "artist": "Pedro Silva",
+            "duration": "0:44"
+        },
+        {
+            "title": "Fresh...ish...",
+            "artist": "Pedro Silva",
+            "duration": "1:41"
+        },
+        {
+            "title": "High Fructose Headache",
+            "artist": "Pedro Silva",
+            "duration": "1:07"
+        },
+        {
+            "title": "I Think My Dad Shops Here...",
+            "artist": "Pedro Silva",
+            "duration": "1:35"
+        },
+        {
+            "title": "Just Leave Me Alone",
+            "artist": "Pedro Silva",
+            "duration": "0:41"
+        },
+        {
+            "title": "Cram It Wad",
+            "artist": "Pedro Silva",
+            "duration": "0:22"
+        },
+        {
+            "title": "Respite",
+            "artist": "Pedro Silva",
+            "duration": "1:14"
+        },
+        {
+            "title": "It Means Everything.",
+            "artist": "Pedro Silva",
+            "duration": "1:13"
+        },
+        {
+            "title": "See You Tomorrow",
+            "artist": "Pedro Silva",
+            "duration": "2:18"
+        },
+        {
+            "title": "A Home For Flowers (Empty)",
+            "artist": "Pedro Silva",
+            "duration": "1:16"
+        },
+        {
+            "title": "Help Me",
+            "artist": "Pedro Silva",
+            "duration": "0:39"
+        },
+        {
+            "title": "Arachnophobia",
+            "artist": "Pedro Silva",
+            "duration": "2:31"
+        },
+        {
+            "title": "Something, Alone",
+            "artist": "Pedro Silva",
+            "duration": "0:36"
+        },
+        {
+            "title": "Fade",
+            "artist": "Pedro Silva",
+            "duration": "0:42"
+        },
+        {
+            "title": "The Heart of the Desert",
+            "artist": "Pedro Silva",
+            "duration": "1:49"
+        },
+        {
+            "title": "Puddles",
+            "artist": "Pedro Silva",
+            "duration": "1:54"
+        },
+        {
+            "title": "PRANKED.",
+            "artist": "Pedro Silva",
+            "duration": "1:03"
+        },
+        {
+            "title": "An Archaeic Resonance",
+            "artist": "Pedro Silva",
+            "duration": "0:58"
+        },
+        {
+            "title": "'X' Marks The Spot!",
+            "artist": "Pedro Silva",
+            "duration": "0:55"
+        },
+        {
+            "title": "Those Who Forget History",
+            "artist": "Pedro Silva",
+            "duration": "0:46"
+        },
+        {
+            "title": "Tumbleweeds",
+            "artist": "Pedro Silva",
+            "duration": "1:44"
+        },
+        {
+            "title": "Pyrefly Forest - Cat's Cradle",
+            "artist": "Pedro Silva",
+            "duration": "4:27"
+        },
+        {
+            "title": "Forest Frenzy",
+            "artist": "Pedro Silva",
+            "duration": "2:09"
+        },
+        {
+            "title": "Sweet Paralysis",
+            "artist": "Pedro Silva",
+            "duration": "1:11"
+        },
+        {
+            "title": "Sweetheart's Quest For Hearts",
+            "artist": "Pedro Silva",
+            "duration": "1:24"
+        },
+        {
+            "title": "How...sad!",
+            "artist": "Pedro Silva",
+            "duration": "1:10"
+        },
+        {
+            "title": "How...tragic!",
+            "artist": "Pedro Silva",
+            "duration": "1:04"
+        },
+        {
+            "title": "Eternal Dungeon",
+            "artist": "Pedro Silva",
+            "duration": "1:24"
+        },
+        {
+            "title": "Splintered Sweets In The Castle",
+            "artist": "Pedro Silva",
+            "duration": "1:24"
+        },
+        {
+            "title": "Wandering Rose",
+            "artist": "Pedro Silva",
+            "duration": "1:53"
+        },
+        {
+            "title": "Stationary Rose",
+            "artist": "Pedro Silva",
+            "duration": "1:37"
+        },
+        {
+            "title": "Valour Against All Odds",
+            "artist": "Pedro Silva",
+            "duration": "0:54"
+        },
+        {
+            "title": "I Definitely Promised You A Rose Garden",
+            "artist": "Pedro Silva",
+            "duration": "1:57"
+        },
+        {
+            "title": "World's End Valentine",
+            "artist": "Pedro Silva",
+            "duration": "2:27",
+            "spotifyUrl": "https://open.spotify.com/track/33G3sUAxqvFEaEeM7u849M",
+            "youtubeUrl": "https://www.youtube.com/watch?v=rlQd9qWKjLM"
+        },
+        {
+            "title": "I Just Love The 50s!!!",
+            "artist": "Pedro Silva",
+            "duration": "1:17"
+        },
+        {
+            "title": "Lost Library",
+            "artist": "Pedro Silva",
+            "duration": "1:15"
+        },
+        {
+            "title": "Bookcase",
+            "artist": "Pedro Silva",
+            "duration": "0:19"
+        },
+        {
+            "title": "Thrifted Tchotchkes",
+            "artist": "Pedro Silva",
+            "duration": "1:29"
+        },
+        {
+            "title": "Swirly 1000x",
+            "artist": "Pedro Silva",
+            "duration": "2:05"
+        },
+        {
+            "title": "Dear Little Brother...",
+            "artist": "Pedro Silva",
+            "duration": "1:13"
+        },
+        {
+            "title": "Thalassophobia",
+            "artist": "Pedro Silva",
+            "duration": "2:22"
+        },
+        {
+            "title": "Water",
+            "artist": "Pedro Silva",
+            "duration": "0:19"
+        },
+        {
+            "title": "Hanging With The Boys",
+            "artist": "Pedro Silva",
+            "duration": "2:19"
+        },
+        {
+            "title": "WHITE SPACE",
+            "artist": "Pedro Silva",
+            "duration": "1:01"
+        },
+        {
+            "title": "Origin",
+            "artist": "Pedro Silva",
+            "duration": "0:48"
+        },
+        {
+            "title": "Long Way Down...",
+            "artist": "Pedro Silva",
+            "duration": "1:25"
+        },
+        {
+            "title": "The Last Resort",
+            "artist": "Pedro Silva",
+            "duration": "1:40"
+        },
+        {
+            "title": "Not-So-Empty-House",
+            "artist": "Pedro Silva",
+            "duration": "0:54"
+        },
+        {
+            "title": "It's A Ghost Dance",
+            "artist": "Pedro Silva",
+            "duration": "0:42"
+        },
+        {
+            "title": "Room For 4",
+            "artist": "Pedro Silva",
+            "duration": "1:35"
+        },
+        {
+            "title": "Gator Gambol",
+            "artist": "Pedro Silva",
+            "duration": "1:29"
+        },
+        {
+            "title": "Clams Clams Clams",
+            "artist": "Pedro Silva",
+            "duration": "1:08"
+        },
+        {
+            "title": "Jawbreaker",
+            "artist": "Pedro Silva",
+            "duration": "1:25"
+        },
+        {
+            "title": "GOLDENVENGEANCE",
+            "artist": "Pedro Silva",
+            "duration": "2:29"
+        },
+        {
+            "title": "Underwater Highway",
+            "artist": "Pedro Silva",
+            "duration": "1:34"
+        },
+        {
+            "title": "Squall",
+            "artist": "Pedro Silva",
+            "duration": "1:23"
+        },
+        {
+            "title": "Aquifer",
+            "artist": "Pedro Silva",
+            "duration": "3:45"
+        },
+        {
+            "title": "Numbers",
+            "artist": "Pedro Silva",
+            "duration": "2:56"
+        },
+        {
+            "title": "Sinking",
+            "artist": "Pedro Silva",
+            "duration": "3:25"
+        },
+        {
+            "title": "H20:HCL",
+            "artist": "Pedro Silva",
+            "duration": "1:58"
+        },
+        {
+            "title": "Chemistry On And On",
+            "artist": "Pedro Silva",
+            "duration": "1:21"
+        },
+        {
+            "title": "But I Wanna See It All With You!",
+            "artist": "Pedro Silva",
+            "duration": "0:57"
+        },
+        {
+            "title": "Grimey",
+            "artist": "Pedro Silva",
+            "duration": "1:15"
+        },
+        {
+            "title": "Underwater Prom Queens",
+            "artist": "Pedro Silva",
+            "duration": "2:07"
+        },
+        {
+            "title": "Whale Whale Whale",
+            "artist": "Pedro Silva",
+            "duration": "1:13"
+        },
+        {
+            "title": "Swallow Hollow",
+            "artist": "Pedro Silva",
+            "duration": "0:56"
+        },
+        {
+            "title": "Gross...",
+            "artist": "Pedro Silva",
+            "duration": "0:25"
+        },
+        {
+            "title": "That One Song But It's Some Mermaids",
+            "artist": "Pedro Silva",
+            "duration": "0:20"
+        },
+        {
+            "title": "Undertow",
+            "artist": "Pedro Silva",
+            "duration": "3:22"
+        },
+        {
+            "title": "WHITE SPACE",
+            "artist": "Pedro Silva",
+            "duration": "0:59"
+        },
+        {
+            "title": "Fermentation Disorientation",
+            "artist": "Pedro Silva",
+            "duration": "1:18"
+        },
+        {
+            "title": "Flouring With You",
+            "artist": "Pedro Silva",
+            "duration": "1:17"
+        },
+        {
+            "title": "BREADY STEADY GO",
+            "artist": "Pedro Silva",
+            "duration": "2:05"
+        },
+        {
+            "title": "Recyling Really Is A Concept",
+            "artist": "Pedro Silva",
+            "duration": "1:23"
+        },
+        {
+            "title": "Remember To Be Patient",
+            "artist": "Pedro Silva",
+            "duration": "1:39"
+        },
+        {
+            "title": "Cold!",
+            "artist": "Pedro Silva",
+            "duration": "1:06"
+        },
+        {
+            "title": "You Cannot Go Back",
+            "artist": "Pedro Silva",
+            "duration": "2:43"
+        },
+        {
+            "title": "Tee-hee Time",
+            "artist": "Pedro Silva",
+            "duration": "1:44"
+        },
+        {
+            "title": "Welcome Again.",
+            "artist": "Pedro Silva",
+            "duration": "0:44"
+        },
+        {
+            "title": "Fleur",
+            "artist": "Pedro Silva",
+            "duration": "1:07"
+        },
+        {
+            "title": "Distance",
+            "artist": "Pedro Silva",
+            "duration": "0:37"
+        },
+        {
+            "title": "Drone",
+            "artist": "Pedro Silva",
+            "duration": "0:31"
+        },
+        {
+            "title": "Calm",
+            "artist": "Pedro Silva",
+            "duration": "0:41"
+        },
+        {
+            "title": "Glade",
+            "artist": "Pedro Silva",
+            "duration": "0:59"
+        },
+        {
+            "title": "56-12-2",
+            "artist": "Pedro Silva",
+            "duration": "1:21"
+        },
+        {
+            "title": "Bloom",
+            "artist": "Pedro Silva",
+            "duration": "0:57"
+        },
+        {
+            "title": "August/Water",
+            "artist": "Pedro Silva",
+            "duration": "1:43"
+        },
+        {
+            "title": "5ths",
+            "artist": "Pedro Silva",
+            "duration": "1:31"
+        },
+        {
+            "title": "Waiting For...",
+            "artist": "Pedro Silva",
+            "duration": "0:40"
+        },
+        {
+            "title": "Nawa",
+            "artist": "Pedro Silva",
+            "duration": "1:35"
+        },
+        {
+            "title": "White Pillars",
+            "artist": "Pedro Silva",
+            "duration": "3:02"
+        },
+        {
+            "title": "Come and See",
+            "artist": "Pedro Silva",
+            "duration": "2:22"
+        },
+        {
+            "title": "Friends.",
+            "artist": "Pedro Silva",
+            "duration": "0:58"
+        },
+        {
+            "title": "Friendsssssss.",
+            "artist": "Pedro Silva",
+            "duration": "0:14"
+        },
+        {
+            "title": "Orchard",
+            "artist": "Pedro Silva",
+            "duration": "1:02"
+        },
+        {
+            "title": "Temple",
+            "artist": "Pedro Silva",
+            "duration": "2:15"
+        },
+        {
+            "title": "Look",
+            "artist": "Pedro Silva",
+            "duration": "0:47"
+        },
+        {
+            "title": "Bad Morning",
+            "artist": "Pedro Silva",
+            "duration": "0:37"
+        },
+        {
+            "title": "Listening",
+            "artist": "Pedro Silva",
+            "duration": "1:10"
+        },
+        {
+            "title": "A Red Shape",
+            "artist": "Pedro Silva",
+            "duration": "0:26"
+        },
+        {
+            "title": "Do You Remember?",
+            "artist": "Pedro Silva",
+            "duration": "0:36"
+        },
+        {
+            "title": "Playing Forever",
+            "artist": "Pedro Silva",
+            "duration": "1:43"
+        },
+        {
+            "title": "Treehouse - Here We Are, Together Again",
+            "artist": "Pedro Silva",
+            "duration": "1:18"
+        },
+        {
+            "title": "Save",
+            "artist": "Pedro Silva",
+            "duration": "0:41"
+        },
+        {
+            "title": "Something",
+            "artist": "Pedro Silva",
+            "duration": "1:30"
+        },
+        {
+            "title": "A Home For Flowers (Daisy)",
+            "artist": "Pedro Silva",
+            "duration": "1:19"
+        },
+        {
+            "title": "Remina",
+            "artist": "Pedro Silva",
+            "duration": "1:12"
+        },
+        {
+            "title": "Normal.",
+            "artist": "Pedro Silva",
+            "duration": "0:35"
+        },
+        {
+            "title": "Your Catastrophes",
+            "artist": "Pedro Silva",
+            "duration": "0:45"
+        },
+        {
+            "title": "Your Catastrophes - Procession",
+            "artist": "Pedro Silva",
+            "duration": "1:32"
+        },
+        {
+            "title": "Crossroads",
+            "artist": "Pedro Silva",
+            "duration": "2:09"
+        },
+        {
+            "title": "The Violin",
+            "artist": "Pedro Silva",
+            "duration": "0:21"
+        },
+        {
+            "title": "A Home For Flowers (Sunflower)",
+            "artist": "Pedro Silva",
+            "duration": "1:24"
+        },
+        {
+            "title": "You Must Carry On.",
+            "artist": "Pedro Silva",
+            "duration": "1:44"
+        },
+        {
+            "title": "Remembrance.",
+            "artist": "Pedro Silva",
+            "duration": "0:27"
+        },
+        {
+            "title": "OMORI",
+            "artist": "Pedro Silva",
+            "duration": "4:13"
+        },
+        {
+            "title": "OMORI - ALTER",
+            "artist": "Pedro Silva",
+            "duration": "1:26"
+        },
+        {
+            "title": "Try Again Little Brother",
+            "artist": "Pedro Silva",
+            "duration": "0:17"
+        },
+        {
+            "title": "Persevere",
+            "artist": "Pedro Silva",
+            "duration": "0:27"
+        },
+        {
+            "title": "DUET",
+            "artist": "Pedro Silva",
+            "duration": "2:12"
+        },
+        {
+            "title": "Gone",
+            "artist": "Pedro Silva",
+            "duration": "0:27"
+        },
+        {
+            "title": "Wake Up",
+            "artist": "Pedro Silva",
+            "duration": "0:36"
+        },
+        {
+            "title": "Clean Slate",
+            "artist": "Pedro Silva",
+            "duration": "0:59"
+        },
+        {
+            "title": "The Truth",
+            "artist": "Pedro Silva",
+            "duration": "0:11"
+        },
+        {
+            "title": "Good Morning",
+            "artist": "Pedro Silva",
+            "duration": "1:48"
+        },
+        {
+            "title": "My Time",
+            "artist": "bo en",
+            "duration": "3:33",
+            "spotifyUrl": "https://open.spotify.com/track/0HuTlPTyGIkIBlX3Yak9G4",
+            "youtubeUrl": "https://www.youtube.com/watch?v=OkMLYNWP-yo"
+        },
+        {
+            "title": "Fin",
+            "artist": "Pedro Silva",
+            "duration": "0:21"
+        }
+    ],
     "gameplays": [
         {
             "title": "Omori - Gameplay Completo (Pt-BR)",
@@ -255,5 +1049,6 @@
             "embedUrl": "https://www.youtube.com/embed/VZCBBR4sVh4",
             "youtubeUrl": "https://www.youtube.com/watch?v=VZCBBR4sVh4"
         }
-    ]
+    ],
+    "_pricesUpdated": "2026-07-11T01:46:27.020Z"
 }

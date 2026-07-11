@@ -122,8 +122,8 @@ const Games = {
             return;
         }
 
-        const tabs = ['Visão Geral', 'Traduções', 'Mods', 'Trilha Sonora', 'Gameplays', 'Comentários'];
-        const tabIds = ['overview', 'translations', 'mods', 'soundtrack', 'gameplays', 'comments'];
+        const tabs = ['Visão Geral', 'Comprar', 'Traduções', 'Mods', 'Trilha Sonora', 'Gameplays', 'Comentários'];
+        const tabIds = ['overview', 'stores', 'translations', 'mods', 'soundtrack', 'gameplays', 'comments'];
 
         container.innerHTML = `
             <div class="p5-game-header">
@@ -178,6 +178,9 @@ const Games = {
             case 'overview':
                 this.renderOverview(container, game);
                 break;
+            case 'stores':
+                this.renderStores(container, game);
+                break;
             case 'translations':
                 this.renderTranslations(container, game);
                 break;
@@ -221,6 +224,62 @@ const Games = {
                         <iframe src="${game.videoPreview}" allowfullscreen></iframe>
                     </div>
                 ` : ''}
+            </div>
+        `;
+    },
+
+    renderStores(container, game) {
+        const stores = (game.stores || []).slice().sort((a, b) => (a.price || 9999) - (b.price || 9999));
+        if (stores.length === 0) {
+            container.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">🛒</div>
+                    <div class="empty-state-title">Nenhuma loja disponível</div>
+                    <div class="empty-state-text">Links de compra serão adicionados em breve!</div>
+                </div>
+            `;
+            return;
+        }
+
+        const bestPrice = stores.length > 0 ? stores[0].price : null;
+
+        const storeIcons = {
+            'Steam': { class: 'store-icon-steam', icon: '🎮' },
+            'GOG': { class: 'store-icon-gog', icon: '🌌' },
+            'Humble Bundle': { class: 'store-icon-humble', icon: '📦' },
+            'Fanatical': { class: 'store-icon-fanatical', icon: '🎯' },
+            'Eneba': { class: 'store-icon-eneba', icon: '🔑' },
+            'PlayStation Store': { class: 'store-icon-playstation', icon: '🎮' },
+            'Nintendo eShop': { class: 'store-icon-nintendo', icon: '🍄' },
+            'Xbox Store': { class: 'store-icon-xbox', icon: '🟢' },
+        };
+
+        container.innerHTML = `
+            <div class="animate-in">
+                <h3 style="font-family: var(--font-display); font-size: 1.8rem; letter-spacing: 3px; margin-bottom: 8px; color: var(--br-green);">ONDE COMPRAR</h3>
+                <p style="color: var(--br-gray-light); font-size: 0.85rem; margin-bottom: 24px;">Preços atualizados automaticamente a cada 6 horas</p>
+                <div class="store-cards">
+                    ${stores.map((s, i) => {
+                        const iconInfo = storeIcons[s.store] || { class: 'store-icon-default', icon: '🏪' };
+                        const isBest = bestPrice !== null && s.price === bestPrice && s.price > 0;
+                        const isFree = s.price === 0;
+                        return `
+                            <div class="store-card ${isBest ? 'store-card-best' : ''} animate-in stagger-${Math.min(i + 1, 8)}">
+                                <div class="store-icon ${iconInfo.class}">${iconInfo.icon}</div>
+                                <div class="store-info">
+                                    <div class="store-name">${s.store}${s.coupon ? ` <span class="store-coupon">CUPOM: ${s.coupon}</span>` : ''}</div>
+                                    <div class="store-platform">${s.platform}</div>
+                                </div>
+                                <div class="store-price-area">
+                                    <div class="store-price ${isFree ? 'store-price-free' : ''}">${isFree ? 'GRÁTIS' : `R$ ${s.price.toFixed(2).replace('.', ',')}`}</div>
+                                    ${s.priceOriginal && s.priceOriginal !== 'Grátis' ? `<div class="store-price-original">${s.priceOriginal}</div>` : ''}
+                                </div>
+                                <a href="${s.url}" target="_blank" class="store-buy">COMPRAR</a>
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
+                <div class="store-updated">Preços consultados em ${game._pricesUpdated ? new Date(game._pricesUpdated).toLocaleDateString('pt-BR') : 'data desconhecida'}</div>
             </div>
         `;
     },
