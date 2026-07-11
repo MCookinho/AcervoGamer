@@ -62,22 +62,24 @@ function getYtDlpPath() {
 }
 
 const YT_DLP = getYtDlpPath();
+const CLIENTS = ['android', 'mweb', 'android_vr', 'tv_embedded'];
+const UA = 'Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36';
 
 function downloadSong(youtubeUrl, outputPath) {
-    const cmd = `"${YT_DLP}" -x --audio-format mp3 --audio-quality 5 -o "${outputPath}" "${youtubeUrl}" --no-playlist --no-check-certificates --extractor-args "youtube:player_client=android" 2>&1`;
-    for (let attempt = 1; attempt <= 3; attempt++) {
-        try {
-            execSync(cmd, { timeout: 180000 });
-            return true;
-        } catch (e) {
-            if (attempt < 3) {
-                console.log(`    ↻ Attempt ${attempt} failed, retrying in 3s...`);
-                execSync('sleep 3');
-            } else {
-                const stderr = e.stderr ? e.stderr.toString().substring(0, 300) : '';
-                const stdout = e.stdout ? e.stdout.toString().substring(0, 300) : '';
-                console.error(`    ✗ Failed: ${stderr || stdout || e.message.substring(0, 200)}`);
-                return false;
+    for (let ci = 0; ci < CLIENTS.length; ci++) {
+        const client = CLIENTS[ci];
+        const cmd = `"${YT_DLP}" -x --audio-format mp3 --audio-quality 5 -o "${outputPath}" "${youtubeUrl}" --no-playlist --no-check-certificates --user-agent "${UA}" --extractor-args "youtube:player_client=${client}" 2>&1`;
+        for (let attempt = 1; attempt <= 2; attempt++) {
+            try {
+                execSync(cmd, { timeout: 180000 });
+                return true;
+            } catch (e) {
+                const output = (e.stdout ? e.stdout.toString() : '') + (e.stderr ? e.stderr.toString() : '');
+                const errLine = output.split('\n').find(l => l.trim().startsWith('ERROR:'));
+                if (ci === CLIENTS.length - 1 && attempt === 2) {
+                    console.error(`    ✗ Failed (${client}): ${errLine ? errLine.substring(0, 200) : 'unknown error'}`);
+                }
+                if (attempt < 2) execSync('sleep 2');
             }
         }
     }
