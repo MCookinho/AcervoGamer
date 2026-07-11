@@ -412,6 +412,7 @@ const Games = {
                         <div class="file-meta">
                             <span>Versão: ${t.version}</span>
                             <span>Autor: ${t.author}</span>
+                            ${t.date ? `<span>Data: ${Utils.formatDate(t.date)}</span>` : ''}
                         </div>
                     </div>
                     ${actionBtn}
@@ -457,6 +458,7 @@ const Games = {
                         <div class="file-meta">
                             <span>Versão: ${m.version}</span>
                             <span>Autor: ${m.author}</span>
+                            ${m.date ? `<span>Data: ${Utils.formatDate(m.date)}</span>` : ''}
                         </div>
                     </div>
                     ${actionBtn}
