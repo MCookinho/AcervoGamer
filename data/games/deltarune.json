@@ -1,4 +1,23 @@
 {
+    "_doc": {
+        "_": "Acervo Gamer - Schema de dados para jogos",
+        "name": "Nome do jogo exibido no site",
+        "slug": "Identificador único do jogo (usado nas URLs: #/jogos/{slug})",
+        "genre": "Gênero do jogo (ex: RPG, Aventura, Terror)",
+        "developer": "Estúdio ou pessoa que desenvolveu o jogo",
+        "year": "Ano de lançamento original do jogo",
+        "cover": "URL da imagem de capa do jogo. Exibida nos cards e na página de detalhes. Aceita qualquer URL de imagem (Steam CDN, Imgur, etc). Se omitido, o card não mostra imagem.",
+        "background": "URL da imagem de fundo da página de detalhes do jogo. Aparece atrás do título e descrição na página individual. Se omitido, usa fundo escuro padrão.",
+        "shortDescription": "Descrição curta do jogo (1-2 frases). Exibida nos cards na listagem de jogos.",
+        "fullDescription": "Descrição completa do jogo. Exibida na aba 'Visão Geral' da página de detalhes.",
+        "videoPreview": "URL de embed do YouTube do trailer do jogo (formato: https://www.youtube.com/embed/{ID}). Exibido na aba 'Visão Geral'. Se omitido, aba sem trailer.",
+        "previewGif": "URL de um GIF animado do jogo. Exibido como preview ao passar o mouse sobre o card (hover). Se omitido, card mostra apenas a capa estática.",
+        "translations": "Lista de traduções disponíveis para o jogo. Cada item deve ter: name, version, date (YYYY-MM-DD), size, downloadUrl",
+        "mods": "Lista de mods disponíveis para o jogo. Cada item deve ter: name, version, author, downloadUrl, nexusUrl (opcional)",
+        "soundtrack": "Lista de músicas da trilha sonora. Cada item deve ter: title, artist, spotifyUrl (opcional), youtubeUrl (opcional)",
+        "gameplays": "Lista de vídeos de gameplay. Cada item deve ter: title, embedUrl (YouTube embed), youtubeUrl (link direto)"
+    },
+
     "name": "Deltarune",
     "slug": "deltarune",
     "genre": "RPG",
@@ -10,6 +29,7 @@
     "fullDescription": "Deltarune é um RPG gratuito criado por Toby Fox, o criador de Undertale. O jogo se passa em um mundo paralelo onde humanos e monstros coexistem, mas com uma dinâmica diferente. Você controla Kris, um estudante humano que, junto com seus colegas de escola Susie e Ralsei, é transportado para um mundo misterioso chamado Dark World. A mecânicas de combate combina elementos de Undertale com um novo sistema de habilidades de magia e equipamentos. Com capítulos sendo lançados periodicamente, Deltarune promete ser uma jornada épica e emocionante.",
     "videoPreview": "https://www.youtube.com/embed/yDzgiGdekas",
     "previewGif": "https://media.giphy.com/media/iznWrMKFQ7JnQfy75q/giphy.gif",
+
     "translations": [
         {
             "name": "Deltarune Cap. 1 e 2 - Tradução PT-BR",
@@ -26,6 +46,7 @@
             "downloadUrl": "#"
         }
     ],
+
     "mods": [
         {
             "name": "Deltarune Randomizer",
@@ -35,6 +56,7 @@
             "nexusUrl": "https://www.nexusmods.com/deltarune"
         }
     ],
+
     "soundtrack": [
         {
             "title": "The Beginning",
@@ -91,6 +113,7 @@
             "youtubeUrl": "https://www.youtube.com/results?search_query=don%27t+forget+deltarune"
         }
     ],
+
     "gameplays": [
         {
             "title": "Deltarune - Gameplay Completo Cap. 1 e 2 (Pt-BR)",

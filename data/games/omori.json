@@ -1,4 +1,23 @@
 {
+    "_doc": {
+        "_": "Acervo Gamer - Schema de dados para jogos",
+        "name": "Nome do jogo exibido no site",
+        "slug": "Identificador único do jogo (usado nas URLs: #/jogos/{slug})",
+        "genre": "Gênero do jogo (ex: RPG, Aventura, Terror)",
+        "developer": "Estúdio ou pessoa que desenvolveu o jogo",
+        "year": "Ano de lançamento original do jogo",
+        "cover": "URL da imagem de capa do jogo. Exibida nos cards e na página de detalhes. Aceita qualquer URL de imagem (Steam CDN, Imgur, etc). Se omitido, o card não mostra imagem.",
+        "background": "URL da imagem de fundo da página de detalhes do jogo. Aparece atrás do título e descrição na página individual. Se omitido, usa fundo escuro padrão.",
+        "shortDescription": "Descrição curta do jogo (1-2 frases). Exibida nos cards na listagem de jogos.",
+        "fullDescription": "Descrição completa do jogo. Exibida na aba 'Visão Geral' da página de detalhes.",
+        "videoPreview": "URL de embed do YouTube do trailer do jogo (formato: https://www.youtube.com/embed/{ID}). Exibido na aba 'Visão Geral'. Se omitido, aba sem trailer.",
+        "previewGif": "URL de um GIF animado do jogo. Exibido como preview ao passar o mouse sobre o card (hover). Se omitido, card mostra apenas a capa estática.",
+        "translations": "Lista de traduções disponíveis para o jogo. Cada item deve ter: name, version, date (YYYY-MM-DD), size, downloadUrl",
+        "mods": "Lista de mods disponíveis para o jogo. Cada item deve ter: name, version, author, downloadUrl, nexusUrl (opcional)",
+        "soundtrack": "Lista de músicas da trilha sonora. Cada item deve ter: title, artist, spotifyUrl (opcional), youtubeUrl (opcional)",
+        "gameplays": "Lista de vídeos de gameplay. Cada item deve ter: title, embedUrl (YouTube embed), youtubeUrl (link direto)"
+    },
+
     "name": "Omori",
     "slug": "omori",
     "genre": "RPG / Terror Psicológico",
@@ -10,6 +29,7 @@
     "fullDescription": "Omori é um RPG de terror psicológico criado pela OMOCAT. Você controla OMORI, um garoto que vive em um mundo chamado White Space, um lugar branco e vazio. A cada dia, OMORI é convidado a explorar Headspace, um mundo colorido e surreal habitado por seus amigos. Paralelamente, você também controla SUNNY, a versão de OMORI no mundo real, um garoto que ficou recluso por quatro anos. A história é uma exploração profunda de temas como depressão, culpa, perda e auto-descoberta. Com uma estética pixel art belíssima, uma trilha sonora emocional e uma narrativa que vai do encantador ao perturbador, Omori é uma experiência única que toca o coração do jogador.",
     "videoPreview": "https://www.youtube.com/embed/CyVv-jFJiJ8",
     "previewGif": "https://media.giphy.com/media/vrRN53rgOgLfCNQuIH/giphy.gif",
+
     "translations": [
         {
             "name": "Omori - Tradução PT-BR Completa",
@@ -26,6 +46,7 @@
             "downloadUrl": "#"
         }
     ],
+
     "mods": [
         {
             "name": "Omori Randomizer",
@@ -42,6 +63,7 @@
             "nexusUrl": ""
         }
     ],
+
     "soundtrack": [
         {
             "title": "Title",
@@ -104,6 +126,7 @@
             "youtubeUrl": "https://www.youtube.com/results?search_query=omori+battle+theme"
         }
     ],
+
     "gameplays": [
         {
             "title": "Omori - Gameplay Completo (Pt-BR)",

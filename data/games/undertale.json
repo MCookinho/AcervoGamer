@@ -1,4 +1,23 @@
 {
+    "_doc": {
+        "_": "Acervo Gamer - Schema de dados para jogos",
+        "name": "Nome do jogo exibido no site",
+        "slug": "Identificador único do jogo (usado nas URLs: #/jogos/{slug})",
+        "genre": "Gênero do jogo (ex: RPG, Aventura, Terror)",
+        "developer": "Estúdio ou pessoa que desenvolveu o jogo",
+        "year": "Ano de lançamento original do jogo",
+        "cover": "URL da imagem de capa do jogo. Exibida nos cards e na página de detalhes. Aceita qualquer URL de imagem (Steam CDN, Imgur, etc). Se omitido, o card não mostra imagem.",
+        "background": "URL da imagem de fundo da página de detalhes do jogo. Aparece atrás do título e descrição na página individual. Se omitido, usa fundo escuro padrão.",
+        "shortDescription": "Descrição curta do jogo (1-2 frases). Exibida nos cards na listagem de jogos.",
+        "fullDescription": "Descrição completa do jogo. Exibida na aba 'Visão Geral' da página de detalhes.",
+        "videoPreview": "URL de embed do YouTube do trailer do jogo (formato: https://www.youtube.com/embed/{ID}). Exibido na aba 'Visão Geral'. Se omitido, aba sem trailer.",
+        "previewGif": "URL de um GIF animado do jogo. Exibido como preview ao passar o mouse sobre o card (hover). Se omitido, card mostra apenas a capa estática.",
+        "translations": "Lista de traduções disponíveis para o jogo. Cada item deve ter: name, version, date (YYYY-MM-DD), size, downloadUrl",
+        "mods": "Lista de mods disponíveis para o jogo. Cada item deve ter: name, version, author, downloadUrl, nexusUrl (opcional)",
+        "soundtrack": "Lista de músicas da trilha sonora. Cada item deve ter: title, artist, spotifyUrl (opcional), youtubeUrl (opcional)",
+        "gameplays": "Lista de vídeos de gameplay. Cada item deve ter: title, embedUrl (YouTube embed), youtubeUrl (link direto)"
+    },
+
     "name": "Undertale",
     "slug": "undertale",
     "genre": "RPG",
@@ -10,6 +29,7 @@
     "fullDescription": "Undertale é um RPG de antologia criado por Toby Fox. Em Undertale, você controla um humano que cai no subsolo, um mundo habitado por monstros. O jogo apresenta mecânicas inovadoras onde você pode falar com monstros, poupá-los ou lutar contra eles. Cada escolha que você faz afeta a história e os personagens ao seu redor, levando a múltiplos finais diferentes. Com uma trilha sonora aclamada, diálogos inteligentes e uma narrativa emocionante, Undertale se tornou um dos jogos indie mais amados de todos os tempos.",
     "videoPreview": "https://www.youtube.com/embed/1Hojv0m3TqA",
     "previewGif": "https://media.giphy.com/media/GhAe4QRn6edGLxRDfA/giphy.gif",
+
     "translations": [
         {
             "name": "Undertale - Tradução PT-BR Completa",
@@ -26,6 +46,7 @@
             "downloadUrl": "#"
         }
     ],
+
     "mods": [
         {
             "name": "Undertale Randomizer",
@@ -42,6 +63,7 @@
             "nexusUrl": ""
         }
     ],
+
     "soundtrack": [
         {
             "title": "Once Upon a Time",
@@ -116,6 +138,7 @@
             "youtubeUrl": "https://www.youtube.com/results?search_query=his+theme+undertale"
         }
     ],
+
     "gameplays": [
         {
             "title": "Undertale - Gameplay Completo (Pt-BR)",
