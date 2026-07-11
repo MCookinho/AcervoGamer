@@ -1,0 +1,22 @@
+{
+    "cards": [
+        {
+            "title": "Nexus Mods",
+            "description": "A maior plataforma de mods do mundo. Explore centenas de mods para Undertale com instalação fácil e gerenciamento.",
+            "color": "#1a9f4a",
+            "siteUrl": "https://www.nexusmods.com/undertale",
+            "buttonLabel": "ABRIR SITE",
+            "stats": "500+ mods",
+            "badge": "POPULAR"
+        },
+        {
+            "title": "GameBanana",
+            "description": "Comunidade criativa de mods, skins e conteúdo personalizado para Undertale.",
+            "color": "#f5a623",
+            "siteUrl": "https://gamebanana.com/games/5736",
+            "buttonLabel": "EXPLORAR",
+            "stats": "300+ mods",
+            "badge": "COMUNIDADE"
+        }
+    ]
+}

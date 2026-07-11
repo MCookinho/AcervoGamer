@@ -1739,6 +1739,105 @@
     border-color: rgba(0,200,83,0.5);
 }
 
+.op-card {
+    display: flex;
+    background: var(--br-card);
+    border: 1px solid var(--br-border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    transition: border-color 0.3s, transform 0.3s var(--ease-out-expo);
+    position: relative;
+}
+
+.op-card:hover {
+    border-color: var(--op-color, rgba(255,255,255,0.1));
+    transform: translateY(-2px);
+}
+
+.op-card-accent {
+    width: 4px;
+    flex-shrink: 0;
+}
+
+.op-card-content {
+    flex: 1;
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.op-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.op-card-title {
+    font-family: var(--font-title);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--br-gray-light);
+    margin: 0;
+}
+
+.op-card-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.op-card-desc {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    color: var(--br-gray);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.op-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 4px;
+}
+
+.op-card-stats {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--br-gray);
+    opacity: 0.7;
+}
+
+.op-card-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-family: var(--font-title);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.2s, transform 0.2s;
+    white-space: nowrap;
+}
+
+.op-card-btn:hover {
+    opacity: 0.85;
+    transform: translateY(-1px);
+}
+
 .tag-input-group {
     position: relative;
 }

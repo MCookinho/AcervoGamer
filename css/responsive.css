@@ -289,6 +289,28 @@
         font-size: 0.8rem;
     }
 
+    .op-card-content {
+        padding: 16px 18px;
+    }
+
+    .op-card-title {
+        font-size: 1rem;
+    }
+
+    .op-card-desc {
+        font-size: 0.82rem;
+    }
+
+    .op-card-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .op-card-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
     .soundtrack-item {
         flex-direction: column;
         align-items: flex-start;

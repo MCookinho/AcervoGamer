@@ -1,0 +1,22 @@
+{
+    "cards": [
+        {
+            "title": "GameBanana",
+            "description": "O principal hub de mods para Deltarune. Encontre chapter packs, gameplay mods e muito mais.",
+            "color": "#f5a623",
+            "siteUrl": "https://gamebanana.com/games/8185",
+            "buttonLabel": "ABRIR SITE",
+            "stats": "200+ mods",
+            "badge": "PRINCIPAL"
+        },
+        {
+            "title": "Deltarune Mods Wiki",
+            "description": "Guia completo de todos os mods disponíveis, com tutoriais de instalação e compatibilidade.",
+            "color": "#4a90d9",
+            "siteUrl": "https://deltarunerpg.fandom.com/wiki/Mods",
+            "buttonLabel": "VER WIKI",
+            "stats": "Guias completos",
+            "badge": "REFERÊNCIA"
+        }
+    ]
+}

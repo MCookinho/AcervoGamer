@@ -1,0 +1,22 @@
+{
+    "cards": [
+        {
+            "title": "Nexus Mods",
+            "description": "Explore mods para OMORI, incluindo novos conteúdos, correções e melhorias visuais.",
+            "color": "#1a9f4a",
+            "siteUrl": "https://www.nexusmods.com/omori",
+            "buttonLabel": "ABRIR SITE",
+            "stats": "150+ mods",
+            "badge": "POPULAR"
+        },
+        {
+            "title": "GameBanana",
+            "description": "Comunidade ativa de criadores de mods para OMORI, com projetos originais e conversões.",
+            "color": "#f5a623",
+            "siteUrl": "https://gamebanana.com/games/10272",
+            "buttonLabel": "EXPLORAR",
+            "stats": "100+ mods",
+            "badge": "COMUNIDADE"
+        }
+    ]
+}

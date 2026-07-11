@@ -719,6 +719,54 @@ const Games = {
         return `https://github.com/${this.GITHUB_REPO}/raw/main/data/games/${type}/${slug}/${folderName}/${zipFile}`;
     },
 
+    async fetchOPCards(slug) {
+        const cacheKey = `opcards/${slug}`;
+        if (this._folderCache[cacheKey] !== undefined) return this._folderCache[cacheKey];
+        const lsKey = `acervogamer_${cacheKey}`;
+        try {
+            const raw = localStorage.getItem(lsKey);
+            if (raw) {
+                const { data, ts } = JSON.parse(raw);
+                if (Date.now() - ts < this.CACHE_TTL) { this._folderCache[cacheKey] = data; return data; }
+            }
+        } catch {}
+        const url = `https://raw.githubusercontent.com/${this.GITHUB_REPO}/main/data/games/mods/${slug}/OPCards.json`;
+        try {
+            const res = await fetch(url);
+            if (!res.ok) { this._folderCache[cacheKey] = []; return []; }
+            const json = await res.json();
+            const cards = Array.isArray(json.cards) ? json.cards : [];
+            this._folderCache[cacheKey] = cards;
+            try { localStorage.setItem(lsKey, JSON.stringify({ data: cards, ts: Date.now() })); } catch {}
+            return cards;
+        } catch { this._folderCache[cacheKey] = []; return []; }
+    },
+
+    renderOPCards(cards) {
+        if (!cards || cards.length === 0) return '';
+        return cards.map((c, i) => {
+            const badgeHtml = c.badge ? `<span class="op-card-badge" style="background: ${c.color}">${c.badge}</span>` : '';
+            const statsHtml = c.stats ? `<span class="op-card-stats">${c.stats}</span>` : '';
+            const btnHtml = c.siteUrl ? `<a href="${c.siteUrl}" class="op-card-btn" style="background: ${c.color}" target="_blank">${c.buttonLabel || 'ABRIR SITE'}</a>` : '';
+            return `
+                <div class="op-card animate-in stagger-${i + 1}" style="--op-color: ${c.color}">
+                    <div class="op-card-accent" style="background: ${c.color}"></div>
+                    <div class="op-card-content">
+                        <div class="op-card-header">
+                            <h4 class="op-card-title">${c.title}</h4>
+                            ${badgeHtml}
+                        </div>
+                        <p class="op-card-desc">${c.description}</p>
+                        <div class="op-card-footer">
+                            ${statsHtml}
+                            ${btnHtml}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    },
+
     async renderTranslations(container, game) {
         container.innerHTML = `
             <div class="empty-state">
@@ -772,8 +820,14 @@ const Games = {
                 <div class="empty-state-title">Carregando mods...</div>
             </div>
         `;
-        const folders = await this.fetchFolderItems('mods', game.slug);
-        if (folders.length === 0) {
+        const [folders, opCards] = await Promise.all([
+            this.fetchFolderItems('mods', game.slug),
+            this.fetchOPCards(game.slug)
+        ]);
+        const infos = await Promise.all(folders.map(f => this.fetchInfoJson('mods', game.slug, f.name)));
+        const items = folders.map((f, i) => ({ folder: f.name, info: infos[i] })).filter(i => i.info);
+        const opCardsHtml = this.renderOPCards(opCards);
+        if (items.length === 0 && !opCardsHtml) {
             container.innerHTML = `
                 <div class="empty-state">
                     <div class="empty-state-icon">🔧</div>
@@ -783,9 +837,7 @@ const Games = {
             `;
             return;
         }
-        const infos = await Promise.all(folders.map(f => this.fetchInfoJson('mods', game.slug, f.name)));
-        const items = folders.map((f, i) => ({ folder: f.name, info: infos[i] })).filter(i => i.info);
-        container.innerHTML = items.map((item, i) => {
+        const modsHtml = items.map((item, i) => {
             const m = item.info;
             let actionBtn = '';
             if (m.zipFile) {
@@ -795,7 +847,7 @@ const Games = {
                 actionBtn = `<a href="${m.officialUrl}" class="file-download" target="_blank">ABRIR SITE</a>`;
             }
             return `
-                <div class="mod-item animate-in stagger-${i + 1}">
+                <div class="mod-item animate-in stagger-${Math.min(i + 1, 6)}">
                     <div class="file-icon">🔧</div>
                     <div class="file-info">
                         <div class="file-name">${m.name}</div>
@@ -809,6 +861,7 @@ const Games = {
                 </div>
             `;
         }).join('');
+        container.innerHTML = `${opCardsHtml}${modsHtml}`;
     },
 
     renderSoundtrack(container, game) {
