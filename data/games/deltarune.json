@@ -1711,58 +1711,51 @@
   ],
   "gameplays": [
     {
-      "title": "Deltarune - Gameplay Completo Cap. 1 e 2 (Pt-BR)",
-      "channelName": "LegoGamer202",
-      "channelUrl": "https://www.youtube.com/@LegoGamer202",
-      "embedUrl": "https://www.youtube.com/embed/NI0s3Rf5YXQ",
-      "youtubeUrl": "https://www.youtube.com/watch?v=NI0s3Rf5YXQ"
-    },
-    {
       "title": "DELTARUNE: CAPÍTULO 1",
-      "channelName": "Cellbit",
-      "channelUrl": "https://www.youtube.com/@Cellbits",
+      "channelName": "Cellbit Lives",
+      "channelUrl": "https://www.youtube.com/@CellbitLives",
       "embedUrl": "https://www.youtube.com/embed/w2Hh9Ky_OYs",
       "youtubeUrl": "https://www.youtube.com/watch?v=w2Hh9Ky_OYs"
     },
     {
       "title": "DELTARUNE: CAPÍTULO 5",
-      "channelName": "Cellbit",
-      "channelUrl": "https://www.youtube.com/@Cellbits",
+      "channelName": "Cellbit Lives",
+      "channelUrl": "https://www.youtube.com/@CellbitLives",
       "embedUrl": "https://www.youtube.com/embed/oss7Kve5ju8",
       "youtubeUrl": "https://www.youtube.com/watch?v=oss7Kve5ju8"
     },
     {
       "title": "DeltaRune - Gameplay Completo PT-BR",
-      "channelName": "Gameplay Completo BR",
-      "channelUrl": "https://www.youtube.com/@GameplayCompletoBR",
+      "channelName": "Luskin",
+      "channelUrl": "https://www.youtube.com/@luskin3829",
       "embedUrl": "https://www.youtube.com/embed/3PPXxkJ8Lms",
       "youtubeUrl": "https://www.youtube.com/watch?v=3PPXxkJ8Lms"
     },
     {
-      "title": "DELTARUNE Capítulo 1 – The Beginning",
-      "channelName": "Gameplay Brasil",
-      "channelUrl": "https://www.youtube.com/@GameplayBrasil",
+      "title": "DELTARUNE Capítulo 1 – “The Beginning”",
+      "channelName": "MemeSeedly",
+      "channelUrl": "https://www.youtube.com/@MemeSeedly",
       "embedUrl": "https://www.youtube.com/embed/U-itg0pEo8E",
       "youtubeUrl": "https://www.youtube.com/watch?v=U-itg0pEo8E"
     },
     {
-      "title": "Deltarune Capítulo 1 - Gameplay Completa e Comentada",
-      "channelName": "Gameplay Comentada",
-      "channelUrl": "https://www.youtube.com/@GameplayComentada",
+      "title": "Deltarune Capítulo 1 - Gameplay Completa e Comentada! Descubra Todos os Segredos!",
+      "channelName": "White Knight",
+      "channelUrl": "https://www.youtube.com/@brenoolg",
       "embedUrl": "https://www.youtube.com/embed/vpWQodad0HE",
       "youtubeUrl": "https://www.youtube.com/watch?v=vpWQodad0HE"
     },
     {
-      "title": "Deltarune Capítulo 2 - Gameplay Completo [Legendado PT-BR]",
-      "channelName": "Gameplay Legendado",
-      "channelUrl": "https://www.youtube.com/@GameplayLegendado",
+      "title": "Deltarune Capítulo 2 - Gameplay Completo [Legendado PT-BR | Sem Comentários]",
+      "channelName": "Yokko",
+      "channelUrl": "https://www.youtube.com/@YokkoPlays",
       "embedUrl": "https://www.youtube.com/embed/PnXojULL6Zs",
       "youtubeUrl": "https://www.youtube.com/watch?v=PnXojULL6Zs"
     },
     {
       "title": "Deltarune Capítulo 1 - Gameplay Completo [PT-BR | Sem Comentários]",
       "channelName": "Yokko",
-      "channelUrl": "https://www.youtube.com/@Yokko",
+      "channelUrl": "https://www.youtube.com/@YokkoPlays",
       "embedUrl": "https://www.youtube.com/embed/teO90BWHCD8",
       "youtubeUrl": "https://www.youtube.com/watch?v=teO90BWHCD8"
     },
@@ -1774,11 +1767,18 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=rI30SOhnhtE"
     },
     {
-      "title": "Deltarune Cap 3 - Tradução PT-BR Showcase",
+      "title": "Deltarune Capítulo 3 PT-BR - Trailer",
       "channelName": "Teiarruma",
       "channelUrl": "https://www.youtube.com/@Teiarruma",
       "embedUrl": "https://www.youtube.com/embed/Itfo6HtL5NI",
       "youtubeUrl": "https://www.youtube.com/watch?v=Itfo6HtL5NI"
+    },
+    {
+      "title": "Deltarune Capítulo 1 - Primeira Vez Jogando [Legendado PT-BR | Sem Comentários]",
+      "channelName": "Yokko",
+      "channelUrl": "https://www.youtube.com/@YokkoPlays",
+      "embedUrl": "https://www.youtube.com/embed/TnXJqysGyPY",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TnXJqysGyPY"
     }
   ],
   "_pricesUpdated": "2026-07-11T14:43:58.418Z"
