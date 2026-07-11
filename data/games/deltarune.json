@@ -58,15 +58,6 @@
     ],
     "stores": [
         {
-            "store": "Steam",
-            "url": "https://store.steampowered.com/app/1671210/DELTARUNE/",
-            "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": "US$19.99",
-            "coupon": null,
-            "lastUpdated": "2025-07-10"
-        },
-        {
             "store": "Nintendo eShop",
             "url": "https://www.nintendo.com/pt-br/store/products/deltarune-switch/",
             "platform": "Nintendo Switch",
@@ -1736,5 +1727,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=NI0s3Rf5YXQ"
         }
     ],
-    "_pricesUpdated": "2026-07-11T01:46:25.474Z"
+    "_pricesUpdated": "2026-07-11T08:05:38.782Z"
 }
