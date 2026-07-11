@@ -242,6 +242,25 @@
         text-align: center;
     }
 
+    .req-columns {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .req-field {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .req-value {
+        text-align: left;
+    }
+
+    .platform-badge {
+        padding: 6px 12px;
+        font-size: 0.78rem;
+    }
+
     .soundtrack-item {
         flex-direction: column;
         align-items: flex-start;

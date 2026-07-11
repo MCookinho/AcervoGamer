@@ -13,6 +13,50 @@
   "shortDescription": "Um RPG onde ninguém precisa morrer. Explore um mundo encantador, conheça personagens inesquecíveis e escolha o seu caminho.",
   "fullDescription": "Undertale é um RPG de antologia criado por Toby Fox. Em Undertale, você controla um humano que cai no subsolo, um mundo habitado por monstros. O jogo apresenta mecânicas inovadoras onde você pode falar com monstros, poupá-los ou lutar contra eles. Cada escolha que você faz afeta a história e os personagens ao seu redor, levando a múltiplos finais diferentes. Com uma trilha sonora aclamada, diálogos inteligentes e uma narrativa emocionante, Undertale se tornou um dos jogos indie mais amados de todos os tempos.",
   "trailer": "https://www.youtube.com/embed/1Hojv0m3TqA",
+  "platforms": [
+    {
+      "name": "PC",
+      "requirements": {
+        "minimum": {
+          "os": "Windows XP, Vista, 7, 8 ou 10",
+          "processor": "2GHz+",
+          "memory": "2 GB RAM",
+          "graphics": "128MB",
+          "storage": "200 MB"
+        },
+        "recommended": {
+          "os": "Windows XP, Vista, 7, 8 ou 10",
+          "processor": "2GHz+",
+          "memory": "3 GB RAM",
+          "graphics": "512MB",
+          "storage": "200 MB"
+        }
+      }
+    },
+    { "name": "PlayStation 4" },
+    { "name": "PS Vita" },
+    { "name": "Xbox One" },
+    { "name": "Nintendo Switch" },
+    {
+      "name": "Mobile",
+      "requirements": {
+        "minimum": {
+          "os": "iOS 10+ / Android 5.0+",
+          "processor": "Qualquer processador moderno",
+          "memory": "1 GB RAM",
+          "graphics": "Integrado",
+          "storage": "300 MB"
+        },
+        "recommended": {
+          "os": "iOS 13+ / Android 8.0+",
+          "processor": "Qualquer processador moderno",
+          "memory": "2 GB RAM",
+          "graphics": "Integrado",
+          "storage": "300 MB"
+        }
+      }
+    }
+  ],
   "stores": [
     {
       "store": "Steam",

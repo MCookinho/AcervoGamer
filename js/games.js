@@ -200,6 +200,38 @@ const Games = {
         }
     },
 
+    getPlatformColor(name) {
+        const n = name.toLowerCase();
+        if (n === 'pc') return '#00c853';
+        if (n === 'mobile') return '#9c27b0';
+        if (n.includes('playstation') || n === 'ps4' || n === 'ps5' || n === 'ps vita') return '#2962ff';
+        if (n.includes('xbox')) return '#1b5e20';
+        if (n.includes('nintendo') || n === 'switch') return '#d50000';
+        if (n === 'macos' || n === 'mac') return '#424242';
+        return '#616161';
+    },
+
+    getPlatformIcon(name) {
+        const n = name.toLowerCase();
+        if (n === 'pc') return '💻';
+        if (n === 'mobile') return '📱';
+        if (n.includes('playstation') || n === 'ps4' || n === 'ps5') return '🎮';
+        if (n === 'ps vita') return '🎮';
+        if (n.includes('xbox')) return '🎮';
+        if (n.includes('nintendo') || n === 'switch') return '🎮';
+        if (n === 'macos' || n === 'mac') return '🍎';
+        return '🎮';
+    },
+
+    toggleRequirements(id) {
+        const el = document.getElementById(id);
+        const btn = el?.previousElementSibling;
+        if (!el) return;
+        const isOpen = el.classList.contains('open');
+        el.classList.toggle('open');
+        if (btn) btn.classList.toggle('open');
+    },
+
     renderOverview(container, game) {
         const ageRatingColors = {
             'L': '#00c853',
@@ -219,6 +251,53 @@ const Games = {
         };
         const ratingColor = ageRatingColors[game.ageRating] || '#999';
         const ratingLabel = ageRatingLabels[game.ageRating] || game.ageRating;
+
+        const platforms = game.platforms || [];
+        const platformBadges = platforms.map(p => {
+            const color = this.getPlatformColor(p.name);
+            const icon = this.getPlatformIcon(p.name);
+            return `<span class="platform-badge" style="--badge-color: ${color};">${icon} ${p.name}</span>`;
+        }).join('');
+
+        const reqPlatforms = platforms.filter(p => p.requirements);
+        let requirementsHtml = '';
+        if (reqPlatforms.length > 0) {
+            const panels = reqPlatforms.map(p => {
+                const r = p.requirements;
+                const minFields = Object.entries(r.minimum || {}).map(([k, v]) => {
+                    const labels = { os: 'SO', processor: 'Processador', memory: 'Memória', graphics: 'Placa de Vídeo', storage: 'Armazenamento', directX: 'DirectX' };
+                    return `<div class="req-field"><span class="req-label">${labels[k] || k}</span><span class="req-value">${v}</span></div>`;
+                }).join('');
+                const recFields = Object.entries(r.recommended || {}).map(([k, v]) => {
+                    const labels = { os: 'SO', processor: 'Processador', memory: 'Memória', graphics: 'Placa de Vídeo', storage: 'Armazenamento', directX: 'DirectX' };
+                    return `<div class="req-field"><span class="req-label">${labels[k] || k}</span><span class="req-value">${v}</span></div>`;
+                }).join('');
+                return `
+                    <div class="req-panel">
+                        <h4 class="req-panel-title">${this.getPlatformIcon(p.name)} ${p.name}</h4>
+                        <div class="req-columns">
+                            <div class="req-column">
+                                <h5 class="req-column-title">Mínimos</h5>
+                                ${minFields}
+                            </div>
+                            <div class="req-column">
+                                <h5 class="req-column-title">Recomendados</h5>
+                                ${recFields}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            requirementsHtml = `
+                <button class="requirements-toggle" onclick="Games.toggleRequirements('requirements-content-${game.slug}')">
+                    <span class="requirements-toggle-text">Requisitos de Hardware</span>
+                    <span class="requirements-toggle-arrow">▾</span>
+                </button>
+                <div class="requirements-content" id="requirements-content-${game.slug}">
+                    ${panels}
+                </div>
+            `;
+        }
 
         container.innerHTML = `
             <div class="animate-in">
@@ -247,6 +326,11 @@ const Games = {
                         <div class="p5-stat-label" style="padding-left: 12px;">Classificação Indicativa</div>
                     </div>
                 </div>
+                ${platforms.length > 0 ? `
+                    <h3 style="font-family: var(--font-display); font-size: 1.8rem; letter-spacing: 3px; margin-bottom: 20px; color: var(--br-green);">PLATAFORMAS</h3>
+                    <div class="platforms-list">${platformBadges}</div>
+                    ${requirementsHtml}
+                ` : ''}
                 ${game.trailer ? `
                     <h3 style="font-family: var(--font-display); font-size: 1.8rem; letter-spacing: 3px; margin-bottom: 20px; color: var(--br-green);">TRAILER</h3>
                     <div class="video-embed">
