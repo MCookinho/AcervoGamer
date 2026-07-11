@@ -105,9 +105,21 @@ AcervoGamer/
 │   ├── utils.js               # Helpers, formatação, toasts
 │   └── firebase-config.js     # Configuração Firebase
 ├── data/games/
-│   ├── undertale.json         # Dados completos do Undertale
-│   ├── deltarune.json         # Dados completos do Deltarune
-│   └── omori.json             # Dados completos do Omori
+│   ├── undertale/
+│   │   ├── undertale.json      # Dados completos do Undertale
+│   │   ├── OPCards.json         # Cards opcionais da aba Mods
+│   │   ├── mods/                # Mods do jogo
+│   │   └── translations/        # Traduções do jogo
+│   ├── deltarune/
+│   │   ├── deltarune.json       # Dados completos do Deltarune
+│   │   ├── OPCards.json
+│   │   ├── mods/
+│   │   └── translations/
+│   └── omori/
+│       ├── omori.json           # Dados completos do Omori
+│       ├── OPCards.json
+│       ├── mods/
+│       └── translations/
 ├── assets/videos/hero/        # 19 vídeos de background pixel art
 ├── scripts/
 │   └── fetch-prices.js        # Script de atualização de preços
@@ -179,7 +191,7 @@ python3 -m http.server 8000
 
 ### Adicionar um novo jogo
 
-Para adicionar um jogo ao acervo, crie um novo arquivo JSON em `data/games/` seguindo o schema documentado no campo `_doc` de qualquer JSON existente (ex: `undertale.json`).
+Para adicionar um jogo ao acervo, crie uma pasta em `data/games/{slug}/` com o JSON principal (`{slug}.json`), e opcionalmente pastas `mods/`, `translations/` e um `OPCards.json`.
 
 ---
 

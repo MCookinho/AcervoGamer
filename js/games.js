@@ -1,7 +1,7 @@
 const Games = {
     data: [],
     GITHUB_REPO: 'MCookinho/AcervoGamer',
-    CACHE_KEY: 'acervogamer_games_cache_v2',
+    CACHE_KEY: 'acervogamer_games_cache_v3',
     CACHE_TTL: 1000 * 60 * 30,
     _folderCache: {},
 
@@ -16,16 +16,19 @@ const Games = {
             const apiUrl = `https://api.github.com/repos/${this.GITHUB_REPO}/contents/data/games`;
             const res = await fetch(apiUrl);
             if (!res.ok) throw new Error('GitHub API error');
-            const files = await res.json();
+            const items = await res.json();
 
-            const jsonFiles = files.filter(f =>
-                f.type === 'file' && f.name.endsWith('.json') && f.name !== 'index.json'
+            const gameFolders = items.filter(i =>
+                i.type === 'dir' && i.name !== 'Songs'
             );
 
-            const promises = jsonFiles.map(f =>
-                fetch(f.download_url).then(r => r.json())
+            const promises = gameFolders.map(f =>
+                fetch(`https://raw.githubusercontent.com/${this.GITHUB_REPO}/main/data/games/${f.name}/${f.name}.json`)
+                    .then(r => r.ok ? r.json() : null)
+                    .catch(() => null)
             );
-            this.data = await Promise.all(promises);
+            const results = await Promise.all(promises);
+            this.data = results.filter(Boolean);
             this.setCache(this.data);
         } catch (error) {
             console.error('Erro ao carregar jogos:', error);
@@ -680,7 +683,7 @@ const Games = {
                 if (Date.now() - ts < this.CACHE_TTL) { this._folderCache[cacheKey] = data; return data; }
             }
         } catch {}
-        const apiUrl = `https://api.github.com/repos/${this.GITHUB_REPO}/contents/data/games/${type}/${slug}`;
+        const apiUrl = `https://api.github.com/repos/${this.GITHUB_REPO}/contents/data/games/${slug}/${type}`;
         try {
             const res = await fetch(apiUrl);
             if (!res.ok) { this._folderCache[cacheKey] = []; return []; }
@@ -704,7 +707,7 @@ const Games = {
                 if (Date.now() - ts < this.CACHE_TTL) { this._folderCache[cacheKey] = data; return data; }
             }
         } catch {}
-        const url = `https://raw.githubusercontent.com/${this.GITHUB_REPO}/main/data/games/${type}/${slug}/${folderName}/info.json`;
+        const url = `https://raw.githubusercontent.com/${this.GITHUB_REPO}/main/data/games/${slug}/${type}/${folderName}/info.json`;
         try {
             const res = await fetch(url);
             if (!res.ok) { this._folderCache[cacheKey] = null; return null; }
@@ -716,7 +719,7 @@ const Games = {
     },
 
     getDownloadUrl(type, slug, folderName, zipFile) {
-        return `https://github.com/${this.GITHUB_REPO}/raw/main/data/games/${type}/${slug}/${folderName}/${zipFile}`;
+        return `https://github.com/${this.GITHUB_REPO}/raw/main/data/games/${slug}/${type}/${folderName}/${zipFile}`;
     },
 
     async fetchOPCards(slug) {
@@ -730,7 +733,7 @@ const Games = {
                 if (Date.now() - ts < this.CACHE_TTL) { this._folderCache[cacheKey] = data; return data; }
             }
         } catch {}
-        const url = `https://raw.githubusercontent.com/${this.GITHUB_REPO}/main/data/games/mods/${slug}/OPCards.json`;
+        const url = `https://raw.githubusercontent.com/${this.GITHUB_REPO}/main/data/games/${slug}/OPCards.json`;
         try {
             const res = await fetch(url);
             if (!res.ok) { this._folderCache[cacheKey] = []; return []; }

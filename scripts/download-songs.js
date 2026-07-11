@@ -34,17 +34,20 @@ function sanitizeFilename(str) {
 
 function getGameSlugs() {
     return fs.readdirSync(GAMES_DIR)
-        .filter(f => f.endsWith('.json') && !f.startsWith('_'))
-        .map(f => f.replace('.json', ''));
+        .filter(f => {
+            if (f === 'Songs') return false;
+            const jsonPath = path.join(GAMES_DIR, f, `${f}.json`);
+            return fs.existsSync(jsonPath);
+        });
 }
 
 function loadGame(slug) {
-    const filePath = path.join(GAMES_DIR, `${slug}.json`);
+    const filePath = path.join(GAMES_DIR, slug, `${slug}.json`);
     return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 }
 
 function saveGame(slug, data) {
-    const filePath = path.join(GAMES_DIR, `${slug}.json`);
+    const filePath = path.join(GAMES_DIR, slug, `${slug}.json`);
     fs.writeFileSync(filePath, JSON.stringify(data, null, 4) + '\n', 'utf8');
 }
 

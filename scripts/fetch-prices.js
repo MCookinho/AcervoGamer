@@ -189,11 +189,15 @@ async function main() {
     console.log('=== Atualização de preços ===');
     console.log(`Data: ${new Date().toISOString()}\n`);
 
-    const files = fs.readdirSync(GAMES_DIR)
-        .filter(f => f.endsWith('.json'));
+    const gameFolders = fs.readdirSync(GAMES_DIR)
+        .filter(f => {
+            if (f === 'Songs') return false;
+            const jsonPath = path.join(GAMES_DIR, f, `${f}.json`);
+            return fs.existsSync(jsonPath);
+        });
 
-    for (const file of files) {
-        await processGame(path.join(GAMES_DIR, file));
+    for (const slug of gameFolders) {
+        await processGame(path.join(GAMES_DIR, slug, `${slug}.json`));
     }
 
     console.log('\n=== Concluído ===');
