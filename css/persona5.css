@@ -27,7 +27,7 @@
 
 .p5-card:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 12px 40px rgba(0,200,83,0.15), 0 0 60px rgba(255,214,0,0.08);
+    box-shadow: 0 12px 40px rgba(0,230,118,0.12), 0 0 60px rgba(255,215,64,0.06);
 }
 
 .p5-card-image {
@@ -148,8 +148,9 @@
 
 .p5-section-title {
     font-family: var(--font-display);
-    font-size: 3rem;
-    letter-spacing: 8px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 6px;
     position: relative;
     display: inline-block;
     margin-bottom: 8px;
@@ -176,8 +177,9 @@
 
 .p5-section-subtitle {
     font-family: var(--font-heading);
-    font-size: 1rem;
-    color: var(--br-gray-mid);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--br-gray-light);
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -227,17 +229,17 @@
     padding: 13px 18px;
     background: var(--br-dark);
     border: 1px solid var(--br-border);
-    border-radius: 12px;
+    border-radius: 10px;
     color: var(--br-white);
     font-family: var(--font-body);
-    font-size: 0.92rem;
+    font-size: 0.9rem;
     transition: all 0.3s var(--ease-out-expo);
 }
 
 .p5-input:focus {
     border-color: var(--br-green);
     background: var(--br-darker);
-    box-shadow: 0 0 0 3px rgba(0,200,83,0.1);
+    box-shadow: 0 0 0 3px rgba(0,230,118,0.08);
 }
 
 .p5-input::placeholder {
@@ -249,7 +251,7 @@
     padding: 13px 18px;
     background: var(--br-dark);
     border: 1px solid var(--br-border);
-    border-radius: 12px;
+    border-radius: 10px;
     color: var(--br-white);
     font-family: var(--font-body);
     font-size: 0.92rem;
@@ -267,22 +269,23 @@
 
 .p5-tabs {
     display: flex;
-    gap: 6px;
+    gap: 4px;
     flex-wrap: wrap;
     margin-bottom: 32px;
     padding: 4px;
     background: var(--br-dark);
-    border-radius: 14px;
+    border-radius: 12px;
     border: 1px solid var(--br-border);
 }
 
 .p5-tab {
     padding: 10px 22px;
     font-family: var(--font-display);
-    font-size: 0.9rem;
-    letter-spacing: 2px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 1px;
     color: var(--br-gray-light);
-    border-radius: 10px;
+    border-radius: 8px;
     transition: all 0.3s var(--ease-out-expo);
     position: relative;
 }
@@ -296,7 +299,7 @@
     background: var(--gradient-main);
     background-size: 200% 100%;
     color: var(--br-black);
-    box-shadow: 0 2px 16px rgba(0,200,83,0.3);
+    box-shadow: 0 2px 16px rgba(0,230,118,0.25);
     animation: gradientShift 4s ease infinite;
     text-shadow: none;
 }
@@ -312,13 +315,13 @@
     padding: 16px 20px;
     background: var(--br-card);
     border: 1px solid var(--br-border);
-    border-radius: 12px;
+    border-radius: 10px;
     transition: all 0.3s var(--ease-out-expo);
     margin-bottom: 8px;
 }
 
 .p5-list-item:hover {
-    border-color: rgba(0,200,83,0.25);
+    border-color: rgba(0,230,118,0.2);
     background: var(--br-card-hover);
     transform: translateX(4px);
 }
@@ -326,7 +329,7 @@
 .p5-stat-card {
     background: var(--br-card);
     border: 1px solid var(--br-border);
-    border-radius: 14px;
+    border-radius: 16px;
     padding: 32px 24px;
     text-align: center;
     transition: all 0.4s var(--ease-out-expo);
@@ -349,9 +352,9 @@
 }
 
 .p5-stat-card:hover {
-    border-color: rgba(0,200,83,0.25);
+    border-color: rgba(0,230,118,0.2);
     transform: translateY(-6px);
-    box-shadow: 0 8px 32px rgba(0,200,83,0.12);
+    box-shadow: 0 8px 32px rgba(0,230,118,0.1);
 }
 
 .p5-stat-card:hover::before {
@@ -360,7 +363,8 @@
 
 .p5-stat-number {
     font-family: var(--font-display);
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-weight: 800;
     background: var(--gradient-main);
     background-size: 200% 200%;
     -webkit-background-clip: text;
@@ -391,7 +395,7 @@
     inset: 0;
     background-size: cover;
     background-position: center;
-    filter: brightness(0.3) saturate(1.2);
+    filter: brightness(0.3) saturate(1.3);
     transition: transform 12s ease;
 }
 
@@ -402,7 +406,7 @@
 .p5-game-header-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(8,8,12,0.2) 0%, rgba(8,8,12,0.92) 100%);
+    background: linear-gradient(180deg, rgba(10,10,15,0.15) 0%, rgba(10,10,15,0.95) 100%);
 }
 
 .p5-game-header-content {
@@ -418,8 +422,9 @@
 
 .p5-game-info h1 {
     font-family: var(--font-display);
-    font-size: 4.5rem;
-    letter-spacing: 10px;
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 8px;
     line-height: 1;
     margin-bottom: 12px;
     text-shadow: 0 2px 20px rgba(0,0,0,0.5);
@@ -453,27 +458,27 @@
 }
 
 .forum-card:hover {
-    border-color: rgba(0,200,83,0.25);
+    border-color: rgba(0,230,118,0.2);
     transform: translateX(4px);
     box-shadow: var(--shadow-sm);
 }
 
 .forum-card-title {
     font-family: var(--font-heading);
-    font-size: 1.05rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 600;
     margin-bottom: 6px;
 }
 
 .forum-card-meta {
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     color: var(--br-gray-light);
     display: flex;
     gap: 16px;
 }
 
 .forum-card-excerpt {
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     color: var(--br-gray-light);
     margin-top: 8px;
     line-height: 1.5;
@@ -488,7 +493,7 @@
 }
 
 .profile-card:hover {
-    border-color: rgba(0,200,83,0.25);
+    border-color: rgba(0,230,118,0.2);
     transform: translateY(-6px);
     box-shadow: var(--shadow-lg);
 }
