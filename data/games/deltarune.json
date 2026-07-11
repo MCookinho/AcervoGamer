@@ -41,10 +41,10 @@
             "store": "Steam",
             "url": "https://store.steampowered.com/app/1671210/DELTARUNE/",
             "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": "US$19.99",
+            "price": 73.99,
+            "priceOriginal": "R$ 73,99",
             "coupon": null,
-            "lastUpdated": "2025-07-10"
+            "lastUpdated": "2026-07-11"
         },
         {
             "store": "Nintendo eShop",
@@ -1716,5 +1716,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=NI0s3Rf5YXQ"
         }
     ],
-    "_pricesUpdated": "2026-07-11T13:41:24.389Z"
+    "_pricesUpdated": "2026-07-11T14:29:22.018Z"
 }

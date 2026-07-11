@@ -3,7 +3,6 @@ const fs = require('fs');
 const path = require('path');
 
 const GAMES_DIR = path.join(__dirname, '..', 'data', 'games');
-const USD_TO_BRL = 5.80;
 
 function fetch(url) {
     return new Promise((resolve, reject) => {
@@ -12,7 +11,7 @@ function fetch(url) {
             res.on('data', chunk => data += chunk);
             res.on('end', () => {
                 try { resolve(JSON.parse(data)); }
-                catch { reject(new Error('JSON parse error')); }
+                catch { reject(new Error(`JSON parse error: ${data.slice(0, 200)}`)); }
             });
         }).on('error', reject);
     });
@@ -22,12 +21,25 @@ function sleep(ms) {
     return new Promise(r => setTimeout(r, ms));
 }
 
+function extractSteamAppId(url) {
+    const match = url.match(/\/app\/(\d+)\//);
+    return match ? match[1] : null;
+}
+
+async function getSteamPrice(appId) {
+    const url = `https://store.steampowered.com/api/appdetails?appids=${appId}&cc=br&filters=price_overview`;
+    const data = await fetch(url);
+    if (data && data[appId] && data[appId].success && data[appId].data.price_overview) {
+        const p = data[appId].data.price_overview;
+        return { price: p.final / 100, priceOriginal: p.final_formatted };
+    }
+    return null;
+}
+
 async function searchGame(title) {
     const query = encodeURIComponent(title);
     const url = `https://www.cheapshark.com/api/1.0/games?title=${query}&limit=5&exact=0`;
-    const games = await fetch(url);
-    if (!games || games.length === 0) return null;
-    return games[0];
+    return await fetch(url);
 }
 
 async function getGameDeals(gameId) {
@@ -36,14 +48,12 @@ async function getGameDeals(gameId) {
 }
 
 function toBRL(usd) {
-    return Math.round(usd * USD_TO_BRL * 100) / 100;
+    return Math.round(usd * 5.80 * 100) / 100;
 }
 
 const PC_STORES = {
-    1: { name: 'Steam', platform: 'PC' },
     7: { name: 'GOG', platform: 'PC' },
     11: { name: 'Humble Bundle', platform: 'PC' },
-    13: { name: 'Uplay', platform: 'PC' },
     15: { name: 'Fanatical', platform: 'PC' },
     21: { name: 'WinGameStore', platform: 'PC' },
     23: { name: 'GameBillet', platform: 'PC' },
@@ -53,7 +63,6 @@ const PC_STORES = {
     28: { name: 'Gamesload', platform: 'PC' },
     29: { name: '2Game', platform: 'PC' },
     30: { name: 'IndieGala', platform: 'PC' },
-    31: { name: 'Blizzard', platform: 'PC' },
     33: { name: 'DLGamer', platform: 'PC' },
     34: { name: 'Noctre', platform: 'PC' },
     35: { name: 'DreamGame', platform: 'PC' },
@@ -63,90 +72,130 @@ async function processGame(filePath) {
     const raw = fs.readFileSync(filePath, 'utf-8');
     const game = JSON.parse(raw);
     const gameName = game.name;
-    const gameSlug = game.slug;
     const existingStores = game.stores || [];
 
-    console.log(`Buscando preços para: ${gameName}`);
+    console.log(`\n--- ${gameName} ---`);
 
+    // 1. Steam via Steam API (preço regional BRL)
+    const steamStore = existingStores.find(s => s.store === 'Steam');
+    if (steamStore) {
+        const appId = extractSteamAppId(steamStore.url);
+        if (appId) {
+            try {
+                const sp = await getSteamPrice(appId);
+                if (sp) {
+                    steamStore.price = sp.price;
+                    steamStore.priceOriginal = sp.priceOriginal;
+                    steamStore.lastUpdated = new Date().toISOString().split('T')[0];
+                    console.log(`  Steam: R$${sp.price.toFixed(2)} (${sp.priceOriginal})`);
+                } else {
+                    console.log(`  Steam: preço não disponível`);
+                }
+            } catch (e) {
+                console.log(`  Steam: erro - ${e.message}`);
+            }
+            await sleep(300);
+        }
+    }
+
+    // 2. Eneba via Steam API (mesmo appId da Steam)
+    const enebaStore = existingStores.find(s => s.store === 'Eneba');
+    const steamAppId = extractSteamAppId(steamStore?.url || '');
+    if (enebaStore && steamAppId) {
+        try {
+            const ep = await getSteamPrice(steamAppId);
+            if (ep) {
+                enebaStore.price = ep.price;
+                enebaStore.priceOriginal = ep.priceOriginal;
+                enebaStore.lastUpdated = new Date().toISOString().split('T')[0];
+                console.log(`  Eneba: R$${ep.price.toFixed(2)} (${ep.priceOriginal})`);
+            }
+        } catch (e) {
+            console.log(`  Eneba: erro - ${e.message}`);
+        }
+        await sleep(300);
+    }
+
+    // 3. Outras lojas PC via CheapShark (USD, convertido)
     let gameInfo = null;
     try {
-        gameInfo = await searchGame(gameName);
+        const games = await searchGame(gameName);
+        if (games && games.length > 0) gameInfo = games[0];
     } catch (e) {
-        console.log(`  Erro ao buscar ${gameName}: ${e.message}`);
+        console.log(`  CheapShark busca: ${e.message}`);
     }
 
     let cheapDeals = [];
     if (gameInfo) {
-        console.log(`  Encontrado no CheapShark (ID: ${gameInfo.gameID}), buscando ofertas...`);
         try {
             const details = await getGameDeals(gameInfo.gameID);
-            if (details && details.deals) {
-                cheapDeals = details.deals;
-            }
+            if (details && details.deals) cheapDeals = details.deals;
         } catch (e) {
-            console.log(`  Erro ao buscar deals: ${e.message}`);
+            console.log(`  CheapShark deals: ${e.message}`);
         }
-        await sleep(200);
+        await sleep(300);
     }
 
-    const stores = [];
     const cheapByStore = {};
-    for (const deal of cheapDeals) {
-        cheapByStore[deal.storeID] = deal;
-    }
+    for (const deal of cheapDeals) cheapByStore[deal.storeID] = deal;
 
-    for (const storeId of Object.keys(PC_STORES)) {
+    for (const [storeId, storeInfo] of Object.entries(PC_STORES)) {
         const deal = cheapByStore[storeId];
-        const storeInfo = PC_STORES[storeId];
         const existing = existingStores.find(s => s.store === storeInfo.name);
         const coupon = existing?.coupon || null;
 
         if (deal) {
             const salePrice = parseFloat(deal.salePrice);
-            const normalPrice = parseFloat(deal.normalPrice);
             if (isNaN(salePrice) || salePrice <= 0) continue;
-            stores.push({
+
+            const directUrl = existing?.url || `https://www.cheapshark.com/redirect?dealID=${deal.dealID}`;
+            const entry = {
                 store: storeInfo.name,
-                url: `https://www.cheapshark.com/redirect?dealID=${deal.dealID}`,
+                url: directUrl,
                 platform: storeInfo.platform,
                 price: toBRL(salePrice),
-                priceOriginal: `$${salePrice}`,
+                priceOriginal: `$${salePrice.toFixed(2)} USD`,
                 coupon: coupon,
                 lastUpdated: new Date().toISOString().split('T')[0]
-            });
-        } else if (existing && existing.price > 0) {
-            stores.push(existing);
+            };
+            const idx = existingStores.findIndex(s => s.store === storeInfo.name);
+            if (idx >= 0) existingStores[idx] = entry;
+            else existingStores.push(entry);
         }
     }
 
+    // 4. Lojas de console (mantidas manuais)
     const consoleStores = existingStores.filter(s =>
+        s.store !== 'Steam' && s.store !== 'Eneba' &&
         !Object.values(PC_STORES).some(ps => ps.name === s.store)
     );
-    for (const cs of consoleStores) {
-        stores.push(cs);
-    }
 
-    stores.sort((a, b) => (a.price || 9999) - (b.price || 9999));
+    const allStores = [...existingStores.filter(s =>
+        s.store === 'Steam' || s.store === 'Eneba' ||
+        Object.values(PC_STORES).some(ps => ps.name === s.store)
+    ), ...consoleStores];
 
-    game.stores = stores;
+    allStores.sort((a, b) => (a.price || 9999) - (b.price || 9999));
+
+    game.stores = allStores;
     game._pricesUpdated = new Date().toISOString();
 
     fs.writeFileSync(filePath, JSON.stringify(game, null, 4));
-    console.log(`  Salvo ${stores.length} lojas em ${path.basename(filePath)}`);
+    console.log(`  Total: ${allStores.length} lojas salvas`);
 }
 
 async function main() {
-    console.log('=== Atualizando preços ===');
-    console.log(`Câmbio USD->BRL: ${USD_TO_BRL}`);
+    console.log('=== Atualização de preços ===');
+    console.log(`Data: ${new Date().toISOString()}\n`);
 
     const files = fs.readdirSync(GAMES_DIR)
-        .filter(f => f.endsWith('.json') && f !== 'index.json');
+        .filter(f => f.endsWith('.json'));
 
     for (const file of files) {
         await processGame(path.join(GAMES_DIR, file));
     }
 
-    console.log('=== Concluído ===');
+    console.log('\n=== Concluído ===');
 }
 
 main().catch(console.error);
