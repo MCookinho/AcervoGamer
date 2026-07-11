@@ -218,10 +218,10 @@ const Games = {
                         <div class="p5-stat-label">Ano de Lançamento</div>
                     </div>
                 </div>
-                ${game.videoPreview ? `
+                ${game.Trailer ? `
                     <h3 style="font-family: var(--font-display); font-size: 1.8rem; letter-spacing: 3px; margin-bottom: 20px; color: var(--br-green);">TRAILER</h3>
                     <div class="video-embed">
-                        <iframe src="${game.videoPreview}" allowfullscreen></iframe>
+                        <iframe src="${game.Trailer}" allowfullscreen></iframe>
                     </div>
                 ` : ''}
             </div>
