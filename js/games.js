@@ -229,16 +229,16 @@ const Games = {
                         <div class="p5-stat-label">Gênero</div>
                     </div>
                     <div class="p5-stat-card">
+                        <div class="p5-stat-number" style="font-size: 1.5rem;">${game.productionScale || '—'}</div>
+                        <div class="p5-stat-label">Escala de Produção</div>
+                    </div>
+                    <div class="p5-stat-card">
                         <div class="p5-stat-number" style="font-size: 1.5rem;">${game.developer}</div>
                         <div class="p5-stat-label">Desenvolvedor</div>
                     </div>
                     <div class="p5-stat-card">
                         <div class="p5-stat-number" style="font-size: 1.5rem;">${game.year}</div>
                         <div class="p5-stat-label">Ano de Lançamento</div>
-                    </div>
-                    <div class="p5-stat-card">
-                        <div class="p5-stat-number" style="font-size: 1.5rem;">${game.productionScale || '—'}</div>
-                        <div class="p5-stat-label">Escala de Produção</div>
                     </div>
                     <div class="p5-stat-card" style="position: relative; overflow: hidden;">
                         <div style="position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: ${ratingColor}; border-radius: 2px;"></div>
