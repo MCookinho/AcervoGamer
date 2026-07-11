@@ -1,0 +1,31 @@
+{
+    "cards": [
+        {
+            "title": "GameBanana — EH Hub",
+            "description": "Hub comunitário de mods para Everhood. Tutoriais, recursos de modding e uma comunidade ativa de criadores. O principal ponto de encontro da comunidade de modding de Everhood.",
+            "color": "#f5a623",
+            "siteUrl": "https://gamebanana.com/games/11626",
+            "buttonLabel": "EXPLORAR",
+            "stats": "Comunidade ativa",
+            "badge": "COMUNIDADE"
+        },
+        {
+            "title": "Discord Oficial",
+            "description": "Junte-se à comunidade oficial de Everhood no Discord. Converse com outros jogadores, participe de discussões sobre a história, compartilhe gameplay e fique por dentro das novidades.",
+            "color": "#5865F2",
+            "siteUrl": "https://discord.gg/fwEed4F",
+            "buttonLabel": "ENTRAR",
+            "stats": "Servidor ativo",
+            "badge": "SOCIAL"
+        },
+        {
+            "title": "Foreign Gnomes — Bandcamp",
+            "description": "Ouça a trilha sonora completa de Everhood no Bandcamp. 96 faixas musicais de Chris Nordgren, Cazok, Dancefloor Is Lava e outros artistas. Disponível para compra em alta qualidade.",
+            "color": "#629aa9",
+            "siteUrl": "https://foreigngnomes.bandcamp.com/album/everhood-game-soundtrack",
+            "buttonLabel": "OUVIR",
+            "stats": "96 faixas",
+            "badge": "TRILHA SONORA"
+        }
+    ]
+}

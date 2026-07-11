@@ -1,0 +1,286 @@
+{
+  "name": "Everhood",
+  "slug": "everhood",
+  "genre": "Aventura / RPG / Ritmo",
+  "developer": "Chris Nordgren & Jordi Roca (Foreign Gnomes)",
+  "year": 2021,
+  "productionScale": "Indie",
+  "ageRating": "12",
+  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1229380/header.jpg",
+  "previewGif": "https://cdn.akamai.steamstatic.com/steam/apps/1229380/capsule_616x353.jpg",
+  "background": "https://cdn.akamai.steamstatic.com/steam/apps/1229380/page_bg_generated_v6b.jpg",
+  "bannerGif": null,
+  "shortDescription": "Um RPG de aventura musical onde você controla uma marionete de madeira em uma jornada psicodélica por um mundo surreal. Prepare-se para batalhas musicais intensas e uma história que desafia a compreensão.",
+  "fullDescription": "Everhood é um RPG de aventura musical único, desenvolvido por Chris Nordgren e Jordi Roca sob o estúdio Foreign Gnomes. Você controla Red, uma marionete de madeira que acorda em uma floresta sem um de seus braços, roubado por um misterioso gnomos azul. A busca pelo braço perdido se transforma em uma jornada surreal por um mundo vibrante e psicodélico habitado por personagens excêntricos e inesquecíveis. O grande diferencial de Everhood é seu sistema de batalhas baseado em ritmo: ao invés de combates tradicionais, os confrontos acontecem em cinco pistas horizontais onde você deve desviar de ataques sincronizados com trilhas sonoras eletrizantes. Com mais de 90 faixas musicais originais, múltiplos finais e um universo repleto de mistérios, Everhood oferece uma experiência que mistura Undertale, Crypt of the Necrodancer e Guitar Hero em uma aventura completamente Original.",
+  "trailer": "https://www.youtube.com/embed/o2MEgLZzC1o",
+  "platforms": [
+    {
+      "name": "PC",
+      "requirements": {
+        "minimum": {
+          "os": "Windows XP, Vista, 7, 8 ou 10 (64-bit)",
+          "processor": "Qualquer processador moderno",
+          "memory": "2 GB RAM",
+          "graphics": "128MB",
+          "storage": "400 MB"
+        },
+        "recommended": {
+          "os": "Windows XP, Vista, 7, 8 ou 10 (64-bit)",
+          "processor": "2GHz+",
+          "memory": "3 GB RAM",
+          "graphics": "512MB",
+          "storage": "400 MB"
+        }
+      }
+    },
+    { "name": "Nintendo Switch" },
+    { "name": "PlayStation 4" },
+    { "name": "PlayStation 5" },
+    { "name": "Xbox One" },
+    { "name": "Xbox Series" }
+  ],
+  "stores": [
+    {
+      "store": "Steam",
+      "url": "https://store.steampowered.com/app/1229380/Everhood/",
+      "platform": "PC",
+      "price": 29.99,
+      "priceOriginal": "R$ 29,99",
+      "coupon": null,
+      "lastUpdated": "2026-07-11"
+    },
+    {
+      "store": "Eneba",
+      "url": "https://www.eneba.com/steam-everhood",
+      "platform": "PC",
+      "price": 29.99,
+      "priceOriginal": "R$ 29,99",
+      "coupon": null,
+      "lastUpdated": "2026-07-11"
+    },
+    {
+      "store": "GOG",
+      "url": "https://www.gog.com/game/everhood",
+      "platform": "PC",
+      "price": 57.94,
+      "priceOriginal": "US$9.99",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "Humble Bundle",
+      "url": "https://www.humblebundle.com/store/everhood",
+      "platform": "PC",
+      "price": 57.94,
+      "priceOriginal": "US$9.99",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "Nintendo eShop",
+      "url": "https://www.nintendo.com/pt-br/store/products/everhood-switch/",
+      "platform": "Nintendo Switch",
+      "price": 52,
+      "priceOriginal": "R$52,00",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "PlayStation Store",
+      "url": "https://store.playstation.com/pt-br/category/everhood",
+      "platform": "PS4 / PS5",
+      "price": 52.9,
+      "priceOriginal": "R$52,90",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "Xbox Store",
+      "url": "https://www.xbox.com/pt-br/games/store/everhood/9p4nhnq7fcs1",
+      "platform": "Xbox One / Series X|S",
+      "price": 52.9,
+      "priceOriginal": "R$52,90",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    }
+  ],
+  "soundtrack": [
+    {
+      "title": "Evigheten",
+      "artist": "Chris Nordgren",
+      "duration": "2:55",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Blue's Theme",
+      "artist": "Chris Nordgren",
+      "duration": "1:05",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Frogs Are Friends",
+      "artist": "Chris Nordgren",
+      "duration": "1:59",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Tinnitus Dance",
+      "artist": "Dancefloor Is Lava",
+      "duration": "4:39",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Seeing Red",
+      "artist": "Cazok",
+      "duration": "1:29",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "You Want Gnomes",
+      "artist": "Chris Nordgren",
+      "duration": "4:15",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "In A Peculiar Place",
+      "artist": "Chris Nordgren",
+      "duration": "2:08",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Sprunkel",
+      "artist": "Chris Nordgren",
+      "duration": "2:51",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Space Dub Town",
+      "artist": "Chris Nordgren",
+      "duration": "2:27",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Lab Music",
+      "artist": "Chris Nordgren",
+      "duration": "1:53",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "The Cursed Castle",
+      "artist": "Chris Nordgren",
+      "duration": "0:58",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Desolation",
+      "artist": "Chris Nordgren",
+      "duration": "1:37",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Ghostly Affairs",
+      "artist": "Chris Nordgren",
+      "duration": "1:07",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "OWOL's Theme",
+      "artist": "Lewmoth",
+      "duration": "1:35",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "The Abyss",
+      "artist": "Cazok",
+      "duration": "2:48",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "The Playroom",
+      "artist": "Cazok",
+      "duration": "2:30",
+      "spotifyUrl": "https://open.spotify.com/album/0N4skiYNHxxu8SxjeT0oAo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Feisty Flowers",
+      "artist": "Cazok",
+      "duration": "2:15",
+      "spotifyUrl": "https://open.spotify.com/album/0N4skiYNHxxu8SxjeT0oAo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Reconciliation",
+      "artist": "KM_EXP",
+      "duration": "3:20",
+      "spotifyUrl": "https://open.spotify.com/album/0N4skiYNHxxu8SxjeT0oAo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Euthanasia Rollercoaster",
+      "artist": "KM_EXP",
+      "duration": "4:45",
+      "spotifyUrl": "https://open.spotify.com/album/0N4skiYNHxxu8SxjeT0oAo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "The Final Battle",
+      "artist": "Cazok",
+      "duration": "3:50",
+      "spotifyUrl": "https://open.spotify.com/album/0N4skiYNHxxu8SxjeT0oAo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "Credits",
+      "artist": "Chris Nordgren",
+      "duration": "1:21",
+      "spotifyUrl": "https://open.spotify.com/album/0N4skiYNHxxu8SxjeT0oAo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    },
+    {
+      "title": "At Peace",
+      "artist": "Chris Nordgren",
+      "duration": "1:29",
+      "spotifyUrl": "https://open.spotify.com/album/0N4skiYNHxxu8SxjeT0oAo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o2MEgLZzC1o"
+    }
+  ],
+  "gameplays": [
+    {
+      "title": "Everhood Gameplay COMPLETA em PT-BR (Sem comentários)",
+      "channelName": "Gameplay BR",
+      "channelUrl": "https://www.youtube.com/watch?v=SqlXD2xVWvw",
+      "embedUrl": "https://www.youtube.com/embed/SqlXD2xVWvw",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SqlXD2xVWvw"
+    },
+    {
+      "title": "ESSE JOGO QUEBROU MINHA MENTE! - Everhood Gameplay Dublado PT-BR #1",
+      "channelName": "Youtuber BR",
+      "channelUrl": "https://www.youtube.com/watch?v=JCYZa2lLPhs",
+      "embedUrl": "https://www.youtube.com/embed/JCYZa2lLPhs",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JCYZa2lLPhs"
+    },
+    {
+      "title": "Everhood: Eternity Edition (PS5) - Gameplay - Primeiros 34 Minutos",
+      "channelName": "Canal BR",
+      "channelUrl": "https://www.youtube.com/watch?v=wWCRI9bcAh4",
+      "embedUrl": "https://www.youtube.com/embed/wWCRI9bcAh4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wWCRI9bcAh4"
+    }
+  ]
+}
