@@ -12,8 +12,8 @@
         "fullDescription": "Descrição completa do jogo. Exibida na aba 'Visão Geral' da página de detalhes.",
         "videoPreview": "URL de embed do YouTube do trailer do jogo (formato: https://www.youtube.com/embed/{ID}). Exibido na aba 'Visão Geral'. Se omitido, aba sem trailer.",
         "previewGif": "URL de um GIF animado do jogo. Exibido como preview ao passar o mouse sobre o card (hover). Se omitido, card mostra apenas a capa estática.",
-        "translations": "Lista de traduções disponíveis para o jogo. Cada item deve ter: name, version, date (YYYY-MM-DD), size, downloadUrl",
-        "mods": "Lista de mods disponíveis para o jogo. Cada item deve ter: name, version, author, downloadUrl, nexusUrl (opcional)",
+        "translations": "Lista de traduções disponíveis para o jogo. Cada item deve ter: name, version, date (YYYY-MM-DD), size, downloadUrl, officialUrl (opcional - URL do site oficial da tradução. Se ausente, nenhum link 'Oficial' é exibido)",
+        "mods": "Lista de mods disponíveis para o jogo. Cada item deve ter: name, version, author, downloadUrl, officialUrl (opcional - URL do site oficial do mod. Se ausente, nenhum link 'Oficial' é exibido)",
         "soundtrack": "Lista de músicas da trilha sonora. Cada item deve ter: title, artist, spotifyUrl (opcional), youtubeUrl (opcional)",
         "gameplays": "Lista de vídeos de gameplay. Cada item deve ter: title, embedUrl (YouTube embed), youtubeUrl (link direto)"
     },
@@ -53,14 +53,13 @@
             "version": "1.2",
             "author": "Community",
             "downloadUrl": "#",
-            "nexusUrl": "https://www.nexusmods.com/omori"
+            "officialUrl": "https://www.nexusmods.com/omori"
         },
         {
             "name": "Omori Hard Mode",
             "version": "1.0",
             "author": "Community",
-            "downloadUrl": "#",
-            "nexusUrl": ""
+            "downloadUrl": "#"
         }
     ],
 

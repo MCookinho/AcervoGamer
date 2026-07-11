@@ -243,6 +243,7 @@ const Games = {
                         <span>Versão: ${t.version}</span>
                         <span>Data: ${Utils.formatDate(t.date)}</span>
                         <span>Tamanho: ${t.size}</span>
+                        ${t.officialUrl ? `<a href="${t.officialUrl}" target="_blank" style="color: var(--br-green-light);">Oficial ↗</a>` : ''}
                     </div>
                 </div>
                 <a href="${t.downloadUrl}" class="file-download" target="_blank">BAIXAR</a>
@@ -270,7 +271,7 @@ const Games = {
                     <div class="file-meta">
                         <span>Versão: ${m.version}</span>
                         <span>Autor: ${m.author}</span>
-                        ${m.nexusUrl ? `<a href="${m.nexusUrl}" target="_blank" style="color: var(--br-green-light);">NexusMods ↗</a>` : ''}
+                        ${m.officialUrl ? `<a href="${m.officialUrl}" target="_blank" style="color: var(--br-green-light);">Oficial ↗</a>` : ''}
                     </div>
                 </div>
                 <a href="${m.downloadUrl}" class="file-download" target="_blank">BAIXAR</a>
