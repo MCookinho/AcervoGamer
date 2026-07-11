@@ -65,6 +65,7 @@ const Games = {
                 <div class="p5-card game-card-inner" onclick="Router.goTo('#/jogos/${game.slug}')">
                     <div class="p5-card-image">
                         <img src="${game.cover}" alt="${game.name}" loading="lazy">
+                        ${game.previewGif ? `<img class="card-gif" src="${game.previewGif}" alt="${game.name} preview" loading="lazy">` : ''}
                         <div class="p5-card-image-overlay"></div>
                         <div class="p5-card-badge">${game.genre}</div>
                     </div>
@@ -89,6 +90,7 @@ const Games = {
                 <div class="p5-card game-card-inner" onclick="Router.goTo('#/jogos/${game.slug}')">
                     <div class="p5-card-image">
                         <img src="${game.cover}" alt="${game.name}" loading="lazy">
+                        ${game.previewGif ? `<img class="card-gif" src="${game.previewGif}" alt="${game.name} preview" loading="lazy">` : ''}
                         <div class="p5-card-image-overlay"></div>
                         <div class="p5-card-badge">${game.genre}</div>
                     </div>
@@ -210,18 +212,11 @@ const Games = {
                         <div class="p5-stat-label">Ano de Lançamento</div>
                     </div>
                 </div>
-                ${game.videoPreview || game.previewGif ? `
+                ${game.videoPreview ? `
                     <h4 style="font-family: var(--font-display); font-size: 1.3rem; letter-spacing: 2px; margin-bottom: 16px;">TRAILER</h4>
-                    ${game.previewGif ? `
-                        <div style="margin-bottom: 16px; border-radius: 12px; overflow: hidden; border: 1px solid var(--br-border);">
-                            <img src="${game.previewGif}" alt="${game.name} preview" style="width: 100%; display: block;">
-                        </div>
-                    ` : ''}
-                    ${game.videoPreview ? `
-                        <div class="video-embed">
-                            <iframe src="${game.videoPreview}" allowfullscreen></iframe>
-                        </div>
-                    ` : ''}
+                    <div class="video-embed">
+                        <iframe src="${game.videoPreview}" allowfullscreen></iframe>
+                    </div>
                 ` : ''}
             </div>
         `;
