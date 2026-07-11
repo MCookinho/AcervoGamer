@@ -1,22 +1,31 @@
 {
     "cards": [
         {
-            "title": "GameBanana",
-            "description": "O principal hub de mods para Deltarune. Encontre chapter packs, gameplay mods e muito mais.",
-            "color": "#f5a623",
-            "siteUrl": "https://gamebanana.com/games/8185",
+            "title": "Nexus Mods",
+            "description": "25 mods para DELTARUNE, incluindo traduções, ferramentas de modding e ajustes de gameplay. Gerenciamento via Vortex disponível.",
+            "color": "#1a9f4a",
+            "siteUrl": "https://www.nexusmods.com/deltarune",
             "buttonLabel": "ABRIR SITE",
-            "stats": "200+ mods",
-            "badge": "PRINCIPAL"
+            "stats": "25 mods",
+            "badge": "POPULAR"
         },
         {
-            "title": "Deltarune Mods Wiki",
-            "description": "Guia completo de todos os mods disponíveis, com tutoriais de instalação e compatibilidade.",
+            "title": "GameBanana — DR Hub",
+            "description": "Hub comunitário de mods para DELTARUNE. Multiplayer mods, gameplay adjustments, ferramentas de modding e tutoriais de instalação.",
+            "color": "#f5a623",
+            "siteUrl": "https://gamebanana.com/games/6755",
+            "buttonLabel": "EXPLORAR",
+            "stats": "Comunidade ativa",
+            "badge": "COMUNIDADE"
+        },
+        {
+            "title": "Deltamod — Ferramenta de Modding",
+            "description": "Ferramenta oficial de modding para DELTARUNE. Crie e instale seus próprios mods com suporte a capítulos completos.",
             "color": "#4a90d9",
-            "siteUrl": "https://deltarunerpg.fandom.com/wiki/Mods",
-            "buttonLabel": "VER WIKI",
-            "stats": "Guias completos",
-            "badge": "REFERÊNCIA"
+            "siteUrl": "https://gamebanana.com/tools/20575",
+            "buttonLabel": "BAIXAR",
+            "stats": "Ferramenta oficial",
+            "badge": "FERRAMENTA"
         }
     ]
 }

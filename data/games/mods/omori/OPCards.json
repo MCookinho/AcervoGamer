@@ -2,20 +2,29 @@
     "cards": [
         {
             "title": "Nexus Mods",
-            "description": "Explore mods para OMORI, incluindo novos conteúdos, correções e melhorias visuais.",
+            "description": "15 mods para OMORI na maior plataforma de mods do mundo. Traduções, correções e conteúdo personalizado com gerenciamento via Vortex.",
             "color": "#1a9f4a",
             "siteUrl": "https://www.nexusmods.com/omori",
             "buttonLabel": "ABRIR SITE",
-            "stats": "150+ mods",
+            "stats": "15 mods",
             "badge": "POPULAR"
         },
         {
-            "title": "GameBanana",
-            "description": "Comunidade ativa de criadores de mods para OMORI, com projetos originais e conversões.",
-            "color": "#f5a623",
-            "siteUrl": "https://gamebanana.com/games/10272",
+            "title": "mods.one",
+            "description": "O principal hub de mods para OMORI. REVERIE, THE DREAMER, AUTUMN BREAK e dezenas de outros mods com mais de 120k downloads no total.",
+            "color": "#9b59b6",
+            "siteUrl": "https://mods.one",
             "buttonLabel": "EXPLORAR",
-            "stats": "100+ mods",
+            "stats": "120k+ downloads",
+            "badge": "PRINCIPAL"
+        },
+        {
+            "title": "GameBanana — OMORI Hub",
+            "description": "Comunidade de mods para OMORI com console content, border mods e ferramentas de modding. Tutoriais para iniciantes.",
+            "color": "#f5a623",
+            "siteUrl": "https://gamebanana.com/games/8975",
+            "buttonLabel": "VER COMUNIDADE",
+            "stats": "Comunidade ativa",
             "badge": "COMUNIDADE"
         }
     ]

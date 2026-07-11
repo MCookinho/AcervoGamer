@@ -2,21 +2,30 @@
     "cards": [
         {
             "title": "Nexus Mods",
-            "description": "A maior plataforma de mods do mundo. Explore centenas de mods para Undertale com instalação fácil e gerenciamento.",
+            "description": "A maior plataforma de mods do mundo. Explore 28 mods para Undertale, incluindo traduções, gameplay mods e conteúdo personalizado. Suporte a gerenciamento via Vortex.",
             "color": "#1a9f4a",
             "siteUrl": "https://www.nexusmods.com/undertale",
             "buttonLabel": "ABRIR SITE",
-            "stats": "500+ mods",
+            "stats": "28 mods",
             "badge": "POPULAR"
         },
         {
-            "title": "GameBanana",
-            "description": "Comunidade criativa de mods, skins e conteúdo personalizado para Undertale.",
+            "title": "GameBanana — UT Hub",
+            "description": "Hub comunitário oficial de mods para Undertale. Tutoriais, recursos de modding e uma comunidade ativa de criadores.",
             "color": "#f5a623",
-            "siteUrl": "https://gamebanana.com/games/5736",
+            "siteUrl": "https://gamebanana.com/games/5506",
             "buttonLabel": "EXPLORAR",
-            "stats": "300+ mods",
+            "stats": "Comunidade ativa",
             "badge": "COMUNIDADE"
+        },
+        {
+            "title": "ModDB",
+            "description": "53 mods disponíveis, incluindo randomizers, conversion mods e total conversions. Uma das maiores coleções de mods de Undertale.",
+            "color": "#e74c3c",
+            "siteUrl": "https://www.moddb.com/games/undertale/mods",
+            "buttonLabel": "VER MODS",
+            "stats": "53 mods",
+            "badge": "CATÁLOGO"
         }
     ]
 }
