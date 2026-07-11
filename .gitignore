@@ -1,4 +1,1 @@
-data/games/Songs/**/*.mp3
-data/games/Songs/**/*.mp4
-data/games/Songs/**/*.webm
-data/games/Songs/**/*.part
+data/games/Songs/
