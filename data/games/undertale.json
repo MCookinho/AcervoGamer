@@ -44,6 +44,15 @@
     ],
     "stores": [
         {
+            "store": "Steam",
+            "url": "https://store.steampowered.com/app/391540/Undertale/",
+            "platform": "PC",
+            "price": 14.49,
+            "priceOriginal": "US$2.49",
+            "coupon": null,
+            "lastUpdated": "2025-07-10"
+        },
+        {
             "store": "Eneba",
             "url": "https://www.eneba.com/steam-undertale",
             "platform": "PC",
