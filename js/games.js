@@ -327,14 +327,56 @@ const Games = {
         }
         container.innerHTML = gameplays.map((g, i) => `
             <div class="gameplay-card animate-in stagger-${Math.min(i + 1, 8)}">
+                <div class="gameplay-header">
+                    <div class="gameplay-info">
+                        <div class="gameplay-title">${g.title}</div>
+                        <div class="gameplay-channel">
+                            <a href="${g.channelUrl}" target="_blank" class="gameplay-channel-name">${g.channelName}</a>
+                            <span class="gameplay-subscribers" data-channel-url="${g.channelUrl}">...</span>
+                        </div>
+                    </div>
+                </div>
                 <div class="video-embed">
                     <iframe src="${g.embedUrl}" allowfullscreen></iframe>
                 </div>
-                <div class="gameplay-card-info">
-                    <div class="gameplay-card-title">${g.title}</div>
-                    <a href="${g.youtubeUrl}" target="_blank" class="gameplay-card-link">Ver no YouTube ↗</a>
-                </div>
             </div>
         `).join('');
+
+        container.querySelectorAll('.gameplay-subscribers').forEach(el => {
+            const channelUrl = el.dataset.channelUrl;
+            this.fetchSubscribers(channelUrl).then(count => {
+                el.textContent = count;
+            }).catch(() => {
+                el.textContent = '';
+            });
+        });
+    },
+
+    async fetchSubscribers(channelUrl) {
+        try {
+            const res = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${await this.getChannelId(channelUrl)}`);
+            const text = await res.text();
+            const match = text.match(/<yt:statistics[^>]*subscriberCount="([^"]+)"/);
+            if (match) {
+                const num = parseInt(match[1]);
+                if (num >= 1000000) return `${(num / 1000000).toFixed(1)}M inscritos`;
+                if (num >= 1000) return `${(num / 1000).toFixed(1)}K inscritos`;
+                return `${num} inscritos`;
+            }
+            return '';
+        } catch {
+            return '';
+        }
+    },
+
+    async getChannelId(channelUrl) {
+        try {
+            const res = await fetch(channelUrl);
+            const html = await res.text();
+            const match = html.match(/"externalId"\s*:\s*"([^"]+)"/);
+            return match ? match[1] : '';
+        } catch {
+            return '';
+        }
     }
 };

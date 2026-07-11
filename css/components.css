@@ -1153,33 +1153,51 @@
     margin-bottom: 14px;
 }
 
-.gameplay-card .video-embed {
-    margin-bottom: 0;
-    border-radius: 12px 12px 0 0;
-    border: none;
-    border-bottom: 1px solid var(--br-border);
-}
-
-.gameplay-card-info {
+.gameplay-header {
     padding: 16px 20px;
+    border-bottom: 1px solid var(--br-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.gameplay-card-title {
+.gameplay-info {
+    flex: 1;
+}
+
+.gameplay-title {
     font-family: var(--font-heading);
     font-weight: 600;
-    font-size: 0.9rem;
-    margin-bottom: 6px;
+    font-size: 0.95rem;
+    margin-bottom: 4px;
 }
 
-.gameplay-card-link {
+.gameplay-channel {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8rem;
+}
+
+.gameplay-channel-name {
     color: var(--br-green-light);
-    font-size: 0.85rem;
     transition: color 0.3s ease;
 }
 
-.gameplay-card-link:hover {
+.gameplay-channel-name:hover {
     color: var(--br-green);
     text-decoration: underline;
+}
+
+.gameplay-subscribers {
+    color: var(--br-gray-light);
+    font-size: 0.75rem;
+}
+
+.gameplay-card .video-embed {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
 }
 
 /* Empty state */

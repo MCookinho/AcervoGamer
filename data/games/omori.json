@@ -16,7 +16,7 @@
         "translations": "Lista de traduções disponíveis para o jogo. Cada item deve ter: name, version, date (YYYY-MM-DD), size, downloadUrl, officialUrl (opcional - URL do site oficial da tradução. Se ausente, nenhum link 'Oficial' é exibido)",
         "mods": "Lista de mods disponíveis para o jogo. Cada item deve ter: name, version, author, downloadUrl, officialUrl (opcional - URL do site oficial do mod. Se ausente, nenhum link 'Oficial' é exibido)",
         "soundtrack": "Lista de músicas da trilha sonora. Cada item deve ter: title, artist, duration (ex: '3:45'), spotifyUrl (opcional), youtubeUrl (opcional), audioUrl (opcional - URL direta de áudio MP3/OGG para tocar no player. Se ausente, clica no YouTube)",
-        "gameplays": "Lista de vídeos de gameplay. Cada item deve ter: title, embedUrl (YouTube embed), youtubeUrl (link direto)"
+        "gameplays": "Lista de vídeos de gameplay. Cada item deve ter: title, channelName (nome do canal), channelUrl (URL do canal), embedUrl (YouTube embed), youtubeUrl (link direto)"
     },
 
     "name": "Omori",
@@ -141,6 +141,8 @@
     "gameplays": [
         {
             "title": "Omori - Gameplay Completo (Pt-BR)",
+            "channelName": "LegoGamer202",
+            "channelUrl": "https://www.youtube.com/@LegoGamer202",
             "embedUrl": "https://www.youtube.com/embed/VZCBBR4sVh4",
             "youtubeUrl": "https://www.youtube.com/watch?v=VZCBBR4sVh4"
         }
