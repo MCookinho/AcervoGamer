@@ -937,7 +937,7 @@ const Games = {
                 </div>
                 <div class="soundtrack-play-area">
                     <span class="soundtrack-duration">${t.duration || ''}</span>
-                    <button class="soundtrack-play-btn" onclick="AudioPlayer.playFromSoundtrack(${JSON.stringify(t).replace(/"/g, '&quot;')}, '${game.name}')">▶</button>
+                    ${t.youtubeUrl ? `<button class="soundtrack-play-btn" onclick="AudioPlayer.playFromSoundtrack(${JSON.stringify(t).replace(/"/g, '&quot;')}, '${game.name}')">▶</button>` : ''}
                 </div>
             </div>
         `).join('');
