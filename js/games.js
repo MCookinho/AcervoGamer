@@ -1,7 +1,7 @@
 const Games = {
     data: [],
     GITHUB_REPO: 'MCookinho/AcervoGamer',
-    CACHE_KEY: 'acervogamer_games_cache_v3',
+    CACHE_KEY: 'acervogamer_games_cache_v4',
     CACHE_TTL: 1000 * 60 * 30,
     _folderCache: {},
 
@@ -18,9 +18,13 @@ const Games = {
             if (!res.ok) throw new Error('GitHub API error');
             const items = await res.json();
 
+            if (!Array.isArray(items)) throw new Error('Unexpected API response');
+
             const gameFolders = items.filter(i =>
                 i.type === 'dir' && i.name !== 'Songs'
             );
+
+            if (gameFolders.length === 0) throw new Error('No game folders found');
 
             const promises = gameFolders.map(f =>
                 fetch(`https://raw.githubusercontent.com/${this.GITHUB_REPO}/main/data/games/${f.name}/${f.name}.json`)
@@ -28,12 +32,24 @@ const Games = {
                     .catch(() => null)
             );
             const results = await Promise.all(promises);
-            this.data = results.filter(Boolean);
+            const loaded = results.filter(Boolean);
+            if (loaded.length === 0) throw new Error('All game fetches failed');
+            this.data = loaded;
             this.setCache(this.data);
         } catch (error) {
             console.error('Erro ao carregar jogos:', error);
-            this.data = [];
+            this.data = await this._hardcodedFallback();
         }
+    },
+
+    _hardcodedFallback() {
+        const slugs = ['undertale', 'deltarune', 'omori', 'everhood'];
+        const promises = slugs.map(s =>
+            fetch(`https://raw.githubusercontent.com/${this.GITHUB_REPO}/main/data/games/${s}/${s}.json`)
+                .then(r => r.ok ? r.json() : null)
+                .catch(() => null)
+        );
+        return Promise.all(promises).then(r => r.filter(Boolean));
     },
 
     getCached() {
