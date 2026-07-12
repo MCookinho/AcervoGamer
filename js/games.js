@@ -38,18 +38,8 @@ const Games = {
             this.setCache(this.data);
         } catch (error) {
             console.error('Erro ao carregar jogos:', error);
-            this.data = await this._hardcodedFallback();
+            this.data = [];
         }
-    },
-
-    _hardcodedFallback() {
-        const slugs = ['undertale', 'deltarune', 'omori', 'everhood'];
-        const promises = slugs.map(s =>
-            fetch(`https://raw.githubusercontent.com/${this.GITHUB_REPO}/main/data/games/${s}/${s}.json`)
-                .then(r => r.ok ? r.json() : null)
-                .catch(() => null)
-        );
-        return Promise.all(promises).then(r => r.filter(Boolean));
     },
 
     getCached() {
