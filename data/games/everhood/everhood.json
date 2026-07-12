@@ -33,11 +33,21 @@
         }
       }
     },
-    { "name": "Nintendo Switch" },
-    { "name": "PlayStation 4" },
-    { "name": "PlayStation 5" },
-    { "name": "Xbox One" },
-    { "name": "Xbox Series" }
+    {
+      "name": "Nintendo Switch"
+    },
+    {
+      "name": "PlayStation 4"
+    },
+    {
+      "name": "PlayStation 5"
+    },
+    {
+      "name": "Xbox One"
+    },
+    {
+      "name": "Xbox Series"
+    }
   ],
   "stores": [
     {
@@ -105,102 +115,678 @@
     }
   ],
   "soundtrack": [
-    {"title": "Evil Laughter", "artist": "Chris Nordgren", "duration": "0:09", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Evigheten", "artist": "Chris Nordgren", "duration": "2:55", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": "https://www.youtube.com/watch?v=_nYjxI59w-M"},
-    {"title": "Interlude", "artist": "Chris Nordgren", "duration": "0:23", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Blue's Theme", "artist": "Chris Nordgren", "duration": "1:05", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Frogs Are Friends", "artist": "Chris Nordgren", "duration": "1:59", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Endless Parade", "artist": "Chris Nordgren", "duration": "1:47", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Tinnitus Dance", "artist": "Dancefloor Is Lava", "duration": "4:39", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Suspense", "artist": "Chris Nordgren", "duration": "1:13", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Seeing Red", "artist": "Cazok", "duration": "1:29", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Psychedelic Breakdown", "artist": "Cazok", "duration": "2:48", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Post Mortem", "artist": "Chris Nordgren", "duration": "2:39", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Ambient V-X", "artist": "ROZKOL", "duration": "2:21", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "You Want Gnomes", "artist": "Chris Nordgren", "duration": "4:15", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "At The Race Track", "artist": "Chris Nordgren", "duration": "2:19", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Just Bongos", "artist": "Chris Nordgren", "duration": "0:28", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Vampires Invading Heaven", "artist": "Cazok", "duration": "2:38", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Victory Song", "artist": "KM_EXP", "duration": "2:18", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "In A Peculiar Place", "artist": "Chris Nordgren", "duration": "2:08", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Squid Jazz", "artist": "Lewmoth", "duration": "2:22", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "A Ride You Will Not Forget", "artist": "Chris Nordgren", "duration": "0:51", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Mushroom Dance", "artist": "Dancefloor Is Lava", "duration": "1:14", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Sprunkel", "artist": "Chris Nordgren", "duration": "2:51", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Paranoia Museum", "artist": "Cazok", "duration": "2:10", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Obedient Servant", "artist": "Chris Nordgren", "duration": "1:19", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Lab Music", "artist": "Chris Nordgren", "duration": "1:53", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Space Dub Town", "artist": "Chris Nordgren", "duration": "2:27", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Flower Shop", "artist": "Cazok", "duration": "2:36", "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re", "youtubeUrl": ""},
-    {"title": "Spained Out", "artist": "Chris Nordgren", "duration": "1:11", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Blood Stained Land", "artist": "Lewmoth", "duration": "1:01", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Listen To The Axe Goblin", "artist": "Chris Nordgren", "duration": "0:57", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "On An Adventure", "artist": "Cazok", "duration": "1:39", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Fight Song", "artist": "KM_EXP", "duration": "0:50", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Jazzy Boys", "artist": "Chris Nordgren", "duration": "1:29", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Really Bad Song", "artist": "Chris Nordgren", "duration": "1:29", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Disturbance", "artist": "Chris Nordgren", "duration": "1:23", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Death's Door", "artist": "Chris Nordgren", "duration": "0:49", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Born Chaos", "artist": "Cazok", "duration": "1:36", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Groovy Gray", "artist": "Chris Nordgren", "duration": "1:26", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Ghostly Affairs", "artist": "Chris Nordgren", "duration": "1:07", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Enter The Cursed Castle", "artist": "Chris Nordgren", "duration": "1:28", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Scratch N Sniff", "artist": "Lewmoth", "duration": "1:34", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "The Cursed Castle", "artist": "Chris Nordgren", "duration": "0:58", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Doing Nothing Is Doing Something", "artist": "Chris Nordgren", "duration": "1:03", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "In It For The Good Times", "artist": "Chris Nordgren", "duration": "1:04", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Smega Intro", "artist": "Chris Nordgren", "duration": "0:11", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Super Tennis", "artist": "Chris Nordgren", "duration": "0:24", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Desolation", "artist": "Chris Nordgren", "duration": "1:37", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Unpleasant", "artist": "Chris Nordgren", "duration": "0:33", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "The Walk Of The Free Soul", "artist": "Chris Nordgren", "duration": "2:34", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "On A Trip", "artist": "Chris Nordgren", "duration": "1:23", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Crack", "artist": "Chris Nordgren", "duration": "1:08", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Zob's Theme", "artist": "Chris Nordgren", "duration": "0:36", "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV", "youtubeUrl": ""},
-    {"title": "Undead Drums", "artist": "Chris Nordgren", "duration": "0:37", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Demondelic Inc.", "artist": "Chris Nordgren", "duration": "1:47", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Ballistic", "artist": "Chris Nordgren", "duration": "2:50", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Frogs Are Friends 2", "artist": "Chris Nordgren", "duration": "2:06", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Echoing Steps", "artist": "Cazok", "duration": "0:56", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "The Abyss", "artist": "Cazok", "duration": "2:48", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Betrayal", "artist": "Cazok", "duration": "0:37", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Revenge", "artist": "Cazok", "duration": "4:12", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Evil Scheme", "artist": "Cazok", "duration": "0:35", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "The Dance Of Death", "artist": "Chris Nordgren", "duration": "1:18", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "OWOL's Theme", "artist": "Lewmoth", "duration": "1:35", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Pranks And Party Poppers", "artist": "Cazok", "duration": "1:43", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Murderous Anger", "artist": "Chris Nordgren", "duration": "2:07", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Anger Breeds Hate", "artist": "Chris Nordgren", "duration": "1:38", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Bubblegum Road", "artist": "Chris Nordgren", "duration": "2:56", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Powers Of Destruction", "artist": "Cazok", "duration": "1:27", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Beyond Human Comprehension", "artist": "Chris Nordgren", "duration": "3:16", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Wrath Of God", "artist": "Jay Man", "duration": "2:19", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Brown Mage's Theme", "artist": "Cazok", "duration": "1:15", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Echo Land", "artist": "Chris Nordgren", "duration": "1:28", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Playing With Gnomes", "artist": "Chris Nordgren", "duration": "1:38", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Why Oh You Are LOVE", "artist": "Dancefloor Is Lava", "duration": "2:39", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Feisty Flowers", "artist": "Cazok", "duration": "3:26", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "The Playroom", "artist": "Cazok", "duration": "1:18", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "The Final Battle", "artist": "Cazok", "duration": "2:36", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Hypedrums", "artist": "Cazok", "duration": "0:17", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Heavy (Everhood Mix)", "artist": "KITCALIBER", "duration": "1:52", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Reconciliation", "artist": "KM_EXP", "duration": "7:05", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Soul Cottage", "artist": "Cazok", "duration": "3:23", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Euthanasia Rollercoaster", "artist": "KM_EXP", "duration": "5:27", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": "https://www.youtube.com/watch?v=zrphErXWW80"},
-    {"title": "Euthanasia Rollercoaster (Loop)", "artist": "KM_EXP", "duration": "0:56", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Euthanasia Rollercoaster (Loop Stutter)", "artist": "KM_EXP", "duration": "0:56", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Euthanasia Rollercoaster (Loop Broken)", "artist": "KM_EXP", "duration": "0:56", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Instances Before Death", "artist": "Chris Nordgren", "duration": "0:54", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "In A Special Place", "artist": "Chris Nordgren", "duration": "1:32", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Farewell Battle", "artist": "Chris Nordgren", "duration": "2:38", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Farewell Loop", "artist": "Chris Nordgren", "duration": "0:54", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Neko Soup", "artist": "Lewmoth", "duration": "1:23", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Souvenir de La Boum", "artist": "Dancefloor Is Lava", "duration": "3:16", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Super Tennis 2", "artist": "Chris Nordgren", "duration": "0:56", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Dark Eternity", "artist": "Cazok", "duration": "0:40", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "72 (Everhood Mix)", "artist": "KITCALIBER", "duration": "2:32", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "Credits", "artist": "Chris Nordgren", "duration": "1:21", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""},
-    {"title": "At Peace", "artist": "Chris Nordgren", "duration": "1:29", "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb", "youtubeUrl": ""}
+    {
+      "title": "Evil Laughter",
+      "artist": "Chris Nordgren",
+      "duration": "0:09",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0ZxBWqakoGw"
+    },
+    {
+      "title": "Evigheten",
+      "artist": "Chris Nordgren",
+      "duration": "2:55",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FhS2jvMDPv4"
+    },
+    {
+      "title": "Interlude",
+      "artist": "Chris Nordgren",
+      "duration": "0:23",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=m9VjIdur9TI"
+    },
+    {
+      "title": "Blue's Theme",
+      "artist": "Chris Nordgren",
+      "duration": "1:05",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9WaCqAgqPog"
+    },
+    {
+      "title": "Frogs Are Friends",
+      "artist": "Chris Nordgren",
+      "duration": "1:59",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=puUXtxxYFwM"
+    },
+    {
+      "title": "Endless Parade",
+      "artist": "Chris Nordgren",
+      "duration": "1:47",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XpcoFsRAhu0"
+    },
+    {
+      "title": "Tinnitus Dance",
+      "artist": "Dancefloor Is Lava",
+      "duration": "4:39",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Aa3QyDnrPw0"
+    },
+    {
+      "title": "Suspense",
+      "artist": "Chris Nordgren",
+      "duration": "1:13",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9NRAJnJYI40"
+    },
+    {
+      "title": "Seeing Red",
+      "artist": "Cazok",
+      "duration": "1:29",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KS7BeQfEZMw"
+    },
+    {
+      "title": "Psychedelic Breakdown",
+      "artist": "Cazok",
+      "duration": "2:48",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xHeuMEWIQis"
+    },
+    {
+      "title": "Post Mortem",
+      "artist": "Chris Nordgren",
+      "duration": "2:39",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AvYaNhW7ifE"
+    },
+    {
+      "title": "Ambient V-X",
+      "artist": "ROZKOL",
+      "duration": "2:21",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gGO1wuNhCxw"
+    },
+    {
+      "title": "You Want Gnomes",
+      "artist": "Chris Nordgren",
+      "duration": "4:15",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ldFdBiT4VN0"
+    },
+    {
+      "title": "At The Race Track",
+      "artist": "Chris Nordgren",
+      "duration": "2:19",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Of3bSau1JuA"
+    },
+    {
+      "title": "Just Bongos",
+      "artist": "Chris Nordgren",
+      "duration": "0:28",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TgS30jGj2SA"
+    },
+    {
+      "title": "Vampires Invading Heaven",
+      "artist": "Cazok",
+      "duration": "2:38",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=57VA0LB9nec"
+    },
+    {
+      "title": "Victory Song",
+      "artist": "KM_EXP",
+      "duration": "2:18",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dpj9oyCiSeI"
+    },
+    {
+      "title": "In A Peculiar Place",
+      "artist": "Chris Nordgren",
+      "duration": "2:08",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NiJyNFikBFc"
+    },
+    {
+      "title": "Squid Jazz",
+      "artist": "Lewmoth",
+      "duration": "2:22",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=doSl2ugNURw"
+    },
+    {
+      "title": "A Ride You Will Not Forget",
+      "artist": "Chris Nordgren",
+      "duration": "0:51",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oopAUVKB96E"
+    },
+    {
+      "title": "Mushroom Dance",
+      "artist": "Dancefloor Is Lava",
+      "duration": "1:14",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WwNvFDbLHdQ"
+    },
+    {
+      "title": "Sprunkel",
+      "artist": "Chris Nordgren",
+      "duration": "2:51",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9a6eaWra92E"
+    },
+    {
+      "title": "Paranoia Museum",
+      "artist": "Cazok",
+      "duration": "2:10",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-InemBJCpuk"
+    },
+    {
+      "title": "Obedient Servant",
+      "artist": "Chris Nordgren",
+      "duration": "1:19",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=si-NyU3lYEI"
+    },
+    {
+      "title": "Lab Music",
+      "artist": "Chris Nordgren",
+      "duration": "1:53",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M2bjWYVxenw"
+    },
+    {
+      "title": "Space Dub Town",
+      "artist": "Chris Nordgren",
+      "duration": "2:27",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=agTtZODUNag"
+    },
+    {
+      "title": "Flower Shop",
+      "artist": "Cazok",
+      "duration": "2:36",
+      "spotifyUrl": "https://open.spotify.com/album/00sOlhIUEyVmbyLPqpz4re",
+      "youtubeUrl": "https://www.youtube.com/watch?v=erz9PaQz2Nc"
+    },
+    {
+      "title": "Spained Out",
+      "artist": "Chris Nordgren",
+      "duration": "1:11",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hxIRRs06TOE"
+    },
+    {
+      "title": "Blood Stained Land",
+      "artist": "Lewmoth",
+      "duration": "1:01",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hZuIGJXIEmU"
+    },
+    {
+      "title": "Listen To The Axe Goblin",
+      "artist": "Chris Nordgren",
+      "duration": "0:57",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4K1EQdft4Qw"
+    },
+    {
+      "title": "On An Adventure",
+      "artist": "Cazok",
+      "duration": "1:39",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H-FQ_trMvjU"
+    },
+    {
+      "title": "Fight Song",
+      "artist": "KM_EXP",
+      "duration": "0:50",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cVYW8dh1kIQ"
+    },
+    {
+      "title": "Jazzy Boys",
+      "artist": "Chris Nordgren",
+      "duration": "1:29",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=C0CXWQOTK9E"
+    },
+    {
+      "title": "Really Bad Song",
+      "artist": "Chris Nordgren",
+      "duration": "1:29",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2Vi_x9OP0-0"
+    },
+    {
+      "title": "Disturbance",
+      "artist": "Chris Nordgren",
+      "duration": "1:23",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UGKgBPlQ_Qg"
+    },
+    {
+      "title": "Death's Door",
+      "artist": "Chris Nordgren",
+      "duration": "0:49",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zHZg1WrkZNo"
+    },
+    {
+      "title": "Born Chaos",
+      "artist": "Cazok",
+      "duration": "1:36",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mxBHGJ3gdtM"
+    },
+    {
+      "title": "Groovy Gray",
+      "artist": "Chris Nordgren",
+      "duration": "1:26",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=brlyPTrDoKQ"
+    },
+    {
+      "title": "Ghostly Affairs",
+      "artist": "Chris Nordgren",
+      "duration": "1:07",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mXAjeq7fTgI"
+    },
+    {
+      "title": "Enter The Cursed Castle",
+      "artist": "Chris Nordgren",
+      "duration": "1:28",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZisVIV64wkw"
+    },
+    {
+      "title": "Scratch N Sniff",
+      "artist": "Lewmoth",
+      "duration": "1:34",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dFlFFw7r4eU"
+    },
+    {
+      "title": "The Cursed Castle",
+      "artist": "Chris Nordgren",
+      "duration": "0:58",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=p1Be0Tch56A"
+    },
+    {
+      "title": "Doing Nothing Is Doing Something",
+      "artist": "Chris Nordgren",
+      "duration": "1:03",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4eU_r1YRBa8"
+    },
+    {
+      "title": "In It For The Good Times",
+      "artist": "Chris Nordgren",
+      "duration": "1:04",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nPuBxAwjw0M"
+    },
+    {
+      "title": "Smega Intro",
+      "artist": "Chris Nordgren",
+      "duration": "0:11",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2FodH4NbZN4"
+    },
+    {
+      "title": "Super Tennis",
+      "artist": "Chris Nordgren",
+      "duration": "0:24",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uwzQoWgozhg"
+    },
+    {
+      "title": "Desolation",
+      "artist": "Chris Nordgren",
+      "duration": "1:37",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ku-6wHdeO5M"
+    },
+    {
+      "title": "Unpleasant",
+      "artist": "Chris Nordgren",
+      "duration": "0:33",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_LNJSwS4MWw"
+    },
+    {
+      "title": "The Walk Of The Free Soul",
+      "artist": "Chris Nordgren",
+      "duration": "2:34",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KBF_pP4Paaw"
+    },
+    {
+      "title": "On A Trip",
+      "artist": "Chris Nordgren",
+      "duration": "1:23",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=I7iR2UGv_sk"
+    },
+    {
+      "title": "Crack",
+      "artist": "Chris Nordgren",
+      "duration": "1:08",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vprlkfrp7TY"
+    },
+    {
+      "title": "Zob's Theme",
+      "artist": "Chris Nordgren",
+      "duration": "0:36",
+      "spotifyUrl": "https://open.spotify.com/album/6KhQtWFdvQTJHmDgVdn2WV",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DyHK9B0Nzbs"
+    },
+    {
+      "title": "Undead Drums",
+      "artist": "Chris Nordgren",
+      "duration": "0:37",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YzCgxlPZJRA"
+    },
+    {
+      "title": "Demondelic Inc.",
+      "artist": "Chris Nordgren",
+      "duration": "1:47",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4AkUk0KkZhw"
+    },
+    {
+      "title": "Ballistic",
+      "artist": "Chris Nordgren",
+      "duration": "2:50",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=R4ae20CTdwA"
+    },
+    {
+      "title": "Frogs Are Friends 2",
+      "artist": "Chris Nordgren",
+      "duration": "2:06",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EpB86XL1yNc"
+    },
+    {
+      "title": "Echoing Steps",
+      "artist": "Cazok",
+      "duration": "0:56",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fehLIH56xXE"
+    },
+    {
+      "title": "The Abyss",
+      "artist": "Cazok",
+      "duration": "2:48",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o8VhnMbMfcs"
+    },
+    {
+      "title": "Betrayal",
+      "artist": "Cazok",
+      "duration": "0:37",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sxb698sgbYM"
+    },
+    {
+      "title": "Revenge",
+      "artist": "Cazok",
+      "duration": "4:12",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gm3ioMR9-Lg"
+    },
+    {
+      "title": "Evil Scheme",
+      "artist": "Cazok",
+      "duration": "0:35",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fQeWipSnwzI"
+    },
+    {
+      "title": "The Dance Of Death",
+      "artist": "Chris Nordgren",
+      "duration": "1:18",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Z4nx6quNwcg"
+    },
+    {
+      "title": "OWOL's Theme",
+      "artist": "Lewmoth",
+      "duration": "1:35",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GzgMXsz0ZAc"
+    },
+    {
+      "title": "Pranks And Party Poppers",
+      "artist": "Cazok",
+      "duration": "1:43",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3OyQ1LwKpDA"
+    },
+    {
+      "title": "Murderous Anger",
+      "artist": "Chris Nordgren",
+      "duration": "2:07",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OJ58B_d0y4o"
+    },
+    {
+      "title": "Anger Breeds Hate",
+      "artist": "Chris Nordgren",
+      "duration": "1:38",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=cfmwMB2BqeI"
+    },
+    {
+      "title": "Bubblegum Road",
+      "artist": "Chris Nordgren",
+      "duration": "2:56",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AeqJVvspWJQ"
+    },
+    {
+      "title": "Powers Of Destruction",
+      "artist": "Cazok",
+      "duration": "1:27",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=W6dOokMqp2o"
+    },
+    {
+      "title": "Beyond Human Comprehension",
+      "artist": "Chris Nordgren",
+      "duration": "3:16",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eDRp1rsF7WA"
+    },
+    {
+      "title": "Wrath Of God",
+      "artist": "Jay Man",
+      "duration": "2:19",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dnCa5Iww6tQ"
+    },
+    {
+      "title": "Brown Mage's Theme",
+      "artist": "Cazok",
+      "duration": "1:15",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fNCjs6Q3lmI"
+    },
+    {
+      "title": "Echo Land",
+      "artist": "Chris Nordgren",
+      "duration": "1:28",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WBizcM52cVQ"
+    },
+    {
+      "title": "Playing With Gnomes",
+      "artist": "Chris Nordgren",
+      "duration": "1:38",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UcLs2cMn9NQ"
+    },
+    {
+      "title": "Why Oh You Are LOVE",
+      "artist": "Dancefloor Is Lava",
+      "duration": "2:39",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ieXAM0JOEmg"
+    },
+    {
+      "title": "Feisty Flowers",
+      "artist": "Cazok",
+      "duration": "3:26",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nAhWI2SeSWI"
+    },
+    {
+      "title": "The Playroom",
+      "artist": "Cazok",
+      "duration": "1:18",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6FbCkzxUOtk"
+    },
+    {
+      "title": "The Final Battle",
+      "artist": "Cazok",
+      "duration": "2:36",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9nH8UZEHvXc"
+    },
+    {
+      "title": "Hypedrums",
+      "artist": "Cazok",
+      "duration": "0:17",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=q4OfS6SRpSg"
+    },
+    {
+      "title": "Heavy (Everhood Mix)",
+      "artist": "KITCALIBER",
+      "duration": "1:52",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8A46JSDrfNA"
+    },
+    {
+      "title": "Reconciliation",
+      "artist": "KM_EXP",
+      "duration": "7:05",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IbHZngyTDZ0"
+    },
+    {
+      "title": "Soul Cottage",
+      "artist": "Cazok",
+      "duration": "3:23",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kDlsAdthmns"
+    },
+    {
+      "title": "Euthanasia Rollercoaster",
+      "artist": "KM_EXP",
+      "duration": "5:27",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QmZsx5Uo7aU"
+    },
+    {
+      "title": "Euthanasia Rollercoaster (Loop)",
+      "artist": "KM_EXP",
+      "duration": "0:56",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=d3vKMjHT9Bc"
+    },
+    {
+      "title": "Euthanasia Rollercoaster (Loop Stutter)",
+      "artist": "KM_EXP",
+      "duration": "0:56",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XRBMyghLEGw"
+    },
+    {
+      "title": "Euthanasia Rollercoaster (Loop Broken)",
+      "artist": "KM_EXP",
+      "duration": "0:56",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vtQsU5QF32c"
+    },
+    {
+      "title": "Instances Before Death",
+      "artist": "Chris Nordgren",
+      "duration": "0:54",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wn-dBV6_I4Q"
+    },
+    {
+      "title": "In A Special Place",
+      "artist": "Chris Nordgren",
+      "duration": "1:32",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4jlvXAUnva8"
+    },
+    {
+      "title": "Farewell Battle",
+      "artist": "Chris Nordgren",
+      "duration": "2:38",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DNKJpSj9Q_k"
+    },
+    {
+      "title": "Farewell Loop",
+      "artist": "Chris Nordgren",
+      "duration": "0:54",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Yj1aDwIvI7Y"
+    },
+    {
+      "title": "Neko Soup",
+      "artist": "Lewmoth",
+      "duration": "1:23",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E4U356KdUAo"
+    },
+    {
+      "title": "Souvenir de La Boum",
+      "artist": "Dancefloor Is Lava",
+      "duration": "3:16",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3PpI1McQH0g"
+    },
+    {
+      "title": "Super Tennis 2",
+      "artist": "Chris Nordgren",
+      "duration": "0:56",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rfvH7gmqRJQ"
+    },
+    {
+      "title": "Dark Eternity",
+      "artist": "Cazok",
+      "duration": "0:40",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=m5UldewJz3w"
+    },
+    {
+      "title": "72 (Everhood Mix)",
+      "artist": "KITCALIBER",
+      "duration": "2:32",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eLR6C5-Wqp4"
+    },
+    {
+      "title": "Credits",
+      "artist": "Chris Nordgren",
+      "duration": "1:21",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9dPTS8jbDAo"
+    },
+    {
+      "title": "At Peace",
+      "artist": "Chris Nordgren",
+      "duration": "1:29",
+      "spotifyUrl": "https://open.spotify.com/album/3eDwkyhKU5CsIr8v8tuUMb",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FaD3aUHTnZg"
+    }
   ],
   "gameplays": [
     {
