@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Dandara Wiki",
+      "description": "Wiki completa com guias de exploração, dicas de bosses e todos os segredos do mundo de Salt.",
+      "color": "#FFD740",
+      "siteUrl": "https://www.pcgamingwiki.com/wiki/Dandara",
+      "buttonLabel": "VISITAR WIKI",
+      "badge": "GUIA"
+    },
+    {
+      "title": "Speedrun.com",
+      "description": "Rankings mundiais de speedrun de Dandara. Veja os recordes atuais e runs comentadas.",
+      "color": "#4ECDC4",
+      "siteUrl": "https://www.speedrun.com/Dandara",
+      "buttonLabel": "VER RECORDES",
+      "badge": "SPEEDRUN"
+    },
+    {
+      "title": "Long Hat House — Estúdio Brasileiro",
+      "description": "Conheça a Long Hat House, estúdio indie de Belo Horizonte, MG, por trás de Dandara. Fundadores: Lucas Mattos e João Brant.",
+      "color": "#E74C3C",
+      "siteUrl": "https://www.longhathouse.com/games/dandara/",
+      "buttonLabel": "CONHECER",
+      "badge": "DESENVOLVEDOR"
+    }
+  ]
+}
