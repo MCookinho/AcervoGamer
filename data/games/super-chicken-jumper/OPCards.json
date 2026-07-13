@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Super Chicken Jumper Wiki",
+      "description": "Wiki completa com guias de fases, dicas de gameplay e todas as informações sobre o jogo.",
+      "color": "#FFD740",
+      "siteUrl": "https://www.pcgamingwiki.com/wiki/Super_Chicken_Jumper",
+      "buttonLabel": "VISITAR WIKI",
+      "badge": "GUIA"
+    },
+    {
+      "title": "Speedrun.com",
+      "description": "Rankings mundiais de speedrun de Super Chicken Jumper. Veja os recordes e runs comentadas.",
+      "color": "#4ECDC4",
+      "siteUrl": "https://www.speedrun.com/superchickenjumper",
+      "buttonLabel": "VER RECORDES",
+      "badge": "SPEEDRUN"
+    },
+    {
+      "title": "Sewer Cat — Estúdio Brasileiro",
+      "description": "Conheça a Sewer Cat, estúdio indie brasileiro por trás do Super Chicken Jumper. Jogo desenvolvido com GameMaker Engine.",
+      "color": "#E74C3C",
+      "siteUrl": "https://store.steampowered.com/publisher/sewercat",
+      "buttonLabel": "CONHECER",
+      "badge": "DESENVOLVEDOR"
+    }
+  ]
+}
