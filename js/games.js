@@ -44,7 +44,7 @@ const Games = {
 
     getCached() {
         try {
-            const raw = localStorage.getItem(this.CACHE_KEY);
+            const raw = sessionStorage.getItem(this.CACHE_KEY);
             if (!raw) return null;
             const { data, timestamp } = JSON.parse(raw);
             if (Date.now() - timestamp > this.CACHE_TTL) return null;
@@ -54,7 +54,7 @@ const Games = {
 
     setCache(data) {
         try {
-            localStorage.setItem(this.CACHE_KEY, JSON.stringify({
+            sessionStorage.setItem(this.CACHE_KEY, JSON.stringify({
                 data,
                 timestamp: Date.now()
             }));
@@ -62,7 +62,7 @@ const Games = {
     },
 
     clearCache() {
-        localStorage.removeItem(this.CACHE_KEY);
+        sessionStorage.removeItem(this.CACHE_KEY);
     },
 
     getGame(slug) {
@@ -683,7 +683,7 @@ const Games = {
         if (this._folderCache[cacheKey]) return this._folderCache[cacheKey];
         const lsKey = `acervogamer_folders_${cacheKey}`;
         try {
-            const raw = localStorage.getItem(lsKey);
+            const raw = sessionStorage.getItem(lsKey);
             if (raw) {
                 const { data, ts } = JSON.parse(raw);
                 if (Date.now() - ts < this.CACHE_TTL) { this._folderCache[cacheKey] = data; return data; }
@@ -697,7 +697,7 @@ const Games = {
             if (!Array.isArray(items)) { this._folderCache[cacheKey] = []; return []; }
             const dirs = items.filter(i => i.type === 'dir');
             this._folderCache[cacheKey] = dirs;
-            try { localStorage.setItem(lsKey, JSON.stringify({ data: dirs, ts: Date.now() })); } catch {}
+            try { sessionStorage.setItem(lsKey, JSON.stringify({ data: dirs, ts: Date.now() })); } catch {}
             return dirs;
         } catch { this._folderCache[cacheKey] = []; return []; }
     },
@@ -707,7 +707,7 @@ const Games = {
         if (this._folderCache[cacheKey]) return this._folderCache[cacheKey];
         const lsKey = `acervogamer_info_${cacheKey}`;
         try {
-            const raw = localStorage.getItem(lsKey);
+            const raw = sessionStorage.getItem(lsKey);
             if (raw) {
                 const { data, ts } = JSON.parse(raw);
                 if (Date.now() - ts < this.CACHE_TTL) { this._folderCache[cacheKey] = data; return data; }
@@ -719,7 +719,7 @@ const Games = {
             if (!res.ok) { this._folderCache[cacheKey] = null; return null; }
             const data = await res.json();
             this._folderCache[cacheKey] = data;
-            try { localStorage.setItem(lsKey, JSON.stringify({ data, ts: Date.now() })); } catch {}
+            try { sessionStorage.setItem(lsKey, JSON.stringify({ data, ts: Date.now() })); } catch {}
             return data;
         } catch { this._folderCache[cacheKey] = null; return null; }
     },
@@ -733,7 +733,7 @@ const Games = {
         if (this._folderCache[cacheKey] !== undefined) return this._folderCache[cacheKey];
         const lsKey = `acervogamer_${cacheKey}`;
         try {
-            const raw = localStorage.getItem(lsKey);
+            const raw = sessionStorage.getItem(lsKey);
             if (raw) {
                 const { data, ts } = JSON.parse(raw);
                 if (Date.now() - ts < this.CACHE_TTL) { this._folderCache[cacheKey] = data; return data; }
@@ -746,7 +746,7 @@ const Games = {
             const json = await res.json();
             const cards = Array.isArray(json.cards) ? json.cards : [];
             this._folderCache[cacheKey] = cards;
-            try { localStorage.setItem(lsKey, JSON.stringify({ data: cards, ts: Date.now() })); } catch {}
+            try { sessionStorage.setItem(lsKey, JSON.stringify({ data: cards, ts: Date.now() })); } catch {}
             return cards;
         } catch { this._folderCache[cacheKey] = []; return []; }
     },
