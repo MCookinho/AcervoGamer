@@ -1,0 +1,156 @@
+{
+  "name": "9Kings",
+  "slug": "9kings",
+  "genre": "Estratégia/Roguelike/Card Game",
+  "productionScale": "Indie",
+  "developer": "Sad Socket",
+  "publisher": "Hooded Horse",
+  "year": 2025,
+  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/2784470/header.jpg",
+  "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2784470",
+  "shortDescription": "Um roguelike de construção de reinos acelerado. Expanda seu império, lute em batalhas massivas e quebre o jogo com builds insanas para se tornar o Rei dos Reis.",
+  "fullDescription": "Transforme sua cidade no mais poderoso de todos os reinos através de combinações infinitas de edifícios, tropas, magias e posicionamento. Cada um dos 9 reis tem um baralho inicial diferente — saqueie rivais para acessar cartas únicas, pratique diplomacia ou declare guerra. Acumule ouro, levante os mortos com magia negra e use a natureza contra seus inimigos. Sobreviva o máximo que puder e prove que seu reino pode superar todos os outros.",
+  "trailer": "https://www.youtube.com/embed/UBXGTQ38ivg",
+  "ageRating": "L",
+  "platforms": [
+    {
+      "name": "PC",
+      "requirements": {
+        "minimum": {
+          "os": "Windows 10 (64-bit)",
+          "processor": "Intel Core i5-750 / AMD Phenom II X4 965",
+          "memory": "4 GB RAM",
+          "graphics": "NVIDIA GT 630 (2 GB) / AMD HD 6670 (2 GB)",
+          "directx": "DirectX 11",
+          "storage": "500 MB"
+        },
+        "recommended": {
+          "os": "Windows 10 (64-bit)",
+          "processor": "Intel Core i5-3570 / AMD FX-8300",
+          "memory": "8 GB RAM",
+          "graphics": "NVIDIA GTX 650 (2 GB) / AMD HD 7750 (2 GB)",
+          "directx": "DirectX 12",
+          "storage": "500 MB"
+        }
+      }
+    },
+    { "name": "macOS" },
+    { "name": "Steam Deck" }
+  ],
+  "soundtrack": [
+    { "title": "Intro", "duration": "0:11" },
+    { "title": "Main Theme", "duration": "1:00" },
+    { "title": "Selection", "duration": "0:30" },
+    { "title": "King of Nothing Theme", "duration": "3:22" },
+    { "title": "King of Nothing Battle Theme", "duration": "3:22" },
+    { "title": "King of Spells Theme", "duration": "2:03" },
+    { "title": "King of Spells Battle Theme", "duration": "2:03" },
+    { "title": "King of Progress Theme", "duration": "2:27" },
+    { "title": "King of Progress Battle Theme", "duration": "2:27" },
+    { "title": "King of Nature Theme", "duration": "2:13" },
+    { "title": "King of Nature Battle Theme", "duration": "2:12" },
+    { "title": "King of Blood Theme", "duration": "1:57" },
+    { "title": "King of Blood Battle Theme", "duration": "1:57" },
+    { "title": "King of Greed Theme", "duration": "2:55" },
+    { "title": "King of Greed Battle Theme", "duration": "2:55" },
+    { "title": "King of Nomads Theme", "duration": "1:53" },
+    { "title": "King of Nomads Battle Theme", "duration": "1:53" },
+    { "title": "King of Stone Theme", "duration": "4:07" },
+    { "title": "King of Stone Battle Theme", "duration": "4:07" },
+    { "title": "King of Time Theme", "duration": "2:55" },
+    { "title": "King of Time Battle Theme", "duration": "2:54" },
+    { "title": "Final Showdown", "duration": "2:59" }
+  ],
+  "stores": [
+    {
+      "store": "Steam",
+      "platform": "PC",
+      "url": "https://store.steampowered.com/app/2784470/9_Kings/",
+      "price": 39.99
+    },
+    {
+      "store": "Epic Games Store",
+      "platform": "PC",
+      "url": "https://store.epicgames.com/pt-BR/p/9-kings",
+      "price": 39.99
+    },
+    {
+      "store": "GOG",
+      "platform": "PC",
+      "url": "https://www.gog.com/game/9_kings",
+      "price": 39.99
+    }
+  ],
+  "gameplays": [
+    {
+      "title": "9 KINGS: GAMEPLAY PELA PRIMEIRA VEZ E VICIEI DEMAIS!",
+      "channelName": "Forkxx",
+      "channelUrl": "https://www.youtube.com/@Forkxx",
+      "embedUrl": "https://www.youtube.com/embed/oc4atVZuS-E",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oc4atVZuS-E"
+    },
+    {
+      "title": "9 Kings - O poder dos Caçadores",
+      "channelName": "GUIBERNARDOW",
+      "channelUrl": "https://www.youtube.com/@GUIBERNARDOW",
+      "embedUrl": "https://www.youtube.com/embed/12xhdUgg1v0",
+      "youtubeUrl": "https://www.youtube.com/watch?v=12xhdUgg1v0"
+    },
+    {
+      "title": "Rei do Progresso na Dificuldade REI 9 9 - 9 Kings",
+      "channelName": "Tal do Lupa",
+      "channelUrl": "https://www.youtube.com/@TalDoLupa",
+      "embedUrl": "https://www.youtube.com/embed/b4dCtuYuJM0",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b4dCtuYuJM0"
+    },
+    {
+      "title": "9kings o jogo de um youtuber brasileiro",
+      "channelName": "Pisca Games",
+      "channelUrl": "https://www.youtube.com/@piscagames24",
+      "embedUrl": "https://www.youtube.com/embed/b73AYLbn6Xk",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b73AYLbn6Xk"
+    },
+    {
+      "title": "PASSEI 100 DIAS DESTRUINDO REIS em 9 KINGS - O FILME",
+      "channelName": "blonkz",
+      "channelUrl": "https://www.youtube.com/@blonkz",
+      "embedUrl": "https://www.youtube.com/embed/BB53zFtxRgk",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BB53zFtxRgk"
+    },
+    {
+      "title": "Build INDESTRUTÍVEL! - 9 Kings!",
+      "channelName": "Estratégia em Pixel",
+      "channelUrl": "https://www.youtube.com/@estrategiaempixel",
+      "embedUrl": "https://www.youtube.com/embed/BbN5vo6XMN0",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BbN5vo6XMN0"
+    },
+    {
+      "title": "9 KINGS - GOBLINS FORTÍSSIMOS",
+      "channelName": "Side",
+      "channelUrl": "https://www.youtube.com/@infested_side",
+      "embedUrl": "https://www.youtube.com/embed/ahX_o9FutOE",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ahX_o9FutOE"
+    },
+    {
+      "title": "9 Kings, jogo INDIE BR",
+      "channelName": "guarapa",
+      "channelUrl": "https://www.youtube.com/@zguarapa",
+      "embedUrl": "https://www.youtube.com/embed/4ye9mRgjB4o",
+      "youtubeUrl": "https://www.youtube.com/watch?v=4ye9mRgjB4o"
+    },
+    {
+      "title": "Jogo 9 Kings lançou na Steam e o RESULTADO é INSANO!",
+      "channelName": "Game Art Tales",
+      "channelUrl": "https://www.youtube.com/@GameArtTales",
+      "embedUrl": "https://www.youtube.com/embed/AmQU2AjwQxw",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AmQU2AjwQxw"
+    },
+    {
+      "title": "Vitória ABSURDA com Rei da Natureza!!! - 9 Kings!",
+      "channelName": "Estratégia em Pixel",
+      "channelUrl": "https://www.youtube.com/@estrategiaempixel",
+      "embedUrl": "https://www.youtube.com/embed/7UAHAjXAfpE",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
+    }
+  ]
+}
