@@ -1,0 +1,140 @@
+{
+  "name": "The Binding of Isaac: Repentance",
+  "slug": "the-binding-of-isaac-repentance",
+  "genre": "Roguelike/Aventura/Indie",
+  "productionScale": "Indie",
+  "developer": "Edmund McMillen & Nicalis",
+  "publisher": "Nicalis",
+  "year": 2021,
+  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1426300/header.jpg",
+  "previewGif": "https://media.tenor.com/7K7RAhw4-fMAAAAM/the-binding-of-isaac-isaac.gif",
+  "background": "https://cdn.akamai.steamstatic.com/steam/apps/1426300/ss_1.jpg",
+  "bannerGif": "https://media.tenor.com/OOrZT1eYO2YAAAAM/the-binding-of-isaac-eye-of-rah.gif",
+  "shortDescription": "The Binding of Isaac: Repentance é a definição definitiva do clássico roguelike de Edmund McMillen.",
+  "fullDescription": "The Binding of Isaac: Repentance é a definição definitiva do clássico roguelike de Edmund McMillen. Explore centenas de itens, habilidades e cenários em uma jornada sombria através de masmorras geradas proceduralmente. Com mais de 500 horas de conteúdo, modos de jogo e DLCs, Repentance é o pacote definitivo para fãs de desafios e exploração. Jogue sozinho ou coopere com amigos em uma aventura repleta de segredos, segredos e mais segredos.",
+  "trailer": "gOaWadhNi0A",
+  "ageRating": "18",
+  "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series", "Nintendo Switch"],
+  "systemRequirements": {
+    "minimum": {
+      "os": "Windows 10",
+      "processor": "Intel i7-4770",
+      "memory": "4 GB RAM",
+      "graphics": "GeForce 900 Series",
+      "storage": "666 MB"
+    },
+    "recommended": {
+      "os": "Windows 10",
+      "processor": "Intel i9",
+      "memory": "8 GB RAM",
+      "graphics": "GeForce 900 Series",
+      "storage": "666 MB"
+    }
+  },
+  "soundtrack": [
+    { "title": "Genesis Retake Light", "duration": "2:46", "youtubeId": "H9jqfH6Yp7w" },
+    { "title": "River Of Despair (Downpour)", "duration": "4:07", "youtubeId": "qCfn8HicQNI" },
+    { "title": "Juggernaut (Boss Alt)", "duration": "4:04", "youtubeId": "D7bcp2EfB1Y" },
+    { "title": "Fissure (Mines)", "duration": "3:52", "youtubeId": "18Gcl8N40oA" },
+    { "title": "Super Secret Room", "duration": "2:55", "youtubeId": "nXaqwUVLOwA" },
+    { "title": "Walls Of Denial (Mausoleum)", "duration": "4:21", "youtubeId": "HmCGH3hYu5g" },
+    { "title": "Dread (The Calm Twisted)", "duration": "4:11", "youtubeId": "a6kYYpgoO_s" },
+    { "title": "Carrion (Corpse)", "duration": "3:55", "youtubeId": "CrYGZS-N5gQ" },
+    { "title": "Morticide (Corpse Fight)", "duration": "3:39", "youtubeId": "RipGNNBzbQ8" },
+    { "title": "Caesarian (Utero)", "duration": "3:03", "youtubeId": "80w0Wnicz-c" },
+    { "title": "Armageddon (Boss Rush)", "duration": "3:47", "youtubeId": "7BnEIPWkfd8" },
+    { "title": "StarGazer (Planetarium)", "duration": "3:54", "youtubeId": "_sOQYJW-Tso" },
+    { "title": "Night Soil (Dross)", "duration": "4:48", "youtubeId": "8fJeWa--MKg" },
+    { "title": "Absentia (Ashpit)", "duration": "4:17", "youtubeId": "46LhvZq-eNA" },
+    { "title": "Morning Star (Gehenna)", "duration": "5:03", "youtubeId": "wwPqgU6b9sw" },
+    { "title": "Bygone", "duration": "2:14", "youtubeId": "nP0DsvPrjKk" },
+    { "title": "Home", "duration": "2:16", "youtubeId": "cIAmnU8mCWg" },
+    { "title": "Living In The Light", "duration": "3:43", "youtubeId": "mBw8hf27F5k" },
+    { "title": "Revelations 13-1", "duration": "7:53", "youtubeId": "ULbzWE_tC5M" },
+    { "title": "Genesis Retake Dark", "duration": "2:49", "youtubeId": "Mm4lk44DtMU" }
+  ],
+  "stores": [
+    {
+      "name": "Steam",
+      "url": "https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance/",
+      "price": 233.94
+    },
+    {
+      "name": "Nintendo eShop",
+      "url": "https://www.nintendo.com/us/store/products/the-binding-of-isaac-repentance-switch/",
+      "price": 99.99
+    }
+  ],
+  "gameplays": [
+    {
+      "title": "DO ZERO A PLATINA EP1",
+      "channelName": "CLICK NO PAULO",
+      "channelUrl": "https://www.youtube.com/@ClickNoPaulo",
+      "embedUrl": "https://www.youtube.com/embed/0npNlSqqK0A",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0npNlSqqK0A"
+    },
+    {
+      "title": "DELETEI MEU SAVE 0% AO 100%",
+      "channelName": "MaxPalaro",
+      "channelUrl": "https://www.youtube.com/@MaxPalaro",
+      "embedUrl": "https://www.youtube.com/embed/FgZsfKXSdwo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FgZsfKXSdwo"
+    },
+    {
+      "title": "PRIMEIRA RUN DA NOVA DLC REPENTANCE",
+      "channelName": "MaxPalaro",
+      "channelUrl": "https://www.youtube.com/@MaxPalaro",
+      "embedUrl": "https://www.youtube.com/embed/FxKZiS79ihc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FxKZiS79ihc"
+    },
+    {
+      "title": "PRIMEIRA RUN DE EDEN FOI INSANA",
+      "channelName": "MaxPalaro",
+      "channelUrl": "https://www.youtube.com/@MaxPalaro",
+      "embedUrl": "https://www.youtube.com/embed/q67kdl8IWoU",
+      "youtubeUrl": "https://www.youtube.com/watch?v=q67kdl8IWoU"
+    },
+    {
+      "title": "NOVO PERSONAGEM NOAH Repentance+Beta",
+      "channelName": "Force",
+      "channelUrl": "https://www.youtube.com/@forcetv",
+      "embedUrl": "https://www.youtube.com/embed/LpUXPGLx1m4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LpUXPGLx1m4"
+    },
+    {
+      "title": "Tainted Isaac maravilhoso",
+      "channelName": "AlemDaLenda",
+      "channelUrl": "https://www.youtube.com/@alemjalinda",
+      "embedUrl": "https://www.youtube.com/embed/Nrg_-DmZXHI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Nrg_-DmZXHI"
+    },
+    {
+      "title": "Run Capitalista é Win",
+      "channelName": "AlemDaLenda",
+      "channelUrl": "https://www.youtube.com/@alemjalinda",
+      "embedUrl": "https://www.youtube.com/embed/MboB7_lRTCc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MboB7_lRTCc"
+    },
+    {
+      "title": "JOGUEI O DREAM",
+      "channelName": "AlemDaLenda",
+      "channelUrl": "https://www.youtube.com/@alemjalinda",
+      "embedUrl": "https://www.youtube.com/embed/ruHIrOAVeCI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ruHIrOAVeCI"
+    },
+    {
+      "title": "O PALHAÇO TRISTE Do 0 ao Dead God #120",
+      "channelName": "Force",
+      "channelUrl": "https://www.youtube.com/@forcetv",
+      "embedUrl": "https://www.youtube.com/embed/bk8mXQDdDKo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bk8mXQDdDKo"
+    },
+    {
+      "title": "Primeira vez jogando esse CLÁSSICO",
+      "channelName": "Xhitoman Games",
+      "channelUrl": "https://www.youtube.com/@xhitomangames",
+      "embedUrl": "https://www.youtube.com/embed/aSIMYlB2ibM",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aSIMYlB2ibM"
+    }
+  ]
+}

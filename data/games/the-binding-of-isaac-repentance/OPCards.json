@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Binding of Isaac Wiki",
+      "description": "Guia completo com todas as salas, itens, inimigos, sigilos e segredos do jogo. Wiki oficial da comunidade.",
+      "color": "#448AFF",
+      "siteUrl": "https://bindingofisaacrebirth.fandom.com/wiki/The_Binding_of_Isaac:_Rebirth_Wiki",
+      "buttonLabel": "VISITAR WIKI",
+      "badge": "GUIA"
+    },
+    {
+      "title": "Edmund McMillen — Site Oficial",
+      "description": "Conheça o criador de Super Meat Boy, Isaac e mais jogos indie que definiram uma geração.",
+      "color": "#FF4081",
+      "siteUrl": "https://www.edmundm.com",
+      "buttonLabel": "SITE OFICIAL",
+      "badge": "DESENVOLVEDOR"
+    },
+    {
+      "title": "Binding of Isaac: Item Tracker",
+      "description": "Ferramenta essencial para rastrear seus itens, run e progresso em tempo real.",
+      "color": "#7C4DFF",
+      "siteUrl": "https://isaacitemtracker.com",
+      "buttonLabel": "ABRIR",
+      "badge": "FERRAMENTA"
+    }
+  ]
+}
