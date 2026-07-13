@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Hollow Knight Wiki",
+      "description": "Wiki completa com mapas interativos, guias de chefes, localização de itens, build recommendations e tudo sobre Hallownest.",
+      "color": "#5C6BC0",
+      "siteUrl": "https://hollowknight.fandom.com/wiki/Hollow_Knight_Wiki",
+      "buttonLabel": "VISITAR WIKI",
+      "badge": "GUIA"
+    },
+    {
+      "title": "Speedrun.com",
+      "description": "Rankings mundiais de speedrun de Hollow Knight. Any%, 107% e All Skills com splits detalhados.",
+      "color": "#26A69A",
+      "siteUrl": "https://www.speedrun.com/hollow_knight",
+      "buttonLabel": "VER RECORDES",
+      "badge": "SPEEDRUN"
+    },
+    {
+      "title": "Silksong — A Sequência",
+      "description": "Hollow Knight: Silksong, a esperada sequência desenvolvida pela Team Cherry. Jogue como Hornet em um novo reino.",
+      "color": "#EF5350",
+      "siteUrl": "https://www.hollowknightsilksong.com",
+      "buttonLabel": "SAIBA MAIS",
+      "badge": "SEQUELA"
+    }
+  ]
+}
