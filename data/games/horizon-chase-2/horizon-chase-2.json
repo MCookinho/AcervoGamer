@@ -1,0 +1,170 @@
+{
+  "name": "Horizon Chase 2",
+  "slug": "horizon-chase-2",
+  "genre": "Corrida/Arcade/Indie",
+  "productionScale": "Indie",
+  "developer": "Aquiris Game Studio",
+  "publisher": "Epic Games",
+  "year": 2022,
+  "brazilian": true,
+  "cover": "https://cdn2.unrealengine.com/egs-horizonchase2-aquirisgamestudio-s1-2560x1440-95841da4fd12.jpg",
+  "previewGif": "https://media.tenor.com/MUwKY5Yl0QAAAAAM/cruiser-horizonchase.gif",
+  "background": "https://cdn2.unrealengine.com/egs-horizonchase2-aquirisgamestudio-s2-1200x1600-7140bd2827b7.jpg",
+  "bannerGif": "https://media.giphy.com/media/YGijtzPnrHqHjeIdRC/giphy.gif",
+  "shortDescription": "Horizon Chase 2 é a evolução da franquia vencedora de corridas arcade. Jogabilidade imersiva de alta velocidade, split-screen local, online com crossplay e trilha por Barry Leitch.",
+  "fullDescription": "Horizon Chase 2 é a evolução da premiada franquia de corridas. Com jogabilidade clássica dos anos 90, colocando você no controle total dos carros. Esqueça setups complexos: ultrapassagens, curvas e nitro a um toque. Jogue todos os modos com amigos no split-screen local ou online com crossplay. O modo Playground oferece corridas online competitivas. Corra por um mundo 3D com estilo artístico único e trilha sonora de Barry Leitch. Personalize seus carros no Garage Shop e suba de nível no World Tour.",
+  "trailer": "https://www.youtube.com/embed/Lo_FUJmovvM",
+  "ageRating": "L",
+  "platforms": [
+    {
+      "name": "PC",
+      "store": "Epic Games Store",
+      "requirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "2.50 GHz Quad Core",
+          "memory": "4 GB RAM",
+          "graphics": "NVIDIA GeForce GTX 760 / AMD Radeon R9 270X",
+          "storage": "15 GB de espaço disponível"
+        },
+        "recommended": {
+          "os": "Windows 10",
+          "processor": "3.0+ GHz Quad Core",
+          "memory": "8 GB RAM",
+          "graphics": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 470",
+          "storage": "15 GB de espaço disponível"
+        }
+      }
+    },
+    { "name": "Nintendo Switch" },
+    { "name": "PlayStation 4" },
+    { "name": "PlayStation 5" },
+    { "name": "Xbox One" },
+    { "name": "Xbox Series X/S" }
+  ],
+  "soundtrack": [
+    { "title": "Horizon Chase 2 Concept & Title Theme", "duration": "4:19" },
+    { "title": "Red Headed Stepchild (Alternative Title)", "duration": "3:18" },
+    { "title": "A Trip Down To The Keys", "duration": "3:13" },
+    { "title": "The Holiday Channel Theme Tune", "duration": "3:17" },
+    { "title": "Moroccan Gold", "duration": "2:56" },
+    { "title": "Midnight Run", "duration": "3:25" },
+    { "title": "The Wild Wild West", "duration": "5:06" },
+    { "title": "Bangles & The Ribbons (The Powerplant)", "duration": "3:11" },
+    { "title": "Forest 1990 Part II", "duration": "3:44" },
+    { "title": "Neon Nights", "duration": "3:31" },
+    { "title": "Rocking In Rome", "duration": "2:34" },
+    { "title": "Words Are Just POEIRA In Deserts Of Sound", "duration": "3:50" },
+    { "title": "One More Time", "duration": "3:02" },
+    { "title": "Big Time", "duration": "3:49" },
+    { "title": "Snake King", "duration": "3:02" },
+    { "title": "Bouncy", "duration": "2:57" },
+    { "title": "Chasing The Horizon", "duration": "3:41" },
+    { "title": "The Prettiest Menu Theme Ever Written", "duration": "5:48" },
+    { "title": "Bloody Stumps", "duration": "4:07" },
+    { "title": "Akihabara Sakura", "duration": "3:18" },
+    { "title": "Rage Against Paulo", "duration": "2:59" },
+    { "title": "Space the Final Descent Into Oblivion", "duration": "2:58" },
+    { "title": "Bonus Track #1 - Vyper 2.0", "duration": "3:40" },
+    { "title": "Bonus Track #2 - Bastard Son Of An Irishman", "duration": "4:00" },
+    { "title": "Bonus Track #3 - The Other Italian Tune", "duration": "3:29" }
+  ],
+  "stores": [
+    {
+      "store": "Epic Games Store",
+      "platform": "PC",
+      "url": "https://store.epicgames.com/p/horizon-chase-2",
+      "price": 124.99
+    },
+    {
+      "store": "Nintendo eShop",
+      "platform": "Nintendo Switch",
+      "url": "https://www.nintendo.com/games/store/horizon-chase-2-switch/",
+      "price": 124.99
+    },
+    {
+      "store": "PlayStation Store",
+      "platform": "PlayStation 4/5",
+      "url": "https://store.playstation.com/pt-br/product/UP2320-CUSA37685_00-HORIZONCHASE20000",
+      "price": 124.99
+    },
+    {
+      "store": "Xbox Store",
+      "platform": "Xbox One/Series X|S",
+      "url": "https://www.xbox.com/pt-br/games/store/horizon-chase-2/9P3JDFQC2WLK",
+      "price": 124.99
+    }
+  ],
+  "gameplays": [
+    {
+      "title": "Horizon Chase 2 - Fernando de Noronha | Corrida no Brasil",
+      "channelName": "Bove Gameplay",
+      "channelUrl": "https://www.youtube.com/@BoveGameplay",
+      "embedUrl": "https://www.youtube.com/embed/_TGO-YAyg60",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_TGO-YAyg60"
+    },
+    {
+      "title": "Horizon Chase 2 - Gramado e Canela | Corrida no Brasil",
+      "channelName": "Bove Gameplay",
+      "channelUrl": "https://www.youtube.com/@BoveGameplay",
+      "embedUrl": "https://www.youtube.com/embed/u60p2zY_fzA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u60p2zY_fzA"
+    },
+    {
+      "title": "Horizon Chase 2 - Ouro Preto Corrida Barroca | Corrida no Brasil 2 Players",
+      "channelName": "Bove Gameplay",
+      "channelUrl": "https://www.youtube.com/@BoveGameplay",
+      "embedUrl": "https://www.youtube.com/embed/sF2bgbFp0ZA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sF2bgbFp0ZA"
+    },
+    {
+      "title": "Horizon Chase 2 - Início da gameplay",
+      "channelName": "Toloi Games",
+      "channelUrl": "https://www.youtube.com/@ToloiGames",
+      "embedUrl": "https://www.youtube.com/embed/uJDK8JccAwc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uJDK8JccAwc"
+    },
+    {
+      "title": "Horizon Chase 2 - Parte 2",
+      "channelName": "Toloi Games",
+      "channelUrl": "https://www.youtube.com/@ToloiGames",
+      "embedUrl": "https://www.youtube.com/embed/n2kJeEyTN5A",
+      "youtubeUrl": "https://www.youtube.com/watch?v=n2kJeEyTN5A"
+    },
+    {
+      "title": "Horizon Chase 2: Primeira Gameplay - Chegando ao Brasil",
+      "channelName": "Engenheiro Leo",
+      "channelUrl": "https://www.youtube.com/@oengenheiroleo",
+      "embedUrl": "https://www.youtube.com/embed/0A7K1BAqDiQ",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0A7K1BAqDiQ"
+    },
+    {
+      "title": "HORIZON CHASE 2: GAMEPLAY PT-BR - VERSÃO PC",
+      "channelName": "Galáxia Nerd",
+      "channelUrl": "https://www.youtube.com/@GalaxiaNerd",
+      "embedUrl": "https://www.youtube.com/embed/7gz82tYXn7I",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7gz82tYXn7I"
+    },
+    {
+      "title": "Horizon Chase 2 #1 COMPLETEI O CAMPEONATO NOS EUA",
+      "channelName": "Raposa Verde",
+      "channelUrl": "https://www.youtube.com/@raposaverde",
+      "embedUrl": "https://www.youtube.com/embed/7IlPpRmeLL4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7IlPpRmeLL4"
+    },
+    {
+      "title": "Horizon Chase 2 (PS5) - Gameplay - Primeiros 35 Minutos - Legendado PT-BR",
+      "channelName": "PSX Brasil",
+      "channelUrl": "https://www.youtube.com/@psx-brasil",
+      "embedUrl": "https://www.youtube.com/embed/1SFOHX7YVqc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1SFOHX7YVqc"
+    },
+    {
+      "title": "HORIZON CHASE 2 está simplesmente INCRÍVEL!",
+      "channelName": "JOHN GAMER",
+      "channelUrl": "https://www.youtube.com/@Johngamer40",
+      "embedUrl": "https://www.youtube.com/embed/36_TnPea6RE",
+      "youtubeUrl": "https://www.youtube.com/watch?v=36_TnPea6RE"
+    }
+  ]
+}

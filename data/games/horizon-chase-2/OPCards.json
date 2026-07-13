@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Horizon Chase Wiki",
+      "description": "Wiki completa com guias de pistas, carros, dicas de/world tour e todos os segredos do jogo.",
+      "color": "#FFD740",
+      "siteUrl": "https://horizonchase.fandom.com/wiki/Horizon_Chase_2_Wiki",
+      "buttonLabel": "VISITAR WIKI",
+      "badge": "GUIA"
+    },
+    {
+      "title": "Barry Leitch — Compositor",
+      "description": "Conheça Barry Leitch, compositor escocês responsible pela trilha sonora de Horizon Chase 2. Conhecido por Top Gear (SNES) e Lotus Turbo Challenge.",
+      "color": "#4ECDC4",
+      "siteUrl": "https://barryleitch.bandcamp.com/album/horizon-chase-2-official-game-soundtrack-ost",
+      "buttonLabel": "OUVIR OST",
+      "badge": "TRILHA SONORA"
+    },
+    {
+      "title": "Aquiris Game Studio — Estúdio Brasileiro",
+      "description": "Conheça a Aquiris, estúdio indie de Porto Alegre, RS, por trás de Horizon Chase. Agora subsidiária da Epic Games.",
+      "color": "#E74C3C",
+      "siteUrl": "https://www.aquiris.com.br",
+      "buttonLabel": "CONHECER",
+      "badge": "DESENVOLVEDOR"
+    }
+  ]
+}
