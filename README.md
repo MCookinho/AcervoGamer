@@ -19,18 +19,6 @@ O **Acervo Gamer** é um site de acervo de games desenvolvido inteiramente em **
 
 O site funciona como uma **Single Page Application (SPA)** pura, sem frameworks — apenas HTML, CSS e JavaScript vanilla, hospedado gratuitamente no **GitHub Pages** com backend no **Firebase**.
 
-### 🎯 MVP Atual
-
-O acervo atualmente inclui **3 jogos completos** com dados detalhados:
-
-| Jogo | Ano | Gênero | Desenvolvedor |
-|------|-----|--------|---------------|
-| **Undertale** | 2015 | RPG | toby fox |
-| **Deltarune** | 2018 | RPG | toby fox |
-| **Omori** | 2021 | RPG/Surreal | omocat |
-
-Cada jogo possui **trilhas sonoras completas** com links para Spotify e YouTube (485 faixas no total!), preços atualizados automaticamente a cada 6 horas, traduções, mods, gameplays e sistema de comentários.
-
 ---
 
 ## ✨ Funcionalidades
@@ -82,53 +70,6 @@ Cada jogo possui **trilhas sonoras completas** com links para Spotify e YouTube 
 
 ---
 
-## 🏗️ Arquitetura do Projeto
-
-```
-AcervoGamer/
-├── index.html                 # Entry point SPA
-├── css/
-│   ├── main.css               # Variáveis CSS, reset, tipografia
-│   ├── persona5.css           # Cards, abas, botões, headers
-│   ├── components.css         # Todos os componentes UI
-│   ├── animations.css         # Keyframes e transições
-│   └── responsive.css         # Media queries responsivo
-├── js/
-│   ├── app.js                 # Rota principal, splash, navegação
-│   ├── router.js              # Hash-based SPA router
-│   ├── games.js               # Carregamento de dados, abas
-│   ├── community.js           # Fóruns, perfis, anúncios
-│   ├── auth.js                # Firebase Auth + Firestore
-│   ├── audio-player.js        # Player de áudio global
-│   ├── animations.js          # Canvas de partículas, scroll reveal
-│   ├── comments.js            # Sistema de comentários
-│   ├── utils.js               # Helpers, formatação, toasts
-│   └── firebase-config.js     # Configuração Firebase
-├── data/games/
-│   ├── undertale/
-│   │   ├── undertale.json      # Dados completos do Undertale
-│   │   ├── OPCards.json         # Cards opcionais da aba Mods
-│   │   ├── mods/                # Mods do jogo
-│   │   └── translations/        # Traduções do jogo
-│   ├── deltarune/
-│   │   ├── deltarune.json       # Dados completos do Deltarune
-│   │   ├── OPCards.json
-│   │   ├── mods/
-│   │   └── translations/
-│   └── omori/
-│       ├── omori.json           # Dados completos do Omori
-│       ├── OPCards.json
-│       ├── mods/
-│       └── translations/
-├── assets/videos/hero/        # 19 vídeos de background pixel art
-├── scripts/
-│   └── fetch-prices.js        # Script de atualização de preços
-└── .github/workflows/
-    └── update-prices.yml      # Cron job a cada 6 horas
-```
-
----
-
 ## 🛠️ Stack Tecnológica
 
 | Camada | Tecnologia |
@@ -144,25 +85,6 @@ AcervoGamer/
 | **Hospedagem** | GitHub Pages |
 
 > **Zero dependências de build** — sem bundler, sem transpilador. O código roda diretamente no navegador como módulos nativos.
-
----
-
-## 🚀 Como Executar Localmente
-
-```bash
-# Clone o repositório
-git clone https://github.com/MCookinho/AcervoGamer.git
-
-# Navegue até a pasta
-cd AcervoGamer
-
-# Abra o index.html no navegador
-# (ou use um servidor local)
-python3 -m http.server 8000
-# Acesse http://localhost:8000
-```
-
-> **Nota:** Para usar o sistema de autenticação e comentários, é necessário configurar um projeto Firebase próprio e atualizar as credenciais em `js/firebase-config.js`.
 
 ---
 
