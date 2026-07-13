@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Bloodless Wiki",
+      "description": "Wiki completa com guias de combate, dicas de bosses e todos os segredos de Bakugawa.",
+      "color": "#FFD740",
+      "siteUrl": "https://www.pcgamingwiki.com/wiki/Bloodless",
+      "buttonLabel": "VISITAR WIKI",
+      "badge": "GUIA"
+    },
+    {
+      "title": "Speedrun.com",
+      "description": "Rankings mundiais de speedrun de Bloodless. Veja os recordes atuais e runs comentadas.",
+      "color": "#4ECDC4",
+      "siteUrl": "https://www.speedrun.com/Bloodless",
+      "buttonLabel": "VER RECORDES",
+      "badge": "SPEEDRUN"
+    },
+    {
+      "title": "Point N' Sheep — Estúdio Brasileiro",
+      "description": "Conheça a Point N' Sheep, estúdio indie de Recife, PE, por trás de Bloodless. Fundado em 2020 por Danilo Freire.",
+      "color": "#E74C3C",
+      "siteUrl": "https://pointnsheep.com",
+      "buttonLabel": "CONHECER",
+      "badge": "DESENVOLVEDOR"
+    }
+  ]
+}
