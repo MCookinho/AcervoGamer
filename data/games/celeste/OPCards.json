@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Celeste Wiki",
+      "description": "Wiki completa do jogo com guias de capítulos, lista de morangos, segredos e dicas para cada B-Side e C-Side.",
+      "color": "#FF6B6B",
+      "siteUrl": "https://celeste.fandom.com/wiki/Celeste_Wiki",
+      "buttonLabel": "VISITAR WIKI",
+      "badge": "GUIA"
+    },
+    {
+      "title": "Speedrun.com",
+      "description": "Rankings mundiais de speedrun de Celeste. Veja os recordes atuais e runs comentadas dos melhores jogadores.",
+      "color": "#4ECDC4",
+      "siteUrl": "https://www.speedrun.com/celeste",
+      "buttonLabel": "VER RECORDES",
+      "badge": "SPEEDRUN"
+    },
+    {
+      "title": "Lena Raine - Bandcamp",
+      "description": "A trilha sonora completa de Celeste por Lena Raine disponível no Bandcamp para compra e streaming.",
+      "color": "#9B59B6",
+      "siteUrl": "https://lenaraine.bandcamp.com/album/celeste-ost",
+      "buttonLabel": "OUVIR",
+      "badge": "TRILHA SONORA"
+    }
+  ]
+}

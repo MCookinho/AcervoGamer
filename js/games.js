@@ -1,7 +1,7 @@
 const Games = {
     data: [],
     GITHUB_REPO: 'MCookinho/AcervoGamer',
-    CACHE_KEY: 'acervogamer_games_cache_v5',
+    CACHE_KEY: 'acervogamer_games_cache_v6',
     CACHE_TTL: 1000 * 60 * 30,
     _folderCache: {},
 
