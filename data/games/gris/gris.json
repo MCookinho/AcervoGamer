@@ -1,0 +1,385 @@
+{
+  "name": "Gris",
+  "slug": "gris",
+  "genre": "Aventura / Indie / Plataforma",
+  "developer": "Nomada Studio",
+  "year": 2018,
+  "productionScale": "Indie",
+  "ageRating": "L",
+  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/683320/header.jpg",
+  "previewGif": "",
+  "background": "",
+  "bannerGif": "",
+  "shortDescription": "Uma jovem garota lutando com uma experiência dolorosa perde sua voz antes de começar uma viagem por um mundo fantástico, representado por sua própria imaginação em construção.",
+  "fullDescription": "Gris é um jogo de plataforma e aventura desenvolvido pelo estúdio indie catalão Nomada Studio e publicado pela Devolver Digital. Você controla Gris, uma jovem garota perdida em um mundo fantástico que existe dentro de sua própria imaginação. Decorada por Conrad Roset e trilha sonora或riginal de Berlinist, Gris é uma experiência emocional que transcende o jogo tradicional. A jornada de Gris é uma metáfora visual e sonora do luto e da superação: cada cor que retorna ao mundo representa um estágio da aceitação. Sem textos, diálogos, combate ou morte, o jogo oferece uma contemplação serena e profundamente pessoal. Com sua vestimenta que concede habilidades especiais — como flutuar com o vento, transformar areia em pontes e moldar plantas — Gris explora ambientes de tirar o fôlego que vão desde desertos áridos até bosques florescentes e catedrais submersas. O jogo conquistou mais de 20 prêmios e mais de 3 milhões de cópias vendidas worldwide, sendo considerado uma das mais belas experiências já criadas nos videogames.",
+  "trailer": "https://www.youtube.com/embed/gvECQlxrhbw",
+  "platforms": [
+    {
+      "name": "PC",
+      "requirements": {
+        "minimum": {
+          "os": "Windows 7+",
+          "processor": "Intel Core2 Duo E6750",
+          "memory": "4 GB RAM",
+          "graphics": "GeForce GT 430 (1024 MB) / Radeon HD 5570 (1024 MB)",
+          "storage": "4 GB"
+        }
+      }
+    },
+    {
+      "name": "macOS"
+    },
+    {
+      "name": "Linux"
+    },
+    {
+      "name": "Nintendo Switch"
+    },
+    {
+      "name": "PlayStation 4"
+    },
+    {
+      "name": "PlayStation 5"
+    },
+    {
+      "name": "iOS"
+    },
+    {
+      "name": "Android"
+    },
+    {
+      "name": "Xbox One"
+    },
+    {
+      "name": "Xbox Series"
+    }
+  ],
+  "stores": [
+    {
+      "store": "Steam",
+      "url": "https://store.steampowered.com/app/683320/GRIS/",
+      "platform": "PC",
+      "price": 49.9,
+      "priceOriginal": "R$ 49,90",
+      "coupon": null,
+      "lastUpdated": "2026-07-13"
+    },
+    {
+      "store": "Eneba",
+      "url": "https://www.eneba.com/steam-gris",
+      "platform": "PC",
+      "price": 49.9,
+      "priceOriginal": "R$ 49,90",
+      "coupon": null,
+      "lastUpdated": "2026-07-13"
+    },
+    {
+      "store": "GOG",
+      "url": "https://www.gog.com/game/gris",
+      "platform": "PC",
+      "price": 57.94,
+      "priceOriginal": "US$9.99",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "Humble Bundle",
+      "url": "https://www.humblebundle.com/store/gris",
+      "platform": "PC",
+      "price": 57.94,
+      "priceOriginal": "US$9.99",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "Nintendo eShop",
+      "url": "https://www.nintendo.com/pt-br/store/products/gris-switch/",
+      "platform": "Nintendo Switch",
+      "price": 72.9,
+      "priceOriginal": "R$72,90",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "PlayStation Store",
+      "url": "https://store.playstation.com/pt-br/category/gris",
+      "platform": "PS4 / PS5",
+      "price": 52.9,
+      "priceOriginal": "R$52,90",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    },
+    {
+      "store": "Xbox Store",
+      "url": "https://www.xbox.com/pt-br/games/store/gris/c3dznhcjrf7q",
+      "platform": "Xbox One / Series X|S",
+      "price": 52.9,
+      "priceOriginal": "R$52,90",
+      "coupon": null,
+      "lastUpdated": "2025-07-10"
+    }
+  ],
+  "soundtrack": [
+    {
+      "title": "Mae",
+      "artist": "Berlinist",
+      "duration": "2:34",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mSXKOGTrw1s"
+    },
+    {
+      "title": "Gris Pt. 1",
+      "artist": "Berlinist",
+      "duration": "2:36",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kqZNj-kUq1k"
+    },
+    {
+      "title": "Debris",
+      "artist": "Berlinist",
+      "duration": "2:51",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bnV6BsGnqqU"
+    },
+    {
+      "title": "Lift",
+      "artist": "Berlinist",
+      "duration": "0:27",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uk3EGtJyB4s"
+    },
+    {
+      "title": "Meridian",
+      "artist": "Berlinist",
+      "duration": "1:03",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J7FMc5TPIYY"
+    },
+    {
+      "title": "Chiasm",
+      "artist": "Berlinist",
+      "duration": "1:01",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kDfbwcG43pQ"
+    },
+    {
+      "title": "Incipit",
+      "artist": "Berlinist",
+      "duration": "0:24",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yPORRFpA2js"
+    },
+    {
+      "title": "Perseverance",
+      "artist": "Berlinist",
+      "duration": "2:54",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vdXIMnDI7cs"
+    },
+    {
+      "title": "Boundary",
+      "artist": "Berlinist",
+      "duration": "0:30",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kzbdMFKJSng"
+    },
+    {
+      "title": "Windmill",
+      "artist": "Berlinist",
+      "duration": "5:06",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=z8WACKWJcc8"
+    },
+    {
+      "title": "Opaque",
+      "artist": "Berlinist",
+      "duration": "0:34",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EdIXWjxRGHw"
+    },
+    {
+      "title": "Komorebi",
+      "artist": "Berlinist",
+      "duration": "5:48",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=977NIrIGnqg"
+    },
+    {
+      "title": "Environments",
+      "artist": "Berlinist",
+      "duration": "6:20",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=904fP4orPYM"
+    },
+    {
+      "title": "Tobu",
+      "artist": "Berlinist",
+      "duration": "0:26",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QaFNe9NZGkg"
+    },
+    {
+      "title": "Karasu",
+      "artist": "Berlinist",
+      "duration": "5:10",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mfJ5iVMQkwQ"
+    },
+    {
+      "title": "Symmetry",
+      "artist": "Berlinist",
+      "duration": "0:40",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=x9WMe4F681k"
+    },
+    {
+      "title": "Rain",
+      "artist": "Berlinist",
+      "duration": "1:58",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v5P2TlM08Mc"
+    },
+    {
+      "title": "Descent",
+      "artist": "Berlinist",
+      "duration": "10:00",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eQSTFwO4bPQ"
+    },
+    {
+      "title": "Komorebi Pt. 2",
+      "artist": "Berlinist",
+      "duration": "1:12",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8N1xj5W2JVw"
+    },
+    {
+      "title": "Unagi",
+      "artist": "Berlinist",
+      "duration": "4:28",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=18Cl-PI2_Pk"
+    },
+    {
+      "title": "Sparks",
+      "artist": "Berlinist",
+      "duration": "0:40",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fuT6pljZNjk"
+    },
+    {
+      "title": "Ascension",
+      "artist": "Berlinist",
+      "duration": "5:58",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Mgksdqowi-k"
+    },
+    {
+      "title": "Firmament",
+      "artist": "Berlinist",
+      "duration": "7:12",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xMBLvVMnVrw"
+    },
+    {
+      "title": "Comparison",
+      "artist": "Berlinist",
+      "duration": "1:00",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZC4a9tHVDpc"
+    },
+    {
+      "title": "Gris Pt. 2",
+      "artist": "Berlinist",
+      "duration": "2:26",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-Z1GpxFqwlw"
+    },
+    {
+      "title": "In Your Hands",
+      "artist": "Berlinist",
+      "duration": "4:09",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vLxBRGNeqxI"
+    },
+    {
+      "title": "Circles",
+      "artist": "Berlinist",
+      "duration": "2:00",
+      "spotifyUrl": "https://open.spotify.com/album/2YMWspDGtbDgYULXvVQFM6",
+      "youtubeUrl": "https://www.youtube.com/watch?v=k4cFCjAgKKk"
+    }
+  ],
+  "gameplays": [
+    {
+      "title": "CALANGO JOGANDO GRIS (Jogo completo)",
+      "channelName": "CalangoLive",
+      "channelUrl": "https://www.youtube.com/watch?v=nq12MGk6mCo",
+      "embedUrl": "https://www.youtube.com/embed/nq12MGk6mCo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nq12MGk6mCo"
+    },
+    {
+      "title": "GRIS",
+      "channelName": "Cellbit",
+      "channelUrl": "https://www.youtube.com/watch?v=uImpg2wWPLc",
+      "embedUrl": "https://www.youtube.com/embed/uImpg2wWPLc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uImpg2wWPLc"
+    },
+    {
+      "title": "GRIS: Uma Jornada de Dor, Cor e Esperança - Jogo Completo",
+      "channelName": "Thiesca",
+      "channelUrl": "https://www.youtube.com/watch?v=lLMwUw_FGH8",
+      "embedUrl": "https://www.youtube.com/embed/lLMwUw_FGH8",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lLMwUw_FGH8"
+    },
+    {
+      "title": "#1 Um Incrível Jogo de Arte e Música! - GRIS",
+      "channelName": "Foxmaiden",
+      "channelUrl": "https://www.youtube.com/watch?v=2D_1q2Ovj8Q",
+      "embedUrl": "https://www.youtube.com/embed/2D_1q2Ovj8Q",
+      "youtubeUrl": "https://www.youtube.com/watch?v=2D_1q2Ovj8Q"
+    },
+    {
+      "title": "GRIS - O começo do Gameplay em PT-BR/ que jogo lindo",
+      "channelName": "Jogador 76_",
+      "channelUrl": "https://www.youtube.com/watch?v=HF8O52Xuyc4",
+      "embedUrl": "https://www.youtube.com/embed/HF8O52Xuyc4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HF8O52Xuyc4"
+    },
+    {
+      "title": "GRIS #2 - Boss Pássaro Gigante e Cor Azul - Gameplay em Português PT-BR",
+      "channelName": "Kozma Games",
+      "channelUrl": "https://www.youtube.com/watch?v=oiwEO2paKFc",
+      "embedUrl": "https://www.youtube.com/embed/oiwEO2paKFc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oiwEO2paKFc"
+    },
+    {
+      "title": "primeira vez jogando GRIS #1",
+      "channelName": "gambit games",
+      "channelUrl": "https://www.youtube.com/watch?v=G3y0V_HHi9U",
+      "embedUrl": "https://www.youtube.com/embed/G3y0V_HHi9U",
+      "youtubeUrl": "https://www.youtube.com/watch?v=G3y0V_HHi9U"
+    },
+    {
+      "title": "GRIS - O Início de Gameplay, em Português PT-BR!",
+      "channelName": "Suavest Games",
+      "channelUrl": "https://www.youtube.com/watch?v=wnBoU0Fsk7I",
+      "embedUrl": "https://www.youtube.com/embed/wnBoU0Fsk7I",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wnBoU0Fsk7I"
+    },
+    {
+      "title": "GRIS #1 - O INICIO e a cor VERMELHA | Gameplay em portugues PT-BR",
+      "channelName": "LiipeReis",
+      "channelUrl": "https://www.youtube.com/watch?v=Ng3mQVwj630",
+      "embedUrl": "https://www.youtube.com/embed/Ng3mQVwj630",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ng3mQVwj630"
+    },
+    {
+      "title": "GRIS #3 - Poder de Gelo e Nadando na Água - Gameplay em Português PT-BR",
+      "channelName": "Kozma Games",
+      "channelUrl": "https://www.youtube.com/watch?v=P0VcBnGwjMk",
+      "embedUrl": "https://www.youtube.com/embed/P0VcBnGwjMk",
+      "youtubeUrl": "https://www.youtube.com/watch?v=P0VcBnGwjMk"
+    }
+  ]
+}

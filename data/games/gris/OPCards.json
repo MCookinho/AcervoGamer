@@ -1,0 +1,31 @@
+{
+    "cards": [
+        {
+            "title": "Nomada Studio — Site Oficial",
+            "description": "Conheça o estúdio por trás de GRIS. Nomada Studio é um estúdio indie de Barcelona focado em criar experiências artísticas e emocionais. Conheça a equipe e os outros projetos do estúdio.",
+            "color": "#E8917A",
+            "siteUrl": "https://nomadastudio.es/",
+            "buttonLabel": "VISITAR",
+            "stats": "Estúdio indie",
+            "badge": "DESENVOLVEDOR"
+        },
+        {
+            "title": "Steam Community — GRIS",
+            "description": "Comunidade oficial de GRIS no Steam. Discuta a história, compartilhe descobertas, dicas e teorias sobre o profundo significado por trás de cada elemento visual e sonoro do jogo.",
+            "color": "#1B2838",
+            "siteUrl": "https://steamcommunity.com/app/683320/",
+            "buttonLabel": "ENTRAR",
+            "stats": "Comunidade ativa",
+            "badge": "SOCIAL"
+        },
+        {
+            "title": "Berlinist — Bandcamp",
+            "description": "Ouça a trilha sonora completa de GRIS no Bandcamp. 27 faixas orignais de Berlinist, uma banda de Barcelona especializada em trilhas sonoras para videogames. Disponível para compra em alta qualidade.",
+            "color": "#629aa9",
+            "siteUrl": "https://berlinist.bandcamp.com/album/gris-original-soundtrack",
+            "buttonLabel": "OUVIR",
+            "stats": "27 faixas",
+            "badge": "TRILHA SONORA"
+        }
+    ]
+}
