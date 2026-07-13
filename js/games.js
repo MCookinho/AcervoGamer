@@ -13,16 +13,31 @@ const Games = {
                 return;
             }
 
-            const apiUrl = `https://api.github.com/repos/${this.GITHUB_REPO}/contents/data/games`;
-            const res = await fetch(apiUrl);
-            if (!res.ok) throw new Error('GitHub API error');
-            const items = await res.json();
+            let gameFolders = [];
 
-            if (!Array.isArray(items)) throw new Error('Unexpected API response');
+            try {
+                const apiUrl = `https://api.github.com/repos/${this.GITHUB_REPO}/contents/data/games`;
+                const res = await fetch(apiUrl);
+                if (res.ok) {
+                    const items = await res.json();
+                    if (Array.isArray(items)) {
+                        gameFolders = items.filter(i =>
+                            i.type === 'dir' && i.name !== 'Songs'
+                        ).map(i => ({ name: i.name }));
+                    }
+                }
+            } catch {}
 
-            const gameFolders = items.filter(i =>
-                i.type === 'dir' && i.name !== 'Songs'
-            );
+            if (gameFolders.length === 0) {
+                const indexUrl = `https://raw.githubusercontent.com/${this.GITHUB_REPO}/main/data/games/index.json`;
+                const indexRes = await fetch(indexUrl);
+                if (indexRes.ok) {
+                    const names = await indexRes.json();
+                    if (Array.isArray(names)) {
+                        gameFolders = names.map(n => ({ name: n }));
+                    }
+                }
+            }
 
             if (gameFolders.length === 0) throw new Error('No game folders found');
 
