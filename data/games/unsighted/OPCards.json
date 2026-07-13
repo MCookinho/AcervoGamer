@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Unsighted Wiki",
+      "description": "Wiki completa com guias de exploração, dicas de bosses, sistema de tempo e todos os segredos de Arcadia.",
+      "color": "#FFD740",
+      "siteUrl": "https://www.pcgamingwiki.com/wiki/Unsighted",
+      "buttonLabel": "VISITAR WIKI",
+      "badge": "GUIA"
+    },
+    {
+      "title": "Speedrun.com",
+      "description": "Rankings mundiais de speedrun de Unsighted. Veja os recordes atuais e runs comentadas.",
+      "color": "#4ECDC4",
+      "siteUrl": "https://www.speedrun.com/Unsighted",
+      "buttonLabel": "VER RECORDES",
+      "badge": "SPEEDRUN"
+    },
+    {
+      "title": "Studio Pixel Punk — Estúdio Brasileiro",
+      "description": "Conheça a Studio Pixel Punk, estúdio indie de São Paulo, SP, fundado por Fernanda Dias e Tiani Pixel. Criadoras de Unsighted.",
+      "color": "#E74C3C",
+      "siteUrl": "https://store.steampowered.com/developer/studiopixelpunk",
+      "buttonLabel": "CONHECER",
+      "badge": "DESENVOLVEDOR"
+    }
+  ]
+}
