@@ -1,0 +1,198 @@
+{
+    "name": "Out of Space",
+    "slug": "out-of-space",
+    "genre": "Estratégia/Casual",
+    "productionScale": "Indie",
+    "developer": "Behold Studios",
+    "publisher": "Akupara Games",
+    "year": 2020,
+    "brazilian": true,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/400080/header.jpg",
+    "previewGif": "https://cdn.akamai.steamstatic.com/steam/apps/400080/capsule_616x353.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/400080",
+    "shortDescription": "Out of Space é um jogo cooperativo de estratégia sobre morar em uma nave espacial com seus colegas de quarto. Gere recursos, cuide de uma infestação alienígena mortal e construa seu lar sustentável no espaço! Jogue solo ou com até 4 amigos.",
+    "fullDescription": "Out of Space é um jogo cooperativo local e online sobre viver juntos em uma casa no espaço. Você e seus amigos vão se mudar para uma nave espacial, onde precisarão lidar com uma infestação alienígena mortal e enfrentar os desafios de construir uma nave sustentável. Cada partida começa em uma nave gerada proceduralmente, exigindo habilidades de planejamento e trabalho em equipe. Recicle sujeira e viscosidade alienígena, compre novas tecnologias, automatize tarefas com robôs e adote cachorros para ajudar!",
+    "trailer": "https://www.youtube.com/embed/q23FGokrxYk",
+    "ageRating": "L",
+    "platforms": [
+        {
+            "name": "PC",
+            "requirements": {
+                "minimum": {
+                    "os": "Windows 7 SP1+",
+                    "processor": "Intel Core i3 / AMD Athlon 64 ou mais recente (SSE2)",
+                    "memory": "4 GB RAM",
+                    "graphics": "NVIDIA GeForce série 8000 ou mais recente",
+                    "directx": "N/A",
+                    "storage": "600 MB"
+                },
+                "recommended": {
+                    "os": "Windows 7 SP1+",
+                    "processor": "Intel i5-3300 / AMD FX 8350 (SSE2)",
+                    "memory": "8 GB RAM",
+                    "graphics": "Nvidia GTX 580 / AMD HD 7870 ou mais recente",
+                    "directx": "N/A",
+                    "storage": "600 MB"
+                }
+            }
+        },
+        {
+            "name": "macOS"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "PlayStation 4"
+        },
+        {
+            "name": "Xbox One"
+        },
+        {
+            "name": "Switch"
+        }
+    ],
+    "soundtrack": [
+        {
+            "title": "Hawaii",
+            "duration": "4:44",
+            "youtubeUrl": "https://www.youtube.com/watch?v=33Jt_N6RFxU"
+        },
+        {
+            "title": "Enter Ship",
+            "duration": "2:23",
+            "youtubeUrl": "https://www.youtube.com/watch?v=33Jt_N6RFxU"
+        },
+        {
+            "title": "Our Home",
+            "duration": "3:00",
+            "youtubeUrl": "https://www.youtube.com/watch?v=33Jt_N6RFxU"
+        },
+        {
+            "title": "New Package",
+            "duration": "4:46",
+            "youtubeUrl": "https://www.youtube.com/watch?v=33Jt_N6RFxU"
+        },
+        {
+            "title": "Room Power",
+            "duration": "4:27",
+            "youtubeUrl": "https://www.youtube.com/watch?v=33Jt_N6RFxU"
+        },
+        {
+            "title": "Out of Power",
+            "duration": "5:47",
+            "youtubeUrl": "https://www.youtube.com/watch?v=33Jt_N6RFxU"
+        },
+        {
+            "title": "Victory, or not?",
+            "duration": "1:55",
+            "youtubeUrl": "https://www.youtube.com/watch?v=33Jt_N6RFxU"
+        }
+    ],
+    "stores": [
+        {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/400080/Out_of_Space/",
+            "price": 28.99,
+            "priceOriginal": "R$ 28,99",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "PlayStation Store",
+            "platform": "PlayStation 4",
+            "url": "https://store.playstation.com/pt-br/product/HP0700-PPSA01440_00-OUTOFSPACE0000000",
+            "price": 54.95,
+            "priceOriginal": "R$ 54,95",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Xbox Store",
+            "platform": "Xbox One",
+            "url": "https://www.xbox.com/pt-BR/games/store/out-of-space-couch-edition/9P3K24D4C3RK",
+            "price": 54.95,
+            "priceOriginal": "R$ 54,95",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Nintendo eShop",
+            "platform": "Switch",
+            "url": "https://www.nintendo.com/pt-br/store/products/out-of-space-couch-edition-switch/",
+            "price": 54.95,
+            "priceOriginal": "R$ 54,95",
+            "lastUpdated": "2026-07-13"
+        }
+    ],
+    "gameplays": [
+        {
+            "title": "OUT OF SPACE - O FAXINEIRO DA GALÁXIA! (PC Gameplay PT-BR)",
+            "channelName": "Perdi o Save",
+            "channelUrl": "https://www.youtube.com/@PerdioSave",
+            "embedUrl": "https://www.youtube.com/embed/xViQWJ5lnws",
+            "youtubeUrl": "https://www.youtube.com/watch?v=xViQWJ5lnws"
+        },
+        {
+            "title": "Inicio da Gameplay, Out of Space um jogo 100% Brasileiro (PT BR)",
+            "channelName": "Grilo Gamer",
+            "channelUrl": "https://www.youtube.com/@Grilogamer",
+            "embedUrl": "https://www.youtube.com/embed/NWrUvEb0VDw",
+            "youtubeUrl": "https://www.youtube.com/watch?v=NWrUvEb0VDw"
+        },
+        {
+            "title": "JOGO BRASILEIRO NO ESPAÇO - Out of Space (Gameplay em Português PT-BR)",
+            "channelName": "Kozma Games",
+            "channelUrl": "https://www.youtube.com/@kozmagames",
+            "embedUrl": "https://www.youtube.com/embed/sLplCWhysY0",
+            "youtubeUrl": "https://www.youtube.com/watch?v=sLplCWhysY0"
+        },
+        {
+            "title": "Out of Space - Gameplay",
+            "channelName": "Gamers & Games",
+            "channelUrl": "https://www.youtube.com/@gamersegames",
+            "embedUrl": "https://www.youtube.com/embed/2ag0qgxF4A4",
+            "youtubeUrl": "https://www.youtube.com/watch?v=2ag0qgxF4A4"
+        },
+        {
+            "title": "Out of Space co-op (Jogo brasileiro)",
+            "channelName": "CO-OP Brasil",
+            "channelUrl": "https://www.youtube.com/@coopbr1",
+            "embedUrl": "https://www.youtube.com/embed/Hlm5_XA755g",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Hlm5_XA755g"
+        },
+        {
+            "title": "OUT OF SPACE | ANÁLISE | PT BR",
+            "channelName": "Hurry Up!",
+            "channelUrl": "https://www.youtube.com/@hurry_up",
+            "embedUrl": "https://www.youtube.com/embed/dwATh2sLEXw",
+            "youtubeUrl": "https://www.youtube.com/watch?v=dwATh2sLEXw"
+        },
+        {
+            "title": "Out of Space - Gameplay de Primeiras Impressões",
+            "channelName": "Põe Pra 2 Co-op Gaming",
+            "channelUrl": "https://www.youtube.com/@P%C3%B5ePra2",
+            "embedUrl": "https://www.youtube.com/embed/4RWvdG_eivE",
+            "youtubeUrl": "https://www.youtube.com/watch?v=4RWvdG_eivE"
+        },
+        {
+            "title": "Out of Space: Couch Edition (PS5) - Gameplay - Primeiros 17 Minutos - Legendado PT-BR",
+            "channelName": "PSX Brasil",
+            "channelUrl": "https://www.youtube.com/@psx-brasil",
+            "embedUrl": "https://www.youtube.com/embed/QA6hhc2tkfc",
+            "youtubeUrl": "https://www.youtube.com/watch?v=QA6hhc2tkfc"
+        },
+        {
+            "title": "Out of Space - Jogo co-op Brasileiro!",
+            "channelName": "Atmus Games",
+            "channelUrl": "https://www.youtube.com/@AtmusGames",
+            "embedUrl": "https://www.youtube.com/embed/wlpa2MZRvQE",
+            "youtubeUrl": "https://www.youtube.com/watch?v=wlpa2MZRvQE"
+        },
+        {
+            "title": "Out of Space Coop (Acabando com os Virus) Jogo Cooperativo",
+            "channelName": "Casal Na Ment",
+            "channelUrl": "https://www.youtube.com/@NaMent",
+            "embedUrl": "https://www.youtube.com/embed/WOiwB8-JPwM",
+            "youtubeUrl": "https://www.youtube.com/watch?v=WOiwB8-JPwM"
+        }
+    ]
+}

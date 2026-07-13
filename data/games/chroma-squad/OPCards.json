@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Behold Studios — Estúdio Brasileiro",
+      "description": "Conheça o Behold Studios, estúdio indie de Brasília, DF. Fundado em 2009 por Saulo Camarotti e Pedro Guerra. Criadores de Knights of Pen & Paper, Chroma Squad e Out of Space.",
+      "color": "#7B68EE",
+      "siteUrl": "https://www.beholdstudios.com.br",
+      "buttonLabel": "CONHECER",
+      "badge": "DESENVOLVEDOR"
+    },
+    {
+      "title": "Spotify — OST Completa",
+      "description": "Ouça a trilha sonora completa de 31 faixas no Spotify. Composta por Raphael Müller e Washington Rayk, estilo chiptune inspirado em Tokusatsu e anos 80/90.",
+      "color": "#1DB954",
+      "siteUrl": "https://open.spotify.com/album/0Ut8srAPoGwYXu2QCLb2Zb",
+      "buttonLabel": "OUVIR NO SPOTIFY",
+      "badge": "OST"
+    },
+    {
+      "title": "SBGames 2015 — 2 Prêmios",
+      "description": "Chroma Squad venceu Melhor Indie Game e Melhor Áudio no SBGames 2015. Também venceu o Dubai Game Expo 2015 na categoria Melhor Áudio.",
+      "color": "#FFD700",
+      "siteUrl": "https://store.steampowered.com/app/251130/Chroma_Squad/",
+      "buttonLabel": "VER NA STEAM",
+      "badge": "PREMIADO"
+    }
+  ]
+}

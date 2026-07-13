@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Swordtales — Estúdio Brasileiro",
+      "description": "Conheça o Swordtales, estúdio indie brasileiro fundado por Alessandro Martinello, Conrado Testa e Luiz Alvarez. Primeiro jogo financiado pela Lei Rouanet no Brasil.",
+      "color": "#9B59B6",
+      "siteUrl": "https://store.steampowered.com/app/320820/Toren/",
+      "buttonLabel": "VER NA STEAM",
+      "badge": "DESENVOLVEDOR"
+    },
+    {
+      "title": "Lei Rouanet — Primeiro Jogo Financiado",
+      "description": "Toren foi o primeiro jogo a receber financiamento público via Lei Rouanet (crédito tributário) no Brasil, com R$ 75.000 obtidos em 2013. Uma história única no game dev brasileiro.",
+      "color": "#2ECC71",
+      "siteUrl": "https://www.gov.br/cultura/pt-br/assuntos/leis-e-incentivos/le-rouanet",
+      "buttonLabel": "SAIBA MAIS",
+      "badge": "HISTÓRIA"
+    },
+    {
+      "title": "Trilha Sonora Orquestral",
+      "description": "Composta por Vinicius Kleinsorgen e Lucas Flicky, com a Novastrike Orchestra. 23 faixas orquestrais gravadas ao vivo, disponível como DLC na Steam.",
+      "color": "#E74C3C",
+      "siteUrl": "https://store.steampowered.com/app/367640/Toren__Soundtrack/",
+      "buttonLabel": "OUVIR",
+      "badge": "OST"
+    }
+  ]
+}

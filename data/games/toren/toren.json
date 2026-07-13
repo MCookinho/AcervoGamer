@@ -1,0 +1,261 @@
+{
+    "name": "Toren",
+    "slug": "toren",
+    "genre": "Aventura/Puzzle",
+    "productionScale": "Indie",
+    "developer": "Swordtales",
+    "publisher": "Versus Evil",
+    "year": 2015,
+    "brazilian": true,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/320820/header.jpg",
+    "previewGif": "https://cdn.akamai.steamstatic.com/steam/apps/320820/capsule_616x353.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/320820",
+    "shortDescription": "Toren é um jogo de aventura indie brasileiro onde você controla a Moonchild, destinada a escalar uma torre misteriosa em uma jornada solitária de autodescoberta, resolução de enigmas e enfrentamento de criaturas em um mundo de fantasia sombria.",
+    "fullDescription": "Toren é o primeiro jogo da desenvolvedora indie brasileira Swordtales. Você controla a Moonchild, uma garota nascida em uma torre mágica, que cresce de bebê a mulher adulta enquanto escala o Toren — uma estrutura ancestral repleta de enigmas e criaturas perigosas. Inspirado por Ico, Shadow of the Colossus e The Legend of Zelda, o jogo oferece uma experiência atmosférica com trilha sonora orquestral, arte premiada e narrativa simbólica contada através de pergaminhos poéticos. Possui apoio do Ministério da Cultural do Brasil e foi o primeiro jogo financiado pela Lei Rouanet.",
+    "trailer": "https://www.youtube.com/embed/5Jy3D-Dq2Y8",
+    "ageRating": "12",
+    "platforms": [
+        {
+            "name": "PC",
+            "requirements": {
+                "minimum": {
+                    "os": "Windows 7, Windows 8",
+                    "processor": "2 GHz dual core processor",
+                    "memory": "2 GB RAM",
+                    "graphics": "Intel HD3000, Nvidia GeForce GT8600 ou equivalente",
+                    "directx": "DirectX 9.0c",
+                    "storage": "3 GB"
+                },
+                "recommended": {
+                    "os": "Windows 7, Windows 8.1",
+                    "processor": "Intel Core i5-750, AMD Phenom II X4 955",
+                    "memory": "4 GB RAM",
+                    "graphics": "Nvidia GTX 480, AMD Radeon HD 5870 (1GB VRAM)",
+                    "directx": "DirectX 11",
+                    "storage": "3 GB"
+                }
+            }
+        },
+        {
+            "name": "macOS"
+        },
+        {
+            "name": "PlayStation 4"
+        }
+    ],
+    "soundtrack": [
+        {
+            "title": "Under The Grief of The Night",
+            "duration": "1:27",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Frozen Beauty",
+            "duration": "0:44",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Toren",
+            "duration": "1:32",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Ancient Teachings",
+            "duration": "0:36",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Frail Seedling",
+            "duration": "0:21",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Forgotten Tale",
+            "duration": "1:10",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Her Playground",
+            "duration": "2:27",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "The Tree of Life",
+            "duration": "0:58",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Springtime",
+            "duration": "2:43",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Looming Threat",
+            "duration": "1:17",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Upon The Eyes of Death",
+            "duration": "1:19",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Waltz of The Fallen",
+            "duration": "2:02",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Y7KLEPkp1OE"
+        },
+        {
+            "title": "Outlying Walls",
+            "duration": "2:00",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Autumn Rainfall",
+            "duration": "2:03",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Passageway",
+            "duration": "0:24",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Shades of Winter",
+            "duration": "0:47",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Born of The Stars",
+            "duration": "1:20",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Resolve",
+            "duration": "0:30",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Battle Over The Celestial Bridge",
+            "duration": "3:25",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "The Last Pillar",
+            "duration": "0:30",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Selenic Steps",
+            "duration": "2:30",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Eclipsing Touch",
+            "duration": "1:11",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        },
+        {
+            "title": "Timeless Lore",
+            "duration": "2:30",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3Mp5GgIK440"
+        }
+    ],
+    "stores": [
+        {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/320820/Toren/",
+            "price": 19.99,
+            "priceOriginal": "R$ 19,99",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "GOG",
+            "platform": "PC",
+            "url": "https://www.gog.com/game/toren",
+            "price": 19.99,
+            "priceOriginal": "R$ 19,99",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "PlayStation Store",
+            "platform": "PlayStation 4",
+            "url": "https://store.playstation.com/pt-br/product/HP0700-NPVA72713_00-TOREN0000000000",
+            "price": 49.90,
+            "priceOriginal": "R$ 49,90",
+            "lastUpdated": "2026-07-13"
+        }
+    ],
+    "gameplays": [
+        {
+            "title": "Toren - Parte 1 - Gameplay Pt Br",
+            "channelName": "Segundo Controle",
+            "channelUrl": "https://www.youtube.com/@segundocontrolebrasil",
+            "embedUrl": "https://www.youtube.com/embed/iN3nrnjpUc8",
+            "youtubeUrl": "https://www.youtube.com/watch?v=iN3nrnjpUc8"
+        },
+        {
+            "title": "Toren - Gameplay completo! [PC - LEGENDADO EM PT-BR]",
+            "channelName": "Origamer",
+            "channelUrl": "https://www.youtube.com/@origamer6585",
+            "embedUrl": "https://www.youtube.com/embed/8Bt--i9bO-w",
+            "youtubeUrl": "https://www.youtube.com/watch?v=8Bt--i9bO-w"
+        },
+        {
+            "title": "Toren jogo indie gameplay",
+            "channelName": "Salsicha detonado games",
+            "channelUrl": "https://www.youtube.com/@Salsichadetonadogames",
+            "embedUrl": "https://www.youtube.com/embed/RL6TUskD86w",
+            "youtubeUrl": "https://www.youtube.com/watch?v=RL6TUskD86w"
+        },
+        {
+            "title": "Toren #01 - O Início | Gameplay completo, versão Steam PT-BR",
+            "channelName": "Missão Secundária",
+            "channelUrl": "https://www.youtube.com/@missaosecundaria99",
+            "embedUrl": "https://www.youtube.com/embed/mcYOz3Rig8I",
+            "youtubeUrl": "https://www.youtube.com/watch?v=mcYOz3Rig8I"
+        },
+        {
+            "title": "Toren | Gameplay walkthrough (PT-BR) part 1 | É TIPO ICO!",
+            "channelName": "Madrugatina",
+            "channelUrl": "https://www.youtube.com/@madrugatina",
+            "embedUrl": "https://www.youtube.com/embed/XYQBuuIDqwI",
+            "youtubeUrl": "https://www.youtube.com/watch?v=XYQBuuIDqwI"
+        },
+        {
+            "title": "Toren - Adventure Game 100% Brasileiro Gameplay Completa",
+            "channelName": "Geek Intensifies",
+            "channelUrl": "https://www.youtube.com/@GeekIntensifies",
+            "embedUrl": "https://www.youtube.com/embed/pRHnDogOa8Q",
+            "youtubeUrl": "https://www.youtube.com/watch?v=pRHnDogOa8Q"
+        },
+        {
+            "title": "Toren Gameplay PC",
+            "channelName": "Gamer Linear Plus",
+            "channelUrl": "https://www.youtube.com/@GamerLinearPlus",
+            "embedUrl": "https://www.youtube.com/embed/4K6xtBdw9ZU",
+            "youtubeUrl": "https://www.youtube.com/watch?v=4K6xtBdw9ZU"
+        },
+        {
+            "title": "TOREN O JOGO BRASILEIRO - GAMEPLAY O INICIO",
+            "channelName": "PAPAI & GAMES",
+            "channelUrl": "https://www.youtube.com/@papaigames2497",
+            "embedUrl": "https://www.youtube.com/embed/O81-klSA9jw",
+            "youtubeUrl": "https://www.youtube.com/watch?v=O81-klSA9jw"
+        },
+        {
+            "title": "Toren COMPLETO - Detonado, história e troféus em FILME legendado",
+            "channelName": "PSX Brasil",
+            "channelUrl": "https://www.youtube.com/@psx-brasil",
+            "embedUrl": "https://www.youtube.com/embed/67JYZFvCr6Y",
+            "youtubeUrl": "https://www.youtube.com/watch?v=67JYZFvCr6Y"
+        },
+        {
+            "title": "Toren - PS4 Gameplay COMENTADO-Legendado pt-BR",
+            "channelName": "Tiozão Japa",
+            "channelUrl": "https://www.youtube.com/@TiozaoJapa",
+            "embedUrl": "https://www.youtube.com/embed/ZVJpATH2MKI",
+            "youtubeUrl": "https://www.youtube.com/watch?v=ZVJpATH2MKI"
+        }
+    ]
+}

@@ -1,0 +1,345 @@
+{
+    "name": "Chroma Squad",
+    "slug": "chroma-squad",
+    "genre": "RPG/Estratégia",
+    "productionScale": "Indie",
+    "developer": "Behold Studios",
+    "publisher": "Akupara Games",
+    "year": 2015,
+    "brazilian": true,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/251130/header.jpg",
+    "previewGif": "https://cdn.akamai.steamstatic.com/steam/apps/251130/capsule_616x353.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/251130",
+    "shortDescription": "Cinco dublês cansados de serem explorados decidem montar seu próprio programa de TV no estilo Power Rangers. Contrate atores, melhore seu estúdio, crie Mechas de papelão e fita adesiva e grave episódios épicos em batalhas por turnos!",
+    "fullDescription": "Chroma Squad é um RPG tático sobre cinco dublês que decidem deixar seus empregos e criar seu próprio programa de TV inspirado em Super Sentai e Power Rangers! Contrate atores, compre equipamentos, fabrique armas e robôs gigantes de papelão e fita. Quando as câmeras ligarem, controle seus cinco guerreiros de macacão colorido em batalhas dramáticas por turnos. Gerencie seu estúdio, suba de ranking, encare monstros e mechas — tudo com humor, pixel art delicioso e uma trilha sonora chiptune que brilha como justiça!",
+    "trailer": "https://www.youtube.com/embed/Hn9rSzenqsk",
+    "ageRating": "10",
+    "platforms": [
+        {
+            "name": "PC",
+            "requirements": {
+                "minimum": {
+                    "os": "Windows XP ou posterior (64 bits)",
+                    "processor": "2000 MHz",
+                    "memory": "512 MB RAM",
+                    "graphics": "Resolução mínima 640x480 (placa compatível Direct3D/OpenGL com pelo menos 128MB)",
+                    "directx": "DirectX 9.0c",
+                    "storage": "250 MB"
+                },
+                "recommended": {
+                    "os": "Windows 7 ou posterior",
+                    "processor": "2000 MHz",
+                    "memory": "1 GB RAM",
+                    "graphics": "Placa de vídeo compatível com OpenGL",
+                    "directx": "DirectX 9.0c",
+                    "storage": "250 MB"
+                }
+            }
+        },
+        {
+            "name": "macOS"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "PlayStation 4"
+        },
+        {
+            "name": "Xbox One"
+        },
+        {
+            "name": "Switch"
+        },
+        {
+            "name": "Mobile"
+        }
+    ],
+    "soundtrack": [
+        {
+            "title": "Power of Love, Chroma Squad!",
+            "duration": "1:16",
+            "youtubeUrl": "https://www.youtube.com/watch?v=mRmbh8VQ4Ak"
+        },
+        {
+            "title": "All Play and No Work",
+            "duration": "2:29",
+            "youtubeUrl": "https://www.youtube.com/watch?v=2Og4qlyEZ5A"
+        },
+        {
+            "title": "Lights, Camera, Chromatize",
+            "duration": "3:16",
+            "youtubeUrl": "https://www.youtube.com/watch?v=4LSlYo2ZvxE"
+        },
+        {
+            "title": "\"Wait, what?!\"",
+            "duration": "1:17",
+            "youtubeUrl": "https://www.youtube.com/watch?v=7WmdCC-UVcA"
+        },
+        {
+            "title": "My Name is Cerebro",
+            "duration": "0:46",
+            "youtubeUrl": "https://www.youtube.com/watch?v=uNuiNhcGKds"
+        },
+        {
+            "title": "A Little Break from Saving the Planet",
+            "duration": "3:18",
+            "youtubeUrl": "https://www.youtube.com/watch?v=9cIaTfJymOc"
+        },
+        {
+            "title": "You There, to the Scene!",
+            "duration": "1:19",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Bo-8Un9m7Cs"
+        },
+        {
+            "title": "The Groove of Justice",
+            "duration": "3:24",
+            "youtubeUrl": "https://www.youtube.com/watch?v=enhYxbOxIic"
+        },
+        {
+            "title": "The Perfect Plan",
+            "duration": "0:58",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3insw_W1gnM"
+        },
+        {
+            "title": "On to Plan B",
+            "duration": "3:08",
+            "youtubeUrl": "https://www.youtube.com/watch?v=-FHc0xAdxfs"
+        },
+        {
+            "title": "That's a Wrap",
+            "duration": "0:44",
+            "youtubeUrl": "https://www.youtube.com/watch?v=fpra85k2Ueo"
+        },
+        {
+            "title": "Hard Boiled",
+            "duration": "3:19",
+            "youtubeUrl": "https://www.youtube.com/watch?v=lICIbCWTxXQ"
+        },
+        {
+            "title": "Amazing Entrance",
+            "duration": "0:38",
+            "youtubeUrl": "https://www.youtube.com/watch?v=73OmTLo7DWU"
+        },
+        {
+            "title": "Ain't No Suit",
+            "duration": "3:02",
+            "youtubeUrl": "https://www.youtube.com/watch?v=YS8cmZzmkuE"
+        },
+        {
+            "title": "Something Smells Fishy",
+            "duration": "3:24",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EDTt3GYtOag"
+        },
+        {
+            "title": "Monster Jelly",
+            "duration": "0:42",
+            "youtubeUrl": "https://www.youtube.com/watch?v=NSGmGqL55L8"
+        },
+        {
+            "title": "Monster Jam",
+            "duration": "3:22",
+            "youtubeUrl": "https://www.youtube.com/watch?v=j3V3j1cgEnQ"
+        },
+        {
+            "title": "United We Stand",
+            "duration": "3:19",
+            "youtubeUrl": "https://www.youtube.com/watch?v=-pk5lk70bJg"
+        },
+        {
+            "title": "Here They Come",
+            "duration": "0:40",
+            "youtubeUrl": "https://www.youtube.com/watch?v=njNZROStfvU"
+        },
+        {
+            "title": "A Threat to Us All",
+            "duration": "3:11",
+            "youtubeUrl": "https://www.youtube.com/watch?v=SxnKinRWTcg"
+        },
+        {
+            "title": "Episode Delayed",
+            "duration": "0:16",
+            "youtubeUrl": "https://www.youtube.com/watch?v=1jRdYdUzkN8"
+        },
+        {
+            "title": "\"This isn't even my final form!\"",
+            "duration": "0:39",
+            "youtubeUrl": "https://www.youtube.com/watch?v=4ER7PZaL9PY"
+        },
+        {
+            "title": "Friends in Danger",
+            "duration": "3:25",
+            "youtubeUrl": "https://www.youtube.com/watch?v=uKFHkV14yHs"
+        },
+        {
+            "title": "Destroy the City, Save the City",
+            "duration": "3:35",
+            "youtubeUrl": "https://www.youtube.com/watch?v=I6Xg8ANDB4o"
+        },
+        {
+            "title": "Apocalypse: Cancelled",
+            "duration": "0:44",
+            "youtubeUrl": "https://www.youtube.com/watch?v=X1VNG7CGGX8"
+        },
+        {
+            "title": "Bits and Pieces",
+            "duration": "0:10",
+            "youtubeUrl": "https://www.youtube.com/watch?v=WWgEzsg4VmM"
+        },
+        {
+            "title": "Spoiled Kid From Outer Space",
+            "duration": "0:41",
+            "youtubeUrl": "https://www.youtube.com/watch?v=tOaW1_8GR4Y"
+        },
+        {
+            "title": "Dance to the Beating",
+            "duration": "3:23",
+            "youtubeUrl": "https://www.youtube.com/watch?v=gZKcp_0emmQ"
+        },
+        {
+            "title": "The Voidbringer",
+            "duration": "0:33",
+            "youtubeUrl": "https://www.youtube.com/watch?v=KTmGJQaKT6A"
+        },
+        {
+            "title": "Could This Be the End?",
+            "duration": "3:23",
+            "youtubeUrl": "https://www.youtube.com/watch?v=tuSBqi3BrVw"
+        },
+        {
+            "title": "Be Brave",
+            "duration": "1:32",
+            "youtubeUrl": "https://www.youtube.com/watch?v=HAx1gkNz1qk"
+        }
+    ],
+    "stores": [
+        {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/251130/Chroma_Squad/",
+            "price": 44.99,
+            "priceOriginal": "R$ 44,99",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "GOG",
+            "platform": "PC",
+            "url": "https://www.gog.com/game/chroma_squad",
+            "price": 44.99,
+            "priceOriginal": "R$ 44,99",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "PlayStation Store",
+            "platform": "PlayStation 4",
+            "url": "https://store.playstation.com/pt-br/product/HP0700-PPSA01106_00-CHROMASQUAD00000",
+            "price": 54.95,
+            "priceOriginal": "R$ 54,95",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Xbox Store",
+            "platform": "Xbox One",
+            "url": "https://www.xbox.com/pt-BR/games/store/chroma-squad/9p2n5mfcd2sb",
+            "price": 54.95,
+            "priceOriginal": "R$ 54,95",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Nintendo eShop",
+            "platform": "Switch",
+            "url": "https://www.nintendo.com/pt-br/store/products/chroma-squad-switch/",
+            "price": 54.95,
+            "priceOriginal": "R$ 54,95",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "App Store",
+            "platform": "iOS",
+            "url": "https://apps.apple.com/br/app/chroma-squad/id1145234831",
+            "price": 24.90,
+            "priceOriginal": "R$ 24,90",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Google Play",
+            "platform": "Android",
+            "url": "https://play.google.com/store/apps/details?id=com.beholdstudios.chromasquad",
+            "price": 24.90,
+            "priceOriginal": "R$ 24,90",
+            "lastUpdated": "2026-07-13"
+        }
+    ],
+    "gameplays": [
+        {
+            "title": "CHROMA SQUAD — A PRIMEIRA HORA DO JOGO (Gameplay em PT-BR)",
+            "channelName": "Canal do Ed",
+            "channelUrl": "https://www.youtube.com/@canaldoed_",
+            "embedUrl": "https://www.youtube.com/embed/V7l_4hJCWkY",
+            "youtubeUrl": "https://www.youtube.com/watch?v=V7l_4hJCWkY"
+        },
+        {
+            "title": "Chroma Squad #1 - S01E01 Piloto (Gameplay Legendado PT-BR)",
+            "channelName": "Eu vi um dragão!",
+            "channelUrl": "https://www.youtube.com/@euviumdragao1497",
+            "embedUrl": "https://www.youtube.com/embed/PsXg7tU1UWk",
+            "youtubeUrl": "https://www.youtube.com/watch?v=PsXg7tU1UWk"
+        },
+        {
+            "title": "Chroma Squad - S1E01 \"Pilot\" Vamos Jogar PT-BR",
+            "channelName": "MetalBear",
+            "channelUrl": "https://www.youtube.com/@sMetalBear",
+            "embedUrl": "https://www.youtube.com/embed/ixoO7QFTEZs",
+            "youtubeUrl": "https://www.youtube.com/watch?v=ixoO7QFTEZs"
+        },
+        {
+            "title": "Chroma Squad - Gameplay PT-BR #SGBR",
+            "channelName": "Struart Gamer",
+            "channelUrl": "https://www.youtube.com/@StruartMurilo",
+            "embedUrl": "https://www.youtube.com/embed/qk2VQDP68i8",
+            "youtubeUrl": "https://www.youtube.com/watch?v=qk2VQDP68i8"
+        },
+        {
+            "title": "CHROMA SQUAD - RPG 100% Brasileiro [ 60FPS PC Gameplay ]",
+            "channelName": "Lucky Salamander",
+            "channelUrl": "https://www.youtube.com/@LuckySalamand3r",
+            "embedUrl": "https://www.youtube.com/embed/Y1KQhuJgxUs",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Y1KQhuJgxUs"
+        },
+        {
+            "title": "Chroma Squad #2 | PT",
+            "channelName": "Sion005",
+            "channelUrl": "https://www.youtube.com/@sion0053",
+            "embedUrl": "https://www.youtube.com/embed/o9NCWm0nDDU",
+            "youtubeUrl": "https://www.youtube.com/watch?v=o9NCWm0nDDU"
+        },
+        {
+            "title": "Chroma Squad - JOGO BRASILEIRO. FAÇA SEUS POWER RANGERS",
+            "channelName": "Mr Tonny Gamer",
+            "channelUrl": "https://www.youtube.com/@MrTonnyGamer",
+            "embedUrl": "https://www.youtube.com/embed/BT2fxxw_FmU",
+            "youtubeUrl": "https://www.youtube.com/watch?v=BT2fxxw_FmU"
+        },
+        {
+            "title": "Chroma Squad Gameplay (PC HD)",
+            "channelName": "GameZine",
+            "channelUrl": "https://www.youtube.com/@GameZine",
+            "embedUrl": "https://www.youtube.com/embed/vhNacpTYdI0",
+            "youtubeUrl": "https://www.youtube.com/watch?v=vhNacpTYdI0"
+        },
+        {
+            "title": "Chroma Squad - Gameplay",
+            "channelName": "New Game Plus",
+            "channelUrl": "https://www.youtube.com/@ngameplus",
+            "embedUrl": "https://www.youtube.com/embed/h3gywQsV5pQ",
+            "youtubeUrl": "https://www.youtube.com/watch?v=h3gywQsV5pQ"
+        },
+        {
+            "title": "CHROMA SQUAD - PC GAMEPLAY - WALKTHROUGH ep.1",
+            "channelName": "PC Gameplays",
+            "channelUrl": "https://www.youtube.com/@PCGameplays",
+            "embedUrl": "https://www.youtube.com/embed/LHbjVp_W7bw",
+            "youtubeUrl": "https://www.youtube.com/watch?v=LHbjVp_W7bw"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Prisma Game Lab — PUC-Rio",
+      "description": "Equipe de desenvolvimento de jogos da PUC-Rio (RPG - Rio PUC Games), fundada em 2015. Criadores de Unidos do Canarinho como parte do Edital Brasilidades, celebração da cultura brasileira.",
+      "color": "#00A651",
+      "siteUrl": "https://prismagamelab.itch.io",
+      "buttonLabel": "VER MAIS JOGOS",
+      "badge": "DESENVOLVEDOR"
+    },
+    {
+      "title": "Gabriel Barros — Compositor",
+      "description": "Gabriel Barros é compositor e sound designer de Rio de Janeiro. Responsável pela trilha sonora de samba de Unidos do Canarinho. Também trabalhou em Sky Racket e Irmão do Jorel: O Jogo.",
+      "color": "#FFD700",
+      "siteUrl": "https://soundlister.com/portfolio/gabriel-barros/",
+      "buttonLabel": "CONHECER",
+      "badge": "COMPOSITOR"
+    },
+    {
+      "title": "Edital Brasilidades",
+      "description": "Unidos do Canarinho foi criado como parte do Edital Brasilidades — iniciativa do Prisma Game Lab para desenvolver jogos que celebram a cultura brasileira. O jogo é #1 no itch.io para as tags samba e carnaval.",
+      "color": "#FF6B35",
+      "siteUrl": "https://prismagamelab.itch.io/unidos-do-canarinho",
+      "buttonLabel": "JOGAR GRÁTIS",
+      "badge": "BRASILIDADES"
+    }
+  ]
+}

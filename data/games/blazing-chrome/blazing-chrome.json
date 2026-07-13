@@ -1,0 +1,320 @@
+{
+    "name": "Blazing Chrome",
+    "slug": "blazing-chrome",
+    "genre": "Ação/Run'n'Gun",
+    "productionScale": "Indie",
+    "developer": "JoyMasher",
+    "publisher": "The Arcade Crew",
+    "year": 2019,
+    "brazilian": true,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/609110/header.jpg",
+    "previewGif": "https://cdn.akamai.steamstatic.com/steam/apps/609110/capsule_616x353.jpg",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/609110",
+    "shortDescription": "Em Blazing Chrome, máquinas dominaram o mundo e os poucos humanos restantes vivem à beira do extermínio. Pegue sua arma e destrua robôs em um clássico run'n'gun repleto de ação, coop local e pixel art 16 bits!",
+    "fullDescription": "Um exército robótico controlado por IA dominou o mundo, tornando os humanos dispensáveis. Um pequeno grupo de rebeldes parte numa missão suicida para destruir a central elétrica da IA. Escolha Mavra, supersoldado da resistência, ou Doyle, um robô insurgente. Dash por 5 cenários apocalípticos enfrentando centenas de inimigos, bosses mecânicos, motos voadoras e mech suits num run'n'gun com pixel art 16 bits, coop local e ação frenética no estilo dos clássicos Contra e Metal Slug.",
+    "trailer": "https://www.youtube.com/embed/VX_8MV-cmc4",
+    "ageRating": "12",
+    "platforms": [
+        {
+            "name": "PC",
+            "requirements": {
+                "minimum": {
+                    "os": "Windows 7 32-bit",
+                    "processor": "Intel Core 2 Duo E8400 / AMD Phenom II X2 550",
+                    "memory": "2 GB RAM",
+                    "graphics": "GeForce 9600 GT / Radeon HD 3870",
+                    "directx": "DirectX 11",
+                    "storage": "200 MB"
+                },
+                "recommended": {
+                    "os": "Windows 7 64-bit",
+                    "processor": "Intel Core 2 Duo E8400 / AMD Phenom II X2 550",
+                    "memory": "2 GB RAM",
+                    "graphics": "GeForce 9600 GT / Radeon HD 3870",
+                    "directx": "DirectX 11",
+                    "storage": "200 MB"
+                }
+            }
+        },
+        {
+            "name": "PlayStation 4"
+        },
+        {
+            "name": "Xbox One"
+        },
+        {
+            "name": "Switch"
+        }
+    ],
+    "soundtrack": [
+        {
+            "title": "Intro",
+            "duration": "1:21",
+            "youtubeUrl": "https://www.youtube.com/watch?v=oJbJrpDmA2E"
+        },
+        {
+            "title": "Menu",
+            "duration": "1:57",
+            "youtubeUrl": "https://www.youtube.com/watch?v=LGhtMgXZf68"
+        },
+        {
+            "title": "Character Select",
+            "duration": "1:12",
+            "youtubeUrl": "https://www.youtube.com/watch?v=sbglT9pf5fA"
+        },
+        {
+            "title": "Mission Select",
+            "duration": "1:28",
+            "youtubeUrl": "https://www.youtube.com/watch?v=JytQzZ25DS8"
+        },
+        {
+            "title": "Assault",
+            "duration": "4:51",
+            "youtubeUrl": "https://www.youtube.com/watch?v=-zCkEBC-Yzc"
+        },
+        {
+            "title": "Gunship",
+            "duration": "1:54",
+            "youtubeUrl": "https://www.youtube.com/watch?v=GdInu5GOwIM"
+        },
+        {
+            "title": "Cyclops Part 1",
+            "duration": "1:36",
+            "youtubeUrl": "https://www.youtube.com/watch?v=JwObgwwctds"
+        },
+        {
+            "title": "Cyclops Part 2",
+            "duration": "4:09",
+            "youtubeUrl": "https://www.youtube.com/watch?v=E0qgJCob50o"
+        },
+        {
+            "title": "Riders",
+            "duration": "3:52",
+            "youtubeUrl": "https://www.youtube.com/watch?v=hWG00t8L6qw"
+        },
+        {
+            "title": "Train Heist",
+            "duration": "3:01",
+            "youtubeUrl": "https://www.youtube.com/watch?v=uDYetGmvffI"
+        },
+        {
+            "title": "Thunder",
+            "duration": "2:32",
+            "youtubeUrl": "https://www.youtube.com/watch?v=cyYac1QrWFU"
+        },
+        {
+            "title": "Desert Base",
+            "duration": "3:14",
+            "youtubeUrl": "https://www.youtube.com/watch?v=cFwT7PHxFYM"
+        },
+        {
+            "title": "Spider",
+            "duration": "2:53",
+            "youtubeUrl": "https://www.youtube.com/watch?v=dvHFooeomy0"
+        },
+        {
+            "title": "Bio Weapon Facility",
+            "duration": "2:44",
+            "youtubeUrl": "https://www.youtube.com/watch?v=_VxEOyYiMDk"
+        },
+        {
+            "title": "Nightmare",
+            "duration": "2:44",
+            "youtubeUrl": "https://www.youtube.com/watch?v=IizP5y4glDk"
+        },
+        {
+            "title": "Communication Tower",
+            "duration": "2:40",
+            "youtubeUrl": "https://www.youtube.com/watch?v=yfAwSyKrTGs"
+        },
+        {
+            "title": "Chaser",
+            "duration": "2:32",
+            "youtubeUrl": "https://www.youtube.com/watch?v=VvHFu6ClmKQ"
+        },
+        {
+            "title": "Tunnel",
+            "duration": "2:43",
+            "youtubeUrl": "https://www.youtube.com/watch?v=_u2wWNTj9eM"
+        },
+        {
+            "title": "Security Bot",
+            "duration": "1:56",
+            "youtubeUrl": "https://www.youtube.com/watch?v=x4O80Wb00dk"
+        },
+        {
+            "title": "Blizzard Riders",
+            "duration": "2:42",
+            "youtubeUrl": "https://www.youtube.com/watch?v=UP7dVFgMGdo"
+        },
+        {
+            "title": "Snow Base",
+            "duration": "3:50",
+            "youtubeUrl": "https://www.youtube.com/watch?v=SGAdluZLfrA"
+        },
+        {
+            "title": "Laboratory",
+            "duration": "3:00",
+            "youtubeUrl": "https://www.youtube.com/watch?v=gfkqeWT-rSc"
+        },
+        {
+            "title": "Acid Serpent",
+            "duration": "2:28",
+            "youtubeUrl": "https://www.youtube.com/watch?v=RrULid4137w"
+        },
+        {
+            "title": "The Core",
+            "duration": "2:30",
+            "youtubeUrl": "https://www.youtube.com/watch?v=KPK0unEPkGI"
+        },
+        {
+            "title": "Commander Zet",
+            "duration": "1:57",
+            "youtubeUrl": "https://www.youtube.com/watch?v=vnkd_c8980E"
+        },
+        {
+            "title": "Final Showdown",
+            "duration": "6:52",
+            "youtubeUrl": "https://www.youtube.com/watch?v=UhXVdfRk-b8"
+        },
+        {
+            "title": "Mission Accomplished",
+            "duration": "0:09",
+            "youtubeUrl": "https://www.youtube.com/watch?v=uubm4RxCD1c"
+        },
+        {
+            "title": "Ending",
+            "duration": "1:31",
+            "youtubeUrl": "https://www.youtube.com/watch?v=dMjbdS9cGrU"
+        },
+        {
+            "title": "Assault Arranged",
+            "duration": "2:41",
+            "youtubeUrl": "https://www.youtube.com/watch?v=UIyEXKAMb9g"
+        },
+        {
+            "title": "Thunder Arranged",
+            "duration": "2:37",
+            "youtubeUrl": "https://www.youtube.com/watch?v=_pWCSh36bsE"
+        },
+        {
+            "title": "Release Trailer",
+            "duration": "1:47",
+            "youtubeUrl": "https://www.youtube.com/watch?v=H5L-3v4kwJw"
+        }
+    ],
+    "stores": [
+        {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/609110/Blazing_Chrome/",
+            "price": 47.24,
+            "priceOriginal": "R$ 47,24",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "GOG",
+            "platform": "PC",
+            "url": "https://www.gog.com/game/blazing_chrome",
+            "price": 47.24,
+            "priceOriginal": "R$ 47,24",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "PlayStation Store",
+            "platform": "PlayStation 4",
+            "url": "https://store.playstation.com/pt-br/product/HP0700-PPSA01300_00-BLAZINGCHROME000",
+            "price": 49.99,
+            "priceOriginal": "R$ 49,99",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Xbox Store",
+            "platform": "Xbox One",
+            "url": "https://www.xbox.com/pt-BR/games/store/blazing-chrome/9nkx20n7sznn",
+            "price": 62.45,
+            "priceOriginal": "R$ 62,45",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Nintendo eShop",
+            "platform": "Switch",
+            "url": "https://www.nintendo.com/pt-br/store/products/blazing-chrome-switch/",
+            "price": 62.98,
+            "priceOriginal": "R$ 62,98",
+            "lastUpdated": "2026-07-13"
+        }
+    ],
+    "gameplays": [
+        {
+            "title": "BLAZING CHROME | GAMEPLAY/DETONADO/FULL GAME",
+            "channelName": "Gameplay Br",
+            "channelUrl": "https://www.youtube.com/@gameplaybr1746",
+            "embedUrl": "https://www.youtube.com/embed/1m_WH5PdgEw",
+            "youtubeUrl": "https://www.youtube.com/watch?v=1m_WH5PdgEw"
+        },
+        {
+            "title": "Blazing Chrome Gameplay PT-Br - Passando da primeira fase",
+            "channelName": "MAZUGAMES",
+            "channelUrl": "https://www.youtube.com/@mazugamess",
+            "embedUrl": "https://www.youtube.com/embed/6Yv3V-72tRA",
+            "youtubeUrl": "https://www.youtube.com/watch?v=6Yv3V-72tRA"
+        },
+        {
+            "title": "BLAZING CHROME - MISSÃO 5 - BASE ESCONDIDA - GAMEPLAY PT BR",
+            "channelName": "Moluch",
+            "channelUrl": "https://www.youtube.com/@MoluchCanal",
+            "embedUrl": "https://www.youtube.com/embed/REoUJpUppoU",
+            "youtubeUrl": "https://www.youtube.com/watch?v=REoUJpUppoU"
+        },
+        {
+            "title": "CONTRA MODERNO | Blazing Chrome (Gameplay em Português PT-BR)",
+            "channelName": "Kozma Games",
+            "channelUrl": "https://www.youtube.com/@kozmagames",
+            "embedUrl": "https://www.youtube.com/embed/V3W_YN32Pu8",
+            "youtubeUrl": "https://www.youtube.com/watch?v=V3W_YN32Pu8"
+        },
+        {
+            "title": "BLAZING CHROME - COMPLETO EM PT-BR | Você Precisa Jogar esse Game Brasileiro!",
+            "channelName": "VPlay Legendary",
+            "channelUrl": "https://www.youtube.com/@VplayLegendary",
+            "embedUrl": "https://www.youtube.com/embed/un8BcdWGxog",
+            "youtubeUrl": "https://www.youtube.com/watch?v=un8BcdWGxog"
+        },
+        {
+            "title": "Blazing Chrome #1 - PC Gameplay - JOGO BRASILEIRO!",
+            "channelName": "Gameplay Aleatório",
+            "channelUrl": "https://www.youtube.com/@gameplayaleatorio9274",
+            "embedUrl": "https://www.youtube.com/embed/o9MCsta_kho",
+            "youtubeUrl": "https://www.youtube.com/watch?v=o9MCsta_kho"
+        },
+        {
+            "title": "BLAZING CHROME - MISSÃO 1 - NORMAL (Xbox One) | Legendado PT-BR",
+            "channelName": "Jogando Juntas",
+            "channelUrl": "https://www.youtube.com/@JogandoJuntas",
+            "embedUrl": "https://www.youtube.com/embed/QQfp-jcqPGs",
+            "youtubeUrl": "https://www.youtube.com/watch?v=QQfp-jcqPGs"
+        },
+        {
+            "title": "BLAZING CHROME — GAME INDIE BRASILEIRO QUE LEMBRA A SÉRIE CONTRA (Gameplay em PT-BR)",
+            "channelName": "Canal do Ed",
+            "channelUrl": "https://www.youtube.com/@canaldoed_",
+            "embedUrl": "https://www.youtube.com/embed/xkMS1RWL00Y",
+            "youtubeUrl": "https://www.youtube.com/watch?v=xkMS1RWL00Y"
+        },
+        {
+            "title": "Gameplay Indie - Blazing Chrome - Torrando Fichas! || Vídeo em Português PT-BR",
+            "channelName": "Canal Fun Factor",
+            "channelUrl": "https://www.youtube.com/@canalfunfactor4849",
+            "embedUrl": "https://www.youtube.com/embed/S3FpOBIySPI",
+            "youtubeUrl": "https://www.youtube.com/watch?v=S3FpOBIySPI"
+        },
+        {
+            "title": "Blazing Chrome STEAM PC Joymaster Jogo Brasileiro",
+            "channelName": "Phantasos Games",
+            "channelUrl": "https://www.youtube.com/@Phantasosgames",
+            "embedUrl": "https://www.youtube.com/embed/TLq6RNqqbZw",
+            "youtubeUrl": "https://www.youtube.com/watch?v=TLq6RNqqbZw"
+        }
+    ]
+}

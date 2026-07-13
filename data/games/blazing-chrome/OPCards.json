@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "JoyMasher — Estúdio Brasileiro",
+      "description": "Conheça o JoyMasher, estúdio indie de Curitiba, PR. Responsável por Oniken, Odallus: The Dark Call e Blazing Chrome. Fundado em 2012 por Danilo Dias, Iuri Nery e Thaís Weiller.",
+      "color": "#FF4444",
+      "siteUrl": "https://joymasher.com",
+      "buttonLabel": "CONHECER",
+      "badge": "DESENVOLVEDOR"
+    },
+    {
+      "title": "Speedrun.com",
+      "description": "Rankings mundiais de speedrun de Blazing Chrome. Veja os recordes atuais e runs comentadas de todas as fases.",
+      "color": "#4ECDC4",
+      "siteUrl": "https://www.speedrun.com/blazingchrome",
+      "buttonLabel": "VER RECORDES",
+      "badge": "SPEEDRUN"
+    },
+    {
+      "title": "BGA 2019 — Jogo Brasileiro do Ano",
+      "description": "Blazing Chrome venceu o prêmio de Jogo Brasileiro do Ano no Brazil Game Awards 2019, concorrendo com Aritana, Lenin – The Lion, Sky Racket e Tamashii.",
+      "color": "#FFD700",
+      "siteUrl": "https://brazilgameawards.com",
+      "buttonLabel": "VER PRÊMIO",
+      "badge": "PREMIADO"
+    }
+  ]
+}

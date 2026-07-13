@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Behold Studios — Estúdio Brasileiro",
+      "description": "Conheça o Behold Studios, estúdio indie de Brasília, DF. Fundado em 2009 por Saulo Camarotti. Criadores de Knights of Pen & Paper, Chroma Squad e Galaxy of Pen & Paper.",
+      "color": "#7B68EE",
+      "siteUrl": "https://www.beholdstudios.com.br",
+      "buttonLabel": "CONHECER",
+      "badge": "DESENVOLVEDOR"
+    },
+    {
+      "title": "BGA 2020 — Jogo Brasileiro do Ano",
+      "description": "Out of Space venceu o prêmio de Jogo Brasileiro do Ano no Brazil Game Awards 2020. Também venceu o Cubo de Ouro 2019 e 3 prêmios no SB Games 2019.",
+      "color": "#FFD700",
+      "siteUrl": "https://brazilgameawards.com",
+      "buttonLabel": "VER PRÊMIO",
+      "badge": "PREMIADO"
+    },
+    {
+      "title": "Remote Play Together",
+      "description": "Jogue com até 4 amigos online mesmo sendo um jogo de couch co-op! O Steam Remote Play Together permite compartilhar o jogo com amigos.",
+      "color": "#4ECDC4",
+      "siteUrl": "https://store.steampowered.com/app/400080/Out_of_Space/",
+      "buttonLabel": "JOGAR",
+      "badge": "CO-OP"
+    }
+  ]
+}
