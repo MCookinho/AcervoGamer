@@ -95,6 +95,7 @@ const Games = {
     },
 
     _searchState: { query: '', genres: [], devs: [], platforms: [], eras: [], scales: [], ratings: [] },
+    _brazilianOnly: localStorage.getItem('acervogamer_brazilian_only') === 'true',
 
     splitGenres(genre) {
         if (!genre) return [];
@@ -122,6 +123,7 @@ const Games = {
     filterGames() {
         const s = this._searchState;
         return this.data.filter(g => {
+            if (this._brazilianOnly && !g.brazilian) return false;
             if (s.query && !g.name.toLowerCase().includes(s.query.toLowerCase())) return false;
             if (s.genres.length > 0 && !s.genres.some(f => this.splitGenres(g.genre).includes(f))) return false;
             if (s.devs.length > 0 && !s.devs.includes(g.developer)) return false;
@@ -289,6 +291,10 @@ const Games = {
 
     clearFilters() {
         this._searchState = { query: '', genres: [], devs: [], platforms: [], eras: [], scales: [], ratings: [] };
+        this._brazilianOnly = false;
+        localStorage.removeItem('acervogamer_brazilian_only');
+        const brBtn = document.getElementById('brazilian-toggle');
+        if (brBtn) brBtn.classList.remove('active');
         const input = document.getElementById('games-search-input');
         if (input) input.value = '';
         ['genre', 'dev', 'platform', 'era', 'scale', 'rating'].forEach(id => {
@@ -301,7 +307,7 @@ const Games = {
 
     hasActiveFilters() {
         const s = this._searchState;
-        return s.query || s.genres.length > 0 || s.devs.length > 0 || s.platforms.length > 0 || s.eras.length > 0 || s.scales.length > 0 || s.ratings.length > 0;
+        return this._brazilianOnly || s.query || s.genres.length > 0 || s.devs.length > 0 || s.platforms.length > 0 || s.eras.length > 0 || s.scales.length > 0 || s.ratings.length > 0;
     },
 
     updateGamesGrid() {
@@ -334,6 +340,14 @@ const Games = {
         if (btn) btn.classList.toggle('open');
     },
 
+    toggleBrazilian() {
+        this._brazilianOnly = !this._brazilianOnly;
+        localStorage.setItem('acervogamer_brazilian_only', this._brazilianOnly);
+        const btn = document.getElementById('brazilian-toggle');
+        if (btn) btn.classList.toggle('active', this._brazilianOnly);
+        this.updateGamesGrid();
+    },
+
     renderGamesPage(container) {
         const { genres, scales, devs, ratings, platforms } = this.getFilterOptions();
         const s = this._searchState;
@@ -362,6 +376,10 @@ const Games = {
                     <button id="advanced-search-toggle" class="advanced-search-toggle ${hasFilters ? 'open' : ''}" onclick="Games.toggleAdvancedSearch()">
                         <span>⚙ Busca Avançada</span>
                         <span class="advanced-search-arrow">▾</span>
+                    </button>
+                    <button id="brazilian-toggle" class="brazilian-toggle ${this._brazilianOnly ? 'active' : ''}" onclick="Games.toggleBrazilian()">
+                        <span class="flag-icon">🇧🇷</span>
+                        <span>Só BR</span>
                     </button>
                     <button id="games-clear-btn" class="games-clear-btn" style="display: ${hasFilters ? 'inline-flex' : 'none'}" onclick="Games.clearFilters()">✕ Limpar filtros</button>
                     <span id="games-counter" class="games-counter">${this.filterGames().length} jogo${this.filterGames().length !== 1 ? 's' : ''} encontrado${this.filterGames().length !== 1 ? 's' : ''}</span>
