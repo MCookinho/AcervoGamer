@@ -88,21 +88,6 @@ O site funciona como uma **Single Page Application (SPA)** pura, sem frameworks 
 
 ---
 
-## 📊 Números do Projeto
-
-| Métrica | Valor |
-|---------|-------|
-| **Jogos catalogados** | 3 |
-| **Faixas de trilha sonora** | 485 |
-| **Links Spotify** | 484 |
-| **Links YouTube** | 485 |
-| **Lojas de preço** | 17+ |
-| **Arquivos de código** | 16 |
-| **Linhas de código** | ~5.700 |
-| **Vídeos de background** | 19 |
-
----
-
 ## 🤝 Como Contribuir
 
 1. **Fork** o repositório
