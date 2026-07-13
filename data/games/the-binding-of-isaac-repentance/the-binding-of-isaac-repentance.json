@@ -12,57 +12,68 @@
   "bannerGif": "https://media.tenor.com/OOrZT1eYO2YAAAAM/the-binding-of-isaac-eye-of-rah.gif",
   "shortDescription": "The Binding of Isaac: Repentance é a definição definitiva do clássico roguelike de Edmund McMillen.",
   "fullDescription": "The Binding of Isaac: Repentance é a definição definitiva do clássico roguelike de Edmund McMillen. Explore centenas de itens, habilidades e cenários em uma jornada sombria através de masmorras geradas proceduralmente. Com mais de 500 horas de conteúdo, modos de jogo e DLCs, Repentance é o pacote definitivo para fãs de desafios e exploração. Jogue sozinho ou coopere com amigos em uma aventura repleta de segredos, segredos e mais segredos.",
-  "trailer": "gOaWadhNi0A",
+  "trailer": "https://www.youtube.com/embed/gOaWadhNi0A",
   "ageRating": "18",
-  "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series", "Nintendo Switch"],
-  "systemRequirements": {
-    "minimum": {
-      "os": "Windows 10",
-      "processor": "Intel i7-4770",
-      "memory": "4 GB RAM",
-      "graphics": "GeForce 900 Series",
-      "storage": "666 MB"
+  "platforms": [
+    {
+      "name": "PC",
+      "requirements": {
+        "minimum": {
+          "os": "Windows 10",
+          "processor": "Intel i7-4770",
+          "memory": "4 GB RAM",
+          "graphics": "GeForce 900 Series",
+          "storage": "666 MB"
+        },
+        "recommended": {
+          "os": "Windows 10",
+          "processor": "Intel i9",
+          "memory": "8 GB RAM",
+          "graphics": "GeForce 900 Series",
+          "storage": "666 MB"
+        }
+      }
     },
-    "recommended": {
-      "os": "Windows 10",
-      "processor": "Intel i9",
-      "memory": "8 GB RAM",
-      "graphics": "GeForce 900 Series",
-      "storage": "666 MB"
-    }
-  },
+    { "name": "PlayStation 4" },
+    { "name": "PlayStation 5" },
+    { "name": "Xbox One" },
+    { "name": "Xbox Series" },
+    { "name": "Nintendo Switch" }
+  ],
   "soundtrack": [
-    { "title": "Genesis Retake Light", "duration": "2:46", "youtubeId": "H9jqfH6Yp7w" },
-    { "title": "River Of Despair (Downpour)", "duration": "4:07", "youtubeId": "qCfn8HicQNI" },
-    { "title": "Juggernaut (Boss Alt)", "duration": "4:04", "youtubeId": "D7bcp2EfB1Y" },
-    { "title": "Fissure (Mines)", "duration": "3:52", "youtubeId": "18Gcl8N40oA" },
-    { "title": "Super Secret Room", "duration": "2:55", "youtubeId": "nXaqwUVLOwA" },
-    { "title": "Walls Of Denial (Mausoleum)", "duration": "4:21", "youtubeId": "HmCGH3hYu5g" },
-    { "title": "Dread (The Calm Twisted)", "duration": "4:11", "youtubeId": "a6kYYpgoO_s" },
-    { "title": "Carrion (Corpse)", "duration": "3:55", "youtubeId": "CrYGZS-N5gQ" },
-    { "title": "Morticide (Corpse Fight)", "duration": "3:39", "youtubeId": "RipGNNBzbQ8" },
-    { "title": "Caesarian (Utero)", "duration": "3:03", "youtubeId": "80w0Wnicz-c" },
-    { "title": "Armageddon (Boss Rush)", "duration": "3:47", "youtubeId": "7BnEIPWkfd8" },
-    { "title": "StarGazer (Planetarium)", "duration": "3:54", "youtubeId": "_sOQYJW-Tso" },
-    { "title": "Night Soil (Dross)", "duration": "4:48", "youtubeId": "8fJeWa--MKg" },
-    { "title": "Absentia (Ashpit)", "duration": "4:17", "youtubeId": "46LhvZq-eNA" },
-    { "title": "Morning Star (Gehenna)", "duration": "5:03", "youtubeId": "wwPqgU6b9sw" },
-    { "title": "Bygone", "duration": "2:14", "youtubeId": "nP0DsvPrjKk" },
-    { "title": "Home", "duration": "2:16", "youtubeId": "cIAmnU8mCWg" },
-    { "title": "Living In The Light", "duration": "3:43", "youtubeId": "mBw8hf27F5k" },
-    { "title": "Revelations 13-1", "duration": "7:53", "youtubeId": "ULbzWE_tC5M" },
-    { "title": "Genesis Retake Dark", "duration": "2:49", "youtubeId": "Mm4lk44DtMU" }
+    { "title": "Genesis Retake Light", "duration": "2:46", "youtubeUrl": "https://www.youtube.com/watch?v=H9jqfH6Yp7w" },
+    { "title": "River Of Despair (Downpour)", "duration": "4:07", "youtubeUrl": "https://www.youtube.com/watch?v=qCfn8HicQNI" },
+    { "title": "Juggernaut (Boss Alt)", "duration": "4:04", "youtubeUrl": "https://www.youtube.com/watch?v=D7bcp2EfB1Y" },
+    { "title": "Fissure (Mines)", "duration": "3:52", "youtubeUrl": "https://www.youtube.com/watch?v=18Gcl8N40oA" },
+    { "title": "Super Secret Room", "duration": "2:55", "youtubeUrl": "https://www.youtube.com/watch?v=nXaqwUVLOwA" },
+    { "title": "Walls Of Denial (Mausoleum)", "duration": "4:21", "youtubeUrl": "https://www.youtube.com/watch?v=HmCGH3hYu5g" },
+    { "title": "Dread (The Calm Twisted)", "duration": "4:11", "youtubeUrl": "https://www.youtube.com/watch?v=a6kYYpgoO_s" },
+    { "title": "Carrion (Corpse)", "duration": "3:55", "youtubeUrl": "https://www.youtube.com/watch?v=CrYGZS-N5gQ" },
+    { "title": "Morticide (Corpse Fight)", "duration": "3:39", "youtubeUrl": "https://www.youtube.com/watch?v=RipGNNBzbQ8" },
+    { "title": "Caesarian (Utero)", "duration": "3:03", "youtubeUrl": "https://www.youtube.com/watch?v=80w0Wnicz-c" },
+    { "title": "Armageddon (Boss Rush)", "duration": "3:47", "youtubeUrl": "https://www.youtube.com/watch?v=7BnEIPWkfd8" },
+    { "title": "StarGazer (Planetarium)", "duration": "3:54", "youtubeUrl": "https://www.youtube.com/watch?v=_sOQYJW-Tso" },
+    { "title": "Night Soil (Dross)", "duration": "4:48", "youtubeUrl": "https://www.youtube.com/watch?v=8fJeWa--MKg" },
+    { "title": "Absentia (Ashpit)", "duration": "4:17", "youtubeUrl": "https://www.youtube.com/watch?v=46LhvZq-eNA" },
+    { "title": "Morning Star (Gehenna)", "duration": "5:03", "youtubeUrl": "https://www.youtube.com/watch?v=wwPqgU6b9sw" },
+    { "title": "Bygone", "duration": "2:14", "youtubeUrl": "https://www.youtube.com/watch?v=nP0DsvPrjKk" },
+    { "title": "Home", "duration": "2:16", "youtubeUrl": "https://www.youtube.com/watch?v=cIAmnU8mCWg" },
+    { "title": "Living In The Light", "duration": "3:43", "youtubeUrl": "https://www.youtube.com/watch?v=mBw8hf27F5k" },
+    { "title": "Revelations 13-1", "duration": "7:53", "youtubeUrl": "https://www.youtube.com/watch?v=ULbzWE_tC5M" },
+    { "title": "Genesis Retake Dark", "duration": "2:49", "youtubeUrl": "https://www.youtube.com/watch?v=Mm4lk44DtMU" }
   ],
   "stores": [
     {
-      "name": "Steam",
-      "url": "https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance/",
-      "price": 233.94
-    },
-    {
-      "name": "Nintendo eShop",
+      "store": "Nintendo eShop",
+      "platform": "Nintendo Switch",
       "url": "https://www.nintendo.com/us/store/products/the-binding-of-isaac-repentance-switch/",
       "price": 99.99
+    },
+    {
+      "store": "Steam",
+      "platform": "PC",
+      "url": "https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance/",
+      "price": 233.94
     }
   ],
   "gameplays": [
