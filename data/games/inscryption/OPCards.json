@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Inscryption Wiki",
+      "description": "Wiki comunitária com guias, lore, secrets e todas as informações sobre Inscryption.",
+      "color": "#1a1a2e",
+      "siteUrl": "https://inscryption.fandom.com/wiki/Inscryption_Wiki",
+      "buttonLabel": "VISITAR WIKI",
+      "badge": "COMUNIDADE"
+    },
+    {
+      "title": "Kaycee's Mod",
+      "description": "Expansão gratuita que transforma a cabana de Leshy em um roguelike infinito com desafios crescentes e logs de desenvolvimento.",
+      "color": "#2d1b00",
+      "siteUrl": "https://store.steampowered.com/app/1752910/Inscryption_Soundtrack/",
+      "buttonLabel": "SAIBA MAIS",
+      "badge": "GRÁTIS"
+    },
+    {
+      "title": "Daniel Mullins Games",
+      "description": "Site oficial do desenvolvedor, criador de Pony Island e The Hex. Confira os próximos projetos.",
+      "color": "#0d0d0d",
+      "siteUrl": "https://www.danielmullinsgames.com/",
+      "buttonLabel": "VISITAR SITE",
+      "badge": "OFICIAL"
+    }
+  ]
+}
