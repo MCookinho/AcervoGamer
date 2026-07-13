@@ -1,180 +1,363 @@
 {
-  "name": "Celeste",
-  "slug": "celeste",
-  "genre": "Plataforma/Indie",
-  "productionScale": "Indie",
-  "developer": "Matt Makes Games Inc.",
-  "publisher": "Matt Makes Games Inc.",
-  "year": 2018,
-  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg",
-  "previewGif": "https://media.tenor.com/aJWtl0oIPtMAAAAM/madeline-celeste.gif",
-  "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/504230",
-  "bannerGif": "https://media.tenor.com/bV71z-Xq94MAAAAM/celeste-mountain.gif",
-  "shortDescription": "Ajude Madeline a escalar a Montanha Celeste nesse plataforma preciso com pixel art encantadora e uma história emocionante.",
-  "fullDescription": "Celeste é um jogo de plataforma que acompanha Madeline em sua escalada pela Montanha Celeste, um local repleto de desafios e segredos. Com mais de 700 telas de platforming meticuloso, a jogadora deve pular, escalar paredes e realizar traços aéreos para superar obstáculos. Além da dificuldade intensa, o jogo oferece um Modo de Assistência para acessibilidade, capítulos B-Side e C-Side desbloqueáveis, e uma trilha sonora envolvente composta por Lena Raine. Uma experiência indie aclamada pela crítica, premiada como Melhor Jogo Independente no The Game Awards 2018.",
-  "trailer": "https://www.youtube.com/embed/FqBj2IGg6Uw",
-  "ageRating": "10",
-  "platforms": [
-    {
-      "name": "PC",
-      "requirements": {
-        "minimum": {
-          "os": "Windows 7 ou superior",
-          "processor": "Intel Core i3 M380",
-          "memory": "2 GB RAM",
-          "graphics": "Intel HD 4000",
-          "storage": "1200 MB de espaço disponível"
+    "name": "Celeste",
+    "slug": "celeste",
+    "genre": "Plataforma/Indie",
+    "productionScale": "Indie",
+    "developer": "Matt Makes Games Inc.",
+    "publisher": "Matt Makes Games Inc.",
+    "year": 2018,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg",
+    "previewGif": "https://media.tenor.com/aJWtl0oIPtMAAAAM/madeline-celeste.gif",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/504230",
+    "bannerGif": "https://media.tenor.com/bV71z-Xq94MAAAAM/celeste-mountain.gif",
+    "shortDescription": "Ajude Madeline a escalar a Montanha Celeste nesse plataforma preciso com pixel art encantadora e uma história emocionante.",
+    "fullDescription": "Celeste é um jogo de plataforma que acompanha Madeline em sua escalada pela Montanha Celeste, um local repleto de desafios e segredos. Com mais de 700 telas de platforming meticuloso, a jogadora deve pular, escalar paredes e realizar traços aéreos para superar obstáculos. Além da dificuldade intensa, o jogo oferece um Modo de Assistência para acessibilidade, capítulos B-Side e C-Side desbloqueáveis, e uma trilha sonora envolvente composta por Lena Raine. Uma experiência indie aclamada pela crítica, premiada como Melhor Jogo Independente no The Game Awards 2018.",
+    "trailer": "https://www.youtube.com/embed/FqBj2IGg6Uw",
+    "ageRating": "10",
+    "platforms": [
+        {
+            "name": "PC",
+            "requirements": {
+                "minimum": {
+                    "os": "Windows 7 ou superior",
+                    "processor": "Intel Core i3 M380",
+                    "memory": "2 GB RAM",
+                    "graphics": "Intel HD 4000",
+                    "storage": "1200 MB de espaço disponível"
+                }
+            }
+        },
+        {
+            "name": "macOS"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Nintendo Switch"
+        },
+        {
+            "name": "PlayStation 4"
+        },
+        {
+            "name": "Xbox One"
         }
-      }
-    },
-    { "name": "macOS" },
-    { "name": "Linux" },
-    { "name": "Nintendo Switch" },
-    { "name": "PlayStation 4" },
-    { "name": "Xbox One" }
-  ],
-  "soundtrack": [
-    { "title": "Prologue", "duration": "1:07", "youtubeUrl": "https://www.youtube.com/watch?v=Ctuo3ws3EKs" },
-    { "title": "First Steps", "duration": "3:39", "youtubeUrl": "https://www.youtube.com/watch?v=N8OHSXvneOE" },
-    { "title": "Resurrections", "duration": "9:39", "youtubeUrl": "https://www.youtube.com/watch?v=1rwAvUvvQzQ" },
-    { "title": "Awake", "duration": "2:29", "youtubeUrl": "https://www.youtube.com/watch?v=BFVyvGmwlmk" },
-    { "title": "Postcard from Celeste Mountain", "duration": "1:32", "youtubeUrl": "https://www.youtube.com/watch?v=V8qOjmWIPKs" },
-    { "title": "Checking In", "duration": "7:05", "youtubeUrl": "https://www.youtube.com/watch?v=fOzvP1I5tLU" },
-    { "title": "Spirit of Hospitality", "duration": "1:44", "youtubeUrl": "https://www.youtube.com/watch?v=NRpcwd9MSSE" },
-    { "title": "Scattered and Lost", "duration": "5:53", "youtubeUrl": "https://www.youtube.com/watch?v=0etenwnI1wo" },
-    { "title": "Golden", "duration": "8:29", "youtubeUrl": "https://www.youtube.com/watch?v=mr-SWzqNpM0" },
-    { "title": "Anxiety", "duration": "1:53", "youtubeUrl": "https://www.youtube.com/watch?v=FMuQ11tVJnk" },
-    { "title": "Quiet and Falling", "duration": "7:27", "youtubeUrl": "https://www.youtube.com/watch?v=FjG0ivBT4lQ" },
-    { "title": "In the Mirror", "duration": "9:38", "youtubeUrl": "https://www.youtube.com/watch?v=bXfHKEaDg4s" },
-    { "title": "Madeline and Theo", "duration": "3:08", "youtubeUrl": "https://www.youtube.com/watch?v=__oZ-LYZ8pU" },
-    { "title": "Starjump", "duration": "2:13", "youtubeUrl": "https://www.youtube.com/watch?v=dTIeaqNXseY" },
-    { "title": "Reflection", "duration": "5:54", "youtubeUrl": "https://www.youtube.com/watch?v=QfhUSYq7jEs" },
-    { "title": "Confronting Myself", "duration": "4:09", "youtubeUrl": "https://www.youtube.com/watch?v=b_oEDGONSc4" },
-    { "title": "Little Goth", "duration": "2:58", "youtubeUrl": "https://www.youtube.com/watch?v=oHdSK43cIf8" },
-    { "title": "Reach for the Summit", "duration": "11:09", "youtubeUrl": "https://www.youtube.com/watch?v=iDVM9KED46Q" },
-    { "title": "Exhale", "duration": "2:21", "youtubeUrl": "https://www.youtube.com/watch?v=q7QMTo-P6H0" },
-    { "title": "Heart of the Mountain", "duration": "6:22", "youtubeUrl": "https://www.youtube.com/watch?v=DNOuancg5RY" },
-    { "title": "My Dearest Friends", "duration": "2:13", "youtubeUrl": "https://www.youtube.com/watch?v=VHN63n9y1vg" },
-
-    { "title": "Forsaken City (Sever the Skyline Mix) — Maxo", "duration": "2:30", "youtubeUrl": "https://www.youtube.com/watch?v=6LbXujfutWk" },
-    { "title": "Old Site (Black Moonrise Mix) — Ben Prunty", "duration": "3:23", "youtubeUrl": "https://www.youtube.com/watch?v=6eeIEMOQw4s" },
-    { "title": "Celestial Resort (Good Karma Mix) — Christa Lee", "duration": "3:45", "youtubeUrl": "https://www.youtube.com/watch?v=X-fmYK81MUQ" },
-    { "title": "Golden Ridge (Golden Feather Mix) — in love with a ghost", "duration": "4:53", "youtubeUrl": "https://www.youtube.com/watch?v=AgDYV_IbPuo" },
-    { "title": "Mirror Temple (Mirror Magic Mix) — 2 Mello", "duration": "3:55", "youtubeUrl": "https://www.youtube.com/watch?v=iKnwVvXkWq0" },
-    { "title": "Reflection (Center of the Earth Mix) — Jukio Kallio", "duration": "2:54", "youtubeUrl": "https://www.youtube.com/watch?v=qJXKBLeXK9c" },
-    { "title": "Summit (No More Running Mix) — Kuraine", "duration": "8:36", "youtubeUrl": "https://www.youtube.com/watch?v=_YLk0kJ3Naw" },
-    { "title": "The Core (Say Goodbye Mix) — Matthewせいじ", "duration": "3:46", "youtubeUrl": "https://www.youtube.com/watch?v=HoRvLKzNZWQ" },
-
-    { "title": "The Empty Space Above", "duration": "1:34" },
-    { "title": "Fear of the Unknown", "duration": "6:00", "youtubeUrl": "https://www.youtube.com/watch?v=9wob-o9k7l0" },
-    { "title": "Joy of Remembrance", "duration": "4:08", "youtubeUrl": "https://www.youtube.com/watch?v=gV5jmlGXLRc" },
-    { "title": "In Stasis", "duration": "2:25", "youtubeUrl": "https://www.youtube.com/watch?v=ledkZsFgKmo" },
-    { "title": "Crash", "duration": "0:11" },
-    { "title": "Beyond the Heart", "duration": "5:34", "youtubeUrl": "https://www.youtube.com/watch?v=TdmyqqybSBk" },
-    { "title": "Final Defiance", "duration": "5:22", "youtubeUrl": "https://www.youtube.com/watch?v=ccQfqKO2-bs" },
-    { "title": "Futility", "duration": "0:15" },
-    { "title": "Reconciliation", "duration": "1:29" },
-    { "title": "Farewell", "duration": "8:20", "youtubeUrl": "https://www.youtube.com/watch?v=VXIqXaX1blY" },
-    { "title": "The Woman and the Bird", "duration": "1:14" },
-    { "title": "Vovô e Vovó", "duration": "1:52", "youtubeUrl": "https://www.youtube.com/watch?v=_57v_O_W6t8" },
-    { "title": "wavedash.ppt", "duration": "0:50", "youtubeUrl": "https://www.youtube.com/watch?v=AgPfFpsfoTg" }
-  ],
-  "stores": [
-    {
-      "store": "Steam",
-      "platform": "PC",
-      "url": "https://store.steampowered.com/app/504230/Celeste/",
-      "price": 59.99
-    },
-    {
-      "store": "Nintendo eShop",
-      "platform": "Nintendo Switch",
-      "url": "https://www.nintendo.com/games/store/celeste-switch/",
-      "price": 59.99
-    },
-    {
-      "store": "PlayStation Store",
-      "platform": "PlayStation 4",
-      "url": "https://store.playstation.com/pt-br/product/UP2318-CUSA09443_00-CELESTE0000000001",
-      "price": 59.99
-    },
-    {
-      "store": "Xbox Store",
-      "platform": "Xbox One",
-      "url": "https://www.xbox.com/pt-br/games/store/celeste/9P5WD7N11Q3J",
-      "price": 59.99
-    }
-  ],
-  "gameplays": [
-    {
-      "title": "Celeste - Segredo no Topo da Montanha - Gameplay em Português PT-BR",
-      "channelName": "NiGhTWoLF Games",
-      "channelUrl": "https://www.youtube.com/@nightwolfgames",
-      "embedUrl": "https://www.youtube.com/embed/2Yb8UyijAcQ",
-      "youtubeUrl": "https://www.youtube.com/watch?v=2Yb8UyijAcQ"
-    },
-    {
-      "title": "Celeste - Início #1",
-      "channelName": "NoveGAMES",
-      "channelUrl": "https://www.youtube.com/@NoveGAMES",
-      "embedUrl": "https://www.youtube.com/embed/5Zoc8aKLKq0",
-      "youtubeUrl": "https://www.youtube.com/watch?v=5Zoc8aKLKq0"
-    },
-    {
-      "title": "COMO ZERAR | CELESTE - JOGO COMPLETO",
-      "channelName": "Games Historia",
-      "channelUrl": "https://www.youtube.com/@GamesHistoria-23",
-      "embedUrl": "https://www.youtube.com/embed/28UkcI6TXWo",
-      "youtubeUrl": "https://www.youtube.com/watch?v=28UkcI6TXWo"
-    },
-    {
-      "title": "Capitulo 01 - Cidade Abandonada - Celeste(Gameplay pt/br)",
-      "channelName": "Bruno Mucio",
-      "channelUrl": "https://www.youtube.com/@yahweh7446",
-      "embedUrl": "https://www.youtube.com/embed/11g3ZWw36ZA",
-      "youtubeUrl": "https://www.youtube.com/watch?v=11g3ZWw36ZA"
-    },
-    {
-      "title": "O COMEÇO DA JORNADA | Celeste #1 (Gameplay em Português PT-BR)",
-      "channelName": "Kozma Games",
-      "channelUrl": "https://www.youtube.com/@kozmagames",
-      "embedUrl": "https://www.youtube.com/embed/2Q_PGW4ycEU",
-      "youtubeUrl": "https://www.youtube.com/watch?v=2Q_PGW4ycEU"
-    },
-    {
-      "title": "Celeste: Capítulo 7 - Lado B - Esta PARTE tive MUITAS dificuldades",
-      "channelName": "Rojão Gameplay",
-      "channelUrl": "https://www.youtube.com/@rojaogameplay",
-      "embedUrl": "https://www.youtube.com/embed/3MW2F-m1dlk",
-      "youtubeUrl": "https://www.youtube.com/watch?v=3MW2F-m1dlk"
-    },
-    {
-      "title": "Celeste Gameplay PT-BR - Capítulo 1",
-      "channelName": "Red Plasmid",
-      "channelUrl": "https://www.youtube.com/@RedPlasmid",
-      "embedUrl": "https://www.youtube.com/embed/8b1JTksRGno",
-      "youtubeUrl": "https://www.youtube.com/watch?v=8b1JTksRGno"
-    },
-    {
-      "title": "Passando sem precisar de corações Celeste",
-      "channelName": "Lives do BhaLzin",
-      "channelUrl": "https://www.youtube.com/@LivesBhaLzin",
-      "embedUrl": "https://www.youtube.com/embed/6BI3W0RCsgA",
-      "youtubeUrl": "https://www.youtube.com/watch?v=6BI3W0RCsgA"
-    },
-    {
-      "title": "Coração do Capítulo 7! - Celeste #15",
-      "channelName": "DanilegoPlays",
-      "channelUrl": "https://www.youtube.com/@DanilegoPlays",
-      "embedUrl": "https://www.youtube.com/embed/Vy0aHbzCLos",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Vy0aHbzCLos"
-    },
-    {
-      "title": "spg são os novos profetas? 🔮✈️ - Celeste #23",
-      "channelName": "jogandofoddaci",
-      "channelUrl": "https://www.youtube.com/@jogandofoddaci",
-      "embedUrl": "https://www.youtube.com/embed/t0691tGFQIY",
-      "youtubeUrl": "https://www.youtube.com/watch?v=t0691tGFQIY"
-    }
-  ]
+    ],
+    "soundtrack": [
+        {
+            "title": "Prologue",
+            "duration": "1:07",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Ctuo3ws3EKs"
+        },
+        {
+            "title": "First Steps",
+            "duration": "3:39",
+            "youtubeUrl": "https://www.youtube.com/watch?v=N8OHSXvneOE"
+        },
+        {
+            "title": "Resurrections",
+            "duration": "9:39",
+            "youtubeUrl": "https://www.youtube.com/watch?v=1rwAvUvvQzQ"
+        },
+        {
+            "title": "Awake",
+            "duration": "2:29",
+            "youtubeUrl": "https://www.youtube.com/watch?v=BFVyvGmwlmk"
+        },
+        {
+            "title": "Postcard from Celeste Mountain",
+            "duration": "1:32",
+            "youtubeUrl": "https://www.youtube.com/watch?v=V8qOjmWIPKs"
+        },
+        {
+            "title": "Checking In",
+            "duration": "7:05",
+            "youtubeUrl": "https://www.youtube.com/watch?v=fOzvP1I5tLU"
+        },
+        {
+            "title": "Spirit of Hospitality",
+            "duration": "1:44",
+            "youtubeUrl": "https://www.youtube.com/watch?v=NRpcwd9MSSE"
+        },
+        {
+            "title": "Scattered and Lost",
+            "duration": "5:53",
+            "youtubeUrl": "https://www.youtube.com/watch?v=0etenwnI1wo"
+        },
+        {
+            "title": "Golden",
+            "duration": "8:29",
+            "youtubeUrl": "https://www.youtube.com/watch?v=mr-SWzqNpM0"
+        },
+        {
+            "title": "Anxiety",
+            "duration": "1:53",
+            "youtubeUrl": "https://www.youtube.com/watch?v=FMuQ11tVJnk"
+        },
+        {
+            "title": "Quiet and Falling",
+            "duration": "7:27",
+            "youtubeUrl": "https://www.youtube.com/watch?v=FjG0ivBT4lQ"
+        },
+        {
+            "title": "In the Mirror",
+            "duration": "9:38",
+            "youtubeUrl": "https://www.youtube.com/watch?v=bXfHKEaDg4s"
+        },
+        {
+            "title": "Madeline and Theo",
+            "duration": "3:08",
+            "youtubeUrl": "https://www.youtube.com/watch?v=__oZ-LYZ8pU"
+        },
+        {
+            "title": "Starjump",
+            "duration": "2:13",
+            "youtubeUrl": "https://www.youtube.com/watch?v=dTIeaqNXseY"
+        },
+        {
+            "title": "Reflection",
+            "duration": "5:54",
+            "youtubeUrl": "https://www.youtube.com/watch?v=QfhUSYq7jEs"
+        },
+        {
+            "title": "Confronting Myself",
+            "duration": "4:09",
+            "youtubeUrl": "https://www.youtube.com/watch?v=b_oEDGONSc4"
+        },
+        {
+            "title": "Little Goth",
+            "duration": "2:58",
+            "youtubeUrl": "https://www.youtube.com/watch?v=oHdSK43cIf8"
+        },
+        {
+            "title": "Reach for the Summit",
+            "duration": "11:09",
+            "youtubeUrl": "https://www.youtube.com/watch?v=iDVM9KED46Q"
+        },
+        {
+            "title": "Exhale",
+            "duration": "2:21",
+            "youtubeUrl": "https://www.youtube.com/watch?v=q7QMTo-P6H0"
+        },
+        {
+            "title": "Heart of the Mountain",
+            "duration": "6:22",
+            "youtubeUrl": "https://www.youtube.com/watch?v=DNOuancg5RY"
+        },
+        {
+            "title": "My Dearest Friends",
+            "duration": "2:13",
+            "youtubeUrl": "https://www.youtube.com/watch?v=VHN63n9y1vg"
+        },
+        {
+            "title": "Forsaken City (Sever the Skyline Mix) — Maxo",
+            "duration": "2:30",
+            "youtubeUrl": "https://www.youtube.com/watch?v=6LbXujfutWk"
+        },
+        {
+            "title": "Old Site (Black Moonrise Mix) — Ben Prunty",
+            "duration": "3:23",
+            "youtubeUrl": "https://www.youtube.com/watch?v=6eeIEMOQw4s"
+        },
+        {
+            "title": "Celestial Resort (Good Karma Mix) — Christa Lee",
+            "duration": "3:45",
+            "youtubeUrl": "https://www.youtube.com/watch?v=X-fmYK81MUQ"
+        },
+        {
+            "title": "Golden Ridge (Golden Feather Mix) — in love with a ghost",
+            "duration": "4:53",
+            "youtubeUrl": "https://www.youtube.com/watch?v=AgDYV_IbPuo"
+        },
+        {
+            "title": "Mirror Temple (Mirror Magic Mix) — 2 Mello",
+            "duration": "3:55",
+            "youtubeUrl": "https://www.youtube.com/watch?v=iKnwVvXkWq0"
+        },
+        {
+            "title": "Reflection (Center of the Earth Mix) — Jukio Kallio",
+            "duration": "2:54",
+            "youtubeUrl": "https://www.youtube.com/watch?v=qJXKBLeXK9c"
+        },
+        {
+            "title": "Summit (No More Running Mix) — Kuraine",
+            "duration": "8:36",
+            "youtubeUrl": "https://www.youtube.com/watch?v=_YLk0kJ3Naw"
+        },
+        {
+            "title": "The Core (Say Goodbye Mix) — Matthewせいじ",
+            "duration": "3:46",
+            "youtubeUrl": "https://www.youtube.com/watch?v=HoRvLKzNZWQ"
+        },
+        {
+            "title": "The Empty Space Above",
+            "duration": "1:34"
+        },
+        {
+            "title": "Fear of the Unknown",
+            "duration": "6:00",
+            "youtubeUrl": "https://www.youtube.com/watch?v=9wob-o9k7l0"
+        },
+        {
+            "title": "Joy of Remembrance",
+            "duration": "4:08",
+            "youtubeUrl": "https://www.youtube.com/watch?v=gV5jmlGXLRc"
+        },
+        {
+            "title": "In Stasis",
+            "duration": "2:25",
+            "youtubeUrl": "https://www.youtube.com/watch?v=ledkZsFgKmo"
+        },
+        {
+            "title": "Crash",
+            "duration": "0:11"
+        },
+        {
+            "title": "Beyond the Heart",
+            "duration": "5:34",
+            "youtubeUrl": "https://www.youtube.com/watch?v=TdmyqqybSBk"
+        },
+        {
+            "title": "Final Defiance",
+            "duration": "5:22",
+            "youtubeUrl": "https://www.youtube.com/watch?v=ccQfqKO2-bs"
+        },
+        {
+            "title": "Futility",
+            "duration": "0:15"
+        },
+        {
+            "title": "Reconciliation",
+            "duration": "1:29"
+        },
+        {
+            "title": "Farewell",
+            "duration": "8:20",
+            "youtubeUrl": "https://www.youtube.com/watch?v=VXIqXaX1blY"
+        },
+        {
+            "title": "The Woman and the Bird",
+            "duration": "1:14"
+        },
+        {
+            "title": "Vovô e Vovó",
+            "duration": "1:52",
+            "youtubeUrl": "https://www.youtube.com/watch?v=_57v_O_W6t8"
+        },
+        {
+            "title": "wavedash.ppt",
+            "duration": "0:50",
+            "youtubeUrl": "https://www.youtube.com/watch?v=AgPfFpsfoTg"
+        }
+    ],
+    "stores": [
+        {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/504230/Celeste/",
+            "price": 59.99,
+            "priceOriginal": "R$ 59,99",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Nintendo eShop",
+            "platform": "Nintendo Switch",
+            "url": "https://www.nintendo.com/games/store/celeste-switch/",
+            "price": 59.99
+        },
+        {
+            "store": "PlayStation Store",
+            "platform": "PlayStation 4",
+            "url": "https://store.playstation.com/pt-br/product/UP2318-CUSA09443_00-CELESTE0000000001",
+            "price": 59.99
+        },
+        {
+            "store": "Xbox Store",
+            "platform": "Xbox One",
+            "url": "https://www.xbox.com/pt-br/games/store/celeste/9P5WD7N11Q3J",
+            "price": 59.99
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=CLtImwsRjJKgaurd0w2E%2BXKAnKcZSo9rNl%2FfnVD1NEY%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-13"
+        }
+    ],
+    "gameplays": [
+        {
+            "title": "Celeste - Segredo no Topo da Montanha - Gameplay em Português PT-BR",
+            "channelName": "NiGhTWoLF Games",
+            "channelUrl": "https://www.youtube.com/@nightwolfgames",
+            "embedUrl": "https://www.youtube.com/embed/2Yb8UyijAcQ",
+            "youtubeUrl": "https://www.youtube.com/watch?v=2Yb8UyijAcQ"
+        },
+        {
+            "title": "Celeste - Início #1",
+            "channelName": "NoveGAMES",
+            "channelUrl": "https://www.youtube.com/@NoveGAMES",
+            "embedUrl": "https://www.youtube.com/embed/5Zoc8aKLKq0",
+            "youtubeUrl": "https://www.youtube.com/watch?v=5Zoc8aKLKq0"
+        },
+        {
+            "title": "COMO ZERAR | CELESTE - JOGO COMPLETO",
+            "channelName": "Games Historia",
+            "channelUrl": "https://www.youtube.com/@GamesHistoria-23",
+            "embedUrl": "https://www.youtube.com/embed/28UkcI6TXWo",
+            "youtubeUrl": "https://www.youtube.com/watch?v=28UkcI6TXWo"
+        },
+        {
+            "title": "Capitulo 01 - Cidade Abandonada - Celeste(Gameplay pt/br)",
+            "channelName": "Bruno Mucio",
+            "channelUrl": "https://www.youtube.com/@yahweh7446",
+            "embedUrl": "https://www.youtube.com/embed/11g3ZWw36ZA",
+            "youtubeUrl": "https://www.youtube.com/watch?v=11g3ZWw36ZA"
+        },
+        {
+            "title": "O COMEÇO DA JORNADA | Celeste #1 (Gameplay em Português PT-BR)",
+            "channelName": "Kozma Games",
+            "channelUrl": "https://www.youtube.com/@kozmagames",
+            "embedUrl": "https://www.youtube.com/embed/2Q_PGW4ycEU",
+            "youtubeUrl": "https://www.youtube.com/watch?v=2Q_PGW4ycEU"
+        },
+        {
+            "title": "Celeste: Capítulo 7 - Lado B - Esta PARTE tive MUITAS dificuldades",
+            "channelName": "Rojão Gameplay",
+            "channelUrl": "https://www.youtube.com/@rojaogameplay",
+            "embedUrl": "https://www.youtube.com/embed/3MW2F-m1dlk",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3MW2F-m1dlk"
+        },
+        {
+            "title": "Celeste Gameplay PT-BR - Capítulo 1",
+            "channelName": "Red Plasmid",
+            "channelUrl": "https://www.youtube.com/@RedPlasmid",
+            "embedUrl": "https://www.youtube.com/embed/8b1JTksRGno",
+            "youtubeUrl": "https://www.youtube.com/watch?v=8b1JTksRGno"
+        },
+        {
+            "title": "Passando sem precisar de corações Celeste",
+            "channelName": "Lives do BhaLzin",
+            "channelUrl": "https://www.youtube.com/@LivesBhaLzin",
+            "embedUrl": "https://www.youtube.com/embed/6BI3W0RCsgA",
+            "youtubeUrl": "https://www.youtube.com/watch?v=6BI3W0RCsgA"
+        },
+        {
+            "title": "Coração do Capítulo 7! - Celeste #15",
+            "channelName": "DanilegoPlays",
+            "channelUrl": "https://www.youtube.com/@DanilegoPlays",
+            "embedUrl": "https://www.youtube.com/embed/Vy0aHbzCLos",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Vy0aHbzCLos"
+        },
+        {
+            "title": "spg são os novos profetas? 🔮✈️ - Celeste #23",
+            "channelName": "jogandofoddaci",
+            "channelUrl": "https://www.youtube.com/@jogandofoddaci",
+            "embedUrl": "https://www.youtube.com/embed/t0691tGFQIY",
+            "youtubeUrl": "https://www.youtube.com/watch?v=t0691tGFQIY"
+        }
+    ],
+    "_pricesUpdated": "2026-07-13T19:38:25.238Z"
 }

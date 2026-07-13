@@ -1,155 +1,322 @@
 {
-  "name": "Inscryption",
-  "slug": "inscryption",
-  "genre": "Roguelike/Card Game/Horror/Indie",
-  "productionScale": "Indie",
-  "developer": "Daniel Mullins Games",
-  "publisher": "Devolver Digital",
-  "year": 2021,
-  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1092790/header.jpg",
-  "previewGif": "https://media.tenor.com/4I2wkv-3S_UAAAAM/stoat-inscryption.gif",
-  "background": "https://cdn.akamai.steamstatic.com/steam/apps/1092790/ss_a2e6d7f3e5c6d9c5b1f8e3d7.jpg",
-  "bannerGif": "https://media.tenor.com/2QYOhJ1gYmUAAAAM/inscryption-leshy-inscryption.gif",
-  "shortDescription": "Um roguelike de cartas sombrio que mistura horror psicológico, quebra-cabeças estilo escape room e narrativa metaficcional.",
-  "fullDescription": "Do criador de Pony Island e The Hex, Inscryption é uma odisseia sombria pavimentada por cartas que mescla roguelike de construção de baralhos, quebra-cabeças no estilo de escape rooms e horror psicológico em uma amálgama sanguinolenta. Adquira um baralho de criaturas florestais por sorteio, cirurgia e automutilação. Descubra os segredos escondidos nas paredes da cabana de Leshy. Embarque em uma jornada inesperada e profundamente perturbadora.",
-  "trailer": "https://www.youtube.com/embed/BRlnP67TAf4",
-  "ageRating": "16",
-  "platforms": [
-    {
-      "name": "PC",
-      "requirements": {
-        "minimum": {
-          "os": "Windows 7",
-          "processor": "Intel Core i5-760 (4×2800); AMD Athlon II X4 645 AM3 (4×3100)",
-          "memory": "4 GB RAM",
-          "graphics": "GeForce GTX 550 Ti (3072 VRAM); Radeon HD 6850 (1024 VRAM)",
-          "storage": "2 GB"
+    "name": "Inscryption",
+    "slug": "inscryption",
+    "genre": "Roguelike/Card Game/Horror/Indie",
+    "productionScale": "Indie",
+    "developer": "Daniel Mullins Games",
+    "publisher": "Devolver Digital",
+    "year": 2021,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1092790/header.jpg",
+    "previewGif": "https://media.tenor.com/4I2wkv-3S_UAAAAM/stoat-inscryption.gif",
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/1092790/ss_a2e6d7f3e5c6d9c5b1f8e3d7.jpg",
+    "bannerGif": "https://media.tenor.com/2QYOhJ1gYmUAAAAM/inscryption-leshy-inscryption.gif",
+    "shortDescription": "Um roguelike de cartas sombrio que mistura horror psicológico, quebra-cabeças estilo escape room e narrativa metaficcional.",
+    "fullDescription": "Do criador de Pony Island e The Hex, Inscryption é uma odisseia sombria pavimentada por cartas que mescla roguelike de construção de baralhos, quebra-cabeças no estilo de escape rooms e horror psicológico em uma amálgama sanguinolenta. Adquira um baralho de criaturas florestais por sorteio, cirurgia e automutilação. Descubra os segredos escondidos nas paredes da cabana de Leshy. Embarque em uma jornada inesperada e profundamente perturbadora.",
+    "trailer": "https://www.youtube.com/embed/BRlnP67TAf4",
+    "ageRating": "16",
+    "platforms": [
+        {
+            "name": "PC",
+            "requirements": {
+                "minimum": {
+                    "os": "Windows 7",
+                    "processor": "Intel Core i5-760 (4×2800); AMD Athlon II X4 645 AM3 (4×3100)",
+                    "memory": "4 GB RAM",
+                    "graphics": "GeForce GTX 550 Ti (3072 VRAM); Radeon HD 6850 (1024 VRAM)",
+                    "storage": "2 GB"
+                },
+                "recommended": {
+                    "os": "Windows 10",
+                    "processor": "Intel Core i5-3470 (4×3200); AMD FX-4350 (4×4200)",
+                    "memory": "8 GB RAM",
+                    "graphics": "GeForce GTX 1050 (2048 VRAM); Radeon RX 460 (4096 VRAM)",
+                    "storage": "3 GB"
+                }
+            }
         },
-        "recommended": {
-          "os": "Windows 10",
-          "processor": "Intel Core i5-3470 (4×3200); AMD FX-4350 (4×4200)",
-          "memory": "8 GB RAM",
-          "graphics": "GeForce GTX 1050 (2048 VRAM); Radeon RX 460 (4096 VRAM)",
-          "storage": "3 GB"
+        {
+            "name": "macOS"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "PlayStation 4"
+        },
+        {
+            "name": "PlayStation 5"
+        },
+        {
+            "name": "Nintendo Switch"
+        },
+        {
+            "name": "Xbox One"
+        },
+        {
+            "name": "Xbox Series X/S"
         }
-      }
-    },
-    { "name": "macOS" },
-    { "name": "Linux" },
-    { "name": "PlayStation 4" },
-    { "name": "PlayStation 5" },
-    { "name": "Nintendo Switch" },
-    { "name": "Xbox One" },
-    { "name": "Xbox Series X/S" }
-  ],
-  "soundtrack": [
-    { "title": "Deathcard Cabin", "duration": "13:06", "youtubeUrl": "https://www.youtube.com/watch?v=oyQ1i-czPcE" },
-    { "title": "The Angler", "duration": "2:26", "youtubeUrl": "https://www.youtube.com/watch?v=B1VTi8YkbkU" },
-    { "title": "The Prospector", "duration": "3:59", "youtubeUrl": "https://www.youtube.com/watch?v=lGykA0Hw6Gw" },
-    { "title": "The Trapper", "duration": "2:06", "youtubeUrl": "https://www.youtube.com/watch?v=5eshDdE4QFQ" },
-    { "title": "A Walk in the Woods", "duration": "1:59", "youtubeUrl": "https://www.youtube.com/watch?v=3T-M59pT3_4" },
-    { "title": "Leshy's Theme", "duration": "3:46", "youtubeUrl": "https://www.youtube.com/watch?v=9ieNHByzhHs" },
-    { "title": "The Moon", "duration": "2:21", "youtubeUrl": "https://www.youtube.com/watch?v=ppatwHSl5aU" },
-    { "title": "Long Forgotten Monuments", "duration": "2:08", "youtubeUrl": "https://www.youtube.com/watch?v=o8Wi91Tlpv8" },
-    { "title": "The Four Scrybes", "duration": "2:10", "youtubeUrl": "https://www.youtube.com/watch?v=6KUIqQ4mhnU" },
-    { "title": "The Temple of the Dead", "duration": "1:54", "youtubeUrl": "https://www.youtube.com/watch?v=FC9xwJhBnpU" },
-    { "title": "The Temple of Beasts", "duration": "4:03", "youtubeUrl": "https://www.youtube.com/watch?v=OlYqw4Kkvj8" },
-    { "title": "The Temple of Technology", "duration": "2:15", "youtubeUrl": "https://www.youtube.com/watch?v=mv1AQWtRcKg" },
-    { "title": "The Temple of Magicks", "duration": "5:19", "youtubeUrl": "https://www.youtube.com/watch?v=xt2DFT4JCBs" },
-    { "title": "Cardplay", "duration": "1:53", "youtubeUrl": "https://www.youtube.com/watch?v=hJ1Mg_rYOyA" },
-    { "title": "The Scrybe of the Dead", "duration": "3:08", "youtubeUrl": "https://www.youtube.com/watch?v=FyGcugX_cXE" },
-    { "title": "The Scrybe of Beasts", "duration": "3:45", "youtubeUrl": "https://www.youtube.com/watch?v=2KUI5BtvSuE" },
-    { "title": "The Scrybe of Magicks", "duration": "2:21", "youtubeUrl": "https://www.youtube.com/watch?v=JIrLwSl7ARA" },
-    { "title": "The Scrybe of Technology", "duration": "1:25", "youtubeUrl": "https://www.youtube.com/watch?v=6KeLZodzA1I" },
-    { "title": "Botopia", "duration": "14:19", "youtubeUrl": "https://www.youtube.com/watch?v=kZX4UAG_0MU" },
-    { "title": "Uberbot Activated", "duration": "3:44", "youtubeUrl": "https://www.youtube.com/watch?v=FPYFXj9feMQ" },
-    { "title": "The Blank Canvas", "duration": "3:48", "youtubeUrl": "https://www.youtube.com/watch?v=R7F-exKJBck" },
-    { "title": "G0lly's Theme", "duration": "2:34", "youtubeUrl": "https://www.youtube.com/watch?v=omfHUH248xw" },
-    { "title": "G0lly's Theme (Uploading)", "duration": "2:09", "youtubeUrl": "https://www.youtube.com/watch?v=WHi6TMmQaO0" },
-    { "title": "Grimora's Crypt", "duration": "6:01", "youtubeUrl": "https://www.youtube.com/watch?v=2hAWcGwdTzM" },
-    { "title": "A Final Duel", "duration": "6:12", "youtubeUrl": "https://www.youtube.com/watch?v=qN3gXmMB4jU" },
-    { "title": "Deathcard Cabin (Reprise)", "duration": "3:21", "youtubeUrl": "https://www.youtube.com/watch?v=Efl_5wsA5P4" },
-    { "title": "Scalp Ya Later", "duration": "2:24", "youtubeUrl": "https://www.youtube.com/watch?v=9sMnoLLHEME" },
-    { "title": "The Mycologists", "duration": "1:50", "youtubeUrl": "https://www.youtube.com/watch?v=P4YUbB5P030" },
-    { "title": "Race Against the Clock", "duration": "3:20", "youtubeUrl": "https://www.youtube.com/watch?v=P4YUbB5P030" },
-    { "title": "Captain Royal Dominguez ft. The Limey Limoncello Crew", "duration": "4:28", "youtubeUrl": "https://www.youtube.com/watch?v=8WvVIeswirc" }
-  ],
-  "stores": [
-    {
-      "store": "Steam",
-      "platform": "PC",
-      "url": "https://store.steampowered.com/app/1092790/Inscryption/",
-      "price": 49.99
-    },
-    {
-      "store": "Epic Games Store",
-      "platform": "PC",
-      "url": "https://store.epicgames.com/en-US/p/inscryption-6b29ab",
-      "price": 49.99
-    },
-    {
-      "store": "GOG",
-      "platform": "PC",
-      "url": "https://www.gog.com/game/inscryption",
-      "price": 49.99
-    }
-  ],
-  "gameplays": [
-    {
-      "title": "ESSE JOGO E IMPOSSIVEL - INSCRYPTION",
-      "channelName": "Luxcas",
-      "channelUrl": "https://www.youtube.com/@luxcassss",
-      "embedUrl": "https://www.youtube.com/embed/oh5l3s8WUfI",
-      "youtubeUrl": "https://www.youtube.com/watch?v=oh5l3s8WUfI"
-    },
-    {
-      "title": "ATÉ O FIM Inscryption(4) 🎴 Terror, Cartas e Mistérios! - Gameplay PT-BR",
-      "channelName": "Death Reaper Plays",
-      "channelUrl": "https://www.youtube.com/@DeathReaperPlays",
-      "embedUrl": "https://www.youtube.com/embed/FEuBHtYDN2k",
-      "youtubeUrl": "https://www.youtube.com/watch?v=FEuBHtYDN2k"
-    },
-    {
-      "title": "Inscryption - Gameplay da primeira hora [PT-BR]",
-      "channelName": "PedroGamer-7495",
-      "channelUrl": "https://www.youtube.com/@pedrogamer-7495",
-      "embedUrl": "https://www.youtube.com/embed/S81W264zv-A",
-      "youtubeUrl": "https://www.youtube.com/watch?v=S81W264zv-A"
-    },
-    {
-      "title": "Inscryption (PS5) - Gameplay - Primeiros 25 Minutos - Legendado PT-BR",
-      "channelName": "PSX Brasil",
-      "channelUrl": "https://www.youtube.com/@psx-brasil",
-      "embedUrl": "https://www.youtube.com/embed/SoBWaZdmGHQ",
-      "youtubeUrl": "https://www.youtube.com/watch?v=SoBWaZdmGHQ"
-    },
-    {
-      "title": "INSCRYPTION #1 - O INÍCIO DE GAMEPLAY (NOVA SÉRIE)",
-      "channelName": "DR. GAMER",
-      "channelUrl": "https://www.youtube.com/@DRGAMER",
-      "embedUrl": "https://www.youtube.com/embed/oSB9EhQ9X54",
-      "youtubeUrl": "https://www.youtube.com/watch?v=oSB9EhQ9X54"
-    },
-    {
-      "title": "ESTOU PEGANDO O JEITO!! | INSCRYPTION #02",
-      "channelName": "Santoryu Joga",
-      "channelUrl": "https://www.youtube.com/@SantoryuJoga",
-      "embedUrl": "https://www.youtube.com/embed/a6g35PmxJFc",
-      "youtubeUrl": "https://www.youtube.com/watch?v=a6g35PmxJFc"
-    },
-    {
-      "title": "Achei que era só um jogo de cartas… | Inscryption",
-      "channelName": "Eder999",
-      "channelUrl": "https://www.youtube.com/@Eder999",
-      "embedUrl": "https://www.youtube.com/embed/lqufhIjrw_E",
-      "youtubeUrl": "https://www.youtube.com/watch?v=lqufhIjrw_E"
-    },
-    {
-      "title": "Que boss bizarro... - Inscryption #1",
-      "channelName": "RexZ",
-      "channelUrl": "https://www.youtube.com/@RexZ",
-      "embedUrl": "https://www.youtube.com/embed/Mj2VSMbgwIE",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Mj2VSMbgwIE"
-    }
-  ]
+    ],
+    "soundtrack": [
+        {
+            "title": "Deathcard Cabin",
+            "duration": "13:06",
+            "youtubeUrl": "https://www.youtube.com/watch?v=oyQ1i-czPcE"
+        },
+        {
+            "title": "The Angler",
+            "duration": "2:26",
+            "youtubeUrl": "https://www.youtube.com/watch?v=B1VTi8YkbkU"
+        },
+        {
+            "title": "The Prospector",
+            "duration": "3:59",
+            "youtubeUrl": "https://www.youtube.com/watch?v=lGykA0Hw6Gw"
+        },
+        {
+            "title": "The Trapper",
+            "duration": "2:06",
+            "youtubeUrl": "https://www.youtube.com/watch?v=5eshDdE4QFQ"
+        },
+        {
+            "title": "A Walk in the Woods",
+            "duration": "1:59",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3T-M59pT3_4"
+        },
+        {
+            "title": "Leshy's Theme",
+            "duration": "3:46",
+            "youtubeUrl": "https://www.youtube.com/watch?v=9ieNHByzhHs"
+        },
+        {
+            "title": "The Moon",
+            "duration": "2:21",
+            "youtubeUrl": "https://www.youtube.com/watch?v=ppatwHSl5aU"
+        },
+        {
+            "title": "Long Forgotten Monuments",
+            "duration": "2:08",
+            "youtubeUrl": "https://www.youtube.com/watch?v=o8Wi91Tlpv8"
+        },
+        {
+            "title": "The Four Scrybes",
+            "duration": "2:10",
+            "youtubeUrl": "https://www.youtube.com/watch?v=6KUIqQ4mhnU"
+        },
+        {
+            "title": "The Temple of the Dead",
+            "duration": "1:54",
+            "youtubeUrl": "https://www.youtube.com/watch?v=FC9xwJhBnpU"
+        },
+        {
+            "title": "The Temple of Beasts",
+            "duration": "4:03",
+            "youtubeUrl": "https://www.youtube.com/watch?v=OlYqw4Kkvj8"
+        },
+        {
+            "title": "The Temple of Technology",
+            "duration": "2:15",
+            "youtubeUrl": "https://www.youtube.com/watch?v=mv1AQWtRcKg"
+        },
+        {
+            "title": "The Temple of Magicks",
+            "duration": "5:19",
+            "youtubeUrl": "https://www.youtube.com/watch?v=xt2DFT4JCBs"
+        },
+        {
+            "title": "Cardplay",
+            "duration": "1:53",
+            "youtubeUrl": "https://www.youtube.com/watch?v=hJ1Mg_rYOyA"
+        },
+        {
+            "title": "The Scrybe of the Dead",
+            "duration": "3:08",
+            "youtubeUrl": "https://www.youtube.com/watch?v=FyGcugX_cXE"
+        },
+        {
+            "title": "The Scrybe of Beasts",
+            "duration": "3:45",
+            "youtubeUrl": "https://www.youtube.com/watch?v=2KUI5BtvSuE"
+        },
+        {
+            "title": "The Scrybe of Magicks",
+            "duration": "2:21",
+            "youtubeUrl": "https://www.youtube.com/watch?v=JIrLwSl7ARA"
+        },
+        {
+            "title": "The Scrybe of Technology",
+            "duration": "1:25",
+            "youtubeUrl": "https://www.youtube.com/watch?v=6KeLZodzA1I"
+        },
+        {
+            "title": "Botopia",
+            "duration": "14:19",
+            "youtubeUrl": "https://www.youtube.com/watch?v=kZX4UAG_0MU"
+        },
+        {
+            "title": "Uberbot Activated",
+            "duration": "3:44",
+            "youtubeUrl": "https://www.youtube.com/watch?v=FPYFXj9feMQ"
+        },
+        {
+            "title": "The Blank Canvas",
+            "duration": "3:48",
+            "youtubeUrl": "https://www.youtube.com/watch?v=R7F-exKJBck"
+        },
+        {
+            "title": "G0lly's Theme",
+            "duration": "2:34",
+            "youtubeUrl": "https://www.youtube.com/watch?v=omfHUH248xw"
+        },
+        {
+            "title": "G0lly's Theme (Uploading)",
+            "duration": "2:09",
+            "youtubeUrl": "https://www.youtube.com/watch?v=WHi6TMmQaO0"
+        },
+        {
+            "title": "Grimora's Crypt",
+            "duration": "6:01",
+            "youtubeUrl": "https://www.youtube.com/watch?v=2hAWcGwdTzM"
+        },
+        {
+            "title": "A Final Duel",
+            "duration": "6:12",
+            "youtubeUrl": "https://www.youtube.com/watch?v=qN3gXmMB4jU"
+        },
+        {
+            "title": "Deathcard Cabin (Reprise)",
+            "duration": "3:21",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Efl_5wsA5P4"
+        },
+        {
+            "title": "Scalp Ya Later",
+            "duration": "2:24",
+            "youtubeUrl": "https://www.youtube.com/watch?v=9sMnoLLHEME"
+        },
+        {
+            "title": "The Mycologists",
+            "duration": "1:50",
+            "youtubeUrl": "https://www.youtube.com/watch?v=P4YUbB5P030"
+        },
+        {
+            "title": "Race Against the Clock",
+            "duration": "3:20",
+            "youtubeUrl": "https://www.youtube.com/watch?v=P4YUbB5P030"
+        },
+        {
+            "title": "Captain Royal Dominguez ft. The Limey Limoncello Crew",
+            "duration": "4:28",
+            "youtubeUrl": "https://www.youtube.com/watch?v=8WvVIeswirc"
+        }
+    ],
+    "stores": [
+        {
+            "store": "GOG",
+            "url": "https://www.gog.com/game/inscryption",
+            "platform": "PC",
+            "price": 46.34,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/1092790/Inscryption/",
+            "price": 49.99,
+            "priceOriginal": "R$ 49,99",
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Epic Games Store",
+            "platform": "PC",
+            "url": "https://store.epicgames.com/en-US/p/inscryption-6b29ab",
+            "price": 49.99
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=6q60%2Fzo9LDLiZqYDx7sX6htwI%2FY63jYVPLT1G78p43Y%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=M7dL8RR3RWBcrmkuBIO47WloK3KwBMdV2kdjXASV5Mo%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Gamesplanet",
+            "url": "https://www.cheapshark.com/redirect?dealID=2VGA81xojdDFqC%2BGUvJGceCC5WtdBHSoh2LyizRcW3U%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-13"
+        }
+    ],
+    "gameplays": [
+        {
+            "title": "ESSE JOGO E IMPOSSIVEL - INSCRYPTION",
+            "channelName": "Luxcas",
+            "channelUrl": "https://www.youtube.com/@luxcassss",
+            "embedUrl": "https://www.youtube.com/embed/oh5l3s8WUfI",
+            "youtubeUrl": "https://www.youtube.com/watch?v=oh5l3s8WUfI"
+        },
+        {
+            "title": "ATÉ O FIM Inscryption(4) 🎴 Terror, Cartas e Mistérios! - Gameplay PT-BR",
+            "channelName": "Death Reaper Plays",
+            "channelUrl": "https://www.youtube.com/@DeathReaperPlays",
+            "embedUrl": "https://www.youtube.com/embed/FEuBHtYDN2k",
+            "youtubeUrl": "https://www.youtube.com/watch?v=FEuBHtYDN2k"
+        },
+        {
+            "title": "Inscryption - Gameplay da primeira hora [PT-BR]",
+            "channelName": "PedroGamer-7495",
+            "channelUrl": "https://www.youtube.com/@pedrogamer-7495",
+            "embedUrl": "https://www.youtube.com/embed/S81W264zv-A",
+            "youtubeUrl": "https://www.youtube.com/watch?v=S81W264zv-A"
+        },
+        {
+            "title": "Inscryption (PS5) - Gameplay - Primeiros 25 Minutos - Legendado PT-BR",
+            "channelName": "PSX Brasil",
+            "channelUrl": "https://www.youtube.com/@psx-brasil",
+            "embedUrl": "https://www.youtube.com/embed/SoBWaZdmGHQ",
+            "youtubeUrl": "https://www.youtube.com/watch?v=SoBWaZdmGHQ"
+        },
+        {
+            "title": "INSCRYPTION #1 - O INÍCIO DE GAMEPLAY (NOVA SÉRIE)",
+            "channelName": "DR. GAMER",
+            "channelUrl": "https://www.youtube.com/@DRGAMER",
+            "embedUrl": "https://www.youtube.com/embed/oSB9EhQ9X54",
+            "youtubeUrl": "https://www.youtube.com/watch?v=oSB9EhQ9X54"
+        },
+        {
+            "title": "ESTOU PEGANDO O JEITO!! | INSCRYPTION #02",
+            "channelName": "Santoryu Joga",
+            "channelUrl": "https://www.youtube.com/@SantoryuJoga",
+            "embedUrl": "https://www.youtube.com/embed/a6g35PmxJFc",
+            "youtubeUrl": "https://www.youtube.com/watch?v=a6g35PmxJFc"
+        },
+        {
+            "title": "Achei que era só um jogo de cartas… | Inscryption",
+            "channelName": "Eder999",
+            "channelUrl": "https://www.youtube.com/@Eder999",
+            "embedUrl": "https://www.youtube.com/embed/lqufhIjrw_E",
+            "youtubeUrl": "https://www.youtube.com/watch?v=lqufhIjrw_E"
+        },
+        {
+            "title": "Que boss bizarro... - Inscryption #1",
+            "channelName": "RexZ",
+            "channelUrl": "https://www.youtube.com/@RexZ",
+            "embedUrl": "https://www.youtube.com/embed/Mj2VSMbgwIE",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Mj2VSMbgwIE"
+        }
+    ],
+    "_pricesUpdated": "2026-07-13T19:38:42.518Z"
 }
