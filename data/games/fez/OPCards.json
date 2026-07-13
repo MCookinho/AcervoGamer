@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "FEZ Game Wiki",
+      "description": "Guia completo com todos os segredos, puzzles, cubos e códigos do FEZ. Wiki oficial da comunidade.",
+      "color": "#E91E63",
+      "siteUrl": "https://fez.fandom.com/wiki/FEZ_Wiki",
+      "buttonLabel": "VISITAR WIKI",
+      "badge": "GUIA"
+    },
+    {
+      "title": "Disasterpeace — FEZ OST",
+      "description": "Ouça o soundtrack completo do FEZ no Bandcamp do compositor Disasterpeace. Álbum com 26 faixas.",
+      "color": "#9C27B0",
+      "siteUrl": "https://music.disasterpeace.com/album/fez-ost",
+      "buttonLabel": "OUVIR AGORA",
+      "badge": "MÚSICA"
+    },
+    {
+      "title": "Indie Game: The Movie",
+      "description": "Documentário que acompanha o desenvolvimento do FEZ e a história de Phil Fish. Assistido por milhões.",
+      "color": "#FF5722",
+      "siteUrl": "https://www.imdb.com/title/tt1941532/",
+      "buttonLabel": "ASSISTIR",
+      "badge": "DOCUMENTÁRIO"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "name": "FEZ",
+  "slug": "fez",
+  "genre": "Puzzle/Platformer/Indie",
+  "productionScale": "Indie",
+  "developer": "Polytron Corporation",
+  "publisher": "Trapdoor",
+  "year": 2012,
+  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/224760/header.jpg",
+  "previewGif": "https://media1.tenor.com/m/67DDFcyoqwcAAAAC/fez.gif",
+  "background": "https://cdn.akamai.steamstatic.com/steam/apps/224760/ss_1.jpg",
+  "bannerGif": "https://media1.tenor.com/m/YCXjOwAkqecAAAAC/fez-fez-game.gif",
+  "shortDescription": "FEZ é um puzzle-platformer indie aclamado que desafia a percepção do jogador.",
+  "fullDescription": "FEZ é um puzzle-platformer indie aclamado pela crítica que desafia a percepção do jogador. Controle Gomez, uma criatura 2D que descobre a existência de uma misteriosa terceira dimensão e recebe um fez que permite rotacionar entre quatro perspectivas 2D de um mundo 3D. Explore um mundo aberto sereno e belo, repleto de segredos, puzzles e tesouros escondidos. Desvende os mistérios do passado e descubra a verdade sobre a realidade e a percepção.",
+  "trailer": "https://www.youtube.com/embed/q55RJ41hv4c",
+  "ageRating": "L",
+  "platforms": [
+    {
+      "name": "PC",
+      "requirements": {
+        "minimum": {
+          "os": "Windows XP",
+          "processor": "Intel Core 2 Duo 2.8Ghz or equivalent",
+          "memory": "2 GB RAM",
+          "graphics": "2nd Gen Intel Core HD Graphics (2000/3000) or dedicated GPU with OpenGL 3.0",
+          "storage": "500 MB"
+        },
+        "recommended": {
+          "os": "Windows 7",
+          "processor": "Intel Core 2 Duo 2.8Ghz or equivalent",
+          "memory": "4 GB RAM",
+          "graphics": "nVidia GeForce GT 240 or better",
+          "storage": "500 MB"
+        }
+      }
+    },
+    { "name": "Xbox 360" },
+    { "name": "PlayStation 3" },
+    { "name": "PlayStation 4" },
+    { "name": "PlayStation Vita" },
+    { "name": "Nintendo Switch" },
+    { "name": "iOS" },
+    { "name": "macOS" },
+    { "name": "Linux" }
+  ],
+  "soundtrack": [
+    { "title": "Adventure", "duration": "3:18", "youtubeUrl": "https://www.youtube.com/watch?v=76GnOwHorn0" },
+    { "title": "Puzzle", "duration": "2:14", "youtubeUrl": "https://www.youtube.com/watch?v=MdY-iueFsoo" },
+    { "title": "Beyond", "duration": "3:05", "youtubeUrl": "https://www.youtube.com/watch?v=aFb7rp4egM4" },
+    { "title": "Progress", "duration": "4:16", "youtubeUrl": "https://www.youtube.com/watch?v=6lWqchH05HA" },
+    { "title": "Beacon", "duration": "2:33", "youtubeUrl": "https://www.youtube.com/watch?v=KeWFzsqLsH0" },
+    { "title": "Flow", "duration": "3:47", "youtubeUrl": "https://www.youtube.com/watch?v=IlBQh6N7RDw" },
+    { "title": "Formations", "duration": "2:20", "youtubeUrl": "https://www.youtube.com/watch?v=kRTJoouX2z8" },
+    { "title": "Legend", "duration": "1:18", "youtubeUrl": "https://www.youtube.com/watch?v=rHW2mtuc6pc" },
+    { "title": "Compass", "duration": "2:44", "youtubeUrl": "https://www.youtube.com/watch?v=1y5szNZehps" },
+    { "title": "Forgotten", "duration": "2:34", "youtubeUrl": "https://www.youtube.com/watch?v=zrLbkX6QcQo" },
+    { "title": "Sync", "duration": "2:19", "youtubeUrl": "https://www.youtube.com/watch?v=ylJ_IIvCQD4" },
+    { "title": "Glitch", "duration": "3:25", "youtubeUrl": "https://www.youtube.com/watch?v=xnbKfyOQoGk" },
+    { "title": "Fear", "duration": "3:32", "youtubeUrl": "https://www.youtube.com/watch?v=Bp-mbeTiG1E" },
+    { "title": "Spirit", "duration": "2:52", "youtubeUrl": "https://www.youtube.com/watch?v=eA36OFxe-uY" },
+    { "title": "Nature", "duration": "4:10", "youtubeUrl": "https://www.youtube.com/watch?v=0UDkdQ39XTc" },
+    { "title": "Knowledge", "duration": "1:49", "youtubeUrl": "https://www.youtube.com/watch?v=Lgt-7pAlesc" },
+    { "title": "Death", "duration": "3:31", "youtubeUrl": "https://www.youtube.com/watch?v=mV7njzhLAsQ" },
+    { "title": "Memory", "duration": "1:16", "youtubeUrl": "https://www.youtube.com/watch?v=_ZlE3PydZ1E" },
+    { "title": "Pressure", "duration": "4:00", "youtubeUrl": "https://www.youtube.com/watch?v=aw8W2mYhAMA" },
+    { "title": "Nocturne", "duration": "2:13", "youtubeUrl": "https://www.youtube.com/watch?v=Pl-fz_cRL6M" },
+    { "title": "Age", "duration": "2:58", "youtubeUrl": "https://www.youtube.com/watch?v=WX1KtANvIAc" },
+    { "title": "Majesty", "duration": "3:22", "youtubeUrl": "https://www.youtube.com/watch?v=4_DFp-XbKQo" },
+    { "title": "Continuum", "duration": "2:35", "youtubeUrl": "https://www.youtube.com/watch?v=EDr2_VyYUdk" },
+    { "title": "Home", "duration": "1:35", "youtubeUrl": "https://www.youtube.com/watch?v=TA-SGTmKnP0" },
+    { "title": "Reflection", "duration": "9:02", "youtubeUrl": "https://www.youtube.com/watch?v=QoLCL6yvIvY" },
+    { "title": "Love", "duration": "1:09", "youtubeUrl": "https://www.youtube.com/watch?v=laSJ1zgMDC0" }
+  ],
+  "stores": [
+    {
+      "store": "Steam",
+      "platform": "PC",
+      "url": "https://store.steampowered.com/app/224760/FEZ/",
+      "price": 58.99
+    }
+  ],
+  "gameplays": [
+    {
+      "title": "FEZ - O INCRÍVEL Início de Gameplay, com Narração Especial e Legendado em Português!",
+      "channelName": "BRKsEDU",
+      "channelUrl": "https://www.youtube.com/@BRKsEDU",
+      "embedUrl": "https://www.youtube.com/embed/X6z2mJx0ZFY",
+      "youtubeUrl": "https://www.youtube.com/watch?v=X6z2mJx0ZFY"
+    },
+    {
+      "title": "FEZ | GamePlay PT-BR",
+      "channelName": "GamePlay_PTBR",
+      "channelUrl": "https://www.youtube.com/@GamePlay_PTBR",
+      "embedUrl": "https://www.youtube.com/embed/IK0Jbb3VNZM",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IK0Jbb3VNZM"
+    },
+    {
+      "title": "Fez - #1 - Mudando as perspectivas - (Gameplay/Pt-Br)",
+      "channelName": "WolfRamity",
+      "channelUrl": "https://www.youtube.com/@WolfRamity",
+      "embedUrl": "https://www.youtube.com/embed/J6uQggH-fZM",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J6uQggH-fZM"
+    },
+    {
+      "title": "FEZ ESSE GAME AOS 9 ANOS! Don't Trust The Traps (Gameplay em Português PT-BR)",
+      "channelName": "Kozma Games",
+      "channelUrl": "https://www.youtube.com/@KozmaGames",
+      "embedUrl": "https://www.youtube.com/embed/ZKj_g4Sqj8w",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZKj_g4Sqj8w"
+    },
+    {
+      "title": "FEZ - Tilt e sobre detonados! - Gameplay - Pt-Br",
+      "channelName": "4NostalgiaGames",
+      "channelUrl": "https://www.youtube.com/@4NostalgiaGames",
+      "embedUrl": "https://www.youtube.com/embed/un0illPDEXE",
+      "youtubeUrl": "https://www.youtube.com/watch?v=un0illPDEXE"
+    },
+    {
+      "title": "FEZ - Um Lindo Jogo Indie #1 - nerd em ação",
+      "channelName": "Raferson",
+      "channelUrl": "https://www.youtube.com/@Raferson",
+      "embedUrl": "https://www.youtube.com/embed/ow3DXf523Ao",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ow3DXf523Ao"
+    },
+    {
+      "title": "Jogando FEZ - EP #01 (Gameplay da Sexta)",
+      "channelName": "Rodrigo",
+      "channelUrl": "https://www.youtube.com/@Rodrigo",
+      "embedUrl": "https://www.youtube.com/embed/kQdBYPIOGWM",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kQdBYPIOGWM"
+    },
+    {
+      "title": "Fez Gameplay - Jogos Gratis Pro",
+      "channelName": "jogosgratispro.com",
+      "channelUrl": "https://www.youtube.com/@jogosgratispro",
+      "embedUrl": "https://www.youtube.com/embed/LaZrTWf7HAA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LaZrTWf7HAA"
+    },
+    {
+      "title": "FEZ Analise",
+      "channelName": "JK Games",
+      "channelUrl": "https://www.youtube.com/@JKGames",
+      "embedUrl": "https://www.youtube.com/embed/o3K7qviR1Cc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o3K7qviR1Cc"
+    },
+    {
+      "title": "Fez - Conferindo o Jogo Indie! (PS3 Gameplay)",
+      "channelName": "NamelessHeroTV",
+      "channelUrl": "https://www.youtube.com/@NamelessHeroTV",
+      "embedUrl": "https://www.youtube.com/embed/Z56sR0KStbw",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Z56sR0KStbw"
+    }
+  ]
+}
