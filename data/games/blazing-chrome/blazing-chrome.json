@@ -210,15 +210,7 @@
             "url": "https://store.steampowered.com/app/609110/Blazing_Chrome/",
             "price": 47.24,
             "priceOriginal": "R$ 47,24",
-            "lastUpdated": "2026-07-13"
-        },
-        {
-            "store": "GOG",
-            "platform": "PC",
-            "url": "https://www.gog.com/game/blazing_chrome",
-            "price": 47.24,
-            "priceOriginal": "R$ 47,24",
-            "lastUpdated": "2026-07-13"
+            "lastUpdated": "2026-07-14"
         },
         {
             "store": "PlayStation Store",
@@ -243,6 +235,42 @@
             "price": 62.98,
             "priceOriginal": "R$ 62,98",
             "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=4lf7%2BBYF3rgoiFJrZ0cKYZrYZCF1pV%2Bvj2vbNcm0G2c%3D",
+            "platform": "PC",
+            "price": 73.78,
+            "priceOriginal": "$16.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "GOG",
+            "url": "https://www.gog.com/game/blazing_chrome",
+            "platform": "PC",
+            "price": 98.54,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=NJjM9llqfy3OEIbOBDneAW4%2BK7X1f9VkxLCYmAqgUCM%3D",
+            "platform": "PC",
+            "price": 98.54,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=AImBDVUDGGG%2Brxt1b27wUPszz5RdaUOqLINAmhDVIP0%3D",
+            "platform": "PC",
+            "price": 98.54,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
         }
     ],
     "gameplays": [
@@ -316,5 +344,6 @@
             "embedUrl": "https://www.youtube.com/embed/TLq6RNqqbZw",
             "youtubeUrl": "https://www.youtube.com/watch?v=TLq6RNqqbZw"
         }
-    ]
+    ],
+    "_pricesUpdated": "2026-07-14T03:12:13.526Z"
 }

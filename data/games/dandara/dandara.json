@@ -1,180 +1,398 @@
 {
-  "name": "Dandara",
-  "slug": "dandara",
-  "genre": "Ação/Metroidvania/Indie",
-  "productionScale": "Indie",
-  "developer": "Long Hat House",
-  "publisher": "Raw Fury",
-  "year": 2018,
-  "brazilian": true,
-  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/612390/header.jpg",
-  "previewGif": "https://media.tenor.com/8l4xsP4ny_YAAAAM/dandara-dandaragame.gif",
-  "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/612390",
-  "bannerGif": "https://media.giphy.com/media/gfINtIPk4N0vUHuSrN/giphy.gif",
-  "shortDescription": "Um metroidvania 2D com controles inovadores que desafiam a gravidade. Pule de superfície em superfície em um mundo surreal inspirado em Dandara dos Palmares.",
-  "fullDescription": "O mundo de Salt está à beira do colapso. Os cidadãos, antes espíritos livres, agora vivem oprimidos e isolados. Mas nem tudo está perdido: das profundezas do medo surge Dandara, uma heroína inspirada na guerreira negra Dandara dos Palmares. Pule de superfície em superfície, desafiando a gravidade para explorar um mundo surreal e repleto de mistérios. Com pixel art artesanal, trilha sonora original e controles feitos para touchscreen e controle, Dandara traz uma experiência metroidvania única que homenageia a cultura brasileira.",
-  "trailer": "https://www.youtube.com/embed/dpBdrowTR9Y",
-  "ageRating": "10",
-  "platforms": [
-    {
-      "name": "PC",
-      "requirements": {
-        "minimum": {
-          "os": "Windows XP ou superior",
-          "processor": "1.8 GHz",
-          "memory": "4 GB RAM",
-          "graphics": "Nvidia GeForce GT 220 / Radeon HD 8400",
-          "storage": "1 GB de espaço disponível"
+    "name": "Dandara",
+    "slug": "dandara",
+    "genre": "Ação/Metroidvania/Indie",
+    "productionScale": "Indie",
+    "developer": "Long Hat House",
+    "publisher": "Raw Fury",
+    "year": 2018,
+    "brazilian": true,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/612390/header.jpg",
+    "previewGif": "https://media.tenor.com/8l4xsP4ny_YAAAAM/dandara-dandaragame.gif",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/612390",
+    "bannerGif": "https://media.giphy.com/media/gfINtIPk4N0vUHuSrN/giphy.gif",
+    "shortDescription": "Um metroidvania 2D com controles inovadores que desafiam a gravidade. Pule de superfície em superfície em um mundo surreal inspirado em Dandara dos Palmares.",
+    "fullDescription": "O mundo de Salt está à beira do colapso. Os cidadãos, antes espíritos livres, agora vivem oprimidos e isolados. Mas nem tudo está perdido: das profundezas do medo surge Dandara, uma heroína inspirada na guerreira negra Dandara dos Palmares. Pule de superfície em superfície, desafiando a gravidade para explorar um mundo surreal e repleto de mistérios. Com pixel art artesanal, trilha sonora original e controles feitos para touchscreen e controle, Dandara traz uma experiência metroidvania única que homenageia a cultura brasileira.",
+    "trailer": "https://www.youtube.com/embed/dpBdrowTR9Y",
+    "ageRating": "10",
+    "platforms": [
+        {
+            "name": "PC",
+            "requirements": {
+                "minimum": {
+                    "os": "Windows XP ou superior",
+                    "processor": "1.8 GHz",
+                    "memory": "4 GB RAM",
+                    "graphics": "Nvidia GeForce GT 220 / Radeon HD 8400",
+                    "storage": "1 GB de espaço disponível"
+                }
+            }
+        },
+        {
+            "name": "macOS"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Nintendo Switch"
+        },
+        {
+            "name": "PlayStation 4"
+        },
+        {
+            "name": "Xbox One"
         }
-      }
-    },
-    { "name": "macOS" },
-    { "name": "Linux" },
-    { "name": "Nintendo Switch" },
-    { "name": "PlayStation 4" },
-    { "name": "Xbox One" }
-  ],
-  "soundtrack": [
-    { "title": "Dandara's Purpose", "duration": "3:14", "youtubeUrl": "https://www.youtube.com/watch?v=9yt3ApiIoQg" },
-    { "title": "Gap Between Two Worlds", "duration": "0:40", "youtubeUrl": "https://www.youtube.com/watch?v=Cqv1ZiQCSZ8" },
-    { "title": "A New Hope", "duration": "4:50", "youtubeUrl": "https://www.youtube.com/watch?v=aoEoyFNySBM" },
-    { "title": "Their Pleas Echoed Through Time", "duration": "3:16", "youtubeUrl": "https://www.youtube.com/watch?v=8L9dEPDkFEM" },
-    { "title": "No More Singing Birds", "duration": "4:33", "youtubeUrl": "https://www.youtube.com/watch?v=olw1MydpHtE" },
-    { "title": "Once a Beautiful Horizon", "duration": "7:21", "youtubeUrl": "https://www.youtube.com/watch?v=K86YQIrQ23Q" },
-    { "title": "Remain in Oblivion", "duration": "2:31", "youtubeUrl": "https://www.youtube.com/watch?v=d1x5O21Sm_I" },
-    { "title": "Weight of a Doubt", "duration": "5:08", "youtubeUrl": "https://www.youtube.com/watch?v=SWm9u8gODqE" },
-    { "title": "Mãe", "duration": "5:47", "youtubeUrl": "https://www.youtube.com/watch?v=X6pokfdsf78" },
-    { "title": "A Leap Towards Freedom", "duration": "3:12", "youtubeUrl": "https://www.youtube.com/watch?v=-TciQmwGz6M" },
-    { "title": "Crumbling Memories", "duration": "7:23", "youtubeUrl": "https://www.youtube.com/watch?v=jhMWOfbc4oE" },
-    { "title": "Eternal Sigh", "duration": "3:12", "youtubeUrl": "https://www.youtube.com/watch?v=AnspARPqW5E" },
-    { "title": "Lingering Question", "duration": "1:45", "youtubeUrl": "https://www.youtube.com/watch?v=a9hXpUwhP6E" },
-    { "title": "Hidden in Logic", "duration": "5:07", "youtubeUrl": "https://www.youtube.com/watch?v=wlXiwpf6UrQ" },
-    { "title": "Hopefully a Nightmare", "duration": "6:55", "youtubeUrl": "https://www.youtube.com/watch?v=YD-hKXG0cfI" },
-    { "title": "Golden Menace", "duration": "4:05", "youtubeUrl": "https://www.youtube.com/watch?v=9ryNKPJMEZ4" },
-    { "title": "Golden Fortress", "duration": "5:58", "youtubeUrl": "https://www.youtube.com/watch?v=qGAgiZHCEX8" },
-    { "title": "The Relentless Choir", "duration": "5:47", "youtubeUrl": "https://www.youtube.com/watch?v=wLOsUzc8Yh0" },
-    { "title": "Stories of Freedom", "duration": "0:43", "youtubeUrl": "https://www.youtube.com/watch?v=xp6ucn_59lM" },
-    { "title": "Dandara's Legacy", "duration": "6:52", "youtubeUrl": "https://www.youtube.com/watch?v=xaU8E4N5hbg" },
-    { "title": "Hidden Thoughts Beyond the Crimson Maw", "duration": "3:13", "youtubeUrl": "https://www.youtube.com/watch?v=vdf7ztPltUY" },
-    { "title": "Resolutely Unimpressed", "duration": "0:58", "youtubeUrl": "https://www.youtube.com/watch?v=RTpd5R0XTNc" },
-    { "title": "Not Born for This", "duration": "1:24", "youtubeUrl": "https://www.youtube.com/watch?v=Mjh2Os149iY" },
-    { "title": "Not Made for This", "duration": "1:13", "youtubeUrl": "https://www.youtube.com/watch?v=tMJ__Vejqwc" },
-    { "title": "Not Ready for This", "duration": "0:37", "youtubeUrl": "https://www.youtube.com/watch?v=DR9qCjjMZGI" },
-    { "title": "Restless Machines", "duration": "0:21", "youtubeUrl": "https://www.youtube.com/watch?v=7me1jkKYRE8" },
-    { "title": "The Defeated Crone", "duration": "2:14", "youtubeUrl": "https://www.youtube.com/watch?v=3V76q6Noga8" },
-    { "title": "Rushed Ouroboros", "duration": "1:01", "youtubeUrl": "https://www.youtube.com/watch?v=x7kicMsUWxA" },
-    { "title": "That Party You Can't Miss", "duration": "2:44", "youtubeUrl": "https://www.youtube.com/watch?v=8NOzxpF8rL0" },
-    { "title": "Violent Ambush", "duration": "2:00", "youtubeUrl": "https://www.youtube.com/watch?v=Uh_Nu0YIrlI" },
-    { "title": "Chained Wings", "duration": "0:34", "youtubeUrl": "https://www.youtube.com/watch?v=p4RDIlSWeuE" },
-    { "title": "Hesitant Salt", "duration": "2:10", "youtubeUrl": "https://www.youtube.com/watch?v=_8IkcYURxUM" },
-    { "title": "Menina", "duration": "1:16", "youtubeUrl": "https://www.youtube.com/watch?v=27WK9aHexIM" },
-    { "title": "Tormented Mind", "duration": "2:40", "youtubeUrl": "https://www.youtube.com/watch?v=LQO1G17SfgU" },
-    { "title": "Weight of a Change", "duration": "2:47", "youtubeUrl": "https://www.youtube.com/watch?v=8VuWy6mqu-U" },
-    { "title": "Stories of Peace", "duration": "1:47", "youtubeUrl": "https://www.youtube.com/watch?v=RcWJFfw7cqQ" },
-    { "title": "Dandara's Fanfare", "duration": "0:13", "youtubeUrl": "https://www.youtube.com/watch?v=HuPkzwsLr6k" }
-  ],
-  "stores": [
-    {
-      "store": "Steam",
-      "platform": "PC",
-      "url": "https://store.steampowered.com/app/612390/Dandara/",
-      "price": 46.99
-    },
-    {
-      "store": "GOG",
-      "platform": "PC",
-      "url": "https://www.gog.com/game/dandara_trials_of_fear_edition",
-      "price": 46.99
-    },
-    {
-      "store": "Nintendo eShop",
-      "platform": "Nintendo Switch",
-      "url": "https://www.nintendo.com/games/detail/dandara-switch/",
-      "price": 46.99
-    },
-    {
-      "store": "PlayStation Store",
-      "platform": "PlayStation 4",
-      "url": "https://store.playstation.com/pt-br/product/UP2320-CUSA10749_00-DANDARALONGHATH1",
-      "price": 46.99
-    },
-    {
-      "store": "Xbox Store",
-      "platform": "Xbox One",
-      "url": "https://www.xbox.com/pt-br/games/store/dandara/bqqd1khrwwl8",
-      "price": 46.99
-    }
-  ],
-  "gameplays": [
-    {
-      "title": "Dandara - gameplay AO VIVO com os desenvolvedores",
-      "channelName": "Voxel",
-      "channelUrl": "https://www.youtube.com/@VOXELOFICIAL",
-      "embedUrl": "https://www.youtube.com/embed/sAZ0EEzucqM",
-      "youtubeUrl": "https://www.youtube.com/watch?v=sAZ0EEzucqM"
-    },
-    {
-      "title": "Dandara - Metroidvania Brasileiro - Gameplay de Dandara em Português PT-BR",
-      "channelName": "Arkantos",
-      "channelUrl": "https://www.youtube.com/@Arkantos",
-      "embedUrl": "https://www.youtube.com/embed/lL258F8Wmg4",
-      "youtubeUrl": "https://www.youtube.com/watch?v=lL258F8Wmg4"
-    },
-    {
-      "title": "Inicio de GAMEPLAY INCRIVEL | DANDARA Trials of Fear Edition | Jogo Brasileiro, em Portugues PT-BR",
-      "channelName": "GGGUIMAS",
-      "channelUrl": "https://www.youtube.com/@GGGUIMAS",
-      "embedUrl": "https://www.youtube.com/embed/eB8jZpCG2VI",
-      "youtubeUrl": "https://www.youtube.com/watch?v=eB8jZpCG2VI"
-    },
-    {
-      "title": "Dandara Jogo Metroidvanvia Nacional | GamePlay Pt-br",
-      "channelName": "Super Bola Bros.",
-      "channelUrl": "https://www.youtube.com/@SuperBolaBros",
-      "embedUrl": "https://www.youtube.com/embed/Mxp3SB_mnZw",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Mxp3SB_mnZw"
-    },
-    {
-      "title": "DANDARA - JOGO BRASILEIRO INOVANDO O CONCEITO DE PLATAFORMA 2D?",
-      "channelName": "BRKsEDU",
-      "channelUrl": "https://www.youtube.com/@BRKsEDU",
-      "embedUrl": "https://www.youtube.com/embed/nOK28803qu8",
-      "youtubeUrl": "https://www.youtube.com/watch?v=nOK28803qu8"
-    },
-    {
-      "title": "DANDARA TRIALS OF FEAR - GUIA DETONADO 100% TODOS BAÚS/FINAL VERDADEIRO",
-      "channelName": "Gameplay Br",
-      "channelUrl": "https://www.youtube.com/@GameplayBr",
-      "embedUrl": "https://www.youtube.com/embed/Xs4JsE1gyOk",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Xs4JsE1gyOk"
-    },
-    {
-      "title": "Sem direção - Dandara | Jogo Rápido - Gameplay Português Vamos Jogar PT-BR",
-      "channelName": "MetalBear",
-      "channelUrl": "https://www.youtube.com/@MetalBear",
-      "embedUrl": "https://www.youtube.com/embed/sE-teJQP3lk",
-      "youtubeUrl": "https://www.youtube.com/watch?v=sE-teJQP3lk"
-    },
-    {
-      "title": "DANDARA GAMEPLAY, Jogo Brasileiro",
-      "channelName": "Renitro",
-      "channelUrl": "https://www.youtube.com/@Renitro",
-      "embedUrl": "https://www.youtube.com/embed/qGpwT1rB7J4",
-      "youtubeUrl": "https://www.youtube.com/watch?v=qGpwT1rB7J4"
-    },
-    {
-      "title": "DANDARA: O jogo indie BRASILEIRO que você precisa conhecer!",
-      "channelName": "Triple GG",
-      "channelUrl": "https://www.youtube.com/@TripleGG",
-      "embedUrl": "https://www.youtube.com/embed/85xVJOV1pYc",
-      "youtubeUrl": "https://www.youtube.com/watch?v=85xVJOV1pYc"
-    },
-    {
-      "title": "DANDARA: UM LINDO INDIE GAME BRASILEIRO — GAMEPLAY DO INICIO EM PT - BR",
-      "channelName": "Canal do Ed",
-      "channelUrl": "https://www.youtube.com/@CanalDoEd",
-      "embedUrl": "https://www.youtube.com/embed/0Lg2hyldjbs",
-      "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
-    }
-  ]
+    ],
+    "soundtrack": [
+        {
+            "title": "Dandara's Purpose",
+            "duration": "3:14",
+            "youtubeUrl": "https://www.youtube.com/watch?v=9yt3ApiIoQg"
+        },
+        {
+            "title": "Gap Between Two Worlds",
+            "duration": "0:40",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Cqv1ZiQCSZ8"
+        },
+        {
+            "title": "A New Hope",
+            "duration": "4:50",
+            "youtubeUrl": "https://www.youtube.com/watch?v=aoEoyFNySBM"
+        },
+        {
+            "title": "Their Pleas Echoed Through Time",
+            "duration": "3:16",
+            "youtubeUrl": "https://www.youtube.com/watch?v=8L9dEPDkFEM"
+        },
+        {
+            "title": "No More Singing Birds",
+            "duration": "4:33",
+            "youtubeUrl": "https://www.youtube.com/watch?v=olw1MydpHtE"
+        },
+        {
+            "title": "Once a Beautiful Horizon",
+            "duration": "7:21",
+            "youtubeUrl": "https://www.youtube.com/watch?v=K86YQIrQ23Q"
+        },
+        {
+            "title": "Remain in Oblivion",
+            "duration": "2:31",
+            "youtubeUrl": "https://www.youtube.com/watch?v=d1x5O21Sm_I"
+        },
+        {
+            "title": "Weight of a Doubt",
+            "duration": "5:08",
+            "youtubeUrl": "https://www.youtube.com/watch?v=SWm9u8gODqE"
+        },
+        {
+            "title": "Mãe",
+            "duration": "5:47",
+            "youtubeUrl": "https://www.youtube.com/watch?v=X6pokfdsf78"
+        },
+        {
+            "title": "A Leap Towards Freedom",
+            "duration": "3:12",
+            "youtubeUrl": "https://www.youtube.com/watch?v=-TciQmwGz6M"
+        },
+        {
+            "title": "Crumbling Memories",
+            "duration": "7:23",
+            "youtubeUrl": "https://www.youtube.com/watch?v=jhMWOfbc4oE"
+        },
+        {
+            "title": "Eternal Sigh",
+            "duration": "3:12",
+            "youtubeUrl": "https://www.youtube.com/watch?v=AnspARPqW5E"
+        },
+        {
+            "title": "Lingering Question",
+            "duration": "1:45",
+            "youtubeUrl": "https://www.youtube.com/watch?v=a9hXpUwhP6E"
+        },
+        {
+            "title": "Hidden in Logic",
+            "duration": "5:07",
+            "youtubeUrl": "https://www.youtube.com/watch?v=wlXiwpf6UrQ"
+        },
+        {
+            "title": "Hopefully a Nightmare",
+            "duration": "6:55",
+            "youtubeUrl": "https://www.youtube.com/watch?v=YD-hKXG0cfI"
+        },
+        {
+            "title": "Golden Menace",
+            "duration": "4:05",
+            "youtubeUrl": "https://www.youtube.com/watch?v=9ryNKPJMEZ4"
+        },
+        {
+            "title": "Golden Fortress",
+            "duration": "5:58",
+            "youtubeUrl": "https://www.youtube.com/watch?v=qGAgiZHCEX8"
+        },
+        {
+            "title": "The Relentless Choir",
+            "duration": "5:47",
+            "youtubeUrl": "https://www.youtube.com/watch?v=wLOsUzc8Yh0"
+        },
+        {
+            "title": "Stories of Freedom",
+            "duration": "0:43",
+            "youtubeUrl": "https://www.youtube.com/watch?v=xp6ucn_59lM"
+        },
+        {
+            "title": "Dandara's Legacy",
+            "duration": "6:52",
+            "youtubeUrl": "https://www.youtube.com/watch?v=xaU8E4N5hbg"
+        },
+        {
+            "title": "Hidden Thoughts Beyond the Crimson Maw",
+            "duration": "3:13",
+            "youtubeUrl": "https://www.youtube.com/watch?v=vdf7ztPltUY"
+        },
+        {
+            "title": "Resolutely Unimpressed",
+            "duration": "0:58",
+            "youtubeUrl": "https://www.youtube.com/watch?v=RTpd5R0XTNc"
+        },
+        {
+            "title": "Not Born for This",
+            "duration": "1:24",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Mjh2Os149iY"
+        },
+        {
+            "title": "Not Made for This",
+            "duration": "1:13",
+            "youtubeUrl": "https://www.youtube.com/watch?v=tMJ__Vejqwc"
+        },
+        {
+            "title": "Not Ready for This",
+            "duration": "0:37",
+            "youtubeUrl": "https://www.youtube.com/watch?v=DR9qCjjMZGI"
+        },
+        {
+            "title": "Restless Machines",
+            "duration": "0:21",
+            "youtubeUrl": "https://www.youtube.com/watch?v=7me1jkKYRE8"
+        },
+        {
+            "title": "The Defeated Crone",
+            "duration": "2:14",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3V76q6Noga8"
+        },
+        {
+            "title": "Rushed Ouroboros",
+            "duration": "1:01",
+            "youtubeUrl": "https://www.youtube.com/watch?v=x7kicMsUWxA"
+        },
+        {
+            "title": "That Party You Can't Miss",
+            "duration": "2:44",
+            "youtubeUrl": "https://www.youtube.com/watch?v=8NOzxpF8rL0"
+        },
+        {
+            "title": "Violent Ambush",
+            "duration": "2:00",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Uh_Nu0YIrlI"
+        },
+        {
+            "title": "Chained Wings",
+            "duration": "0:34",
+            "youtubeUrl": "https://www.youtube.com/watch?v=p4RDIlSWeuE"
+        },
+        {
+            "title": "Hesitant Salt",
+            "duration": "2:10",
+            "youtubeUrl": "https://www.youtube.com/watch?v=_8IkcYURxUM"
+        },
+        {
+            "title": "Menina",
+            "duration": "1:16",
+            "youtubeUrl": "https://www.youtube.com/watch?v=27WK9aHexIM"
+        },
+        {
+            "title": "Tormented Mind",
+            "duration": "2:40",
+            "youtubeUrl": "https://www.youtube.com/watch?v=LQO1G17SfgU"
+        },
+        {
+            "title": "Weight of a Change",
+            "duration": "2:47",
+            "youtubeUrl": "https://www.youtube.com/watch?v=8VuWy6mqu-U"
+        },
+        {
+            "title": "Stories of Peace",
+            "duration": "1:47",
+            "youtubeUrl": "https://www.youtube.com/watch?v=RcWJFfw7cqQ"
+        },
+        {
+            "title": "Dandara's Fanfare",
+            "duration": "0:13",
+            "youtubeUrl": "https://www.youtube.com/watch?v=HuPkzwsLr6k"
+        }
+    ],
+    "stores": [
+        {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/612390/Dandara/",
+            "price": 9.39,
+            "priceOriginal": "R$ 9,39",
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=kgEbHSFwL%2BwJVFGkM8TtmrMWc%2F404u%2FTDz5x3frKsKw%3D",
+            "platform": "PC",
+            "price": 14.96,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "GameBillet",
+            "url": "https://www.cheapshark.com/redirect?dealID=pTVX1E6041stgyza4HF%2FyVQErzHseDIA4DHhU%2Fasozc%3D",
+            "platform": "PC",
+            "price": 14.96,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "WinGameStore",
+            "url": "https://www.cheapshark.com/redirect?dealID=Eo9JlM7kLmj%2FamkygtGddnWvrSxaBVi8mzcPhvlwIzA%3D",
+            "platform": "PC",
+            "price": 17.34,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "Nintendo eShop",
+            "platform": "Nintendo Switch",
+            "url": "https://www.nintendo.com/games/detail/dandara-switch/",
+            "price": 46.99
+        },
+        {
+            "store": "PlayStation Store",
+            "platform": "PlayStation 4",
+            "url": "https://store.playstation.com/pt-br/product/UP2320-CUSA10749_00-DANDARALONGHATH1",
+            "price": 46.99
+        },
+        {
+            "store": "Xbox Store",
+            "platform": "Xbox One",
+            "url": "https://www.xbox.com/pt-br/games/store/dandara/bqqd1khrwwl8",
+            "price": 46.99
+        },
+        {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=DmAeLJL%2Bt5%2Fp%2Byitv3eMDtPGCl%2FruJQ1yCwVGtcXP3E%3D",
+            "platform": "PC",
+            "price": 75.28,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "Gamesplanet",
+            "url": "https://www.cheapshark.com/redirect?dealID=71iAgMEF8VMNASq4tG8OC8PZbiZLx8%2F8NAS%2FLOCoOEI%3D",
+            "platform": "PC",
+            "price": 78.24,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "GOG",
+            "url": "https://www.gog.com/game/dandara_trials_of_fear_edition",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=uqHt%2BNYzBc7jy2tzdgk%2FSXwWZoa4nfuu%2B%2BIhpO%2F%2FtTI%3D",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        }
+    ],
+    "gameplays": [
+        {
+            "title": "Dandara - gameplay AO VIVO com os desenvolvedores",
+            "channelName": "Voxel",
+            "channelUrl": "https://www.youtube.com/@VOXELOFICIAL",
+            "embedUrl": "https://www.youtube.com/embed/sAZ0EEzucqM",
+            "youtubeUrl": "https://www.youtube.com/watch?v=sAZ0EEzucqM"
+        },
+        {
+            "title": "Dandara - Metroidvania Brasileiro - Gameplay de Dandara em Português PT-BR",
+            "channelName": "Arkantos",
+            "channelUrl": "https://www.youtube.com/@Arkantos",
+            "embedUrl": "https://www.youtube.com/embed/lL258F8Wmg4",
+            "youtubeUrl": "https://www.youtube.com/watch?v=lL258F8Wmg4"
+        },
+        {
+            "title": "Inicio de GAMEPLAY INCRIVEL | DANDARA Trials of Fear Edition | Jogo Brasileiro, em Portugues PT-BR",
+            "channelName": "GGGUIMAS",
+            "channelUrl": "https://www.youtube.com/@GGGUIMAS",
+            "embedUrl": "https://www.youtube.com/embed/eB8jZpCG2VI",
+            "youtubeUrl": "https://www.youtube.com/watch?v=eB8jZpCG2VI"
+        },
+        {
+            "title": "Dandara Jogo Metroidvanvia Nacional | GamePlay Pt-br",
+            "channelName": "Super Bola Bros.",
+            "channelUrl": "https://www.youtube.com/@SuperBolaBros",
+            "embedUrl": "https://www.youtube.com/embed/Mxp3SB_mnZw",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Mxp3SB_mnZw"
+        },
+        {
+            "title": "DANDARA - JOGO BRASILEIRO INOVANDO O CONCEITO DE PLATAFORMA 2D?",
+            "channelName": "BRKsEDU",
+            "channelUrl": "https://www.youtube.com/@BRKsEDU",
+            "embedUrl": "https://www.youtube.com/embed/nOK28803qu8",
+            "youtubeUrl": "https://www.youtube.com/watch?v=nOK28803qu8"
+        },
+        {
+            "title": "DANDARA TRIALS OF FEAR - GUIA DETONADO 100% TODOS BAÚS/FINAL VERDADEIRO",
+            "channelName": "Gameplay Br",
+            "channelUrl": "https://www.youtube.com/@GameplayBr",
+            "embedUrl": "https://www.youtube.com/embed/Xs4JsE1gyOk",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Xs4JsE1gyOk"
+        },
+        {
+            "title": "Sem direção - Dandara | Jogo Rápido - Gameplay Português Vamos Jogar PT-BR",
+            "channelName": "MetalBear",
+            "channelUrl": "https://www.youtube.com/@MetalBear",
+            "embedUrl": "https://www.youtube.com/embed/sE-teJQP3lk",
+            "youtubeUrl": "https://www.youtube.com/watch?v=sE-teJQP3lk"
+        },
+        {
+            "title": "DANDARA GAMEPLAY, Jogo Brasileiro",
+            "channelName": "Renitro",
+            "channelUrl": "https://www.youtube.com/@Renitro",
+            "embedUrl": "https://www.youtube.com/embed/qGpwT1rB7J4",
+            "youtubeUrl": "https://www.youtube.com/watch?v=qGpwT1rB7J4"
+        },
+        {
+            "title": "DANDARA: O jogo indie BRASILEIRO que você precisa conhecer!",
+            "channelName": "Triple GG",
+            "channelUrl": "https://www.youtube.com/@TripleGG",
+            "embedUrl": "https://www.youtube.com/embed/85xVJOV1pYc",
+            "youtubeUrl": "https://www.youtube.com/watch?v=85xVJOV1pYc"
+        },
+        {
+            "title": "DANDARA: UM LINDO INDIE GAME BRASILEIRO — GAMEPLAY DO INICIO EM PT - BR",
+            "channelName": "Canal do Ed",
+            "channelUrl": "https://www.youtube.com/@CanalDoEd",
+            "embedUrl": "https://www.youtube.com/embed/0Lg2hyldjbs",
+            "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
+        }
+    ],
+    "_pricesUpdated": "2026-07-14T03:12:17.673Z"
 }

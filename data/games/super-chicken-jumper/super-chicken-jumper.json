@@ -1,148 +1,210 @@
 {
-  "name": "Super Chicken Jumper",
-  "slug": "super-chicken-jumper",
-  "genre": "Ação/Arcade/Indie",
-  "productionScale": "Indie",
-  "developer": "Sewer Cat + Heavy Sheep",
-  "publisher": "Sewer Cat",
-  "year": 2021,
-  "brazilian": true,
-  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/584640/header.jpg",
-  "previewGif": "https://media.tenor.com/-5q5MN_vKl4AAAAM/super-chicken-jumper-gemaplys.gif",
-  "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/584640",
-  "bannerGif": "https://media.giphy.com/media/RVKLtgBbLgz42i5Ftd/giphy.gif",
-  "shortDescription": "Uma galinha-espiã tenta salvar o mundo da destruição neste runner/shooter desafiador com gráficos pixel art. Corra por 6 mundos, atire e torne-se uma lenda!",
-  "fullDescription": "O mundo está em perigo! Forças malignas do passado voltaram para destruir o planeta e a Sra. Presidente só confia em você, Chicken — uma galinha-espiã altamente treinada. Corra, pule, desvie e atire em tudo pelo caminho neste runner/shooter com pixel art. Enfrente 6 mundos únicos, modos infinitos, mais de 20 desafios e conte com garotas de anime para te guiar. Você vai deixar o mundo ser destruído?",
-  "trailer": "https://www.youtube.com/embed/NUlWYvho9dA",
-  "ageRating": "14",
-  "platforms": [
-    {
-      "name": "PC",
-      "requirements": {
-        "minimum": {
-          "os": "Windows 8 (64-bit)",
-          "processor": "Dual Core 2GHz",
-          "memory": "2 GB RAM",
-          "graphics": "GeForce 8 Series ou Similar Radeon",
-          "directx": "DirectX 11",
-          "storage": "200 MB de espaço disponível"
+    "name": "Super Chicken Jumper",
+    "slug": "super-chicken-jumper",
+    "genre": "Ação/Arcade/Indie",
+    "productionScale": "Indie",
+    "developer": "Sewer Cat + Heavy Sheep",
+    "publisher": "Sewer Cat",
+    "year": 2021,
+    "brazilian": true,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/584640/header.jpg",
+    "previewGif": "https://media.tenor.com/-5q5MN_vKl4AAAAM/super-chicken-jumper-gemaplys.gif",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/584640",
+    "bannerGif": "https://media.giphy.com/media/RVKLtgBbLgz42i5Ftd/giphy.gif",
+    "shortDescription": "Uma galinha-espiã tenta salvar o mundo da destruição neste runner/shooter desafiador com gráficos pixel art. Corra por 6 mundos, atire e torne-se uma lenda!",
+    "fullDescription": "O mundo está em perigo! Forças malignas do passado voltaram para destruir o planeta e a Sra. Presidente só confia em você, Chicken — uma galinha-espiã altamente treinada. Corra, pule, desvie e atire em tudo pelo caminho neste runner/shooter com pixel art. Enfrente 6 mundos únicos, modos infinitos, mais de 20 desafios e conte com garotas de anime para te guiar. Você vai deixar o mundo ser destruído?",
+    "trailer": "https://www.youtube.com/embed/NUlWYvho9dA",
+    "ageRating": "14",
+    "platforms": [
+        {
+            "name": "PC",
+            "requirements": {
+                "minimum": {
+                    "os": "Windows 8 (64-bit)",
+                    "processor": "Dual Core 2GHz",
+                    "memory": "2 GB RAM",
+                    "graphics": "GeForce 8 Series ou Similar Radeon",
+                    "directx": "DirectX 11",
+                    "storage": "200 MB de espaço disponível"
+                }
+            }
+        },
+        {
+            "name": "PlayStation 4"
+        },
+        {
+            "name": "PlayStation 5"
+        },
+        {
+            "name": "Xbox One"
+        },
+        {
+            "name": "Xbox Series X/S"
+        },
+        {
+            "name": "Nintendo Switch"
         }
-      }
-    },
-    { "name": "PlayStation 4" },
-    { "name": "PlayStation 5" },
-    { "name": "Xbox One" },
-    { "name": "Xbox Series X/S" },
-    { "name": "Nintendo Switch" }
-  ],
-  "soundtrack": [
-    { "title": "TITLE - Chicken", "duration": "3:10", "youtubeUrl": "https://www.youtube.com/watch?v=T1c_sCjLNNE" },
-    { "title": "Presidente Theme", "duration": "2:42", "youtubeUrl": "https://www.youtube.com/watch?v=cANl4PJA7xk" },
-    { "title": "Olivia - Farm", "duration": "2:41", "youtubeUrl": "https://www.youtube.com/watch?v=KXlQ2bgttgs" },
-    { "title": "Mia - Forest", "duration": "2:52", "youtubeUrl": "https://www.youtube.com/watch?v=eJVHA7gZrKI" },
-    { "title": "Alice - Snow", "duration": "3:05", "youtubeUrl": "https://www.youtube.com/watch?v=VUwGiqhcVts" },
-    { "title": "Ariel - Space", "duration": "2:46", "youtubeUrl": "https://www.youtube.com/watch?v=03F3AR5YYCk" },
-    { "title": "Yuko - Graveyard", "duration": "3:30", "youtubeUrl": "https://www.youtube.com/watch?v=nbSr9P1Bx6M" },
-    { "title": "Mother - Lava Level", "duration": "2:33", "youtubeUrl": "https://www.youtube.com/watch?v=qf8ehX9DTDE" },
-    { "title": "Boss Theme", "duration": "2:25", "youtubeUrl": "https://www.youtube.com/watch?v=IMzsxUTl9k4" },
-    { "title": "Victory - Ending", "duration": "1:06", "youtubeUrl": "https://www.youtube.com/watch?v=0zsv41EsG58" }
-  ],
-  "stores": [
-    {
-      "store": "Steam",
-      "platform": "PC",
-      "url": "https://store.steampowered.com/app/584640/SUPER_CHICKEN_JUMPER/",
-      "price": 16.99
-    },
-    {
-      "store": "PlayStation Store",
-      "platform": "PlayStation 4/5",
-      "url": "https://store.playstation.com/pt-br/product/UP2318-CUSA29723_00-SUPERCHICKENJUMPR",
-      "price": 16.99
-    },
-    {
-      "store": "Nintendo eShop",
-      "platform": "Nintendo Switch",
-      "url": "https://www.nintendo.com/games/store/super-chicken-jumper-switch/",
-      "price": 16.99
-    },
-    {
-      "store": "Xbox Store",
-      "platform": "Xbox One/Series X|S",
-      "url": "https://www.xbox.com/pt-br/games/store/super-chicken-jumper/9P25B7NQ4M1W",
-      "price": 16.99
-    }
-  ],
-  "gameplays": [
-    {
-      "title": "MARTELA O MARTELÃO! ENFRENTANDO a própria MORTE no SUPER CHICKEN JUMPER",
-      "channelName": "KZB Games",
-      "channelUrl": "https://www.youtube.com/@KZBGames",
-      "embedUrl": "https://www.youtube.com/embed/dhzCqDDqQo8",
-      "youtubeUrl": "https://www.youtube.com/watch?v=dhzCqDDqQo8"
-    },
-    {
-      "title": "ZERANDO SUPER CHICKEN JUMPER PELA PRIMEIRA VEZ!!!",
-      "channelName": "HulockGames",
-      "channelUrl": "https://www.youtube.com/@HulockGames",
-      "embedUrl": "https://www.youtube.com/embed/iw7rXghtkbw",
-      "youtubeUrl": "https://www.youtube.com/watch?v=iw7rXghtkbw"
-    },
-    {
-      "title": "INSCRITA ME DEU UM JOGO INSANO! SUPER CHICKEN JUMPER",
-      "channelName": "Wallacetaa LIVES",
-      "channelUrl": "https://www.youtube.com/@wallacetaaLIVES",
-      "embedUrl": "https://www.youtube.com/embed/i_x6sfl7LDs",
-      "youtubeUrl": "https://www.youtube.com/watch?v=i_x6sfl7LDs"
-    },
-    {
-      "title": "(PT-BR) Super Chicken Jumper I Parte 1 I Fase 1 - Fazenda I Jogo da Steam",
-      "channelName": "TheAstralWolf",
-      "channelUrl": "https://www.youtube.com/@TheAstralWolfBR",
-      "embedUrl": "https://www.youtube.com/embed/j7vGuxk8ckQ",
-      "youtubeUrl": "https://www.youtube.com/watch?v=j7vGuxk8ckQ"
-    },
-    {
-      "title": "Esse jogo é MUITO FÁCIL! (super chicken jumper)",
-      "channelName": "Umildão",
-      "channelUrl": "https://www.youtube.com/@umildao",
-      "embedUrl": "https://www.youtube.com/embed/jjcudtsLUQA",
-      "youtubeUrl": "https://www.youtube.com/watch?v=jjcudtsLUQA"
-    },
-    {
-      "title": "Jogando Super Chicken Jumper, o Incrível Game do Gemaplys!!!",
-      "channelName": "Raptor Games",
-      "channelUrl": "https://www.youtube.com/@raptorgamesNostalgia",
-      "embedUrl": "https://www.youtube.com/embed/kGnNQqoS83Q",
-      "youtubeUrl": "https://www.youtube.com/watch?v=kGnNQqoS83Q"
-    },
-    {
-      "title": "Super Chicken Jumper • Início de GAMEPLAY • PC • Português Brasileiro",
-      "channelName": "Game10",
-      "channelUrl": "https://www.youtube.com/@Game-mx6in",
-      "embedUrl": "https://www.youtube.com/embed/o9tPWqYTsO8",
-      "youtubeUrl": "https://www.youtube.com/watch?v=o9tPWqYTsO8"
-    },
-    {
-      "title": "CALANGO JOGANDO SUPER CHIKEN JUMPER #01",
-      "channelName": "CalangoLive",
-      "channelUrl": "https://www.youtube.com/@CalangoLive",
-      "embedUrl": "https://www.youtube.com/embed/oedzw62cPD4",
-      "youtubeUrl": "https://www.youtube.com/watch?v=oedzw62cPD4"
-    },
-    {
-      "title": "Super Chicken Jumper - Full Game No Commentary (PT BR)",
-      "channelName": "Parangolino Recordações",
-      "channelUrl": "https://www.youtube.com/@parangolinorecordacoes2240",
-      "embedUrl": "https://www.youtube.com/embed/SmEpJwUnJK0",
-      "youtubeUrl": "https://www.youtube.com/watch?v=SmEpJwUnJK0"
-    },
-    {
-      "title": "JOGAMOS O GAME DO GEMAPLYS | Super Chicken Jumper (Gameplay em Português PT-BR)",
-      "channelName": "Kozma Games",
-      "channelUrl": "https://www.youtube.com/@kozmagames",
-      "embedUrl": "https://www.youtube.com/embed/YaLgkuM6kBw",
-      "youtubeUrl": "https://www.youtube.com/watch?v=YaLgkuM6kBw"
-    }
-  ]
+    ],
+    "soundtrack": [
+        {
+            "title": "TITLE - Chicken",
+            "duration": "3:10",
+            "youtubeUrl": "https://www.youtube.com/watch?v=T1c_sCjLNNE"
+        },
+        {
+            "title": "Presidente Theme",
+            "duration": "2:42",
+            "youtubeUrl": "https://www.youtube.com/watch?v=cANl4PJA7xk"
+        },
+        {
+            "title": "Olivia - Farm",
+            "duration": "2:41",
+            "youtubeUrl": "https://www.youtube.com/watch?v=KXlQ2bgttgs"
+        },
+        {
+            "title": "Mia - Forest",
+            "duration": "2:52",
+            "youtubeUrl": "https://www.youtube.com/watch?v=eJVHA7gZrKI"
+        },
+        {
+            "title": "Alice - Snow",
+            "duration": "3:05",
+            "youtubeUrl": "https://www.youtube.com/watch?v=VUwGiqhcVts"
+        },
+        {
+            "title": "Ariel - Space",
+            "duration": "2:46",
+            "youtubeUrl": "https://www.youtube.com/watch?v=03F3AR5YYCk"
+        },
+        {
+            "title": "Yuko - Graveyard",
+            "duration": "3:30",
+            "youtubeUrl": "https://www.youtube.com/watch?v=nbSr9P1Bx6M"
+        },
+        {
+            "title": "Mother - Lava Level",
+            "duration": "2:33",
+            "youtubeUrl": "https://www.youtube.com/watch?v=qf8ehX9DTDE"
+        },
+        {
+            "title": "Boss Theme",
+            "duration": "2:25",
+            "youtubeUrl": "https://www.youtube.com/watch?v=IMzsxUTl9k4"
+        },
+        {
+            "title": "Victory - Ending",
+            "duration": "1:06",
+            "youtubeUrl": "https://www.youtube.com/watch?v=0zsv41EsG58"
+        }
+    ],
+    "stores": [
+        {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/584640/SUPER_CHICKEN_JUMPER/",
+            "price": 10.89,
+            "priceOriginal": "R$ 10,89",
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "PlayStation Store",
+            "platform": "PlayStation 4/5",
+            "url": "https://store.playstation.com/pt-br/product/UP2318-CUSA29723_00-SUPERCHICKENJUMPR",
+            "price": 16.99
+        },
+        {
+            "store": "Nintendo eShop",
+            "platform": "Nintendo Switch",
+            "url": "https://www.nintendo.com/games/store/super-chicken-jumper-switch/",
+            "price": 16.99
+        },
+        {
+            "store": "Xbox Store",
+            "platform": "Xbox One/Series X|S",
+            "url": "https://www.xbox.com/pt-br/games/store/super-chicken-jumper/9P25B7NQ4M1W",
+            "price": 16.99
+        },
+        {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=yfyXPCFhHjKTPRTA7uzcqevLzzXKuXsssAPwbbSmdEs%3D",
+            "platform": "PC",
+            "price": 17.34,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        }
+    ],
+    "gameplays": [
+        {
+            "title": "MARTELA O MARTELÃO! ENFRENTANDO a própria MORTE no SUPER CHICKEN JUMPER",
+            "channelName": "KZB Games",
+            "channelUrl": "https://www.youtube.com/@KZBGames",
+            "embedUrl": "https://www.youtube.com/embed/dhzCqDDqQo8",
+            "youtubeUrl": "https://www.youtube.com/watch?v=dhzCqDDqQo8"
+        },
+        {
+            "title": "ZERANDO SUPER CHICKEN JUMPER PELA PRIMEIRA VEZ!!!",
+            "channelName": "HulockGames",
+            "channelUrl": "https://www.youtube.com/@HulockGames",
+            "embedUrl": "https://www.youtube.com/embed/iw7rXghtkbw",
+            "youtubeUrl": "https://www.youtube.com/watch?v=iw7rXghtkbw"
+        },
+        {
+            "title": "INSCRITA ME DEU UM JOGO INSANO! SUPER CHICKEN JUMPER",
+            "channelName": "Wallacetaa LIVES",
+            "channelUrl": "https://www.youtube.com/@wallacetaaLIVES",
+            "embedUrl": "https://www.youtube.com/embed/i_x6sfl7LDs",
+            "youtubeUrl": "https://www.youtube.com/watch?v=i_x6sfl7LDs"
+        },
+        {
+            "title": "(PT-BR) Super Chicken Jumper I Parte 1 I Fase 1 - Fazenda I Jogo da Steam",
+            "channelName": "TheAstralWolf",
+            "channelUrl": "https://www.youtube.com/@TheAstralWolfBR",
+            "embedUrl": "https://www.youtube.com/embed/j7vGuxk8ckQ",
+            "youtubeUrl": "https://www.youtube.com/watch?v=j7vGuxk8ckQ"
+        },
+        {
+            "title": "Esse jogo é MUITO FÁCIL! (super chicken jumper)",
+            "channelName": "Umildão",
+            "channelUrl": "https://www.youtube.com/@umildao",
+            "embedUrl": "https://www.youtube.com/embed/jjcudtsLUQA",
+            "youtubeUrl": "https://www.youtube.com/watch?v=jjcudtsLUQA"
+        },
+        {
+            "title": "Jogando Super Chicken Jumper, o Incrível Game do Gemaplys!!!",
+            "channelName": "Raptor Games",
+            "channelUrl": "https://www.youtube.com/@raptorgamesNostalgia",
+            "embedUrl": "https://www.youtube.com/embed/kGnNQqoS83Q",
+            "youtubeUrl": "https://www.youtube.com/watch?v=kGnNQqoS83Q"
+        },
+        {
+            "title": "Super Chicken Jumper • Início de GAMEPLAY • PC • Português Brasileiro",
+            "channelName": "Game10",
+            "channelUrl": "https://www.youtube.com/@Game-mx6in",
+            "embedUrl": "https://www.youtube.com/embed/o9tPWqYTsO8",
+            "youtubeUrl": "https://www.youtube.com/watch?v=o9tPWqYTsO8"
+        },
+        {
+            "title": "CALANGO JOGANDO SUPER CHIKEN JUMPER #01",
+            "channelName": "CalangoLive",
+            "channelUrl": "https://www.youtube.com/@CalangoLive",
+            "embedUrl": "https://www.youtube.com/embed/oedzw62cPD4",
+            "youtubeUrl": "https://www.youtube.com/watch?v=oedzw62cPD4"
+        },
+        {
+            "title": "Super Chicken Jumper - Full Game No Commentary (PT BR)",
+            "channelName": "Parangolino Recordações",
+            "channelUrl": "https://www.youtube.com/@parangolinorecordacoes2240",
+            "embedUrl": "https://www.youtube.com/embed/SmEpJwUnJK0",
+            "youtubeUrl": "https://www.youtube.com/watch?v=SmEpJwUnJK0"
+        },
+        {
+            "title": "JOGAMOS O GAME DO GEMAPLYS | Super Chicken Jumper (Gameplay em Português PT-BR)",
+            "channelName": "Kozma Games",
+            "channelUrl": "https://www.youtube.com/@kozmagames",
+            "embedUrl": "https://www.youtube.com/embed/YaLgkuM6kBw",
+            "youtubeUrl": "https://www.youtube.com/watch?v=YaLgkuM6kBw"
+        }
+    ],
+    "_pricesUpdated": "2026-07-14T03:12:29.854Z"
 }

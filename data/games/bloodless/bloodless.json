@@ -1,156 +1,297 @@
 {
-  "name": "Bloodless",
-  "slug": "bloodless",
-  "genre": "Ação/Aventura/Indie",
-  "productionScale": "Indie",
-  "developer": "Point N' Sheep",
-  "publisher": "Shoreline Games",
-  "year": 2024,
-  "brazilian": true,
-  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1592490/header.jpg",
-  "previewGif": "https://img.itch.zone/aW1nLzMwODI1NTMuZ2lm/original/AWttpl.gif",
-  "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1592490",
-  "bannerGif": "https://img.itch.zone/aW1nLzM3MzQzMjAuZ2lm/original/fA%2FuDm.gif",
-  "shortDescription": "Bloodless é um action-adventure retrô com combate não letal baseado em contra-ataques. A ronin Tomoe usa apenas os punhos para desarmar o exército do Shogun Akechi.",
-  "fullDescription": "Bloodless é um action-adventure de estilo retrô com combate não letal focado em contra-ataques, ambientado nas terras atmosféricas de Bakugawa. Ajude a ronin Tomoe a confrontar os fantasmas de seu passado e encerrar o reinado de violência do Shogun Akechi, seu antigo mestre — sem tirar uma única vida. Use um sistema de esquivas e golpes ki para desarmar inimigos, customize seu estilo com cristas e infusões de ervas, e explore um mundo pixel-art de beleza sombria. Inclui o modo roguelike Namazu's Wrath. Vencedor da categoria Melhor Jogo: Brasil no BIG Festival 2023.",
-  "trailer": "https://www.youtube.com/embed/knzkSt-_Zcc",
-  "ageRating": "L",
-  "platforms": [
-    {
-      "name": "PC",
-      "requirements": {
-        "minimum": {
-          "os": "Windows 7, 8, 8.1, 10 (64-bit)",
-          "processor": "Intel Pentium E2180 (2 x 2000 MHz)",
-          "memory": "1 GB RAM",
-          "graphics": "GeForce 7600 GT (256 MB)",
-          "directx": "DirectX 10",
-          "storage": "200 MB de espaço disponível"
+    "name": "Bloodless",
+    "slug": "bloodless",
+    "genre": "Ação/Aventura/Indie",
+    "productionScale": "Indie",
+    "developer": "Point N' Sheep",
+    "publisher": "Shoreline Games",
+    "year": 2024,
+    "brazilian": true,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1592490/header.jpg",
+    "previewGif": "https://img.itch.zone/aW1nLzMwODI1NTMuZ2lm/original/AWttpl.gif",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1592490",
+    "bannerGif": "https://img.itch.zone/aW1nLzM3MzQzMjAuZ2lm/original/fA%2FuDm.gif",
+    "shortDescription": "Bloodless é um action-adventure retrô com combate não letal baseado em contra-ataques. A ronin Tomoe usa apenas os punhos para desarmar o exército do Shogun Akechi.",
+    "fullDescription": "Bloodless é um action-adventure de estilo retrô com combate não letal focado em contra-ataques, ambientado nas terras atmosféricas de Bakugawa. Ajude a ronin Tomoe a confrontar os fantasmas de seu passado e encerrar o reinado de violência do Shogun Akechi, seu antigo mestre — sem tirar uma única vida. Use um sistema de esquivas e golpes ki para desarmar inimigos, customize seu estilo com cristas e infusões de ervas, e explore um mundo pixel-art de beleza sombria. Inclui o modo roguelike Namazu's Wrath. Vencedor da categoria Melhor Jogo: Brasil no BIG Festival 2023.",
+    "trailer": "https://www.youtube.com/embed/knzkSt-_Zcc",
+    "ageRating": "L",
+    "platforms": [
+        {
+            "name": "PC",
+            "requirements": {
+                "minimum": {
+                    "os": "Windows 7, 8, 8.1, 10 (64-bit)",
+                    "processor": "Intel Pentium E2180 (2 x 2000 MHz)",
+                    "memory": "1 GB RAM",
+                    "graphics": "GeForce 7600 GT (256 MB)",
+                    "directx": "DirectX 10",
+                    "storage": "200 MB de espaço disponível"
+                }
+            }
+        },
+        {
+            "name": "Nintendo Switch"
         }
-      }
-    },
-    { "name": "Nintendo Switch" }
-  ],
-  "soundtrack": [
-    { "title": "Of Hopes and Regrets", "duration": "4:09", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "A Day in Bakugawa", "duration": "2:03", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Bitter Memories", "duration": "1:36", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Begone, Ronin", "duration": "0:43", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Face to Face With I Miss You So", "duration": "1:58", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Bleed, Ronin", "duration": "1:57", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "No Turning Back", "duration": "2:18", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "He Who Inherits Bloodshed", "duration": "3:09", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Danger in Baku's Realm", "duration": "2:19", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Old City", "duration": "2:32", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "The Tea House", "duration": "1:18", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Ill-Tempered Steel", "duration": "1:51", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "To Become a Champion", "duration": "2:19", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "The Chief", "duration": "2:36", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Peculiarly Quirky", "duration": "1:20", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Enemies Unveiled", "duration": "2:10", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Fishing Village", "duration": "2:43", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Dancing Shadows", "duration": "1:42", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Thanks, Ronin", "duration": "1:17", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Sharphead Mountain", "duration": "3:12", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "All the Reasons to Fight Back", "duration": "2:53", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Sacred I: Path", "duration": "2:44", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Shadow District", "duration": "2:02", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "A Price for Everything", "duration": "2:36", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "The Rancor of Bakugawa", "duration": "2:33", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "A Price for Vengeance", "duration": "0:55", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Sacred II: Triumph", "duration": "2:16", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Remembrance to the Fallen", "duration": "1:27", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "The Moonlit Crow", "duration": "1:50", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Sacred III: Liberator", "duration": "3:04", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "A New Day in Bakugawa", "duration": "2:50", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "The World She Wants", "duration": "1:23", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "Face the Namazu Within", "duration": "2:39", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" },
-    { "title": "A Bloodless Path", "duration": "4:06", "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw" }
-  ],
-  "stores": [
-    {
-      "store": "Steam",
-      "platform": "PC",
-      "url": "https://store.steampowered.com/app/1592490/Bloodless/",
-      "price": 49.90
-    },
-    {
-      "store": "Nintendo eShop",
-      "platform": "Nintendo Switch",
-      "url": "https://www.nintendo.com/games/store/bloodless-switch/",
-      "price": 77.00
-    }
-  ],
-  "gameplays": [
-    {
-      "title": "BLOODLESS - Jogo completo - Do início ao fim - PT-BR",
-      "channelName": "DMLbrPlayer",
-      "channelUrl": "https://www.youtube.com/@DMLbrPlayer",
-      "embedUrl": "https://www.youtube.com/embed/zs2QbK1el2Y",
-      "youtubeUrl": "https://www.youtube.com/watch?v=zs2QbK1el2Y"
-    },
-    {
-      "title": "BLOODLESS - O Início de Gameplay em Português PT-BR!",
-      "channelName": "ShinobiXplay",
-      "channelUrl": "https://www.youtube.com/@ShinobiXplay",
-      "embedUrl": "https://www.youtube.com/embed/w8h-JgHMu-4",
-      "youtubeUrl": "https://www.youtube.com/watch?v=w8h-JgHMu-4"
-    },
-    {
-      "title": "LIVE - BLOODLESS - GAMEPLAY EM PORTUGUÊS!",
-      "channelName": "JHON URAMESH",
-      "channelUrl": "https://www.youtube.com/@JHONURAMESH",
-      "embedUrl": "https://www.youtube.com/embed/v-ZLykbFD6c",
-      "youtubeUrl": "https://www.youtube.com/watch?v=v-ZLykbFD6c"
-    },
-    {
-      "title": "Conhecendo Bloodless! Jogo BR (Brasil)",
-      "channelName": "AnnyPichu",
-      "channelUrl": "https://www.youtube.com/@AnnyPichu",
-      "embedUrl": "https://www.youtube.com/embed/IRsnxJHrn-Y",
-      "youtubeUrl": "https://www.youtube.com/watch?v=IRsnxJHrn-Y"
-    },
-    {
-      "title": "Encontramos o Tokichiro | BLOODLESS | EP 11",
-      "channelName": "Pãozinho",
-      "channelUrl": "https://www.youtube.com/@CanaldoP%C3%A3ozinho",
-      "embedUrl": "https://www.youtube.com/embed/v6QanZLQG50",
-      "youtubeUrl": "https://www.youtube.com/watch?v=v6QanZLQG50"
-    },
-    {
-      "title": "Bloodless - JOGO ESTILOSO DE AÇÃO AVENTURA COM UMA PEGADA RETRÔ!!",
-      "channelName": "Cloud Testa Relíquias",
-      "channelUrl": "https://www.youtube.com/@cloudreliquias",
-      "embedUrl": "https://www.youtube.com/embed/5-C2U-5orvg",
-      "youtubeUrl": "https://www.youtube.com/watch?v=5-C2U-5orvg"
-    },
-    {
-      "title": "Bloodless - Gameplay narrado PT-BR",
-      "channelName": "Point N' Sheep",
-      "channelUrl": "https://www.youtube.com/@pointnsheep",
-      "embedUrl": "https://www.youtube.com/embed/ijmFXlw5Kks",
-      "youtubeUrl": "https://www.youtube.com/watch?v=ijmFXlw5Kks"
-    },
-    {
-      "title": "BLOODLESS: jogando a demo",
-      "channelName": "Ithuriana",
-      "channelUrl": "https://www.youtube.com/@Ithuriana",
-      "embedUrl": "https://www.youtube.com/embed/rtmyGe1y6qs",
-      "youtubeUrl": "https://www.youtube.com/watch?v=rtmyGe1y6qs"
-    },
-    {
-      "title": "Jogo Amigo 01 - Bloodless com Point'n'Sheep",
-      "channelName": "Sóin",
-      "channelUrl": "https://www.youtube.com/@SoinTeam",
-      "embedUrl": "https://www.youtube.com/embed/4UbUDyHiLzY",
-      "youtubeUrl": "https://www.youtube.com/watch?v=4UbUDyHiLzY"
-    },
-    {
-      "title": "As primeiras horas de Bloodless",
-      "channelName": "Overloadr",
-      "channelUrl": "https://www.youtube.com/@overloadr",
-      "embedUrl": "https://www.youtube.com/embed/dwg2nWS1A1w",
-      "youtubeUrl": "https://www.youtube.com/watch?v=dwg2nWS1A1w"
-    }
-  ]
+    ],
+    "soundtrack": [
+        {
+            "title": "Of Hopes and Regrets",
+            "duration": "4:09",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "A Day in Bakugawa",
+            "duration": "2:03",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Bitter Memories",
+            "duration": "1:36",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Begone, Ronin",
+            "duration": "0:43",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Face to Face With I Miss You So",
+            "duration": "1:58",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Bleed, Ronin",
+            "duration": "1:57",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "No Turning Back",
+            "duration": "2:18",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "He Who Inherits Bloodshed",
+            "duration": "3:09",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Danger in Baku's Realm",
+            "duration": "2:19",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Old City",
+            "duration": "2:32",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "The Tea House",
+            "duration": "1:18",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Ill-Tempered Steel",
+            "duration": "1:51",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "To Become a Champion",
+            "duration": "2:19",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "The Chief",
+            "duration": "2:36",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Peculiarly Quirky",
+            "duration": "1:20",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Enemies Unveiled",
+            "duration": "2:10",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Fishing Village",
+            "duration": "2:43",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Dancing Shadows",
+            "duration": "1:42",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Thanks, Ronin",
+            "duration": "1:17",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Sharphead Mountain",
+            "duration": "3:12",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "All the Reasons to Fight Back",
+            "duration": "2:53",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Sacred I: Path",
+            "duration": "2:44",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Shadow District",
+            "duration": "2:02",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "A Price for Everything",
+            "duration": "2:36",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "The Rancor of Bakugawa",
+            "duration": "2:33",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "A Price for Vengeance",
+            "duration": "0:55",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Sacred II: Triumph",
+            "duration": "2:16",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Remembrance to the Fallen",
+            "duration": "1:27",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "The Moonlit Crow",
+            "duration": "1:50",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Sacred III: Liberator",
+            "duration": "3:04",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "A New Day in Bakugawa",
+            "duration": "2:50",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "The World She Wants",
+            "duration": "1:23",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "Face the Namazu Within",
+            "duration": "2:39",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        },
+        {
+            "title": "A Bloodless Path",
+            "duration": "4:06",
+            "youtubeUrl": "https://www.youtube.com/watch?v=EEZ3UDbk_Vw"
+        }
+    ],
+    "stores": [
+        {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/1592490/Bloodless/",
+            "price": 49.9,
+            "priceOriginal": "R$ 49,90",
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "Nintendo eShop",
+            "platform": "Nintendo Switch",
+            "url": "https://www.nintendo.com/games/store/bloodless-switch/",
+            "price": 77
+        }
+    ],
+    "gameplays": [
+        {
+            "title": "BLOODLESS - Jogo completo - Do início ao fim - PT-BR",
+            "channelName": "DMLbrPlayer",
+            "channelUrl": "https://www.youtube.com/@DMLbrPlayer",
+            "embedUrl": "https://www.youtube.com/embed/zs2QbK1el2Y",
+            "youtubeUrl": "https://www.youtube.com/watch?v=zs2QbK1el2Y"
+        },
+        {
+            "title": "BLOODLESS - O Início de Gameplay em Português PT-BR!",
+            "channelName": "ShinobiXplay",
+            "channelUrl": "https://www.youtube.com/@ShinobiXplay",
+            "embedUrl": "https://www.youtube.com/embed/w8h-JgHMu-4",
+            "youtubeUrl": "https://www.youtube.com/watch?v=w8h-JgHMu-4"
+        },
+        {
+            "title": "LIVE - BLOODLESS - GAMEPLAY EM PORTUGUÊS!",
+            "channelName": "JHON URAMESH",
+            "channelUrl": "https://www.youtube.com/@JHONURAMESH",
+            "embedUrl": "https://www.youtube.com/embed/v-ZLykbFD6c",
+            "youtubeUrl": "https://www.youtube.com/watch?v=v-ZLykbFD6c"
+        },
+        {
+            "title": "Conhecendo Bloodless! Jogo BR (Brasil)",
+            "channelName": "AnnyPichu",
+            "channelUrl": "https://www.youtube.com/@AnnyPichu",
+            "embedUrl": "https://www.youtube.com/embed/IRsnxJHrn-Y",
+            "youtubeUrl": "https://www.youtube.com/watch?v=IRsnxJHrn-Y"
+        },
+        {
+            "title": "Encontramos o Tokichiro | BLOODLESS | EP 11",
+            "channelName": "Pãozinho",
+            "channelUrl": "https://www.youtube.com/@CanaldoP%C3%A3ozinho",
+            "embedUrl": "https://www.youtube.com/embed/v6QanZLQG50",
+            "youtubeUrl": "https://www.youtube.com/watch?v=v6QanZLQG50"
+        },
+        {
+            "title": "Bloodless - JOGO ESTILOSO DE AÇÃO AVENTURA COM UMA PEGADA RETRÔ!!",
+            "channelName": "Cloud Testa Relíquias",
+            "channelUrl": "https://www.youtube.com/@cloudreliquias",
+            "embedUrl": "https://www.youtube.com/embed/5-C2U-5orvg",
+            "youtubeUrl": "https://www.youtube.com/watch?v=5-C2U-5orvg"
+        },
+        {
+            "title": "Bloodless - Gameplay narrado PT-BR",
+            "channelName": "Point N' Sheep",
+            "channelUrl": "https://www.youtube.com/@pointnsheep",
+            "embedUrl": "https://www.youtube.com/embed/ijmFXlw5Kks",
+            "youtubeUrl": "https://www.youtube.com/watch?v=ijmFXlw5Kks"
+        },
+        {
+            "title": "BLOODLESS: jogando a demo",
+            "channelName": "Ithuriana",
+            "channelUrl": "https://www.youtube.com/@Ithuriana",
+            "embedUrl": "https://www.youtube.com/embed/rtmyGe1y6qs",
+            "youtubeUrl": "https://www.youtube.com/watch?v=rtmyGe1y6qs"
+        },
+        {
+            "title": "Jogo Amigo 01 - Bloodless com Point'n'Sheep",
+            "channelName": "Sóin",
+            "channelUrl": "https://www.youtube.com/@SoinTeam",
+            "embedUrl": "https://www.youtube.com/embed/4UbUDyHiLzY",
+            "youtubeUrl": "https://www.youtube.com/watch?v=4UbUDyHiLzY"
+        },
+        {
+            "title": "As primeiras horas de Bloodless",
+            "channelName": "Overloadr",
+            "channelUrl": "https://www.youtube.com/@overloadr",
+            "embedUrl": "https://www.youtube.com/embed/dwg2nWS1A1w",
+            "youtubeUrl": "https://www.youtube.com/watch?v=dwg2nWS1A1w"
+        }
+    ],
+    "_pricesUpdated": "2026-07-14T03:12:14.636Z"
 }

@@ -167,7 +167,7 @@
             "url": "https://store.steampowered.com/app/320820/Toren/",
             "price": 19.99,
             "priceOriginal": "R$ 19,99",
-            "lastUpdated": "2026-07-13"
+            "lastUpdated": "2026-07-14"
         },
         {
             "store": "GOG",
@@ -181,7 +181,7 @@
             "store": "PlayStation Store",
             "platform": "PlayStation 4",
             "url": "https://store.playstation.com/pt-br/product/HP0700-NPVA72713_00-TOREN0000000000",
-            "price": 49.90,
+            "price": 49.9,
             "priceOriginal": "R$ 49,90",
             "lastUpdated": "2026-07-13"
         }
@@ -257,5 +257,6 @@
             "embedUrl": "https://www.youtube.com/embed/ZVJpATH2MKI",
             "youtubeUrl": "https://www.youtube.com/watch?v=ZVJpATH2MKI"
         }
-    ]
+    ],
+    "_pricesUpdated": "2026-07-14T03:12:31.857Z"
 }

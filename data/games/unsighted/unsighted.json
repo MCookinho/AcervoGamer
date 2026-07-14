@@ -1,174 +1,363 @@
 {
-  "name": "Unsighted",
-  "slug": "unsighted",
-  "genre": "Ação/Metroidvania/RPG",
-  "productionScale": "Indie",
-  "developer": "Studio Pixel Punk",
-  "publisher": "Humble Games",
-  "year": 2021,
-  "brazilian": true,
-  "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1062110/header.jpg",
-  "previewGif": "https://goombastomp.com/wp-content/uploads/2021/11/combat-gif.gif",
-  "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1062110",
-  "bannerGif": "https://media.giphy.com/media/XJtM2nNFCzT3etvzOB/200.gif",
-  "shortDescription": "Alma, uma androide, desperta em um mundo em ruínas. O Anima está acabando, transformando seus amigos em máquinas selvagens. Explore, lute e descubra quem você vai salvar — o tempo está correndo.",
-  "fullDescription": "Alma é uma androide que desperta com amnésia em um mundo destruído pela guerra entre humanos e máquinas. O Anima, recurso que dava sentidos aos autômatos, está se esgotando, transformando seus amigos em criaturas selvagens — os Unsighted. Explore a vasta cidade de Arcadia, enfrente inimigos com combate variado, faça escolhas difíceis e descubra que o tempo é o recurso mais precioso. Um Metroidvania com pixel art 16-bit, influências de Zelda e Dark Souls, representação LGBTQ+ e um sistema de tempo que muda tudo.",
-  "trailer": "https://www.youtube.com/embed/puG_0-V8fvE",
-  "ageRating": "12",
-  "platforms": [
-    {
-      "name": "PC",
-      "requirements": {
-        "minimum": {
-          "os": "Windows 7",
-          "processor": "Intel Core 2 Duo E6750 / AMD Radeon HD 4870",
-          "memory": "4 GB RAM",
-          "graphics": "nVidia GeForce 8800 GT 512 MB / AMD Radeon 4870 512 MB",
-          "directx": "DirectX 10",
-          "storage": "1500 MB de espaço disponível"
+    "name": "Unsighted",
+    "slug": "unsighted",
+    "genre": "Ação/Metroidvania/RPG",
+    "productionScale": "Indie",
+    "developer": "Studio Pixel Punk",
+    "publisher": "Humble Games",
+    "year": 2021,
+    "brazilian": true,
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1062110/header.jpg",
+    "previewGif": "https://goombastomp.com/wp-content/uploads/2021/11/combat-gif.gif",
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1062110",
+    "bannerGif": "https://media.giphy.com/media/XJtM2nNFCzT3etvzOB/200.gif",
+    "shortDescription": "Alma, uma androide, desperta em um mundo em ruínas. O Anima está acabando, transformando seus amigos em máquinas selvagens. Explore, lute e descubra quem você vai salvar — o tempo está correndo.",
+    "fullDescription": "Alma é uma androide que desperta com amnésia em um mundo destruído pela guerra entre humanos e máquinas. O Anima, recurso que dava sentidos aos autômatos, está se esgotando, transformando seus amigos em criaturas selvagens — os Unsighted. Explore a vasta cidade de Arcadia, enfrente inimigos com combate variado, faça escolhas difíceis e descubra que o tempo é o recurso mais precioso. Um Metroidvania com pixel art 16-bit, influências de Zelda e Dark Souls, representação LGBTQ+ e um sistema de tempo que muda tudo.",
+    "trailer": "https://www.youtube.com/embed/puG_0-V8fvE",
+    "ageRating": "12",
+    "platforms": [
+        {
+            "name": "PC",
+            "requirements": {
+                "minimum": {
+                    "os": "Windows 7",
+                    "processor": "Intel Core 2 Duo E6750 / AMD Radeon HD 4870",
+                    "memory": "4 GB RAM",
+                    "graphics": "nVidia GeForce 8800 GT 512 MB / AMD Radeon 4870 512 MB",
+                    "directx": "DirectX 10",
+                    "storage": "1500 MB de espaço disponível"
+                }
+            }
+        },
+        {
+            "name": "macOS"
+        },
+        {
+            "name": "Linux"
+        },
+        {
+            "name": "Nintendo Switch"
+        },
+        {
+            "name": "PlayStation 4"
+        },
+        {
+            "name": "Xbox One"
+        },
+        {
+            "name": "Xbox Series X/S"
+        },
+        {
+            "name": "Steam Deck"
         }
-      }
-    },
-    { "name": "macOS" },
-    { "name": "Linux" },
-    { "name": "Nintendo Switch" },
-    { "name": "PlayStation 4" },
-    { "name": "Xbox One" },
-    { "name": "Xbox Series X/S" },
-    { "name": "Steam Deck" }
-  ],
-  "soundtrack": [
-    { "title": "Anima", "duration": "1:55", "youtubeUrl": "https://www.youtube.com/watch?v=pcnOcIEZdbM" },
-    { "title": "Hubris", "duration": "2:36", "youtubeUrl": "https://www.youtube.com/watch?v=W-cPJ5mqyw8" },
-    { "title": "Urban Ruins", "duration": "3:21", "youtubeUrl": "https://www.youtube.com/watch?v=WEaIOP1s44w" },
-    { "title": "The Formidable Foe", "duration": "1:48", "youtubeUrl": "https://www.youtube.com/watch?v=m_4ulRAMGbo" },
-    { "title": "Repercussions", "duration": "1:45", "youtubeUrl": "https://www.youtube.com/watch?v=--pQJE9xD0g" },
-    { "title": "The Guardians", "duration": "0:52", "youtubeUrl": "https://www.youtube.com/watch?v=r0JZKnDklA8" },
-    { "title": "Blossom", "duration": "3:12", "youtubeUrl": "https://www.youtube.com/watch?v=ZF6jjDqcYtQ" },
-    { "title": "Crystalline", "duration": "2:52", "youtubeUrl": "https://www.youtube.com/watch?v=Cx6Y4U_Da7M" },
-    { "title": "The Ancient Deity", "duration": "1:54", "youtubeUrl": "https://www.youtube.com/watch?v=WcORHIZf33U" },
-    { "title": "A Twisted Grip", "duration": "1:27", "youtubeUrl": "https://www.youtube.com/watch?v=BmZO1YP4UCc" },
-    { "title": "Refined Approach", "duration": "1:40", "youtubeUrl": "https://www.youtube.com/watch?v=Mbu92eVY0Dc" },
-    { "title": "Historic Enlightenment", "duration": "3:21", "youtubeUrl": "https://www.youtube.com/watch?v=n-_zlWpWfsc" },
-    { "title": "The Light Manipulator", "duration": "2:00", "youtubeUrl": "https://www.youtube.com/watch?v=xm1e88ksNQE" },
-    { "title": "A Careful Study", "duration": "1:13", "youtubeUrl": "https://www.youtube.com/watch?v=d1Ls0wsPE5g" },
-    { "title": "Sambinha", "duration": "1:02", "youtubeUrl": "https://www.youtube.com/watch?v=3-tXjsZc6gI" },
-    { "title": "Submarine Stillness", "duration": "2:38", "youtubeUrl": "https://www.youtube.com/watch?v=wNpNxS40bMU" },
-    { "title": "The Lady of Frost", "duration": "2:28", "youtubeUrl": "https://www.youtube.com/watch?v=2HBb9x1nKz4" },
-    { "title": "An Educational Place", "duration": "1:32", "youtubeUrl": "https://www.youtube.com/watch?v=Sde49_JrQiI" },
-    { "title": "Brittle Hope", "duration": "0:35", "youtubeUrl": "https://www.youtube.com/watch?v=UXF65NIgeVo" },
-    { "title": "Sunset Frontier", "duration": "3:40", "youtubeUrl": "https://www.youtube.com/watch?v=xhCWEYr6iJY" },
-    { "title": "A Harsh Journey", "duration": "1:08", "youtubeUrl": "https://www.youtube.com/watch?v=y_GSfOPnKJI" },
-    { "title": "Soft Belly Bossa", "duration": "1:30", "youtubeUrl": "https://www.youtube.com/watch?v=HruY9MSOuhM" },
-    { "title": "Nap Time", "duration": "0:09", "youtubeUrl": "https://www.youtube.com/watch?v=ZbM-wMZHDXI" },
-    { "title": "Wishful Outpost", "duration": "3:18", "youtubeUrl": "https://www.youtube.com/watch?v=vwKkPa30p_w" },
-    { "title": "Scorching Steelworks", "duration": "4:51", "youtubeUrl": "https://www.youtube.com/watch?v=YZA_7USeK0o" },
-    { "title": "The Unconfirmed Success", "duration": "2:06", "youtubeUrl": "https://www.youtube.com/watch?v=szd06kXGNX0" },
-    { "title": "The War Prototype", "duration": "2:04", "youtubeUrl": "https://www.youtube.com/watch?v=yawAbwZMkW0" },
-    { "title": "A Complicated Memory", "duration": "1:29", "youtubeUrl": "https://www.youtube.com/watch?v=38KuXSgaw9g" },
-    { "title": "Reaper's Lament", "duration": "3:00", "youtubeUrl": "https://www.youtube.com/watch?v=UW3b6zfxuV8" },
-    { "title": "The Vestiges", "duration": "3:02", "youtubeUrl": "https://www.youtube.com/watch?v=Exr_cCGVGwQ" },
-    { "title": "Show Me Your Resolve", "duration": "7:08", "youtubeUrl": "https://www.youtube.com/watch?v=cwkYeTZQNzM" },
-    { "title": "Your Answer", "duration": "0:22", "youtubeUrl": "https://www.youtube.com/watch?v=VhVJzxafERA" },
-    { "title": "Survivor's Ballad", "duration": "3:05", "youtubeUrl": "https://www.youtube.com/watch?v=QEUB9qo46PQ" },
-    { "title": "Broken Cycle", "duration": "2:35", "youtubeUrl": "https://www.youtube.com/watch?v=_ftWpWsvJlE" }
-  ],
-  "stores": [
-    {
-      "store": "Steam",
-      "platform": "PC",
-      "url": "https://store.steampowered.com/app/1062110/Unsighted/",
-      "price": 109.99
-    },
-    {
-      "store": "Nintendo eShop",
-      "platform": "Nintendo Switch",
-      "url": "https://www.nintendo.com/games/detail/unsighted-switch/",
-      "price": 109.99
-    },
-    {
-      "store": "PlayStation Store",
-      "platform": "PlayStation 4",
-      "url": "https://store.playstation.com/pt-br/product/UP2318-CUSA28330_00-UNSIGHTED0000000",
-      "price": 109.99
-    },
-    {
-      "store": "Xbox Store",
-      "platform": "Xbox One/Series X|S",
-      "url": "https://www.xbox.com/pt-br/games/store/unsighted/9p2n57fkn3pr",
-      "price": 109.99
-    }
-  ],
-  "gameplays": [
-    {
-      "title": "UNSIGHTED - Gameplay do inicio em português PT/BR",
-      "channelName": "Meno",
-      "channelUrl": "https://www.youtube.com/@menomk",
-      "embedUrl": "https://www.youtube.com/embed/09DtXyf2esM",
-      "youtubeUrl": "https://www.youtube.com/watch?v=09DtXyf2esM"
-    },
-    {
-      "title": "Unsighted #04 gameplay",
-      "channelName": "1001Moves",
-      "channelUrl": "https://www.youtube.com/@Moves-cl7gg",
-      "embedUrl": "https://www.youtube.com/embed/fQKcGyAydOQ",
-      "youtubeUrl": "https://www.youtube.com/watch?v=fQKcGyAydOQ"
-    },
-    {
-      "title": "UNSIGHTED - JOGO COMPLETO 100% │ Jogo Brasileiro INCRÍVEL!",
-      "channelName": "Big Boss 2.0",
-      "channelUrl": "https://www.youtube.com/@bigboss2",
-      "embedUrl": "https://www.youtube.com/embed/FKKYTtfo0cs",
-      "youtubeUrl": "https://www.youtube.com/watch?v=FKKYTtfo0cs"
-    },
-    {
-      "title": "UNSIGHTED - O Início de Gameplay em Português PT-BR!",
-      "channelName": "ShinobiXplay",
-      "channelUrl": "https://www.youtube.com/@ShinobiXplay",
-      "embedUrl": "https://www.youtube.com/embed/KAmBVxuk15Q",
-      "youtubeUrl": "https://www.youtube.com/watch?v=KAmBVxuk15Q"
-    },
-    {
-      "title": "UNSIGHTED - PS5 Gameplay COMENTADO-Legendado pt-BR",
-      "channelName": "Tiozão Japa",
-      "channelUrl": "https://www.youtube.com/@TiozaoJapa",
-      "embedUrl": "https://www.youtube.com/embed/CTjkYjZmdA4",
-      "youtubeUrl": "https://www.youtube.com/watch?v=CTjkYjZmdA4"
-    },
-    {
-      "title": "Unsighted é Um Jogo Brasileiro Inacreditável",
-      "channelName": "oluccajoga",
-      "channelUrl": "https://www.youtube.com/@oluccajoga",
-      "embedUrl": "https://www.youtube.com/embed/cdk7em-dEe0",
-      "youtubeUrl": "https://www.youtube.com/watch?v=cdk7em-dEe0"
-    },
-    {
-      "title": "UNSIGHTED walkthrough Parte 18",
-      "channelName": "Banzai Games",
-      "channelUrl": "https://www.youtube.com/@Banzai_BR",
-      "embedUrl": "https://www.youtube.com/embed/p9ZQ2HbX7cg",
-      "youtubeUrl": "https://www.youtube.com/watch?v=p9ZQ2HbX7cg"
-    },
-    {
-      "title": "UNSIGHTED (PS4) - Gameplay - Primeiros 46 Minutos - Legendado PT-BR",
-      "channelName": "PSX Brasil",
-      "channelUrl": "https://www.youtube.com/@psx-brasil",
-      "embedUrl": "https://www.youtube.com/embed/jwHiC7CsC9U",
-      "youtubeUrl": "https://www.youtube.com/watch?v=jwHiC7CsC9U"
-    },
-    {
-      "title": "UNSIGHTED • Início de GAMEPLAY • PC • Português Brasileiro",
-      "channelName": "Game10",
-      "channelUrl": "https://www.youtube.com/@Game-mx6in",
-      "embedUrl": "https://www.youtube.com/embed/FALnDUl2VTk",
-      "youtubeUrl": "https://www.youtube.com/watch?v=FALnDUl2VTk"
-    },
-    {
-      "title": "O Início - Unsighted #Parte 1 (PT-BR)",
-      "channelName": "Bombadrank",
-      "channelUrl": "https://www.youtube.com/@Bombadrank",
-      "embedUrl": "https://www.youtube.com/embed/7LDQts05QFg",
-      "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
-    }
-  ]
+    ],
+    "soundtrack": [
+        {
+            "title": "Anima",
+            "duration": "1:55",
+            "youtubeUrl": "https://www.youtube.com/watch?v=pcnOcIEZdbM"
+        },
+        {
+            "title": "Hubris",
+            "duration": "2:36",
+            "youtubeUrl": "https://www.youtube.com/watch?v=W-cPJ5mqyw8"
+        },
+        {
+            "title": "Urban Ruins",
+            "duration": "3:21",
+            "youtubeUrl": "https://www.youtube.com/watch?v=WEaIOP1s44w"
+        },
+        {
+            "title": "The Formidable Foe",
+            "duration": "1:48",
+            "youtubeUrl": "https://www.youtube.com/watch?v=m_4ulRAMGbo"
+        },
+        {
+            "title": "Repercussions",
+            "duration": "1:45",
+            "youtubeUrl": "https://www.youtube.com/watch?v=--pQJE9xD0g"
+        },
+        {
+            "title": "The Guardians",
+            "duration": "0:52",
+            "youtubeUrl": "https://www.youtube.com/watch?v=r0JZKnDklA8"
+        },
+        {
+            "title": "Blossom",
+            "duration": "3:12",
+            "youtubeUrl": "https://www.youtube.com/watch?v=ZF6jjDqcYtQ"
+        },
+        {
+            "title": "Crystalline",
+            "duration": "2:52",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Cx6Y4U_Da7M"
+        },
+        {
+            "title": "The Ancient Deity",
+            "duration": "1:54",
+            "youtubeUrl": "https://www.youtube.com/watch?v=WcORHIZf33U"
+        },
+        {
+            "title": "A Twisted Grip",
+            "duration": "1:27",
+            "youtubeUrl": "https://www.youtube.com/watch?v=BmZO1YP4UCc"
+        },
+        {
+            "title": "Refined Approach",
+            "duration": "1:40",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Mbu92eVY0Dc"
+        },
+        {
+            "title": "Historic Enlightenment",
+            "duration": "3:21",
+            "youtubeUrl": "https://www.youtube.com/watch?v=n-_zlWpWfsc"
+        },
+        {
+            "title": "The Light Manipulator",
+            "duration": "2:00",
+            "youtubeUrl": "https://www.youtube.com/watch?v=xm1e88ksNQE"
+        },
+        {
+            "title": "A Careful Study",
+            "duration": "1:13",
+            "youtubeUrl": "https://www.youtube.com/watch?v=d1Ls0wsPE5g"
+        },
+        {
+            "title": "Sambinha",
+            "duration": "1:02",
+            "youtubeUrl": "https://www.youtube.com/watch?v=3-tXjsZc6gI"
+        },
+        {
+            "title": "Submarine Stillness",
+            "duration": "2:38",
+            "youtubeUrl": "https://www.youtube.com/watch?v=wNpNxS40bMU"
+        },
+        {
+            "title": "The Lady of Frost",
+            "duration": "2:28",
+            "youtubeUrl": "https://www.youtube.com/watch?v=2HBb9x1nKz4"
+        },
+        {
+            "title": "An Educational Place",
+            "duration": "1:32",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Sde49_JrQiI"
+        },
+        {
+            "title": "Brittle Hope",
+            "duration": "0:35",
+            "youtubeUrl": "https://www.youtube.com/watch?v=UXF65NIgeVo"
+        },
+        {
+            "title": "Sunset Frontier",
+            "duration": "3:40",
+            "youtubeUrl": "https://www.youtube.com/watch?v=xhCWEYr6iJY"
+        },
+        {
+            "title": "A Harsh Journey",
+            "duration": "1:08",
+            "youtubeUrl": "https://www.youtube.com/watch?v=y_GSfOPnKJI"
+        },
+        {
+            "title": "Soft Belly Bossa",
+            "duration": "1:30",
+            "youtubeUrl": "https://www.youtube.com/watch?v=HruY9MSOuhM"
+        },
+        {
+            "title": "Nap Time",
+            "duration": "0:09",
+            "youtubeUrl": "https://www.youtube.com/watch?v=ZbM-wMZHDXI"
+        },
+        {
+            "title": "Wishful Outpost",
+            "duration": "3:18",
+            "youtubeUrl": "https://www.youtube.com/watch?v=vwKkPa30p_w"
+        },
+        {
+            "title": "Scorching Steelworks",
+            "duration": "4:51",
+            "youtubeUrl": "https://www.youtube.com/watch?v=YZA_7USeK0o"
+        },
+        {
+            "title": "The Unconfirmed Success",
+            "duration": "2:06",
+            "youtubeUrl": "https://www.youtube.com/watch?v=szd06kXGNX0"
+        },
+        {
+            "title": "The War Prototype",
+            "duration": "2:04",
+            "youtubeUrl": "https://www.youtube.com/watch?v=yawAbwZMkW0"
+        },
+        {
+            "title": "A Complicated Memory",
+            "duration": "1:29",
+            "youtubeUrl": "https://www.youtube.com/watch?v=38KuXSgaw9g"
+        },
+        {
+            "title": "Reaper's Lament",
+            "duration": "3:00",
+            "youtubeUrl": "https://www.youtube.com/watch?v=UW3b6zfxuV8"
+        },
+        {
+            "title": "The Vestiges",
+            "duration": "3:02",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Exr_cCGVGwQ"
+        },
+        {
+            "title": "Show Me Your Resolve",
+            "duration": "7:08",
+            "youtubeUrl": "https://www.youtube.com/watch?v=cwkYeTZQNzM"
+        },
+        {
+            "title": "Your Answer",
+            "duration": "0:22",
+            "youtubeUrl": "https://www.youtube.com/watch?v=VhVJzxafERA"
+        },
+        {
+            "title": "Survivor's Ballad",
+            "duration": "3:05",
+            "youtubeUrl": "https://www.youtube.com/watch?v=QEUB9qo46PQ"
+        },
+        {
+            "title": "Broken Cycle",
+            "duration": "2:35",
+            "youtubeUrl": "https://www.youtube.com/watch?v=_ftWpWsvJlE"
+        }
+    ],
+    "stores": [
+        {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/1062110/Unsighted/",
+            "price": 49.99,
+            "priceOriginal": "R$ 49,99",
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=fpXf3kRpHGtRof30E4bJw4PJAIPvQdaGnUFtOg5XmKg%3D",
+            "platform": "PC",
+            "price": 92.16,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "Nintendo eShop",
+            "platform": "Nintendo Switch",
+            "url": "https://www.nintendo.com/games/detail/unsighted-switch/",
+            "price": 109.99
+        },
+        {
+            "store": "PlayStation Store",
+            "platform": "PlayStation 4",
+            "url": "https://store.playstation.com/pt-br/product/UP2318-CUSA28330_00-UNSIGHTED0000000",
+            "price": 109.99
+        },
+        {
+            "store": "Xbox Store",
+            "platform": "Xbox One/Series X|S",
+            "url": "https://www.xbox.com/pt-br/games/store/unsighted/9p2n57fkn3pr",
+            "price": 109.99
+        },
+        {
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=sFaUGpVDyuadqAsmC2%2Bhc5jUF8595P9Wd3kxsAnvszY%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "GOG",
+            "url": "https://www.cheapshark.com/redirect?dealID=xAA953bL7jzMePLxU%2Fq44NqKcN%2FgU14Gf0OOJrMDzeE%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=Gr%2BwqlLSGVXwlZNGy5L5rBzFxUVnF3%2FOfOJJ0gjECjo%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-14"
+        }
+    ],
+    "gameplays": [
+        {
+            "title": "UNSIGHTED - Gameplay do inicio em português PT/BR",
+            "channelName": "Meno",
+            "channelUrl": "https://www.youtube.com/@menomk",
+            "embedUrl": "https://www.youtube.com/embed/09DtXyf2esM",
+            "youtubeUrl": "https://www.youtube.com/watch?v=09DtXyf2esM"
+        },
+        {
+            "title": "Unsighted #04 gameplay",
+            "channelName": "1001Moves",
+            "channelUrl": "https://www.youtube.com/@Moves-cl7gg",
+            "embedUrl": "https://www.youtube.com/embed/fQKcGyAydOQ",
+            "youtubeUrl": "https://www.youtube.com/watch?v=fQKcGyAydOQ"
+        },
+        {
+            "title": "UNSIGHTED - JOGO COMPLETO 100% │ Jogo Brasileiro INCRÍVEL!",
+            "channelName": "Big Boss 2.0",
+            "channelUrl": "https://www.youtube.com/@bigboss2",
+            "embedUrl": "https://www.youtube.com/embed/FKKYTtfo0cs",
+            "youtubeUrl": "https://www.youtube.com/watch?v=FKKYTtfo0cs"
+        },
+        {
+            "title": "UNSIGHTED - O Início de Gameplay em Português PT-BR!",
+            "channelName": "ShinobiXplay",
+            "channelUrl": "https://www.youtube.com/@ShinobiXplay",
+            "embedUrl": "https://www.youtube.com/embed/KAmBVxuk15Q",
+            "youtubeUrl": "https://www.youtube.com/watch?v=KAmBVxuk15Q"
+        },
+        {
+            "title": "UNSIGHTED - PS5 Gameplay COMENTADO-Legendado pt-BR",
+            "channelName": "Tiozão Japa",
+            "channelUrl": "https://www.youtube.com/@TiozaoJapa",
+            "embedUrl": "https://www.youtube.com/embed/CTjkYjZmdA4",
+            "youtubeUrl": "https://www.youtube.com/watch?v=CTjkYjZmdA4"
+        },
+        {
+            "title": "Unsighted é Um Jogo Brasileiro Inacreditável",
+            "channelName": "oluccajoga",
+            "channelUrl": "https://www.youtube.com/@oluccajoga",
+            "embedUrl": "https://www.youtube.com/embed/cdk7em-dEe0",
+            "youtubeUrl": "https://www.youtube.com/watch?v=cdk7em-dEe0"
+        },
+        {
+            "title": "UNSIGHTED walkthrough Parte 18",
+            "channelName": "Banzai Games",
+            "channelUrl": "https://www.youtube.com/@Banzai_BR",
+            "embedUrl": "https://www.youtube.com/embed/p9ZQ2HbX7cg",
+            "youtubeUrl": "https://www.youtube.com/watch?v=p9ZQ2HbX7cg"
+        },
+        {
+            "title": "UNSIGHTED (PS4) - Gameplay - Primeiros 46 Minutos - Legendado PT-BR",
+            "channelName": "PSX Brasil",
+            "channelUrl": "https://www.youtube.com/@psx-brasil",
+            "embedUrl": "https://www.youtube.com/embed/jwHiC7CsC9U",
+            "youtubeUrl": "https://www.youtube.com/watch?v=jwHiC7CsC9U"
+        },
+        {
+            "title": "UNSIGHTED • Início de GAMEPLAY • PC • Português Brasileiro",
+            "channelName": "Game10",
+            "channelUrl": "https://www.youtube.com/@Game-mx6in",
+            "embedUrl": "https://www.youtube.com/embed/FALnDUl2VTk",
+            "youtubeUrl": "https://www.youtube.com/watch?v=FALnDUl2VTk"
+        },
+        {
+            "title": "O Início - Unsighted #Parte 1 (PT-BR)",
+            "channelName": "Bombadrank",
+            "channelUrl": "https://www.youtube.com/@Bombadrank",
+            "embedUrl": "https://www.youtube.com/embed/7LDQts05QFg",
+            "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
+        }
+    ],
+    "_pricesUpdated": "2026-07-14T03:12:34.454Z"
 }
