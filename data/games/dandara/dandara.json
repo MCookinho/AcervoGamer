@@ -241,33 +241,6 @@
             "lastUpdated": "2026-07-16"
         },
         {
-            "store": "GreenManGaming",
-            "url": "https://www.cheapshark.com/redirect?dealID=kgEbHSFwL%2BwJVFGkM8TtmrMWc%2F404u%2FTDz5x3frKsKw%3D",
-            "platform": "PC",
-            "price": 14.96,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-07-16"
-        },
-        {
-            "store": "GameBillet",
-            "url": "https://www.cheapshark.com/redirect?dealID=pTVX1E6041stgyza4HF%2FyVQErzHseDIA4DHhU%2Fasozc%3D",
-            "platform": "PC",
-            "price": 14.96,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-07-16"
-        },
-        {
-            "store": "WinGameStore",
-            "url": "https://www.cheapshark.com/redirect?dealID=Eo9JlM7kLmj%2FamkygtGddnWvrSxaBVi8mzcPhvlwIzA%3D",
-            "platform": "PC",
-            "price": 17.34,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-07-16"
-        },
-        {
             "store": "Nintendo eShop",
             "platform": "Nintendo Switch",
             "url": "https://www.nintendo.com/games/detail/dandara-switch/",
@@ -300,6 +273,33 @@
             "platform": "PC",
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-07-16"
+        },
+        {
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=kgEbHSFwL%2BwJVFGkM8TtmrMWc%2F404u%2FTDz5x3frKsKw%3D",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-16"
+        },
+        {
+            "store": "GameBillet",
+            "url": "https://www.cheapshark.com/redirect?dealID=pTVX1E6041stgyza4HF%2FyVQErzHseDIA4DHhU%2Fasozc%3D",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-16"
+        },
+        {
+            "store": "WinGameStore",
+            "url": "https://www.cheapshark.com/redirect?dealID=Eo9JlM7kLmj%2FamkygtGddnWvrSxaBVi8mzcPhvlwIzA%3D",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
             "coupon": null,
             "lastUpdated": "2026-07-16"
         },
@@ -394,5 +394,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
         }
     ],
-    "_pricesUpdated": "2026-07-16T14:08:44.394Z"
+    "_pricesUpdated": "2026-07-16T19:22:11.915Z"
 }

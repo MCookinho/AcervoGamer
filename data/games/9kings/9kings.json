@@ -175,17 +175,17 @@
             "lastUpdated": "2026-07-16"
         },
         {
-            "store": "GreenManGaming",
-            "url": "https://www.cheapshark.com/redirect?dealID=tcDxuq8wB0cigNKc%2FkwSQKMsJKRkNBLTlJndOOimKMY%3D",
+            "store": "Epic Games Store",
+            "url": "https://store.epicgames.com/pt-BR/p/9-kings",
             "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
+            "price": 52.14,
+            "priceOriginal": "$19.99 USD",
             "coupon": null,
             "lastUpdated": "2026-07-16"
         },
         {
-            "store": "Epic Games Store",
-            "url": "https://store.epicgames.com/pt-BR/p/9-kings",
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=tcDxuq8wB0cigNKc%2FkwSQKMsJKRkNBLTlJndOOimKMY%3D",
             "platform": "PC",
             "price": 115.94,
             "priceOriginal": null,
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-07-16T14:08:39.821Z"
+    "_pricesUpdated": "2026-07-16T19:22:06.990Z"
 }
