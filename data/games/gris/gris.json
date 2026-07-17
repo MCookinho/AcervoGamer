@@ -63,22 +63,13 @@
     ],
     "stores": [
         {
-            "store": "GOG",
-            "url": "https://www.gog.com/game/gris",
-            "platform": "PC",
-            "price": 21.75,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-07-16"
-        },
-        {
             "store": "Steam",
             "url": "https://store.steampowered.com/app/683320/GRIS/",
             "platform": "PC",
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
             "coupon": null,
-            "lastUpdated": "2026-07-16"
+            "lastUpdated": "2026-07-17"
         },
         {
             "store": "Eneba",
@@ -87,7 +78,7 @@
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
             "coupon": null,
-            "lastUpdated": "2026-07-16"
+            "lastUpdated": "2026-07-17"
         },
         {
             "store": "PlayStation Store",
@@ -117,13 +108,22 @@
             "lastUpdated": "2025-07-10"
         },
         {
+            "store": "GOG",
+            "url": "https://www.gog.com/game/gris",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-17"
+        },
+        {
             "store": "Humble Bundle",
             "url": "https://www.humblebundle.com/store/gris",
             "platform": "PC",
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-16"
+            "lastUpdated": "2026-07-17"
         },
         {
             "store": "Fanatical",
@@ -132,7 +132,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-16"
+            "lastUpdated": "2026-07-17"
         },
         {
             "store": "Gamesplanet",
@@ -141,7 +141,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-16"
+            "lastUpdated": "2026-07-17"
         }
     ],
     "soundtrack": [
@@ -407,5 +407,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=P0VcBnGwjMk"
         }
     ],
-    "_pricesUpdated": "2026-07-16T19:22:16.660Z"
+    "_pricesUpdated": "2026-07-17T03:21:12.977Z"
 }
