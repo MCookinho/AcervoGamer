@@ -162,7 +162,7 @@
             "price": 57.94,
             "priceOriginal": "$24.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "Nintendo eShop",
@@ -189,7 +189,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "Humble Bundle",
@@ -198,7 +198,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "Fanatical",
@@ -207,7 +207,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         }
     ],
     "gameplays": [
@@ -282,5 +282,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=36_TnPea6RE"
         }
     ],
-    "_pricesUpdated": "2026-07-18T19:13:17.513Z"
+    "_pricesUpdated": "2026-07-19T03:31:57.686Z"
 }

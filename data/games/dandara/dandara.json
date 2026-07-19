@@ -238,7 +238,7 @@
             "url": "https://store.steampowered.com/app/612390/Dandara/",
             "price": 9.39,
             "priceOriginal": "R$ 9,39",
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "Nintendo eShop",
@@ -265,7 +265,7 @@
             "price": 72.04,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "Fanatical",
@@ -274,7 +274,7 @@
             "price": 77.66,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "Gamesplanet",
@@ -283,7 +283,7 @@
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "GreenManGaming",
@@ -292,7 +292,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "WinGameStore",
@@ -301,7 +301,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "GOG",
@@ -310,7 +310,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "Humble Bundle",
@@ -319,7 +319,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         }
     ],
     "gameplays": [
@@ -394,5 +394,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
         }
     ],
-    "_pricesUpdated": "2026-07-18T19:13:11.586Z"
+    "_pricesUpdated": "2026-07-19T03:31:50.974Z"
 }

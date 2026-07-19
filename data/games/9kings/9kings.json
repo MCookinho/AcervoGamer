@@ -163,16 +163,7 @@
             "url": "https://store.steampowered.com/app/2784470/9_Kings/",
             "price": 19.99,
             "priceOriginal": "R$ 19,99",
-            "lastUpdated": "2026-07-18"
-        },
-        {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=hcsS7u9DvNoeChSs1GF3Jhwo8c7KcHU8P%2BfJ5uieIrc%3D",
-            "platform": "PC",
-            "price": 52.14,
-            "priceOriginal": "$19.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "Epic Games Store",
@@ -181,7 +172,7 @@
             "price": 52.14,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "GOG",
@@ -190,7 +181,16 @@
             "price": 57.94,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=hcsS7u9DvNoeChSs1GF3Jhwo8c7KcHU8P%2BfJ5uieIrc%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "GreenManGaming",
@@ -199,7 +199,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         },
         {
             "store": "Gamesplanet",
@@ -208,7 +208,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-18"
+            "lastUpdated": "2026-07-19"
         }
     ],
     "gameplays": [
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-07-18T19:13:06.896Z"
+    "_pricesUpdated": "2026-07-19T03:31:45.583Z"
 }
