@@ -225,12 +225,21 @@
     ],
     "stores": [
         {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=Gr%2BwqlLSGVXwlZNGy5L5rBzFxUVnF3%2FOfOJJ0gjECjo%3D",
+            "platform": "PC",
+            "price": 34.74,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-07-25"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/1062110/Unsighted/",
             "price": 49.99,
             "priceOriginal": "R$ 49,99",
-            "lastUpdated": "2026-07-24"
+            "lastUpdated": "2026-07-25"
         },
         {
             "store": "Fanatical",
@@ -239,7 +248,7 @@
             "price": 92.16,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-07-24"
+            "lastUpdated": "2026-07-25"
         },
         {
             "store": "Nintendo eShop",
@@ -266,7 +275,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-24"
+            "lastUpdated": "2026-07-25"
         },
         {
             "store": "GOG",
@@ -275,16 +284,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-24"
-        },
-        {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=Gr%2BwqlLSGVXwlZNGy5L5rBzFxUVnF3%2FOfOJJ0gjECjo%3D",
-            "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-07-24"
+            "lastUpdated": "2026-07-25"
         }
     ],
     "gameplays": [
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-07-24T19:39:35.864Z"
+    "_pricesUpdated": "2026-07-25T03:22:16.268Z"
 }
