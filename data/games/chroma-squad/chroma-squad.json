@@ -214,14 +214,6 @@
     ],
     "stores": [
         {
-            "store": "Steam",
-            "platform": "PC",
-            "url": "https://store.steampowered.com/app/251130/Chroma_Squad/",
-            "price": 11.24,
-            "priceOriginal": "R$ 11,24",
-            "lastUpdated": "2026-07-26"
-        },
-        {
             "store": "App Store",
             "platform": "iOS",
             "url": "https://apps.apple.com/br/app/chroma-squad/id1145234831",
@@ -236,6 +228,14 @@
             "price": 24.9,
             "priceOriginal": "R$ 24,90",
             "lastUpdated": "2026-07-13"
+        },
+        {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/251130/Chroma_Squad/",
+            "price": 44.99,
+            "priceOriginal": "R$ 44,99",
+            "lastUpdated": "2026-07-26"
         },
         {
             "store": "GOG",
@@ -414,5 +414,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=LHbjVp_W7bw"
         }
     ],
-    "_pricesUpdated": "2026-07-26T13:42:37.122Z"
+    "_pricesUpdated": "2026-07-26T19:20:31.853Z"
 }

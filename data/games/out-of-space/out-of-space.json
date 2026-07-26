@@ -94,8 +94,8 @@
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/400080/Out_of_Space/",
-            "price": 7.24,
-            "priceOriginal": "R$ 7,24",
+            "price": 28.99,
+            "priceOriginal": "R$ 28,99",
             "lastUpdated": "2026-07-26"
         },
         {
@@ -267,5 +267,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=WOiwB8-JPwM"
         }
     ],
-    "_pricesUpdated": "2026-07-26T13:42:47.516Z"
+    "_pricesUpdated": "2026-07-26T19:20:47.825Z"
 }
