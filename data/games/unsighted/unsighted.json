@@ -242,6 +242,15 @@
             "lastUpdated": "2026-07-28"
         },
         {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=fpXf3kRpHGtRof30E4bJw4PJAIPvQdaGnUFtOg5XmKg%3D",
+            "platform": "PC",
+            "price": 93.03,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-07-28"
+        },
+        {
             "store": "Nintendo eShop",
             "platform": "Nintendo Switch",
             "url": "https://www.nintendo.com/games/detail/unsighted-switch/",
@@ -258,15 +267,6 @@
             "platform": "Xbox One/Series X|S",
             "url": "https://www.xbox.com/pt-br/games/store/unsighted/9p2n57fkn3pr",
             "price": 109.99
-        },
-        {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=fpXf3kRpHGtRof30E4bJw4PJAIPvQdaGnUFtOg5XmKg%3D",
-            "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-07-28"
         },
         {
             "store": "GreenManGaming",
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-07-28T08:45:45.837Z"
+    "_pricesUpdated": "2026-07-28T14:25:07.641Z"
 }
