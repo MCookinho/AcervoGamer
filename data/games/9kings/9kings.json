@@ -166,20 +166,20 @@
             "lastUpdated": "2026-07-30"
         },
         {
-            "store": "Epic Games Store",
-            "url": "https://store.epicgames.com/pt-BR/p/9-kings",
-            "platform": "PC",
-            "price": 52.14,
-            "priceOriginal": "$19.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-07-30"
-        },
-        {
             "store": "GOG",
             "url": "https://www.gog.com/game/9_kings",
             "platform": "PC",
             "price": 57.94,
             "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-07-30"
+        },
+        {
+            "store": "Epic Games Store",
+            "url": "https://store.epicgames.com/pt-BR/p/9-kings",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
             "coupon": null,
             "lastUpdated": "2026-07-30"
         },
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-07-30T14:19:46.530Z"
+    "_pricesUpdated": "2026-07-30T19:42:23.582Z"
 }
