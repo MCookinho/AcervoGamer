@@ -225,15 +225,6 @@
     ],
     "stores": [
         {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=Gr%2BwqlLSGVXwlZNGy5L5rBzFxUVnF3%2FOfOJJ0gjECjo%3D",
-            "platform": "PC",
-            "price": 34.74,
-            "priceOriginal": "$19.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-07-31"
-        },
-        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/1062110/Unsighted/",
@@ -267,6 +258,15 @@
             "platform": "Xbox One/Series X|S",
             "url": "https://www.xbox.com/pt-br/games/store/unsighted/9p2n57fkn3pr",
             "price": 109.99
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=Gr%2BwqlLSGVXwlZNGy5L5rBzFxUVnF3%2FOfOJJ0gjECjo%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-07-31"
         },
         {
             "store": "GreenManGaming",
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-07-31T14:25:14.124Z"
+    "_pricesUpdated": "2026-07-31T19:43:55.860Z"
 }
