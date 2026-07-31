@@ -163,7 +163,7 @@
             "url": "https://store.steampowered.com/app/2784470/9_Kings/",
             "price": 39.99,
             "priceOriginal": "R$ 39,99",
-            "lastUpdated": "2026-07-30"
+            "lastUpdated": "2026-07-31"
         },
         {
             "store": "GOG",
@@ -172,7 +172,7 @@
             "price": 57.94,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-07-30"
+            "lastUpdated": "2026-07-31"
         },
         {
             "store": "Epic Games Store",
@@ -181,7 +181,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-30"
+            "lastUpdated": "2026-07-31"
         },
         {
             "store": "Humble Bundle",
@@ -190,7 +190,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-30"
+            "lastUpdated": "2026-07-31"
         },
         {
             "store": "GreenManGaming",
@@ -199,7 +199,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-30"
+            "lastUpdated": "2026-07-31"
         },
         {
             "store": "Gamesplanet",
@@ -208,7 +208,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-07-30"
+            "lastUpdated": "2026-07-31"
         }
     ],
     "gameplays": [
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-07-30T19:42:23.582Z"
+    "_pricesUpdated": "2026-07-31T03:34:05.427Z"
 }
