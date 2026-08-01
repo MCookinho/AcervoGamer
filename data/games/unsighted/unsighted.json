@@ -225,6 +225,15 @@
     ],
     "stores": [
         {
+            "store": "GOG",
+            "url": "https://www.cheapshark.com/redirect?dealID=xAA953bL7jzMePLxU%2Fq44NqKcN%2FgU14Gf0OOJrMDzeE%3D",
+            "platform": "PC",
+            "price": 46.34,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-01"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/1062110/Unsighted/",
@@ -271,15 +280,6 @@
         {
             "store": "GreenManGaming",
             "url": "https://www.cheapshark.com/redirect?dealID=sFaUGpVDyuadqAsmC2%2Bhc5jUF8595P9Wd3kxsAnvszY%3D",
-            "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-01"
-        },
-        {
-            "store": "GOG",
-            "url": "https://www.cheapshark.com/redirect?dealID=xAA953bL7jzMePLxU%2Fq44NqKcN%2FgU14Gf0OOJrMDzeE%3D",
             "platform": "PC",
             "price": 115.94,
             "priceOriginal": null,
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-08-01T03:33:53.899Z"
+    "_pricesUpdated": "2026-08-01T08:29:46.997Z"
 }
