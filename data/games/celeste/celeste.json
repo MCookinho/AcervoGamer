@@ -257,7 +257,7 @@
             "url": "https://store.steampowered.com/app/504230/Celeste/",
             "price": 59.99,
             "priceOriginal": "R$ 59,99",
-            "lastUpdated": "2026-08-02"
+            "lastUpdated": "2026-08-03"
         },
         {
             "store": "Nintendo eShop",
@@ -284,7 +284,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-02"
+            "lastUpdated": "2026-08-03"
         }
     ],
     "gameplays": [
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=t0691tGFQIY"
         }
     ],
-    "_pricesUpdated": "2026-08-02T19:19:33.577Z"
+    "_pricesUpdated": "2026-08-03T03:35:42.092Z"
 }

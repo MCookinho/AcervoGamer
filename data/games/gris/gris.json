@@ -63,13 +63,22 @@
     ],
     "stores": [
         {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=gz7DOr7LggrzOBemOph2RlsdI%2FK9TcYQyGyZJhhIqAM%3D",
+            "platform": "PC",
+            "price": 17.34,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-03"
+        },
+        {
             "store": "GOG",
             "url": "https://www.gog.com/game/gris",
             "platform": "PC",
             "price": 21.75,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-02"
+            "lastUpdated": "2026-08-03"
         },
         {
             "store": "Steam",
@@ -78,7 +87,7 @@
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
             "coupon": null,
-            "lastUpdated": "2026-08-02"
+            "lastUpdated": "2026-08-03"
         },
         {
             "store": "Eneba",
@@ -87,7 +96,7 @@
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
             "coupon": null,
-            "lastUpdated": "2026-08-02"
+            "lastUpdated": "2026-08-03"
         },
         {
             "store": "PlayStation Store",
@@ -123,16 +132,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-02"
-        },
-        {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=gz7DOr7LggrzOBemOph2RlsdI%2FK9TcYQyGyZJhhIqAM%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-02"
+            "lastUpdated": "2026-08-03"
         },
         {
             "store": "Gamesplanet",
@@ -141,7 +141,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-02"
+            "lastUpdated": "2026-08-03"
         }
     ],
     "soundtrack": [
@@ -407,5 +407,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=P0VcBnGwjMk"
         }
     ],
-    "_pricesUpdated": "2026-08-02T19:19:40.261Z"
+    "_pricesUpdated": "2026-08-03T03:35:48.183Z"
 }
