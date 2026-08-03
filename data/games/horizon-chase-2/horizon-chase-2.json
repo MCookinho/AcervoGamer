@@ -156,6 +156,15 @@
     ],
     "stores": [
         {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=kubcQGRKpd3ZR4aLHDM7lKqAfMpFQZOHjF3PE2rDtbo%3D",
+            "platform": "PC",
+            "price": 44.2,
+            "priceOriginal": "$24.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-03"
+        },
+        {
             "store": "Nintendo eShop",
             "platform": "Nintendo Switch",
             "url": "https://www.nintendo.com/games/store/horizon-chase-2-switch/",
@@ -194,15 +203,6 @@
         {
             "store": "Humble Bundle",
             "url": "https://www.cheapshark.com/redirect?dealID=rwSyeKth%2Bz6tccpCaaRaWKxaj%2BXOl5i3Dq30xRj4QNs%3D",
-            "platform": "PC",
-            "price": 144.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-03"
-        },
-        {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=kubcQGRKpd3ZR4aLHDM7lKqAfMpFQZOHjF3PE2rDtbo%3D",
             "platform": "PC",
             "price": 144.94,
             "priceOriginal": null,
@@ -282,5 +282,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=36_TnPea6RE"
         }
     ],
-    "_pricesUpdated": "2026-08-03T03:35:49.619Z"
+    "_pricesUpdated": "2026-08-03T09:58:29.000Z"
 }
