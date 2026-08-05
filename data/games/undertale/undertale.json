@@ -73,7 +73,7 @@
             "price": 4.99,
             "priceOriginal": "R$ 4,99",
             "coupon": null,
-            "lastUpdated": "2026-08-04"
+            "lastUpdated": "2026-08-05"
         },
         {
             "store": "Eneba",
@@ -82,7 +82,7 @@
             "price": 4.99,
             "priceOriginal": "R$ 4,99",
             "coupon": null,
-            "lastUpdated": "2026-08-04"
+            "lastUpdated": "2026-08-05"
         },
         {
             "store": "Fanatical",
@@ -127,7 +127,7 @@
             "price": 57.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-04"
+            "lastUpdated": "2026-08-05"
         },
         {
             "store": "Humble Bundle",
@@ -136,7 +136,7 @@
             "price": 57.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-04"
+            "lastUpdated": "2026-08-05"
         }
     ],
     "soundtrack": [
@@ -919,5 +919,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=Y50TVM0gHKQ"
         }
     ],
-    "_pricesUpdated": "2026-08-04T19:45:28.578Z"
+    "_pricesUpdated": "2026-08-05T03:14:26.393Z"
 }
