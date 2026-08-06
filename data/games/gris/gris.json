@@ -69,7 +69,7 @@
             "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-05"
+            "lastUpdated": "2026-08-06"
         },
         {
             "store": "GOG",
@@ -78,7 +78,16 @@
             "price": 21.75,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-05"
+            "lastUpdated": "2026-08-06"
+        },
+        {
+            "store": "Gamesplanet",
+            "url": "https://www.cheapshark.com/redirect?dealID=pcyGqSREkA%2F2aM0L7tDFNyO%2BCtnqlDhdDw%2BSL5V%2BU1I%3D",
+            "platform": "PC",
+            "price": 21.75,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-06"
         },
         {
             "store": "Steam",
@@ -87,7 +96,7 @@
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
             "coupon": null,
-            "lastUpdated": "2026-08-05"
+            "lastUpdated": "2026-08-06"
         },
         {
             "store": "Eneba",
@@ -96,7 +105,7 @@
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
             "coupon": null,
-            "lastUpdated": "2026-08-05"
+            "lastUpdated": "2026-08-06"
         },
         {
             "store": "PlayStation Store",
@@ -132,16 +141,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-05"
-        },
-        {
-            "store": "Gamesplanet",
-            "url": "https://www.cheapshark.com/redirect?dealID=pcyGqSREkA%2F2aM0L7tDFNyO%2BCtnqlDhdDw%2BSL5V%2BU1I%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-05"
+            "lastUpdated": "2026-08-06"
         }
     ],
     "soundtrack": [
@@ -407,5 +407,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=P0VcBnGwjMk"
         }
     ],
-    "_pricesUpdated": "2026-08-05T19:44:26.007Z"
+    "_pricesUpdated": "2026-08-06T03:17:19.383Z"
 }
