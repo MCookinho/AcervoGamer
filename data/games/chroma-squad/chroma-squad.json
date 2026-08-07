@@ -223,6 +223,15 @@
             "lastUpdated": "2026-08-07"
         },
         {
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=XrkuwbFkq%2FnCkDN9v5QHlQi%2B0dqgNtiRR69rOSQajmM%3D",
+            "platform": "PC",
+            "price": 21.75,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-07"
+        },
+        {
             "store": "App Store",
             "platform": "iOS",
             "url": "https://apps.apple.com/br/app/chroma-squad/id1145234831",
@@ -290,15 +299,6 @@
         {
             "store": "GamersGate",
             "url": "https://www.cheapshark.com/redirect?dealID=BR9wtRNl4WQcSawA9BrfApwhlAO7UyCZXelhq8lcl9A%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-07"
-        },
-        {
-            "store": "GreenManGaming",
-            "url": "https://www.cheapshark.com/redirect?dealID=XrkuwbFkq%2FnCkDN9v5QHlQi%2B0dqgNtiRR69rOSQajmM%3D",
             "platform": "PC",
             "price": 86.94,
             "priceOriginal": null,
@@ -414,5 +414,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=LHbjVp_W7bw"
         }
     ],
-    "_pricesUpdated": "2026-08-07T07:26:02.116Z"
+    "_pricesUpdated": "2026-08-07T13:17:23.375Z"
 }
