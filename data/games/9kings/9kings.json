@@ -175,20 +175,20 @@
             "lastUpdated": "2026-08-10"
         },
         {
-            "store": "Gamesplanet",
-            "url": "https://www.cheapshark.com/redirect?dealID=mmGBlGU9rpPNi7RdSAZlyElt%2FgOtwUBtPyG2w%2FhGMFc%3D",
-            "platform": "PC",
-            "price": 57.94,
-            "priceOriginal": "$19.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-08-10"
-        },
-        {
             "store": "GreenManGaming",
             "url": "https://www.cheapshark.com/redirect?dealID=tcDxuq8wB0cigNKc%2FkwSQKMsJKRkNBLTlJndOOimKMY%3D",
             "platform": "PC",
             "price": 58,
             "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-10"
+        },
+        {
+            "store": "Gamesplanet",
+            "url": "https://www.cheapshark.com/redirect?dealID=mmGBlGU9rpPNi7RdSAZlyElt%2FgOtwUBtPyG2w%2FhGMFc%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
             "coupon": null,
             "lastUpdated": "2026-08-10"
         },
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-08-10T07:53:01.023Z"
+    "_pricesUpdated": "2026-08-10T13:22:36.041Z"
 }
