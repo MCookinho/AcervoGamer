@@ -97,7 +97,7 @@
             "price": 17.81,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-11"
+            "lastUpdated": "2026-08-12"
         },
         {
             "store": "Steam",
@@ -105,7 +105,7 @@
             "url": "https://store.steampowered.com/app/400080/Out_of_Space/",
             "price": 28.99,
             "priceOriginal": "R$ 28,99",
-            "lastUpdated": "2026-08-11"
+            "lastUpdated": "2026-08-12"
         },
         {
             "store": "PlayStation Store",
@@ -138,7 +138,7 @@
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-11"
+            "lastUpdated": "2026-08-12"
         },
         {
             "store": "GamersGate",
@@ -147,7 +147,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-11"
+            "lastUpdated": "2026-08-12"
         },
         {
             "store": "GreenManGaming",
@@ -156,7 +156,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-11"
+            "lastUpdated": "2026-08-12"
         },
         {
             "store": "Humble Bundle",
@@ -165,7 +165,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-11"
+            "lastUpdated": "2026-08-12"
         },
         {
             "store": "WinGameStore",
@@ -174,7 +174,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-11"
+            "lastUpdated": "2026-08-12"
         },
         {
             "store": "IndieGala",
@@ -183,7 +183,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-11"
+            "lastUpdated": "2026-08-12"
         },
         {
             "store": "DreamGame",
@@ -192,7 +192,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-11"
+            "lastUpdated": "2026-08-12"
         }
     ],
     "gameplays": [
@@ -267,5 +267,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=WOiwB8-JPwM"
         }
     ],
-    "_pricesUpdated": "2026-08-11T19:11:03.220Z"
+    "_pricesUpdated": "2026-08-12T02:26:58.054Z"
 }
