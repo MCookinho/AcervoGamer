@@ -72,15 +72,6 @@
             "lastUpdated": "2026-08-12"
         },
         {
-            "store": "GOG",
-            "url": "https://www.gog.com/game/gris",
-            "platform": "PC",
-            "price": 21.75,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-08-12"
-        },
-        {
             "store": "Gamesplanet",
             "url": "https://www.cheapshark.com/redirect?dealID=pcyGqSREkA%2F2aM0L7tDFNyO%2BCtnqlDhdDw%2BSL5V%2BU1I%3D",
             "platform": "PC",
@@ -133,6 +124,15 @@
             "priceOriginal": "R$72,90",
             "coupon": null,
             "lastUpdated": "2025-07-10"
+        },
+        {
+            "store": "GOG",
+            "url": "https://www.gog.com/game/gris",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-08-12"
         },
         {
             "store": "Humble Bundle",
@@ -407,5 +407,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=P0VcBnGwjMk"
         }
     ],
-    "_pricesUpdated": "2026-08-12T02:26:52.985Z"
+    "_pricesUpdated": "2026-08-12T07:41:39.804Z"
 }
