@@ -256,14 +256,6 @@
             "lastUpdated": "2026-08-13"
         },
         {
-            "store": "GOG",
-            "platform": "PC",
-            "url": "https://www.gog.com/game/chroma_squad",
-            "price": 44.99,
-            "priceOriginal": "R$ 44,99",
-            "lastUpdated": "2026-07-13"
-        },
-        {
             "store": "PlayStation Store",
             "platform": "PlayStation 4",
             "url": "https://store.playstation.com/pt-br/product/HP0700-PPSA01106_00-CHROMASQUAD00000",
@@ -293,6 +285,15 @@
             "platform": "PC",
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-13"
+        },
+        {
+            "store": "GOG",
+            "url": "https://www.gog.com/game/chroma_squad",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
             "coupon": null,
             "lastUpdated": "2026-08-13"
         },
@@ -414,5 +415,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=LHbjVp_W7bw"
         }
     ],
-    "_pricesUpdated": "2026-08-13T07:43:31.230Z"
+    "_pricesUpdated": "2026-08-13T13:25:19.583Z"
 }
