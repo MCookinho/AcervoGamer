@@ -252,12 +252,21 @@
     ],
     "stores": [
         {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=CLtImwsRjJKgaurd0w2E%2BXKAnKcZSo9rNl%2FfnVD1NEY%3D",
+            "platform": "PC",
+            "price": 28.94,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-14"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/504230/Celeste/",
             "price": 59.99,
             "priceOriginal": "R$ 59,99",
-            "lastUpdated": "2026-08-13"
+            "lastUpdated": "2026-08-14"
         },
         {
             "store": "Nintendo eShop",
@@ -276,15 +285,6 @@
             "platform": "Xbox One",
             "url": "https://www.xbox.com/pt-br/games/store/celeste/9P5WD7N11Q3J",
             "price": 59.99
-        },
-        {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=CLtImwsRjJKgaurd0w2E%2BXKAnKcZSo9rNl%2FfnVD1NEY%3D",
-            "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-13"
         }
     ],
     "gameplays": [
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=t0691tGFQIY"
         }
     ],
-    "_pricesUpdated": "2026-08-13T19:10:29.844Z"
+    "_pricesUpdated": "2026-08-14T02:27:17.491Z"
 }

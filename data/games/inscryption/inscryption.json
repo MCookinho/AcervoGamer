@@ -216,16 +216,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-13"
-        },
-        {
-            "store": "Gamesplanet",
-            "url": "https://www.cheapshark.com/redirect?dealID=2VGA81xojdDFqC%2BGUvJGceCC5WtdBHSoh2LyizRcW3U%3D",
-            "platform": "PC",
-            "price": 46.34,
-            "priceOriginal": "$19.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-08-13"
+            "lastUpdated": "2026-08-14"
         },
         {
             "store": "GOG",
@@ -234,7 +225,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-13"
+            "lastUpdated": "2026-08-14"
         },
         {
             "store": "Steam",
@@ -242,7 +233,7 @@
             "url": "https://store.steampowered.com/app/1092790/Inscryption/",
             "price": 49.99,
             "priceOriginal": "R$ 49,99",
-            "lastUpdated": "2026-08-13"
+            "lastUpdated": "2026-08-14"
         },
         {
             "store": "Epic Games Store",
@@ -251,13 +242,22 @@
             "price": 49.99
         },
         {
+            "store": "Gamesplanet",
+            "url": "https://www.cheapshark.com/redirect?dealID=2VGA81xojdDFqC%2BGUvJGceCC5WtdBHSoh2LyizRcW3U%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-08-14"
+        },
+        {
             "store": "Humble Bundle",
             "url": "https://www.cheapshark.com/redirect?dealID=6q60%2Fzo9LDLiZqYDx7sX6htwI%2FY63jYVPLT1G78p43Y%3D",
             "platform": "PC",
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-13"
+            "lastUpdated": "2026-08-14"
         }
     ],
     "gameplays": [
@@ -318,5 +318,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=Mj2VSMbgwIE"
         }
     ],
-    "_pricesUpdated": "2026-08-13T19:10:38.958Z"
+    "_pricesUpdated": "2026-08-14T02:27:27.566Z"
 }
