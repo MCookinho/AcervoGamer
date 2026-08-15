@@ -162,7 +162,16 @@
             "price": 44.2,
             "priceOriginal": "$24.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=rwSyeKth%2Bz6tccpCaaRaWKxaj%2BXOl5i3Dq30xRj4QNs%3D",
+            "platform": "PC",
+            "price": 57.94,
+            "priceOriginal": "$24.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "Nintendo eShop",
@@ -189,7 +198,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "GreenManGaming",
@@ -198,16 +207,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-14"
-        },
-        {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=rwSyeKth%2Bz6tccpCaaRaWKxaj%2BXOl5i3Dq30xRj4QNs%3D",
-            "platform": "PC",
-            "price": 144.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         }
     ],
     "gameplays": [
@@ -282,5 +282,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=36_TnPea6RE"
         }
     ],
-    "_pricesUpdated": "2026-08-14T19:02:29.266Z"
+    "_pricesUpdated": "2026-08-15T01:37:48.289Z"
 }

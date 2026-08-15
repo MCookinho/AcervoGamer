@@ -163,16 +163,25 @@
             "url": "https://store.steampowered.com/app/2784470/9_Kings/",
             "price": 39.99,
             "priceOriginal": "R$ 39,99",
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=hcsS7u9DvNoeChSs1GF3Jhwo8c7KcHU8P%2BfJ5uieIrc%3D",
+            "platform": "PC",
+            "price": 52.14,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "GreenManGaming",
             "url": "https://www.cheapshark.com/redirect?dealID=tcDxuq8wB0cigNKc%2FkwSQKMsJKRkNBLTlJndOOimKMY%3D",
             "platform": "PC",
-            "price": 58,
-            "priceOriginal": "$19.99 USD",
+            "price": 115.94,
+            "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "GOG",
@@ -181,7 +190,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "Gamesplanet",
@@ -190,7 +199,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "Epic Games Store",
@@ -199,16 +208,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-14"
-        },
-        {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=hcsS7u9DvNoeChSs1GF3Jhwo8c7KcHU8P%2BfJ5uieIrc%3D",
-            "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         }
     ],
     "gameplays": [
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-08-14T19:02:18.702Z"
+    "_pricesUpdated": "2026-08-15T01:37:37.946Z"
 }

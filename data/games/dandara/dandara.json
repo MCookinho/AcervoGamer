@@ -233,12 +233,21 @@
     ],
     "stores": [
         {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=uqHt%2BNYzBc7jy2tzdgk%2FSXwWZoa4nfuu%2B%2BIhpO%2F%2FtTI%3D",
+            "platform": "PC",
+            "price": 17.34,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-15"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/612390/Dandara/",
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "Nintendo eShop",
@@ -265,7 +274,7 @@
             "price": 72.04,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "Fanatical",
@@ -274,7 +283,7 @@
             "price": 77.66,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "Gamesplanet",
@@ -283,7 +292,7 @@
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "GOG",
@@ -292,7 +301,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "GreenManGaming",
@@ -301,7 +310,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "WinGameStore",
@@ -310,16 +319,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-14"
-        },
-        {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=uqHt%2BNYzBc7jy2tzdgk%2FSXwWZoa4nfuu%2B%2BIhpO%2F%2FtTI%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         }
     ],
     "gameplays": [
@@ -394,5 +394,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
         }
     ],
-    "_pricesUpdated": "2026-08-14T19:02:23.367Z"
+    "_pricesUpdated": "2026-08-15T01:37:42.582Z"
 }

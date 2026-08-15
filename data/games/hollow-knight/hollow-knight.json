@@ -270,12 +270,21 @@
     ],
     "stores": [
         {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=rmecI07YNZZyob1X1p2pGavwnQgzopI5i9RzJ2dWYgA%3D",
+            "platform": "PC",
+            "price": 43.44,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-15"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/367520/Hollow_Knight/",
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "Nintendo eShop",
@@ -302,7 +311,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         },
         {
             "store": "GOG",
@@ -311,16 +320,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-14"
-        },
-        {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=rmecI07YNZZyob1X1p2pGavwnQgzopI5i9RzJ2dWYgA%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-14"
+            "lastUpdated": "2026-08-15"
         }
     ],
     "gameplays": [
@@ -395,5 +395,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=511FfBsQ6tk"
         }
     ],
-    "_pricesUpdated": "2026-08-14T19:02:28.716Z"
+    "_pricesUpdated": "2026-08-15T01:37:47.822Z"
 }
