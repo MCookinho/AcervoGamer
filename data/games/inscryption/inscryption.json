@@ -216,7 +216,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-16"
+            "lastUpdated": "2026-08-17"
         },
         {
             "store": "GOG",
@@ -225,7 +225,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-16"
+            "lastUpdated": "2026-08-17"
         },
         {
             "store": "Humble Bundle",
@@ -234,7 +234,16 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-16"
+            "lastUpdated": "2026-08-17"
+        },
+        {
+            "store": "Gamesplanet",
+            "url": "https://www.cheapshark.com/redirect?dealID=2VGA81xojdDFqC%2BGUvJGceCC5WtdBHSoh2LyizRcW3U%3D",
+            "platform": "PC",
+            "price": 46.34,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-17"
         },
         {
             "store": "Steam",
@@ -242,22 +251,13 @@
             "url": "https://store.steampowered.com/app/1092790/Inscryption/",
             "price": 49.99,
             "priceOriginal": "R$ 49,99",
-            "lastUpdated": "2026-08-16"
+            "lastUpdated": "2026-08-17"
         },
         {
             "store": "Epic Games Store",
             "platform": "PC",
             "url": "https://store.epicgames.com/en-US/p/inscryption-6b29ab",
             "price": 49.99
-        },
-        {
-            "store": "Gamesplanet",
-            "url": "https://www.cheapshark.com/redirect?dealID=2VGA81xojdDFqC%2BGUvJGceCC5WtdBHSoh2LyizRcW3U%3D",
-            "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-16"
         }
     ],
     "gameplays": [
@@ -318,5 +318,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=Mj2VSMbgwIE"
         }
     ],
-    "_pricesUpdated": "2026-08-16T18:36:59.490Z"
+    "_pricesUpdated": "2026-08-17T01:42:40.746Z"
 }
