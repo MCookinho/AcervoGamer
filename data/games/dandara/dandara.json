@@ -233,13 +233,40 @@
     ],
     "stores": [
         {
+            "store": "Gamesplanet",
+            "url": "https://www.cheapshark.com/redirect?dealID=71iAgMEF8VMNASq4tG8OC8PZbiZLx8%2F8NAS%2FLOCoOEI%3D",
+            "platform": "PC",
+            "price": 16.41,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-20"
+        },
+        {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=DmAeLJL%2Bt5%2Fp%2Byitv3eMDtPGCl%2FruJQ1yCwVGtcXP3E%3D",
+            "platform": "PC",
+            "price": 16.47,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-20"
+        },
+        {
             "store": "Humble Bundle",
             "url": "https://www.cheapshark.com/redirect?dealID=uqHt%2BNYzBc7jy2tzdgk%2FSXwWZoa4nfuu%2B%2BIhpO%2F%2FtTI%3D",
             "platform": "PC",
             "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-19"
+            "lastUpdated": "2026-08-20"
+        },
+        {
+            "store": "WinGameStore",
+            "url": "https://www.cheapshark.com/redirect?dealID=Eo9JlM7kLmj%2FamkygtGddnWvrSxaBVi8mzcPhvlwIzA%3D",
+            "platform": "PC",
+            "price": 17.34,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-20"
         },
         {
             "store": "Steam",
@@ -247,7 +274,7 @@
             "url": "https://store.steampowered.com/app/612390/Dandara/",
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
-            "lastUpdated": "2026-08-19"
+            "lastUpdated": "2026-08-20"
         },
         {
             "store": "Nintendo eShop",
@@ -274,25 +301,7 @@
             "price": 72.04,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-19"
-        },
-        {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=DmAeLJL%2Bt5%2Fp%2Byitv3eMDtPGCl%2FruJQ1yCwVGtcXP3E%3D",
-            "platform": "PC",
-            "price": 75.28,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-08-19"
-        },
-        {
-            "store": "Gamesplanet",
-            "url": "https://www.cheapshark.com/redirect?dealID=71iAgMEF8VMNASq4tG8OC8PZbiZLx8%2F8NAS%2FLOCoOEI%3D",
-            "platform": "PC",
-            "price": 78.24,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-08-19"
+            "lastUpdated": "2026-08-20"
         },
         {
             "store": "GOG",
@@ -301,7 +310,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-19"
+            "lastUpdated": "2026-08-20"
         },
         {
             "store": "GreenManGaming",
@@ -310,16 +319,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-19"
-        },
-        {
-            "store": "WinGameStore",
-            "url": "https://www.cheapshark.com/redirect?dealID=Eo9JlM7kLmj%2FamkygtGddnWvrSxaBVi8mzcPhvlwIzA%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-19"
+            "lastUpdated": "2026-08-20"
         }
     ],
     "gameplays": [
@@ -394,5 +394,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
         }
     ],
-    "_pricesUpdated": "2026-08-19T18:43:38.455Z"
+    "_pricesUpdated": "2026-08-20T01:38:35.133Z"
 }
