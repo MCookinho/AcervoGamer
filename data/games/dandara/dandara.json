@@ -233,6 +233,15 @@
     ],
     "stores": [
         {
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=kgEbHSFwL%2BwJVFGkM8TtmrMWc%2F404u%2FTDz5x3frKsKw%3D",
+            "platform": "PC",
+            "price": 14.62,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-20"
+        },
+        {
             "store": "Gamesplanet",
             "url": "https://www.cheapshark.com/redirect?dealID=71iAgMEF8VMNASq4tG8OC8PZbiZLx8%2F8NAS%2FLOCoOEI%3D",
             "platform": "PC",
@@ -306,15 +315,6 @@
         {
             "store": "GOG",
             "url": "https://www.gog.com/game/dandara_trials_of_fear_edition",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-20"
-        },
-        {
-            "store": "GreenManGaming",
-            "url": "https://www.cheapshark.com/redirect?dealID=kgEbHSFwL%2BwJVFGkM8TtmrMWc%2F404u%2FTDz5x3frKsKw%3D",
             "platform": "PC",
             "price": 86.94,
             "priceOriginal": null,
@@ -394,5 +394,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
         }
     ],
-    "_pricesUpdated": "2026-08-20T06:55:55.402Z"
+    "_pricesUpdated": "2026-08-20T13:00:20.227Z"
 }
