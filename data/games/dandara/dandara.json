@@ -239,7 +239,7 @@
             "price": 14.62,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         },
         {
             "store": "Gamesplanet",
@@ -248,7 +248,7 @@
             "price": 16.41,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         },
         {
             "store": "Fanatical",
@@ -257,7 +257,7 @@
             "price": 16.47,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         },
         {
             "store": "Humble Bundle",
@@ -266,7 +266,7 @@
             "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         },
         {
             "store": "WinGameStore",
@@ -275,7 +275,16 @@
             "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
+        },
+        {
+            "store": "GameBillet",
+            "url": "https://www.cheapshark.com/redirect?dealID=pTVX1E6041stgyza4HF%2FyVQErzHseDIA4DHhU%2Fasozc%3D",
+            "platform": "PC",
+            "price": 17.4,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-21"
         },
         {
             "store": "Steam",
@@ -283,7 +292,7 @@
             "url": "https://store.steampowered.com/app/612390/Dandara/",
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         },
         {
             "store": "Nintendo eShop",
@@ -304,22 +313,13 @@
             "price": 46.99
         },
         {
-            "store": "GameBillet",
-            "url": "https://www.cheapshark.com/redirect?dealID=pTVX1E6041stgyza4HF%2FyVQErzHseDIA4DHhU%2Fasozc%3D",
-            "platform": "PC",
-            "price": 72.04,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-08-20"
-        },
-        {
             "store": "GOG",
             "url": "https://www.gog.com/game/dandara_trials_of_fear_edition",
             "platform": "PC",
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         }
     ],
     "gameplays": [
@@ -394,5 +394,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
         }
     ],
-    "_pricesUpdated": "2026-08-20T18:49:57.975Z"
+    "_pricesUpdated": "2026-08-21T01:43:46.016Z"
 }

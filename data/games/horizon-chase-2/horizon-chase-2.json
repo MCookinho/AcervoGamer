@@ -156,22 +156,13 @@
     ],
     "stores": [
         {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=kubcQGRKpd3ZR4aLHDM7lKqAfMpFQZOHjF3PE2rDtbo%3D",
-            "platform": "PC",
-            "price": 44.2,
-            "priceOriginal": "$24.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-08-20"
-        },
-        {
             "store": "Humble Bundle",
             "url": "https://www.cheapshark.com/redirect?dealID=rwSyeKth%2Bz6tccpCaaRaWKxaj%2BXOl5i3Dq30xRj4QNs%3D",
             "platform": "PC",
             "price": 57.94,
             "priceOriginal": "$24.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         },
         {
             "store": "Nintendo eShop",
@@ -192,13 +183,22 @@
             "price": 124.99
         },
         {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=kubcQGRKpd3ZR4aLHDM7lKqAfMpFQZOHjF3PE2rDtbo%3D",
+            "platform": "PC",
+            "price": 144.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-08-21"
+        },
+        {
             "store": "Epic Games Store",
             "url": "https://store.epicgames.com/p/horizon-chase-2",
             "platform": "PC",
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         },
         {
             "store": "GreenManGaming",
@@ -207,7 +207,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         }
     ],
     "gameplays": [
@@ -282,5 +282,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=36_TnPea6RE"
         }
     ],
-    "_pricesUpdated": "2026-08-20T18:50:14.780Z"
+    "_pricesUpdated": "2026-08-21T01:43:56.386Z"
 }

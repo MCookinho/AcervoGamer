@@ -225,22 +225,13 @@
     ],
     "stores": [
         {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=fpXf3kRpHGtRof30E4bJw4PJAIPvQdaGnUFtOg5XmKg%3D",
-            "platform": "PC",
-            "price": 40.54,
-            "priceOriginal": "$19.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-08-20"
-        },
-        {
             "store": "Humble Bundle",
             "url": "https://www.cheapshark.com/redirect?dealID=Gr%2BwqlLSGVXwlZNGy5L5rBzFxUVnF3%2FOfOJJ0gjECjo%3D",
             "platform": "PC",
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         },
         {
             "store": "Steam",
@@ -248,7 +239,7 @@
             "url": "https://store.steampowered.com/app/1062110/Unsighted/",
             "price": 49.99,
             "priceOriginal": "R$ 49,99",
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         },
         {
             "store": "Nintendo eShop",
@@ -269,13 +260,22 @@
             "price": 109.99
         },
         {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=fpXf3kRpHGtRof30E4bJw4PJAIPvQdaGnUFtOg5XmKg%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-08-21"
+        },
+        {
             "store": "GOG",
             "url": "https://www.cheapshark.com/redirect?dealID=xAA953bL7jzMePLxU%2Fq44NqKcN%2FgU14Gf0OOJrMDzeE%3D",
             "platform": "PC",
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         },
         {
             "store": "GreenManGaming",
@@ -284,7 +284,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-20"
+            "lastUpdated": "2026-08-21"
         }
     ],
     "gameplays": [
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-08-20T18:50:39.878Z"
+    "_pricesUpdated": "2026-08-21T01:44:05.170Z"
 }
