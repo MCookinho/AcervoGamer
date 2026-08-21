@@ -262,20 +262,20 @@
             "lastUpdated": "2026-07-13"
         },
         {
-            "store": "Gamesplanet",
-            "url": "https://www.cheapshark.com/redirect?dealID=BZ9w3UaLbSDTNFdCEFd3zoqaI0qqM5qZPVPg3vnD394%3D",
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=2%2BkoC%2BsJ2f0Ii5Z5hzxAluZ3j7z9cAxVrFmkj28L0D4%3D",
             "platform": "PC",
-            "price": 78.24,
+            "price": 68.96,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
             "lastUpdated": "2026-08-21"
         },
         {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=2%2BkoC%2BsJ2f0Ii5Z5hzxAluZ3j7z9cAxVrFmkj28L0D4%3D",
+            "store": "Gamesplanet",
+            "url": "https://www.cheapshark.com/redirect?dealID=BZ9w3UaLbSDTNFdCEFd3zoqaI0qqM5qZPVPg3vnD394%3D",
             "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
+            "price": 78.24,
+            "priceOriginal": "$14.99 USD",
             "coupon": null,
             "lastUpdated": "2026-08-21"
         },
@@ -415,5 +415,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=LHbjVp_W7bw"
         }
     ],
-    "_pricesUpdated": "2026-08-21T06:56:39.046Z"
+    "_pricesUpdated": "2026-08-21T12:59:37.513Z"
 }
