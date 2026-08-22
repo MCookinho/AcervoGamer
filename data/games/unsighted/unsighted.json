@@ -231,7 +231,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-21"
+            "lastUpdated": "2026-08-22"
         },
         {
             "store": "Steam",
@@ -239,7 +239,7 @@
             "url": "https://store.steampowered.com/app/1062110/Unsighted/",
             "price": 49.99,
             "priceOriginal": "R$ 49,99",
-            "lastUpdated": "2026-08-21"
+            "lastUpdated": "2026-08-22"
         },
         {
             "store": "Fanatical",
@@ -248,7 +248,7 @@
             "price": 93.03,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-21"
+            "lastUpdated": "2026-08-22"
         },
         {
             "store": "Nintendo eShop",
@@ -275,7 +275,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-21"
+            "lastUpdated": "2026-08-22"
         },
         {
             "store": "GreenManGaming",
@@ -284,7 +284,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-08-21"
+            "lastUpdated": "2026-08-22"
         }
     ],
     "gameplays": [
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-08-21T18:45:48.886Z"
+    "_pricesUpdated": "2026-08-22T01:37:31.109Z"
 }
