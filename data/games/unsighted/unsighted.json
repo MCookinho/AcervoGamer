@@ -234,6 +234,15 @@
             "lastUpdated": "2026-08-25"
         },
         {
+            "store": "GOG",
+            "url": "https://www.cheapshark.com/redirect?dealID=xAA953bL7jzMePLxU%2Fq44NqKcN%2FgU14Gf0OOJrMDzeE%3D",
+            "platform": "PC",
+            "price": 46.34,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-25"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/1062110/Unsighted/",
@@ -267,15 +276,6 @@
             "platform": "Xbox One/Series X|S",
             "url": "https://www.xbox.com/pt-br/games/store/unsighted/9p2n57fkn3pr",
             "price": 109.99
-        },
-        {
-            "store": "GOG",
-            "url": "https://www.cheapshark.com/redirect?dealID=xAA953bL7jzMePLxU%2Fq44NqKcN%2FgU14Gf0OOJrMDzeE%3D",
-            "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-25"
         },
         {
             "store": "GreenManGaming",
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-08-25T12:58:23.530Z"
+    "_pricesUpdated": "2026-08-25T18:47:52.560Z"
 }

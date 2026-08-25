@@ -237,6 +237,15 @@
             "lastUpdated": "2026-08-25"
         },
         {
+            "store": "GOG",
+            "url": "https://www.gog.com/game/inscryption",
+            "platform": "PC",
+            "price": 46.34,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-25"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/1092790/Inscryption/",
@@ -249,15 +258,6 @@
             "platform": "PC",
             "url": "https://store.epicgames.com/en-US/p/inscryption-6b29ab",
             "price": 49.99
-        },
-        {
-            "store": "GOG",
-            "url": "https://www.gog.com/game/inscryption",
-            "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-08-25"
         }
     ],
     "gameplays": [
@@ -318,5 +318,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=Mj2VSMbgwIE"
         }
     ],
-    "_pricesUpdated": "2026-08-25T12:58:15.987Z"
+    "_pricesUpdated": "2026-08-25T18:47:45.030Z"
 }
