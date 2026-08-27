@@ -252,20 +252,20 @@
     ],
     "stores": [
         {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/504230/Celeste/",
+            "price": 14.99,
+            "priceOriginal": "R$ 14,99",
+            "lastUpdated": "2026-08-27"
+        },
+        {
             "store": "Humble Bundle",
             "url": "https://www.cheapshark.com/redirect?dealID=CLtImwsRjJKgaurd0w2E%2BXKAnKcZSo9rNl%2FfnVD1NEY%3D",
             "platform": "PC",
             "price": 28.94,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-27"
-        },
-        {
-            "store": "Steam",
-            "platform": "PC",
-            "url": "https://store.steampowered.com/app/504230/Celeste/",
-            "price": 59.99,
-            "priceOriginal": "R$ 59,99",
             "lastUpdated": "2026-08-27"
         },
         {
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=t0691tGFQIY"
         }
     ],
-    "_pricesUpdated": "2026-08-27T08:44:44.919Z"
+    "_pricesUpdated": "2026-08-27T22:07:15.889Z"
 }
