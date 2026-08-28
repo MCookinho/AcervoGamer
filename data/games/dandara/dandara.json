@@ -238,7 +238,7 @@
             "url": "https://store.steampowered.com/app/612390/Dandara/",
             "price": 9.39,
             "priceOriginal": "R$ 9,39",
-            "lastUpdated": "2026-08-27"
+            "lastUpdated": "2026-08-28"
         },
         {
             "store": "GameBillet",
@@ -247,7 +247,7 @@
             "price": 14.44,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-27"
+            "lastUpdated": "2026-08-28"
         },
         {
             "store": "GreenManGaming",
@@ -256,7 +256,7 @@
             "price": 14.62,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-27"
+            "lastUpdated": "2026-08-28"
         },
         {
             "store": "Gamesplanet",
@@ -265,7 +265,7 @@
             "price": 16.41,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-27"
+            "lastUpdated": "2026-08-28"
         },
         {
             "store": "Fanatical",
@@ -274,7 +274,7 @@
             "price": 16.47,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-27"
+            "lastUpdated": "2026-08-28"
         },
         {
             "store": "Humble Bundle",
@@ -283,7 +283,7 @@
             "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-27"
+            "lastUpdated": "2026-08-28"
         },
         {
             "store": "WinGameStore",
@@ -292,7 +292,7 @@
             "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-27"
+            "lastUpdated": "2026-08-28"
         },
         {
             "store": "GOG",
@@ -301,7 +301,7 @@
             "price": 19.08,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-27"
+            "lastUpdated": "2026-08-28"
         },
         {
             "store": "Nintendo eShop",
@@ -394,5 +394,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
         }
     ],
-    "_pricesUpdated": "2026-08-27T22:07:17.884Z"
+    "_pricesUpdated": "2026-08-28T10:58:00.275Z"
 }
