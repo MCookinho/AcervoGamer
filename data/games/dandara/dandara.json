@@ -241,37 +241,10 @@
             "lastUpdated": "2026-08-31"
         },
         {
-            "store": "GameBillet",
-            "url": "https://www.cheapshark.com/redirect?dealID=pTVX1E6041stgyza4HF%2FyVQErzHseDIA4DHhU%2Fasozc%3D",
-            "platform": "PC",
-            "price": 14.44,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-08-31"
-        },
-        {
             "store": "GreenManGaming",
             "url": "https://www.cheapshark.com/redirect?dealID=kgEbHSFwL%2BwJVFGkM8TtmrMWc%2F404u%2FTDz5x3frKsKw%3D",
             "platform": "PC",
             "price": 14.62,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-08-31"
-        },
-        {
-            "store": "Gamesplanet",
-            "url": "https://www.cheapshark.com/redirect?dealID=71iAgMEF8VMNASq4tG8OC8PZbiZLx8%2F8NAS%2FLOCoOEI%3D",
-            "platform": "PC",
-            "price": 16.41,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-08-31"
-        },
-        {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=DmAeLJL%2Bt5%2Fp%2Byitv3eMDtPGCl%2FruJQ1yCwVGtcXP3E%3D",
-            "platform": "PC",
-            "price": 16.47,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
             "lastUpdated": "2026-08-31"
@@ -320,6 +293,33 @@
             "platform": "Xbox One",
             "url": "https://www.xbox.com/pt-br/games/store/dandara/bqqd1khrwwl8",
             "price": 46.99
+        },
+        {
+            "store": "Gamesplanet",
+            "url": "https://www.cheapshark.com/redirect?dealID=71iAgMEF8VMNASq4tG8OC8PZbiZLx8%2F8NAS%2FLOCoOEI%3D",
+            "platform": "PC",
+            "price": 78.24,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-08-31"
+        },
+        {
+            "store": "GameBillet",
+            "url": "https://www.cheapshark.com/redirect?dealID=pTVX1E6041stgyza4HF%2FyVQErzHseDIA4DHhU%2Fasozc%3D",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-08-31"
+        },
+        {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=DmAeLJL%2Bt5%2Fp%2Byitv3eMDtPGCl%2FruJQ1yCwVGtcXP3E%3D",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-08-31"
         }
     ],
     "gameplays": [
@@ -394,5 +394,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
         }
     ],
-    "_pricesUpdated": "2026-08-31T13:19:49.700Z"
+    "_pricesUpdated": "2026-08-31T22:42:38.715Z"
 }

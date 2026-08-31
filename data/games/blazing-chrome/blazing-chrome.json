@@ -205,6 +205,14 @@
     ],
     "stores": [
         {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/609110/Blazing_Chrome/",
+            "price": 11.81,
+            "priceOriginal": "R$ 11,81",
+            "lastUpdated": "2026-08-31"
+        },
+        {
             "store": "Humble Bundle",
             "url": "https://www.cheapshark.com/redirect?dealID=AImBDVUDGGG%2Brxt1b27wUPszz5RdaUOqLINAmhDVIP0%3D",
             "platform": "PC",
@@ -220,14 +228,6 @@
             "price": 24.65,
             "priceOriginal": "$16.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-08-31"
-        },
-        {
-            "store": "Steam",
-            "platform": "PC",
-            "url": "https://store.steampowered.com/app/609110/Blazing_Chrome/",
-            "price": 47.24,
-            "priceOriginal": "R$ 47,24",
             "lastUpdated": "2026-08-31"
         },
         {
@@ -345,5 +345,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=TLq6RNqqbZw"
         }
     ],
-    "_pricesUpdated": "2026-08-31T13:19:45.790Z"
+    "_pricesUpdated": "2026-08-31T22:42:34.545Z"
 }
