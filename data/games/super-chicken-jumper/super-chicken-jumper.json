@@ -104,7 +104,7 @@
             "url": "https://store.steampowered.com/app/584640/SUPER_CHICKEN_JUMPER/",
             "price": 10.89,
             "priceOriginal": "R$ 10,89",
-            "lastUpdated": "2026-09-02"
+            "lastUpdated": "2026-09-03"
         },
         {
             "store": "PlayStation Store",
@@ -131,7 +131,7 @@
             "price": 17.34,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-02"
+            "lastUpdated": "2026-09-03"
         }
     ],
     "gameplays": [
@@ -206,5 +206,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=YaLgkuM6kBw"
         }
     ],
-    "_pricesUpdated": "2026-09-02T20:53:23.864Z"
+    "_pricesUpdated": "2026-09-03T04:00:37.606Z"
 }
