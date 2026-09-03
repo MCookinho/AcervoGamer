@@ -165,6 +165,15 @@
             "lastUpdated": "2026-09-03"
         },
         {
+            "store": "Epic Games Store",
+            "url": "https://store.epicgames.com/p/horizon-chase-2",
+            "platform": "PC",
+            "price": 57.94,
+            "priceOriginal": "$24.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-09-03"
+        },
+        {
             "store": "Nintendo eShop",
             "platform": "Nintendo Switch",
             "url": "https://www.nintendo.com/games/store/horizon-chase-2-switch/",
@@ -185,15 +194,6 @@
         {
             "store": "Fanatical",
             "url": "https://www.cheapshark.com/redirect?dealID=kubcQGRKpd3ZR4aLHDM7lKqAfMpFQZOHjF3PE2rDtbo%3D",
-            "platform": "PC",
-            "price": 144.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-09-03"
-        },
-        {
-            "store": "Epic Games Store",
-            "url": "https://store.epicgames.com/p/horizon-chase-2",
             "platform": "PC",
             "price": 144.94,
             "priceOriginal": null,
@@ -282,5 +282,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=36_TnPea6RE"
         }
     ],
-    "_pricesUpdated": "2026-09-03T11:00:30.835Z"
+    "_pricesUpdated": "2026-09-03T16:13:58.765Z"
 }
