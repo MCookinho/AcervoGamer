@@ -100,6 +100,24 @@
             "lastUpdated": "2026-09-03"
         },
         {
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=lv%2BtVbsXpxQ1Pzwpiw6GKX%2BN4vAo9goFm6njT4bQSBw%3D",
+            "platform": "PC",
+            "price": 13.05,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-09-03"
+        },
+        {
+            "store": "DreamGame",
+            "url": "https://www.cheapshark.com/redirect?dealID=ABcbuABE7uzPUZH5%2F25xi2LG8WkkM9h09ULI8CPcYVI%3D",
+            "platform": "PC",
+            "price": 13.05,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-09-03"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/400080/Out_of_Space/",
@@ -150,15 +168,6 @@
             "lastUpdated": "2026-09-03"
         },
         {
-            "store": "GreenManGaming",
-            "url": "https://www.cheapshark.com/redirect?dealID=lv%2BtVbsXpxQ1Pzwpiw6GKX%2BN4vAo9goFm6njT4bQSBw%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-09-03"
-        },
-        {
             "store": "Humble Bundle",
             "url": "https://www.cheapshark.com/redirect?dealID=h5fbf%2BFUeQMBCzClxQVmT5%2FmldATU%2FPso%2FU%2FMm9vYT8%3D",
             "platform": "PC",
@@ -179,15 +188,6 @@
         {
             "store": "IndieGala",
             "url": "https://www.cheapshark.com/redirect?dealID=ES0FGjUsRgj%2BATj1CqVPYF1%2BI3y3EbzMsvg1Scii%2Bzs%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-09-03"
-        },
-        {
-            "store": "DreamGame",
-            "url": "https://www.cheapshark.com/redirect?dealID=ABcbuABE7uzPUZH5%2F25xi2LG8WkkM9h09ULI8CPcYVI%3D",
             "platform": "PC",
             "price": 86.94,
             "priceOriginal": null,
@@ -267,5 +267,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=WOiwB8-JPwM"
         }
     ],
-    "_pricesUpdated": "2026-09-03T04:00:36.512Z"
+    "_pricesUpdated": "2026-09-03T11:00:35.620Z"
 }

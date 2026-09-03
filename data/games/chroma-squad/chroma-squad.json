@@ -223,6 +223,24 @@
             "lastUpdated": "2026-09-03"
         },
         {
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=XrkuwbFkq%2FnCkDN9v5QHlQi%2B0dqgNtiRR69rOSQajmM%3D",
+            "platform": "PC",
+            "price": 13.05,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-09-03"
+        },
+        {
+            "store": "DreamGame",
+            "url": "https://www.cheapshark.com/redirect?dealID=JRj8I%2FbeOb%2FiCtlj2Dgv%2BkMK7%2BL8gEulQsls3Uidnkw%3D",
+            "platform": "PC",
+            "price": 13.05,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-09-03"
+        },
+        {
             "store": "App Store",
             "platform": "iOS",
             "url": "https://apps.apple.com/br/app/chroma-squad/id1145234831",
@@ -280,15 +298,6 @@
             "lastUpdated": "2026-09-03"
         },
         {
-            "store": "GreenManGaming",
-            "url": "https://www.cheapshark.com/redirect?dealID=XrkuwbFkq%2FnCkDN9v5QHlQi%2B0dqgNtiRR69rOSQajmM%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-09-03"
-        },
-        {
             "store": "GOG",
             "url": "https://www.gog.com/game/chroma_squad",
             "platform": "PC",
@@ -327,15 +336,6 @@
         {
             "store": "IndieGala",
             "url": "https://www.cheapshark.com/redirect?dealID=Txob%2F6%2BHxjZTjLWhGwtANtQ0yLp9AOpnmggzgGklXQI%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-09-03"
-        },
-        {
-            "store": "DreamGame",
-            "url": "https://www.cheapshark.com/redirect?dealID=JRj8I%2FbeOb%2FiCtlj2Dgv%2BkMK7%2BL8gEulQsls3Uidnkw%3D",
             "platform": "PC",
             "price": 86.94,
             "priceOriginal": null,
@@ -415,5 +415,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=LHbjVp_W7bw"
         }
     ],
-    "_pricesUpdated": "2026-09-03T04:00:23.651Z"
+    "_pricesUpdated": "2026-09-03T11:00:23.497Z"
 }
