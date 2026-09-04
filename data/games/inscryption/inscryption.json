@@ -210,15 +210,6 @@
     ],
     "stores": [
         {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=6q60%2Fzo9LDLiZqYDx7sX6htwI%2FY63jYVPLT1G78p43Y%3D",
-            "platform": "PC",
-            "price": 46.34,
-            "priceOriginal": "$19.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-09-04"
-        },
-        {
             "store": "GOG",
             "url": "https://www.gog.com/game/inscryption",
             "platform": "PC",
@@ -240,6 +231,15 @@
             "platform": "PC",
             "url": "https://store.epicgames.com/en-US/p/inscryption-6b29ab",
             "price": 49.99
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=6q60%2Fzo9LDLiZqYDx7sX6htwI%2FY63jYVPLT1G78p43Y%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "Fanatical",
@@ -318,5 +318,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=Mj2VSMbgwIE"
         }
     ],
-    "_pricesUpdated": "2026-09-04T16:08:58.168Z"
+    "_pricesUpdated": "2026-09-04T20:38:27.808Z"
 }

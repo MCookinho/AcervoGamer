@@ -270,15 +270,6 @@
     ],
     "stores": [
         {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=rmecI07YNZZyob1X1p2pGavwnQgzopI5i9RzJ2dWYgA%3D",
-            "platform": "PC",
-            "price": 43.44,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-09-04"
-        },
-        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/367520/Hollow_Knight/",
@@ -303,6 +294,15 @@
             "platform": "Xbox One",
             "url": "https://www.xbox.com/pt-br/games/store/hollow-knight/bq6gj6h29nfh",
             "price": 50
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=rmecI07YNZZyob1X1p2pGavwnQgzopI5i9RzJ2dWYgA%3D",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "GreenManGaming",
@@ -395,5 +395,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=511FfBsQ6tk"
         }
     ],
-    "_pricesUpdated": "2026-09-04T16:08:56.444Z"
+    "_pricesUpdated": "2026-09-04T20:38:26.160Z"
 }

@@ -241,15 +241,6 @@
             "lastUpdated": "2026-09-04"
         },
         {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=uqHt%2BNYzBc7jy2tzdgk%2FSXwWZoa4nfuu%2B%2BIhpO%2F%2FtTI%3D",
-            "platform": "PC",
-            "price": 17.34,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-09-04"
-        },
-        {
             "store": "GOG",
             "url": "https://www.gog.com/game/dandara_trials_of_fear_edition",
             "platform": "PC",
@@ -300,6 +291,15 @@
             "platform": "PC",
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-09-04"
+        },
+        {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=uqHt%2BNYzBc7jy2tzdgk%2FSXwWZoa4nfuu%2B%2BIhpO%2F%2FtTI%3D",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
             "coupon": null,
             "lastUpdated": "2026-09-04"
         },
@@ -394,5 +394,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
         }
     ],
-    "_pricesUpdated": "2026-09-04T16:08:50.223Z"
+    "_pricesUpdated": "2026-09-04T20:38:19.967Z"
 }

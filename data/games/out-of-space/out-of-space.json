@@ -108,6 +108,15 @@
             "lastUpdated": "2026-09-04"
         },
         {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=h5fbf%2BFUeQMBCzClxQVmT5%2FmldATU%2FPso%2FU%2FMm9vYT8%3D",
+            "platform": "PC",
+            "price": 12.99,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-09-04"
+        },
+        {
             "store": "GreenManGaming",
             "url": "https://www.cheapshark.com/redirect?dealID=lv%2BtVbsXpxQ1Pzwpiw6GKX%2BN4vAo9goFm6njT4bQSBw%3D",
             "platform": "PC",
@@ -161,15 +170,6 @@
         {
             "store": "GamersGate",
             "url": "https://www.cheapshark.com/redirect?dealID=17MuImSQLmhP%2F0SVyaXA4zBQZtI1m4CJwdH4YS%2BOiaA%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-09-04"
-        },
-        {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=h5fbf%2BFUeQMBCzClxQVmT5%2FmldATU%2FPso%2FU%2FMm9vYT8%3D",
             "platform": "PC",
             "price": 86.94,
             "priceOriginal": null,
@@ -267,5 +267,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=WOiwB8-JPwM"
         }
     ],
-    "_pricesUpdated": "2026-09-04T16:09:00.682Z"
+    "_pricesUpdated": "2026-09-04T20:38:30.062Z"
 }

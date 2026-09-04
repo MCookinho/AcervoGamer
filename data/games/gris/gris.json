@@ -75,7 +75,7 @@
             "store": "Humble Bundle",
             "url": "https://www.humblebundle.com/store/gris",
             "platform": "PC",
-            "price": 21.69,
+            "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
             "lastUpdated": "2026-09-04"
@@ -407,5 +407,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=P0VcBnGwjMk"
         }
     ],
-    "_pricesUpdated": "2026-09-04T16:08:55.404Z"
+    "_pricesUpdated": "2026-09-04T20:38:25.234Z"
 }
