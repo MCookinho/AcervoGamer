@@ -257,7 +257,7 @@
             "url": "https://store.steampowered.com/app/504230/Celeste/",
             "price": 14.99,
             "priceOriginal": "R$ 14,99",
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "Humble Bundle",
@@ -266,7 +266,7 @@
             "price": 28.94,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "Nintendo eShop",
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=t0691tGFQIY"
         }
     ],
-    "_pricesUpdated": "2026-09-03T20:51:22.177Z"
+    "_pricesUpdated": "2026-09-04T04:02:36.480Z"
 }

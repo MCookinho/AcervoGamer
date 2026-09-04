@@ -96,7 +96,7 @@
             "url": "https://store.steampowered.com/app/400080/Out_of_Space/",
             "price": 4.34,
             "priceOriginal": "R$ 4,34",
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "Fanatical",
@@ -105,7 +105,7 @@
             "price": 9.98,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "GreenManGaming",
@@ -114,7 +114,7 @@
             "price": 13.05,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "DreamGame",
@@ -123,7 +123,7 @@
             "price": 13.05,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "PlayStation Store",
@@ -156,7 +156,7 @@
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "GamersGate",
@@ -165,7 +165,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "Humble Bundle",
@@ -174,7 +174,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "WinGameStore",
@@ -183,7 +183,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "IndieGala",
@@ -192,7 +192,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         }
     ],
     "gameplays": [
@@ -267,5 +267,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=WOiwB8-JPwM"
         }
     ],
-    "_pricesUpdated": "2026-09-03T20:51:34.290Z"
+    "_pricesUpdated": "2026-09-04T04:02:48.298Z"
 }

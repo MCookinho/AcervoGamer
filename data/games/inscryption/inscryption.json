@@ -216,25 +216,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-03"
-        },
-        {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=M7dL8RR3RWBcrmkuBIO47WloK3KwBMdV2kdjXASV5Mo%3D",
-            "platform": "PC",
-            "price": 46.34,
-            "priceOriginal": "$19.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-09-03"
-        },
-        {
-            "store": "Gamesplanet",
-            "url": "https://www.cheapshark.com/redirect?dealID=2VGA81xojdDFqC%2BGUvJGceCC5WtdBHSoh2LyizRcW3U%3D",
-            "platform": "PC",
-            "price": 46.34,
-            "priceOriginal": "$19.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "GOG",
@@ -243,7 +225,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "Steam",
@@ -251,13 +233,31 @@
             "url": "https://store.steampowered.com/app/1092790/Inscryption/",
             "price": 49.99,
             "priceOriginal": "R$ 49,99",
-            "lastUpdated": "2026-09-03"
+            "lastUpdated": "2026-09-04"
         },
         {
             "store": "Epic Games Store",
             "platform": "PC",
             "url": "https://store.epicgames.com/en-US/p/inscryption-6b29ab",
             "price": 49.99
+        },
+        {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=M7dL8RR3RWBcrmkuBIO47WloK3KwBMdV2kdjXASV5Mo%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-09-04"
+        },
+        {
+            "store": "Gamesplanet",
+            "url": "https://www.cheapshark.com/redirect?dealID=2VGA81xojdDFqC%2BGUvJGceCC5WtdBHSoh2LyizRcW3U%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-09-04"
         }
     ],
     "gameplays": [
@@ -318,5 +318,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=Mj2VSMbgwIE"
         }
     ],
-    "_pricesUpdated": "2026-09-03T20:51:31.745Z"
+    "_pricesUpdated": "2026-09-04T04:02:45.234Z"
 }
