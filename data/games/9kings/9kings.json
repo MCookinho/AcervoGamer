@@ -161,8 +161,8 @@
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/2784470/9_Kings/",
-            "price": 19.99,
-            "priceOriginal": "R$ 19,99",
+            "price": 39.99,
+            "priceOriginal": "R$ 39,99",
             "lastUpdated": "2026-09-05"
         },
         {
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-09-05T14:57:49.920Z"
+    "_pricesUpdated": "2026-09-05T20:11:44.875Z"
 }
