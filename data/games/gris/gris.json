@@ -69,7 +69,7 @@
             "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-04"
+            "lastUpdated": "2026-09-05"
         },
         {
             "store": "Humble Bundle",
@@ -78,7 +78,7 @@
             "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-04"
+            "lastUpdated": "2026-09-05"
         },
         {
             "store": "Steam",
@@ -87,7 +87,7 @@
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
             "coupon": null,
-            "lastUpdated": "2026-09-04"
+            "lastUpdated": "2026-09-05"
         },
         {
             "store": "Eneba",
@@ -96,7 +96,7 @@
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
             "coupon": null,
-            "lastUpdated": "2026-09-04"
+            "lastUpdated": "2026-09-05"
         },
         {
             "store": "PlayStation Store",
@@ -132,7 +132,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-04"
+            "lastUpdated": "2026-09-05"
         },
         {
             "store": "Gamesplanet",
@@ -141,7 +141,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-04"
+            "lastUpdated": "2026-09-05"
         }
     ],
     "soundtrack": [
@@ -407,5 +407,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=P0VcBnGwjMk"
         }
     ],
-    "_pricesUpdated": "2026-09-04T20:38:25.234Z"
+    "_pricesUpdated": "2026-09-05T03:59:21.895Z"
 }

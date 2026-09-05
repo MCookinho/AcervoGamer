@@ -156,22 +156,13 @@
     ],
     "stores": [
         {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=rwSyeKth%2Bz6tccpCaaRaWKxaj%2BXOl5i3Dq30xRj4QNs%3D",
-            "platform": "PC",
-            "price": 57.94,
-            "priceOriginal": "$24.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-09-04"
-        },
-        {
             "store": "Epic Games Store",
             "url": "https://store.epicgames.com/p/horizon-chase-2",
             "platform": "PC",
             "price": 57.94,
             "priceOriginal": "$24.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-04"
+            "lastUpdated": "2026-09-05"
         },
         {
             "store": "Nintendo eShop",
@@ -192,13 +183,22 @@
             "price": 124.99
         },
         {
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=rwSyeKth%2Bz6tccpCaaRaWKxaj%2BXOl5i3Dq30xRj4QNs%3D",
+            "platform": "PC",
+            "price": 144.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-09-05"
+        },
+        {
             "store": "Fanatical",
             "url": "https://www.cheapshark.com/redirect?dealID=kubcQGRKpd3ZR4aLHDM7lKqAfMpFQZOHjF3PE2rDtbo%3D",
             "platform": "PC",
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-04"
+            "lastUpdated": "2026-09-05"
         },
         {
             "store": "GreenManGaming",
@@ -207,7 +207,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-04"
+            "lastUpdated": "2026-09-05"
         }
     ],
     "gameplays": [
@@ -282,5 +282,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=36_TnPea6RE"
         }
     ],
-    "_pricesUpdated": "2026-09-04T20:38:26.871Z"
+    "_pricesUpdated": "2026-09-05T03:59:23.557Z"
 }
