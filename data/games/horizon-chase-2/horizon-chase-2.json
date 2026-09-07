@@ -162,7 +162,7 @@
             "price": 57.94,
             "priceOriginal": "$24.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-06"
+            "lastUpdated": "2026-09-07"
         },
         {
             "store": "Nintendo eShop",
@@ -189,7 +189,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-06"
+            "lastUpdated": "2026-09-07"
         },
         {
             "store": "Fanatical",
@@ -198,7 +198,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-06"
+            "lastUpdated": "2026-09-07"
         },
         {
             "store": "GreenManGaming",
@@ -207,7 +207,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-06"
+            "lastUpdated": "2026-09-07"
         }
     ],
     "gameplays": [
@@ -282,5 +282,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=36_TnPea6RE"
         }
     ],
-    "_pricesUpdated": "2026-09-06T20:16:24.453Z"
+    "_pricesUpdated": "2026-09-07T04:05:37.366Z"
 }
