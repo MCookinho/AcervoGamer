@@ -225,20 +225,20 @@
     ],
     "stores": [
         {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/1062110/Unsighted/",
+            "price": 19.99,
+            "priceOriginal": "R$ 19,99",
+            "lastUpdated": "2026-09-16"
+        },
+        {
             "store": "Fanatical",
             "url": "https://www.cheapshark.com/redirect?dealID=fpXf3kRpHGtRof30E4bJw4PJAIPvQdaGnUFtOg5XmKg%3D",
             "platform": "PC",
             "price": 40.54,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-16"
-        },
-        {
-            "store": "Steam",
-            "platform": "PC",
-            "url": "https://store.steampowered.com/app/1062110/Unsighted/",
-            "price": 49.99,
-            "priceOriginal": "R$ 49,99",
             "lastUpdated": "2026-09-16"
         },
         {
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-09-16T16:37:02.502Z"
+    "_pricesUpdated": "2026-09-16T21:09:42.995Z"
 }
