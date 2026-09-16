@@ -233,6 +233,15 @@
     ],
     "stores": [
         {
+            "store": "GOG",
+            "url": "https://www.gog.com/game/dandara_trials_of_fear_edition",
+            "platform": "PC",
+            "price": 19.08,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-09-16"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/612390/Dandara/",
@@ -282,15 +291,6 @@
             "platform": "PC",
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-09-16"
-        },
-        {
-            "store": "GOG",
-            "url": "https://www.gog.com/game/dandara_trials_of_fear_edition",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
             "coupon": null,
             "lastUpdated": "2026-09-16"
         },
@@ -394,5 +394,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
         }
     ],
-    "_pricesUpdated": "2026-09-16T11:16:39.750Z"
+    "_pricesUpdated": "2026-09-16T16:36:45.957Z"
 }
