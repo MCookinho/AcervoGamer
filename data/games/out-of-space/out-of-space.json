@@ -91,22 +91,13 @@
     ],
     "stores": [
         {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=n3iYkN855R6MOorT0LyA9AJNjX3bPe0IgmGmggSgjrU%3D",
-            "platform": "PC",
-            "price": 9.98,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-09-17"
-        },
-        {
             "store": "Humble Bundle",
             "url": "https://www.cheapshark.com/redirect?dealID=h5fbf%2BFUeQMBCzClxQVmT5%2FmldATU%2FPso%2FU%2FMm9vYT8%3D",
             "platform": "PC",
             "price": 12.99,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-17"
+            "lastUpdated": "2026-09-18"
         },
         {
             "store": "GreenManGaming",
@@ -115,7 +106,7 @@
             "price": 13.05,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-17"
+            "lastUpdated": "2026-09-18"
         },
         {
             "store": "DreamGame",
@@ -124,7 +115,16 @@
             "price": 13.05,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-17"
+            "lastUpdated": "2026-09-18"
+        },
+        {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=n3iYkN855R6MOorT0LyA9AJNjX3bPe0IgmGmggSgjrU%3D",
+            "platform": "PC",
+            "price": 17.34,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-09-18"
         },
         {
             "store": "Steam",
@@ -132,7 +132,7 @@
             "url": "https://store.steampowered.com/app/400080/Out_of_Space/",
             "price": 28.99,
             "priceOriginal": "R$ 28,99",
-            "lastUpdated": "2026-09-17"
+            "lastUpdated": "2026-09-18"
         },
         {
             "store": "PlayStation Store",
@@ -165,7 +165,7 @@
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-09-17"
+            "lastUpdated": "2026-09-18"
         },
         {
             "store": "GamersGate",
@@ -174,7 +174,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-17"
+            "lastUpdated": "2026-09-18"
         },
         {
             "store": "WinGameStore",
@@ -183,7 +183,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-17"
+            "lastUpdated": "2026-09-18"
         },
         {
             "store": "IndieGala",
@@ -192,7 +192,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-09-17"
+            "lastUpdated": "2026-09-18"
         }
     ],
     "gameplays": [
@@ -267,5 +267,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=WOiwB8-JPwM"
         }
     ],
-    "_pricesUpdated": "2026-09-17T21:11:51.726Z"
+    "_pricesUpdated": "2026-09-18T04:15:10.330Z"
 }
