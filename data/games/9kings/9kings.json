@@ -166,20 +166,20 @@
             "lastUpdated": "2026-09-24"
         },
         {
-            "store": "GreenManGaming",
-            "url": "https://www.cheapshark.com/redirect?dealID=tcDxuq8wB0cigNKc%2FkwSQKMsJKRkNBLTlJndOOimKMY%3D",
+            "store": "GOG",
+            "url": "https://www.gog.com/game/9_kings",
             "platform": "PC",
-            "price": 58,
+            "price": 57.94,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
             "lastUpdated": "2026-09-24"
         },
         {
-            "store": "GOG",
-            "url": "https://www.gog.com/game/9_kings",
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=tcDxuq8wB0cigNKc%2FkwSQKMsJKRkNBLTlJndOOimKMY%3D",
             "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
+            "price": 58,
+            "priceOriginal": "$19.99 USD",
             "coupon": null,
             "lastUpdated": "2026-09-24"
         },
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-09-24T11:30:09.794Z"
+    "_pricesUpdated": "2026-09-24T16:56:30.211Z"
 }
