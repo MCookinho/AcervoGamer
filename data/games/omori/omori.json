@@ -52,8 +52,8 @@
             "store": "Steam",
             "url": "https://store.steampowered.com/app/1150690/OMORI/",
             "platform": "PC",
-            "price": 37.99,
-            "priceOriginal": "R$ 37,99",
+            "price": 30.39,
+            "priceOriginal": "R$ 30,39",
             "coupon": null,
             "lastUpdated": "2026-10-01"
         },
@@ -61,8 +61,8 @@
             "store": "Eneba",
             "url": "https://www.eneba.com/steam-omori",
             "platform": "PC",
-            "price": 37.99,
-            "priceOriginal": "R$ 37,99",
+            "price": 30.39,
+            "priceOriginal": "R$ 30,39",
             "coupon": null,
             "lastUpdated": "2026-10-01"
         },
@@ -1448,5 +1448,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=H63xnQxQHsA"
         }
     ],
-    "_pricesUpdated": "2026-10-01T12:54:26.081Z"
+    "_pricesUpdated": "2026-10-01T22:33:23.700Z"
 }

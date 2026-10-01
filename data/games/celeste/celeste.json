@@ -255,8 +255,8 @@
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/504230/Celeste/",
-            "price": 59.99,
-            "priceOriginal": "R$ 59,99",
+            "price": 14.99,
+            "priceOriginal": "R$ 14,99",
             "lastUpdated": "2026-10-01"
         },
         {
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=t0691tGFQIY"
         }
     ],
-    "_pricesUpdated": "2026-10-01T12:54:16.272Z"
+    "_pricesUpdated": "2026-10-01T22:33:12.759Z"
 }
