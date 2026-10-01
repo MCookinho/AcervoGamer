@@ -219,6 +219,15 @@
             "lastUpdated": "2026-10-01"
         },
         {
+            "store": "Gamesplanet",
+            "url": "https://www.cheapshark.com/redirect?dealID=2VGA81xojdDFqC%2BGUvJGceCC5WtdBHSoh2LyizRcW3U%3D",
+            "platform": "PC",
+            "price": 46.34,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-10-01"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/1092790/Inscryption/",
@@ -235,15 +244,6 @@
         {
             "store": "Fanatical",
             "url": "https://www.cheapshark.com/redirect?dealID=M7dL8RR3RWBcrmkuBIO47WloK3KwBMdV2kdjXASV5Mo%3D",
-            "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-10-01"
-        },
-        {
-            "store": "Gamesplanet",
-            "url": "https://www.cheapshark.com/redirect?dealID=2VGA81xojdDFqC%2BGUvJGceCC5WtdBHSoh2LyizRcW3U%3D",
             "platform": "PC",
             "price": 115.94,
             "priceOriginal": null,
@@ -318,5 +318,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=Mj2VSMbgwIE"
         }
     ],
-    "_pricesUpdated": "2026-10-01T05:22:26.639Z"
+    "_pricesUpdated": "2026-10-01T12:54:24.790Z"
 }

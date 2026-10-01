@@ -91,6 +91,24 @@
     ],
     "stores": [
         {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=n3iYkN855R6MOorT0LyA9AJNjX3bPe0IgmGmggSgjrU%3D",
+            "platform": "PC",
+            "price": 16.94,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-10-01"
+        },
+        {
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=lv%2BtVbsXpxQ1Pzwpiw6GKX%2BN4vAo9goFm6njT4bQSBw%3D",
+            "platform": "PC",
+            "price": 21.75,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-10-01"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/400080/Out_of_Space/",
@@ -123,29 +141,11 @@
             "lastUpdated": "2026-07-13"
         },
         {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=n3iYkN855R6MOorT0LyA9AJNjX3bPe0IgmGmggSgjrU%3D",
-            "platform": "PC",
-            "price": 65.08,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-10-01"
-        },
-        {
             "store": "Gamesplanet",
             "url": "https://www.cheapshark.com/redirect?dealID=3ZGfd%2BCQ1lVZcOD0BJAFl6oYKsPo31QljTHbmF5Z9k4%3D",
             "platform": "PC",
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-10-01"
-        },
-        {
-            "store": "GreenManGaming",
-            "url": "https://www.cheapshark.com/redirect?dealID=lv%2BtVbsXpxQ1Pzwpiw6GKX%2BN4vAo9goFm6njT4bQSBw%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
             "coupon": null,
             "lastUpdated": "2026-10-01"
         },
@@ -267,5 +267,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=WOiwB8-JPwM"
         }
     ],
-    "_pricesUpdated": "2026-10-01T05:22:28.921Z"
+    "_pricesUpdated": "2026-10-01T12:54:27.053Z"
 }
