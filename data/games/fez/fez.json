@@ -198,7 +198,7 @@
             "url": "https://store.steampowered.com/app/224760/FEZ/",
             "price": 8.49,
             "priceOriginal": "R$ 8,49",
-            "lastUpdated": "2026-10-01"
+            "lastUpdated": "2026-10-02"
         },
         {
             "store": "Humble Bundle",
@@ -207,7 +207,7 @@
             "price": 57.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-10-01"
+            "lastUpdated": "2026-10-02"
         }
     ],
     "gameplays": [
@@ -282,5 +282,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=Z56sR0KStbw"
         }
     ],
-    "_pricesUpdated": "2026-10-01T22:33:18.340Z"
+    "_pricesUpdated": "2026-10-02T05:10:26.964Z"
 }
