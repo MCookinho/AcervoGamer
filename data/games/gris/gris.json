@@ -69,7 +69,7 @@
             "price": 9.39,
             "priceOriginal": "R$ 9,39",
             "coupon": null,
-            "lastUpdated": "2026-10-04"
+            "lastUpdated": "2026-10-05"
         },
         {
             "store": "Eneba",
@@ -78,7 +78,7 @@
             "price": 9.39,
             "priceOriginal": "R$ 9,39",
             "coupon": null,
-            "lastUpdated": "2026-10-04"
+            "lastUpdated": "2026-10-05"
         },
         {
             "store": "GOG",
@@ -87,7 +87,7 @@
             "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-10-04"
+            "lastUpdated": "2026-10-05"
         },
         {
             "store": "Gamesplanet",
@@ -96,7 +96,7 @@
             "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-10-04"
+            "lastUpdated": "2026-10-05"
         },
         {
             "store": "Fanatical",
@@ -105,7 +105,7 @@
             "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-10-04"
+            "lastUpdated": "2026-10-05"
         },
         {
             "store": "PlayStation Store",
@@ -141,7 +141,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-10-04"
+            "lastUpdated": "2026-10-05"
         }
     ],
     "soundtrack": [
@@ -407,5 +407,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=P0VcBnGwjMk"
         }
     ],
-    "_pricesUpdated": "2026-10-04T21:10:02.752Z"
+    "_pricesUpdated": "2026-10-05T05:08:48.953Z"
 }
