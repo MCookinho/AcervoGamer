@@ -277,15 +277,6 @@
             "lastUpdated": "2026-10-07"
         },
         {
-            "store": "GOG",
-            "url": "https://www.gog.com/game/dandara_trials_of_fear_edition",
-            "platform": "PC",
-            "price": 17.34,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-10-07"
-        },
-        {
             "store": "WinGameStore",
             "url": "https://www.cheapshark.com/redirect?dealID=Eo9JlM7kLmj%2FamkygtGddnWvrSxaBVi8mzcPhvlwIzA%3D",
             "platform": "PC",
@@ -320,6 +311,15 @@
             "platform": "Xbox One",
             "url": "https://www.xbox.com/pt-br/games/store/dandara/bqqd1khrwwl8",
             "price": 46.99
+        },
+        {
+            "store": "GOG",
+            "url": "https://www.gog.com/game/dandara_trials_of_fear_edition",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-10-07"
         }
     ],
     "gameplays": [
@@ -394,5 +394,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
         }
     ],
-    "_pricesUpdated": "2026-10-07T05:28:06.163Z"
+    "_pricesUpdated": "2026-10-07T13:04:41.986Z"
 }
