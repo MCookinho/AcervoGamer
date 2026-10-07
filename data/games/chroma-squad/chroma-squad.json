@@ -219,7 +219,7 @@
             "url": "https://store.steampowered.com/app/251130/Chroma_Squad/",
             "price": 11.24,
             "priceOriginal": "R$ 11,24",
-            "lastUpdated": "2026-10-06"
+            "lastUpdated": "2026-10-07"
         },
         {
             "store": "Fanatical",
@@ -228,7 +228,7 @@
             "price": 16.94,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-10-06"
+            "lastUpdated": "2026-10-07"
         },
         {
             "store": "GreenManGaming",
@@ -237,7 +237,7 @@
             "price": 21.75,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-10-06"
+            "lastUpdated": "2026-10-07"
         },
         {
             "store": "App Store",
@@ -286,7 +286,7 @@
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-10-06"
+            "lastUpdated": "2026-10-07"
         },
         {
             "store": "Humble Bundle",
@@ -295,7 +295,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-10-06"
+            "lastUpdated": "2026-10-07"
         },
         {
             "store": "DreamGame",
@@ -304,7 +304,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-10-06"
+            "lastUpdated": "2026-10-07"
         },
         {
             "store": "GOG",
@@ -322,7 +322,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-10-06"
+            "lastUpdated": "2026-10-07"
         },
         {
             "store": "WinGameStore",
@@ -331,7 +331,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-10-06"
+            "lastUpdated": "2026-10-07"
         },
         {
             "store": "IndieGala",
@@ -340,7 +340,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-10-06"
+            "lastUpdated": "2026-10-07"
         }
     ],
     "gameplays": [
@@ -415,5 +415,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=LHbjVp_W7bw"
         }
     ],
-    "_pricesUpdated": "2026-10-06T18:12:25.817Z"
+    "_pricesUpdated": "2026-10-07T05:28:05.004Z"
 }
