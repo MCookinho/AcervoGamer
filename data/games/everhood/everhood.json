@@ -57,7 +57,7 @@
             "price": 12.5,
             "priceOriginal": "R$ 12,50",
             "coupon": null,
-            "lastUpdated": "2026-10-07"
+            "lastUpdated": "2026-10-08"
         },
         {
             "store": "Eneba",
@@ -66,7 +66,7 @@
             "price": 12.5,
             "priceOriginal": "R$ 12,50",
             "coupon": null,
-            "lastUpdated": "2026-10-07"
+            "lastUpdated": "2026-10-08"
         },
         {
             "store": "Fanatical",
@@ -75,7 +75,7 @@
             "price": 45.76,
             "priceOriginal": "$9.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-10-07"
+            "lastUpdated": "2026-10-08"
         },
         {
             "store": "Nintendo eShop",
@@ -111,7 +111,7 @@
             "price": 57.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-10-07"
+            "lastUpdated": "2026-10-08"
         },
         {
             "store": "Humble Bundle",
@@ -120,7 +120,7 @@
             "price": 57.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-10-07"
+            "lastUpdated": "2026-10-08"
         }
     ],
     "soundtrack": [
@@ -841,5 +841,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=sPdHWYjju34"
         }
     ],
-    "_pricesUpdated": "2026-10-07T22:57:35.106Z"
+    "_pricesUpdated": "2026-10-08T05:36:51.021Z"
 }
