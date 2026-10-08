@@ -54,8 +54,8 @@
             "store": "Steam",
             "url": "https://store.steampowered.com/app/1229380/Everhood/",
             "platform": "PC",
-            "price": 12.5,
-            "priceOriginal": "R$ 12,50",
+            "price": 25,
+            "priceOriginal": "R$ 25,00",
             "coupon": null,
             "lastUpdated": "2026-10-08"
         },
@@ -63,8 +63,8 @@
             "store": "Eneba",
             "url": "https://www.eneba.com/steam-everhood",
             "platform": "PC",
-            "price": 12.5,
-            "priceOriginal": "R$ 12,50",
+            "price": 25,
+            "priceOriginal": "R$ 25,00",
             "coupon": null,
             "lastUpdated": "2026-10-08"
         },
@@ -841,5 +841,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=sPdHWYjju34"
         }
     ],
-    "_pricesUpdated": "2026-10-08T13:11:48.490Z"
+    "_pricesUpdated": "2026-10-08T23:10:55.199Z"
 }

@@ -208,8 +208,8 @@
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/609110/Blazing_Chrome/",
-            "price": 11.81,
-            "priceOriginal": "R$ 11,81",
+            "price": 47.24,
+            "priceOriginal": "R$ 47,24",
             "lastUpdated": "2026-10-08"
         },
         {
@@ -345,5 +345,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=TLq6RNqqbZw"
         }
     ],
-    "_pricesUpdated": "2026-10-08T13:11:41.969Z"
+    "_pricesUpdated": "2026-10-08T23:10:48.387Z"
 }

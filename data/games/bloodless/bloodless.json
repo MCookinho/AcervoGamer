@@ -210,8 +210,8 @@
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/1592490/Bloodless/",
-            "price": 19.96,
-            "priceOriginal": "R$ 19,96",
+            "price": 49.9,
+            "priceOriginal": "R$ 49,90",
             "lastUpdated": "2026-10-08"
         },
         {
@@ -302,5 +302,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=dwg2nWS1A1w"
         }
     ],
-    "_pricesUpdated": "2026-10-08T13:11:43.137Z"
+    "_pricesUpdated": "2026-10-08T23:10:49.459Z"
 }

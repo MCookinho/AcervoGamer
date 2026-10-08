@@ -228,8 +228,8 @@
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/1062110/Unsighted/",
-            "price": 19.99,
-            "priceOriginal": "R$ 19,99",
+            "price": 49.99,
+            "priceOriginal": "R$ 49,99",
             "lastUpdated": "2026-10-08"
         },
         {
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-10-08T13:12:01.061Z"
+    "_pricesUpdated": "2026-10-08T23:11:16.826Z"
 }

@@ -91,14 +91,6 @@
     ],
     "stores": [
         {
-            "store": "Steam",
-            "platform": "PC",
-            "url": "https://store.steampowered.com/app/400080/Out_of_Space/",
-            "price": 7.24,
-            "priceOriginal": "R$ 7,24",
-            "lastUpdated": "2026-10-08"
-        },
-        {
             "store": "Fanatical",
             "url": "https://www.cheapshark.com/redirect?dealID=n3iYkN855R6MOorT0LyA9AJNjX3bPe0IgmGmggSgjrU%3D",
             "platform": "PC",
@@ -114,6 +106,14 @@
             "price": 21.75,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
+            "lastUpdated": "2026-10-08"
+        },
+        {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/400080/Out_of_Space/",
+            "price": 28.99,
+            "priceOriginal": "R$ 28,99",
             "lastUpdated": "2026-10-08"
         },
         {
@@ -267,5 +267,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=WOiwB8-JPwM"
         }
     ],
-    "_pricesUpdated": "2026-10-08T13:11:55.794Z"
+    "_pricesUpdated": "2026-10-08T23:11:03.446Z"
 }

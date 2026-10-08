@@ -196,8 +196,8 @@
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/224760/FEZ/",
-            "price": 8.49,
-            "priceOriginal": "R$ 8,49",
+            "price": 16.99,
+            "priceOriginal": "R$ 16,99",
             "lastUpdated": "2026-10-08"
         },
         {
@@ -282,5 +282,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=Z56sR0KStbw"
         }
     ],
-    "_pricesUpdated": "2026-10-08T13:11:49.478Z"
+    "_pricesUpdated": "2026-10-08T23:10:56.269Z"
 }
