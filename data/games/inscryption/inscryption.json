@@ -216,7 +216,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-10-15"
+            "lastUpdated": "2026-10-16"
         },
         {
             "store": "Fanatical",
@@ -225,7 +225,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-10-15"
+            "lastUpdated": "2026-10-16"
         },
         {
             "store": "GOG",
@@ -234,7 +234,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-10-15"
+            "lastUpdated": "2026-10-16"
         },
         {
             "store": "Gamesplanet",
@@ -243,7 +243,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-10-15"
+            "lastUpdated": "2026-10-16"
         },
         {
             "store": "Steam",
@@ -251,7 +251,7 @@
             "url": "https://store.steampowered.com/app/1092790/Inscryption/",
             "price": 49.99,
             "priceOriginal": "R$ 49,99",
-            "lastUpdated": "2026-10-15"
+            "lastUpdated": "2026-10-16"
         },
         {
             "store": "Epic Games Store",
@@ -318,5 +318,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=Mj2VSMbgwIE"
         }
     ],
-    "_pricesUpdated": "2026-10-15T21:11:17.329Z"
+    "_pricesUpdated": "2026-10-16T04:07:03.367Z"
 }
