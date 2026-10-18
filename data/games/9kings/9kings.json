@@ -166,8 +166,8 @@
             "lastUpdated": "2026-10-18"
         },
         {
-            "store": "GOG",
-            "url": "https://www.gog.com/game/9_kings",
+            "store": "Humble Bundle",
+            "url": "https://www.cheapshark.com/redirect?dealID=hcsS7u9DvNoeChSs1GF3Jhwo8c7KcHU8P%2BfJ5uieIrc%3D",
             "platform": "PC",
             "price": 57.94,
             "priceOriginal": "$19.99 USD",
@@ -175,11 +175,11 @@
             "lastUpdated": "2026-10-18"
         },
         {
-            "store": "Humble Bundle",
-            "url": "https://www.cheapshark.com/redirect?dealID=hcsS7u9DvNoeChSs1GF3Jhwo8c7KcHU8P%2BfJ5uieIrc%3D",
+            "store": "GOG",
+            "url": "https://www.gog.com/game/9_kings",
             "platform": "PC",
-            "price": 57.94,
-            "priceOriginal": "$19.99 USD",
+            "price": 115.94,
+            "priceOriginal": null,
             "coupon": null,
             "lastUpdated": "2026-10-18"
         },
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-10-18T04:03:54.120Z"
+    "_pricesUpdated": "2026-10-18T10:46:25.239Z"
 }
