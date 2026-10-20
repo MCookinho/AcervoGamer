@@ -187,8 +187,8 @@
             "store": "GOG",
             "url": "https://www.gog.com/game/9_kings",
             "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
+            "price": 57.94,
+            "priceOriginal": "$19.99 USD",
             "coupon": null,
             "lastUpdated": "2026-10-20"
         },
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-10-20T11:17:14.752Z"
+    "_pricesUpdated": "2026-10-20T16:41:49.603Z"
 }
