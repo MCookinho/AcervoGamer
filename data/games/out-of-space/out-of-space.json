@@ -117,6 +117,15 @@
             "lastUpdated": "2026-10-23"
         },
         {
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=lv%2BtVbsXpxQ1Pzwpiw6GKX%2BN4vAo9goFm6njT4bQSBw%3D",
+            "platform": "PC",
+            "price": 21.75,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-10-23"
+        },
+        {
             "store": "PlayStation Store",
             "platform": "PlayStation 4",
             "url": "https://store.playstation.com/pt-br/product/HP0700-PPSA01440_00-OUTOFSPACE0000000",
@@ -155,15 +164,6 @@
             "platform": "PC",
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-10-23"
-        },
-        {
-            "store": "GreenManGaming",
-            "url": "https://www.cheapshark.com/redirect?dealID=lv%2BtVbsXpxQ1Pzwpiw6GKX%2BN4vAo9goFm6njT4bQSBw%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
             "coupon": null,
             "lastUpdated": "2026-10-23"
         },
@@ -267,5 +267,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=WOiwB8-JPwM"
         }
     ],
-    "_pricesUpdated": "2026-10-23T04:19:51.953Z"
+    "_pricesUpdated": "2026-10-23T11:22:56.097Z"
 }
