@@ -163,16 +163,7 @@
             "url": "https://store.steampowered.com/app/2784470/9_Kings/",
             "price": 39.99,
             "priceOriginal": "R$ 39,99",
-            "lastUpdated": "2026-11-02"
-        },
-        {
-            "store": "Epic Games Store",
-            "url": "https://store.epicgames.com/pt-BR/p/9-kings",
-            "platform": "PC",
-            "price": 57.94,
-            "priceOriginal": "$19.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-11-02"
+            "lastUpdated": "2026-11-03"
         },
         {
             "store": "GOG",
@@ -181,7 +172,7 @@
             "price": 57.94,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-02"
+            "lastUpdated": "2026-11-03"
         },
         {
             "store": "Humble Bundle",
@@ -190,7 +181,7 @@
             "price": 57.94,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-02"
+            "lastUpdated": "2026-11-03"
         },
         {
             "store": "GreenManGaming",
@@ -199,7 +190,16 @@
             "price": 58,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-02"
+            "lastUpdated": "2026-11-03"
+        },
+        {
+            "store": "Epic Games Store",
+            "url": "https://store.epicgames.com/pt-BR/p/9-kings",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-11-03"
         },
         {
             "store": "Gamesplanet",
@@ -208,7 +208,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-02"
+            "lastUpdated": "2026-11-03"
         }
     ],
     "gameplays": [
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-11-02T15:23:39.739Z"
+    "_pricesUpdated": "2026-11-03T00:49:15.910Z"
 }
