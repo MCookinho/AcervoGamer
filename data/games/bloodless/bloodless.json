@@ -215,19 +215,19 @@
             "lastUpdated": "2026-11-04"
         },
         {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=%2BFpstUb9XDAi1YaSM0830ZyZpVxEk5hTS9wVCFW1KP8%3D",
+            "platform": "PC",
+            "price": 76.91,
+            "priceOriginal": "$14.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-11-04"
+        },
+        {
             "store": "Nintendo eShop",
             "platform": "Nintendo Switch",
             "url": "https://www.nintendo.com/games/store/bloodless-switch/",
             "price": 77
-        },
-        {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=%2BFpstUb9XDAi1YaSM0830ZyZpVxEk5hTS9wVCFW1KP8%3D",
-            "platform": "PC",
-            "price": 86.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-11-04"
         }
     ],
     "gameplays": [
@@ -302,5 +302,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=dwg2nWS1A1w"
         }
     ],
-    "_pricesUpdated": "2026-11-04T05:49:45.556Z"
+    "_pricesUpdated": "2026-11-04T14:11:36.154Z"
 }
