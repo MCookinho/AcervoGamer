@@ -205,20 +205,20 @@
     ],
     "stores": [
         {
+            "store": "Steam",
+            "platform": "PC",
+            "url": "https://store.steampowered.com/app/609110/Blazing_Chrome/",
+            "price": 11.81,
+            "priceOriginal": "R$ 11,81",
+            "lastUpdated": "2026-11-04"
+        },
+        {
             "store": "GOG",
             "url": "https://www.gog.com/game/blazing_chrome",
             "platform": "PC",
             "price": 24.65,
             "priceOriginal": "$16.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-04"
-        },
-        {
-            "store": "Steam",
-            "platform": "PC",
-            "url": "https://store.steampowered.com/app/609110/Blazing_Chrome/",
-            "price": 47.24,
-            "priceOriginal": "R$ 47,24",
             "lastUpdated": "2026-11-04"
         },
         {
@@ -345,5 +345,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=TLq6RNqqbZw"
         }
     ],
-    "_pricesUpdated": "2026-11-04T14:11:34.542Z"
+    "_pricesUpdated": "2026-11-04T23:28:44.933Z"
 }
