@@ -163,25 +163,25 @@
             "url": "https://store.steampowered.com/app/2784470/9_Kings/",
             "price": 39.99,
             "priceOriginal": "R$ 39,99",
-            "lastUpdated": "2026-11-06"
+            "lastUpdated": "2026-11-07"
         },
         {
             "store": "Humble Bundle",
             "url": "https://www.cheapshark.com/redirect?dealID=hcsS7u9DvNoeChSs1GF3Jhwo8c7KcHU8P%2BfJ5uieIrc%3D",
             "platform": "PC",
-            "price": 57.94,
-            "priceOriginal": "$19.99 USD",
+            "price": 115.94,
+            "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-06"
+            "lastUpdated": "2026-11-07"
         },
         {
             "store": "GreenManGaming",
             "url": "https://www.cheapshark.com/redirect?dealID=tcDxuq8wB0cigNKc%2FkwSQKMsJKRkNBLTlJndOOimKMY%3D",
             "platform": "PC",
-            "price": 58,
-            "priceOriginal": "$19.99 USD",
+            "price": 115.94,
+            "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-06"
+            "lastUpdated": "2026-11-07"
         },
         {
             "store": "GOG",
@@ -190,7 +190,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-06"
+            "lastUpdated": "2026-11-07"
         },
         {
             "store": "Epic Games Store",
@@ -199,7 +199,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-06"
+            "lastUpdated": "2026-11-07"
         },
         {
             "store": "Gamesplanet",
@@ -208,7 +208,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-06"
+            "lastUpdated": "2026-11-07"
         }
     ],
     "gameplays": [
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-11-06T19:10:43.803Z"
+    "_pricesUpdated": "2026-11-07T05:35:09.070Z"
 }
