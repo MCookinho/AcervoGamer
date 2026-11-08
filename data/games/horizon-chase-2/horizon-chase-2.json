@@ -180,7 +180,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-07"
+            "lastUpdated": "2026-11-08"
         },
         {
             "store": "Humble Bundle",
@@ -189,7 +189,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-07"
+            "lastUpdated": "2026-11-08"
         },
         {
             "store": "Fanatical",
@@ -198,7 +198,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-07"
+            "lastUpdated": "2026-11-08"
         },
         {
             "store": "GreenManGaming",
@@ -207,7 +207,7 @@
             "price": 144.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-07"
+            "lastUpdated": "2026-11-08"
         }
     ],
     "gameplays": [
@@ -282,5 +282,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=36_TnPea6RE"
         }
     ],
-    "_pricesUpdated": "2026-11-07T21:40:31.364Z"
+    "_pricesUpdated": "2026-11-08T05:37:26.115Z"
 }

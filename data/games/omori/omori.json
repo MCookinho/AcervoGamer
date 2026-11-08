@@ -55,7 +55,7 @@
             "price": 37.99,
             "priceOriginal": "R$ 37,99",
             "coupon": null,
-            "lastUpdated": "2026-11-07"
+            "lastUpdated": "2026-11-08"
         },
         {
             "store": "Eneba",
@@ -64,7 +64,7 @@
             "price": 37.99,
             "priceOriginal": "R$ 37,99",
             "coupon": null,
-            "lastUpdated": "2026-11-07"
+            "lastUpdated": "2026-11-08"
         },
         {
             "store": "Fanatical",
@@ -1448,5 +1448,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=H63xnQxQHsA"
         }
     ],
-    "_pricesUpdated": "2026-11-07T21:40:34.401Z"
+    "_pricesUpdated": "2026-11-08T05:37:28.299Z"
 }
