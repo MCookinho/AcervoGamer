@@ -212,7 +212,7 @@
             "url": "https://store.steampowered.com/app/1592490/Bloodless/",
             "price": 49.9,
             "priceOriginal": "R$ 49,90",
-            "lastUpdated": "2026-11-09"
+            "lastUpdated": "2026-11-10"
         },
         {
             "store": "Fanatical",
@@ -221,7 +221,7 @@
             "price": 76.91,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-09"
+            "lastUpdated": "2026-11-10"
         },
         {
             "store": "Nintendo eShop",
@@ -302,5 +302,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=dwg2nWS1A1w"
         }
     ],
-    "_pricesUpdated": "2026-11-09T15:50:58.382Z"
+    "_pricesUpdated": "2026-11-10T01:23:27.012Z"
 }
