@@ -233,22 +233,13 @@
     ],
     "stores": [
         {
-            "store": "Fanatical",
-            "url": "https://www.cheapshark.com/redirect?dealID=DmAeLJL%2Bt5%2Fp%2Byitv3eMDtPGCl%2FruJQ1yCwVGtcXP3E%3D",
-            "platform": "PC",
-            "price": 15.6,
-            "priceOriginal": "$14.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-11-15"
-        },
-        {
             "store": "GOG",
             "url": "https://www.gog.com/game/dandara_trials_of_fear_edition",
             "platform": "PC",
             "price": 17.34,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-15"
+            "lastUpdated": "2026-11-16"
         },
         {
             "store": "Steam",
@@ -256,7 +247,7 @@
             "url": "https://store.steampowered.com/app/612390/Dandara/",
             "price": 46.99,
             "priceOriginal": "R$ 46,99",
-            "lastUpdated": "2026-11-15"
+            "lastUpdated": "2026-11-16"
         },
         {
             "store": "Nintendo eShop",
@@ -283,7 +274,7 @@
             "price": 71.86,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-15"
+            "lastUpdated": "2026-11-16"
         },
         {
             "store": "Gamesplanet",
@@ -292,7 +283,16 @@
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-15"
+            "lastUpdated": "2026-11-16"
+        },
+        {
+            "store": "Fanatical",
+            "url": "https://www.cheapshark.com/redirect?dealID=DmAeLJL%2Bt5%2Fp%2Byitv3eMDtPGCl%2FruJQ1yCwVGtcXP3E%3D",
+            "platform": "PC",
+            "price": 86.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-11-16"
         },
         {
             "store": "Humble Bundle",
@@ -301,7 +301,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-15"
+            "lastUpdated": "2026-11-16"
         },
         {
             "store": "GreenManGaming",
@@ -310,7 +310,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-15"
+            "lastUpdated": "2026-11-16"
         },
         {
             "store": "WinGameStore",
@@ -319,7 +319,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-15"
+            "lastUpdated": "2026-11-16"
         }
     ],
     "gameplays": [
@@ -394,5 +394,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=0Lg2hyldjbs"
         }
     ],
-    "_pricesUpdated": "2026-11-15T22:41:01.923Z"
+    "_pricesUpdated": "2026-11-16T05:54:32.121Z"
 }
