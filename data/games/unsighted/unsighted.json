@@ -225,6 +225,15 @@
     ],
     "stores": [
         {
+            "store": "GreenManGaming",
+            "url": "https://www.cheapshark.com/redirect?dealID=sFaUGpVDyuadqAsmC2%2Bhc5jUF8595P9Wd3kxsAnvszY%3D",
+            "platform": "PC",
+            "price": 46.4,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-11-20"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/1062110/Unsighted/",
@@ -271,15 +280,6 @@
         {
             "store": "Humble Bundle",
             "url": "https://www.cheapshark.com/redirect?dealID=Gr%2BwqlLSGVXwlZNGy5L5rBzFxUVnF3%2FOfOJJ0gjECjo%3D",
-            "platform": "PC",
-            "price": 115.94,
-            "priceOriginal": null,
-            "coupon": null,
-            "lastUpdated": "2026-11-20"
-        },
-        {
-            "store": "GreenManGaming",
-            "url": "https://www.cheapshark.com/redirect?dealID=sFaUGpVDyuadqAsmC2%2Bhc5jUF8595P9Wd3kxsAnvszY%3D",
             "platform": "PC",
             "price": 115.94,
             "priceOriginal": null,
@@ -359,5 +359,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-11-20T00:31:04.708Z"
+    "_pricesUpdated": "2026-11-20T15:13:43.554Z"
 }
