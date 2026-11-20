@@ -234,6 +234,15 @@
             "lastUpdated": "2026-11-20"
         },
         {
+            "store": "GamersGate",
+            "url": "https://www.cheapshark.com/redirect?dealID=q%2F9dHHiBWghqp%2FafXGxofng3DMgyZ4EdFcLRV6bBG0g%3D",
+            "platform": "PC",
+            "price": 46.4,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-11-20"
+        },
+        {
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/1062110/Unsighted/",
@@ -359,5 +368,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-11-20T15:13:43.554Z"
+    "_pricesUpdated": "2026-11-20T23:53:47.485Z"
 }
