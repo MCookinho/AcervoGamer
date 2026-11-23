@@ -294,6 +294,15 @@
             "priceOriginal": null,
             "coupon": null,
             "lastUpdated": "2026-11-23"
+        },
+        {
+            "store": "IndieGala",
+            "url": "https://www.cheapshark.com/redirect?dealID=y5dy7dUOYPmKl8eGR9QMRQuMyc7pb7G2vJb54QOyDas%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
+            "coupon": null,
+            "lastUpdated": "2026-11-23"
         }
     ],
     "gameplays": [
@@ -368,5 +377,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-11-23T07:02:24.803Z"
+    "_pricesUpdated": "2026-11-23T23:42:01.311Z"
 }
