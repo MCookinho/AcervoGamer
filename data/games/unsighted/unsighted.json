@@ -231,7 +231,16 @@
             "price": 38.8,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-24"
+            "lastUpdated": "2026-11-25"
+        },
+        {
+            "store": "WinGameStore",
+            "url": "https://www.cheapshark.com/redirect?dealID=spe9RN1bkNg3nrrY9eDmAp%2BTV0L9fGJH0xkWVUV5bV0%3D",
+            "platform": "PC",
+            "price": 45.18,
+            "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-11-25"
         },
         {
             "store": "IndieGala",
@@ -240,16 +249,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-24"
-        },
-        {
-            "store": "WinGameStore",
-            "url": "https://www.cheapshark.com/redirect?dealID=spe9RN1bkNg3nrrY9eDmAp%2BTV0L9fGJH0xkWVUV5bV0%3D",
-            "platform": "PC",
-            "price": 46.34,
-            "priceOriginal": "$19.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-11-24"
+            "lastUpdated": "2026-11-25"
         },
         {
             "store": "GreenManGaming",
@@ -258,7 +258,7 @@
             "price": 46.4,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-24"
+            "lastUpdated": "2026-11-25"
         },
         {
             "store": "GamersGate",
@@ -267,7 +267,7 @@
             "price": 46.4,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-24"
+            "lastUpdated": "2026-11-25"
         },
         {
             "store": "Steam",
@@ -275,7 +275,7 @@
             "url": "https://store.steampowered.com/app/1062110/Unsighted/",
             "price": 49.99,
             "priceOriginal": "R$ 49,99",
-            "lastUpdated": "2026-11-24"
+            "lastUpdated": "2026-11-25"
         },
         {
             "store": "Nintendo eShop",
@@ -302,7 +302,7 @@
             "price": 115.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-24"
+            "lastUpdated": "2026-11-25"
         },
         {
             "store": "Humble Bundle",
@@ -386,5 +386,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-11-24T22:13:31.552Z"
+    "_pricesUpdated": "2026-11-25T07:59:21.397Z"
 }
