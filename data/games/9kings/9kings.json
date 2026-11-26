@@ -161,8 +161,8 @@
             "store": "Steam",
             "platform": "PC",
             "url": "https://store.steampowered.com/app/2784470/9_Kings/",
-            "price": 19.99,
-            "priceOriginal": "R$ 19,99",
+            "price": 39.99,
+            "priceOriginal": "R$ 39,99",
             "lastUpdated": "2026-11-26"
         },
         {
@@ -175,20 +175,20 @@
             "lastUpdated": "2026-11-26"
         },
         {
-            "store": "Gamesplanet",
-            "url": "https://www.cheapshark.com/redirect?dealID=mmGBlGU9rpPNi7RdSAZlyElt%2FgOtwUBtPyG2w%2FhGMFc%3D",
-            "platform": "PC",
-            "price": 57.94,
-            "priceOriginal": "$19.99 USD",
-            "coupon": null,
-            "lastUpdated": "2026-11-26"
-        },
-        {
             "store": "GreenManGaming",
             "url": "https://www.cheapshark.com/redirect?dealID=tcDxuq8wB0cigNKc%2FkwSQKMsJKRkNBLTlJndOOimKMY%3D",
             "platform": "PC",
             "price": 58,
             "priceOriginal": "$19.99 USD",
+            "coupon": null,
+            "lastUpdated": "2026-11-26"
+        },
+        {
+            "store": "Gamesplanet",
+            "url": "https://www.cheapshark.com/redirect?dealID=mmGBlGU9rpPNi7RdSAZlyElt%2FgOtwUBtPyG2w%2FhGMFc%3D",
+            "platform": "PC",
+            "price": 115.94,
+            "priceOriginal": null,
             "coupon": null,
             "lastUpdated": "2026-11-26"
         },
@@ -283,5 +283,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7UAHAjXAfpE"
         }
     ],
-    "_pricesUpdated": "2026-11-26T07:51:00.863Z"
+    "_pricesUpdated": "2026-11-26T21:16:23.690Z"
 }
