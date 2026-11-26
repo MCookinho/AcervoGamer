@@ -220,7 +220,7 @@
             "price": 24.65,
             "priceOriginal": "$16.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-25"
+            "lastUpdated": "2026-11-26"
         },
         {
             "store": "Steam",
@@ -228,7 +228,7 @@
             "url": "https://store.steampowered.com/app/609110/Blazing_Chrome/",
             "price": 47.24,
             "priceOriginal": "R$ 47,24",
-            "lastUpdated": "2026-11-25"
+            "lastUpdated": "2026-11-26"
         },
         {
             "store": "PlayStation Store",
@@ -261,7 +261,7 @@
             "price": 78.82,
             "priceOriginal": "$16.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-25"
+            "lastUpdated": "2026-11-26"
         },
         {
             "store": "GreenManGaming",
@@ -270,7 +270,7 @@
             "price": 98.54,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-25"
+            "lastUpdated": "2026-11-26"
         }
     ],
     "gameplays": [
@@ -345,5 +345,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=TLq6RNqqbZw"
         }
     ],
-    "_pricesUpdated": "2026-11-25T21:29:08.539Z"
+    "_pricesUpdated": "2026-11-26T07:51:02.208Z"
 }
