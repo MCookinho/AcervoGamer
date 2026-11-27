@@ -220,7 +220,7 @@
             "price": 21.75,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "App Store",
@@ -244,7 +244,7 @@
             "url": "https://store.steampowered.com/app/251130/Chroma_Squad/",
             "price": 44.99,
             "priceOriginal": "R$ 44,99",
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "PlayStation Store",
@@ -277,7 +277,7 @@
             "price": 73.25,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "Gamesplanet",
@@ -286,7 +286,7 @@
             "price": 78.24,
             "priceOriginal": "$14.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "Humble Bundle",
@@ -304,7 +304,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "GOG",
@@ -322,7 +322,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "WinGameStore",
@@ -331,7 +331,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "IndieGala",
@@ -340,7 +340,7 @@
             "price": 86.94,
             "priceOriginal": null,
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         }
     ],
     "gameplays": [
@@ -415,5 +415,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=LHbjVp_W7bw"
         }
     ],
-    "_pricesUpdated": "2026-11-26T21:16:28.007Z"
+    "_pricesUpdated": "2026-11-27T07:51:04.307Z"
 }

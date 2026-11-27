@@ -230,7 +230,7 @@
             "url": "https://store.steampowered.com/app/1062110/Unsighted/",
             "price": 19.99,
             "priceOriginal": "R$ 19,99",
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "Fanatical",
@@ -239,7 +239,7 @@
             "price": 38.8,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "WinGameStore",
@@ -248,7 +248,7 @@
             "price": 45.18,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "IndieGala",
@@ -257,7 +257,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "GOG",
@@ -266,7 +266,7 @@
             "price": 46.34,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "GreenManGaming",
@@ -275,7 +275,7 @@
             "price": 46.4,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "GamersGate",
@@ -284,7 +284,7 @@
             "price": 46.4,
             "priceOriginal": "$19.99 USD",
             "coupon": null,
-            "lastUpdated": "2026-11-26"
+            "lastUpdated": "2026-11-27"
         },
         {
             "store": "Nintendo eShop",
@@ -386,5 +386,5 @@
             "youtubeUrl": "https://www.youtube.com/watch?v=7LDQts05QFg"
         }
     ],
-    "_pricesUpdated": "2026-11-26T21:16:44.344Z"
+    "_pricesUpdated": "2026-11-27T07:51:21.488Z"
 }
